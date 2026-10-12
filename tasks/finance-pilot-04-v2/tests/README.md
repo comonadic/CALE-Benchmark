@@ -1,13 +1,72 @@
 # Verifier operation
 
-`test.sh` reads the actual `/workspace/output`, executes `objective.py` against the verifier-stage trusted input copies and extracts every material and the three candidate artifacts. It writes a canonical SHA256 sealed request to `/logs/verifier/judge-request.json` and waits for a fresh host-side rubric assessment.
+`test.sh` grades the candidate output directory with a self-contained objective
+assertion processor. There is no host bridge, no judge round-trip and no network
+dependency: the whole reward is produced inside this container.
 
-The request contains the actual candidate digests, complete source/working-material extracts, instruction, seven professional criteria, and every objective arithmetic assertion. It contains no reference answer. Criterion scores come from a real independent review and are capped by the arithmetic/structure ceilings described in `rubric.json`; a numerical pass alone never earns professional credit.
+## Flow
 
-The current approved review channel is an independent Codex reviewer. The response must contain `judge_kind: independent-reviewer-rubric`, matching `request_sha256`, and `judge_identity` with actual `reviewer_id`, `reviewed_at` and `method`, plus each R1–R7 exactly once with score, substantive reason and candidate/input evidence. Root injects it into the controlled offline verifier container. The model-rubric protocol is supported structurally but external API use is not authorized for this authoring run. No API key is copied to or read by this package.
+1. `test.sh` clears any stale `reward.json` / `reward.txt`, then runs
+   `tests/grade.py --output-dir /workspace/output --log-dir /logs/verifier`.
+2. `grade.py` reads the trusted input copies under `tests/input-data/`,
+   recomputes every expected value from the attached originals, and evaluates the
+   47 assertions declared in `tests/assertions.json` against the candidate
+   artifacts (`funding_results.json`, `risk_ledger.csv`, `action_memo.md`).
+3. It writes `report.json` (always) and `reward.json` (only on a valid score).
 
-Missing or empty declared candidate artifacts, and invalid JSON syntax or UTF-8 encoding in candidate `funding_results.json`, deterministically receive a completed `graded-candidate-failure` with reward0 and a specific missing/malformed list. Trusted source/code checks run first. Extraction, I/O, script, trusted-source and judge faults leave a `verifier-invalid` report and **no reward file**, so Harbor treats evaluation as failed. Complete normal candidates retain the weighted partial rubric score. Stale reward/request/response files are removed before each run. Response digest and original candidate-byte digests are validated before a reward is emitted.
+## Reward
 
-Actual challenge artifacts live in `challenges/{numeric-wrong,semantic-wrong,acceptable-alternative}/output`. Author-side objective tests have executed. Native Docker, independent semantic grading, Harbor/Forge attempts and cleanup are still `not_run` until the coordinating runner executes them. Use the coordinator lifecycle lock and independent verifier-image isolation; only the root runner manages Docker.
+```
+reward = min(P / S, cap)
+```
 
-See the repository shared `harbor-tasks/_shared/rubric-bridge-protocol.md`. The `host_rubric_bridge.py` network helper is not invoked by this package or author.
+`P` is the absolute count of passed assertions and `S` the frozen scale (47,
+equal to the assertion count). Absolute counts are used rather than a ratio
+because a batch mixes tasks of very different difficulty; `S` is frozen per
+package and never renormalized against the batch maximum, so a candidate cannot
+influence its own scale through other samples in the same batch.
+
+Critical-error caps only ever lower a score. They are triggered by outcome
+assertions, not by reviewer judgement:
+
+| cap | assertion | triggers on |
+|---|---|---|
+| 0.5 | `R1.contract-params` | contract multiplier / unit magnitude wrong |
+| 0.7 | `R1.funding-understatement` | a positive funding gap reported as zero |
+| 0.6 | `R4.call-put-direction` | call/put mapped to the wrong side |
+| 0.7 | `R5.tp03-disposition` | a delivery-month 1-lot fix approved as compliant |
+
+## Status vocabulary
+
+| status | meaning | reward written | in valid denominator |
+|---|---|---|---|
+| `graded` | complete valid scoring | yes | yes |
+| `graded_candidate_defect` | candidate artifacts missing/broken, scored as found | yes | yes |
+| `verifier_failure` | trusted input or scoring dependency fault | **no** | no |
+| `not_run` | not executed | no | no |
+
+A verifier-side fault leaves a `verifier_failure` report and no reward file, so
+it is recorded separately from a candidate legitimately scoring zero. Trusted
+input corruption (missing DOCX tables, changed normative multiplier clause) is a
+`verifier_failure`, never a zero.
+
+## Calibration
+
+Author-side runs (`python3 tests/grade.py --output-dir ...`):
+
+| artifact | reward | notes |
+|---|---|---|
+| `solution/reference` | 1.00 | derived oracle, 47/47 |
+| `challenges/acceptable-alternative` | 1.00 | reordered arrays, UTC timestamps, different wording — must not be penalized |
+| `challenges/numeric-wrong` | 0.70 | R10 funding gap reported as 0 → `CE.funding` |
+| `challenges/semantic-wrong` | 0.70 | TP03 approved as compliant → `CE.disposition` |
+
+Per-round conclusions belong in `private/evaluation/calibration-<round>.json`;
+see the "校准闭环" section of `references/scorer-construction.md`.
+
+## Still `not_run`
+
+Native Docker build, Harbor/Forge attempts, resource cleanup, and a genuine
+independent-solver rollout. `objective.py` and `verifier.py` are the superseded
+host-bridge verifier and are retained only as historical artifacts of the prior
+contract; `grade.py` is the live entry point.

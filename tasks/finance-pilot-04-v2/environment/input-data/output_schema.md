@@ -9,7 +9,7 @@
 - futures_snapshots: 每个R行一对象，字段row_id, margin_rate, directional_limit_lots, long_lots, short_lots, long_excess_lots, short_excess_lots, parity_required（boolean）, parity_compliant（boolean）, variation_margin_cny, equity_after_vm_cny, required_margin_cny, additional_funds_cny, calculation_trace。
 - option_requests: 每个O行一对象，字段event_id, time_and_inventory_valid（boolean）, request_disposition（exercise/abandon/reject）, added_long_lots, added_short_lots, incremental_vm_cny, reason。
 - post_option_snapshots: R03/R11各一对象，字段base_row_id, applied_event_ids（数组）, long_lots, short_lots, long_excess_lots, short_excess_lots, incremental_vm_cny, equity_after_vm_cny, required_margin_cny, additional_funds_cny, calculation_trace。
-- trade_plan_checks: 每个TP一对象，字段plan_id, transaction_lot_parity_valid（boolean）, resulting_long_lots, resulting_short_lots, resulting_long_excess_lots, resulting_short_excess_lots, resulting_position_parity_valid（boolean）, disposition, reason。
+- trade_plan_checks: 每个TP一对象，字段plan_id, transaction_lot_parity_valid（boolean）, resulting_long_lots, resulting_short_lots, resulting_long_excess_lots, resulting_short_excess_lots, resulting_position_parity_valid（boolean）, disposition, reason。disposition取以下之一：approve（可直接执行）、approve_with_controls（可执行但须同时落实资金或头寸控制）、reject（不可执行）、review（须升级核查后决定）；处置理由写在reason。
 - quote_checks: 每个Q一对象，字段quote_id, tick_valid（boolean）, one_lot_tick_value_cny, quoted_quantity_tick_value_cny, nearest_lower_valid_quote, nearest_upper_valid_quote。
 
 calculation_trace可以用公式字符串、操作数/引用ID字典或逐步计算列表；应使金额与输入能够重新计算，不能只有结果。额外字段允许；数组顺序无要求。字段值和名称可以用英文，说明用中文。

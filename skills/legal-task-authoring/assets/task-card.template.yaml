@@ -1,0 +1,36 @@
+# 任务类型卡模板。说明见 references/workflow-research.md
+task_type_id: LAW-L01-001
+industry: legal
+work_family: L01 合同审查、起草与履约
+title: 采购框架协议及补充协议的联动审查与修订
+role: 企业法务 / 律所非诉律师
+trigger: 业务部门提交续签的框架协议与新补充协议，要求签署前出具审查意见
+expert_time_estimate: 60-120 min
+workflow_steps:
+  - 梳理主协议、附件、补充协议的效力层级与冲突条款
+  - 对照公司合同审查清单逐项审查
+  - 在 Word 中以修订模式修改并加批注
+  - 出审查意见与风险等级台账
+software:
+  - {name: Word, use: 修订模式修改与批注, provision: container}
+  - {name: 北大法宝, use: 规范检索与版本核对, provision: mcp}
+deliverables:
+  - {file: agreement_redline.docx, form: 带修订与批注的合同}
+  - {file: review_memo.docx, form: 审查意见}
+  - {file: issue_ledger.xlsx, form: 问题台账，含条款定位与风险等级}
+verification:
+  profession_checks:
+    - 主文与附件冲突时按约定的效力顺序处理
+    - 修改联动：定义、交叉引用、违约责任同步更新
+  objective_parts: [冲突条款识别, 条款定位, 修订是否落在正确位置, 法源版本]
+  rubric_parts: [修改建议的合理性与谈判可行性]
+input_data:
+  - {kind: 合同及附件原文, point_in_time: 签署前, source_hint: S 编号}
+  - {kind: 适用规范, point_in_time: 签署时有效版本}
+fusable_with: []
+evidence:
+  - {type: practitioner, url: "", locator: "", excerpt: ""}
+  - {type: guideline, url: "", locator: "", excerpt: ""}
+status: candidate
+instantiated_tasks: []
+notes: ""

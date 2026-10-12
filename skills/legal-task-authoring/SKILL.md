@@ -46,14 +46,15 @@ description: 法律行业参考上下文，覆盖行业定义、常见专业问�
 | 当前工作 | 读取内容 | 可以停在这里的产物 |
 |---|---|---|
 | 理解领域与专业问题 | 本页；[工作族与来源](references/sources.md) | 行业/问题地图 |
+| 调研真实工作流、维护任务类型库 | [工作流调研](references/workflow-research.md)、[任务类型卡模板](assets/task-card.template.yaml) | 任务类型卡与来源证据 |
 | 寻找或拉取法律资源 | [来源](references/sources.md)、[采集](references/acquisition.md) | 原件、来源与版本记录 |
 | 筛选材料、维护 reference 库 | [通用筛选](references/common-screening.md)、[法律筛选](references/screening.md) | 入库判断与材料包 |
 | 建立事实、法源或义务索引 | [抽取](references/extraction.md) | 事实角色、证据、规范、义务关系 |
-| 从 input-data 造题 | [任务设计](references/task-design.md)、[推导示例](references/seed-task.md) | instruction 与完整题目文件夹 |
+| 从任务类型卡或 input-data 造题 | [任务设计](references/task-design.md)、[推导示例](references/seed-task.md) | instruction 与完整题目文件夹 |
 | 确定任务文件结构 | [原生 Harbor 交付契约](references/output-contract.md)、[配置模板](assets/task.toml) | 可执行、可审阅的任务包 |
 | 构造或修订环境 | [环境构造](references/environment-construction.md)、[agent 镜像模板](assets/agent.Dockerfile)、[verifier 镜像模板](assets/verifier.Dockerfile) | 工具与 harness 完整的可构建环境 |
-| 制作参考解 | [参考解构造](references/reference-solution.md) | 可执行 solve.sh、真实产物与证据账 |
-| 制作评分器 | [评分器构造](references/scorer-construction.md) | 客观检查、专业评阅、聚合与分项报告 |
+| 制作参考解 | [参考解构造](references/reference-solution.md) | 派生式 solve.sh、真实产物与证据账 |
+| 制作评分器与断言 | [评分器构造](references/scorer-construction.md) | assertions.json、grade.py、分项报告 |
 | 批量调度与无人值守生产 | [批量生产](references/batch-production.md)、[包检查脚本](scripts/validate_task_package.py) | 谱系、阶段状态与可审阅验收记录 |
 | 演化已有题目 | [演化](references/evolution.md) | 变体与同步更新的论证、评分 |
 | 验证题目和评测 | [验证](references/verification.md) | 引证核验、替代论证与验证记录 |
@@ -62,10 +63,10 @@ description: 法律行业参考上下文，覆盖行业定义、常见专业问�
 
 ## 造题的通常流程
 
-仅在需要造题时采用以下路径：
+仅在需要造题时采用以下路径。工作流调研与资源库建设是独立的准备工作，不在这条路径内；造题时直接使用它们的产物。
 
-1. **盘点 input-data**：识别文件类型、主体、事项、时间、法域、版本、证据角色和材料关系。只提供判决时，优先考虑公开案例分析，而非假装拥有完整原始卷宗。
-2. **自主提出与选择问题**：从真实条款冲突、争点、证据缺口或义务链中形成 2–3 个候选任务，比较材料覆盖、工作价值和可评测性，由 agent 选定一个；默认一道题，不要求用户预先定义角色或题目。
+1. **确定任务与材料**：优先从[任务类型库](references/workflow-research.md)取一张 `verified` 卡（或沿 `fusable_with` 取一组关联卡），按卡上的 `input_data` 从资源库选材料。只给了 `input-data/` 时，识别文件类型、主体、事项、时间、法域、版本、证据角色和材料关系，再对照任务类型库确认它对应哪项真实工作。只提供判决时，优先考虑公开案例分析，而非假装拥有完整原始卷宗。
+2. **自主提出与选择问题**：在卡定义的工作范围内，从真实条款冲突、争点、证据缺口或义务链中确定具体问题；无卡时形成 2–3 个候选任务，比较材料覆盖、工作价值和可评测性，由 agent 选定一个；默认一道题，不要求用户预先定义角色或题目。
 3. **构造专业工作情境**：确定有材料支持的委托背景、审查立场、事项时间、程序阶段和交付物。业务参数、计划目标及计算口径用正常工作底稿说明；材料构造过程放私有 provenance。缺证据时可设计证据盘点或补件工作。
 4. **编写 instruction**：写成自然的职业请求，交代背景、要解决的问题、资料、工作动作和交付要求。实际路径与运行环境一致；必要事实、范围和计算口径在可见输入中提供。制作说明、训练身份、评分提示及与委托无关的防御声明留在私有记录。
 5. **制作完整任务包**：按 [原生 Harbor 交付契约](references/output-contract.md) 制作 instruction、task.toml、实际环境与输入、可执行参考解和评分入口。评分包含客观检查与证据化专业 rubric，接受有依据的不同论证、措辞、布局和商业取舍。

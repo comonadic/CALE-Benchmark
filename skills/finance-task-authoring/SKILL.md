@@ -46,26 +46,27 @@ description: 金融行业参考上下文，覆盖行业定义、常见专业问�
 | 当前工作 | 读取内容 | 可以停在这里的产物 |
 |---|---|---|
 | 了解行业与问题空间 | 本页；[工作族与来源](references/sources.md) | 行业/问题地图 |
+| 调研真实工作流、维护任务类型库 | [工作流调研](references/workflow-research.md)、[任务类型卡模板](assets/task-card.template.yaml) | 任务类型卡与来源证据 |
 | 寻找或拉取资料 | [来源](references/sources.md)、[采集](references/acquisition.md) | 来源清单、原件、采集记录 |
 | 维护 reference 库、筛选材料 | [通用筛选](references/common-screening.md)、[金融筛选](references/screening.md) | 入库判断、材料包与质量记录 |
 | 解析表格、建立计算证据 | [抽取](references/extraction.md) | 事实、条款、计算和勾稽索引 |
-| 根据 input-data 造题 | [任务设计](references/task-design.md)、[推导示例](references/seed-task.md) | instruction 与完整题目文件夹 |
+| 根据任务类型卡或 input-data 造题 | [任务设计](references/task-design.md)、[推导示例](references/seed-task.md) | instruction 与完整题目文件夹 |
 | 确定任务文件组织 | [交付契约](references/output-contract.md)、[原生配置模板](assets/task.toml) | 可解析、可运行的 Harbor 任务包 |
 | 构造或修订环境 | [环境构造](references/environment-construction.md)、[agent 镜像模板](assets/agent.Dockerfile)、[verifier 镜像模板](assets/verifier.Dockerfile) | 工具与 harness 完整的可构建环境 |
-| 制作参考解 | [参考解构造](references/reference-solution.md) | 可执行 solve.sh、真实产物与证据账 |
-| 制作评分器 | [评分器构造](references/scorer-construction.md) | 客观检查、专业评阅、聚合与分项报告 |
+| 制作参考解 | [参考解构造](references/reference-solution.md) | 派生式 solve.sh、真实产物与证据账 |
+| 制作评分器与断言 | [评分器构造](references/scorer-construction.md) | assertions.json、grade.py、分项报告 |
 | 批量调度与无人值守生产 | [批量生产](references/batch-production.md)、[包检查脚本](scripts/validate_task_package.py) | 谱系、阶段状态与可审阅验收记录 |
 | 扩展已有题目 | [演化](references/evolution.md) | 有谱系的变体与同步更新的评测 |
-| 检查题目或评测 | [验证](references/verification.md) | 计算复核、评分与验证记录 |
+| 检查题目或评测 | [验证](references/verification.md) | 断言独立性审查、计算复核与验证记录 |
 
 只读取当前步骤需要的 references。单独采集或筛选时，完成该项工作即可；不附加题面、参考答案或 rollout。未指定具体操作时，提供所需行业上下文，不自行启动下载或造题。
 
 ## 造题的通常流程
 
-仅在需要造题时采用以下路径：
+仅在需要造题时采用以下路径。工作流调研与资源库建设是独立的准备工作，不在这条路径内；造题时直接使用它们的产物。
 
-1. **读材料**：以给定 `input-data/` 为起点，盘点真实文件、实体、期间、口径与可用事实；不要求用户先给题目。输入目录未提供时只定位或询问材料位置。
-2. **发现问题**：从材料中的差异、关联、约束和可计算关系提出 2–3 个候选任务。按输入覆盖、专业工作量、产物价值与可验证性比较，由 agent 自主选择最合适的一个；默认产出一道题。
+1. **确定任务与材料**：优先从[任务类型库](references/workflow-research.md)取一张 `verified` 卡（或沿 `fusable_with` 取一组关联卡），按卡上的 `input_data` 从资源库选材料并盘点。只给了 `input-data/` 时，以材料为起点盘点真实文件、实体、期间、口径与可用事实，再对照任务类型库确认它对应哪项真实工作。
+2. **发现问题**：在卡定义的工作范围内，从材料中的差异、关联、约束和可计算关系确定具体问题；无卡时提出 2–3 个候选任务。按输入覆盖、专业工作量、产物价值与可验证性比较，由 agent 自主选择；默认产出一道题。
 3. **界定工作**：由 agent 确定角色、业务目标、时间点、口径、必要的显式假设和交付文件。显式用户约束可缩小空间，但不是造题前提。
 4. **编写 instruction**：用委托人的职业工作请求说明目标、输入、必要业务假设和交付要求。题面与可见输入不承载出题过程、评分实现或反复的演练免责声明；口径与证据边界用正常业务定义表达。详见 [任务设计](references/task-design.md)。
 5. **形成完整任务包**：按 [交付契约](references/output-contract.md) 组织输入、私有证据、真实参考产物、评分、环境与谱系。请求 Harbor 等 runner 交付时，制作该运行时可解析的原生环境、参考解和测试入口；设计清单不能代替可启动环境。原始材料不足时换问题或收缩范围。

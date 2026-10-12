@@ -1,0 +1,35 @@
+# 任务类型卡模板。说明见 references/workflow-research.md
+task_type_id: FIN-F13-001
+industry: finance
+work_family: F13 衍生品与套期保值
+title: 交割月前头寸与保证金资金规划
+role: 期货公司风控 / 交易台中台
+trigger: 合约进入交割前一个月，交易所阶段性提高保证金并收紧限仓
+expert_time_estimate: 60-120 min
+workflow_steps:
+  - 确认适用的交易所规则版本和阶段参数
+  - 逐账户重算保证金与资金缺口
+  - 审查交易计划与行权请求是否合规
+  - 出风险台账与处置备忘录
+software:
+  - {name: Excel, use: 保证金与资金测算工作簿，公式联动, provision: container}
+  - {name: Word, use: 处置备忘录, provision: container}
+deliverables:
+  - {file: risk_ledger.xlsx, form: 逐账户台账，含公式}
+  - {file: memo.docx, form: 处置建议与依据}
+verification:
+  profession_checks:
+    - 保证金按多空毛额计算
+    - 交割月持仓与成交须为规定手数整数倍
+  objective_parts: [保证金数值, 资金缺口, 合规状态判定, 规则条款定位]
+  rubric_parts: [处置建议的依据与优先级]
+input_data:
+  - {kind: 交易所交易与结算规则原文, point_in_time: 交割月前 1 个月有效版本, source_hint: S 编号}
+  - {kind: 持仓与资金快照, point_in_time: 同上}
+fusable_with: []
+evidence:
+  - {type: practitioner, url: "", locator: "", excerpt: ""}
+  - {type: regulation, url: "", locator: "", excerpt: ""}
+status: candidate
+instantiated_tasks: []
+notes: ""

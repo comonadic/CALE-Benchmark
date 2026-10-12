@@ -1,0 +1,311 @@
+{
+  "scale": 47,
+  "aggregation": "reward = P / S，P 为通过断言数（绝对计数），S 为本题冻结标尺，等于断言总数。不用批次内最大值归一化。",
+  "independence_note": "工作单元粒度取“单个业务对象的一次完整口径核算”。R1/R2 按快照逐行，避免单行错误只花掉 1/N 的分数；同一行的三个口径（阶段费率、毛额保证金、追加资金）算同一工作单元。",
+  "assertions": [
+    {
+      "id": "R1.R01",
+      "kind": "outcome",
+      "unit": "R01 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R02",
+      "kind": "outcome",
+      "unit": "R02 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R03",
+      "kind": "outcome",
+      "unit": "R03 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R04",
+      "kind": "outcome",
+      "unit": "R04 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R05",
+      "kind": "outcome",
+      "unit": "R05 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R06",
+      "kind": "outcome",
+      "unit": "R06 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R07",
+      "kind": "outcome",
+      "unit": "R07 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R08",
+      "kind": "outcome",
+      "unit": "R08 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R09",
+      "kind": "outcome",
+      "unit": "R09 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R10",
+      "kind": "outcome",
+      "unit": "R10 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.R11",
+      "kind": "outcome",
+      "unit": "R11 基线全套口径核算",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.contract-params",
+      "kind": "evidence",
+      "unit": "合约乘数与单位量级（取自原生条款并经量级验证）",
+      "criterion": "R1"
+    },
+    {
+      "id": "R2.directional-limits",
+      "kind": "evidence",
+      "unit": "客户与会员的单向限仓档位",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.excess-per-direction",
+      "kind": "outcome",
+      "unit": "逐方向超限手数，不得用净额掩盖",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.parity-rule",
+      "kind": "evidence",
+      "unit": "交割月持仓2手整数倍要求的适用时点",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.parity-compliance",
+      "kind": "outcome",
+      "unit": "逐基线持仓数量合规判定",
+      "criterion": "R2"
+    },
+    {
+      "id": "R3.option-expiry",
+      "kind": "outcome",
+      "unit": "期权最后交易日/到期日",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.exercise-cutoff",
+      "kind": "outcome",
+      "unit": "行权申请截止时刻与之前边界",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.futures-last",
+      "kind": "outcome",
+      "unit": "期货最后交易日",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.delivery-days",
+      "kind": "outcome",
+      "unit": "交割日安排",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.margin-stage-start",
+      "kind": "outcome",
+      "unit": "20%保证金阶段起点日期",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.deadline-distinction",
+      "kind": "evidence",
+      "unit": "倒数第五交易日、前二交易日与连续二工作日的期限区分",
+      "criterion": "R3"
+    },
+    {
+      "id": "R4.admissibility",
+      "kind": "outcome",
+      "unit": "5个期权请求的时间与持有数量有效性",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.disposition",
+      "kind": "outcome",
+      "unit": "逐请求处置结论（行权/放弃/拒绝）",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.call-put-direction",
+      "kind": "outcome",
+      "unit": "看涨期权加多、看跌期权加空的方向映射",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.incremental-vm",
+      "kind": "outcome",
+      "unit": "逐事件增量变动保证金",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.applied-events",
+      "kind": "outcome",
+      "unit": "叠加压力所应用的事件集合",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.R03-post-position",
+      "kind": "outcome",
+      "unit": "R03叠加有效行权后的头寸与超限",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.R03-post-funding",
+      "kind": "outcome",
+      "unit": "R03叠加后的保证金与追加资金",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.R11-post-position",
+      "kind": "outcome",
+      "unit": "R11叠加早行权后的头寸与限仓",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.R11-post-funding",
+      "kind": "outcome",
+      "unit": "R11叠加后的保证金与追加资金",
+      "criterion": "R4"
+    },
+    {
+      "id": "R5.tp01",
+      "kind": "outcome",
+      "unit": "TP01交割月新开1手的动作合法性与结果头寸",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.tp02",
+      "kind": "outcome",
+      "unit": "TP02平空2手的减仓结果头寸",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.tp03",
+      "kind": "outcome",
+      "unit": "TP03平多1手的动作合法性与结果头寸",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.tp04",
+      "kind": "outcome",
+      "unit": "TP04前月末各平1手对限仓与持仓数量的修复",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.tp01-disposition",
+      "kind": "outcome",
+      "unit": "TP01 处置结论",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.tp02-disposition",
+      "kind": "outcome",
+      "unit": "TP02 处置结论",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.tp03-disposition",
+      "kind": "outcome",
+      "unit": "TP03 处置结论",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.tp04-disposition",
+      "kind": "outcome",
+      "unit": "TP04 处置结论",
+      "criterion": "R5"
+    },
+    {
+      "id": "R6.tick-grid",
+      "kind": "outcome",
+      "unit": "Q01报价与0.5元网格及相邻合法价位",
+      "criterion": "R6"
+    },
+    {
+      "id": "R6.tick-value",
+      "kind": "outcome",
+      "unit": "Q01单手与所报数量的每tick价值",
+      "criterion": "R6"
+    },
+    {
+      "id": "R7.ledger-columns",
+      "kind": "outcome",
+      "unit": "风险台账必有列",
+      "criterion": "R7"
+    },
+    {
+      "id": "R7.ledger-object-coverage",
+      "kind": "outcome",
+      "unit": "风险台账覆盖全部R/O/TP/Q对象",
+      "criterion": "R7"
+    },
+    {
+      "id": "R7.ledger-quantified",
+      "kind": "evidence",
+      "unit": "风险台账给出量化差额而非仅通过/失败",
+      "criterion": "R7"
+    },
+    {
+      "id": "R7.memo-coverage",
+      "kind": "evidence",
+      "unit": "备忘录含期限安排与规则依据",
+      "criterion": "R7"
+    },
+    {
+      "id": "R7.memo-layering",
+      "kind": "evidence",
+      "unit": "备忘录区分规则版本与内部规划假设",
+      "criterion": "R7"
+    },
+    {
+      "id": "R1.funding-understatement",
+      "kind": "outcome",
+      "unit": "追加资金实质性低报（将重算为正的追加资金写成0或明显偏小）",
+      "criterion": "R1"
+    }
+  ],
+  "critical_errors": [
+    {
+      "id": "CE.magnitude",
+      "assertion": "R1.contract-params",
+      "cap": 0.5
+    },
+    {
+      "id": "CE.direction",
+      "assertion": "R4.call-put-direction",
+      "cap": 0.6
+    },
+    {
+      "id": "CE.disposition",
+      "assertion": "R5.tp03-disposition",
+      "cap": 0.7
+    },
+    {
+      "id": "CE.funding",
+      "assertion": "R1.funding-understatement",
+      "cap": 0.7
+    }
+  ]
+}

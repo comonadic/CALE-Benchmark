@@ -378,7 +378,7 @@
       "resulting_long_excess_lots": 0,
       "resulting_short_excess_lots": 0,
       "resulting_position_parity_valid": true,
-      "disposition": "accept_reduce_risk",
+      "disposition": "approve_with_controls",
       "reason": "前月最后交易日收盘前两方向各平1手，结果2700/2698，修复超限和奇偶；交割月的2手动作限制尚未开始"
     },
     {
@@ -400,7 +400,7 @@
       "resulting_long_excess_lots": 0,
       "resulting_short_excess_lots": 0,
       "resulting_position_parity_valid": true,
-      "disposition": "运营复核资金后按减仓流程处理",
+      "disposition": "approve_with_controls",
       "reason": "平空2手及余仓均为偶数、限仓满足；属于减仓，但账户仍需执行资金补足"
     },
     {
