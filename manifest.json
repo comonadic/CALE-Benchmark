@@ -98,10 +98,15 @@
   "validation": {
     "reference_and_empty_output_baselines": "completed in source packages",
     "independent_solver": {
-      "status": "running",
+      "status": "stopped_by_user",
       "agent": "claude-code",
       "model": "claude-opus-5-5",
-      "report": "reports/opus-5-5-2026-10-12/report.md"
+      "report": "reports/opus-5-5-2026-10-12/report.md",
+      "scored_trials": 4,
+      "normal_deliveries": 2,
+      "agent_timeouts": 2,
+      "cancelled_trials": 2,
+      "not_started_tasks": 4
     }
   }
 }

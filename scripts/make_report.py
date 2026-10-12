@@ -46,16 +46,23 @@ def combine(summaries, expected, now=None):
     if set(scheduled) != expected_ids or not set(task_ids) <= expected_ids:
         raise ValueError('Selected runs do not cover exactly the published tasks')
     trials = copy.deepcopy([t for s in summaries for t in s['trials']])
+    stops = [s['user_stop'] for s in summaries if s.get('user_stop')]
+    cancelled = {t for stop in stops for t in stop.get('cancelled_task_ids', [])}
     # Private local receipts keep the complete exception. Published reports expose its type.
     for trial in trials:
         if trial.get('exception'):
             trial['exception'] = {'exception_type': trial['exception'].get('exception_type')}
+        trial['run_status'] = ('graded' if reward_value(trial['reward']) is not None else
+                               'cancelled_by_user' if trial['task_id'] in cancelled else
+                               'failed' if trial['completed'] else 'running')
     transport = [r for s in summaries for r in s.get('agent_transport', [])]
     agents = {r['response_id']: r for r in transport if r.get('response_id')}
     judges = {r['response_id']: r for s in summaries for r in s['judge_responses']}
     usage = {'agent_provider': usage_totals(list(agents.values())), 'judge': usage_totals(list(judges.values()))}
     usage['agent_provider']['requests_without_response_id'] = sum(not r.get('response_id') for r in transport)
     usage['agent_provider']['http_requests'] = len(transport)
+    body_hashes = [r['request_sha256'] for r in transport if r.get('request_sha256')]
+    usage['agent_provider']['identical_body_extra_requests'] = len(body_hashes) - len(set(body_hashes))
     scored = [reward_value(t['reward']) for t in trials if reward_value(t['reward']) is not None]
     all_finished = set(task_ids) == expected_ids and all(t['completed'] for t in trials)
     status = ('complete' if len(scored) == len(expected) else 'completed_with_errors') if all_finished else 'partial'
@@ -63,15 +70,25 @@ def combine(summaries, expected, now=None):
     starts = [datetime.fromisoformat(s['policy']['started_at'].replace('Z', '+00:00')) for s in summaries]
     finishes = [datetime.fromisoformat(t['finished_at'].replace('Z', '+00:00')) for t in trials if t.get('finished_at')]
     end = max(finishes) if all_finished else current
+    if stops:
+        for summary in summaries:
+            closed = {t['task_id'] for t in summary['trials'] if t['completed']}
+            if not set(summary['policy']['task_ids']) <= closed and not (summary.get('user_stop') or {}).get('runner_and_bridge_processes_exited'):
+                raise ValueError('A selected runner is still active; cannot report all sessions stopped')
+        status = 'stopped_by_user'
+        end = max(datetime.fromisoformat(stop['stopped_at'].replace('Z', '+00:00')) for stop in stops)
     return {
         'status': status, 'model': 'claude-opus-5-5', 'agent': 'claude-code',
         'as_of': current.isoformat(), 'started_at': min(starts).isoformat(),
-        'finished_at': end.isoformat() if all_finished else None,
+        'finished_at': end.isoformat() if all_finished or stops else None,
         'elapsed_wall_seconds': round((end - min(starts)).total_seconds(), 3),
         'expected_tasks': len(expected), 'completed_trials': sum(t['completed'] for t in trials),
         'valid_scored_trials': len(scored),
         'mean_reward_valid_trials': round(sum(scored) / len(scored), 6) if scored else None,
         'usage': usage, 'trials': sorted(trials, key=lambda t: t['task_id']),
+        'started_trials': len(trials),
+        'cancelled_task_ids': sorted(t['task_id'] for t in trials if t['run_status'] == 'cancelled_by_user'),
+        'not_started_task_ids': sorted(expected_ids - set(task_ids)),
         'runtime_agents': [s.get('runtime_agents', []) for s in summaries],
         'provider_invoice_cost_usd': None,
         'usage_note': 'Observed counters include incomplete responses. Missing final usage and missing thinking breakdowns are unknown, not zero. CLI dollar costs are estimates, not the Heju invoice.',
@@ -82,7 +99,7 @@ def write_report(result, output):
     output.mkdir(parents=True, exist_ok=True)
     (output / 'results.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
     lines = ['# Claude Code + Heju Opus 5.5 实际试解', '',
-             f'状态：{result["status"]}；完成 {result["completed_trials"]}/{result["expected_tasks"]} 条 trial；有效评分 {result["valid_scored_trials"]} 条。', '',
+             f'状态：{result["status"]}；已启动 {result["started_trials"]}/{result["expected_tasks"]} 条 trial；有效评分 {result["valid_scored_trials"]} 条。', '',
              f'整体经过 {result["elapsed_wall_seconds"]} 秒，包含并行运行与评分。未完成时的平均分只描述已评分题目。', '',
              '| 题目 | reward | 启动秒 | 解题秒 | 评分秒 | 总秒 | 状态 |',
              '|---|---:|---:|---:|---:|---:|---|']
@@ -91,15 +108,22 @@ def write_report(result, output):
         error = (trial.get('exception') or {}).get('exception_type')
         row = [trial['task_id'], str(reward_value(trial['reward'])), str(secs['environment_setup']),
                str(secs['agent_execution']), str(secs['verifier']), str(secs['total']),
-               error or ('完成' if trial['completed'] else '运行中')]
+               '用户中止，未评分' if trial['run_status'] == 'cancelled_by_user' else error or ('完成' if trial['completed'] else '运行中')]
         lines.append('| ' + ' | '.join(row) + ' |')
+    for task_id in result['not_started_task_ids']:
+        lines.append('| ' + task_id + ' | — | — | — | — | — | 未启动 |')
     lines += ['', '| 调用侧 | 普通输入 | 缓存写入 | 缓存读取 | 输出 | 已知推理输出 | 不完整回包 |',
               '|---|---:|---:|---:|---:|---:|---:|']
     for role, usage in result['usage'].items():
         values = [usage[k] for k in FIELDS] + [usage['thinking_tokens_known'], usage['incomplete_responses']]
         lines.append('| ' + ' | '.join([role] + list(map(str, values))) + ' |')
-    lines += ['', '解题输入缓存采用真实 provider usage。评分对每题唯一候选调用一次，未开启缓存写入。输入总量包括普通输入、缓存写入和缓存读取。部分回包缺少最终 usage；未提供的推理分项不按零处理，完整费用需与 Heju 账单核对。CLI 美元成本属于估计。', '',
+    lines += ['', '解题输入缓存采用真实 provider usage。评分对每题唯一候选调用一次，未开启缓存写入。输入总量包括普通输入、缓存写入和缓存读取。部分回包及中止时在途的请求缺少最终 usage；未提供的推理分项不按零处理，完整费用需与 Heju 账单核对。CLI 美元成本属于估计。', '',
+              '每题一次 Harbor trial；CLI 内部请求级重试仍可能增加 HTTP 请求与用量。results.json 记录各题不完整响应和相同请求体的额外请求；这些传输问题与模型延迟会影响预算内完成率，本轮分数不能单独归因于模型能力。', '',
               '此前 DNS/启动失败记录单独保留，没有纳入本次独立试解成绩。原始轨迹、产物和评分证据保存在本地运行目录；公开报告只保留异常类型。']
+    if result['status'] == 'stopped_by_user':
+        normal = sum(reward_value(t['reward']) is not None and not t.get('exception') for t in result['trials'])
+        timeouts = sum((t.get('exception') or {}).get('exception_type') == 'AgentTimeoutError' for t in result['trials'])
+        lines += ['', f'用户要求停止本轮，已终止运行和排队。取消的试解与未启动题目保持未评分，不填零；已有超时 trial 的评分结果保留。有效评分覆盖 {result["valid_scored_trials"]} 题，其中 {normal} 题正常交付、{timeouts} 题解题超时，不能据此判断整套题目的区分度。']
     (output / 'report.md').write_text('\n'.join(lines) + '\n')
 
 

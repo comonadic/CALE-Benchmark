@@ -50,6 +50,20 @@ class ReportTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             reward_value({'reward': 1.1})
 
+    def test_user_stop_preserves_ungraded_and_unstarted_tasks(self):
+        raw = self.sample()
+        raw['policy']['task_ids'] = ['one', 'two', 'three']
+        raw['trials'].append({'task_id': 'two', 'completed': False, 'reward': None, 'exception': None})
+        raw['user_stop'] = {'cancelled_task_ids': ['two'], 'runner_and_bridge_processes_exited': True,
+                            'stopped_at': '2026-10-12T09:45:00+00:00'}
+        result = combine([raw], [{'id': name} for name in ['one', 'two', 'three']])
+        self.assertEqual(result['status'], 'stopped_by_user')
+        self.assertEqual(result['valid_scored_trials'], 1)
+        self.assertEqual(result['cancelled_task_ids'], ['two'])
+        self.assertEqual(result['not_started_task_ids'], ['three'])
+        self.assertIsNone(result['trials'][1]['reward'])
+        self.assertEqual(result['elapsed_wall_seconds'], 2700)
+
 
 if __name__ == '__main__':
     unittest.main()

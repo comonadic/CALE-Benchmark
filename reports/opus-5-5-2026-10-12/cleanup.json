@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-10-12T11:40:55.657831+00:00",
+  "reason": "user_requested_stop",
+  "owned_runner_and_bridge_processes_remaining": 0,
+  "queue_watcher_stopped": true,
+  "dedicated_test_containers_remaining": 0,
+  "trial_networks_remaining": 0,
+  "trial_volumes_remaining": 0,
+  "colima_profile": "ale",
+  "colima_status": "Stopped",
+  "images_and_logs_retained": true,
+  "new_model_requests_stopped": true
+}

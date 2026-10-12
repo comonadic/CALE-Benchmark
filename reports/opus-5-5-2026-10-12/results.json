@@ -1,40 +1,41 @@
 {
-  "status": "partial",
+  "status": "stopped_by_user",
   "model": "claude-opus-5-5",
   "agent": "claude-code",
-  "as_of": "2026-10-12T11:11:59.289400+00:00",
+  "as_of": "2026-10-12T11:40:55.703756+00:00",
   "started_at": "2026-10-12T09:56:48.076193+00:00",
-  "finished_at": null,
-  "elapsed_wall_seconds": 4511.213,
+  "finished_at": "2026-10-12T11:38:22.021464+00:00",
+  "elapsed_wall_seconds": 6093.945,
   "expected_tasks": 10,
-  "completed_trials": 2,
-  "valid_scored_trials": 2,
-  "mean_reward_valid_trials": 0.4865,
+  "completed_trials": 5,
+  "valid_scored_trials": 4,
+  "mean_reward_valid_trials": 0.46825,
   "usage": {
     "agent_provider": {
-      "input_tokens": 160,
-      "cache_creation_input_tokens": 1405540,
-      "cache_read_input_tokens": 6833143,
-      "output_tokens": 425955,
-      "responses": 80,
+      "input_tokens": 224,
+      "cache_creation_input_tokens": 2038637,
+      "cache_read_input_tokens": 10320799,
+      "output_tokens": 603188,
+      "responses": 112,
       "responses_without_usage": 0,
-      "incomplete_responses": 5,
-      "thinking_tokens_known": 245010,
-      "responses_with_thinking_breakdown": 75,
-      "cache_read_share_of_reported_prompt": 0.8294,
+      "incomplete_responses": 6,
+      "thinking_tokens_known": 356203,
+      "responses_with_thinking_breakdown": 106,
+      "cache_read_share_of_reported_prompt": 0.835,
       "requests_without_response_id": 0,
-      "http_requests": 80
+      "http_requests": 112,
+      "identical_body_extra_requests": 1
     },
     "judge": {
-      "input_tokens": 213826,
+      "input_tokens": 423555,
       "cache_creation_input_tokens": 0,
       "cache_read_input_tokens": 0,
-      "output_tokens": 22398,
-      "responses": 1,
+      "output_tokens": 38285,
+      "responses": 2,
       "responses_without_usage": 0,
       "incomplete_responses": 0,
-      "thinking_tokens_known": 12441,
-      "responses_with_thinking_breakdown": 1,
+      "thinking_tokens_known": 21234,
+      "responses_with_thinking_breakdown": 2,
       "cache_read_share_of_reported_prompt": 0.0
     }
   },
@@ -53,11 +54,13 @@
       "finished_at": "2026-10-12T10:39:35.277561Z",
       "scoring_details": {
         "status": "graded_candidate_defect",
+        "mode": null,
         "points": null,
         "max_points": null,
         "request_sha256": null,
         "output_sha256": null,
         "report_sha256": "dea392363d5972ca9dbfec7ae3d1aa391ad692fabffe360ca0d36ea9f233778a",
+        "objective_status": null,
         "objective_assertions": 0,
         "objective_failed": [],
         "criteria": []
@@ -110,7 +113,15 @@
       },
       "candidate_files": [],
       "result_path": "jobs/claude-opus-5-5/finance-pilot-01-v2__ZitR2R9/result.json",
-      "judge_response_ids": []
+      "judge_response_ids": [],
+      "agent_transport_summary": {
+        "http_requests": 23,
+        "incomplete_responses": 2,
+        "requests_without_usage": 0,
+        "identical_body_extra_requests": 1,
+        "maximum_request_seconds": 610.251
+      },
+      "run_status": "graded"
     },
     {
       "task_id": "finance-pilot-04-v2",
@@ -124,6 +135,7 @@
       "finished_at": "2026-10-12T10:43:06.183229Z",
       "scoring_details": {
         "status": "graded",
+        "mode": null,
         "points": 97.3,
         "max_points": 100,
         "request_sha256": "3cfe74bb0b96968ad3a049972b56bed53897c3a9c34cde722d80081fd7e7fca9",
@@ -133,6 +145,7 @@
           "action_memo.md": "98a8fcafdebf6817601c947f73c967a8b1548273d8fd9454a59b00005ce3f97c"
         },
         "report_sha256": "fc7c3e71081ca4e7417a9102332daa93f46ae936cb2f6e736c2891a211b3b32e",
+        "objective_status": "failed",
         "objective_assertions": 208,
         "objective_failed": [
           {
@@ -144,42 +157,49 @@
           {
             "id": "R1",
             "score": 20,
+            "max_points": null,
             "judge_score": 20,
             "objective_ceiling": 20.0
           },
           {
             "id": "R2",
             "score": 17.8,
+            "max_points": null,
             "judge_score": 17.8,
             "objective_ceiling": 17.81818181818182
           },
           {
             "id": "R3",
             "score": 12,
+            "max_points": null,
             "judge_score": 12,
             "objective_ceiling": 12.0
           },
           {
             "id": "R4",
             "score": 19.5,
+            "max_points": null,
             "judge_score": 19.5,
             "objective_ceiling": 20.0
           },
           {
             "id": "R5",
             "score": 14,
+            "max_points": null,
             "judge_score": 14,
             "objective_ceiling": 15.0
           },
           {
             "id": "R6",
             "score": 5,
+            "max_points": null,
             "judge_score": 5,
             "objective_ceiling": 5.0
           },
           {
             "id": "R7",
             "score": 9,
+            "max_points": null,
             "judge_score": 9,
             "objective_ceiling": 10.0
           }
@@ -266,26 +286,51 @@
       "result_path": "jobs/claude-opus-5-5/finance-pilot-04-v2__PEYzVxh/result.json",
       "judge_response_ids": [
         "msg_011CfxCOtaThFGgXzXSpprzM"
-      ]
+      ],
+      "agent_transport_summary": {
+        "http_requests": 26,
+        "incomplete_responses": 2,
+        "requests_without_usage": 0,
+        "identical_body_extra_requests": 0,
+        "maximum_request_seconds": 491.27
+      },
+      "run_status": "graded"
     },
     {
       "task_id": "finance-pilot-05-v2",
       "trial_name": "finance-pilot-05-v2__hKQByLh",
-      "completed": false,
-      "reward": null,
-      "exception": null,
-      "started_at": null,
-      "finished_at": null,
-      "scoring_details": null,
+      "completed": true,
+      "reward": {
+        "reward": 0.0
+      },
+      "exception": {
+        "exception_type": "AgentTimeoutError"
+      },
+      "started_at": "2026-10-12T10:43:08.935394Z",
+      "finished_at": "2026-10-12T11:23:37.682337Z",
+      "scoring_details": {
+        "status": "graded",
+        "mode": null,
+        "points": null,
+        "max_points": null,
+        "request_sha256": null,
+        "output_sha256": null,
+        "report_sha256": "5661b035cccf91a5badc958253a66b70c82926e2b3179da1fe9abc74b41ed551",
+        "objective_status": null,
+        "objective_assertions": 0,
+        "objective_failed": [],
+        "criteria": []
+      },
       "receipt_sha256": {
-        "agent/claude-code.txt": "649a88ac836f133c705a65346a1a93f9a7ee69c4e9b1607783325ddd7129ef4d"
+        "result.json": "7cf1fab6825e5859ccd8bdd201727048f5ad9119e35e3ab6c37e543dc50da73d",
+        "agent/claude-code.txt": "e3961380cbe66be84d7d7ddc150c798714511906a0bba2ab353fe9fc568a3824"
       },
       "seconds": {
-        "total": null,
-        "environment_setup": null,
-        "agent_setup": null,
-        "agent_execution": null,
-        "verifier": null
+        "total": 2428.747,
+        "environment_setup": 3.444,
+        "agent_setup": 0.098,
+        "agent_execution": 2400.014,
+        "verifier": 14.211
       },
       "agent": {
         "final_result_seen": false,
@@ -314,17 +359,262 @@
           "msg_011CfxDFHqedclSV5PHDb3N8",
           "msg_011CfxDYNSmOJWSzh6ef9n7Z",
           "msg_011CfxDudgkml56MSVu02UiB",
-          "msg_011CfxENxUHy7T8BUiRMHHLK"
+          "msg_011CfxENxUHy7T8BUiRMHHLK",
+          "msg_011CfxF69kYuLWWjR9XUMJOI",
+          "msg_011CfxFXQAR6NbmUPtaIP8BO"
         ],
         "cli_cost_estimate_usd": null
       },
       "candidate_files": [],
-      "result_path": null,
-      "judge_response_ids": []
+      "result_path": "jobs/claude-opus-5-5/finance-pilot-05-v2__hKQByLh/result.json",
+      "judge_response_ids": [],
+      "agent_transport_summary": {
+        "http_requests": 20,
+        "incomplete_responses": 1,
+        "requests_without_usage": 0,
+        "identical_body_extra_requests": 0,
+        "maximum_request_seconds": 565.005
+      },
+      "run_status": "graded"
     },
     {
       "task_id": "legal-pilot-02-v2",
       "trial_name": "legal-pilot-02-v2__mZBvdDG",
+      "completed": true,
+      "reward": {
+        "reward": 0.9,
+        "objective": 0,
+        "professional": 0.9
+      },
+      "exception": null,
+      "started_at": "2026-10-12T10:39:35.299693Z",
+      "finished_at": "2026-10-12T11:22:39.711399Z",
+      "scoring_details": {
+        "status": "graded",
+        "mode": "independent-model-rubric",
+        "points": 90,
+        "max_points": null,
+        "request_sha256": "de1e08022579a616e9ea5fb2d164e4c8a4b74d796658f646e5885b6306512b01",
+        "output_sha256": {
+          "action-calendar.xlsx": "35fef7d5c716a350339f9998c172534234493634869ab42bba1d76fc633c83a7",
+          "procedure-plan.md": "9884e9570694d864692d18c39a6e7c229eb568961ee9d524d6e0274475a72d88"
+        },
+        "report_sha256": "4d49c941e3208f4135e64b5706424894ec432de6400c68f1548f0247c2723641",
+        "objective_status": "failed",
+        "objective_assertions": 41,
+        "objective_failed": [
+          {
+            "criterion": null,
+            "object": "A05_date"
+          },
+          {
+            "criterion": null,
+            "object": "A06_date"
+          }
+        ],
+        "criteria": [
+          {
+            "id": "R01",
+            "score": 15,
+            "max_points": 15,
+            "judge_score": null,
+            "objective_ceiling": null
+          },
+          {
+            "id": "R02",
+            "score": 17,
+            "max_points": 20,
+            "judge_score": null,
+            "objective_ceiling": null
+          },
+          {
+            "id": "R03",
+            "score": 14,
+            "max_points": 15,
+            "judge_score": null,
+            "objective_ceiling": null
+          },
+          {
+            "id": "R04",
+            "score": 8,
+            "max_points": 10,
+            "judge_score": null,
+            "objective_ceiling": null
+          },
+          {
+            "id": "R05",
+            "score": 13,
+            "max_points": 15,
+            "judge_score": null,
+            "objective_ceiling": null
+          },
+          {
+            "id": "R06",
+            "score": 9,
+            "max_points": 10,
+            "judge_score": null,
+            "objective_ceiling": null
+          },
+          {
+            "id": "R07",
+            "score": 9,
+            "max_points": 10,
+            "judge_score": null,
+            "objective_ceiling": null
+          },
+          {
+            "id": "R08",
+            "score": 5,
+            "max_points": 5,
+            "judge_score": null,
+            "objective_ceiling": null
+          }
+        ]
+      },
+      "receipt_sha256": {
+        "result.json": "7648afc06ed9f0aaa3c264cde834b8fdc7a42b93a1154ec0b90cb07a445169e8",
+        "agent/claude-code.txt": "86a67f068461ecd32ecbf2d6bfe0367f26b455efaa3f183f756994033ab07802"
+      },
+      "seconds": {
+        "total": 2584.412,
+        "environment_setup": 3.324,
+        "agent_setup": 0.091,
+        "agent_execution": 2332.336,
+        "verifier": 237.763
+      },
+      "agent": {
+        "final_result_seen": true,
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 33,
+        "usage": {
+          "input_tokens": 48,
+          "cache_creation_input_tokens": 566760,
+          "cache_read_input_tokens": 3170683,
+          "output_tokens": 127056,
+          "output_tokens_details": {
+            "thinking_tokens": 68971
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 566760
+          },
+          "inference_geo": "global",
+          "iterations": [],
+          "speed": "standard",
+          "fallback_credit": null
+        },
+        "observed_models": [
+          "claude-opus-5-5"
+        ],
+        "response_ids": [
+          "msg_011CfxCZvAhoLE3BUX7FOkRD",
+          "msg_011CfxCaJODvTZ536P7zYlq9",
+          "msg_011CfxCavdi7hMZT8SwgQ2We",
+          "msg_011CfxCbZFBppQ0S3WXqZDZq",
+          "msg_011CfxCcqBYGRjmf0Wdg1rXO",
+          "msg_011CfxCdNtNMXMdtF6fBSRJ4",
+          "msg_011CfxCdcfjdMFHHPixpU0Vz",
+          "msg_011CfxCeMwp200lMeloWkY4d",
+          "msg_011CfxCejit1LS3OAlmq6gfo",
+          "msg_011CfxD2sXb6pQW1eyvfpnRO",
+          "msg_011CfxDf0pd6mmVvDOT3RcL9",
+          "msg_011CfxEWh8u86iZT9FoUW9eA",
+          "msg_011CfxExYkNbC6vPtSBgDlyI",
+          "msg_011CfxF2yysfjVCMOdDyai5D",
+          "msg_011CfxFAlKrz5xK3bo1ukLQe",
+          "msg_011CfxFBmiuHiwzhDlJDmuxQ",
+          "msg_011CfxFM09vWzS3NLpL44m1o",
+          "msg_011CfxFMBSLVdCahuXmUeZ2g",
+          "msg_011CfxFOmZDyl3Y6rMZXXbOP",
+          "msg_011CfxFPF4mjerETHabagJpb",
+          "msg_011CfxFQpXKRq0ndB3ZWrzG0",
+          "msg_011CfxFRh22xNut8e5Ce2ykv",
+          "msg_011CfxFT7rovlkxBvqMGhYrX",
+          "msg_011CfxFVCdqmFYQdlYSksKBn"
+        ],
+        "cli_cost_estimate_usd": 6.0092486
+      },
+      "candidate_files": [
+        "action-calendar.xlsx",
+        "procedure-plan.md"
+      ],
+      "result_path": "jobs/claude-opus-5-5/legal-pilot-02-v2__mZBvdDG/result.json",
+      "judge_response_ids": [
+        "msg_011CfxFYh9qdp3F8AsV48S2W"
+      ],
+      "agent_transport_summary": {
+        "http_requests": 24,
+        "incomplete_responses": 0,
+        "requests_without_usage": 0,
+        "identical_body_extra_requests": 0,
+        "maximum_request_seconds": 681.125
+      },
+      "run_status": "graded"
+    },
+    {
+      "task_id": "legal-pilot-03-v2",
+      "trial_name": "legal-pilot-03-v2__hMmYQ7E",
+      "completed": true,
+      "reward": null,
+      "exception": {
+        "exception_type": "CancelledError"
+      },
+      "started_at": "2026-10-12T11:22:39.721513Z",
+      "finished_at": "2026-10-12T11:36:07.030335Z",
+      "scoring_details": null,
+      "receipt_sha256": {
+        "result.json": "9c31a413380ebef20482064c08bc1ccf015e87dc6840a774b2f651067feafaa8",
+        "agent/claude-code.txt": "ab64e42ab2f1ff57c873d8d9d4bd0afd73d2ab24e8a7a3d98e9d93d9413aec75"
+      },
+      "seconds": {
+        "total": 807.309,
+        "environment_setup": 3.358,
+        "agent_setup": 0.085,
+        "agent_execution": 792.878,
+        "verifier": null
+      },
+      "agent": {
+        "final_result_seen": false,
+        "subtype": null,
+        "is_error": null,
+        "num_turns": null,
+        "usage": null,
+        "observed_models": [
+          "claude-opus-5-5"
+        ],
+        "response_ids": [
+          "msg_011CfxFsGdcNptDnrph9z5Mb",
+          "msg_011CfxFsNw2oXZGZBSVoQ4o0",
+          "msg_011CfxFt0FyEOAHG3LX8o6Es",
+          "msg_011CfxFtFlUHErSp55zP4C0Z",
+          "msg_011CfxFuStjRtj1CMh4MfBGO",
+          "msg_011CfxG9bHJgl10PC5qzCJS0",
+          "msg_011CfxGAAHxSixG4jM63IfEb",
+          "msg_011CfxGaZ3nB77bqZgGwVG37"
+        ],
+        "cli_cost_estimate_usd": null
+      },
+      "candidate_files": [],
+      "result_path": "jobs/claude-opus-5-5/legal-pilot-03-v2__hMmYQ7E/result.json",
+      "judge_response_ids": [],
+      "agent_transport_summary": {
+        "http_requests": 7,
+        "incomplete_responses": 0,
+        "requests_without_usage": 0,
+        "identical_body_extra_requests": 0,
+        "maximum_request_seconds": 329.525
+      },
+      "run_status": "cancelled_by_user"
+    },
+    {
+      "task_id": "legal-pilot-04-v2",
+      "trial_name": "legal-pilot-04-v2__HE5YnS9",
       "completed": false,
       "reward": null,
       "exception": null,
@@ -332,7 +622,7 @@
       "finished_at": null,
       "scoring_details": null,
       "receipt_sha256": {
-        "agent/claude-code.txt": "7441994ecb04d4d05b424932bb6a63df584c92a4fc40484c73019e135340dd64"
+        "agent/claude-code.txt": "94325a6acf949e23e24f720a06026f71e96860bbf668e5f1a90ade177d25bd88"
       },
       "seconds": {
         "total": null,
@@ -351,26 +641,37 @@
           "claude-opus-5-5"
         ],
         "response_ids": [
-          "msg_011CfxCZvAhoLE3BUX7FOkRD",
-          "msg_011CfxCaJODvTZ536P7zYlq9",
-          "msg_011CfxCavdi7hMZT8SwgQ2We",
-          "msg_011CfxCbZFBppQ0S3WXqZDZq",
-          "msg_011CfxCcqBYGRjmf0Wdg1rXO",
-          "msg_011CfxCdNtNMXMdtF6fBSRJ4",
-          "msg_011CfxCdcfjdMFHHPixpU0Vz",
-          "msg_011CfxCeMwp200lMeloWkY4d",
-          "msg_011CfxCejit1LS3OAlmq6gfo",
-          "msg_011CfxD2sXb6pQW1eyvfpnRO",
-          "msg_011CfxDf0pd6mmVvDOT3RcL9",
-          "msg_011CfxEWh8u86iZT9FoUW9eA",
-          "msg_011CfxExYkNbC6vPtSBgDlyI"
+          "msg_011CfxFwpHolWLU4lg9bdZHM",
+          "msg_011CfxFxNYtdNLvgQFlLovFs",
+          "msg_011CfxFyU0yReymyCeYMDbxy",
+          "msg_011CfxFynOq3tklpt1sQYkG1",
+          "msg_011CfxFz2zNUbpVCOqeBjlzI",
+          "msg_011CfxG0TmlTPNfl5lnxjNtP",
+          "msg_011CfxG1YJQ1vZlcflkd5RB3",
+          "msg_011CfxG8QrYqaD63uOoJYQJF",
+          "msg_011CfxGI4449ssLxSquC7Bi2",
+          "msg_011CfxGZx1mUttm4xTKGalxd",
+          "msg_011CfxGa5wGM1gRco35IZaqQ"
         ],
         "cli_cost_estimate_usd": null
       },
       "candidate_files": [],
       "result_path": null,
-      "judge_response_ids": []
+      "judge_response_ids": [],
+      "agent_transport_summary": null,
+      "run_status": "cancelled_by_user"
     }
+  ],
+  "started_trials": 6,
+  "cancelled_task_ids": [
+    "legal-pilot-03-v2",
+    "legal-pilot-04-v2"
+  ],
+  "not_started_task_ids": [
+    "finance-pilot-02-v2",
+    "finance-pilot-03-v2",
+    "legal-pilot-01-v2",
+    "legal-pilot-05-v2"
   ],
   "runtime_agents": [
     [
