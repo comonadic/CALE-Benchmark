@@ -1,0 +1,32 @@
+schema_version = "1.3"
+artifacts = ["/workspace/output"]
+
+[task]
+name = "finance/finance-pilot-02-v2"
+version = "2.0.0"
+description = "Revise an ICBC bank capital bond client note and prepare an evidence-backed clause correction register"
+
+[metadata]
+industry = "finance"
+family_id = "F08"
+language = "zh-CN"
+as_of = "2026-10-11"
+parent_task = "finance-pilot-02"
+status = "draft"
+
+[agent]
+timeout_sec = 2400.0
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 2100
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+build_timeout_sec = 900.0
+workdir = "/workspace"
+network_mode = "no-network"
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240

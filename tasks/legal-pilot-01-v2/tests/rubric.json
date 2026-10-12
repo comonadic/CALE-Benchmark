@@ -1,0 +1,145 @@
+{
+  "version": 2,
+  "total_points": 100,
+  "pass_guidance": "Suggested authoring difficulty is hard; professional alternative reasoning scored by evidence. No automatic whole-task pass is claimed.",
+  "criteria": [
+    {
+      "id": "RUB01",
+      "points": 8,
+      "object": "事实角色与依据",
+      "criterion": "正确区分业务需求、待修改工作稿与官方推荐模板；引证定位能回看，不能把选项当强制法义务。 台账至少四项明确对照模板默认/可选安排与项目取舍。",
+      "check_method": "人工/模型依据输入及原件核验",
+      "acceptable_alternatives": "表述和页码形式不同但物理定位准确可接受。",
+      "evidence_ids": [
+        "N01",
+        "N09"
+      ]
+    },
+    {
+      "id": "RUB02",
+      "points": 14,
+      "object": "数据权益及既有工具",
+      "criterion": "同步修订2/3/6/12/A3/A4/13，使A/B及P1/P2交付和甲方权益成立，乙方仅受托使用；既有工具IP保留并解决结果可用性。",
+      "check_method": "人工/模型逐处比较N01/N02",
+      "acceptable_alternatives": "可用必要永久内部许可或同等可用替代接口；不要求既有代码转让。",
+      "evidence_ids": [
+        "N01",
+        "N02"
+      ]
+    },
+    {
+      "id": "RUB03",
+      "points": 10,
+      "object": "范围及变更",
+      "criterion": "修订5/14/A5/18，禁止外部补充、训练、营销、境外；事先双签变更，不能通知即可。；新用途应先经甲方内部审批并由双方事先书面变更，与结果权益条款一致。",
+      "check_method": "人工/模型比较N03",
+      "acceptable_alternatives": "可采用不同流程和表述但控制条件不降低。",
+      "evidence_ids": [
+        "N03"
+      ]
+    },
+    {
+      "id": "RUB04",
+      "points": 16,
+      "object": "交付 验收及质量",
+      "criterion": "完整清单后10工作日书面验收，禁默示/使用验收；80k/24品类/99.5%/0.1%/2k测试及5工作日补正，主附件一致。准确率分子为正确字段数，分母为实际核对字段总数；允许明确更细的抽样核验过程。",
+      "check_method": "人工/模型检查N04和R02/R03",
+      "acceptable_alternatives": "抽样表述可以更细；不能用未验收收款替代质量控制。",
+      "evidence_ids": [
+        "N04"
+      ]
+    },
+    {
+      "id": "RUB05",
+      "points": 14,
+      "object": "正常付款数字与依赖",
+      "criterion": "三版本保留并复算；528k/480k/480k，差额48k/0/0，建议96k/240k/144k；条件含生效环境发票、全部验收发票、全部退出证明交接发票，与B1同步。",
+      "check_method": "程序客观数字辅助 + 人工条件判断",
+      "acceptable_alternatives": "误差≤0.01元，百分比≤1e-8；同值公式、布局不同可接受，主文与附件必须同步。",
+      "evidence_ids": [
+        "N05",
+        "C01",
+        "C02",
+        "C03"
+      ]
+    },
+    {
+      "id": "RUB06",
+      "points": 10,
+      "object": "部分验收终止",
+      "criterion": "复算A288k、已付96k、净付192k、返还0；给出仅验收对象价款之和减全部已付公式，禁止进度收费或阶段款重复，退出义务存续。",
+      "check_method": "程序数字辅助 + 人工通用条款判断",
+      "acceptable_alternatives": "净额负则返还的等效公式可接受；付款程序可合理细化。",
+      "evidence_ids": [
+        "N06",
+        "C04"
+      ]
+    },
+    {
+      "id": "RUB07",
+      "points": 8,
+      "object": "转委托",
+      "criterion": "10/B2仍待批准；列明审批信息、义务传导、不再转及乙方责任，境内，监督及退出权。",
+      "check_method": "人工/模型检查N07",
+      "acceptable_alternatives": "依模板连带责任或不低于需求的乙方直接履约责任均可，不能免责或虚构批准。",
+      "evidence_ids": [
+        "N07"
+      ]
+    },
+    {
+      "id": "RUB08",
+      "points": 10,
+      "object": "留存与退出",
+      "criterion": "第11/B3联动；最先触发、返还5工作日普通10工作日备份30自然日隔离证明、强制义务最小例外结束3工作日；尾款依赖全部证明。",
+      "check_method": "人工/模型检查N08",
+      "acceptable_alternatives": "证明字段可不同；不能统一7年或永久备份，不能只删主文。",
+      "evidence_ids": [
+        "N08"
+      ]
+    },
+    {
+      "id": "RUB09",
+      "points": 6,
+      "object": "优先级与同步修改",
+      "criterion": "第18/A5/B4顺序可执行，双签明确变更事项；主文控制商业底线A技术细化，平台政策不自动修改；原冲突真实改掉。台账列明实际数据范围与甲方提供权利、工具许可及运维商资料的签约前确认动作。",
+      "check_method": "人工/模型检查N09",
+      "acceptable_alternatives": "不同明确顺序可接受，只要无权利回流且全部冲突消除。",
+      "evidence_ids": [
+        "N09"
+      ]
+    },
+    {
+      "id": "RUB10",
+      "points": 4,
+      "object": "文件可审阅与轨迹",
+      "criterion": "原生可编辑docx+xlsx，主附件全文及修改轨迹；台账清楚联动与依据，公式不是硬编码合计，无私有泄漏。",
+      "check_method": "OOXML/结构检查 + 人工可用性",
+      "acceptable_alternatives": "Word修订或定点原安排/替换对照均可；不按参考措辞比对。",
+      "evidence_ids": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09"
+      ]
+    }
+  ],
+  "blocking_errors": [
+    "Treat template as signed transaction or claim its commercial options mandatory law",
+    "Leave annex permissions that undermine mandatory R02/R04/R07/R08 controls",
+    "Make full payment automatic on delivery/use/expiry",
+    "Keep wrong110% fees or charge unacceptedB on partial termination"
+  ],
+  "automated_checks_scope": "verify_artifacts.py validates files, formulas and visible arithmetic only; no automatic legal reasoning verifier. Professional rubric is manual/model assessed. Visible field aliases or missing caches are not a substantive legal failure; evaluator may review equivalent layouts manually.",
+  "scoring_contract": {
+    "professional_judge_required": true,
+    "objective_checks": "native file integrity and auditable calculations only",
+    "reference_is_not_exclusive": true,
+    "partial_credit": "award each criterion only for supported correct work; substantive errors lose affected criterion points",
+    "acceptable_alternatives": "same controls or evidence-supported strategy, equivalent formulas, earlier internal targets and different wording accepted"
+  }
+}

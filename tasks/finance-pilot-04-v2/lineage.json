@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "task_id": "finance-pilot-04-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "finance",
+  "family_id": "F13",
+  "title": "AG2612交割前头寸与资金准备",
+  "design": {
+    "task_type": "compliance-review",
+    "operation": "assess",
+    "reasoning_axes": [
+      "stage-dependent-margin",
+      "lot-multiplier-and-parity",
+      "position-limit-and-calendar",
+      "option-expiry-versus-futures-delivery"
+    ],
+    "deliverable_formats": [
+      "csv",
+      "json",
+      "md"
+    ],
+    "difficulty": "hard",
+    "summary": "交易台交割准备：逐方向持仓/订单审查、阶段资金与期权行权压力计算、期限及异常处置。"
+  },
+  "sources": [
+    {
+      "document_id": "F047",
+      "content_hash": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "shfe-silver-futures-20260101:trading-unit-quotation",
+          "locator": "word/document.xml body P6-P8；第三至五条",
+          "purpose": "区分15千克交易乘数与30千克交割单位，人民币/千克报价"
+        },
+        {
+          "unit_key": "shfe-silver-futures-20260101:last-trade-delivery-days",
+          "locator": "word/document.xml body P11、P33-P35；第八、二十一至二十三条",
+          "purpose": "确定模拟期货最后交易日及连续二个工作日交割，并区分期权到期"
+        },
+        {
+          "unit_key": "shfe-silver-futures-20260101:stage-margin-table",
+          "locator": "word/document.xml body P41-P43；第二十七至二十八条、第一表R1-R4C1-C2（数据行1起）",
+          "purpose": "按合约生命周期计算4%、10%、15%、20%保证金"
+        },
+        {
+          "unit_key": "shfe-silver-futures-20260101:directional-limit-table",
+          "locator": "word/document.xml body P45-P48；第三十条、第二表数据行、注释",
+          "purpose": "客户9000/2700/900、非期货公司会员18000/5400/1800逐方向限仓"
+        },
+        {
+          "unit_key": "shfe-silver-futures-20260101:general-position-even-lots",
+          "locator": "word/document.xml body P49；第三十一条",
+          "purpose": "前月最后交易日与交割月持仓、交割月新开平仓2手倍数"
+        },
+        {
+          "unit_key": "shfe-silver-futures-20260101:effective-date",
+          "locator": "word/document.xml body P59；第三十六条",
+          "purpose": "固定2026-01-01生效规则训练情景版本"
+        }
+      ]
+    },
+    {
+      "document_id": "F042",
+      "content_hash": "38623a75604c161a7bf1e3d212db04bb5f0280157f7b891c335a353111a858f7",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "shfe-silver-option-contract:unit-tick",
+          "locator": "HTML content_table表，合约标的物/交易单位/报价单位/最小变动价位行",
+          "purpose": "期权每手映射一手15千克期货、人民币/千克、0.5元tick"
+        },
+        {
+          "unit_key": "shfe-silver-option-contract:expiry-exercise",
+          "locator": "HTML content_table表，最后交易日/到期日/行权方式行",
+          "purpose": "前月倒数第五交易日到期、美式、到期日15:30之前申请"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "finance-pilot-04"
+    ],
+    "root_task_ids": [
+      "finance-pilot-04"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "finance-derivatives"
+    ],
+    "split_group_ids": [
+      "shfe-silver-2026-rules-training-book"
+    ],
+    "changed_dimensions": [
+      "自然业务instruction及全部可见规划输入",
+      "保留原数值/日期flag及原21行动修订",
+      "Harbor0.17.1原生环境/参考解/测试",
+      "客观断言加独立宿主模型逐criterion评分桥",
+      "真实本地挑战与无reward故障处理",
+      "主审日历修复：年度公告核对，内部后台暂停与交易日分列，期权到期及R03/O01–04改Nov24；重算所有受影响结果",
+      "Harbor-native-environment-reference-verifier",
+      "natural-professional-work-request",
+      "actual-artifact-bound-independent-rubric",
+      "actual-local-lifecycle-calibration"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12ba8-1526-7fd2-862c-5aaa62205d39",
+    "producer_id": "/root",
+    "prompt_sha256": "ac8755ab8e3f32f9a45d016579c418f4c3e3af51de669fc4a3cb90b942b0010e",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "skill_sha256": "ee185358bec167644bff20a6dac51c9946c1386317aa48f0e650a2e19d41ef7c",
+    "model": null
+  }
+}

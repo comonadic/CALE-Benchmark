@@ -1,0 +1,169 @@
+{
+  "version": 2,
+  "parent_task": "legal-pilot-01",
+  "parent_path": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-01",
+  "parent_accepted_immutable": true,
+  "construction": "Corporate parties, business project facts, correspondence and conditional schedules were authored for the original pilot. Version2 places authoring provenance here and presents ordinary work requests; no original official PDF was altered and no official endorsement is claimed.",
+  "source_mapping": [
+    {
+      "file": "GF-2025-2616原件.pdf",
+      "old_sha256": "6e33da23c5ae7dfc3f154313ddacc19bc881f60d51e1cc72d646a12863024d7b",
+      "new_sha256": "6e33da23c5ae7dfc3f154313ddacc19bc881f60d51e1cc72d646a12863024d7b",
+      "official_original": true,
+      "byte_preserved": true
+    },
+    {
+      "file": "GF-2025-2616解析.txt",
+      "old_sha256": "df582b08e249bc0ff01e3397cb8de06909bbdc322886ab26a1d1fbedc1b932bf",
+      "new_sha256": "df582b08e249bc0ff01e3397cb8de06909bbdc322886ab26a1d1fbedc1b932bf",
+      "official_original": false,
+      "byte_preserved": true
+    },
+    {
+      "file": "合同主文及附件工作稿_v0.docx",
+      "old_sha256": "df7af01ec30e6d84757c05ba32057b21346f2bb7d9a6d1508a10ae877ed328e9",
+      "new_sha256": "4030bcf3abed13b88cc7920a171f5789098615167835d0f681c972a298cecd4b",
+      "official_original": false,
+      "byte_preserved": false
+    },
+    {
+      "file": "项目需求与谈判授权.md",
+      "old_sha256": "bb34e7333c3b476807ebf7528a804abe3b0292d0e7ea722d0c2635308b1faa3a",
+      "new_sha256": "57fc2cc9a22c42a1f24786d21a2e419a981c3e2708c1956faaec913d236417dc",
+      "official_original": false,
+      "byte_preserved": false
+    }
+  ],
+  "visible_exclusions": [
+    "private evaluation",
+    "solution reference",
+    "challenge files",
+    "old private authoring history"
+  ],
+  "oracle_method": "Runtime copies the privately mounted reference; oracle is not an independent model solution.",
+  "reference_artifacts": [
+    {
+      "path": "solution/reference/修订合同.docx",
+      "sha256": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e"
+    },
+    {
+      "path": "solution/reference/谈判台账.xlsx",
+      "sha256": "0192490ceabd65377444410db58aff8b24d1c20ed4a65f9d2b42f422fd7c7565"
+    }
+  ],
+  "revisions": [
+    {
+      "id": "R2",
+      "changed_at": "2026-10-12T04:40:58.477980+00:00",
+      "changed": [
+        {
+          "path": "solution/reference/修订合同.docx",
+          "before_sha256": "755c8bf35ca305efd1cbc05d729352946332972d4b0ff081a97b111b28001c49",
+          "after_sha256": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e",
+          "changes": [
+            {
+              "before": "A1 结果 A 覆盖全部 80,000 条企业订单及逐条状态和追溯表，不可静默删除失败记录；结果 B 覆盖全部 24 品类并解释归类、异常与处理规则。A2 A 抽取 2,000 条，与甲方原始记录逐字段比对，准确率为核对正确的字段数除以实际核对字段总数，不低于 99.5%；重复率为重复记录条数除以交付 A 总条数，不高于 0.1%。B 全量核对品类覆盖及汇总金额与经核验 A 一致。A3 P1/P2、规则、接口及必要使用说明均为交付清单组成部分，数据权益按第二、三条，工具权利按第十二条。A4 仅为甲方内部分析，不得训练、对外演示或扩展使用。A5 完整交付及书面验收依第六、七条，不因接收、逾期或使用自动验收；修正复验依第八条，技术变更须双方事先书面确认。",
+              "after": "A1 结果 A 覆盖全部 80,000 条企业订单及逐条处理状态、去重理由和追溯表，不可静默删除失败记录；结果 B 覆盖全部 24 品类并解释归类、异常与处理规则。A2 A 随机抽取 2,000 条，与甲方原始记录逐字段比对，准确率为核对正确的字段数除以实际核对字段总数，不低于 99.5%；重复率为重复记录条数除以交付 A 总条数，不高于 0.1%。B 全量核对品类覆盖及汇总金额与经核验 A 一致。A3 P1/P2、规则、接口及必要使用说明均为交付清单组成部分，数据权益按第二、三条，工具权利按第十二条。A4 仅为甲方内部分析，不得训练、对外演示或扩展使用。A5 完整交付及书面验收依第六、七条，不因接收、逾期或使用自动验收；修正复验依第八条，技术变更须双方事先书面确认。"
+            },
+            {
+              "before": "原安排：2天默示验收、使用视为合格；60k/20类/98%冲突。拟替换：80k/24类；99.5%/0.1%；明确2k抽样；完整交付后10工作日书面验收。同步位置：第六至八条；A1/A2/A5；第九条。",
+              "after": "原安排：2天默示验收、使用视为合格；60k/20类/98%冲突。拟替换：80k/24类；99.5%/0.1%；交付逐条处理状态及去重理由；随机抽取2,000条检验；完整交付后10工作日书面验收。同步位置：第六至八条；A1/A2/A5；第九条。"
+            }
+          ]
+        },
+        {
+          "path": "tests/challenges/numeric-wrong/修订合同.docx",
+          "before_sha256": "755c8bf35ca305efd1cbc05d729352946332972d4b0ff081a97b111b28001c49",
+          "after_sha256": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e",
+          "changes": [
+            {
+              "before": "A1 结果 A 覆盖全部 80,000 条企业订单及逐条状态和追溯表，不可静默删除失败记录；结果 B 覆盖全部 24 品类并解释归类、异常与处理规则。A2 A 抽取 2,000 条，与甲方原始记录逐字段比对，准确率为核对正确的字段数除以实际核对字段总数，不低于 99.5%；重复率为重复记录条数除以交付 A 总条数，不高于 0.1%。B 全量核对品类覆盖及汇总金额与经核验 A 一致。A3 P1/P2、规则、接口及必要使用说明均为交付清单组成部分，数据权益按第二、三条，工具权利按第十二条。A4 仅为甲方内部分析，不得训练、对外演示或扩展使用。A5 完整交付及书面验收依第六、七条，不因接收、逾期或使用自动验收；修正复验依第八条，技术变更须双方事先书面确认。",
+              "after": "A1 结果 A 覆盖全部 80,000 条企业订单及逐条处理状态、去重理由和追溯表，不可静默删除失败记录；结果 B 覆盖全部 24 品类并解释归类、异常与处理规则。A2 A 随机抽取 2,000 条，与甲方原始记录逐字段比对，准确率为核对正确的字段数除以实际核对字段总数，不低于 99.5%；重复率为重复记录条数除以交付 A 总条数，不高于 0.1%。B 全量核对品类覆盖及汇总金额与经核验 A 一致。A3 P1/P2、规则、接口及必要使用说明均为交付清单组成部分，数据权益按第二、三条，工具权利按第十二条。A4 仅为甲方内部分析，不得训练、对外演示或扩展使用。A5 完整交付及书面验收依第六、七条，不因接收、逾期或使用自动验收；修正复验依第八条，技术变更须双方事先书面确认。"
+            },
+            {
+              "before": "原安排：2天默示验收、使用视为合格；60k/20类/98%冲突。拟替换：80k/24类；99.5%/0.1%；明确2k抽样；完整交付后10工作日书面验收。同步位置：第六至八条；A1/A2/A5；第九条。",
+              "after": "原安排：2天默示验收、使用视为合格；60k/20类/98%冲突。拟替换：80k/24类；99.5%/0.1%；交付逐条处理状态及去重理由；随机抽取2,000条检验；完整交付后10工作日书面验收。同步位置：第六至八条；A1/A2/A5；第九条。"
+            }
+          ]
+        },
+        {
+          "path": "tests/challenges/acceptable-alternative/修订合同.docx",
+          "before_sha256": "d42c4bf885e8dd9d7f98fb898fb8bfcc9dc8ea42dc40286e1d4185a4870135df",
+          "after_sha256": "64f61b372ed3957e518a675fe06c3b938a9f659658db81411d7881642b4a6003",
+          "changes": [
+            {
+              "before": "A1 结果 A 覆盖全部 80,000 条企业订单及逐条状态和追溯表，不可静默删除失败记录；结果 B 覆盖全部 24 品类并解释归类、异常与处理规则。A2 A 抽取 2,000 条，与甲方原始记录逐字段比对，准确率为核对正确的字段数除以实际核对字段总数，不低于 99.5%；重复率为重复记录条数除以交付 A 总条数，不高于 0.1%。B 全量核对品类覆盖及汇总金额与经核验 A 一致。A3 P1/P2、规则、接口及必要使用说明均为交付清单组成部分，数据权益按第二、三条，工具权利按第十二条。A4 仅为甲方内部分析，不得训练、对外演示或扩展使用。A5 完整交付及书面验收依第六、七条，不因接收、逾期或使用自动验收；修正复验依第八条，技术变更须双方事先书面确认。",
+              "after": "A1 结果 A 覆盖全部 80,000 条企业订单及逐条处理状态、去重理由和追溯表，不可静默删除失败记录；结果 B 覆盖全部 24 品类并解释归类、异常与处理规则。A2 A 随机抽取 2,000 条，与甲方原始记录逐字段比对，准确率为核对正确的字段数除以实际核对字段总数，不低于 99.5%；重复率为重复记录条数除以交付 A 总条数，不高于 0.1%。B 全量核对品类覆盖及汇总金额与经核验 A 一致。A3 P1/P2、规则、接口及必要使用说明均为交付清单组成部分，数据权益按第二、三条，工具权利按第十二条。A4 仅为甲方内部分析，不得训练、对外演示或扩展使用。A5 完整交付及书面验收依第六、七条，不因接收、逾期或使用自动验收；修正复验依第八条，技术变更须双方事先书面确认。"
+            },
+            {
+              "before": "原安排：2天默示验收、使用视为合格；60k/20类/98%冲突。拟替换：80k/24类；99.5%/0.1%；明确2k抽样；完整交付后10工作日书面验收。同步位置：第六至八条；A1/A2/A5；第九条。",
+              "after": "原安排：2天默示验收、使用视为合格；60k/20类/98%冲突。拟替换：80k/24类；99.5%/0.1%；交付逐条处理状态及去重理由；随机抽取2,000条检验；完整交付后10工作日书面验收。同步位置：第六至八条；A1/A2/A5；第九条。"
+            }
+          ]
+        }
+      ],
+      "private_mirror_sha256": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e",
+      "scope": "only two visible requirements explicitly implemented in reference and source-shared DOCX challenges"
+    }
+  ],
+  "fixture_calibration_R3": {
+    "revision_id": "R3-controlled-fixture-calibration",
+    "completed_at": "2026-10-12T04:53:06.174406+00:00",
+    "correct_R2_reference_sha256": {
+      "谈判台账.xlsx": "0192490ceabd65377444410db58aff8b24d1c20ed4a65f9d2b42f422fd7c7565",
+      "修订合同.docx": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e"
+    },
+    "fixture_sha256": {
+      "numeric-wrong": {
+        "谈判台账.xlsx": "eba8970cadeae75bcb230441a425c27a33aca7cc3754c00dc8e6287e46db2aa3",
+        "修订合同.docx": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e"
+      },
+      "semantic-wrong": {
+        "谈判台账.xlsx": "0192490ceabd65377444410db58aff8b24d1c20ed4a65f9d2b42f422fd7c7565",
+        "修订合同.docx": "4030bcf3abed13b88cc7920a171f5789098615167835d0f681c972a298cecd4b"
+      },
+      "acceptable-alternative": {
+        "谈判台账.xlsx": "53ae5093cf1f247701b1bee739ae4bfac4c12291014af4579600fb91dfbb15f5",
+        "修订合同.docx": "64f61b372ed3957e518a675fe06c3b938a9f659658db81411d7881642b4a6003"
+      }
+    },
+    "controls": {
+      "numeric_DOCX_equal_correct_R2_reference": true,
+      "alternative_DOCX_only_tool_approach_paragraph_differs": [
+        25
+      ],
+      "semantic_DOCX_byte_identical_to_visible_unrevised_v0": true,
+      "semantic_control_kind": "intentional bundle-of-errors challenge, not one-error intervention",
+      "semantic_expected_failures": "unrevised data rights, scope, quality, fees, subcontract approval, retention/exit, priority and change trace; omissions here belong to deliberate unchanged v0, not residual R1 reference omissions"
+    },
+    "objective_regression": {
+      "numeric-wrong": {
+        "status": "failed",
+        "exit_code": 1,
+        "facts": {
+          "document_text_length": 5013,
+          "deferred_numeric_checks": []
+        }
+      },
+      "semantic-wrong": {
+        "status": "passed",
+        "exit_code": 0,
+        "facts": {
+          "document_text_length": 2016,
+          "deferred_numeric_checks": []
+        }
+      },
+      "acceptable-alternative": {
+        "status": "passed",
+        "exit_code": 0,
+        "facts": {
+          "document_text_length": 4994,
+          "deferred_numeric_checks": []
+        }
+      }
+    },
+    "02_MD_reconstruction_diffs": null,
+    "unchanged": "all DOCX bytes, all XLSX bytes, public inputs, rubric scoring rules, root task/Docker/verifier and lineage; only02numeric/semantic Markdown fixtures and author calibration metadata changed",
+    "independent_review": "not claimed; author self calibration only"
+  }
+}

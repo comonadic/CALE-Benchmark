@@ -1,0 +1,2512 @@
+{
+  "rubric": {
+    "version": 4,
+    "total_points": 100,
+    "automatic_points": 80,
+    "professional_review_points": 20,
+    "criteria": [
+      {
+        "id": "R01",
+        "points": 20,
+        "automatic_points": 14,
+        "manual_points": 6,
+        "object": "事实、单位、报告期间、实体及引用",
+        "automatic": "Source numeric values in public business named regions; declared amount/share multipliers control normalization. Positive expense inputs accepted with correct subtractive bridge. Narrative-only fee/policy facts remain professionally reviewed.",
+        "manual": "Check physical/printed pages and sections support actual facts, period2025-07-18 to12-31, contract date7-18, units800m, actual无, fund vs project distinction; unsupported or misleading citations lose corresponding points.",
+        "subcriteria": [
+          {
+            "id": "R01a",
+            "points": 14,
+            "method": "native numeric checks",
+            "basis": "F01-F20,F22-F25 as present in model inputs"
+          },
+          {
+            "id": "R01b",
+            "points": 3,
+            "method": "professional review",
+            "basis": "period, entity, units and actual distribution from C01/C05"
+          },
+          {
+            "id": "R01c",
+            "points": 3,
+            "method": "professional review",
+            "basis": "correct physical/printed page/section evidence"
+          }
+        ],
+        "settlement": "min(objective technical upper bound + manual_points, actual independent full criterion score)"
+      },
+      {
+        "id": "R02",
+        "points": 20,
+        "automatic_points": 20,
+        "manual_points": 0,
+        "object": "完整历史桥接与现金核对",
+        "subcriteria": [
+          {
+            "id": "R02a",
+            "points": 10,
+            "basis": "K01-K03 signed full bridge and native source dependencies"
+          },
+          {
+            "id": "R02b",
+            "points": 6,
+            "basis": "K04-K05 project cash and scope difference"
+          },
+          {
+            "id": "R02c",
+            "points": 4,
+            "basis": "independent disclosed controls and zero differences"
+          }
+        ],
+        "acceptable_alternatives": [
+          "SUM or direct addition",
+          "signed raw deductions or positive inputs with subtraction",
+          "reasonable grouping/layout preserving all items"
+        ],
+        "settlement": "min(objective technical upper bound + manual_points, actual independent full criterion score)"
+      },
+      {
+        "id": "R03",
+        "points": 20,
+        "automatic_points": 20,
+        "manual_points": 0,
+        "object": "单一活动模型的输入和公式联动",
+        "subcriteria": [
+          {
+            "id": "R03a",
+            "points": 7,
+            "basis": "three selectors and custom changes"
+          },
+          {
+            "id": "R03b",
+            "points": 7,
+            "basis": "editable inputs, actual-source perturbations, historical invariance"
+          },
+          {
+            "id": "R03c",
+            "points": 6,
+            "basis": "valid0, blank, nonnumeric, range and unselected missing values"
+          }
+        ],
+        "acceptable_alternatives": [
+          "numeric or labeled selector",
+          "equivalent scalar/named formulas",
+          "Any clear semantically correct status wording; assess the actual decision cell for the relevant recalculated case, including invalid inputs and both inclusive boundaries.",
+          "Any clear label wording, arbitrary worksheet/cell and label-value direction, using the public workbook business named-region handoff index.",
+          "Any clear label wording, arbitrary worksheet/cell and label-value direction, using the public workbook business named-region handoff index.",
+          "Any clear label wording, arbitrary worksheet/cell and label-value direction, using the public workbook business named-region handoff index."
+        ],
+        "settlement": "min(objective technical upper bound + manual_points, actual independent full criterion score)",
+        "status_review": "Native status nonemptiness is an upper-bound check only. Independently assess actual meaning using objective event values and case context; do not count words elsewhere."
+      },
+      {
+        "id": "R04",
+        "points": 15,
+        "automatic_points": 13,
+        "manual_points": 2,
+        "object": "双端约束、非正D和预留预算",
+        "subcriteria": [
+          {
+            "id": "R04a",
+            "points": 5,
+            "basis": "90%/100% limits, per unit, states and boundaries"
+          },
+          {
+            "id": "R04b",
+            "points": 4,
+            "basis": "upper/lower margins and D<=0 floors"
+          },
+          {
+            "id": "R04c",
+            "points": 4,
+            "basis": "total and remaining budget numerical checks"
+          },
+          {
+            "id": "R04d",
+            "points": 2,
+            "method": "professional review",
+            "basis": "negative signed budget or zero floor with shortfall is interpreted as infeasibility; budget only tests100% with90% checked separately"
+          }
+        ],
+        "acceptable_alternatives": [
+          "signed budgets and explained deficit",
+          "zero floor plus linked explicit deficit",
+          "final cent rounding within business tolerance",
+          "Any clear semantically correct status wording; assess the actual decision cell for the relevant recalculated case, including invalid inputs and both inclusive boundaries."
+        ],
+        "settlement": "min(objective technical upper bound + manual_points, actual independent full criterion score)",
+        "status_review": "Native status nonemptiness is an upper-bound check only. Independently assess actual meaning using objective event values and case context; do not count words elsewhere."
+      },
+      {
+        "id": "R05",
+        "points": 10,
+        "automatic_points": 10,
+        "manual_points": 0,
+        "object": "15组敏感性真实公式及依赖",
+        "subcriteria": [
+          {
+            "id": "R05a",
+            "points": 5,
+            "basis": "15D and15margin native values"
+          },
+          {
+            "id": "R05b",
+            "points": 5,
+            "basis": "linkage to H/R/P, zero and blank proposed, upstream perturbations and active corresponding points"
+          }
+        ],
+        "acceptable_alternatives": [
+          "Any formula matrix, long table or vertical layout whose30public sensitivity point names identify the15business combinations."
+        ],
+        "settlement": "min(objective technical upper bound + manual_points, actual independent full criterion score)"
+      },
+      {
+        "id": "R06",
+        "points": 10,
+        "automatic_points": 0,
+        "manual_points": 10,
+        "object": "财务建议和专业论证",
+        "subcriteria": [
+          {
+            "id": "R06a",
+            "points": 3,
+            "basis": "base feasible and stress over cap, practical recommendation consistent with both ends"
+          },
+          {
+            "id": "R06b",
+            "points": 3,
+            "basis": "reserve uses, undisclosed breakdown, already deducted fees and transition income accurately treated"
+          },
+          {
+            "id": "R06c",
+            "points": 2,
+            "basis": "2025 actual non-distribution and6month exception distinguished from scenario conditions"
+          },
+          {
+            "id": "R06d",
+            "points": 2,
+            "basis": "static scenario vs complete-year forecast, bank cash and approval; no mechanical annualization of one-offs"
+          }
+        ],
+        "settlement": "min(objective technical upper bound + manual_points, actual independent full criterion score)"
+      },
+      {
+        "id": "R07",
+        "points": 5,
+        "automatic_points": 3,
+        "manual_points": 2,
+        "object": "原生交付及可用性",
+        "subcriteria": [
+          {
+            "id": "R07a",
+            "points": 3,
+            "basis": "XLSX/DOCX open, native formula error scan, DOCX1-4pages",
+            "method": "automatic"
+          },
+          {
+            "id": "R07b",
+            "points": 2,
+            "basis": "legible workbook/docs, clear facts/assumptions, key values traceable, no clipped glyphs",
+            "method": "professional visual review"
+          }
+        ],
+        "settlement": "min(objective technical upper bound + manual_points, actual independent full criterion score)"
+      }
+    ],
+    "tolerance": {
+      "amount_yuan": 0.05,
+      "per_unit_yuan": 1e-08,
+      "ratio": 1e-08
+    },
+    "score_contract": "All seven full criteria (100 points) require actual independent rubric review. Native technical checks cover 80 points as upper bounds. For each criterion, final_score=min(native technical points upper bound + that criterion professional maximum, actual independent rubric score). Professional maxima total20 and are never prefilled or separately added. A normalized objective result is not a final reward or semantic status assessment.",
+    "layout_policy": "The visible model-data-dictionary.md/json is the financial handoff contract. Required workbook-scope names identify arbitrary single cells; no label vocabulary, neighbor direction/distance, sheet name or coordinate is prescribed. All sensitivity combinations use public point names and can appear in any readable matrix/long-table/vertical layout. Missing or malformed required names are normal invalid submissions scored0; financial errors retain actual criterion scoring; trusted-source/code/Office/judge faults are verifier failures with no reward.",
+    "not_automated": [
+      "truth/support of narrative source citations",
+      "entity/period argument quality",
+      "budget business interpretation",
+      "recommendation and law/policy implications",
+      "visual usability beyond native rendering and page count",
+      "meaning of actual active/invalid distribution-status text; no private phrase enumeration"
+    ],
+    "status_semantics": "Evaluate actual decision cells in every recalculated case in objective.events, together with D, proposed, lower/upper bounds or invalid-input context. Any clear correct wording is acceptable. A phrase elsewhere, a negated correct word, or a wrong decision with correct numeric results does not satisfy the state requirement. Both endpoints belong to the permitted interval; an accurate equality description is acceptable. For D<=0 the status must communicate no positive distribution space, even when proposed=0. Missing, nonnumeric or out-of-range active input must communicate unavailability and its reason. Missing unselected inputs must not block a valid active case.",
+    "named_region_handoff": {
+      "version": 1,
+      "purpose": "财务模型交接索引：按稳定业务名称检索、调整活动输入和复核结果，不依赖页面标签及布局。",
+      "named_region_contract": "工作簿级名称，不区分大小写，每个名称直接引用该工作簿现有工作表的一个单元格；不得引用多格区域、外部文件、常量或命名公式。名称可指向任意sheet/cell；业务标签可在数值上方、下方或任意合适位置，措辞自由。",
+      "storage_units": "金额统一用所选存值单位；metric_amount_scale为存值转人民币元的正倍率，metric_share_scale为存值转份数的正倍率。两个倍率可省，默认1，即人民币元和份。例如元/万元/百万元的金额倍率分别1/10000/1000000，份/万份/亿份的份数倍率分别1/10000/100000000。每份金额始终元/份、比例始终0至1小数，不缩放。展示格式可另设但须标单位。",
+      "optional_scales": [
+        {
+          "name": "metric_amount_scale",
+          "default": 1,
+          "meaning": "金额存值转人民币元倍率",
+          "valid_range": "有限正数"
+        },
+        {
+          "name": "metric_share_scale",
+          "default": 1,
+          "meaning": "份额存值转份数倍率",
+          "valid_range": "有限正数"
+        }
+      ],
+      "scalar_fields": [
+        {
+          "key": "np",
+          "name": "metric_np",
+          "meaning": "合并净利润",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号金额"
+        },
+        {
+          "key": "da",
+          "name": "metric_da",
+          "meaning": "折旧和摊销",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "interest",
+          "name": "metric_interest",
+          "meaning": "利息支出",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "tax",
+          "name": "metric_tax",
+          "meaning": "所得税费用",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "ebitda_control",
+          "name": "metric_ebitda_control",
+          "meaning": "披露基金EBITDA",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "披露控制数"
+        },
+        {
+          "key": "wc",
+          "name": "metric_wc",
+          "meaning": "应收应付项目变动",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号调整"
+        },
+        {
+          "key": "other",
+          "name": "metric_other",
+          "meaning": "其他调增项",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "capex",
+          "name": "metric_capex",
+          "meaning": "购买不动产等资本支出",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "可存负调减额，或正支出额并在桥接中扣减"
+        },
+        {
+          "key": "principal",
+          "name": "metric_principal",
+          "meaning": "偿还借款本金",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上"
+        },
+        {
+          "key": "cash_interest_tax",
+          "name": "metric_cash_interest_tax",
+          "meaning": "支付利息及所得税",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上"
+        },
+        {
+          "key": "old_reserve",
+          "name": "metric_old_reserve",
+          "meaning": "原未来支出预留",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上；已包含在历史锚点内"
+        },
+        {
+          "key": "d_control",
+          "name": "metric_d_control",
+          "meaning": "披露可供分配金额",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "披露控制数"
+        },
+        {
+          "key": "revenue",
+          "name": "metric_revenue",
+          "meaning": "项目公司营业收入",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "收入下降驱动；不是基金收入"
+        },
+        {
+          "key": "cash_in",
+          "name": "metric_cash_in",
+          "meaning": "项目经营现金流入",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "cash_out",
+          "name": "metric_cash_out",
+          "meaning": "项目经营现金流出",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负支出金额"
+        },
+        {
+          "key": "cash_control",
+          "name": "metric_cash_control",
+          "meaning": "披露项目经营现金净流量",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "披露控制数"
+        },
+        {
+          "key": "fund_cash",
+          "name": "metric_fund_cash",
+          "meaning": "基金经营现金净流量",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金口径"
+        },
+        {
+          "key": "fund_income",
+          "name": "metric_fund_income",
+          "meaning": "基金本期收入",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金口径"
+        },
+        {
+          "key": "shares",
+          "name": "metric_shares",
+          "meaning": "基金份额总额",
+          "required": true,
+          "role": "source",
+          "unit": "份（存值乘share_scale）",
+          "sign_or_range": "正份数"
+        },
+        {
+          "key": "project_ebitda",
+          "name": "metric_project_ebitda",
+          "meaning": "项目公司EBITDA",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "项目口径"
+        },
+        {
+          "key": "actual_paid",
+          "name": "metric_actual_paid",
+          "meaning": "本期实际分配金额",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "ratio",
+          "name": "metric_ratio",
+          "meaning": "最低分配比例",
+          "required": false,
+          "role": "source",
+          "unit": "比例小数",
+          "sign_or_range": "0至1的小数"
+        },
+        {
+          "key": "management_fee",
+          "name": "metric_management_fee",
+          "meaning": "本期计提基金管理费",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "正费用金额"
+        },
+        {
+          "key": "custody_fee",
+          "name": "metric_custody_fee",
+          "meaning": "本期计提基金托管费",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "正费用金额"
+        },
+        {
+          "key": "operator_fee",
+          "name": "metric_operator_fee",
+          "meaning": "本期计提运营管理费",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "正费用金额"
+        },
+        {
+          "key": "selector",
+          "name": "metric_selector",
+          "meaning": "活动情景选择器",
+          "required": true,
+          "role": "input",
+          "unit": "文字或整数",
+          "sign_or_range": "整数1/2/3，或基准/压力/自定义文字"
+        },
+        {
+          "key": "custom_decline",
+          "name": "metric_custom_decline",
+          "meaning": "自定义收入下降率",
+          "required": true,
+          "role": "input",
+          "unit": "比例小数",
+          "sign_or_range": "0至1，含两端"
+        },
+        {
+          "key": "custom_reserve",
+          "name": "metric_custom_reserve",
+          "meaning": "自定义新增预留",
+          "required": true,
+          "role": "input",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "proposed_input",
+          "name": "metric_proposed_input",
+          "meaning": "拟分配额原始输入",
+          "required": true,
+          "role": "input",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额；0有效；留空不可当作0"
+        },
+        {
+          "key": "D",
+          "name": "metric_D",
+          "meaning": "活动情景原始可供分配金额D",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "保留负值"
+        },
+        {
+          "key": "positive",
+          "name": "metric_positive",
+          "meaning": "活动正向可分配额",
+          "required": false,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负；若与upper是同一业务单元格可省此名称"
+        },
+        {
+          "key": "lower",
+          "name": "metric_lower",
+          "meaning": "90%分配下限",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "upper",
+          "name": "metric_upper",
+          "meaning": "100%分配上限",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "per_unit",
+          "name": "metric_per_unit",
+          "meaning": "正向每份可分配金额",
+          "required": true,
+          "role": "formula",
+          "unit": "元/份，不缩放",
+          "sign_or_range": "元/份，非负"
+        },
+        {
+          "key": "proposed",
+          "name": "metric_proposed",
+          "meaning": "经校验的活动拟分配额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "输入为非负数时采用原输入；0有效；空白、非数值或负值时显示不可用，保留raw输入便于修正。允许名称指向已有校验金额格，不要求新增固定位置。"
+        },
+        {
+          "key": "upper_margin",
+          "name": "metric_upper_margin",
+          "meaning": "拟分配额对上限余量",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "上限减拟分配额；可为负"
+        },
+        {
+          "key": "lower_margin",
+          "name": "metric_lower_margin",
+          "meaning": "拟分配额对下限余量",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "拟分配额减下限；可为负"
+        },
+        {
+          "key": "decision",
+          "name": "metric_decision",
+          "meaning": "活动分配状态及输入不足原因",
+          "required": true,
+          "role": "formula",
+          "unit": "文字或整数",
+          "sign_or_range": "清楚的业务文字，自由措辞"
+        },
+        {
+          "key": "budget",
+          "name": "metric_budget",
+          "meaning": "新增预留总预算",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号预算，或0下界预算加单列缺口"
+        },
+        {
+          "key": "remaining",
+          "name": "metric_remaining",
+          "meaning": "扣除当前新增预留后的剩余空间",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上"
+        },
+        {
+          "key": "budget_gap",
+          "name": "metric_budget_gap",
+          "meaning": "总预算缺口",
+          "required": false,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "采用0下界且总预算原本为负时须提供；非负缺口"
+        },
+        {
+          "key": "remaining_gap",
+          "name": "metric_remaining_gap",
+          "meaning": "剩余预算缺口",
+          "required": false,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "采用0下界且剩余预算原本为负时须提供；非负缺口"
+        },
+        {
+          "key": "historical",
+          "name": "metric_historical",
+          "meaning": "历史复算可供分配金额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号金额"
+        },
+        {
+          "key": "ebitda",
+          "name": "metric_ebitda",
+          "meaning": "复算基金EBITDA",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金合并口径"
+        },
+        {
+          "key": "pre_reserve",
+          "name": "metric_pre_reserve",
+          "meaning": "扣原预留前金额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金合并口径"
+        },
+        {
+          "key": "project_cash",
+          "name": "metric_project_cash",
+          "meaning": "复算项目现金净流量",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "流入减流出"
+        },
+        {
+          "key": "scope_difference",
+          "name": "metric_scope_difference",
+          "meaning": "基金减项目现金净流量差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金减项目，有符号"
+        },
+        {
+          "key": "historical_per_unit",
+          "name": "metric_historical_per_unit",
+          "meaning": "历史可供分配每份金额",
+          "required": false,
+          "role": "formula",
+          "unit": "元/份，不缩放",
+          "sign_or_range": "元/份；可选单列"
+        },
+        {
+          "key": "ebitda_variance",
+          "name": "metric_ebitda_variance",
+          "meaning": "EBITDA复算对披露差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "复算减披露"
+        },
+        {
+          "key": "d_variance",
+          "name": "metric_d_variance",
+          "meaning": "可供分配金额复算对披露差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "复算减披露"
+        },
+        {
+          "key": "cash_variance",
+          "name": "metric_cash_variance",
+          "meaning": "项目现金复算对披露差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "复算减披露"
+        }
+      ],
+      "sensitivity_points": [
+        {
+          "name": "metric_sensitivity_D_d00_r0",
+          "kind": "D",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d00_r0",
+          "kind": "margin",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d00_r500",
+          "kind": "D",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d00_r500",
+          "kind": "margin",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d00_r1000",
+          "kind": "D",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d00_r1000",
+          "kind": "margin",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d05_r0",
+          "kind": "D",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d05_r0",
+          "kind": "margin",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d05_r500",
+          "kind": "D",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d05_r500",
+          "kind": "margin",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d05_r1000",
+          "kind": "D",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d05_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d10_r0",
+          "kind": "D",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d10_r0",
+          "kind": "margin",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d10_r500",
+          "kind": "D",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d10_r500",
+          "kind": "margin",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d10_r1000",
+          "kind": "D",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d10_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d15_r0",
+          "kind": "D",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d15_r0",
+          "kind": "margin",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d15_r500",
+          "kind": "D",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d15_r500",
+          "kind": "margin",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d15_r1000",
+          "kind": "D",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d15_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d20_r0",
+          "kind": "D",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d20_r0",
+          "kind": "margin",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d20_r500",
+          "kind": "D",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d20_r500",
+          "kind": "margin",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d20_r1000",
+          "kind": "D",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d20_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        }
+      ],
+      "sensitivity_layout": "30个业务名称各指向15组合的D或上限余量结果。可以矩阵、长表、纵向分块等任意布局；行列坐标、标题文字和轴与数值距离不限。d00/d05/d10/d15/d20表示收入下降百分数；r0/r500/r1000表示新增预留万元。两类结果必须为真实公式并引用对应业务输入。",
+      "validation": "必需名称缺失、坏引用或重复名称将无法完成模型交接。金额、公式与分配状态需保持业务口径一致；文件或计算环境异常应在交接说明中说明。"
+    }
+  },
+  "evidence_context": {
+    "source_index": {
+      "version": 2,
+      "facts": [
+        {
+          "fact_id": "F01",
+          "entity_id": "508060",
+          "metric": "合并净利润",
+          "raw_value": 23280783.76,
+          "normalized_value": 23280783.76,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "合并净利润：23280783.76"
+        },
+        {
+          "fact_id": "F02",
+          "entity_id": "508060",
+          "metric": "折旧和摊销",
+          "raw_value": 41849395.41,
+          "normalized_value": 41849395.41,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "折旧和摊销：41849395.41"
+        },
+        {
+          "fact_id": "F03",
+          "entity_id": "508060",
+          "metric": "利息支出",
+          "raw_value": 3427256.05,
+          "normalized_value": 3427256.05,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "利息支出：3427256.05"
+        },
+        {
+          "fact_id": "F04",
+          "entity_id": "508060",
+          "metric": "所得税费用",
+          "raw_value": 4242395.02,
+          "normalized_value": 4242395.02,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "所得税费用：4242395.02"
+        },
+        {
+          "fact_id": "F05",
+          "entity_id": "508060",
+          "metric": "披露基金EBITDA",
+          "raw_value": 72799830.24,
+          "normalized_value": 72799830.24,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "披露基金EBITDA：72799830.24"
+        },
+        {
+          "fact_id": "F06",
+          "entity_id": "508060",
+          "metric": "应收和应付项目变动",
+          "raw_value": 60480597.0,
+          "normalized_value": 60480597.0,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "应收和应付项目变动：60480597.0"
+        },
+        {
+          "fact_id": "F07",
+          "entity_id": "508060",
+          "metric": "其他调增项",
+          "raw_value": 2390988185.77,
+          "normalized_value": 2390988185.77,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "其他调增项：2390988185.77"
+        },
+        {
+          "fact_id": "F08",
+          "entity_id": "508060",
+          "metric": "购买不动产等资本性支出",
+          "raw_value": -2186382254.09,
+          "normalized_value": -2186382254.09,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "购买不动产等资本性支出：-2186382254.09"
+        },
+        {
+          "fact_id": "F09",
+          "entity_id": "508060",
+          "metric": "偿还借款本金",
+          "raw_value": -200000000.0,
+          "normalized_value": -200000000.0,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "偿还借款本金：-200000000.0"
+        },
+        {
+          "fact_id": "F10",
+          "entity_id": "508060",
+          "metric": "支付利息及所得税",
+          "raw_value": -7104333.27,
+          "normalized_value": -7104333.27,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "支付利息及所得税：-7104333.27"
+        },
+        {
+          "fact_id": "F11",
+          "entity_id": "508060",
+          "metric": "未来合理相关支出预留",
+          "raw_value": -38723543.66,
+          "normalized_value": -38723543.66,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.2.1"
+          },
+          "source_quote": "未来合理相关支出预留：-38723543.66"
+        },
+        {
+          "fact_id": "F12",
+          "entity_id": "508060",
+          "metric": "披露可供分配金额",
+          "raw_value": 92058481.99,
+          "normalized_value": 92058481.99,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.1.1及3.3.2.1"
+          },
+          "source_quote": "披露可供分配金额：92058481.99"
+        },
+        {
+          "fact_id": "F13",
+          "entity_id": "国金数据科技发展（昆山）有限公司",
+          "metric": "项目公司营业收入",
+          "raw_value": 79972916.47,
+          "normalized_value": 79972916.47,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "project-company",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 18,
+            "printed_page": 17,
+            "section": "4.3.1及4.3.3"
+          },
+          "source_quote": "项目公司营业收入：79972916.47"
+        },
+        {
+          "fact_id": "F14",
+          "entity_id": "国金数据科技发展（昆山）有限公司",
+          "metric": "项目公司EBITDA",
+          "raw_value": 68120799.93,
+          "normalized_value": 68120799.93,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "project-company",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 18,
+            "printed_page": 17,
+            "section": "4.3.1"
+          },
+          "source_quote": "项目公司EBITDA：68120799.93"
+        },
+        {
+          "fact_id": "F15",
+          "entity_id": "国金数据科技发展（昆山）有限公司",
+          "metric": "项目经营现金流入",
+          "raw_value": 213952232.49,
+          "normalized_value": 213952232.49,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "project-company",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 19,
+            "printed_page": 18,
+            "section": "4.4.1"
+          },
+          "source_quote": "项目经营现金流入：213952232.49"
+        },
+        {
+          "fact_id": "F16",
+          "entity_id": "国金数据科技发展（昆山）有限公司",
+          "metric": "项目经营现金流出",
+          "raw_value": 95638012.92,
+          "normalized_value": 95638012.92,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "project-company",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 19,
+            "printed_page": 18,
+            "section": "4.4.1"
+          },
+          "source_quote": "项目经营现金流出：95638012.92"
+        },
+        {
+          "fact_id": "F17",
+          "entity_id": "国金数据科技发展（昆山）有限公司",
+          "metric": "项目经营现金净流量",
+          "raw_value": 118314219.57,
+          "normalized_value": 118314219.57,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "project-company",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 19,
+            "printed_page": 18,
+            "section": "4.4.1"
+          },
+          "source_quote": "项目经营现金净流量：118314219.57"
+        },
+        {
+          "fact_id": "F18",
+          "entity_id": "508060",
+          "metric": "基金经营现金净流量",
+          "raw_value": 126973070.63,
+          "normalized_value": 126973070.63,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 9,
+            "printed_page": 8,
+            "section": "3.1"
+          },
+          "source_quote": "基金经营现金净流量：126973070.63"
+        },
+        {
+          "fact_id": "F19",
+          "entity_id": "508060",
+          "metric": "基金本期收入",
+          "raw_value": 89457272.23,
+          "normalized_value": 89457272.23,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund-consolidated",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 9,
+            "printed_page": 8,
+            "section": "3.1及注1"
+          },
+          "source_quote": "基金本期收入：89457272.23"
+        },
+        {
+          "fact_id": "F20",
+          "entity_id": "508060",
+          "metric": "基金份额总额",
+          "raw_value": 800000000.0,
+          "normalized_value": 800000000.0,
+          "unit": "份",
+          "currency": null,
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 6,
+            "printed_page": 5,
+            "section": "2.1"
+          },
+          "source_quote": "基金份额总额：800000000.0"
+        },
+        {
+          "fact_id": "F21",
+          "entity_id": "508060",
+          "metric": "本期实际分配",
+          "raw_value": "无",
+          "normalized_value": 0,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 10,
+            "printed_page": 9,
+            "section": "3.3.1.2无；物理28页7.2.4未进行利润分配"
+          },
+          "source_quote": "本期实际分配：无"
+        },
+        {
+          "fact_id": "F22",
+          "entity_id": "508060",
+          "metric": "最低分配比例",
+          "raw_value": 0.9,
+          "normalized_value": 0.9,
+          "unit": "fraction",
+          "currency": null,
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund",
+          "role": "reported_policy",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 7,
+            "printed_page": 6,
+            "section": "2.1基金收益分配政策"
+          },
+          "source_quote": "最低分配比例：0.9"
+        },
+        {
+          "fact_id": "F23",
+          "entity_id": "508060",
+          "metric": "本期计提基金管理费",
+          "raw_value": 2196163.56,
+          "normalized_value": 2196163.56,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 11,
+            "printed_page": 10,
+            "section": "3.4.1"
+          },
+          "source_quote": "本期计提基金管理费：2196163.56"
+        },
+        {
+          "fact_id": "F24",
+          "entity_id": "508060",
+          "metric": "本期计提基金托管费",
+          "raw_value": 109807.51,
+          "normalized_value": 109807.51,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "fund",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 11,
+            "printed_page": 10,
+            "section": "3.4.1"
+          },
+          "source_quote": "本期计提基金托管费：109807.51"
+        },
+        {
+          "fact_id": "F25",
+          "entity_id": "国金数据科技发展（昆山）有限公司",
+          "metric": "本期计提运营管理费",
+          "raw_value": 9964029.05,
+          "normalized_value": 9964029.05,
+          "unit": "元",
+          "currency": "CNY",
+          "period_start": "2025-07-18",
+          "period_end": "2025-12-31",
+          "as_of": "2026-03-31",
+          "scope": "project-company",
+          "role": "reported_actual",
+          "document_id": "F025",
+          "locator": {
+            "physical_page": 11,
+            "printed_page": 10,
+            "section": "3.4.1"
+          },
+          "source_quote": "本期计提运营管理费：9964029.05"
+        }
+      ],
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "document_id": "F025",
+          "locator": "physical 6-7 / printed 5-6 / 2.1",
+          "condition": "每年至少一次、现金、不低于90%；生效不满6个月可不分配",
+          "role": "reported_policy"
+        },
+        {
+          "clause_id": "C02",
+          "document_id": "F025",
+          "locator": "physical 10-11 / printed 9-10 / 3.3.2",
+          "condition": "预留用于重大资本性支出、运营费用、管理费、托管费、待缴税；金额分项未披露",
+          "role": "reported_actual"
+        },
+        {
+          "clause_id": "C03",
+          "document_id": "F025",
+          "locator": "physical 10 / printed 9 / 3.3.2.1注2",
+          "condition": "2025-03-31评估基准日起过渡期损益归投资人，已纳入本期可供分配金额",
+          "role": "reported_actual"
+        },
+        {
+          "clause_id": "C04",
+          "document_id": "F025",
+          "locator": "physical 11 / printed 10 / 3.4.1",
+          "condition": "计提三项管理/托管费用已在净利润及可供分配金额扣减",
+          "role": "reported_actual"
+        },
+        {
+          "clause_id": "C05",
+          "document_id": "F025",
+          "locator": "physical 28 / printed 27 / 7.2.4",
+          "condition": "报告期未分配，尚未分配部分按合同适时分配",
+          "role": "reported_actual"
+        }
+      ],
+      "calculations": [
+        {
+          "calc_id": "K01",
+          "expression": "F01+F02+F03+F04",
+          "input_fact_ids": [
+            "F01",
+            "F02",
+            "F03",
+            "F04"
+          ],
+          "result": 72799830.24,
+          "control": "F05",
+          "tolerance_yuan": 0.05
+        },
+        {
+          "calc_id": "K02",
+          "expression": "K01+F06+F07+F08+F09+F10",
+          "result": 130782025.65,
+          "input_fact_ids": [
+            "F06",
+            "F07",
+            "F08",
+            "F09",
+            "F10"
+          ]
+        },
+        {
+          "calc_id": "K03",
+          "expression": "K02+F11",
+          "result": 92058481.99,
+          "control": "F12",
+          "tolerance_yuan": 0.05
+        },
+        {
+          "calc_id": "K04",
+          "expression": "F15-F16",
+          "result": 118314219.57,
+          "control": "F17",
+          "tolerance_yuan": 0.05
+        },
+        {
+          "calc_id": "K05",
+          "expression": "F18-F17",
+          "result": 8658851.06,
+          "scope": "scope_difference_only, composition undisclosed"
+        },
+        {
+          "calc_id": "K06",
+          "expression": "K03/F20",
+          "result": 0.1150731024875,
+          "tolerance_per_unit": 1e-08
+        },
+        {
+          "calc_id": "K07",
+          "expression": "D=K03-F13*decline-extra_reserve; lower=.9*MAX(D,0); upper=MAX(D,0)",
+          "assumptions": "environment/input-data/scenario.json",
+          "expected_cases": [
+            {
+              "name": "基准",
+              "revenue_decline": 0.0,
+              "extra_reserve": 0.0,
+              "D": 92058481.99,
+              "floor90": 82852633.791,
+              "ceiling": 92058481.99,
+              "per_unit": 0.1150731024875,
+              "proposed": 85000000.0,
+              "upper_headroom": 7058481.99,
+              "lower_headroom": 2147366.209,
+              "maximum_extra_reserve": 7058481.99,
+              "remaining_extra_reserve": 7058481.99,
+              "decision": "区间内"
+            },
+            {
+              "name": "压力",
+              "revenue_decline": 0.1,
+              "extra_reserve": 5000000.0,
+              "D": 79061190.343,
+              "floor90": 71155071.3087,
+              "ceiling": 79061190.343,
+              "per_unit": 0.09882648792875,
+              "proposed": 85000000.0,
+              "upper_headroom": -5938809.657,
+              "lower_headroom": 13844928.6913,
+              "maximum_extra_reserve": -938809.657,
+              "remaining_extra_reserve": -5938809.657,
+              "decision": "超过上限"
+            },
+            {
+              "name": "自定义",
+              "revenue_decline": 0.2,
+              "extra_reserve": 10000000.0,
+              "D": 66063898.696,
+              "floor90": 59457508.8264,
+              "ceiling": 66063898.696,
+              "per_unit": 0.08257987337,
+              "proposed": 85000000.0,
+              "upper_headroom": -18936101.304,
+              "lower_headroom": 25542491.1736,
+              "maximum_extra_reserve": -8936101.304,
+              "remaining_extra_reserve": -18936101.304,
+              "decision": "超过上限"
+            }
+          ]
+        },
+        {
+          "calc_id": "K08",
+          "expression": "max_extra=K03-F13*decline-proposed; remaining=D-proposed",
+          "assumptions": "environment/input-data/scenario.json",
+          "negative_meaning": "目标拟分配额已经不可达，不能解释为允许负预留"
+        },
+        {
+          "calc_id": "K09",
+          "expression": "positive=max(D,0); lower=.9*positive; upper=positive; per_unit=positive/800000000",
+          "boundary": "D<=0 retains D and shows no positive distribution space"
+        },
+        {
+          "calc_id": "K10",
+          "expression": "upper_margin=upper-proposed; lower_margin=proposed-lower",
+          "boundary": "0 is valid proposed; blank/text/negative is unavailable"
+        },
+        {
+          "calc_id": "K11",
+          "expression": "budget_signed=H-R*d-proposed; remaining_signed=budget_signed-extra",
+          "acceptable_alternative": "zero floor of each budget with corresponding max(-signed,0) shortfall and explicit infeasibility explanation"
+        },
+        {
+          "calc_id": "K12",
+          "expression": "15 formula sensitivity combinations reference historical H, project R, axis parameters and validated proposed input",
+          "boundary": "empty proposed makes all15 margins unavailable; valid0 updates all15"
+        }
+      ],
+      "claims": [
+        {
+          "id": "J01",
+          "evidence": [
+            "F21",
+            "C01",
+            "C05"
+          ],
+          "conclusion": "2025未实际分配；7月18日至年末未满6个月，不能只凭90%判违约。"
+        },
+        {
+          "id": "J02",
+          "evidence": [
+            "F13",
+            "F19",
+            "F18",
+            "F17"
+          ],
+          "conclusion": "收入、回款、项目与基金现金及可供分配口径不同；不互换也不伪造差额组成。"
+        },
+        {
+          "id": "J03",
+          "evidence": [
+            "F07",
+            "F08",
+            "F09",
+            "C03"
+          ],
+          "conclusion": "发行收购相关一次性项和过渡期损益使简单年化不成立。"
+        }
+      ],
+      "source_recheck": {
+        "executed_at": "2026-10-12T04:14:22Z",
+        "actor": "author",
+        "full_pdf_pages": 99,
+        "all_pages_extractable": true,
+        "physical_pages_reextracted": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          18,
+          19,
+          28
+        ],
+        "physical_pages_visually_reread": [
+          10,
+          11,
+          19,
+          28
+        ],
+        "other_policy_and_entity_pages": "PDF text re-extracted and compared to fixed original/seed records",
+        "source_disclosure_controls_not_hidden_answers": true
+      }
+    },
+    "scoring": {
+      "objective_technical_points_available": 80,
+      "professional_points_available": 20,
+      "full_points": 100,
+      "settlement": "Each criterion=min(objective technical upper bound + professional maximum, actual independent criterion score); sum/100. All criteria require evidence-grounded review.",
+      "status_semantics": "Evaluate actual decision cells in every recalculated case in objective.events, together with D, proposed, lower/upper bounds or invalid-input context. Any clear correct wording is acceptable. A phrase elsewhere, a negated correct word, or a wrong decision with correct numeric results does not satisfy the state requirement. Both endpoints belong to the permitted interval; an accurate equality description is acceptable. For D<=0 the status must communicate no positive distribution space, even when proposed=0. Missing, nonnumeric or out-of-range active input must communicate unavailability and its reason. Missing unselected inputs must not block a valid active case."
+    },
+    "boundaries": [
+      "F025 is fixed official partial2025annual report",
+      "scenario is financial discussion assumptions, not fund manager forecast",
+      "90% lower is policy;100% upper is stated scenario parameter",
+      "signed budget or zero floor with linked deficit accepted",
+      "Report fee/reserve breakdown is not disclosed; do not fabricate"
+    ],
+    "business_handoff_contract": {
+      "version": 1,
+      "purpose": "财务模型交接索引：按稳定业务名称检索、调整活动输入和复核结果，不依赖页面标签及布局。",
+      "named_region_contract": "工作簿级名称，不区分大小写，每个名称直接引用该工作簿现有工作表的一个单元格；不得引用多格区域、外部文件、常量或命名公式。名称可指向任意sheet/cell；业务标签可在数值上方、下方或任意合适位置，措辞自由。",
+      "storage_units": "金额统一用所选存值单位；metric_amount_scale为存值转人民币元的正倍率，metric_share_scale为存值转份数的正倍率。两个倍率可省，默认1，即人民币元和份。例如元/万元/百万元的金额倍率分别1/10000/1000000，份/万份/亿份的份数倍率分别1/10000/100000000。每份金额始终元/份、比例始终0至1小数，不缩放。展示格式可另设但须标单位。",
+      "optional_scales": [
+        {
+          "name": "metric_amount_scale",
+          "default": 1,
+          "meaning": "金额存值转人民币元倍率",
+          "valid_range": "有限正数"
+        },
+        {
+          "name": "metric_share_scale",
+          "default": 1,
+          "meaning": "份额存值转份数倍率",
+          "valid_range": "有限正数"
+        }
+      ],
+      "scalar_fields": [
+        {
+          "key": "np",
+          "name": "metric_np",
+          "meaning": "合并净利润",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号金额"
+        },
+        {
+          "key": "da",
+          "name": "metric_da",
+          "meaning": "折旧和摊销",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "interest",
+          "name": "metric_interest",
+          "meaning": "利息支出",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "tax",
+          "name": "metric_tax",
+          "meaning": "所得税费用",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "ebitda_control",
+          "name": "metric_ebitda_control",
+          "meaning": "披露基金EBITDA",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "披露控制数"
+        },
+        {
+          "key": "wc",
+          "name": "metric_wc",
+          "meaning": "应收应付项目变动",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号调整"
+        },
+        {
+          "key": "other",
+          "name": "metric_other",
+          "meaning": "其他调增项",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "调增金额"
+        },
+        {
+          "key": "capex",
+          "name": "metric_capex",
+          "meaning": "购买不动产等资本支出",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "可存负调减额，或正支出额并在桥接中扣减"
+        },
+        {
+          "key": "principal",
+          "name": "metric_principal",
+          "meaning": "偿还借款本金",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上"
+        },
+        {
+          "key": "cash_interest_tax",
+          "name": "metric_cash_interest_tax",
+          "meaning": "支付利息及所得税",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上"
+        },
+        {
+          "key": "old_reserve",
+          "name": "metric_old_reserve",
+          "meaning": "原未来支出预留",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上；已包含在历史锚点内"
+        },
+        {
+          "key": "d_control",
+          "name": "metric_d_control",
+          "meaning": "披露可供分配金额",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "披露控制数"
+        },
+        {
+          "key": "revenue",
+          "name": "metric_revenue",
+          "meaning": "项目公司营业收入",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "收入下降驱动；不是基金收入"
+        },
+        {
+          "key": "cash_in",
+          "name": "metric_cash_in",
+          "meaning": "项目经营现金流入",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "cash_out",
+          "name": "metric_cash_out",
+          "meaning": "项目经营现金流出",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负支出金额"
+        },
+        {
+          "key": "cash_control",
+          "name": "metric_cash_control",
+          "meaning": "披露项目经营现金净流量",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "披露控制数"
+        },
+        {
+          "key": "fund_cash",
+          "name": "metric_fund_cash",
+          "meaning": "基金经营现金净流量",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金口径"
+        },
+        {
+          "key": "fund_income",
+          "name": "metric_fund_income",
+          "meaning": "基金本期收入",
+          "required": true,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金口径"
+        },
+        {
+          "key": "shares",
+          "name": "metric_shares",
+          "meaning": "基金份额总额",
+          "required": true,
+          "role": "source",
+          "unit": "份（存值乘share_scale）",
+          "sign_or_range": "正份数"
+        },
+        {
+          "key": "project_ebitda",
+          "name": "metric_project_ebitda",
+          "meaning": "项目公司EBITDA",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "项目口径"
+        },
+        {
+          "key": "actual_paid",
+          "name": "metric_actual_paid",
+          "meaning": "本期实际分配金额",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "ratio",
+          "name": "metric_ratio",
+          "meaning": "最低分配比例",
+          "required": false,
+          "role": "source",
+          "unit": "比例小数",
+          "sign_or_range": "0至1的小数"
+        },
+        {
+          "key": "management_fee",
+          "name": "metric_management_fee",
+          "meaning": "本期计提基金管理费",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "正费用金额"
+        },
+        {
+          "key": "custody_fee",
+          "name": "metric_custody_fee",
+          "meaning": "本期计提基金托管费",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "正费用金额"
+        },
+        {
+          "key": "operator_fee",
+          "name": "metric_operator_fee",
+          "meaning": "本期计提运营管理费",
+          "required": false,
+          "role": "source",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "正费用金额"
+        },
+        {
+          "key": "selector",
+          "name": "metric_selector",
+          "meaning": "活动情景选择器",
+          "required": true,
+          "role": "input",
+          "unit": "文字或整数",
+          "sign_or_range": "整数1/2/3，或基准/压力/自定义文字"
+        },
+        {
+          "key": "custom_decline",
+          "name": "metric_custom_decline",
+          "meaning": "自定义收入下降率",
+          "required": true,
+          "role": "input",
+          "unit": "比例小数",
+          "sign_or_range": "0至1，含两端"
+        },
+        {
+          "key": "custom_reserve",
+          "name": "metric_custom_reserve",
+          "meaning": "自定义新增预留",
+          "required": true,
+          "role": "input",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "proposed_input",
+          "name": "metric_proposed_input",
+          "meaning": "拟分配额原始输入",
+          "required": true,
+          "role": "input",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额；0有效；留空不可当作0"
+        },
+        {
+          "key": "D",
+          "name": "metric_D",
+          "meaning": "活动情景原始可供分配金额D",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "保留负值"
+        },
+        {
+          "key": "positive",
+          "name": "metric_positive",
+          "meaning": "活动正向可分配额",
+          "required": false,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负；若与upper是同一业务单元格可省此名称"
+        },
+        {
+          "key": "lower",
+          "name": "metric_lower",
+          "meaning": "90%分配下限",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "upper",
+          "name": "metric_upper",
+          "meaning": "100%分配上限",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "非负金额"
+        },
+        {
+          "key": "per_unit",
+          "name": "metric_per_unit",
+          "meaning": "正向每份可分配金额",
+          "required": true,
+          "role": "formula",
+          "unit": "元/份，不缩放",
+          "sign_or_range": "元/份，非负"
+        },
+        {
+          "key": "proposed",
+          "name": "metric_proposed",
+          "meaning": "经校验的活动拟分配额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "输入为非负数时采用原输入；0有效；空白、非数值或负值时显示不可用，保留raw输入便于修正。允许名称指向已有校验金额格，不要求新增固定位置。"
+        },
+        {
+          "key": "upper_margin",
+          "name": "metric_upper_margin",
+          "meaning": "拟分配额对上限余量",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "上限减拟分配额；可为负"
+        },
+        {
+          "key": "lower_margin",
+          "name": "metric_lower_margin",
+          "meaning": "拟分配额对下限余量",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "拟分配额减下限；可为负"
+        },
+        {
+          "key": "decision",
+          "name": "metric_decision",
+          "meaning": "活动分配状态及输入不足原因",
+          "required": true,
+          "role": "formula",
+          "unit": "文字或整数",
+          "sign_or_range": "清楚的业务文字，自由措辞"
+        },
+        {
+          "key": "budget",
+          "name": "metric_budget",
+          "meaning": "新增预留总预算",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号预算，或0下界预算加单列缺口"
+        },
+        {
+          "key": "remaining",
+          "name": "metric_remaining",
+          "meaning": "扣除当前新增预留后的剩余空间",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "同上"
+        },
+        {
+          "key": "budget_gap",
+          "name": "metric_budget_gap",
+          "meaning": "总预算缺口",
+          "required": false,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "采用0下界且总预算原本为负时须提供；非负缺口"
+        },
+        {
+          "key": "remaining_gap",
+          "name": "metric_remaining_gap",
+          "meaning": "剩余预算缺口",
+          "required": false,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "采用0下界且剩余预算原本为负时须提供；非负缺口"
+        },
+        {
+          "key": "historical",
+          "name": "metric_historical",
+          "meaning": "历史复算可供分配金额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "有符号金额"
+        },
+        {
+          "key": "ebitda",
+          "name": "metric_ebitda",
+          "meaning": "复算基金EBITDA",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金合并口径"
+        },
+        {
+          "key": "pre_reserve",
+          "name": "metric_pre_reserve",
+          "meaning": "扣原预留前金额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金合并口径"
+        },
+        {
+          "key": "project_cash",
+          "name": "metric_project_cash",
+          "meaning": "复算项目现金净流量",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "流入减流出"
+        },
+        {
+          "key": "scope_difference",
+          "name": "metric_scope_difference",
+          "meaning": "基金减项目现金净流量差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "基金减项目，有符号"
+        },
+        {
+          "key": "historical_per_unit",
+          "name": "metric_historical_per_unit",
+          "meaning": "历史可供分配每份金额",
+          "required": false,
+          "role": "formula",
+          "unit": "元/份，不缩放",
+          "sign_or_range": "元/份；可选单列"
+        },
+        {
+          "key": "ebitda_variance",
+          "name": "metric_ebitda_variance",
+          "meaning": "EBITDA复算对披露差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "复算减披露"
+        },
+        {
+          "key": "d_variance",
+          "name": "metric_d_variance",
+          "meaning": "可供分配金额复算对披露差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "复算减披露"
+        },
+        {
+          "key": "cash_variance",
+          "name": "metric_cash_variance",
+          "meaning": "项目现金复算对披露差额",
+          "required": true,
+          "role": "formula",
+          "unit": "人民币元（存值乘amount_scale）",
+          "sign_or_range": "复算减披露"
+        }
+      ],
+      "sensitivity_points": [
+        {
+          "name": "metric_sensitivity_D_d00_r0",
+          "kind": "D",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d00_r0",
+          "kind": "margin",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d00_r500",
+          "kind": "D",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d00_r500",
+          "kind": "margin",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d00_r1000",
+          "kind": "D",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d00_r1000",
+          "kind": "margin",
+          "revenue_decline": 0,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d05_r0",
+          "kind": "D",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d05_r0",
+          "kind": "margin",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d05_r500",
+          "kind": "D",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d05_r500",
+          "kind": "margin",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d05_r1000",
+          "kind": "D",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d05_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.05,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d10_r0",
+          "kind": "D",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d10_r0",
+          "kind": "margin",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d10_r500",
+          "kind": "D",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d10_r500",
+          "kind": "margin",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d10_r1000",
+          "kind": "D",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d10_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.1,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d15_r0",
+          "kind": "D",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d15_r0",
+          "kind": "margin",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d15_r500",
+          "kind": "D",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d15_r500",
+          "kind": "margin",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d15_r1000",
+          "kind": "D",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d15_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.15,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d20_r0",
+          "kind": "D",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d20_r0",
+          "kind": "margin",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 0,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d20_r500",
+          "kind": "D",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d20_r500",
+          "kind": "margin",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 5000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_D_d20_r1000",
+          "kind": "D",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合的原始D",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        },
+        {
+          "name": "metric_sensitivity_margin_d20_r1000",
+          "kind": "margin",
+          "revenue_decline": 0.2,
+          "extra_reserve_yuan": 10000000,
+          "meaning": "该组合拟分配额对100%上限余量",
+          "unit": "人民币元（存值乘amount_scale）",
+          "required": true
+        }
+      ],
+      "sensitivity_layout": "30个业务名称各指向15组合的D或上限余量结果。可以矩阵、长表、纵向分块等任意布局；行列坐标、标题文字和轴与数值距离不限。d00/d05/d10/d15/d20表示收入下降百分数；r0/r500/r1000表示新增预留万元。两类结果必须为真实公式并引用对应业务输入。",
+      "validation": "必需名称缺失、坏引用或重复名称将无法完成模型交接。金额、公式与分配状态需保持业务口径一致；文件或计算环境异常应在交接说明中说明。"
+    }
+  }
+}

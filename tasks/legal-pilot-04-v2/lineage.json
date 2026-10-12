@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "task_id": "legal-pilot-04-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "law",
+  "family_id": "L11",
+  "title": "九有信息披露处罚：金额勾稽与责任证据核查",
+  "design": {
+    "task_type": "evidence-analysis",
+    "operation": "reconcile",
+    "reasoning_axes": [
+      "finding-vs-defense",
+      "total-profit-vs-net-profit",
+      "rounded-ratio-inversion",
+      "same-amount-not-double-counting",
+      "individual-role-and-sanction-boundary"
+    ],
+    "deliverable_formats": [
+      "xlsx",
+      "docx"
+    ],
+    "difficulty": "hard",
+    "summary": "仅以〔2026〕9号处罚决定为公开事后来源，复核跨年虚增指标和比例、列出可反推金额区间，建立八人事实—申辩—监管评价—处罚矩阵，并审改显式合成的内部错误核查稿。"
+  },
+  "sources": [
+    {
+      "document_id": "L041",
+      "content_hash": "0357bd3dcd783574afb5a052662f699b494ae7e394ddccbd54bf459ba8eac630",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "CSRC-2026-9/findings-and-sanctions",
+          "locator": "HTML经查明一、二；陈述申辩与复核；处罚及禁入段",
+          "purpose": "仅以〔2026〕9号处罚决定为公开事后来源，复核跨年虚增指标和比例、列出可反推金额区间，建立八人事实—申辩—监管评价—处罚矩阵，并审改显式合成的内部错误核查稿。"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "legal-pilot-04"
+    ],
+    "root_task_ids": [
+      "legal-pilot-04"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "law-securities"
+    ],
+    "split_group_ids": [
+      "CSRC-2026-9"
+    ],
+    "changed_dimensions": [
+      "natural-professional-request",
+      "agent-visible-input-editing",
+      "native-Harbor-paths",
+      "reference-role-precision",
+      "evidence-based-professional-grading",
+      "challenge-artifacts",
+      "portable_public_digest_complete_environment_recipe",
+      "trusted_input_integrity_and_candidate_format_boundaries"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12e44-1329-7413-8657-554bf9749953",
+    "producer_id": "/root/harbor_author_03_04",
+    "prompt_sha256": "25ff6adb0ffb64f5f4b598d0ad49412306f672efc40c28ce107efa5e096dfcaa",
+    "skill_sha256": "38770617b8664564b9c6a65250129c8a6e29c0037e10aa4bed5c3c5978a17803",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "model": null
+  }
+}

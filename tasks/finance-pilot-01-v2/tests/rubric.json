@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "total_points": 100,
+  "automatic_points": 80,
+  "external_semantic_points": 20,
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "points": 20,
+      "object": "原件取数、期间、合并范围、单位系数和来源页",
+      "method": "executable source/formula/scenario evaluation",
+      "detail": "逐项72事实：金额12分、期间/范围/单位5分、有效来源页3分"
+    },
+    {
+      "criterion_id": "R2",
+      "points": 25,
+      "object": "两期完整利润-CFO公式与独立控制",
+      "method": "executable source/formula/scenario evaluation",
+      "detail": "CFO与34个单项扰动12分；比率/差额/同比8分；主表及归属分类控制5分"
+    },
+    {
+      "criterion_id": "R3",
+      "points": 15,
+      "object": "同比贡献、分组和绝对前三排名",
+      "method": "executable source/formula/scenario evaluation",
+      "detail": "17项逐年差与三组勾稽10分；业务分组3分；前三排名2分"
+    },
+    {
+      "criterion_id": "R4",
+      "points": 10,
+      "object": "存货毛额、准备、净额和存货调整桥",
+      "method": "executable source/formula/scenario evaluation",
+      "detail": "逐指标数值、公式、两组真实输入扰动；净额/毛额差额与准备复算"
+    },
+    {
+      "criterion_id": "R5",
+      "points": 8,
+      "object": "应收、应付与合同负债复算",
+      "method": "executable source/formula/scenario evaluation",
+      "detail": "AR毛额/准备/净额变化、AR/AP残差、CL分项/总额变化和公式扰动"
+    },
+    {
+      "criterion_id": "R6",
+      "points": 2,
+      "object": "文件与业务交接索引可用性",
+      "method": "executable source/formula/scenario evaluation",
+      "detail": "可读MD1分，非歧义、可发现的交接表1分；文字正确性不在此自动判定"
+    },
+    {
+      "criterion_id": "M1",
+      "points": 5,
+      "object": "现金转换与贡献解释",
+      "method": "actual independent human/model artifact reading",
+      "evidence_constrained_rubric": "两年CFO/NP比率提高与CFO下降的关系；前三贡献方向及组合；算术贡献与实际收付款/经营因果分开。以原件p82/85/181与实际公式结果检验；不按词语出现评分。"
+    },
+    {
+      "criterion_id": "M2",
+      "points": 5,
+      "object": "存货准备关系与采购现金边界",
+      "method": "actual independent human/model artifact reading",
+      "evidence_constrained_rubric": "p140准备滚动和净/毛额差额关系；p181间接法调整与采购付款区别；转回或转销未拆分。正确的符号定义、万元/百万元和等价算术桥可接受。"
+    },
+    {
+      "criterion_id": "M3",
+      "points": 7,
+      "object": "应收应付、合同负债与具体取证",
+      "method": "actual independent human/model artifact reading",
+      "evidence_constrained_rubric": "单一科目余额与经营性项目广义范围；p163资本性质仅为部分期末存量；AR/AP残差保留；p165合同负债存量变化与收款/结转的关系；至少两项有期间、明细和验证对象的取证请求。拒绝编造全对平或交易事实。"
+    },
+    {
+      "criterion_id": "M4",
+      "points": 3,
+      "object": "备忘录证据与职业可用性",
+      "method": "actual independent human/model artifact reading",
+      "evidence_constrained_rubric": "实际阅读MD；事实/计算/判断分清；页码可支持句子且对应实际XLSX位置；说明和结论内部一致、可读。引用错页、改名后旧位置或无支持结论按具体影响扣分。"
+    }
+  ],
+  "tolerances": {
+    "CNY_yuan": "0.02",
+    "ratios": "0.000001"
+  },
+  "reasonable_alternatives": [
+    "Any sheet names, table positions, formula arrangement and display styles",
+    "Disclosed original NP facts entered as numeric inputs; all derived metrics retain formulas and materially depend on actual source inputs",
+    "SUMPRODUCT, named/absolute/range/ordinary lookup formulas; unsupported interpreter formula falls back to real LibreOffice",
+    "Million-yuan/ten-thousand-yuan display retains full precision",
+    "Opposite residual direction with declared signed normalization coefficient",
+    "Subdivide non-WC class while retaining all 17 amounts exactly once and aggregate definitions"
+  ],
+  "scoring_policy": "No default professional prose credit. Unreviewed M1–M4 remain pending and earn0; scores report automatic and semantic separately. External adjudication must actually read current artifacts and bind artifact/input/rubric/verifier hashes or the agreed host request digest. A hash is an integrity key, never a reference-answer whitelist. Oracle execution is not independent model completion.",
+  "source": {
+    "document_id": "F003",
+    "pages": [
+      7,
+      31,
+      77,
+      78,
+      82,
+      85,
+      128,
+      140,
+      163,
+      165,
+      181
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "version": 2,
+  "author_id": "/root/harbor_finance_author_04",
+  "facts": [
+    {
+      "fact_id": "E01",
+      "document_id": "F047",
+      "locator": "第3-5条；XML body P6-P8",
+      "normalized_value": "15千克/手；人民币元/千克；期货tick 1元/千克",
+      "role": "exchange_rule",
+      "source_sha256": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee"
+    },
+    {
+      "fact_id": "E02",
+      "document_id": "F047",
+      "locator": "第8条P11、第21-23条P33-P35",
+      "normalized_value": "期货最后交易日交割月15日；交割单位30千克；最后交易日后连续二个工作日交割",
+      "role": "exchange_rule",
+      "source_sha256": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee"
+    },
+    {
+      "fact_id": "E03",
+      "document_id": "F047",
+      "locator": "第27-28条P41-P43，第一表R1-R4",
+      "normalized_value": "保证金4%、10%、15%、20%，依次挂牌、前月首交易日、交割月首交易日、最后交易日前二交易日起",
+      "role": "exchange_rule",
+      "source_sha256": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee"
+    },
+    {
+      "fact_id": "E04",
+      "document_id": "F047",
+      "locator": "第30条P45-P48，第二表R2表头/R3数据/注",
+      "normalized_value": "客户9000/2700/900，非期货公司会员18000/5400/1800；单向计算",
+      "role": "exchange_rule",
+      "source_sha256": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee"
+    },
+    {
+      "fact_id": "E05",
+      "document_id": "F047",
+      "locator": "第31条P49",
+      "normalized_value": "前月最后交易日收盘前每编码一般持仓2手倍数；进入交割月持仓及新开/平仓2手倍数",
+      "role": "exchange_rule",
+      "source_sha256": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee"
+    },
+    {
+      "fact_id": "E06",
+      "document_id": "F047",
+      "locator": "第36条P59",
+      "normalized_value": "2026-01-01实施",
+      "role": "exchange_rule",
+      "source_sha256": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee"
+    },
+    {
+      "fact_id": "E07",
+      "document_id": "F042",
+      "locator": "content_table：合约标的物/交易单位/报价单位/最小变动价位行",
+      "normalized_value": "标的15千克；1手期货；人民币元/千克；0.5元/千克",
+      "role": "exchange_rule",
+      "source_sha256": "38623a75604c161a7bf1e3d212db04bb5f0280157f7b891c335a353111a858f7"
+    },
+    {
+      "fact_id": "E08",
+      "document_id": "F042",
+      "locator": "content_table：最后交易日/到期日/行权方式行",
+      "normalized_value": "前月倒数第五交易日到期；美式；到期日15:30之前行权/放弃；到期前交易时间可行权",
+      "role": "exchange_rule",
+      "source_sha256": "38623a75604c161a7bf1e3d212db04bb5f0280157f7b891c335a353111a858f7"
+    },
+    {
+      "fact_id": "A01",
+      "document_id": null,
+      "locator": "scenario_assumptions.json；planning_calendar.csv",
+      "normalized_value": "内部计划快照；毛额保证金；独立快照；基准交易日与内部值守分列，Nov24交易；资金规划暂不计额外调整",
+      "role": "planning_assumption",
+      "source_sha256": null
+    },
+    {
+      "fact_id": "A02",
+      "document_id": null,
+      "locator": "scenario_assumptions.json；option_requests.csv",
+      "normalized_value": "按strike生成多/空，按S结算新增VM；权利金已付、不同批次；R03/R11合并有效请求",
+      "role": "planning_assumption",
+      "source_sha256": null
+    },
+    {
+      "fact_id": "A03",
+      "document_id": null,
+      "locator": "scenario_assumptions.json；proposed_trade_plans.csv",
+      "normalized_value": "TP独立、不进入基线/行权资金；TP04收盘前完成；异常纠错路径待确认",
+      "role": "planning_assumption",
+      "source_sha256": null
+    },
+    {
+      "fact_id": "E09",
+      "document_id": "calendar-2026-notice",
+      "locator": "年度公告七项休市安排；calendar-notice-basis.md",
+      "normalized_value": "公告无11/12月节假日休市区间；11/12月基准工作周推算，未来临时变化另核；内部后台不改变交易日",
+      "role": "official_notice_summary_and_baseline_assumption",
+      "source_url": "https://www.shfe.cn/publicnotice/notice/202512/t20251217_829805.html"
+    }
+  ],
+  "calculations": [
+    {
+      "calc_id": "C-BASE",
+      "expression": "VM=(L-S)*(P-Pprev)*15; E=Eprev+VM; M=(L+S)*P*15*r; top_up=max(M-E,0)",
+      "input_fact_ids": [
+        "E01",
+        "E03",
+        "A01"
+      ],
+      "unit": "CNY",
+      "rounding": "two decimal places",
+      "tolerance_cny": 0.01
+    },
+    {
+      "calc_id": "C-LIMIT",
+      "expression": "excess_L=max(L-limit,0); excess_S=max(S-limit,0)",
+      "input_fact_ids": [
+        "E04"
+      ],
+      "unit": "lots",
+      "tolerance": 0
+    },
+    {
+      "calc_id": "C-OPTION",
+      "expression": "call +L at K / put +S at K; VMnew=(Lnew-Snew)*(P-K)*15; rerun gross M and directional limits",
+      "input_fact_ids": [
+        "E01",
+        "E03",
+        "E04",
+        "E07",
+        "E08",
+        "A02"
+      ],
+      "unit": "CNY/lots",
+      "tolerance_cny": 0.01
+    },
+    {
+      "calc_id": "C-CALENDAR",
+      "expression": "expiry=November fifth last baseline trading day=Nov24 (Nov30/27/26/25/24); last futures=Dec15; stage20=Dec11; delivery=Dec16/17. Internal desk pause excluded from statutory count.",
+      "input_fact_ids": [
+        "E02",
+        "E03",
+        "E08",
+        "A01",
+        "E09"
+      ],
+      "unit": "date",
+      "tolerance": 0
+    },
+    {
+      "calc_id": "C-PARITY",
+      "expression": "Nov30 close: L%2=S%2=0; December each nonzero open/close quantity %2=0; odd+even remains odd",
+      "input_fact_ids": [
+        "E05",
+        "A03"
+      ],
+      "unit": "boolean",
+      "tolerance": 0
+    },
+    {
+      "calc_id": "C-TICK",
+      "expression": "0.5*15=7.5 per lot; q*7.5 for quote quantity; quote multiple of0.5",
+      "input_fact_ids": [
+        "E01",
+        "E07"
+      ],
+      "unit": "CNY",
+      "tolerance_cny": 0.01
+    }
+  ],
+  "reference_artifacts": [
+    "reference/risk_ledger.csv",
+    "reference/funding_results.json",
+    "reference/action_memo.md"
+  ],
+  "raw_readback_evidence": "../authoring/source-readback.json",
+  "source_scope_note": "原DOCX条款/XML表行与原HTML合同表为规范；头寸、价格、权益与日历是资金规划参数，均为独立快照。",
+  "locator_definitions": {
+    "F047": "Pn/TABLEn中的n是原DOCX word/document.xml内w:body直接子节点的0-based块索引，段落和表格一起计数；P表示该块为段落。不是页码、条款编号，也不是仅按段落顺序的连续编号。TABLE内Rn是0-based表格行索引。",
+    "F042": "HTML content_table表格行标题；不使用伪造页码。"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "fixed-fact-numeric-error",
+  "mutations": [
+    {
+      "file": "evidence-ledger.csv",
+      "id": "E2",
+      "field": "publication_date",
+      "before": "2007-06-14",
+      "after": "2006-06-14"
+    }
+  ],
+  "expected_objective": "failed",
+  "expected_professional": "R01/R02 date-chain deduction; other work evaluated on its merits"
+}

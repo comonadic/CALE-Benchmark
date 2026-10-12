@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "task_id": "legal-pilot-02-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "law",
+  "family_id": "L12",
+  "title": "贸仲2024规则：被申请人程序路线与期限台账",
+  "design": {
+    "task_type": "procedural-planning",
+    "operation": "plan",
+    "reasoning_axes": [
+      "service-and-trigger",
+      "ordinary-vs-summary-procedure",
+      "counterclaim-and-jurisdiction",
+      "conditional-vs-fixed-deadlines",
+      "calendar-recomputation"
+    ],
+    "deliverable_formats": [
+      "xlsx",
+      "md"
+    ],
+    "difficulty": "hard",
+    "summary": "基于明示的合成国内普通程序仲裁通知和事件，计算答辩反请求、仲裁员选择、开庭及裁决更正等期限，分开确定期限与条件触发事项并提出可执行程序安排。"
+  },
+  "sources": [
+    {
+      "document_id": "L007",
+      "content_hash": "4a8fe6fa519e3d8663aa72d70ce5ccd15f85368fcf181f823326a1fa57739507",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "CIETAC-2024/article-8-service-start",
+          "locator": "PDF physical p16-17, Article 8",
+          "purpose": "Determine valid service and next-day start; distinguish scenario calendar assumption."
+        },
+        {
+          "unit_key": "CIETAC-2024/articles-6-26-27-31-32-objections-appointment-challenge",
+          "locator": "PDF Article 6 p15-16; Articles 26-27 p27-28; Articles 31-32 p30-32",
+          "purpose": "Event-before jurisdiction deadline, appointment deadlines and challenge triggers."
+        },
+        {
+          "unit_key": "CIETAC-2024/articles-59-75-domestic-and-summary",
+          "locator": "PDF physical p45-50, Articles 59-75",
+          "purpose": "Domestic 20-day defense/counterclaim, domestic hearing and award deadlines, summary applicability and conversion."
+        },
+        {
+          "unit_key": "CIETAC-2024/articles-56-57-correction-supplement",
+          "locator": "PDF physical p44-45, Articles 56-57",
+          "purpose": "Different party request and tribunal decision deadlines for clerical correction and omitted claims."
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "legal-pilot-02"
+    ],
+    "root_task_ids": [
+      "legal-pilot-02"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "L007"
+    ],
+    "split_group_ids": [
+      "CIETAC-2024"
+    ],
+    "changed_dimensions": [
+      "native_harbor_packaging",
+      "professional_request_and_visible_inputs",
+      "source_role_separation",
+      "reference_and_rubric_consistency",
+      "professional_judge_and_substantive_challenges",
+      "portable_public_digest_complete_environment_recipe",
+      "trusted_input_integrity_and_candidate_format_boundaries",
+      "original_layout_and_recalculated_value_evidence_roles"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12ba8-3248-7871-b7fe-580423c41d2d",
+    "producer_id": "/root/harbor_author_01_02",
+    "prompt_sha256": "25ff6adb0ffb64f5f4b598d0ad49412306f672efc40c28ce107efa5e096dfcaa",
+    "skill_sha256": "38770617b8664564b9c6a65250129c8a6e29c0037e10aa4bed5c3c5978a17803",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "model": null
+  }
+}

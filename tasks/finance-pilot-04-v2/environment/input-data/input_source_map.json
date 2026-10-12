@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "source_cutoff": "2026-10-11",
+  "sources": [
+    {
+      "document_id": "F047",
+      "original_file": "F047-original.docx",
+      "original_url": "https://www.shfe.cn/regulation/exchangerules/productrules/202512/P020251231384975354063.docx",
+      "sha256": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee",
+      "role": "exchange_rule",
+      "readable_copy": "F047-readable.txt"
+    },
+    {
+      "document_id": "F042",
+      "original_file": "F042-original.html",
+      "original_url": "https://www.shfe.cn/products/option/ferrousandpreciousmetal/ag_o/standard_ag_o/202312/t20231205_331333.html",
+      "sha256": "38623a75604c161a7bf1e3d212db04bb5f0280157f7b891c335a353111a858f7",
+      "role": "exchange_rule",
+      "readable_copy": "F042-readable.txt"
+    }
+  ],
+  "note": "F047/F042为规则文件；其余底稿用于AG2612交割准备的头寸、资金与排程。快照独立审查。",
+  "business_inputs": [
+    "futures_snapshots.csv",
+    "option_requests.csv",
+    "proposed_trade_plans.csv",
+    "proposed_option_quotes.csv",
+    "planning_calendar.csv",
+    "scenario_assumptions.json",
+    "data_dictionary.md",
+    "output_schema.md",
+    "calendar-notice-basis.md"
+  ],
+  "calendar_reference": {
+    "title": "上海期货交易所关于2026年休市安排的公告",
+    "url": "https://www.shfe.cn/publicnotice/notice/202512/t20251217_829805.html",
+    "published": "2025-12-17",
+    "local_summary": "calendar-notice-basis.md",
+    "role": "official_notice_summary_and_explicit_baseline_derivation",
+    "raw_download_status": "not_available; public source text verified through web tool"
+  }
+}

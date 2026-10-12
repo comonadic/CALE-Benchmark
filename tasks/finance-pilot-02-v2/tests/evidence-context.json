@@ -1,0 +1,2089 @@
+{
+  "verified_facts": [
+    {
+      "check_id": "I01",
+      "draft_id": "D01",
+      "check": "发行人法定名称",
+      "value_type": "text",
+      "expected": "中国工商银行股份有限公司",
+      "unit": "text",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            8
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C01",
+      "choices": "",
+      "action": "retain",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "I02",
+      "draft_id": "D01",
+      "check": "第四期资本层级和募集用途",
+      "value_type": "enum",
+      "expected": "AT1",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "criterion_id": "C01",
+      "choices": "CET1 / AT1 / T2 / TLAC_NONCAPITAL",
+      "action": "revise",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "I03",
+      "draft_id": "D01",
+      "check": "第五期资本层级和募集用途",
+      "value_type": "enum",
+      "expected": "T2",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "criterion_id": "C01",
+      "choices": "CET1 / AT1 / T2 / TLAC_NONCAPITAL",
+      "action": "revise",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "I04",
+      "draft_id": "D01",
+      "check": "第五期募集用途金额口径",
+      "value_type": "enum",
+      "expected": "net_of_fees",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "criterion_id": "C01",
+      "choices": "gross / net_of_fees",
+      "action": "revise",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "S01",
+      "draft_id": "D02",
+      "check": "第四期募集说明书发行规模",
+      "value_type": "number",
+      "expected": 200,
+      "unit": "CNY_100M",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S02",
+      "draft_id": "D02",
+      "check": "所附资料能否确认第四期发行完成",
+      "value_type": "enum",
+      "expected": "not_confirmed",
+      "unit": "enum",
+      "evidence_role": "not_confirmed",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            8,
+            14,
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "confirmed / not_confirmed",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S03",
+      "draft_id": "D02",
+      "check": "第五期基本发行规模",
+      "value_type": "number",
+      "expected": 400,
+      "unit": "CNY_100M",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S04",
+      "draft_id": "D02",
+      "check": "第五期超额增发申购倍数门槛",
+      "value_type": "number",
+      "expected": 1.4,
+      "unit": "multiple",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S05",
+      "draft_id": "D02",
+      "check": "达到门槛后增发方式",
+      "value_type": "enum",
+      "expected": "issuer_option",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "automatic / issuer_option",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S06",
+      "draft_id": "D02",
+      "check": "第五期最大增发金额",
+      "value_type": "number",
+      "expected": 200,
+      "unit": "CNY_100M",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S07",
+      "draft_id": "D02",
+      "check": "第五期按条款许可的最大发行规模",
+      "value_type": "number",
+      "expected": 600,
+      "unit": "CNY_100M",
+      "evidence_role": "calculation",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S08",
+      "draft_id": "D02",
+      "check": "后发债务披露中8月T2簿记发行日期",
+      "value_type": "date",
+      "expected": "2026-08-18",
+      "unit": "date",
+      "evidence_role": "disclosed_event",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            149
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S09",
+      "draft_id": "D02",
+      "check": "该8月T2簿记发行规模",
+      "value_type": "number",
+      "expected": 600,
+      "unit": "CNY_100M",
+      "evidence_role": "disclosed_event",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            149
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S10",
+      "draft_id": "D02",
+      "check": "该簿记段与第五期的身份关联证据强度",
+      "value_type": "enum",
+      "expected": "supported_inference",
+      "unit": "enum",
+      "evidence_role": "inference",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            149
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            8,
+            14
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "explicit_named_identity / supported_inference / no_support",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S11",
+      "draft_id": "D02",
+      "check": "所附资料能否确认第五期缴款完成及当前存续额",
+      "value_type": "enum",
+      "expected": "not_confirmed",
+      "unit": "enum",
+      "evidence_role": "not_confirmed",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            149
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "confirmed / not_confirmed",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "S12",
+      "draft_id": "D02",
+      "check": "实际全场申购倍数是否可由披露600亿元直接确定",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "inference",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        },
+        {
+          "document_id": "F011",
+          "pages": [
+            149
+          ]
+        }
+      ],
+      "criterion_id": "C02",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M01",
+      "draft_id": "D03",
+      "check": "第四期是否存在固定到期日",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": true,
+      "points": 1.0
+    },
+    {
+      "check_id": "M02",
+      "draft_id": "D03",
+      "check": "第五期原始期限",
+      "value_type": "number",
+      "expected": 10,
+      "unit": "year",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M03",
+      "draft_id": "D03",
+      "check": "第五期未赎回兑付日",
+      "value_type": "date",
+      "expected": "2036-08-20",
+      "unit": "date",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M04",
+      "draft_id": "D03",
+      "check": "第五期行使第5年赎回时被赎回部分兑付日",
+      "value_type": "date",
+      "expected": "2031-08-20",
+      "unit": "date",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M05",
+      "draft_id": "D04",
+      "check": "两类债券赎回是否为发行人义务",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": true,
+      "points": 1.0
+    },
+    {
+      "check_id": "M06",
+      "draft_id": "D04",
+      "check": "两类债券赎回是否需要监管认可",
+      "value_type": "bool",
+      "expected": true,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M07",
+      "draft_id": "D04",
+      "check": "赎回的替换资本或赎回后资本条件",
+      "value_type": "enum",
+      "expected": "sustainable_same_or_better_capital_OR_materially_above_requirements",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "sustainable_same_or_better_capital_OR_materially_above_requirements / unconditional / both_conditions_required",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M08",
+      "draft_id": "D04",
+      "check": "第四期正常可赎回日安排",
+      "value_type": "enum",
+      "expected": "annual_distribution_after_year5",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "only_year5 / annual_distribution_after_year5 / anytime",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M09",
+      "draft_id": "D04",
+      "check": "第四期不可预计监管规则变化不再计入AT1时赎回范围",
+      "value_type": "enum",
+      "expected": "all_only",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "partial_or_all / all_only / no_redemption",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M10",
+      "draft_id": "D04",
+      "check": "第五期有条件赎回权设置次数",
+      "value_type": "number",
+      "expected": 1,
+      "unit": "count",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M11",
+      "draft_id": "D04",
+      "check": "第五期赎回公告最少提前时间",
+      "value_type": "number",
+      "expected": 1,
+      "unit": "month",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "M12",
+      "draft_id": "D04",
+      "check": "两类债券是否有持有人回售权",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            13
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "criterion_id": "C03",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 1.0
+    },
+    {
+      "check_id": "D01",
+      "draft_id": "D05",
+      "check": "第四期发行首日",
+      "value_type": "date",
+      "expected": "2026-09-08",
+      "unit": "date",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D02",
+      "draft_id": "D05",
+      "check": "第四期发行截止及缴款起息日",
+      "value_type": "date",
+      "expected": "2026-09-10",
+      "unit": "date",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D03",
+      "draft_id": "D05",
+      "check": "第四期首个利率重置日",
+      "value_type": "date",
+      "expected": "2031-09-10",
+      "unit": "date",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D04",
+      "draft_id": "D05",
+      "check": "第五期发行首日与簿记日",
+      "value_type": "date",
+      "expected": "2026-08-18",
+      "unit": "date",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D05",
+      "draft_id": "D05",
+      "check": "第五期发行截止及缴款起息日",
+      "value_type": "date",
+      "expected": "2026-08-20",
+      "unit": "date",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D06",
+      "draft_id": "D05",
+      "check": "第四期每年付息月日",
+      "value_type": "monthday",
+      "expected": "09-10",
+      "unit": "monthday",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D07",
+      "draft_id": "D05",
+      "check": "第五期每年付息月日",
+      "value_type": "monthday",
+      "expected": "08-20",
+      "unit": "monthday",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D08",
+      "draft_id": "D05",
+      "check": "第四期利率重置周期",
+      "value_type": "number",
+      "expected": 5,
+      "unit": "year",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            10,
+            11,
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D09",
+      "draft_id": "D05",
+      "check": "第五期是否每5年重置票息",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "D10",
+      "draft_id": "D05",
+      "check": "两类债券节假日付款如何处理",
+      "value_type": "enum",
+      "expected": "next_business_day_no_extra_interest",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C04",
+      "choices": "next_business_day_no_extra_interest / next_business_day_extra_interest / previous_business_day",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8
+    },
+    {
+      "check_id": "P01",
+      "draft_id": "D06",
+      "check": "第四期票面利率结构",
+      "value_type": "enum",
+      "expected": "benchmark_plus_fixed_spread_reset5y",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            10,
+            11
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "fixed_lifetime / benchmark_plus_fixed_spread_reset5y / floating_daily",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P02",
+      "draft_id": "D06",
+      "check": "第四期固定利差是否在确定后调整",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P03",
+      "draft_id": "D06",
+      "check": "第四期初始票息确定方式",
+      "value_type": "enum",
+      "expected": "bookbuilding_and_allocation",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "bookbuilding_and_allocation / June_CCA_copy / regulator_fixed",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P04",
+      "draft_id": "D06",
+      "check": "所附资料能否确认第四期最终实际票息",
+      "value_type": "enum",
+      "expected": "not_confirmed",
+      "unit": "enum",
+      "evidence_role": "not_confirmed",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            10,
+            11,
+            149
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "confirmed / not_confirmed",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P05",
+      "draft_id": "D06",
+      "check": "第五期票息计算结构",
+      "value_type": "enum",
+      "expected": "fixed_simple_annual_no_compounding",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "fixed_simple_annual_no_compounding / fixed_compound / benchmark_plus_fixed_spread_reset5y",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P06",
+      "draft_id": "D06",
+      "check": "后发8月18日T2簿记披露票息",
+      "value_type": "number",
+      "expected": 1.81,
+      "unit": "percent",
+      "evidence_role": "disclosed_event",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            149
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P07",
+      "draft_id": "D06",
+      "check": "六月1.89%是否可作为第四期及第五期已确定票息",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "inference",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "document_id": "F011",
+          "pages": [
+            14,
+            149
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P08",
+      "draft_id": "D06",
+      "check": "两类债券是否有利率跳升或赎回激励",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            13
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P09",
+      "draft_id": "D07",
+      "check": "第四期发行人是否可取消全部或部分派息",
+      "value_type": "bool",
+      "expected": true,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P10",
+      "draft_id": "D07",
+      "check": "第四期取消派息是否构成违约",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P11",
+      "draft_id": "D07",
+      "check": "第四期未足额派息是否累积到下一年度",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P12",
+      "draft_id": "D07",
+      "check": "第五期通常本息不可取消递延的适用前提",
+      "value_type": "enum",
+      "expected": "subject_to_regulatory_repayment_requirements",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "unconditional / subject_to_regulatory_repayment_requirements / freely_cancellable",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P13",
+      "draft_id": "D08",
+      "check": "第四期取消派息须由谁审议批准",
+      "value_type": "enum",
+      "expected": "shareholders_meeting",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "management / board / shareholders_meeting",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P14",
+      "draft_id": "D08",
+      "check": "第四期取消派息是否须及时通知投资者",
+      "value_type": "bool",
+      "expected": true,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P15",
+      "draft_id": "D08",
+      "check": "取消派息后的普通股收益分配限制期间",
+      "value_type": "enum",
+      "expected": "day_after_resolution_until_resume_full_distribution",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "none / day_after_resolution_until_resume_full_distribution / only_resolution_day",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "P16",
+      "draft_id": "D08",
+      "check": "第四期派息必须来自什么项目",
+      "value_type": "enum",
+      "expected": "distributable_items",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "criterion_id": "C05",
+      "choices": "any_cash / distributable_items",
+      "action": "revise",
+      "critical": false,
+      "points": 0.9375
+    },
+    {
+      "check_id": "W01",
+      "draft_id": "D09",
+      "check": "两类债券无法生存触发采用哪个事件",
+      "value_type": "enum",
+      "expected": "earlier_of_regulator_writedown_OR_authority_public_support",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C06",
+      "choices": "earlier_of_regulator_writedown_OR_authority_public_support / management_decision / ratio_only_5.125",
+      "action": "revise",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "W02",
+      "draft_id": "D09",
+      "check": "是否仅以CET1低于5.125%自动触发",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C06",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "W03",
+      "draft_id": "D09",
+      "check": "第五期减记与AT1损失吸收的顺序",
+      "value_type": "enum",
+      "expected": "after_all_AT1_writedown_or_conversion",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C06",
+      "choices": "before_AT1 / simultaneous / after_all_AT1_writedown_or_conversion",
+      "action": "revise",
+      "critical": true,
+      "points": 2.0
+    },
+    {
+      "check_id": "W04",
+      "draft_id": "D09",
+      "check": "触发事件发生日的定义",
+      "value_type": "enum",
+      "expected": "authority_determination_notice_and_announcement",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            10
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "criterion_id": "C06",
+      "choices": "management_declaration / authority_determination_notice_and_announcement / capital_report_date",
+      "action": "revise",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "W05",
+      "draft_id": "D09",
+      "check": "触发后公告执行安排及通知持有人的时限",
+      "value_type": "number",
+      "expected": 2,
+      "unit": "business_day",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            10
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "criterion_id": "C06",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 2.0
+    },
+    {
+      "check_id": "L01",
+      "draft_id": "D10",
+      "check": "两类债券减记是否需要持有人同意",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C07",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 1.3333333333333333
+    },
+    {
+      "check_id": "L02",
+      "draft_id": "D10",
+      "check": "两类债券减记范围",
+      "value_type": "enum",
+      "expected": "partial_or_all",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C07",
+      "choices": "partial_only / all_only / partial_or_all",
+      "action": "revise",
+      "critical": false,
+      "points": 1.3333333333333333
+    },
+    {
+      "check_id": "L03",
+      "draft_id": "D10",
+      "check": "减记部分是否可以恢复",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            10
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C07",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": true,
+      "points": 1.3333333333333333
+    },
+    {
+      "check_id": "L04",
+      "draft_id": "D10",
+      "check": "第四期减记分摊分母",
+      "value_type": "enum",
+      "expected": "all_outstanding_AT1_same_trigger",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "criterion_id": "C07",
+      "choices": "all_capital / all_outstanding_AT1_same_trigger / all_outstanding_T2_same_trigger",
+      "action": "revise",
+      "critical": false,
+      "points": 1.3333333333333333
+    },
+    {
+      "check_id": "L05",
+      "draft_id": "D10",
+      "check": "第五期减记分摊分母",
+      "value_type": "enum",
+      "expected": "all_outstanding_T2_same_trigger",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C07",
+      "choices": "all_capital / all_outstanding_AT1_same_trigger / all_outstanding_T2_same_trigger",
+      "action": "revise",
+      "critical": false,
+      "points": 1.3333333333333333
+    },
+    {
+      "check_id": "L06",
+      "draft_id": "D10",
+      "check": "第五期被减记部分未付累积应付利息是否仍支付",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F014",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "criterion_id": "C07",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 1.3333333333333333
+    },
+    {
+      "check_id": "R01",
+      "draft_id": "D11",
+      "check": "两类债券相对存款及一般债权的清偿位置",
+      "value_type": "enum",
+      "expected": "below",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "criterion_id": "C08",
+      "choices": "above / equal / below",
+      "action": "revise",
+      "critical": false,
+      "points": 1.2
+    },
+    {
+      "check_id": "R02",
+      "draft_id": "D11",
+      "check": "第五期相对第四期的清偿位置",
+      "value_type": "enum",
+      "expected": "above",
+      "unit": "enum",
+      "evidence_role": "inference",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "criterion_id": "C08",
+      "choices": "above / equal / below",
+      "action": "revise",
+      "critical": false,
+      "points": 1.2
+    },
+    {
+      "check_id": "R03",
+      "draft_id": "D11",
+      "check": "两类债券相对所有类别股份的清偿位置",
+      "value_type": "enum",
+      "expected": "above",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "criterion_id": "C08",
+      "choices": "above / equal / below",
+      "action": "revise",
+      "critical": false,
+      "points": 1.2
+    },
+    {
+      "check_id": "R04",
+      "draft_id": "D11",
+      "check": "同一清偿顺位的其他AT1或T2工具是否同顺位受偿",
+      "value_type": "bool",
+      "expected": true,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "criterion_id": "C08",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 1.2
+    },
+    {
+      "check_id": "R05",
+      "draft_id": "D11",
+      "check": "第四期后续法律另定债务受偿顺序时适用规则",
+      "value_type": "enum",
+      "expected": "follow_applicable_law",
+      "unit": "enum",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "criterion_id": "C08",
+      "choices": "original_contract_always / follow_applicable_law",
+      "action": "revise",
+      "critical": false,
+      "points": 1.2
+    },
+    {
+      "check_id": "J01",
+      "draft_id": "D12",
+      "check": "CCA报告期",
+      "value_type": "text",
+      "expected": "2026-06",
+      "unit": "month",
+      "evidence_role": "reported_stock",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "criterion_id": "C09",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8571428571428571
+    },
+    {
+      "check_id": "J02",
+      "draft_id": "D12",
+      "check": "CCA第5页最右列工具标识码",
+      "value_type": "text",
+      "expected": "242680013",
+      "unit": "identifier",
+      "evidence_role": "reported_stock",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "criterion_id": "C09",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8571428571428571
+    },
+    {
+      "check_id": "J03",
+      "draft_id": "D12",
+      "check": "该六月工具初始发行日",
+      "value_type": "date",
+      "expected": "2026-06-04",
+      "unit": "date",
+      "evidence_role": "reported_stock",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "criterion_id": "C09",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8571428571428571
+    },
+    {
+      "check_id": "J04",
+      "draft_id": "D12",
+      "check": "该列20000百万元换算为人民币金额",
+      "value_type": "number",
+      "expected": 200,
+      "unit": "CNY_100M",
+      "evidence_role": "calculation",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "criterion_id": "C09",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8571428571428571
+    },
+    {
+      "check_id": "J05",
+      "draft_id": "D12",
+      "check": "该六月工具第一个赎回日",
+      "value_type": "date",
+      "expected": "2031-06-08",
+      "unit": "date",
+      "evidence_role": "reported_stock",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "criterion_id": "C09",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8571428571428571
+    },
+    {
+      "check_id": "J06",
+      "draft_id": "D12",
+      "check": "该六月工具首赎日前票息",
+      "value_type": "number",
+      "expected": 1.89,
+      "unit": "percent",
+      "evidence_role": "reported_stock",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "criterion_id": "C09",
+      "choices": "",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8571428571428571
+    },
+    {
+      "check_id": "J07",
+      "draft_id": "D12",
+      "check": "该六月列是否可确认九月第四期工具身份及六月资本计入",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "inference",
+      "source_groups": [
+        {
+          "document_id": "F013",
+          "pages": [
+            1,
+            5,
+            6
+          ]
+        },
+        {
+          "document_id": "F011",
+          "pages": [
+            14,
+            15
+          ]
+        }
+      ],
+      "criterion_id": "C09",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.8571428571428571
+    },
+    {
+      "check_id": "A01",
+      "draft_id": "D14",
+      "check": "两募集文件披露的评级机构",
+      "value_type": "text",
+      "expected": "大公国际资信评估有限公司",
+      "unit": "text",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            16
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "criterion_id": "C10",
+      "choices": "",
+      "action": "retain",
+      "critical": false,
+      "points": 0.75
+    },
+    {
+      "check_id": "A02",
+      "draft_id": "D14",
+      "check": "两募集文件披露的发行人与债券评级",
+      "value_type": "text",
+      "expected": "AAA",
+      "unit": "rating",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            16
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "criterion_id": "C10",
+      "choices": "",
+      "action": "retain",
+      "critical": false,
+      "points": 0.75
+    },
+    {
+      "check_id": "A03",
+      "draft_id": "D14",
+      "check": "评级及发行核准是否证明本金保证",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "inference",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            6
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "criterion_id": "C10",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": true,
+      "points": 0.75
+    },
+    {
+      "check_id": "A04",
+      "draft_id": "D14",
+      "check": "主管部门核准是否表示对投资价值或风险作评价",
+      "value_type": "bool",
+      "expected": false,
+      "unit": "bool",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            6
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "criterion_id": "C10",
+      "choices": "true / false",
+      "action": "revise",
+      "critical": false,
+      "points": 0.75
+    },
+    {
+      "check_id": "N01",
+      "draft_id": "D13",
+      "check": "两类债券单位面值",
+      "value_type": "number",
+      "expected": 100,
+      "unit": "CNY",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            13
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "criterion_id": "C11",
+      "choices": "",
+      "action": "retain",
+      "critical": false,
+      "points": 0.6666666666666666
+    },
+    {
+      "check_id": "N02",
+      "draft_id": "D13",
+      "check": "两类债券最小认购金额",
+      "value_type": "number",
+      "expected": 10000000,
+      "unit": "CNY",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            14
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "criterion_id": "C11",
+      "choices": "",
+      "action": "retain",
+      "critical": false,
+      "points": 0.6666666666666666
+    },
+    {
+      "check_id": "N03",
+      "draft_id": "D13",
+      "check": "两类债券认购金额递增单位",
+      "value_type": "number",
+      "expected": 10000000,
+      "unit": "CNY",
+      "evidence_role": "clause",
+      "source_groups": [
+        {
+          "document_id": "F011",
+          "pages": [
+            14
+          ]
+        },
+        {
+          "document_id": "F014",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "criterion_id": "C11",
+      "choices": "",
+      "action": "retain",
+      "critical": false,
+      "points": 0.6666666666666666
+    }
+  ],
+  "calculations": [
+    {
+      "id": "S07",
+      "expression": "400+200",
+      "result": 600,
+      "unit": "CNY_100M",
+      "condition": "alpha >= 1.4 and issuer elects maximum; permission limit not actual outcome"
+    },
+    {
+      "id": "J04",
+      "expression": "20000*1000000/100000000",
+      "result": 200,
+      "unit": "CNY_100M"
+    }
+  ],
+  "event_identity_note": "F011 physical149/printed147 explicitly discloses2026-08-18 bookbuilding of人民币600亿元 (RMB60billion),coupon1.81%,10-year fixed-rateT2 with conditional year5call. Association toF014fifth issue is supported inference,not explicit naming.",
+  "source_rules": {
+    "F011": "physical page = printed page + 2",
+    "F013": "physical = printed",
+    "F014": "physical = printed"
+  },
+  "source_roles": {
+    "F011_AT1_fourth_prospectus.pdf": "工商银行第四期AT1完整募集说明书，含较晚债务回溯披露",
+    "F014_T2_fifth_prospectus.pdf": "工商银行第五期T2完整募集说明书",
+    "F013_CCA_2026-06.pdf": "工商银行2026年6月末资本工具存量特征披露",
+    "client_draft.docx": "内部客户说明草稿，待审核修订",
+    "review_checklist.csv": "团队84项条款审核清单",
+    "README.md": "材料、单位、证据角色及定位定义"
+  },
+  "review_rules": "所附资料为事实边界。读取实际引用页面与全部当前DOCX和CSV，候选文字为待评阅内容。接受有依据的措辞、顺序、等值单位和必要引用范围；没有提供参考答案、case标签或预期reward。C01–C11不得高于实际客观上界，但引用或自由文本实质不支持时应扣分；严重错误总分上限59。必须显式返回critical_error布尔结论。"
+}

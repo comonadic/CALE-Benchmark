@@ -1,0 +1,649 @@
+{
+  "source_facts": [
+    {
+      "id": "NP_2024",
+      "meaning": "净利润",
+      "period": "2024"
+    },
+    {
+      "id": "NP_2025",
+      "meaning": "净利润",
+      "period": "2025"
+    },
+    {
+      "id": "IMPAIRMENT_2024",
+      "meaning": "资产减值准备",
+      "period": "2024"
+    },
+    {
+      "id": "IMPAIRMENT_2025",
+      "meaning": "资产减值准备",
+      "period": "2025"
+    },
+    {
+      "id": "FA_DEPR_2024",
+      "meaning": "固定资产折旧等",
+      "period": "2024"
+    },
+    {
+      "id": "FA_DEPR_2025",
+      "meaning": "固定资产折旧等",
+      "period": "2025"
+    },
+    {
+      "id": "ROU_DEPR_2024",
+      "meaning": "使用权资产折旧",
+      "period": "2024"
+    },
+    {
+      "id": "ROU_DEPR_2025",
+      "meaning": "使用权资产折旧",
+      "period": "2025"
+    },
+    {
+      "id": "INTANGIBLE_2024",
+      "meaning": "无形资产摊销",
+      "period": "2024"
+    },
+    {
+      "id": "INTANGIBLE_2025",
+      "meaning": "无形资产摊销",
+      "period": "2025"
+    },
+    {
+      "id": "LT_AMORT_2024",
+      "meaning": "长期待摊费用摊销",
+      "period": "2024"
+    },
+    {
+      "id": "LT_AMORT_2025",
+      "meaning": "长期待摊费用摊销",
+      "period": "2025"
+    },
+    {
+      "id": "DISPOSAL_2024",
+      "meaning": "处置长期资产损失（收益负列）",
+      "period": "2024"
+    },
+    {
+      "id": "DISPOSAL_2025",
+      "meaning": "处置长期资产损失（收益负列）",
+      "period": "2025"
+    },
+    {
+      "id": "SCRAP_2024",
+      "meaning": "固定资产报废损失",
+      "period": "2024"
+    },
+    {
+      "id": "SCRAP_2025",
+      "meaning": "固定资产报废损失",
+      "period": "2025"
+    },
+    {
+      "id": "FV_2024",
+      "meaning": "公允价值变动损失",
+      "period": "2024"
+    },
+    {
+      "id": "FV_2025",
+      "meaning": "公允价值变动损失",
+      "period": "2025"
+    },
+    {
+      "id": "FINANCE_2024",
+      "meaning": "财务费用（收益负列）",
+      "period": "2024"
+    },
+    {
+      "id": "FINANCE_2025",
+      "meaning": "财务费用（收益负列）",
+      "period": "2025"
+    },
+    {
+      "id": "INVESTMENT_2024",
+      "meaning": "投资损失（收益负列）",
+      "period": "2024"
+    },
+    {
+      "id": "INVESTMENT_2025",
+      "meaning": "投资损失（收益负列）",
+      "period": "2025"
+    },
+    {
+      "id": "DTA_2024",
+      "meaning": "递延所得税资产减少",
+      "period": "2024"
+    },
+    {
+      "id": "DTA_2025",
+      "meaning": "递延所得税资产减少",
+      "period": "2025"
+    },
+    {
+      "id": "DTL_2024",
+      "meaning": "递延所得税负债增加",
+      "period": "2024"
+    },
+    {
+      "id": "DTL_2025",
+      "meaning": "递延所得税负债增加",
+      "period": "2025"
+    },
+    {
+      "id": "INVENTORY_CF_2024",
+      "meaning": "存货的减少",
+      "period": "2024"
+    },
+    {
+      "id": "INVENTORY_CF_2025",
+      "meaning": "存货的减少",
+      "period": "2025"
+    },
+    {
+      "id": "RECEIVABLE_CF_2024",
+      "meaning": "经营性应收项目的减少",
+      "period": "2024"
+    },
+    {
+      "id": "RECEIVABLE_CF_2025",
+      "meaning": "经营性应收项目的减少",
+      "period": "2025"
+    },
+    {
+      "id": "PAYABLE_CF_2024",
+      "meaning": "经营性应付项目的增加",
+      "period": "2024"
+    },
+    {
+      "id": "PAYABLE_CF_2025",
+      "meaning": "经营性应付项目的增加",
+      "period": "2025"
+    },
+    {
+      "id": "OTHER_2024",
+      "meaning": "其他",
+      "period": "2024"
+    },
+    {
+      "id": "OTHER_2025",
+      "meaning": "其他",
+      "period": "2025"
+    },
+    {
+      "id": "CFO_2024",
+      "meaning": "披露经营活动现金流净额",
+      "period": "2024"
+    },
+    {
+      "id": "CFO_2025",
+      "meaning": "披露经营活动现金流净额",
+      "period": "2025"
+    },
+    {
+      "id": "MAIN_NP_2024",
+      "meaning": "合并利润表净利润",
+      "period": "2024"
+    },
+    {
+      "id": "MAIN_NP_2025",
+      "meaning": "合并利润表净利润",
+      "period": "2025"
+    },
+    {
+      "id": "PARENT_NP_2024",
+      "meaning": "归属于母公司股东的净利润",
+      "period": "2024"
+    },
+    {
+      "id": "PARENT_NP_2025",
+      "meaning": "归属于母公司股东的净利润",
+      "period": "2025"
+    },
+    {
+      "id": "MINORITY_NP_2024",
+      "meaning": "少数股东损益",
+      "period": "2024"
+    },
+    {
+      "id": "MINORITY_NP_2025",
+      "meaning": "少数股东损益",
+      "period": "2025"
+    },
+    {
+      "id": "CF_IN_2024",
+      "meaning": "经营活动现金流入小计",
+      "period": "2024"
+    },
+    {
+      "id": "CF_IN_2025",
+      "meaning": "经营活动现金流入小计",
+      "period": "2025"
+    },
+    {
+      "id": "CF_OUT_2024",
+      "meaning": "经营活动现金流出小计",
+      "period": "2024"
+    },
+    {
+      "id": "CF_OUT_2025",
+      "meaning": "经营活动现金流出小计",
+      "period": "2025"
+    },
+    {
+      "id": "INV_GROSS_2024",
+      "meaning": "存货账面余额",
+      "period": "2024"
+    },
+    {
+      "id": "INV_GROSS_2025",
+      "meaning": "存货账面余额",
+      "period": "2025"
+    },
+    {
+      "id": "INV_ALLOW_2024",
+      "meaning": "存货跌价准备",
+      "period": "2024"
+    },
+    {
+      "id": "INV_ALLOW_2025",
+      "meaning": "存货跌价准备",
+      "period": "2025"
+    },
+    {
+      "id": "INV_NET_2024",
+      "meaning": "存货账面价值",
+      "period": "2024"
+    },
+    {
+      "id": "INV_NET_2025",
+      "meaning": "存货账面价值",
+      "period": "2025"
+    },
+    {
+      "id": "INV_CHARGE_2025",
+      "meaning": "本期存货跌价准备计提",
+      "period": "2025"
+    },
+    {
+      "id": "INV_RELEASE_2025",
+      "meaning": "本期存货准备转回或转销",
+      "period": "2025"
+    },
+    {
+      "id": "AR_GROSS_2024",
+      "meaning": "应收账款账面余额",
+      "period": "2024"
+    },
+    {
+      "id": "AR_GROSS_2025",
+      "meaning": "应收账款账面余额",
+      "period": "2025"
+    },
+    {
+      "id": "AR_ALLOW_2024",
+      "meaning": "应收账款坏账准备",
+      "period": "2024"
+    },
+    {
+      "id": "AR_ALLOW_2025",
+      "meaning": "应收账款坏账准备",
+      "period": "2025"
+    },
+    {
+      "id": "AR_NET_2024",
+      "meaning": "应收账款账面价值",
+      "period": "2024"
+    },
+    {
+      "id": "AR_NET_2025",
+      "meaning": "应收账款账面价值",
+      "period": "2025"
+    },
+    {
+      "id": "AP_2024",
+      "meaning": "应付账款",
+      "period": "2024"
+    },
+    {
+      "id": "AP_2025",
+      "meaning": "应付账款",
+      "period": "2025"
+    },
+    {
+      "id": "AP_PROPERTY_2025",
+      "meaning": "重要应付账款：购房款尚未支付",
+      "period": "2025"
+    },
+    {
+      "id": "AP_ENGINEER_2025",
+      "meaning": "重要应付账款：工程质保金未到期",
+      "period": "2025"
+    },
+    {
+      "id": "CL_CUSTOMER_2024",
+      "meaning": "合同负债：客户预收款",
+      "period": "2024"
+    },
+    {
+      "id": "CL_CUSTOMER_2025",
+      "meaning": "合同负债：客户预收款",
+      "period": "2025"
+    },
+    {
+      "id": "CL_CARD_2024",
+      "meaning": "合同负债：贵宾卡预收款",
+      "period": "2024"
+    },
+    {
+      "id": "CL_CARD_2025",
+      "meaning": "合同负债：贵宾卡预收款",
+      "period": "2025"
+    },
+    {
+      "id": "CL_OTHER_2024",
+      "meaning": "合同负债：其他",
+      "period": "2024"
+    },
+    {
+      "id": "CL_OTHER_2025",
+      "meaning": "合同负债：其他",
+      "period": "2025"
+    },
+    {
+      "id": "CL_TOTAL_2024",
+      "meaning": "合同负债合计",
+      "period": "2024"
+    },
+    {
+      "id": "CL_TOTAL_2025",
+      "meaning": "合同负债合计",
+      "period": "2025"
+    }
+  ],
+  "derived_metrics": [
+    {
+      "id": "NP24",
+      "meaning": "2024桥接合并净利润"
+    },
+    {
+      "id": "NP25",
+      "meaning": "2025桥接合并净利润"
+    },
+    {
+      "id": "CFO24",
+      "meaning": "2024公式经营现金流"
+    },
+    {
+      "id": "CFO25",
+      "meaning": "2025公式经营现金流"
+    },
+    {
+      "id": "CFO_DELTA",
+      "meaning": "经营现金流同比变化"
+    },
+    {
+      "id": "NP_DELTA",
+      "meaning": "净利润同比变化"
+    },
+    {
+      "id": "WC_DELTA",
+      "meaning": "营运资本调整同比贡献"
+    },
+    {
+      "id": "RECEIVABLE_CONTRIB",
+      "meaning": "经营性应收同比贡献"
+    },
+    {
+      "id": "PAYABLE_CONTRIB",
+      "meaning": "经营性应付同比贡献"
+    },
+    {
+      "id": "RATIO24",
+      "meaning": "2024经营现金流/净利润"
+    },
+    {
+      "id": "RATIO25",
+      "meaning": "2025经营现金流/净利润"
+    },
+    {
+      "id": "SPREAD24",
+      "meaning": "2024经营现金流减净利润"
+    },
+    {
+      "id": "SPREAD25",
+      "meaning": "2025经营现金流减净利润"
+    },
+    {
+      "id": "INV_NET_DELTA",
+      "meaning": "存货净额期末减期初"
+    },
+    {
+      "id": "INV_ALLOW_ROLL",
+      "meaning": "存货准备期末复算"
+    },
+    {
+      "id": "INV_NET_GAP",
+      "meaning": "存货调整减简单净额变动"
+    },
+    {
+      "id": "INV_GROSS_GAP",
+      "meaning": "存货调整减简单毛额变动"
+    },
+    {
+      "id": "INV_CF_NET",
+      "meaning": "结合计提的存货调整复算"
+    },
+    {
+      "id": "INV_CF_GROSS",
+      "meaning": "结合转回或转销的存货调整复算"
+    },
+    {
+      "id": "AR_RESIDUAL",
+      "meaning": "经营性应收减单一净额变动"
+    },
+    {
+      "id": "AP_RESIDUAL",
+      "meaning": "经营性应付减单一应付变动"
+    },
+    {
+      "id": "CL_DELTA",
+      "meaning": "合同负债总额期末减期初"
+    },
+    {
+      "id": "AP_CAPITAL_EXAMPLES",
+      "meaning": "重要应付资本款期末示例合计"
+    },
+    {
+      "id": "CFO_CONTROL_2024",
+      "meaning": "桥接与披露现金流差额2024"
+    },
+    {
+      "id": "CFO_CONTROL_2025",
+      "meaning": "桥接与披露现金流差额2025"
+    },
+    {
+      "id": "NP_CONTROL_2024",
+      "meaning": "主表与桥接净利润差额2024"
+    },
+    {
+      "id": "NP_CONTROL_2025",
+      "meaning": "主表与桥接净利润差额2025"
+    },
+    {
+      "id": "ATTRIBUTION_CONTROL_2024",
+      "meaning": "净利润归属分类差额2024"
+    },
+    {
+      "id": "ATTRIBUTION_CONTROL_2025",
+      "meaning": "净利润归属分类差额2025"
+    },
+    {
+      "id": "DIRECT_CF_CONTROL_2024",
+      "meaning": "主表现金流入流出差额2024"
+    },
+    {
+      "id": "DIRECT_CF_CONTROL_2025",
+      "meaning": "主表现金流入流出差额2025"
+    },
+    {
+      "id": "CONTRIB_CONTROL",
+      "meaning": "逐项贡献合计与现金流同比差额"
+    },
+    {
+      "id": "INV_NET_CONTROL_2024",
+      "meaning": "存货净额勾稽差额2024"
+    },
+    {
+      "id": "INV_NET_CONTROL_2025",
+      "meaning": "存货净额勾稽差额2025"
+    },
+    {
+      "id": "INV_ALLOW_CONTROL_2025",
+      "meaning": "存货准备滚动差额2025"
+    },
+    {
+      "id": "INV_NET_CF_CONTROL",
+      "meaning": "存货净额准备桥与披露差额"
+    },
+    {
+      "id": "INV_GROSS_CF_CONTROL",
+      "meaning": "存货毛额准备桥与披露差额"
+    },
+    {
+      "id": "AR_NET_CONTROL_2024",
+      "meaning": "应收净额勾稽差额2024"
+    },
+    {
+      "id": "AR_NET_CONTROL_2025",
+      "meaning": "应收净额勾稽差额2025"
+    },
+    {
+      "id": "CL_CONTROL_2024",
+      "meaning": "合同负债分项总额差额2024"
+    },
+    {
+      "id": "CL_CONTROL_2025",
+      "meaning": "合同负债分项总额差额2025"
+    },
+    {
+      "id": "NP_CONTRIB",
+      "meaning": "净利润同比贡献"
+    },
+    {
+      "id": "IMPAIRMENT_CONTRIB",
+      "meaning": "资产减值准备同比贡献"
+    },
+    {
+      "id": "FA_DEPR_CONTRIB",
+      "meaning": "固定资产折旧等同比贡献"
+    },
+    {
+      "id": "ROU_DEPR_CONTRIB",
+      "meaning": "使用权资产折旧同比贡献"
+    },
+    {
+      "id": "INTANGIBLE_CONTRIB",
+      "meaning": "无形资产摊销同比贡献"
+    },
+    {
+      "id": "LT_AMORT_CONTRIB",
+      "meaning": "长期待摊费用摊销同比贡献"
+    },
+    {
+      "id": "DISPOSAL_CONTRIB",
+      "meaning": "处置长期资产损失（收益负列）同比贡献"
+    },
+    {
+      "id": "SCRAP_CONTRIB",
+      "meaning": "固定资产报废损失同比贡献"
+    },
+    {
+      "id": "FV_CONTRIB",
+      "meaning": "公允价值变动损失同比贡献"
+    },
+    {
+      "id": "FINANCE_CONTRIB",
+      "meaning": "财务费用（收益负列）同比贡献"
+    },
+    {
+      "id": "INVESTMENT_CONTRIB",
+      "meaning": "投资损失（收益负列）同比贡献"
+    },
+    {
+      "id": "DTA_CONTRIB",
+      "meaning": "递延所得税资产减少同比贡献"
+    },
+    {
+      "id": "DTL_CONTRIB",
+      "meaning": "递延所得税负债增加同比贡献"
+    },
+    {
+      "id": "INVENTORY_CF_CONTRIB",
+      "meaning": "存货的减少同比贡献"
+    },
+    {
+      "id": "RECEIVABLE_CF_CONTRIB",
+      "meaning": "经营性应收项目的减少同比贡献"
+    },
+    {
+      "id": "PAYABLE_CF_CONTRIB",
+      "meaning": "经营性应付项目的增加同比贡献"
+    },
+    {
+      "id": "OTHER_CONTRIB",
+      "meaning": "其他同比贡献"
+    },
+    {
+      "id": "NONWC_DELTA",
+      "meaning": "非营运资本调整同比贡献"
+    },
+    {
+      "id": "INV_GROSS_DELTA",
+      "meaning": "存货毛额期末减期初"
+    },
+    {
+      "id": "INV_ALLOW_DELTA",
+      "meaning": "存货准备期末减期初"
+    },
+    {
+      "id": "AR_GROSS_DELTA",
+      "meaning": "应收毛额期末减期初"
+    },
+    {
+      "id": "AR_ALLOW_DELTA",
+      "meaning": "应收准备期末减期初"
+    },
+    {
+      "id": "AR_NET_DELTA",
+      "meaning": "应收净额期末减期初"
+    },
+    {
+      "id": "AP_DELTA",
+      "meaning": "应付账款期末减期初"
+    },
+    {
+      "id": "CL_CUSTOMER_DELTA",
+      "meaning": "客户预收期末减期初"
+    },
+    {
+      "id": "CL_CARD_DELTA",
+      "meaning": "贵宾卡期末减期初"
+    },
+    {
+      "id": "CL_OTHER_DELTA",
+      "meaning": "其他合同负债期末减期初"
+    }
+  ],
+  "index_headers": [
+    "指标ID",
+    "金额/结果",
+    "元/单位",
+    "来源页",
+    "范围",
+    "期间",
+    "分组",
+    "绝对贡献排名"
+  ],
+  "policy": "源数据与结果在复核索引中各占一行，结果可链接模型或直接录入披露事实；派生结果保留公式。范围填合并；期间为2024、2025或2025-2024。指标ID只用于稳定业务交接，工作表名、行列、颜色不限。金额/结果为数值，元/单位是金额转换为人民币元的系数；比率系数为1。来源页可写多个以逗号分隔。贡献行填写净利润、非营运资本调整或营运资本调整；前三贡献填写1/2/3，其余留空。可细分非营运资本调整，以该大类开头。差额可反向定义，但用负的元/单位系数统一为指标定义方向；比例系数保持1。"
+}

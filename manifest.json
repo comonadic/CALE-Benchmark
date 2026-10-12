@@ -1,0 +1,102 @@
+{
+  "format": "harbor",
+  "schema_version": "1.3",
+  "harbor_version": "0.17.1",
+  "claude_code_version": "2.1.296",
+  "tasks": [
+    {
+      "id": "finance-pilot-01-v2",
+      "industry": "finance",
+      "source_task_sha256": "ff511d01019ecaf6a90b45b87c7b94fa417d1e7e814c15cf1d96da74787a6653",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 16
+    },
+    {
+      "id": "finance-pilot-02-v2",
+      "industry": "finance",
+      "source_task_sha256": "ed615f32a1a8f595e7f8687b15093918316c43646ac80e1c229b1fcd2c305858",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 20
+    },
+    {
+      "id": "finance-pilot-03-v2",
+      "industry": "finance",
+      "source_task_sha256": "bb6c83ecd86622dd1a2bcb30a621f3b5141851ebee42be22bc3adc8fa0f5f0f0",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 20
+    },
+    {
+      "id": "finance-pilot-04-v2",
+      "industry": "finance",
+      "source_task_sha256": "08ddc28aa1126642f497411b6be4732fadc14bcc894812b2b5eb8d1008d9d9cb",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 39
+    },
+    {
+      "id": "finance-pilot-05-v2",
+      "industry": "finance",
+      "source_task_sha256": "4a7984998c658572900f16c0237f6a1f696bc804d72ab3ab8c11938630521162",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 20
+    },
+    {
+      "id": "legal-pilot-01-v2",
+      "industry": "law",
+      "source_task_sha256": "95dcb577ba9f1ce7934df8602a7d5ae94384e3d5431c19c56ba4c0aa9cc2ab89",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 23
+    },
+    {
+      "id": "legal-pilot-02-v2",
+      "industry": "law",
+      "source_task_sha256": "13db61fe3280dd075eb966048e8ab3a886e1aade977f5e6e1a2ced51ab602679",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 27
+    },
+    {
+      "id": "legal-pilot-03-v2",
+      "industry": "law",
+      "source_task_sha256": "919fa875a31949023fe056859df15c48e6e0ef82cd4072a6757e096b66a9f963",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 28
+    },
+    {
+      "id": "legal-pilot-04-v2",
+      "industry": "law",
+      "source_task_sha256": "fe2d93bdc52f3c15b507424699c06f732f3fc5a9a8e32abb538abec348d8302a",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 26
+    },
+    {
+      "id": "legal-pilot-05-v2",
+      "industry": "law",
+      "source_task_sha256": "afb706615fd5575367c52bc757fdfb74ab89f209193def14d47dac711094d29b",
+      "release_changes": [
+        "environment/Dockerfile: integrity-checked native Claude Code 2.1.296 (x64/ARM64) and procps preinstalled"
+      ],
+      "runtime_files_copied_identically": 31
+    }
+  ],
+  "validation": {
+    "reference_and_empty_output_baselines": "completed in source packages",
+    "independent_solver": "not_run"
+  }
+}

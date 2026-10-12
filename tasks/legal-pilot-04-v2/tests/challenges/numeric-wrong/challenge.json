@@ -1,0 +1,4 @@
+{
+  "change": "R03虚增营收分子错误写成43,000,000元并重算公式",
+  "expected": "objective numeric failure; professional deduction in arithmetic criteria"
+}

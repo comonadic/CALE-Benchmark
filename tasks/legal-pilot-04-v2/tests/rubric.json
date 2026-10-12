@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "total_points": 100,
+  "scoring_policy": "客观数字与专业判断分开；程序结果是辅助，不是总分或自动通过；不得双扣同一缺陷超过对应分值；不匹配参考措辞或监管结果以外的新判断",
+  "criteria": [
+    {
+      "id": "C01",
+      "points": 9,
+      "name": "范围事实角色与引证",
+      "object": "DOCX和XLSX",
+      "evidence_ids": [
+        "E01",
+        "E05",
+        "E06",
+        "E09"
+      ],
+      "method": "人工/模型逐项回看引用；源文角色不得混同",
+      "allocation": "5分：认定、申辩、回应和假设准确分层；2分：材料/法域/事项及版本锁定；2分：关键引用实支持命题。",
+      "acceptable_alternatives": "可用P定位或HTML章节段首；合理不同表述。不得假称核验流水或新增事实。"
+    },
+    {
+      "id": "C02",
+      "points": 10,
+      "name": "八项分子比例分母正确",
+      "object": "金额核查",
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "method": "objective.py金额/比例/分母字段检查+人工语义复核",
+      "allocation": "每行1分共8分：数字、年度、口径正确；2分：利润总额和绝对值限制明确。",
+      "acceptable_alternatives": "指标同义词可人工映射；真实利润正负未知，净利润不可替换。"
+    },
+    {
+      "id": "C03",
+      "points": 12,
+      "name": "四舍五入条件反推与边界",
+      "object": "金额核查及报告",
+      "evidence_ids": [
+        "E03"
+      ],
+      "method": "objective.py数值容差+人工公式/端点核查",
+      "allocation": "点估计4分、上下界4分、清晰条件假设和端点2分、无法精确恢复且正负限制2分。各组按8行正确比例给分。",
+      "acceptable_alternatives": "有效等价公式、币种缩放且表头明确可人工换算；边界显示圆整但不等于真实边界；不能将点估计当精确报表。"
+    },
+    {
+      "id": "C04",
+      "points": 8,
+      "name": "同事项科目与跨年勾稽",
+      "object": "金额核查及S03至S05",
+      "evidence_ids": [
+        "E01",
+        "E02"
+      ],
+      "method": "人工复核+检查同指标合计",
+      "allocation": "4分：同一2020金额三处影响不相加作损失并纠正净利润；2分：各年金额/业务主体正确；2分：同指标跨年合计正确且非损失/个体分摊。",
+      "acceptable_alternatives": "可以不以“调整分录”呈现，但必须保留方向；不得独立确定税额或损害。"
+    },
+    {
+      "id": "C05",
+      "points": 15,
+      "name": "八人岗位年度参与签字和责任类别",
+      "object": "责任台账",
+      "evidence_ids": [
+        "E04"
+      ],
+      "method": "objective.py类别+人工逐人对应P16/P19–P28",
+      "allocation": "每人1.5分共12分：任期/主体、责任年度、行为与签字路径；3分：4名主管与4名其他正确且不扩年度。",
+      "acceptable_alternatives": "任期可压缩为同义明确期间；拒绝从任期自动扩年度；二人未记载签字需明确未知。"
+    },
+    {
+      "id": "C06",
+      "points": 14,
+      "name": "逐人申辩与回应成对",
+      "object": "责任台账及S07",
+      "evidence_ids": [
+        "E05",
+        "E06"
+      ],
+      "method": "人工/模型逐人对照P29–P38",
+      "allocation": "每人1.5分共12分：申辩要点及回应正确配对；2分：部分采纳未指定及不自动免责。",
+      "acceptable_alternatives": "可提出与监管不同的进一步评价，须标分析条件且准确记录决定结果；不以参考措辞匹配。"
+    },
+    {
+      "id": "C07",
+      "points": 10,
+      "name": "处罚禁入及程序边界",
+      "object": "台账及S09至S11",
+      "evidence_ids": [
+        "E07",
+        "E08"
+      ],
+      "method": "objective.py罚款/禁入+人工规则复核",
+      "allocation": "4分：八人警告、罚款和合计；3分：禁入仅金朱、3年、业务与任职限制范围；3分：起算事件/期限、不停止执行、未听证不等于未申辩、缺日期不算截止日。",
+      "acceptable_alternatives": "禁入0仅限本决定；不得推其他案禁入情况。不要求判定量罚合法性。"
+    },
+    {
+      "id": "C08",
+      "points": 13,
+      "name": "S01至S12实际审改",
+      "object": "审改报告",
+      "evidence_ids": [
+        "E10"
+      ],
+      "method": "人工逐段对照输入稿及reference corrections",
+      "allocation": "12个段落各1分：原文/修改后定位可审阅且消除核心错误；1分：两文件结论相互一致。",
+      "acceptable_alternatives": "可以逐段before/after或实际tracked change；合理不同编排/合并须映射全部S编号；不得只列问题而未改正文。"
+    },
+    {
+      "id": "C09",
+      "points": 6,
+      "name": "补证行动专业可执行",
+      "object": "责任台账和报告",
+      "evidence_ids": [
+        "E04",
+        "E09"
+      ],
+      "method": "人工评估争点-文件-用途链",
+      "allocation": "3分：八人行动有职责/参与路径针对性；2分：至少三类优先证据及目的；1分：送达宣布待补、公司李某前期决定另取。",
+      "acceptable_alternatives": "接受其他对应具体争点的证据计划；不要求虚拟负责人/完成日期。"
+    },
+    {
+      "id": "C10",
+      "points": 3,
+      "name": "原生文件可用",
+      "object": "两个文件",
+      "evidence_ids": [
+        "instruction deliverables"
+      ],
+      "method": "程序包检查和文书视觉复核",
+      "allocation": "1分：文件格式及表头单位；1分：公式可审计、内容无明显截断；1分：DOCX结构清晰、修订可读。",
+      "acceptable_alternatives": "表和段落布局可异；格式分不掩盖专业错误。"
+    }
+  ],
+  "objective_tolerances": {
+    "source_amount_yuan": 0.005,
+    "percentage_points": 1e-06,
+    "derived_amount_yuan": 0.1,
+    "fine_yuan": 0.005
+  },
+  "professional_review": "Manual/model rubric required for defenses, evidence sufficiency, corrections, legal boundaries and alternative arguments. Checker does not judge these."
+}

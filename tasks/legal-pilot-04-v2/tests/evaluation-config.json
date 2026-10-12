@@ -1,0 +1,19 @@
+{
+  "task_id": "legal-pilot-04-v2",
+  "deliverables": [
+    "核查台账.xlsx",
+    "审改报告.docx"
+  ],
+  "judge_rules": {
+    "rubric": "Score all criteria 0..points from the full output and visible input. Reference wording is not an answer key.",
+    "alternatives": "Accept evidence-supported alternate reasoning, equivalent formulas and appropriate different priorities.",
+    "critical_errors": "Apply rubric-specific deductions and caps. Contradictory legal triggers or unsupported scientific claims cannot receive full credit.",
+    "grader": "A separately executed host model/reviewer reads every candidate anew and supplies criterion score, reason and concrete evidence. Request digest binds assessment to actual bytes; no reference whitelist."
+  },
+  "trusted_input_sha256": {
+    "L041-original.html": "0357bd3dcd783574afb5a052662f699b494ae7e394ddccbd54bf459ba8eac630",
+    "L041-正文定位.txt": "e8296e831149db01ff68f9a76fd40d36ae5c7076c815150e6457263fbf17013b",
+    "交办背景与口径.md": "7582206200232f979f8161a9fcd1e53fbf546cbbaaa0fe2cd19ab3ca87f7ddf6",
+    "内部核查初稿.docx": "1687acf4684c75c451a26a91f7e8e926f861c88a8075e1bb5200673a6ba5f42e"
+  }
+}

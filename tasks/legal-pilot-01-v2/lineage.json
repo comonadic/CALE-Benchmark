@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "task_id": "legal-pilot-01-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "law",
+  "family_id": "L01",
+  "title": "数据委托处理项目：主文与处理附件联动修订",
+  "design": {
+    "task_type": "document-revision",
+    "operation": "revise",
+    "reasoning_axes": [
+      "instruction-scope",
+      "rights-to-result-and-process-data",
+      "acceptance-payment-dependency",
+      "subprocessing-return-deletion",
+      "main-annex-precedence"
+    ],
+    "deliverable_formats": [
+      "docx",
+      "xlsx"
+    ],
+    "difficulty": "hard",
+    "summary": "以GF-2025-2616推荐模板为真实来源，显式合成未签约项目需求与冲突工作稿，代表委托方做定点条款修订及谈判台账；不评价真实签约交易合法性。"
+  },
+  "sources": [
+    {
+      "document_id": "L002",
+      "content_hash": "6e33da23c5ae7dfc3f154313ddacc19bc881f60d51e1cc72d646a12863024d7b",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "GF-2025-2616/articles-2-18",
+          "locator": "PDF physical p2 usage note; p6-18 Articles 2-18",
+          "purpose": "以GF-2025-2616推荐模板为真实来源，显式合成未签约项目需求与冲突工作稿，代表委托方做定点条款修订及谈判台账；不评价真实签约交易合法性。"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "legal-pilot-01"
+    ],
+    "root_task_ids": [
+      "legal-pilot-01"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "law-data"
+    ],
+    "split_group_ids": [
+      "GF-2025-2616"
+    ],
+    "changed_dimensions": [
+      "native_harbor_packaging",
+      "professional_request_and_visible_inputs",
+      "source_role_separation",
+      "reference_and_rubric_consistency",
+      "professional_judge_and_substantive_challenges",
+      "portable_public_digest_complete_environment_recipe",
+      "trusted_input_integrity_and_candidate_format_boundaries"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12ba8-3248-7871-b7fe-580423c41d2d",
+    "producer_id": "/root/harbor_author_01_02",
+    "prompt_sha256": "25ff6adb0ffb64f5f4b598d0ad49412306f672efc40c28ce107efa5e096dfcaa",
+    "skill_sha256": "38770617b8664564b9c6a65250129c8a6e29c0037e10aa4bed5c3c5978a17803",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "model": null
+  }
+}

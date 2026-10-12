@@ -1,0 +1,1318 @@
+{
+  "facts": {
+    "NP_2024": {
+      "value": "520154868.04",
+      "label": "净利润",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C6",
+      "yuan_per_unit": 1
+    },
+    "NP_2025": {
+      "value": "350495471.77",
+      "label": "净利润",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D6",
+      "yuan_per_unit": 1
+    },
+    "IMPAIRMENT_2024": {
+      "value": "131702070.69",
+      "label": "资产减值准备",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C7",
+      "yuan_per_unit": 1
+    },
+    "IMPAIRMENT_2025": {
+      "value": "129150437.47",
+      "label": "资产减值准备",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D7",
+      "yuan_per_unit": 1
+    },
+    "FA_DEPR_2024": {
+      "value": "72162696.54",
+      "label": "固定资产折旧等",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C8",
+      "yuan_per_unit": 1
+    },
+    "FA_DEPR_2025": {
+      "value": "78252333.78",
+      "label": "固定资产折旧等",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D8",
+      "yuan_per_unit": 1
+    },
+    "ROU_DEPR_2024": {
+      "value": "107043979.81",
+      "label": "使用权资产折旧",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C9",
+      "yuan_per_unit": 1
+    },
+    "ROU_DEPR_2025": {
+      "value": "105712967.97",
+      "label": "使用权资产折旧",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D9",
+      "yuan_per_unit": 1
+    },
+    "INTANGIBLE_2024": {
+      "value": "17002427.47",
+      "label": "无形资产摊销",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C10",
+      "yuan_per_unit": 1
+    },
+    "INTANGIBLE_2025": {
+      "value": "45481218.89",
+      "label": "无形资产摊销",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D10",
+      "yuan_per_unit": 1
+    },
+    "LT_AMORT_2024": {
+      "value": "79542654.39",
+      "label": "长期待摊费用摊销",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C11",
+      "yuan_per_unit": 1
+    },
+    "LT_AMORT_2025": {
+      "value": "98923213.05",
+      "label": "长期待摊费用摊销",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D11",
+      "yuan_per_unit": 1
+    },
+    "DISPOSAL_2024": {
+      "value": "13123778.75",
+      "label": "处置长期资产损失（收益负列）",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C12",
+      "yuan_per_unit": 1
+    },
+    "DISPOSAL_2025": {
+      "value": "-1424553.65",
+      "label": "处置长期资产损失（收益负列）",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D12",
+      "yuan_per_unit": 1
+    },
+    "SCRAP_2024": {
+      "value": "450932.08",
+      "label": "固定资产报废损失",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C13",
+      "yuan_per_unit": 1
+    },
+    "SCRAP_2025": {
+      "value": "13839675.54",
+      "label": "固定资产报废损失",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D13",
+      "yuan_per_unit": 1
+    },
+    "FV_2024": {
+      "value": "14400320.94",
+      "label": "公允价值变动损失",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C14",
+      "yuan_per_unit": 1
+    },
+    "FV_2025": {
+      "value": "158635.19",
+      "label": "公允价值变动损失",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D14",
+      "yuan_per_unit": 1
+    },
+    "FINANCE_2024": {
+      "value": "11105993.98",
+      "label": "财务费用（收益负列）",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C15",
+      "yuan_per_unit": 1
+    },
+    "FINANCE_2025": {
+      "value": "10297740.94",
+      "label": "财务费用（收益负列）",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D15",
+      "yuan_per_unit": 1
+    },
+    "INVESTMENT_2024": {
+      "value": "-10504657.47",
+      "label": "投资损失（收益负列）",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C16",
+      "yuan_per_unit": 1
+    },
+    "INVESTMENT_2025": {
+      "value": "-17509099.67",
+      "label": "投资损失（收益负列）",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D16",
+      "yuan_per_unit": 1
+    },
+    "DTA_2024": {
+      "value": "4532000.79",
+      "label": "递延所得税资产减少",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C17",
+      "yuan_per_unit": 1
+    },
+    "DTA_2025": {
+      "value": "-12574202.23",
+      "label": "递延所得税资产减少",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D17",
+      "yuan_per_unit": 1
+    },
+    "DTL_2024": {
+      "value": "-1763159.1",
+      "label": "递延所得税负债增加",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C18",
+      "yuan_per_unit": 1
+    },
+    "DTL_2025": {
+      "value": "-183193.86",
+      "label": "递延所得税负债增加",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D18",
+      "yuan_per_unit": 1
+    },
+    "INVENTORY_CF_2024": {
+      "value": "-148190301.59",
+      "label": "存货的减少",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C19",
+      "yuan_per_unit": 1
+    },
+    "INVENTORY_CF_2025": {
+      "value": "-166428589.3",
+      "label": "存货的减少",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D19",
+      "yuan_per_unit": 1
+    },
+    "RECEIVABLE_CF_2024": {
+      "value": "-290252934.4",
+      "label": "经营性应收项目的减少",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C20",
+      "yuan_per_unit": 1
+    },
+    "RECEIVABLE_CF_2025": {
+      "value": "17438639.45",
+      "label": "经营性应收项目的减少",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D20",
+      "yuan_per_unit": 1
+    },
+    "PAYABLE_CF_2024": {
+      "value": "181195859.79",
+      "label": "经营性应付项目的增加",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C21",
+      "yuan_per_unit": 1
+    },
+    "PAYABLE_CF_2025": {
+      "value": "-15669754.68",
+      "label": "经营性应付项目的增加",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D21",
+      "yuan_per_unit": 1
+    },
+    "OTHER_2024": {
+      "value": "524039.16",
+      "label": "其他",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C22",
+      "yuan_per_unit": 1
+    },
+    "OTHER_2025": {
+      "value": "524039.16",
+      "label": "其他",
+      "pages": [
+        181
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D22",
+      "yuan_per_unit": 1
+    },
+    "CFO_2024": {
+      "value": "702230569.87",
+      "label": "披露经营活动现金流净额",
+      "pages": [
+        181,
+        85,
+        31,
+        7
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C23",
+      "yuan_per_unit": 1
+    },
+    "CFO_2025": {
+      "value": "636484979.82",
+      "label": "披露经营活动现金流净额",
+      "pages": [
+        181,
+        85,
+        31,
+        7
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D23",
+      "yuan_per_unit": 1
+    },
+    "MAIN_NP_2024": {
+      "value": "520154868.04",
+      "label": "合并利润表净利润",
+      "pages": [
+        82
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C24",
+      "yuan_per_unit": 1
+    },
+    "MAIN_NP_2025": {
+      "value": "350495471.77",
+      "label": "合并利润表净利润",
+      "pages": [
+        82
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D24",
+      "yuan_per_unit": 1
+    },
+    "PARENT_NP_2024": {
+      "value": "494960049.58",
+      "label": "归属于母公司股东的净利润",
+      "pages": [
+        82
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C25",
+      "yuan_per_unit": 1
+    },
+    "PARENT_NP_2025": {
+      "value": "341747762.73",
+      "label": "归属于母公司股东的净利润",
+      "pages": [
+        82
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D25",
+      "yuan_per_unit": 1
+    },
+    "MINORITY_NP_2024": {
+      "value": "25194818.46",
+      "label": "少数股东损益",
+      "pages": [
+        82
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C26",
+      "yuan_per_unit": 1
+    },
+    "MINORITY_NP_2025": {
+      "value": "8747709.04",
+      "label": "少数股东损益",
+      "pages": [
+        82
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D26",
+      "yuan_per_unit": 1
+    },
+    "CF_IN_2024": {
+      "value": "5263911054.64",
+      "label": "经营活动现金流入小计",
+      "pages": [
+        85
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C27",
+      "yuan_per_unit": 1
+    },
+    "CF_IN_2025": {
+      "value": "5287970882.21",
+      "label": "经营活动现金流入小计",
+      "pages": [
+        85
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D27",
+      "yuan_per_unit": 1
+    },
+    "CF_OUT_2024": {
+      "value": "4561680484.77",
+      "label": "经营活动现金流出小计",
+      "pages": [
+        85
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C28",
+      "yuan_per_unit": 1
+    },
+    "CF_OUT_2025": {
+      "value": "4651485902.39",
+      "label": "经营活动现金流出小计",
+      "pages": [
+        85
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D28",
+      "yuan_per_unit": 1
+    },
+    "INV_GROSS_2024": {
+      "value": "1334685879.29",
+      "label": "存货账面余额",
+      "pages": [
+        140
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C29",
+      "yuan_per_unit": 1
+    },
+    "INV_GROSS_2025": {
+      "value": "1435277949.76",
+      "label": "存货账面余额",
+      "pages": [
+        140
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D29",
+      "yuan_per_unit": 1
+    },
+    "INV_ALLOW_2024": {
+      "value": "129891177.58",
+      "label": "存货跌价准备",
+      "pages": [
+        140
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C30",
+      "yuan_per_unit": 1
+    },
+    "INV_ALLOW_2025": {
+      "value": "158901675.52",
+      "label": "存货跌价准备",
+      "pages": [
+        140
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D30",
+      "yuan_per_unit": 1
+    },
+    "INV_NET_2024": {
+      "value": "1204794701.71",
+      "label": "存货账面价值",
+      "pages": [
+        140,
+        77
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C31",
+      "yuan_per_unit": 1
+    },
+    "INV_NET_2025": {
+      "value": "1276376274.24",
+      "label": "存货账面价值",
+      "pages": [
+        140,
+        77
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D31",
+      "yuan_per_unit": 1
+    },
+    "INV_CHARGE_2025": {
+      "value": "94847016.77",
+      "label": "本期存货跌价准备计提",
+      "pages": [
+        140
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D32",
+      "yuan_per_unit": 1
+    },
+    "INV_RELEASE_2025": {
+      "value": "65836518.83",
+      "label": "本期存货准备转回或转销",
+      "pages": [
+        140
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D33",
+      "yuan_per_unit": 1
+    },
+    "AR_GROSS_2024": {
+      "value": "781369444.56",
+      "label": "应收账款账面余额",
+      "pages": [
+        128
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C34",
+      "yuan_per_unit": 1
+    },
+    "AR_GROSS_2025": {
+      "value": "717784195.73",
+      "label": "应收账款账面余额",
+      "pages": [
+        128
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D34",
+      "yuan_per_unit": 1
+    },
+    "AR_ALLOW_2024": {
+      "value": "88538659.21",
+      "label": "应收账款坏账准备",
+      "pages": [
+        128
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C35",
+      "yuan_per_unit": 1
+    },
+    "AR_ALLOW_2025": {
+      "value": "75506628.53",
+      "label": "应收账款坏账准备",
+      "pages": [
+        128
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D35",
+      "yuan_per_unit": 1
+    },
+    "AR_NET_2024": {
+      "value": "692830785.35",
+      "label": "应收账款账面价值",
+      "pages": [
+        128,
+        77
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C36",
+      "yuan_per_unit": 1
+    },
+    "AR_NET_2025": {
+      "value": "642277567.2",
+      "label": "应收账款账面价值",
+      "pages": [
+        128,
+        77
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D36",
+      "yuan_per_unit": 1
+    },
+    "AP_2024": {
+      "value": "460218384.9",
+      "label": "应付账款",
+      "pages": [
+        163,
+        78
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C37",
+      "yuan_per_unit": 1
+    },
+    "AP_2025": {
+      "value": "492048234.56",
+      "label": "应付账款",
+      "pages": [
+        163,
+        78
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D37",
+      "yuan_per_unit": 1
+    },
+    "AP_PROPERTY_2025": {
+      "value": "1500000.0",
+      "label": "重要应付账款：购房款尚未支付",
+      "pages": [
+        163
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D38",
+      "yuan_per_unit": 1
+    },
+    "AP_ENGINEER_2025": {
+      "value": "28291299.51",
+      "label": "重要应付账款：工程质保金未到期",
+      "pages": [
+        163
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D39",
+      "yuan_per_unit": 1
+    },
+    "CL_CUSTOMER_2024": {
+      "value": "329846645.67",
+      "label": "合同负债：客户预收款",
+      "pages": [
+        165
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C40",
+      "yuan_per_unit": 1
+    },
+    "CL_CUSTOMER_2025": {
+      "value": "349812454.95",
+      "label": "合同负债：客户预收款",
+      "pages": [
+        165
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D40",
+      "yuan_per_unit": 1
+    },
+    "CL_CARD_2024": {
+      "value": "11534064.8",
+      "label": "合同负债：贵宾卡预收款",
+      "pages": [
+        165
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C41",
+      "yuan_per_unit": 1
+    },
+    "CL_CARD_2025": {
+      "value": "10941441.02",
+      "label": "合同负债：贵宾卡预收款",
+      "pages": [
+        165
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D41",
+      "yuan_per_unit": 1
+    },
+    "CL_OTHER_2024": {
+      "value": "20595218.56",
+      "label": "合同负债：其他",
+      "pages": [
+        165
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C42",
+      "yuan_per_unit": 1
+    },
+    "CL_OTHER_2025": {
+      "value": "34926925.33",
+      "label": "合同负债：其他",
+      "pages": [
+        165
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D42",
+      "yuan_per_unit": 1
+    },
+    "CL_TOTAL_2024": {
+      "value": "361975929.03",
+      "label": "合同负债合计",
+      "pages": [
+        165,
+        78
+      ],
+      "scope": "合并",
+      "period": "2024",
+      "cell": "Inputs!C43",
+      "yuan_per_unit": 1
+    },
+    "CL_TOTAL_2025": {
+      "value": "395680821.3",
+      "label": "合同负债合计",
+      "pages": [
+        165,
+        78
+      ],
+      "scope": "合并",
+      "period": "2025",
+      "cell": "Inputs!D43",
+      "yuan_per_unit": 1
+    }
+  },
+  "metrics": {
+    "NP24": {
+      "value": "520154868.04",
+      "cell": "Bridge!D7",
+      "label": "2024桥接合并净利润",
+      "yuan_per_unit": 1,
+      "require_formula": false
+    },
+    "NP25": {
+      "value": "350495471.77",
+      "cell": "Bridge!E7",
+      "label": "2025桥接合并净利润",
+      "yuan_per_unit": 1,
+      "require_formula": false
+    },
+    "CFO24": {
+      "value": "702230569.87",
+      "cell": "Bridge!D10",
+      "label": "2024公式经营现金流",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CFO25": {
+      "value": "636484979.82",
+      "cell": "Bridge!E10",
+      "label": "2025公式经营现金流",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CFO_DELTA": {
+      "value": "-65745590.05",
+      "cell": "Bridge!F10",
+      "label": "经营现金流同比变化",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "NP_DELTA": {
+      "value": "-169659396.27",
+      "cell": "Bridge!F7",
+      "label": "净利润同比变化",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "WC_DELTA": {
+      "value": "92587671.67",
+      "cell": "Bridge!F9",
+      "label": "营运资本调整同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "RECEIVABLE_CONTRIB": {
+      "value": "307691573.85",
+      "cell": "Bridge!F34",
+      "label": "经营性应收同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "PAYABLE_CONTRIB": {
+      "value": "-196865614.47",
+      "cell": "Bridge!F35",
+      "label": "经营性应付同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "RATIO24": {
+      "value": "1.3500413300294218",
+      "cell": "Bridge!D14",
+      "label": "2024经营现金流/净利润",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "RATIO25": {
+      "value": "1.815957782865938",
+      "cell": "Bridge!E14",
+      "label": "2025经营现金流/净利润",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "SPREAD24": {
+      "value": "182075701.83",
+      "cell": "Bridge!D15",
+      "label": "2024经营现金流减净利润",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "SPREAD25": {
+      "value": "285989508.05",
+      "cell": "Bridge!E15",
+      "label": "2025经营现金流减净利润",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_NET_DELTA": {
+      "value": "71581572.53",
+      "cell": "WC!F10",
+      "label": "存货净额期末减期初",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_ALLOW_ROLL": {
+      "value": "158901675.52",
+      "cell": "WC!E16",
+      "label": "存货准备期末复算",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_NET_GAP": {
+      "value": "-94847016.77",
+      "cell": "WC!E22",
+      "label": "存货调整减简单净额变动",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_GROSS_GAP": {
+      "value": "-65836518.83",
+      "cell": "WC!E26",
+      "label": "存货调整减简单毛额变动",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_CF_NET": {
+      "value": "-166428589.3",
+      "cell": "WC!E23",
+      "label": "结合计提的存货调整复算",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_CF_GROSS": {
+      "value": "-166428589.3",
+      "cell": "WC!E27",
+      "label": "结合转回或转销的存货调整复算",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "AR_RESIDUAL": {
+      "value": "-33114578.7",
+      "cell": "WC!E39",
+      "label": "经营性应收减单一净额变动",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "AP_RESIDUAL": {
+      "value": "-47499604.34",
+      "cell": "WC!E45",
+      "label": "经营性应付减单一应付变动",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CL_DELTA": {
+      "value": "33704892.27",
+      "cell": "WC!F55",
+      "label": "合同负债总额期末减期初",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "AP_CAPITAL_EXAMPLES": {
+      "value": "29791299.51",
+      "cell": "WC!E49",
+      "label": "重要应付资本款期末示例合计",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CFO_CONTROL_2024": {
+      "value": "0",
+      "cell": "Bridge!D12",
+      "label": "桥接与披露现金流差额2024",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CFO_CONTROL_2025": {
+      "value": "0",
+      "cell": "Bridge!E12",
+      "label": "桥接与披露现金流差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "NP_CONTROL_2024": {
+      "value": "0",
+      "cell": "Bridge!D41",
+      "label": "主表与桥接净利润差额2024",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "NP_CONTROL_2025": {
+      "value": "0",
+      "cell": "Bridge!E41",
+      "label": "主表与桥接净利润差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "ATTRIBUTION_CONTROL_2024": {
+      "value": "0",
+      "cell": "Bridge!D42",
+      "label": "净利润归属分类差额2024",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "ATTRIBUTION_CONTROL_2025": {
+      "value": "0",
+      "cell": "Bridge!E42",
+      "label": "净利润归属分类差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "DIRECT_CF_CONTROL_2024": {
+      "value": "0",
+      "cell": "Bridge!D43",
+      "label": "主表现金流入流出差额2024",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "DIRECT_CF_CONTROL_2025": {
+      "value": "0",
+      "cell": "Bridge!E43",
+      "label": "主表现金流入流出差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CONTRIB_CONTROL": {
+      "value": "0",
+      "cell": "Bridge!F44",
+      "label": "逐项贡献合计与现金流同比差额",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_NET_CONTROL_2024": {
+      "value": "0",
+      "cell": "WC!D11",
+      "label": "存货净额勾稽差额2024",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_NET_CONTROL_2025": {
+      "value": "0",
+      "cell": "WC!E11",
+      "label": "存货净额勾稽差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_ALLOW_CONTROL_2025": {
+      "value": "0",
+      "cell": "WC!E17",
+      "label": "存货准备滚动差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_NET_CF_CONTROL": {
+      "value": "0",
+      "cell": "WC!E24",
+      "label": "存货净额准备桥与披露差额",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INV_GROSS_CF_CONTROL": {
+      "value": "0",
+      "cell": "WC!E28",
+      "label": "存货毛额准备桥与披露差额",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "AR_NET_CONTROL_2024": {
+      "value": "0",
+      "cell": "WC!D35",
+      "label": "应收净额勾稽差额2024",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "AR_NET_CONTROL_2025": {
+      "value": "0",
+      "cell": "WC!E35",
+      "label": "应收净额勾稽差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CL_CONTROL_2024": {
+      "value": "0",
+      "cell": "WC!D57",
+      "label": "合同负债分项总额差额2024",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "CL_CONTROL_2025": {
+      "value": "0",
+      "cell": "WC!E57",
+      "label": "合同负债分项总额差额2025",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "NP_CONTRIB": {
+      "cell": "Bridge!F20",
+      "value": "-169659396.27000004",
+      "label": "净利润同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "IMPAIRMENT_CONTRIB": {
+      "cell": "Bridge!F21",
+      "value": "-2551633.219999999",
+      "label": "资产减值准备同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "FA_DEPR_CONTRIB": {
+      "cell": "Bridge!F22",
+      "value": "6089637.239999995",
+      "label": "固定资产折旧等同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "ROU_DEPR_CONTRIB": {
+      "cell": "Bridge!F23",
+      "value": "-1331011.8400000036",
+      "label": "使用权资产折旧同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INTANGIBLE_CONTRIB": {
+      "cell": "Bridge!F24",
+      "value": "28478791.42",
+      "label": "无形资产摊销同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "LT_AMORT_CONTRIB": {
+      "cell": "Bridge!F25",
+      "value": "19380558.659999996",
+      "label": "长期待摊费用摊销同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "DISPOSAL_CONTRIB": {
+      "cell": "Bridge!F26",
+      "value": "-14548332.4",
+      "label": "处置长期资产损失（收益负列）同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "SCRAP_CONTRIB": {
+      "cell": "Bridge!F27",
+      "value": "13388743.459999999",
+      "label": "固定资产报废损失同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "FV_CONTRIB": {
+      "cell": "Bridge!F28",
+      "value": "-14241685.75",
+      "label": "公允价值变动损失同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "FINANCE_CONTRIB": {
+      "cell": "Bridge!F29",
+      "value": "-808253.040000001",
+      "label": "财务费用（收益负列）同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INVESTMENT_CONTRIB": {
+      "cell": "Bridge!F30",
+      "value": "-7004442.200000001",
+      "label": "投资损失（收益负列）同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "DTA_CONTRIB": {
+      "cell": "Bridge!F31",
+      "value": "-17106203.02",
+      "label": "递延所得税资产减少同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "DTL_CONTRIB": {
+      "cell": "Bridge!F32",
+      "value": "1579965.2400000002",
+      "label": "递延所得税负债增加同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "INVENTORY_CF_CONTRIB": {
+      "cell": "Bridge!F33",
+      "value": "-18238287.71000001",
+      "label": "存货的减少同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "RECEIVABLE_CF_CONTRIB": {
+      "cell": "Bridge!F34",
+      "value": "307691573.84999996",
+      "label": "经营性应收项目的减少同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "PAYABLE_CF_CONTRIB": {
+      "cell": "Bridge!F35",
+      "value": "-196865614.47",
+      "label": "经营性应付项目的增加同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "OTHER_CONTRIB": {
+      "cell": "Bridge!F36",
+      "value": "0.0",
+      "label": "其他同比贡献",
+      "yuan_per_unit": 1,
+      "require_formula": true
+    },
+    "NONWC_DELTA": {
+      "cell": "Bridge!F8",
+      "label": "非营运资本调整同比贡献",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "INV_GROSS_DELTA": {
+      "cell": "WC!F7",
+      "label": "存货毛额期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "INV_ALLOW_DELTA": {
+      "cell": "WC!F8",
+      "label": "存货准备期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "AR_GROSS_DELTA": {
+      "cell": "WC!F31",
+      "label": "应收毛额期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "AR_ALLOW_DELTA": {
+      "cell": "WC!F32",
+      "label": "应收准备期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "AR_NET_DELTA": {
+      "cell": "WC!F34",
+      "label": "应收净额期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "AP_DELTA": {
+      "cell": "WC!E43",
+      "label": "应付账款期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "CL_CUSTOMER_DELTA": {
+      "cell": "WC!F52",
+      "label": "客户预收期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "CL_CARD_DELTA": {
+      "cell": "WC!F53",
+      "label": "贵宾卡期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    },
+    "CL_OTHER_DELTA": {
+      "cell": "WC!F54",
+      "label": "其他合同负债期末减期初",
+      "require_formula": true,
+      "yuan_per_unit": 1
+    }
+  },
+  "bridge_codes": [
+    "NP",
+    "IMPAIRMENT",
+    "FA_DEPR",
+    "ROU_DEPR",
+    "INTANGIBLE",
+    "LT_AMORT",
+    "DISPOSAL",
+    "SCRAP",
+    "FV",
+    "FINANCE",
+    "INVESTMENT",
+    "DTA",
+    "DTL",
+    "INVENTORY_CF",
+    "RECEIVABLE_CF",
+    "PAYABLE_CF",
+    "OTHER"
+  ],
+  "groups": {
+    "NP": "净利润",
+    "IMPAIRMENT": "非营运资本调整",
+    "FA_DEPR": "非营运资本调整",
+    "ROU_DEPR": "非营运资本调整",
+    "INTANGIBLE": "非营运资本调整",
+    "LT_AMORT": "非营运资本调整",
+    "DISPOSAL": "非营运资本调整",
+    "SCRAP": "非营运资本调整",
+    "FV": "非营运资本调整",
+    "FINANCE": "非营运资本调整",
+    "INVESTMENT": "非营运资本调整",
+    "DTA": "非营运资本调整",
+    "DTL": "非营运资本调整",
+    "INVENTORY_CF": "营运资本调整",
+    "RECEIVABLE_CF": "营运资本调整",
+    "PAYABLE_CF": "营运资本调整",
+    "OTHER": "非营运资本调整"
+  },
+  "source_sha256": "9a11b1b6d78d2a2016a529f36270fe318eaa3f38a78caa364236ac7416ca7d3c",
+  "source_filename": "F003-报喜鸟2025年年度报告.pdf"
+}

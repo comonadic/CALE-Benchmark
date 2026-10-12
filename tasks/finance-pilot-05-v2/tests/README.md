@@ -1,0 +1,13 @@
+# Finance05 verification
+
+Harbor injects this directory at `/tests` in a separate no-network verifier environment, restores the declared `/workspace/output` artifact, and runs `test.sh`. The agent image contains only tools and visible input files.
+
+`objective.py` awards 60 points from actual submitted CSV values, Decimal relationships, business evidence-state enums, source relation/aggregation enums and handoff structure. `offline_verifier.py` extracts the actual CSV and all current DOCX text, renders the actual DOCX with a unique LibreOffice profile, and extracts every page of the immutable official inputs. It writes a canonical SHA256-bound `/logs/verifier/judge-request.json` and waits for the independent response specified by `harbor-tasks/_shared/rubric-bridge-protocol.md`.
+
+The independent semantic rubric has M01–M04 totaling40 points. It assesses actual citation support and source role, scope/cutoff, closure boundaries, useful evidence requests and document usability. The response must bind the exact request digest, identify actual independent reviewer/time/method or model response, cover each semantic ID once, stay in range and give concrete candidate evidence for positive credit. Output digests bind the review to actual bytes; no reference-output hashes are used for scoring.
+
+The coordinator uses the current-session independent reviewer queue; external API grading is disabled pending user authorization. No credentials are read by the task. Missing/empty required submissions deterministically receive0 after trusted input/runtime checks. `grader-hashes.json` also verifies scoring code/context before candidate handling. Known candidate ZIP/DOCX package/XML and CSV syntax/UTF-8/ambiguous-header defects produce a completed candidate0; these narrow catches only surround actual candidate reads. Missing source files, code/import/other extraction/Office faults and missing/malformed judge responses write an invalid failure report and delete reward files. Harbor reads reward independently of process exit status, so a verifier fault must never be represented by reward0. The production wait default remains1800 seconds.
+
+`--prepare-only` produces an actual request and pending report for local authoring QA, without a valid reward. It does not grade professional semantics. Runtime Docker/Harbor/Forge evidence belongs to the coordinator's serialized validation lifecycle, not local authoring checks.
+
+Before NOP handling, the chosen Office `--version` and Poppler `-v` run with a5-second timeout each. Both must return0 and identify the expected tool with a numeric version. Presence alone is insufficient; unhealthy executables leave verifier failure and no reward.

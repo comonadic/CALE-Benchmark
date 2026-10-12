@@ -1,0 +1,10 @@
+{
+  "offline_verifier.py": "8ad3fa018068e9d1e0e082388aac66e35433cd5cd9b7f79b814cb2828d7037d4",
+  "test.sh": "ac44055aae66c7d292cc0b44cab39dc4901c4905c2a84242f6819dc11ec45cc8",
+  "input-hashes.json": "6fac5c3fc3658d341fac30e6217c564d54bc02ea8df8b3ee1fde9dd16fc51640",
+  "rubric.json": "fcde0a6d8147c095093a1298be136a83eec1295e9281e27fc1574eb36a826957",
+  "expectations.json": "14133700b193ba4b579df97096a9cd8a3b97c6615c25068ee36f10f0f3d92650",
+  "instruction.md": "63b2978fb1747a233b8a0b8739ac5ecc67753252c3023dcd1274eb2974b00df2",
+  "objective.py": "de1075ac6ccf374736a844e19e1a2e709bb1c1aa211576b177340cb25e6cef6d",
+  "evidence-context.json": "e75ca2ed2a92ac43668db8af42bc533810ea2a5cdafec6f192f2a56b20021bfe"
+}

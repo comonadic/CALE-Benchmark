@@ -1,0 +1,20 @@
+{
+  "task_id": "legal-pilot-05-v2",
+  "deliverables": [
+    "evidence-ledger.csv",
+    "argument-comparison.csv",
+    "team-review.md"
+  ],
+  "judge_rules": {
+    "rubric": "Score all criteria 0..points from the full output and visible input. Reference wording is not an answer key.",
+    "alternatives": "Accept evidence-supported alternate reasoning, equivalent formulas and appropriate different priorities.",
+    "critical_errors": "Apply rubric-specific deductions and caps. Contradictory legal triggers or unsupported scientific claims cannot receive full credit.",
+    "grader": "A separately executed host model/reviewer reads every candidate anew and supplies criterion score, reason and concrete evidence. Request digest binds assessment to actual bytes; no reference whitelist."
+  },
+  "trusted_input_sha256": {
+    "L044-decision-580173.pdf": "d413e6a6af4fb767bf0c109a24279279b0b8e74e74099bc4c4bd620ccad5fba2",
+    "L044-page-text.txt": "47c051a6b45efb7dea1b9e54139b540762ff565866ada9b07ae390706f88dbe8",
+    "briefing.md": "0bde3b2a0f0a458a8ee29c557c85ed24ed8f351af89c9cb407e1f386206e51cc",
+    "csv-schema.json": "5e0ca9aed6312fcef5bbf8d471db19e131af86036b09a09667010ffb99cc8f09"
+  }
+}

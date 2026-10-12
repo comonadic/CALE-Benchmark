@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "task_id": "legal-pilot-05-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "law",
+  "family_id": "L06",
+  "title": "芦可替尼盐专利无效决定：代理团队复核",
+  "design": {
+    "task_type": "evidence-analysis",
+    "operation": "compare",
+    "reasoning_axes": [
+      "priority-vs-publication-date",
+      "procedural-submission-vs-admissibility",
+      "requester-vs-panel-position",
+      "claim-specific-reasoning",
+      "missing-underlying-prior-art"
+    ],
+    "deliverable_formats": [
+      "csv",
+      "md"
+    ],
+    "difficulty": "hard",
+    "summary": "以第580173号公开决定为事后案例资料，建立证据1–16及反证的来源和角色台账，复核优先权对证据2资格的影响、创造性链条与公开充分/支持结论，形成代理团队下次补证清单而非重做完整无效审理。"
+  },
+  "sources": [
+    {
+      "document_id": "L044",
+      "content_hash": "d413e6a6af4fb767bf0c109a24279279b0b8e74e74099bc4c4bd620ccad5fba2",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "CNIPA-580173/priority-and-evidence",
+          "locator": "PDF物理页1–18，案由、证据1–16、二决定理由、三决定",
+          "purpose": "以第580173号公开决定为事后案例资料，建立证据1–16及反证的来源和角色台账，复核优先权对证据2资格的影响、创造性链条与公开充分/支持结论，形成代理团队下次补证清单而非重做完整无效审理。"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "legal-pilot-05"
+    ],
+    "root_task_ids": [
+      "legal-pilot-05"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "law-patents"
+    ],
+    "split_group_ids": [
+      "CNIPA-580173"
+    ],
+    "changed_dimensions": [
+      "professional-request-naturalness",
+      "agent-visible-business-briefing",
+      "absolute-workspace-paths",
+      "reference-four-factor-expansion",
+      "chemistry-image-boundary",
+      "ATP-context",
+      "evidence-ledger-role-and-page-precision",
+      "argument-row-flexibility",
+      "native-harbor-layout",
+      "professional-judge-and-challenges",
+      "known-versus-unknown-field-contract-alignment",
+      "portable_public_digest_complete_environment_recipe",
+      "trusted_input_integrity_and_candidate_format_boundaries"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12e44-3efa-7c42-8b0d-c284a099ed77",
+    "producer_id": "/root/harbor_author_05",
+    "prompt_sha256": "25ff6adb0ffb64f5f4b598d0ad49412306f672efc40c28ce107efa5e096dfcaa",
+    "skill_sha256": "38770617b8664564b9c6a65250129c8a6e29c0037e10aa4bed5c3c5978a17803",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "model": null
+  }
+}

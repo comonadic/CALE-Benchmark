@@ -1,0 +1,96 @@
+{
+  "oracle": "solution/reference",
+  "numeric-wrong": {
+    "changes": "Only A03/A04 calendar quantity20days->45days and dependent formula values; procedure-plan.md byte-identical to correct R2 reference",
+    "expected_objective": "failed",
+    "expected_professional": "Deduct affected numeric calendar/consistency criteria; no incidental R1 recusal omission"
+  },
+  "semantic-wrong": {
+    "changes": "From correct R2 MD apply six explicit replacements for automatic stay/extension, impossible summary, automatic reverse conversion and merits rehearing; complete R2 recusal actions and filter preserved",
+    "expected_objective": "passed",
+    "expected_professional": "substantive criteria must lose points despite valid files and arithmetic",
+    "baseline_diff": "private/authoring/qa/R3-semantic-wrong-from-R2.diff"
+  },
+  "acceptable-alternative": {
+    "changes": "Earlier internal targets and temporary ordinary-procedure preference with conditional later reassessment",
+    "expected_objective": "passed",
+    "expected_professional": "accepted; no deduction for supported strategy or equivalent formulas"
+  },
+  "calibration_R3": {
+    "correct_reference_sha256": {
+      "action-calendar.xlsx": "7ab9a14e3417959e92c6de179128374df023ea19cbf88cd60d3b882849cf9619",
+      "procedure-plan.md": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248"
+    },
+    "fixture_sha256": {
+      "numeric-wrong": {
+        "action-calendar.xlsx": "89dd346853a4b4bb90ddbf4b58e5faa38b0fe4d1eeb6f9510cd239d8038f5194",
+        "procedure-plan.md": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248"
+      },
+      "semantic-wrong": {
+        "action-calendar.xlsx": "d56b73d88e0e1dbbecfb7c16605e904ebe32a063cf84c21c2329a3812eed2c0d",
+        "procedure-plan.md": "010149344050d081a0237b46e1b3f2af4dc229498e7d58708d22fd896ad654c6"
+      },
+      "acceptable-alternative": {
+        "action-calendar.xlsx": "9dc3f6a733937a977798bd48de95737783b26eec83be22929da7fbe22db17f31",
+        "procedure-plan.md": "494198ef3a549bd0c0f8ddf3ea34c0769fb571886f6ccbe0cc7e99fcb44fa1ed"
+      }
+    },
+    "controlled_differences": {
+      "numeric_xlsx_delta": [
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "E10",
+          "reference": [
+            null,
+            "20"
+          ],
+          "numeric_wrong": [
+            null,
+            "45"
+          ]
+        },
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "E9",
+          "reference": [
+            null,
+            "20"
+          ],
+          "numeric_wrong": [
+            null,
+            "45"
+          ]
+        },
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "G10",
+          "reference": [
+            "IF(D10=\"\",\"\",D10+E10)",
+            "45764"
+          ],
+          "numeric_wrong": [
+            "IF(D10=\"\",\"\",D10+E10)",
+            "45789"
+          ]
+        },
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "G9",
+          "reference": [
+            "IF(D9=\"\",\"\",D9+E9)",
+            "45764"
+          ],
+          "numeric_wrong": [
+            "IF(D9=\"\",\"\",D9+E9)",
+            "45789"
+          ]
+        }
+      ],
+      "semantic_xlsx_all_values_formulas_caches_match_correct_reference": true,
+      "numeric_MD_equal_correct_reference": true,
+      "semantic_MD_exactly_six_planned_replacements": true
+    },
+    "author_self_check_only": true,
+    "independent_final_runtime_evaluation": "pending root final runs"
+  }
+}

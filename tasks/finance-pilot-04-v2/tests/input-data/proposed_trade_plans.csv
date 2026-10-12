@@ -1,0 +1,5 @@
+﻿plan_id,base_row_id,submitted_at,open_long_lots,open_short_lots,close_long_lots,close_short_lots
+TP01,R06,2026-12-01T10:00:00+08:00,1,0,0,0
+TP02,R06,2026-12-01T10:01:00+08:00,0,0,0,2
+TP03,R07,2026-12-01T10:02:00+08:00,0,0,1,0
+TP04,R04,2026-11-30T14:40:00+08:00,0,0,1,1

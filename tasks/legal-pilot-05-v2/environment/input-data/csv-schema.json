@@ -1,0 +1,146 @@
+{
+  "version": 2,
+  "evidence_ledger": {
+    "fields": [
+      "evidence_id",
+      "item_name",
+      "presenter",
+      "source_role",
+      "publication_date",
+      "date_precision",
+      "first_submitted_on",
+      "procedural_status",
+      "authenticity_translation",
+      "asserted_purpose",
+      "panel_evaluation",
+      "prior_art_status",
+      "citation_status",
+      "decision_pages",
+      "underlying_material_gap"
+    ],
+    "enums": {
+      "presenter": [
+        "请求人",
+        "专利权人"
+      ],
+      "source_role": [
+        "决定转述"
+      ],
+      "date_precision": [
+        "day",
+        "month",
+        "year",
+        "not_stated",
+        "not_applicable"
+      ],
+      "prior_art_status": [
+        "not_prior_art",
+        "potential_pre_priority",
+        "post_priority",
+        "not_assessed",
+        "not_applicable",
+        "withdrawn",
+        "treated_as_prior_art"
+      ],
+      "citation_status": [
+        "accepted_in_this_issue",
+        "not_assessed",
+        "not_applicable",
+        "withdrawn"
+      ]
+    },
+    "required_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "C1",
+      "C2-1",
+      "C2-2",
+      "C2-3",
+      "C2-4",
+      "C2-5",
+      "C2-6",
+      "C2-7",
+      "C2-8",
+      "C2-9",
+      "C2-10",
+      "C2-11",
+      "C2-12",
+      "C2-13",
+      "C2-14",
+      "C2-15",
+      "C2-16",
+      "C2-17",
+      "C2-18",
+      "C3"
+    ],
+    "identifier_mapping": "E1=证据1；C1=反证1；C2-1=反证2-1；C3=反证3",
+    "date_policy": "publication_date仅填写决定明确列明的该文献公开/出版日期；精度day:YYYY-MM-DD,month:YYYY-MM,year:YYYY。未知留空，精度not_stated（不适用时not_applicable）。优先权/提交/申请日期另行记录。这36件的首次提交日期在决定p4–7已有记录，first_submitted_on为必填YYYY-MM-DD；程序更正写procedural_status。",
+    "date_status_note": "potential_pre_priority表示记载日期早于成立优先权日，但文件的公开可得性未独立核验；treated_as_prior_art表示决定实际按现有技术进行比较；not_assessed表示本决定未单独判断该资格。citation_status记录决定对引证文件问题的处理。争议和附条件复核意见另写相应文字栏。",
+    "pages_policy": "decision_pages用物理页数字列表，逗号或分号分隔，例如4;8。全部引用回到实际输入，不填底层译文的175页作为决定页。",
+    "required_nonempty_fields": [
+      "evidence_id",
+      "item_name",
+      "presenter",
+      "source_role",
+      "date_precision",
+      "first_submitted_on",
+      "prior_art_status",
+      "citation_status",
+      "decision_pages"
+    ],
+    "blank_allowed_when_not_stated": [
+      "publication_date",
+      "procedural_status",
+      "authenticity_translation",
+      "asserted_purpose",
+      "panel_evaluation",
+      "underlying_material_gap"
+    ],
+    "missing_value_policy": "已提供的名称、提出方、来源角色、36件首次提交日期及实际页码需填写；枚举中的not_stated、not_assessed、not_applicable等按其定义填写。未记载的公开日期留空并保留日期精度；未单独转述的叙述事实可留空或说明未记载/未单独评价。决定已明确记载的事实仍应据记录填写。"
+  },
+  "argument_comparison": {
+    "fields": [
+      "issue_id",
+      "claims",
+      "rule_version",
+      "requester_position",
+      "patentee_position",
+      "panel_reasoning",
+      "our_review",
+      "missing_material",
+      "decision_pages",
+      "linked_evidence_ids"
+    ],
+    "issue_id_policy": "稳定唯一ID，如A01；争点可合并或拆分，以完整覆盖审阅事项为准。",
+    "pages_policy": "同上；没有单独转述的观点可留空或标为未单独转述，核心字段按required_nonempty_fields填写。",
+    "required_nonempty_fields": [
+      "issue_id",
+      "claims",
+      "our_review",
+      "decision_pages",
+      "linked_evidence_ids"
+    ],
+    "blank_allowed_when_not_stated": [
+      "rule_version",
+      "requester_position",
+      "patentee_position",
+      "panel_reasoning",
+      "missing_material"
+    ],
+    "missing_value_policy": "争点ID、权项/审阅对象、复核意见及证据/实际页码需填写。未单独转述的当事人观点、评价，或无单独适用条款/补件需求，可留空或说明未单独转述/未记载/不适用；已记载的相关观点与法律版本仍应按该争点记录。"
+  }
+}

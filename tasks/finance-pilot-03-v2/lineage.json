@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "task_id": "finance-pilot-03-v2",
+  "industry": "finance",
+  "family_id": "F07",
+  "title": "万国数据中心REIT分配桥接与分配方案测算",
+  "sources": [
+    {
+      "document_id": "F025",
+      "content_hash": "a4ada0168976bd8bf5dd31e3ca45f7df3da1de137723b77b65d9f27b9956888b",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "F025:physical6-7/printed5-6/2.1:contract-units-policy",
+          "locator": "physical6-7/printed5-6/2.1",
+          "purpose": "contract-units-policy"
+        },
+        {
+          "unit_key": "F025:physical9/printed8/3.1:fund-income-cash-period",
+          "locator": "physical9/printed8/3.1",
+          "purpose": "fund-income-cash-period"
+        },
+        {
+          "unit_key": "F025:physical10-11/printed9-10/3.3-3.4:full-consolidated-distribution-bridge",
+          "locator": "physical10-11/printed9-10/3.3-3.4",
+          "purpose": "full-consolidated-distribution-bridge"
+        },
+        {
+          "unit_key": "F025:physical18-19/printed17-18/4.3-4.4:project-revenue-ebitda-cash",
+          "locator": "physical18-19/printed17-18/4.3-4.4",
+          "purpose": "project-revenue-ebitda-cash"
+        },
+        {
+          "unit_key": "F025:physical28/printed27/7.2.4:actual-distribution",
+          "locator": "physical28/printed27/7.2.4",
+          "purpose": "actual-distribution"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "finance-pilot-03"
+    ],
+    "root_task_ids": [
+      "finance-pilot-03"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "finance-reits"
+    ],
+    "split_group_ids": [
+      "gds-reit-2025-distributable-income"
+    ],
+    "changed_dimensions": [
+      "professional instruction and assumption language",
+      "absolute container input/output paths",
+      "Harbor0.17.1 native TOML and task layout",
+      "Linux Python office environment and restricted build context",
+      "separate verifier output restoration",
+      "native references and oracle solve script",
+      "zero/blank/range/selector validation formulas",
+      "layout-independent semantic metric discovery",
+      "native LibreOffice recomputation and upstream dependency perturbations",
+      "numerical boundary robustness",
+      "detailed weighted criterion and manual coverage",
+      "legal alternative and wrong-answer challenge fixtures",
+      "private provenance/findings/validation",
+      "Harbor-native-environment-reference-verifier",
+      "natural-professional-work-request",
+      "actual-artifact-bound-independent-rubric",
+      "actual-local-lifecycle-calibration",
+      "public-business-named-region-handoff",
+      "free-layout-status-wording",
+      "trusted-prerequisites-before-NOP",
+      "native-malformed-candidate-versus-grader-fault"
+    ]
+  },
+  "design": {
+    "task_type": "scenario-modeling",
+    "operation": "model",
+    "reasoning_axes": [
+      "fund-versus-project",
+      "signed-distribution-bridge",
+      "incremental-revenue-and-reserve",
+      "90-and100-distribution-bounds",
+      "budget-and-shortfall",
+      "dynamic-sensitivity"
+    ],
+    "deliverable_formats": [
+      "xlsx",
+      "docx"
+    ],
+    "difficulty": "hard",
+    "summary": "复算2025可供分配金额，建立显式任务情景下经营收入与支出预留敏感性，区分可供分配、实际分配及项目现金；不冒充真实2026预测。"
+  },
+  "batch_id": "harbor-v2-2026-10-12",
+  "generation": {
+    "session_id": "01a12ba8-1526-7fd2-862c-5aaa62205d39",
+    "producer_id": "/root",
+    "prompt_sha256": "ac8755ab8e3f32f9a45d016579c418f4c3e3af51de669fc4a3cb90b942b0010e",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "skill_sha256": "ee185358bec167644bff20a6dac51c9946c1386317aa48f0e650a2e19d41ef7c",
+    "model": null
+  }
+}

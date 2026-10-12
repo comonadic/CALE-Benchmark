@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "scope": "Baked trusted separate-grader code/context and official/visible task inputs; assessed before candidate presence or format.",
+  "trusted_files": {
+    ".dockerignore": "3c546bed4ca4d0eb365773b5f82cc6cb3ba7f96022a513789d90bc3da1d420ce",
+    "Dockerfile": "ded2d9184f93be95b6e44124ac71c31a55bdcaa6c3fde36679f112374d5de257",
+    "README.md": "9844aae6802132819a64b8c74c56a0fdb53ac5385298d6e7b629607c4bd454de",
+    "candidate_guard.py": "9c4bd4908135828d2f5be4846b6f7e84816a65c977c61434a06cc8974acc3d32",
+    "input-data/F025-2025-annual-report.pdf": "a4ada0168976bd8bf5dd31e3ca45f7df3da1de137723b77b65d9f27b9956888b",
+    "input-data/F025-2025-parsed.txt": "c748ad8081c59753c8cc70c703a7ea1e2d841bf710caa622bdde5d5955994cfb",
+    "input-data/model-data-dictionary.json": "d04e74c352c21225c9ce368429b0f2587e0ff3c573d4f5e3db3fd3cfefff4b69",
+    "input-data/model-data-dictionary.md": "584e0ae19f55cf06c76c57e4f278981edcbad2f7bdcba9b79f552f972b9e2da3",
+    "input-data/scenario.json": "a6dbf3e8cdec1337db0a9b7bc384e8013e9df79e774191715849870c6628c3b8",
+    "instruction-context.md": "0a5554c8df7d9a17ca700994b97e04c9cb897a4cdf35266cfc23c12a65e14986",
+    "judge-context.json": "1bb01a84b0ee480abd6296471a0ea4dc96b359e471d4fe3de2c53dc64d00bb38",
+    "model-data-dictionary.json": "d04e74c352c21225c9ce368429b0f2587e0ff3c573d4f5e3db3fd3cfefff4b69",
+    "rubric_bridge.py": "1d48ef6135e2d1b7358b17f8c7360a8e0c53329e4cb992efbd440d63f0a2e5f0",
+    "runtime_guard.py": "60d2cf8f1976936a96272dd786c58b9f17dd814fc62f9a1204962b86cccf2942",
+    "test.sh": "642c2a5901c74a3b98bdf49e4947a36119fa690e94b61fd6e6cef41ab3c08428",
+    "verify.py": "56a4ab3fcaaeeb33d2c5e877d0e91fc368955df2247d7504afefa35682f6239d"
+  },
+  "input_sha256": {
+    "F025-2025-annual-report.pdf": "a4ada0168976bd8bf5dd31e3ca45f7df3da1de137723b77b65d9f27b9956888b",
+    "F025-2025-parsed.txt": "c748ad8081c59753c8cc70c703a7ea1e2d841bf710caa622bdde5d5955994cfb",
+    "model-data-dictionary.json": "d04e74c352c21225c9ce368429b0f2587e0ff3c573d4f5e3db3fd3cfefff4b69",
+    "model-data-dictionary.md": "584e0ae19f55cf06c76c57e4f278981edcbad2f7bdcba9b79f552f972b9e2da3",
+    "scenario.json": "a6dbf3e8cdec1337db0a9b7bc384e8013e9df79e774191715849870c6628c3b8"
+  }
+}

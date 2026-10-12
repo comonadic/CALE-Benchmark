@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "scenario_id": "AG2612-DELIVERY-PREP",
+    "calculation_assumptions": [
+      "按各方向毛额计算保证金；各快照独立测算",
+      "总权益包含已占用保证金；VM只计当日结算变动",
+      "按所附规则版本及计划日历；暂不计经纪商加收和临时调整",
+      "有效行权以行权价生成期货，在所指快照结算价结算"
+    ]
+  },
+  "contract_timeline": {
+    "option_expiry_date": "2026-11-24",
+    "option_expiry_exercise_cutoff": "2026-11-24T07:30:00+00:00",
+    "futures_last_trading_date": "2026-12-15",
+    "delivery_dates": [
+      "2026-12-16",
+      "2026-12-17"
+    ],
+    "margin_20pct_start_date": "2026-12-11"
+  },
+  "futures_snapshots": [
+    {
+      "row_id": "R11",
+      "margin_rate": 0.1,
+      "directional_limit_lots": 2700,
+      "long_lots": 0,
+      "short_lots": 0,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "parity_required": false,
+      "parity_compliant": true,
+      "variation_margin_cny": 0,
+      "equity_after_vm_cny": 2000000,
+      "required_margin_cny": 0.0,
+      "additional_funds_cny": 0,
+      "calculation_trace": [
+        {
+          "vm": "(0-0)*(10000-10000)*15",
+          "margin": "(0+0)*10000*15*0.1",
+          "equity": "2000000+(0)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R10",
+      "margin_rate": 0.2,
+      "directional_limit_lots": 900,
+      "long_lots": 800,
+      "short_lots": 800,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "parity_required": true,
+      "parity_compliant": true,
+      "variation_margin_cny": 0,
+      "equity_after_vm_cny": 40000000,
+      "required_margin_cny": 49440000.0,
+      "additional_funds_cny": 9440000.0,
+      "calculation_trace": [
+        {
+          "vm": "(800-800)*(10300-10400)*15",
+          "margin": "(800+800)*10300*15*0.2",
+          "equity": "40000000+(0)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R09",
+      "margin_rate": 0.2,
+      "directional_limit_lots": 1800,
+      "long_lots": 1800,
+      "short_lots": 0,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "parity_required": true,
+      "parity_compliant": true,
+      "variation_margin_cny": -2700000,
+      "equity_after_vm_cny": 46700000,
+      "required_margin_cny": 55620000.0,
+      "additional_funds_cny": 8920000.0,
+      "calculation_trace": [
+        {
+          "vm": "(1800-0)*(10300-10400)*15",
+          "margin": "(1800+0)*10300*15*0.2",
+          "equity": "49400000+(-2700000)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R08",
+      "margin_rate": 0.15,
+      "directional_limit_lots": 1800,
+      "long_lots": 1800,
+      "short_lots": 0,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "parity_required": true,
+      "parity_compliant": true,
+      "variation_margin_cny": 5400000,
+      "equity_after_vm_cny": 49400000,
+      "required_margin_cny": 42120000.0,
+      "additional_funds_cny": 0,
+      "calculation_trace": [
+        {
+          "vm": "(1800-0)*(10400-10200)*15",
+          "margin": "(1800+0)*10400*15*0.15",
+          "equity": "44000000+(5400000)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R07",
+      "margin_rate": 0.15,
+      "directional_limit_lots": 900,
+      "long_lots": 901,
+      "short_lots": 0,
+      "long_excess_lots": 1,
+      "short_excess_lots": 0,
+      "parity_required": true,
+      "parity_compliant": false,
+      "variation_margin_cny": 2703000,
+      "equity_after_vm_cny": 27703000,
+      "required_margin_cny": 20677950.0,
+      "additional_funds_cny": 0,
+      "calculation_trace": [
+        {
+          "vm": "(901-0)*(10200-10000)*15",
+          "margin": "(901+0)*10200*15*0.15",
+          "equity": "25000000+(2703000)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R06",
+      "margin_rate": 0.15,
+      "directional_limit_lots": 900,
+      "long_lots": 900,
+      "short_lots": 898,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "parity_required": true,
+      "parity_compliant": true,
+      "variation_margin_cny": 6000,
+      "equity_after_vm_cny": 35006000,
+      "required_margin_cny": 41264100.0,
+      "additional_funds_cny": 6258100.0,
+      "calculation_trace": [
+        {
+          "vm": "(900-898)*(10200-10000)*15",
+          "margin": "(900+898)*10200*15*0.15",
+          "equity": "35000000+(6000)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R05",
+      "margin_rate": 0.1,
+      "directional_limit_lots": 2700,
+      "long_lots": 400,
+      "short_lots": 400,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "parity_required": true,
+      "parity_compliant": true,
+      "variation_margin_cny": 0,
+      "equity_after_vm_cny": 13000000,
+      "required_margin_cny": 12000000.0,
+      "additional_funds_cny": 0,
+      "calculation_trace": [
+        {
+          "vm": "(400-400)*(10000-10200)*15",
+          "margin": "(400+400)*10000*15*0.1",
+          "equity": "13000000+(0)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R04",
+      "margin_rate": 0.1,
+      "directional_limit_lots": 2700,
+      "long_lots": 2701,
+      "short_lots": 2699,
+      "long_excess_lots": 1,
+      "short_excess_lots": 0,
+      "parity_required": true,
+      "parity_compliant": false,
+      "variation_margin_cny": -6000,
+      "equity_after_vm_cny": 79994000,
+      "required_margin_cny": 81000000.0,
+      "additional_funds_cny": 1006000.0,
+      "calculation_trace": [
+        {
+          "vm": "(2701-2699)*(10000-10200)*15",
+          "margin": "(2701+2699)*10000*15*0.1",
+          "equity": "80000000+(-6000)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R03",
+      "margin_rate": 0.1,
+      "directional_limit_lots": 2700,
+      "long_lots": 2699,
+      "short_lots": 2699,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "parity_required": false,
+      "parity_compliant": true,
+      "variation_margin_cny": 0,
+      "equity_after_vm_cny": 82000000,
+      "required_margin_cny": 82589400.0,
+      "additional_funds_cny": 589400.0,
+      "calculation_trace": [
+        {
+          "vm": "(2699-2699)*(10200-10000)*15",
+          "margin": "(2699+2699)*10200*15*0.1",
+          "equity": "82000000+(0)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R02",
+      "margin_rate": 0.1,
+      "directional_limit_lots": 5400,
+      "long_lots": 5402,
+      "short_lots": 200,
+      "long_excess_lots": 2,
+      "short_excess_lots": 0,
+      "parity_required": false,
+      "parity_compliant": true,
+      "variation_margin_cny": 15606000,
+      "equity_after_vm_cny": 105606000,
+      "required_margin_cny": 84870300.0,
+      "additional_funds_cny": 0,
+      "calculation_trace": [
+        {
+          "vm": "(5402-200)*(10100-9900)*15",
+          "margin": "(5402+200)*10100*15*0.1",
+          "equity": "90000000+(15606000)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    },
+    {
+      "row_id": "R01",
+      "margin_rate": 0.04,
+      "directional_limit_lots": 9000,
+      "long_lots": 9050,
+      "short_lots": 8980,
+      "long_excess_lots": 50,
+      "short_excess_lots": 0,
+      "parity_required": false,
+      "parity_compliant": true,
+      "variation_margin_cny": -105000,
+      "equity_after_vm_cny": 109895000,
+      "required_margin_cny": 107098200.0,
+      "additional_funds_cny": 0,
+      "calculation_trace": [
+        {
+          "vm": "(9050-8980)*(9900-10000)*15",
+          "margin": "(9050+8980)*9900*15*0.04",
+          "equity": "110000000+(-105000)",
+          "top_up": "max(required_margin_cny-equity_after_vm_cny,0)"
+        }
+      ]
+    }
+  ],
+  "option_requests": [
+    {
+      "event_id": "O05",
+      "time_and_inventory_valid": true,
+      "request_disposition": "exercise",
+      "added_long_lots": 0,
+      "added_short_lots": 6,
+      "incremental_vm_cny": 36000,
+      "reason": "时间及持有数量符合；按资金规划口径生成期货压力"
+    },
+    {
+      "event_id": "O04",
+      "time_and_inventory_valid": true,
+      "request_disposition": "abandon",
+      "added_long_lots": 0,
+      "added_short_lots": 0,
+      "incremental_vm_cny": 0,
+      "reason": "有效放弃，不生成期货"
+    },
+    {
+      "event_id": "O03",
+      "time_and_inventory_valid": false,
+      "request_disposition": "reject",
+      "added_long_lots": 0,
+      "added_short_lots": 0,
+      "incremental_vm_cny": 0,
+      "reason": "到期日15:30之前截止已过"
+    },
+    {
+      "event_id": "O02",
+      "time_and_inventory_valid": true,
+      "request_disposition": "exercise",
+      "added_long_lots": 0,
+      "added_short_lots": 2,
+      "incremental_vm_cny": 6000,
+      "reason": "时间及持有数量符合；按资金规划口径生成期货压力"
+    },
+    {
+      "event_id": "O01",
+      "time_and_inventory_valid": true,
+      "request_disposition": "exercise",
+      "added_long_lots": 4,
+      "added_short_lots": 0,
+      "incremental_vm_cny": 12000,
+      "reason": "时间及持有数量符合；按资金规划口径生成期货压力"
+    }
+  ],
+  "post_option_snapshots": [
+    {
+      "base_row_id": "R11",
+      "applied_event_ids": [
+        "O05"
+      ],
+      "long_lots": 0,
+      "short_lots": 6,
+      "long_excess_lots": 0,
+      "short_excess_lots": 0,
+      "incremental_vm_cny": 36000,
+      "equity_after_vm_cny": 2036000,
+      "required_margin_cny": 90000.0,
+      "additional_funds_cny": 0,
+      "calculation_trace": {
+        "margin": "(0+6)*10000*15*0.1",
+        "equity": "2000000+36000",
+        "applied_event_ids": [
+          "O05"
+        ]
+      }
+    },
+    {
+      "base_row_id": "R03",
+      "applied_event_ids": [
+        "O04",
+        "O02",
+        "O01"
+      ],
+      "long_lots": 2703,
+      "short_lots": 2701,
+      "long_excess_lots": 3,
+      "short_excess_lots": 1,
+      "incremental_vm_cny": 18000,
+      "equity_after_vm_cny": 82018000,
+      "required_margin_cny": 82681200.0,
+      "additional_funds_cny": 663200.0,
+      "calculation_trace": {
+        "margin": "(2703+2701)*10200*15*0.1",
+        "equity": "82000000+18000",
+        "applied_event_ids": [
+          "O01",
+          "O02"
+        ]
+      }
+    }
+  ],
+  "trade_plan_checks": [
+    {
+      "plan_id": "TP04",
+      "transaction_lot_parity_valid": true,
+      "resulting_long_lots": 2700,
+      "resulting_short_lots": 2698,
+      "resulting_long_excess_lots": 0,
+      "resulting_short_excess_lots": 0,
+      "resulting_position_parity_valid": true,
+      "disposition": "accept_reduce_risk",
+      "reason": "前月最后交易日收盘前两方向各平1手，结果2700/2698，修复超限和奇偶；交割月的2手动作限制尚未开始"
+    },
+    {
+      "plan_id": "TP03",
+      "transaction_lot_parity_valid": false,
+      "resulting_long_lots": 900,
+      "resulting_short_lots": 0,
+      "resulting_long_excess_lots": 0,
+      "resulting_short_excess_lots": 0,
+      "resulting_position_parity_valid": true,
+      "disposition": "reject",
+      "reason": "交割月平仓1手不符合2手倍数；不能以违反交易数量规则修复既有奇数异常，必须升级核查"
+    },
+    {
+      "plan_id": "TP02",
+      "transaction_lot_parity_valid": true,
+      "resulting_long_lots": 900,
+      "resulting_short_lots": 896,
+      "resulting_long_excess_lots": 0,
+      "resulting_short_excess_lots": 0,
+      "resulting_position_parity_valid": true,
+      "disposition": "运营复核资金后按减仓流程处理",
+      "reason": "平空2手及余仓均为偶数、限仓满足；属于减仓，但账户仍需执行资金补足"
+    },
+    {
+      "plan_id": "TP01",
+      "transaction_lot_parity_valid": false,
+      "resulting_long_lots": 901,
+      "resulting_short_lots": 898,
+      "resulting_long_excess_lots": 1,
+      "resulting_short_excess_lots": 0,
+      "resulting_position_parity_valid": false,
+      "disposition": "reject",
+      "reason": "交割月新开1手违法定2手倍数；多头901手同时超限且奇数"
+    }
+  ],
+  "quote_checks": [
+    {
+      "quote_id": "Q01",
+      "tick_valid": false,
+      "one_lot_tick_value_cny": 7.5,
+      "quoted_quantity_tick_value_cny": 22.5,
+      "nearest_lower_valid_quote": 100.0,
+      "nearest_upper_valid_quote": 100.5
+    }
+  ]
+}

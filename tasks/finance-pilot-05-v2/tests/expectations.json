@@ -1,0 +1,522 @@
+{
+  "version": 2,
+  "core_ids": [
+    "O01",
+    "O02",
+    "N01",
+    "N01a",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "D01",
+    "D02",
+    "R01"
+  ],
+  "required_columns": [
+    "item_id",
+    "title",
+    "scope",
+    "period",
+    "role",
+    "source_locator",
+    "related_locator",
+    "mapping_type",
+    "original_value",
+    "original_unit",
+    "original_yiyuan",
+    "progress_value",
+    "progress_unit",
+    "progress_yiyuan",
+    "disclosure_gap_yiyuan",
+    "coverage_pct",
+    "total_count",
+    "started_count",
+    "completed_count",
+    "other_count",
+    "calculation",
+    "status",
+    "aggregation_rule",
+    "evidence_limit",
+    "next_evidence",
+    "priority"
+  ],
+  "numeric": {
+    "O01": {
+      "original_value": [
+        2186,
+        0
+      ],
+      "progress_value": [
+        98,
+        0
+      ],
+      "coverage_pct": [
+        98,
+        0
+      ],
+      "total_count": [
+        4238,
+        0
+      ]
+    },
+    "O02": {
+      "original_value": [
+        1.04,
+        1e-07
+      ],
+      "original_yiyuan": [
+        10400,
+        0.005
+      ]
+    },
+    "N01": {
+      "original_value": [
+        267,
+        0
+      ],
+      "original_yiyuan": [
+        267,
+        0.005
+      ],
+      "progress_value": [
+        34.65,
+        0.005
+      ],
+      "progress_yiyuan": [
+        34.65,
+        0.005
+      ],
+      "disclosure_gap_yiyuan": [
+        232.35,
+        0.005
+      ],
+      "coverage_pct": [
+        12.977528089887642,
+        0.005
+      ]
+    },
+    "N01a": {
+      "original_value": [
+        48,
+        0
+      ],
+      "original_yiyuan": [
+        48,
+        0.005
+      ],
+      "total_count": [
+        31,
+        0
+      ]
+    },
+    "N02": {
+      "original_value": [
+        57,
+        0
+      ],
+      "original_yiyuan": [
+        57,
+        0.005
+      ],
+      "progress_value": [
+        44.66,
+        0.005
+      ],
+      "progress_yiyuan": [
+        44.66,
+        0.005
+      ],
+      "disclosure_gap_yiyuan": [
+        12.34,
+        0.005
+      ],
+      "coverage_pct": [
+        78.35087719298245,
+        0.005
+      ]
+    },
+    "N03": {
+      "original_value": [
+        120,
+        0
+      ],
+      "progress_value": [
+        68.85,
+        0.005
+      ],
+      "progress_yiyuan": [
+        68.85,
+        0.005
+      ],
+      "total_count": [
+        120,
+        0
+      ]
+    },
+    "N04": {
+      "original_value": [
+        264,
+        0
+      ],
+      "progress_value": [
+        78,
+        0
+      ],
+      "coverage_pct": [
+        3.0303030303030303,
+        0.005
+      ],
+      "total_count": [
+        264,
+        0
+      ],
+      "started_count": [
+        78,
+        0
+      ],
+      "completed_count": [
+        8,
+        0
+      ],
+      "other_count": [
+        178,
+        0
+      ]
+    },
+    "N05": {
+      "original_value": [
+        51,
+        0
+      ],
+      "progress_value": [
+        43,
+        0
+      ],
+      "coverage_pct": [
+        84.31372549019608,
+        0.005
+      ],
+      "total_count": [
+        51,
+        0
+      ],
+      "other_count": [
+        8,
+        0
+      ]
+    },
+    "D01": {
+      "original_value": [
+        1.86,
+        0.005
+      ],
+      "original_yiyuan": [
+        1.86,
+        0.005
+      ]
+    },
+    "D02": {
+      "original_value": [
+        4420.05,
+        0.005
+      ],
+      "original_yiyuan": [
+        0.442005,
+        5e-07
+      ]
+    },
+    "R01": {
+      "original_value": [
+        148.17,
+        0.005
+      ],
+      "original_yiyuan": [
+        148.17,
+        0.005
+      ],
+      "progress_value": [
+        148.16,
+        0.005
+      ],
+      "progress_yiyuan": [
+        148.16,
+        0.005
+      ],
+      "disclosure_gap_yiyuan": [
+        0.01,
+        1e-07
+      ]
+    }
+  },
+  "blank": {
+    "O01": [
+      "started_count"
+    ],
+    "N01a": [
+      "progress_yiyuan",
+      "disclosure_gap_yiyuan",
+      "coverage_pct"
+    ],
+    "N03": [
+      "original_yiyuan",
+      "disclosure_gap_yiyuan",
+      "coverage_pct"
+    ],
+    "N05": [
+      "started_count",
+      "completed_count"
+    ],
+    "D01": [
+      "progress_value",
+      "progress_yiyuan",
+      "disclosure_gap_yiyuan",
+      "coverage_pct"
+    ],
+    "D02": [
+      "progress_value",
+      "progress_yiyuan",
+      "disclosure_gap_yiyuan",
+      "coverage_pct"
+    ]
+  },
+  "mapping": {
+    "O01": [
+      "overview"
+    ],
+    "O02": [
+      "overview"
+    ],
+    "N01": [
+      "same_issue"
+    ],
+    "N01a": [
+      "subset"
+    ],
+    "N02": [
+      "same_issue"
+    ],
+    "N03": [
+      "same_issue"
+    ],
+    "N04": [
+      "same_issue"
+    ],
+    "N05": [
+      "same_issue"
+    ],
+    "D01": [
+      "same_publication_only"
+    ],
+    "D02": [
+      "same_publication_only"
+    ],
+    "R01": [
+      "summary_check"
+    ]
+  },
+  "statuses": {
+    "O01": [
+      "reported_summary"
+    ],
+    "O02": [
+      "reported_summary"
+    ],
+    "N01": [
+      "closure_not_established",
+      "reported_partial"
+    ],
+    "N01a": [
+      "closure_not_established",
+      "not_disclosed"
+    ],
+    "N02": [
+      "closure_not_established",
+      "reported_partial"
+    ],
+    "N03": [
+      "closure_not_established",
+      "reported_progress"
+    ],
+    "N04": [
+      "closure_not_established",
+      "reported_partial"
+    ],
+    "N05": [
+      "closure_not_established",
+      "reported_partial",
+      "reported_progress"
+    ],
+    "D01": [
+      "closure_not_established",
+      "reported_action_complete",
+      "reported_progress"
+    ],
+    "D02": [
+      "closure_not_established",
+      "reported_plan",
+      "reported_progress"
+    ],
+    "R01": [
+      "reported_summary"
+    ]
+  },
+  "aggregation": {
+    "O01": [
+      "do_not_sum",
+      "not_applicable"
+    ],
+    "O02": [
+      "do_not_sum"
+    ],
+    "N01": [
+      "do_not_sum"
+    ],
+    "N01a": [
+      "subset_of_N01"
+    ],
+    "N02": [
+      "do_not_sum"
+    ],
+    "N03": [
+      "do_not_sum"
+    ],
+    "N04": [
+      "do_not_sum",
+      "not_applicable"
+    ],
+    "N05": [
+      "do_not_sum",
+      "not_applicable"
+    ],
+    "D01": [
+      "do_not_sum",
+      "independent_department_scope"
+    ],
+    "D02": [
+      "do_not_sum",
+      "independent_department_scope"
+    ],
+    "R01": [
+      "rounding_check_only"
+    ]
+  },
+  "units": {
+    "O02": [
+      "万亿元"
+    ],
+    "N01": [
+      "亿元"
+    ],
+    "N01a": [
+      "亿元"
+    ],
+    "N02": [
+      "亿元"
+    ],
+    "D01": [
+      "亿元"
+    ],
+    "D02": [
+      "万元"
+    ],
+    "O01": [
+      "个",
+      "个问题",
+      "个立行立改问题"
+    ],
+    "N03": [
+      "项目",
+      "个",
+      "个项目"
+    ],
+    "N04": [
+      "河段",
+      "个河段"
+    ],
+    "N05": [
+      "个",
+      "项目",
+      "个逾期项目",
+      "个项目"
+    ],
+    "R01": [
+      "亿元"
+    ]
+  },
+  "objective_criteria": [
+    {
+      "id": "A01",
+      "points": 6,
+      "method": "CSV schema, stable issue keys and required text field presence"
+    },
+    {
+      "id": "A02",
+      "points": 18,
+      "method": "Disclosed raw amounts/counts and field-specific unit conversions"
+    },
+    {
+      "id": "A03",
+      "points": 18,
+      "method": "Decimal count/coverage/gap and submitted financial relationship assertions"
+    },
+    {
+      "id": "A04",
+      "points": 8,
+      "method": "Typed source mapping/aggregation rules and preserved R01 rounding discrepancy"
+    },
+    {
+      "id": "A05",
+      "points": 10,
+      "method": "Typed evidence states and missing versus zero numeric boundaries"
+    }
+  ],
+  "progress_units": {
+    "O01": [
+      "百分数",
+      "百分比",
+      "%"
+    ],
+    "N01": [
+      "亿元"
+    ],
+    "N02": [
+      "亿元"
+    ],
+    "N03": [
+      "亿元"
+    ],
+    "N04": [
+      "河段",
+      "个河段"
+    ],
+    "N05": [
+      "个",
+      "项目",
+      "个项目"
+    ],
+    "R01": [
+      "亿元"
+    ]
+  },
+  "revision": "R2-p22-reconciliation",
+  "optional_o01_numeric": {
+    "reported_unrectified_count": [
+      62,
+      0
+    ],
+    "reported_unrectified_pct": [
+      2,
+      0
+    ],
+    "conditional_completed_count": [
+      2124,
+      0
+    ],
+    "conditional_completion_pct": [
+      "97.16376944190301921317474839890210430009",
+      0.005
+    ]
+  },
+  "O01_role_policy": "completed_count blank or2124 numericallyaccepted; independent M02 mustactuallyverifyconditionalrole. Optional columnsnotrequired; dualp3/p22actualfacts/citation/cutoff matterinsemanticrubric."
+}

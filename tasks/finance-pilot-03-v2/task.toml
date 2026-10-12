@@ -1,0 +1,30 @@
+schema_version = "1.3"
+artifacts = ["/workspace/output"]
+
+[task]
+name = "finance/finance-pilot-03-v2"
+description = "REIT历史分配桥接与8500万元分配方案的收入和预留测算"
+keywords = ["finance", "reit", "xlsx", "docx", "scenario-model"]
+
+[metadata]
+version = 2
+status = "draft"
+family_id = "F07"
+as_of = "2026-03-31"
+split_group = "gds-reit-2025-distributable-income"
+
+[verifier]
+timeout_sec = 2100.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 900.0
+os = "linux"
+workdir = "/workspace"
+network_mode = "no-network"
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240

@@ -1,0 +1,12 @@
+﻿row_id,snapshot_date,account_id,participant_type,trading_code,contract,position_category,long_lots,short_lots,previous_settlement_cny_per_kg,settlement_cny_per_kg,equity_before_vm_cny
+R01,2026-10-30,A,customer,DESK-A,AG2612,general,9050,8980,10000,9900,110000000
+R02,2026-11-02,B,non_futures_member,DESK-B,AG2612,general,5402,200,9900,10100,90000000
+R03,2026-11-24,C,customer,DESK-C,AG2612,general,2699,2699,10000,10200,82000000
+R04,2026-11-30,D,customer,DESK-D,AG2612,general,2701,2699,10200,10000,80000000
+R05,2026-11-30,E,customer,DESK-E,AG2612,general,400,400,10200,10000,13000000
+R06,2026-12-01,D,customer,DESK-D,AG2612,general,900,898,10000,10200,35000000
+R07,2026-12-01,F,customer,DESK-F,AG2612,general,901,0,10000,10200,25000000
+R08,2026-12-10,G,non_futures_member,DESK-G,AG2612,general,1800,0,10200,10400,44000000
+R09,2026-12-11,G,non_futures_member,DESK-G,AG2612,general,1800,0,10400,10300,49400000
+R10,2026-12-11,H,customer,DESK-H,AG2612,general,800,800,10400,10300,40000000
+R11,2026-11-20,I,customer,DESK-I,AG2612,general,0,0,10000,10000,2000000

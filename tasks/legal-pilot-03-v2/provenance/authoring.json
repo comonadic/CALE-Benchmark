@@ -1,0 +1,159 @@
+{
+  "version": 2,
+  "parent_provenance": {
+    "version": 1,
+    "inputs": [
+      {
+        "target_path": "workspace/input-data/L034-original.html",
+        "source_id": "S38",
+        "document_id": "L034",
+        "source_path": "reference-library/seed-2026-10-11/raw/law/L034/original.html",
+        "source_url": "https://www.samr.gov.cn/fldes/tzgg/ftj/art/2026/art_cffe3e9d01cd496e9a4223f2bc88310e.html",
+        "source_sha256": "1181a1b2244a3d078ec76a930acde94a750239743c84b556b660cb65c2f073b2",
+        "target_sha256": "1181a1b2244a3d078ec76a930acde94a750239743c84b556b660cb65c2f073b2",
+        "transformation": "byte-for-byte copy",
+        "version": "2026-10-11固定采集版",
+        "evidence_scope": "三、四、五、六及生效、报告、解除段"
+      },
+      {
+        "target_path": "workspace/input-data/L034-body-numbered.txt",
+        "source_id": "S38",
+        "document_id": "L034",
+        "source_path": "reference-library/seed-2026-10-11/raw/law/L034/original.html",
+        "source_sha256": "1181a1b2244a3d078ec76a930acde94a750239743c84b556b660cb65c2f073b2",
+        "target_sha256": "8f010b943354195a73511d54c37398d5b6837e06c76b58828cf62b0498ddd931",
+        "transformation": "extract div.zt_xilan_07 p elements, strip markup, HTML-unescape, omit empty paragraphs, add P01-P44 paragraph IDs",
+        "locator_mapping": {
+          "market": "P18",
+          "hhi": "P19",
+          "commitment": "P29",
+          "scope": "P31",
+          "O1": "P32",
+          "O2": "P33",
+          "O3": "P34",
+          "O4": "P35",
+          "O5": "P36",
+          "O6": "P37",
+          "report": "P38",
+          "release": "P39",
+          "supervision": "P40",
+          "effect": "P41",
+          "date": "P44"
+        },
+        "version": "与原HTML同版",
+        "synthetic": false
+      },
+      {
+        "target_path": "workspace/input-data/README.md",
+        "source_path": null,
+        "source_sha256": null,
+        "target_sha256": "97f4e59ef114368e422f562b9434c45ac24d80a965446334a985ee21aedb470e",
+        "transformation": "author-created explicit synthetic business scenario/data or source README",
+        "synthetic": true,
+        "author_id": "/root/author_03"
+      },
+      {
+        "target_path": "workspace/input-data/operations-scenario.md",
+        "source_path": null,
+        "source_sha256": null,
+        "target_sha256": "074068ecf63b298fe59c99476f03469f892460629ce5361dc803ae68df1ac064",
+        "transformation": "author-created explicit synthetic business scenario/data or source README",
+        "synthetic": true,
+        "author_id": "/root/author_03"
+      },
+      {
+        "target_path": "workspace/input-data/price-ledger.csv",
+        "source_path": null,
+        "source_sha256": null,
+        "target_sha256": "da347e7599f4fe929a50bbc371e006b6fed48251463a812451fb999154f56af0",
+        "transformation": "author-created explicit synthetic business scenario/data or source README",
+        "synthetic": true,
+        "author_id": "/root/author_03"
+      },
+      {
+        "target_path": "workspace/input-data/price-plan.csv",
+        "source_path": null,
+        "source_sha256": null,
+        "target_sha256": "4406b9b17b957a99147f2d2c8bed8aeebca157c6da4185bcc4a3617e88c7945a",
+        "transformation": "author-created explicit synthetic business scenario/data or source README",
+        "synthetic": true,
+        "author_id": "/root/author_03"
+      }
+    ],
+    "missing_source_material": [
+      "2026-09-18承诺方案全文，原网页有链接但未下载且禁止任务外检索",
+      "未公开申报底稿",
+      "真实公司交易/价格/成本及合同"
+    ],
+    "source_group_relation": "law-competition 为主题组，不是同案卷宗；本题仅使用 L034。"
+  },
+  "created_at": "2026-10-12T04:02:58.376099+00:00",
+  "construction_record": "本版本保留旧版构造的业务提案、价格台账和内部待审稿，不将其冒称官方文件或真实公司证据。官方原件逐字节复制；自建材料改写成正常职业交办材料，合成构造说明仅在此私有记录保留。",
+  "official_endorsement": false,
+  "parent_readonly_hash_snapshot": "private/authoring/parent-readonly-hashes.json",
+  "input_mapping": [
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-03/workspace/input-data/price-ledger.csv",
+      "new": "environment/input-data/price-ledger.csv",
+      "parent_sha256": "da347e7599f4fe929a50bbc371e006b6fed48251463a812451fb999154f56af0",
+      "role": "constructed_business_material",
+      "new_sha256": "da347e7599f4fe929a50bbc371e006b6fed48251463a812451fb999154f56af0",
+      "official_bytes_unchanged": null
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-03/workspace/input-data/README.md",
+      "new": "environment/input-data/README.md",
+      "parent_sha256": "97f4e59ef114368e422f562b9434c45ac24d80a965446334a985ee21aedb470e",
+      "role": "constructed_business_material",
+      "new_sha256": "e313f1c1aadb34db914adbaa6804d36ce9300946a3e32530c52078cc8eb61ef8",
+      "official_bytes_unchanged": null
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-03/workspace/input-data/L034-original.html",
+      "new": "environment/input-data/L034-original.html",
+      "parent_sha256": "1181a1b2244a3d078ec76a930acde94a750239743c84b556b660cb65c2f073b2",
+      "role": "official_original",
+      "new_sha256": "1181a1b2244a3d078ec76a930acde94a750239743c84b556b660cb65c2f073b2",
+      "official_bytes_unchanged": true
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-03/workspace/input-data/price-plan.csv",
+      "new": "environment/input-data/price-plan.csv",
+      "parent_sha256": "4406b9b17b957a99147f2d2c8bed8aeebca157c6da4185bcc4a3617e88c7945a",
+      "role": "constructed_business_material",
+      "new_sha256": "4406b9b17b957a99147f2d2c8bed8aeebca157c6da4185bcc4a3617e88c7945a",
+      "official_bytes_unchanged": null
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-03/workspace/input-data/L034-body-numbered.txt",
+      "new": "environment/input-data/L034-body-numbered.txt",
+      "parent_sha256": "8f010b943354195a73511d54c37398d5b6837e06c76b58828cf62b0498ddd931",
+      "role": "source_derivative",
+      "new_sha256": "8f010b943354195a73511d54c37398d5b6837e06c76b58828cf62b0498ddd931",
+      "official_bytes_unchanged": null
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-03/workspace/input-data/operations-scenario.md",
+      "new": "environment/input-data/operations-scenario.md",
+      "parent_sha256": "074068ecf63b298fe59c99476f03469f892460629ce5361dc803ae68df1ac064",
+      "role": "constructed_business_material",
+      "new_sha256": "471d3cfaf782e5888dce9bef296f870e548fd5a38ee18756afb5917a1bffb318",
+      "official_bytes_unchanged": null
+    }
+  ],
+  "reference_changes": [
+    "自然职业化开头和来源说明",
+    "source vs computed role precision"
+  ],
+  "reference_sha256": {
+    "compliance-control.xlsx": "40159a8dd19c8890c88132e8aa51de2f71614c021750b23dde68efe4962dce83",
+    "implementation-record.md": "12016da6f05237594e61b78c5082dd620fbe959d775e3a381f5bdcaf6d0ecd08"
+  },
+  "author_revisions": [
+    {
+      "id": "R1-review-followup",
+      "completed_at": "2026-10-12T04:15:19.025001+00:00",
+      "description": "main review R01–R06 response; 04 A3 wording synced in four workbooks preserving all formulas/caches"
+    }
+  ]
+}

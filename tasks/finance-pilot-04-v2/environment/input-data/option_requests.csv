@@ -1,0 +1,6 @@
+﻿event_id,base_row_id,account_id,option_type,request,quantity_lots,available_lots,strike_cny_per_kg,request_at
+O01,R03,C,call,exercise,4,4,10000,2026-11-24T15:20:00+08:00
+O02,R03,C,put,exercise,2,2,10400,2026-11-24T15:25:00+08:00
+O03,R03,C,call,exercise,2,2,10000,2026-11-24T15:31:00+08:00
+O04,R03,C,put,abandon,1,1,10400,2026-11-24T15:29:00+08:00
+O05,R11,I,put,exercise,6,6,10400,2026-11-20T14:59:00+08:00

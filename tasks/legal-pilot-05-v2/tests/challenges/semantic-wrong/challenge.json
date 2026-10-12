@@ -1,0 +1,10 @@
+{
+  "kind": "substantive-reasoning-errors-with-valid-structure",
+  "mutations": [
+    "C1 formal/procedure confirmation converted into scientific content/date confirmation and necessary priority ground across ledger/A01/memo",
+    "Ki/IC50 upper bounds treated as matched measurements giving exact10/200fold activity and clinical superiority in A06/D05"
+  ],
+  "expected_objective": "passed",
+  "expected_professional": "identify C1 errors in R01/R03/R06 and potency/clinical extrapolation in R04/R05/R06; cannot classify as full professional pass merely because structure succeeds",
+  "not_a_solution": "deliberate challenge output, never copied to oracle reference"
+}

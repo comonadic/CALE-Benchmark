@@ -1,0 +1,109 @@
+{
+  "date_timezone": "Asia/Shanghai",
+  "events": [
+    {
+      "id": "E00",
+      "label": "计划基准时点",
+      "date": "2025-04-04",
+      "state": "已发生",
+      "role": "计划基准",
+      "source": "scenario.md §1"
+    },
+    {
+      "id": "E01",
+      "label": "指定邮箱收到完整仲裁通知",
+      "date": "2025-03-28",
+      "state": "已发生",
+      "role": "投递记录",
+      "source": "notice.md N02 / delivery-log.csv D01"
+    },
+    {
+      "id": "E02",
+      "label": "纸质副本快递签收",
+      "date": "2025-03-31",
+      "state": "已发生",
+      "role": "投递记录",
+      "source": "delivery-log.csv D02"
+    },
+    {
+      "id": "E03",
+      "label": "法务首次阅读邮件",
+      "date": "2025-04-01",
+      "state": "已发生",
+      "role": "客户陈述",
+      "source": "client-email.md C01"
+    },
+    {
+      "id": "F01",
+      "label": "组庭通知收到且当日组庭",
+      "date": "2025-04-25",
+      "state": "条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F01"
+    },
+    {
+      "id": "F02",
+      "label": "仲裁员披露收到",
+      "date": "2025-04-25",
+      "state": "条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F02"
+    },
+    {
+      "id": "F03",
+      "label": "首次开庭通知收到",
+      "date": "2025-05-09",
+      "state": "条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F03"
+    },
+    {
+      "id": "F04",
+      "label": "首次开庭09:00开始",
+      "date": "2025-05-22",
+      "state": "条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F04"
+    },
+    {
+      "id": "F05",
+      "label": "仅书面审理分支首次实体答辩",
+      "date": "2025-04-10",
+      "state": "互斥条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F05"
+    },
+    {
+      "id": "F06",
+      "label": "裁决后模块收到纸质裁决书",
+      "date": "2025-09-09",
+      "state": "独立条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F06"
+    },
+    {
+      "id": "F07",
+      "label": "仲裁庭收到更正/补充书面申请",
+      "date": "2025-10-01",
+      "state": "独立条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F07"
+    },
+    {
+      "id": "F08",
+      "label": "申请人收到反请求受理通知",
+      "date": "2025-04-21",
+      "state": "条件预案",
+      "role": "后续条件安排",
+      "source": "future-events.md F08"
+    },
+    {
+      "id": "F09",
+      "label": "反请求仲裁费缴费通知截止",
+      "date": null,
+      "state": "尚未触发",
+      "role": "缺失事件",
+      "source": "client-email.md C02"
+    }
+  ]
+}

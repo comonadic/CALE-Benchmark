@@ -1,0 +1,6 @@
+{
+  "challenge": "numeric-wrong",
+  "native_docker_status": "not_run",
+  "genuine_model_judge_status": "not_run",
+  "expected": "objective arithmetic failure R1"
+}

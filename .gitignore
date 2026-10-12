@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.rsi/
+.venv/
+runs/
+jobs/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "task_id": "finance-pilot-02-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "finance",
+  "family_id": "F08",
+  "title": "工商银行两类资本债券客户说明纠错与条款修订",
+  "design": {
+    "task_type": "document-revision",
+    "operation": "revise",
+    "reasoning_axes": [
+      "instrument-capital-tier",
+      "conditional-redemption-versus-maturity",
+      "loss-absorption-trigger-and-coupon",
+      "issuance-versus-june-stock-version"
+    ],
+    "deliverable_formats": [
+      "docx",
+      "csv"
+    ],
+    "difficulty": "hard",
+    "summary": "对合成客户草稿逐项修订并生成证据化更正台账，区分其他一级/二级、赎回和到期、减记及取消利息；不混用六月存量与后续发行。"
+  },
+  "sources": [
+    {
+      "document_id": "F011",
+      "content_hash": "b9b7be58657949087de215b8466431f839faa68671ca2f39e7d2448176853c1b",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "icbc-at1-2026-series4:basic-terms",
+          "locator": "物理8–16页/印刷6–14页，一、基本条款（三）至（三十）",
+          "purpose": "AT1规模、期限、赎回、减记、派息、日期及资本用途"
+        },
+        {
+          "unit_key": "icbc-at1-2026-series4:approval-risk",
+          "locator": "物理6页/印刷4页，发行人声明",
+          "purpose": "核准不是投资价值或风险评价"
+        },
+        {
+          "unit_key": "icbc-debt-issuance-2026-08-18:t2-bookbuilt-event",
+          "locator": "物理149页/印刷147页，发行人的债务情况，2026年8月18日段",
+          "purpose": "后发披露600亿元、1.81%、10年及第5年末有条件赎回；与F014关联为有依据推断，非显名事实"
+        }
+      ]
+    },
+    {
+      "document_id": "F014",
+      "content_hash": "8eb901fd24cd976e70d886c4281a36dc4808168c49e904bb24a06ba5509fdfe3",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "icbc-t2-2026-series5:basic-terms",
+          "locator": "物理8–16页/印刷8–16页，一、基本条款（三）至（三十三）",
+          "purpose": "T2基本规模/有条件增发、期限、赎回、减记、派息、日期及资本用途"
+        },
+        {
+          "unit_key": "icbc-t2-2026-series5:approval-risk",
+          "locator": "物理6页/印刷6页，发行人声明",
+          "purpose": "核准不是投资价值或风险评价"
+        }
+      ]
+    },
+    {
+      "document_id": "F013",
+      "content_hash": "45c2be6dd07a2ecf072be543b45f4514aa6993ca663ac4c69158af46242c3700",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "icbc-cca-2026-06:reporting-date",
+          "locator": "物理1页/印刷1页，CCA标题",
+          "purpose": "六月末存量表的时间范围"
+        },
+        {
+          "unit_key": "icbc-cca-2026-06:242680013-features",
+          "locator": "物理5–7页/印刷5–7页，最右列、CCA第2/7/8/10/14/17/19/21行",
+          "purpose": "存量工具身份、单位、利率、首赎日和条款；不得移植到九月发行"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "finance-pilot-02"
+    ],
+    "root_task_ids": [
+      "finance-pilot-02"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "finance-icbc"
+    ],
+    "split_group_ids": [
+      "icbc-2026-at1-fourth-tier2-fifth"
+    ],
+    "changed_dimensions": [
+      "Removed repeated synthetic/training/author framing from visible instruction and draft metadata while retaining work date and necessary scope.",
+      "Added business audit checklist and typed checked_value/value_unit/evidence_role to correction CSV.",
+      "Replaced structure-only precheck with90-point numeric/date/financial-relation/source-role verifier and10-point trusted independent DOCX semantic adjudication.",
+      "Retained D13 and D14 AAA subfacts; preserved F011149 event and supported-identity inference; no original PDF modification.",
+      "Converted paths to /workspace/input-data and /workspace/output; Harbor0.17.1 schema and Linux no-network isolated build context.",
+      "Added substantive mutation, legal alternative, local oracle/nop and failure-reward logging; Docker/independent solver left not_run.",
+      "Removed arbitrary citation-span cap; parser rejects nonexistent ranges before range allocation and independent reviewer judges actual support.",
+      "Added shared canonical sealed fullcandidate/trustedinputs/objective/rubric request and real independent-reviewer response validation; no final reward on missing judge or infrastructure failure.",
+      "Pinned Python FROM digest; provided independent tests/Dockerfile grader context,never included in agent environment.",
+      "Harbor-native-environment-reference-verifier",
+      "natural-professional-work-request",
+      "actual-artifact-bound-independent-rubric",
+      "actual-local-lifecycle-calibration",
+      "actual-blind-review-source-citation-completeness-repair"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12ba8-1526-7fd2-862c-5aaa62205d39",
+    "producer_id": "/root",
+    "prompt_sha256": "ac8755ab8e3f32f9a45d016579c418f4c3e3af51de669fc4a3cb90b942b0010e",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "skill_sha256": "ee185358bec167644bff20a6dac51c9946c1386317aa48f0e650a2e19d41ef7c",
+    "model": null
+  }
+}

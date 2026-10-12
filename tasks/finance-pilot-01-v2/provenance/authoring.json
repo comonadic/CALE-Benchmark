@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "files": [
+    {
+      "input_path": "environment/input-data/F003-报喜鸟2025年年度报告.pdf",
+      "document_id": "F003",
+      "origin_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F003/original.pdf",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225189846.PDF",
+      "origin_sha256": "9a11b1b6d78d2a2016a529f36270fe318eaa3f38a78caa364236ac7416ca7d3c",
+      "input_sha256": "9a11b1b6d78d2a2016a529f36270fe318eaa3f38a78caa364236ac7416ca7d3c",
+      "conversion": "byte-for-byte copy, no clipping/redaction",
+      "publication_date": "2026-04-25",
+      "retrieved_at": "2026-10-11T15:17:23.843805+00:00",
+      "selected_evidence_physical_pages": [
+        7,
+        31,
+        77,
+        78,
+        82,
+        85,
+        128,
+        140,
+        163,
+        165,
+        181
+      ],
+      "version_note": "固定采集版本；未做全量修订谱系核查"
+    },
+    {
+      "input_path": "environment/input-data/口径与使用说明.md",
+      "document_id": null,
+      "origin_path": null,
+      "origin_sha256": null,
+      "input_sha256": "ab8b62339b554764a9211375209973088a6c017d6be61824ed1050c587448761",
+      "conversion": "author-written scope/navigation note",
+      "role": "task_scope_definition",
+      "synthetic_assumptions": [],
+      "numeric_claims": []
+    },
+    {
+      "input_path": "environment/input-data/复核索引字段.json",
+      "role": "research_handoff_field_definition",
+      "conversion": "author-defined business field IDs and meanings; no gold amount values or scores",
+      "input_sha256": "f6fa8ddac1fe34cff30496b2b5f6fdf7aaa5bfa12a45793de724694afee92a2b",
+      "synthetic_assumptions": []
+    }
+  ],
+  "answer_role_note": "原年报本身披露经营现金流补充资料和管理层解释；本题是对已披露实际数的专业复核，不把现成主表合计当作未知预测。评测要求公式桥接、跨期贡献及附注复核，不能仅复制现成表。",
+  "parent": {
+    "task_id": "finance-pilot-01",
+    "path": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/finance/finance-pilot-01",
+    "instruction_sha256": "670874518521e63bfcd81541bba6a3f1b6340895daf5eb7c2ab72b96860de970"
+  },
+  "authoring_process": "原年报完全只读且逐字节复制；范围说明与交接字段为作者写作，未加入情景金额。参考模型继承后增可审阅复核索引，重新验证公式和评分。"
+}

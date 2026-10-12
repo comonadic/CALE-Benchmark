@@ -1,0 +1,212 @@
+{
+  "version": 2,
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "R01",
+      "points": 15,
+      "object": "procedure-plan.md + calendar facts",
+      "criterion": "规则版本、国内特别规定、送达与口径",
+      "method": "human/model rubric with PDF pages16-17,48-50,54",
+      "evidence_ids": [
+        "R01",
+        "R02",
+        "R11"
+      ],
+      "requirements": [
+        "2024版与2025受理",
+        "第71条20天而非45天",
+        "3/28电子收件；3/31副本及4/1阅读不重启",
+        "次日起算；周末不推后是保守控制口径，实际顺延/接收安排待机构核实"
+      ],
+      "acceptable_alternatives": [
+        "谨慎提出现实机构/程序法核对同时仍完成本案闭集日期",
+        "措辞和论证结构不同不扣分"
+      ],
+      "critical_errors": [
+        "将45天作为国内答辩/反请求",
+        "把4/1或快递副本当本題起算事件"
+      ]
+    },
+    {
+      "id": "R02",
+      "points": 20,
+      "object": "action-calendar.xlsx A01-A18",
+      "criterion": "客观控制日期、保守口径及未触发期限准确",
+      "method": "check_calendar.py + human check of definitions; formula cache miss must recalculate before scoring",
+      "evidence_ids": [
+        "R02",
+        "R03",
+        "R05",
+        "R06",
+        "R07",
+        "R09"
+      ],
+      "allocation": "选择/答辩/反请求5；回避3；通知和延期3；裁决3；更正补充4；A15空白/A16对方2",
+      "date_tolerance_days": 0,
+      "acceptable_alternatives": [
+        "使用等价公式或不同列顺序、额外分支",
+        "A05/A06以本案边界日期展示，但须文字解释事前限制",
+        "内部目标日期不强制匹配参考"
+      ],
+      "critical_errors": [
+        "对A15杜撰固定缴费截止",
+        "错用第37条一般首次庭20天或5天延期"
+      ]
+    },
+    {
+      "id": "R03",
+      "points": 15,
+      "object": "plan + A05,A06",
+      "criterion": "程序权利与优先级的可执行保护",
+      "method": "human/model legal assessment",
+      "evidence_ids": [
+        "R04",
+        "R03"
+      ],
+      "requirements": [
+        "管辖异议开庭前/书面首次实体答辩前的互斥边界",
+        "书面异议且程序继续",
+        "选择仲裁员授权名册独立性、共同首席与主任指定后备",
+        "对程序瑕疵及时书面异议"
+      ],
+      "acceptable_alternatives": [
+        "先交独立管辖异议或在明确事前提交的程序文件中提出均可",
+        "可选择委托主任指定及不同合理沟通目标"
+      ],
+      "critical_errors": [
+        "声称异议自动停止其他期限",
+        "边界日当天全日可提交",
+        "把披露或疑问断言为偏颇已认定"
+      ]
+    },
+    {
+      "id": "R04",
+      "points": 10,
+      "object": "plan counterclaim and extension",
+      "criterion": "未批准延期与反请求手续风险",
+      "method": "human/model assessment",
+      "evidence_ids": [
+        "R02",
+        "R10"
+      ],
+      "requirements": [
+        "未获准仍原期限；区分组庭前后决定主体",
+        "批准决定覆盖项目核实及更新路径",
+        "具体请求事实理由证据、授权提交要求",
+        "机构通知缴费期限；未缴视同未提出；财务2自然日需要"
+      ],
+      "acceptable_alternatives": [
+        "不同合理补证顺序/材料清单，能对应客户证据缺口即可"
+      ],
+      "critical_errors": [
+        "延期申请提交即顺延",
+        "无缴费通知仍杜撰期限",
+        "凭空认定80万反请求已证成"
+      ]
+    },
+    {
+      "id": "R05",
+      "points": 15,
+      "object": "ordinary/summary branch",
+      "criterion": "简易条件、转换和日历更新",
+      "method": "human/model legal assessment",
+      "evidence_ids": [
+        "R08",
+        "R07"
+      ],
+      "requirements": [
+        "640万元可依申请和另一方书面同意/双方约定简易",
+        "单方请求未获另一方同意不成立",
+        "三人/独任变化及确认已进行行为和期限",
+        "简易金额增加不自动普通，第66条条件",
+        "4月/3月及延期中止；不得随意重启已给期限"
+      ],
+      "acceptable_alternatives": [
+        "建议接受或拒绝简易均可，需有客户资源/证据准备取舍",
+        "合理强调规则未解决实际转换细节，应向机构确认"
+      ],
+      "critical_errors": [
+        "超过500万永不能简易",
+        "简易反请求单独超过500万必自动普通",
+        "普通反向自动简易或重新收到同意日自动重起时钟"
+      ]
+    },
+    {
+      "id": "R06",
+      "points": 10,
+      "object": "post-award and hearing/recusal contingencies",
+      "criterion": "条件预案与救济范围准确",
+      "method": "human/model assessment",
+      "evidence_ids": [
+        "R05",
+        "R06",
+        "R09"
+      ],
+      "requirements": [
+        "所有未来日期均为尚未发生的条件预案；独立裁决后模块分开",
+        "10天披露回避与15天一般回避不互相替代",
+        "短通知立即异议/延期申请且不自动批准",
+        "笔误更正与请求漏裁补充区分、均非实体上诉",
+        "仲裁庭30天以确有错误或漏裁为前提"
+      ],
+      "acceptable_alternatives": [
+        "不推断回避成立，列具体核实事项即可",
+        "同一书面申请分别请求更正/补充且区别法律基础亦可"
+      ]
+    },
+    {
+      "id": "R07",
+      "points": 10,
+      "object": "client plan and calendar workflow",
+      "criterion": "经理能安排执行的产物",
+      "method": "human/model read-through",
+      "evidence_ids": [
+        "R01",
+        "R04",
+        "R10"
+      ],
+      "requirements": [
+        "合理当前动作顺序、负责人、文件、建议日",
+        "规则/假设/建议/客户陈述及未来卡分层",
+        "关键引用原页能支持结论",
+        "待补材料及收到新通知后的更新点",
+        "对方期限与本方义务区分"
+      ],
+      "acceptable_alternatives": [
+        "表达、内部办理日和责任分工可以不同，有依据且不越过规则边界即可"
+      ]
+    },
+    {
+      "id": "R08",
+      "points": 5,
+      "object": "native deliverables",
+      "criterion": "工作簿和文书可用",
+      "method": "automatic basic structure + manual/native file review",
+      "requirements": [
+        "两个文件可打开，稳定ID/规定列名",
+        "Excel日期数值、公式引用输入并可重算",
+        "空事件不显示1900日期",
+        "可筛选、冻结、字体及关键列可读"
+      ],
+      "acceptable_alternatives": [
+        "任何能读写原生XLSX的允许工具；无需CUA",
+        "缓存缺失先由受支持引擎重算；不能仅因缓存缺失断言法律答案错"
+      ]
+    }
+  ],
+  "passing_guidance": "评价法律专业结论和可执行性，不仅匹配措辞/日期；自动检查通过不代表整题通过。严重客观或程序错误应在对应criterion扣分，专业实质错误不得被格式分抵消。",
+  "automatic_scope": "date/formula/structure; does not judge triggers/plan/citations",
+  "acceptable_alternative_policy": "证据支持的策略差异、等价公式、合理内部办理日均接受；本案已锁定的日期/规则分支事实不可改变",
+  "reference_artifacts": [
+    "solution/reference/action-calendar.xlsx",
+    "solution/reference/procedure-plan.md"
+  ],
+  "scoring_contract": {
+    "professional_judge_required": true,
+    "objective_checks": "native file integrity and auditable calculations only",
+    "reference_is_not_exclusive": true,
+    "partial_credit": "award each criterion only for supported correct work; substantive errors lose affected criterion points",
+    "acceptable_alternatives": "same controls or evidence-supported strategy, equivalent formulas, earlier internal targets and different wording accepted"
+  }
+}

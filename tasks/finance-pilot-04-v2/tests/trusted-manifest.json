@@ -1,0 +1,20 @@
+{
+  "input-data/F042-original.html": "38623a75604c161a7bf1e3d212db04bb5f0280157f7b891c335a353111a858f7",
+  "input-data/F042-readable.txt": "1087ec8b8659f7b961147a9393525b3d90bca9b71b2848352fda7f57fba21a6e",
+  "input-data/F047-original.docx": "81b1b7dd1bf0b298e241ee767549b10852a20493398db285866a14ca4adbb7ee",
+  "input-data/F047-readable.txt": "bb9c3c4196ba96c1261d0e1ffcd4991f52f507a5d5c14205c08f4b6bca6e8c09",
+  "input-data/calendar-notice-basis.md": "90ac96d7122ebf7d91fc7306ddfbf765d0966c8bc1d8d301d01282446e7c3aca",
+  "input-data/data_dictionary.md": "63b9eb2e3df8534b237ca9cd8a88916ec2d262a9fc9cf959a7fa5ca3e17f87aa",
+  "input-data/futures_snapshots.csv": "b8fe72674b62c241173907a773ce0a7d626ad3ad3098b95206e25420473d0d41",
+  "input-data/input_source_map.json": "d9eb5f9bc05c14a8b2b711934c2d327dd179bab1cb0bc41dc41ba6c398355e1e",
+  "input-data/option_requests.csv": "9117283476dc8b43cd1c8f315fe053d4c43ad18d239e302427096ce8806cc817",
+  "input-data/output_schema.md": "5cbbc97312b6303acb8cdfdca68e801eb0cabb227e8953e905253492cdb894a7",
+  "input-data/planning_calendar.csv": "4c625113ac8d5bb0d2ec28c8f2f1e833d4dd17394aa4d67c950590ec40e9f439",
+  "input-data/proposed_option_quotes.csv": "8398a64978c4ee9ec1f7208f3c61f056ee831505a7b59c81e9b29ddb06f63b16",
+  "input-data/proposed_trade_plans.csv": "b24bf3e7107ede4029be8f5d72516b26796612b52642d5dd2334b0afcc03de4f",
+  "input-data/scenario_assumptions.json": "dcd4dadbe0a57c01ea5a9b9807b1fa1c755626b3facb1a363e64e7ac2261d05d",
+  "instruction.md": "7f20d7057ac50f66a02d361ecb06be4cae6ff034159eaf14be73d64057922aba",
+  "rubric.json": "9c4571ff68bb38543c97fba1082f9f9fbca49f766d8e9352bb5998b1c9bb8d71",
+  "evidence.json": "8566e9a0925d2b50719f0bb18f78a5258ec84b1e2dc34de48acb9b4ac319b5bf",
+  "objective.py": "806bcf8ba5af9d1487f5da0824711ed5ea310a921e2563be41866ad008047bb5"
+}

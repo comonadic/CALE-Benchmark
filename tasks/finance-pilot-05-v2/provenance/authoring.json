@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "author_id": "/root/harbor_finance_author_05",
+  "created_at": "2026-10-12T04:35:29.333018+00:00",
+  "relationship": "same_publication",
+  "inputs": [
+    {
+      "document_id": "F048",
+      "source_id": "S30",
+      "source_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F048/original.pdf",
+      "original_url": "https://www.audit.gov.cn/n11/n536/n980/c10758445/part/10758459.pdf",
+      "landing_url": "https://www.audit.gov.cn/n11/n536/n980/c10758445/content.html",
+      "source_sha256": "f5656f27ffef3f27bfe5f4d5159360106ce5ed7d27c60b05da5d61648cef56da",
+      "target_path": "environment/input-data/F048.pdf",
+      "target_sha256": "f5656f27ffef3f27bfe5f4d5159360106ce5ed7d27c60b05da5d61648cef56da",
+      "conversion": "byte-for-byte full PDF copy; no removed pages or alterations",
+      "core_scoring_physical_pages": [
+        1,
+        3,
+        8,
+        9,
+        17,
+        22
+      ],
+      "version": "fixed seed-2026-10-11 core PDF",
+      "trusted_verifier_copy": "tests/input-data/F048.pdf",
+      "trusted_verifier_sha256": "f5656f27ffef3f27bfe5f4d5159360106ce5ed7d27c60b05da5d61648cef56da"
+    },
+    {
+      "document_id": "F049",
+      "source_id": "S30",
+      "source_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F049/original.pdf",
+      "original_url": "https://www.audit.gov.cn/n11/n536/n980/c10758445/part/10758460.pdf",
+      "landing_url": "https://www.audit.gov.cn/n11/n536/n980/c10758445/content.html",
+      "source_sha256": "96c5b62ccbc953fc4e1cd713a9b1b89c4505fdf70f57483aa8743214436a11c4",
+      "target_path": "environment/input-data/F049.pdf",
+      "target_sha256": "96c5b62ccbc953fc4e1cd713a9b1b89c4505fdf70f57483aa8743214436a11c4",
+      "conversion": "byte-for-byte full PDF copy; no removed pages or alterations",
+      "core_scoring_physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "version": "fixed seed-2026-10-11 core PDF",
+      "trusted_verifier_copy": "tests/input-data/F049.pdf",
+      "trusted_verifier_sha256": "96c5b62ccbc953fc4e1cd713a9b1b89c4505fdf70f57483aa8743214436a11c4"
+    },
+    {
+      "document_id": "F050",
+      "source_id": "S30",
+      "source_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F050/original.pdf",
+      "original_url": "https://www.audit.gov.cn/n11/n536/n980/c10758445/part/10758481.pdf",
+      "landing_url": "https://www.audit.gov.cn/n11/n536/n980/c10758445/content.html",
+      "source_sha256": "c3c6bb5fe310ebc22c445bfcd48bf0058bee504b3e79c924d53d0cc02ab3d1b6",
+      "target_path": "environment/input-data/F050.pdf",
+      "target_sha256": "c3c6bb5fe310ebc22c445bfcd48bf0058bee504b3e79c924d53d0cc02ab3d1b6",
+      "conversion": "byte-for-byte full PDF copy; no removed pages or alterations",
+      "core_scoring_physical_pages": [
+        14,
+        15
+      ],
+      "version": "fixed seed-2026-10-11 core PDF",
+      "trusted_verifier_copy": "tests/input-data/F050.pdf",
+      "trusted_verifier_sha256": "c3c6bb5fe310ebc22c445bfcd48bf0058bee504b3e79c924d53d0cc02ab3d1b6"
+    }
+  ],
+  "authored_input_documents": [
+    {
+      "path": "environment/input-data/ledger-schema.md",
+      "kind": "Business navigation,review definitions or CSVhandoff schema",
+      "sha256": "7fe51f968bffe15cc2cce7cdc4ea8282b3ec6cc3b757454c20ad807125ecee1f",
+      "construction": "Authored internal review commission/definitions; no modification of original public report facts; provenance retained here, not exposed as author/training tags."
+    },
+    {
+      "path": "environment/input-data/reporting-basis.md",
+      "kind": "Business navigation,review definitions or CSVhandoff schema",
+      "sha256": "456fcc58506f1ca3ad9f260a0ac392ad27a1dd02fac21bfc913a104f38c43998",
+      "construction": "Authored internal review commission/definitions; no modification of original public report facts; provenance retained here, not exposed as author/training tags."
+    },
+    {
+      "path": "environment/input-data/source-guide.md",
+      "kind": "Business navigation,review definitions or CSVhandoff schema",
+      "sha256": "37eb3fb70a9a861e9e5dcdc4dddfc9c133e2cc9fc98116d7fae5beb444cc6d77",
+      "construction": "Authored internal review commission/definitions; no modification of original public report facts; provenance retained here, not exposed as author/training tags."
+    }
+  ],
+  "source_fact_policy": "Official ex-post conclusions intentionally remain visible. No independent audit credentials or undisclosed item join are invented.",
+  "parent_task_id": "finance-pilot-05",
+  "task_version": 2,
+  "session_id": "01a12ba8-1526-7fd2-862c-5aaa62205d39",
+  "reference_construction": {
+    "csv": "All11rows rechecked. O01retainsF048p3 andp22 actualdisclosures; p22cutoff/classification/denominator unresolved. Optional reported62/2 and conditional2124/97.1638 stored separately; confirmedmaincompletecountblank. Equivalentconditional/explanatory/auxiliaryrepresentationspermitted.",
+    "docx": "R2 editable3page memo rebuilt from updated source distinctions, final all-page bundledOfficevisualreview; explicit conditional2124 separated from unknown confirmed completion. Layout spacing and section page breaks repaired.",
+    "localQA": "28actual candidate fixtures; semantic expectations are not genuine independently awarded scores. Actual independent reviews must come from coordinator reviewer."
+  },
+  "updated_at": "2026-10-12T04:57:04.924671+00:00",
+  "revision": "R2-p22-reconciliation",
+  "revision_history": {
+    "before_R2": "private/authoring/revisions/R1-before-p22/archive-manifest.json",
+    "old_logs_status": "superseded; O01reference/sourceinterpretation andblank-onlygrading invalid forcurrentpackage",
+    "reason": "Independent reviewer found explicitp22 62outstanding(2%) missed by author. Raw source unchanged."
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "version": 2,
+  "total_points": 100,
+  "automatic_points": 90,
+  "independent_review_points": 10,
+  "criteria": [
+    {
+      "points": 8,
+      "label": "工具身份与用途",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "I01",
+        "I02",
+        "I03",
+        "I04"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C01"
+    },
+    {
+      "points": 12,
+      "label": "规模权限与后发披露",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C02"
+    },
+    {
+      "points": 12,
+      "label": "期限与有条件赎回",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C03"
+    },
+    {
+      "points": 8,
+      "label": "发行付款及重置日历",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C04"
+    },
+    {
+      "points": 15,
+      "label": "票息及派息义务",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C05"
+    },
+    {
+      "points": 10,
+      "label": "无法生存触发和资本吸收顺序",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C06"
+    },
+    {
+      "points": 8,
+      "label": "减记后果及分摊",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C07"
+    },
+    {
+      "points": 6,
+      "label": "清偿顺位",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C08"
+    },
+    {
+      "points": 6,
+      "label": "六月工具身份与单位换算",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "J01",
+        "J02",
+        "J03",
+        "J04",
+        "J05",
+        "J06",
+        "J07"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C09"
+    },
+    {
+      "points": 3,
+      "label": "评级及本金保证",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C10"
+    },
+    {
+      "points": 2,
+      "label": "正确认购条款保留",
+      "method": "objective typed value and role results, plus independent substantive source/candidate support review",
+      "check_ids": [
+        "N01",
+        "N02",
+        "N03"
+      ],
+      "partial_credit": "84atoms with equal weights per criterion. Typedvalue60%,role20%,recognized sourcepages20% are objective upper bounds only; judge may reduce score for unsupported citation, contradictory prose, misleading provenance or incomplete original/revised linkage. Never award more than current objective criterion upper bound.",
+      "alternatives": "row/column order, normal Chinese synonyms, equivalent CNY units, percent or ratio, valid alternative dates formats; free rationale wording is not exact-matched",
+      "limits": "Recognized page intersection is locator admissibility,not substantive citation support. Review actual cited source text and CSVrationale/revised_text; wide necessary page ranges are valid.",
+      "id": "C11"
+    },
+    {
+      "points": 5,
+      "label": "客户稿事实准确并与台账一致",
+      "method": "independent actual-candidate professional semantic and rendered-layout review",
+      "required_review": "逐段对照三原件及CSV，覆盖工具用途/规模/期限赎回/日历票息/派息/减记/顺位/六月身份/评级与D13；任何错误保本、必赎、减记恢复或顺序反转适用严重错误上限59。",
+      "alternatives": "忠实改写、比较表或段落、调整顺序、充分证据支持的其他引用均可",
+      "id": "DOCX01"
+    },
+    {
+      "points": 3,
+      "label": "客户沟通完整清晰可用",
+      "method": "independent actual-candidate professional semantic and rendered-layout review",
+      "required_review": "四个业务主题完整；保留D13正确认购和AAA评级子事实；准确说明AT1未获证明结果、T2显名事件与身份推断及待核实事项；不用出题者话语。",
+      "id": "DOCX02"
+    },
+    {
+      "points": 2,
+      "label": "证据可追溯及文档版式",
+      "method": "independent actual-candidate professional semantic and rendered-layout review",
+      "required_review": "关键客户结论引用支持真实原件页；文件可编辑、无未处理修订批注、渲染所有页无截断重叠。自由文本不得仅按词或参考全文匹配。",
+      "id": "DOCX03"
+    }
+  ],
+  "critical_error_cap": 59,
+  "missing_docx": "automatic score is zero until editable clean DOCX exists; this is an artifact prerequisite not semantic correctness",
+  "pending_policy": "No final reward until bound independent review validates every criterion; absent/malformed judge response is verifier failure,no reward.",
+  "review_interface": "shared sealed judge-request.json/judge-response.json protocolv1",
+  "reference_is_example_not_exact_match": true,
+  "aggregation": "For C01-C11 use min(objective earned,independent awarded); for DOCX01-DOCX03 use independent score. Apply59cap for severe client-facing or typedcritical error. Total100."
+}

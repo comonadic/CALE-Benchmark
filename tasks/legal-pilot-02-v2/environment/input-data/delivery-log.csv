@@ -1,0 +1,3 @@
+record_id,time,address_or_receiver,item,status,role
+D01,2025-03-28T16:42:00+08:00,legal@chenghai.example,完整仲裁通知及申请附件,投递成功且可无障碍访问,投递记录
+D02,2025-03-31T10:18:00+08:00,苏州澄海前台,同一通知纸质副本,签收成功,投递记录

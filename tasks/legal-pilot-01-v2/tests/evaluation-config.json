@@ -1,0 +1,19 @@
+{
+  "task_id": "legal-pilot-01-v2",
+  "deliverables": [
+    "修订合同.docx",
+    "谈判台账.xlsx"
+  ],
+  "judge_rules": {
+    "rubric": "Score all criteria 0..points from the full output and visible input. Reference wording is not an answer key.",
+    "alternatives": "Accept evidence-supported alternate reasoning, equivalent formulas and appropriate different priorities.",
+    "critical_errors": "Apply rubric-specific deductions and caps. Contradictory legal triggers or unsupported scientific claims cannot receive full credit.",
+    "grader": "A separately executed host model/reviewer reads every candidate anew and supplies criterion score, reason and concrete evidence. Request digest binds assessment to actual bytes; no reference whitelist."
+  },
+  "trusted_input_sha256": {
+    "GF-2025-2616原件.pdf": "6e33da23c5ae7dfc3f154313ddacc19bc881f60d51e1cc72d646a12863024d7b",
+    "GF-2025-2616解析.txt": "df582b08e249bc0ff01e3397cb8de06909bbdc322886ab26a1d1fbedc1b932bf",
+    "合同主文及附件工作稿_v0.docx": "4030bcf3abed13b88cc7920a171f5789098615167835d0f681c972a298cecd4b",
+    "项目需求与谈判授权.md": "57fc2cc9a22c42a1f24786d21a2e419a981c3e2708c1956faaec913d236417dc"
+  }
+}

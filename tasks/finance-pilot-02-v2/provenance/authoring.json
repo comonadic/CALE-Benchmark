@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "source_materials_not_modified": true,
+  "inputs": [
+    {
+      "input_path": "environment/input-data/F011_AT1_fourth_prospectus.pdf",
+      "original_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F011/original.pdf",
+      "original_url": "https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2026/Prospectus20260910.pdf",
+      "original_sha256": "b9b7be58657949087de215b8466431f839faa68671ca2f39e7d2448176853c1b",
+      "input_sha256": "b9b7be58657949087de215b8466431f839faa68671ca2f39e7d2448176853c1b",
+      "transformation": "byte-for-byte copy of full original PDF",
+      "version": "seed-2026-10-11 fixed downloaded file; publication date not independently established",
+      "page_map": "physical page n copied without change to physical page n",
+      "source_document_id": "F011",
+      "role": "official_public_disclosure"
+    },
+    {
+      "input_path": "environment/input-data/F014_T2_fifth_prospectus.pdf",
+      "original_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F014/original.pdf",
+      "original_url": "https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2026/Prospectus20260820.pdf",
+      "original_sha256": "8eb901fd24cd976e70d886c4281a36dc4808168c49e904bb24a06ba5509fdfe3",
+      "input_sha256": "8eb901fd24cd976e70d886c4281a36dc4808168c49e904bb24a06ba5509fdfe3",
+      "transformation": "byte-for-byte copy of full original PDF",
+      "version": "seed-2026-10-11 fixed downloaded file; publication date not independently established",
+      "page_map": "physical page n copied without change to physical page n",
+      "source_document_id": "F014",
+      "role": "official_public_disclosure"
+    },
+    {
+      "input_path": "environment/input-data/F013_CCA_2026-06.pdf",
+      "original_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F013/original.pdf",
+      "original_url": "https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2026/MainFeaturesCh20260828.pdf",
+      "original_sha256": "45c2be6dd07a2ecf072be543b45f4514aa6993ca663ac4c69158af46242c3700",
+      "input_sha256": "45c2be6dd07a2ecf072be543b45f4514aa6993ca663ac4c69158af46242c3700",
+      "transformation": "byte-for-byte copy of full original PDF",
+      "version": "seed-2026-10-11 fixed downloaded file; publication date not independently established",
+      "page_map": "physical page n copied without change to physical page n",
+      "source_document_id": "F013",
+      "role": "official_public_disclosure"
+    },
+    {
+      "input_path": "environment/input-data/client_draft.docx",
+      "role": "task_local_authored_workflow_input",
+      "parent_input": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/finance/finance-pilot-02/workspace/input-data/client_draft.docx",
+      "description": "Task-local authored client draft; same14 business paragraphs as accepted parent; synthetic/provenance explanatory paragraphs replaced with ordinary internal client-work framing.",
+      "input_sha256": "bed51540322508171b792d50130e7c927d02a1b319d9e48ff09b179247431acc"
+    },
+    {
+      "input_path": "environment/input-data/review_checklist.csv",
+      "role": "task_local_authored_workflow_input",
+      "parent_input": null,
+      "description": "Task-local authored operational audit checklist. Contains check topics and neutral value choices; excludes expected values, roles, source locators and weights.",
+      "input_sha256": "17dea8c10d8d35e66b26434a2e2a34461949a929aaf1de185b4d2a5746bb748f"
+    },
+    {
+      "input_path": "environment/input-data/README.md",
+      "role": "task_local_authored_workflow_input",
+      "parent_input": null,
+      "description": "Operational material inventory and value/role/locator schema",
+      "input_sha256": "be422adf71a989cd622a5da3e47b3637ce14a6f26807576b43709c900d36d379"
+    }
+  ],
+  "constructed_context": "Internal product-team client revision as of2026-10-11; workflow artifacts are authored, official PDFs are byte-identical. Construction disclosures are author-only provenance, not customer text."
+}

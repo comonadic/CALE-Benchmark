@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "task_id": "finance-pilot-01-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "finance",
+  "family_id": "F01",
+  "title": "报喜鸟2025年利润—经营现金流桥接与营运资本复核",
+  "design": {
+    "task_type": "financial-reconciliation",
+    "operation": "reconcile",
+    "reasoning_axes": [
+      "consolidated-profit-to-operating-cash",
+      "working-capital-sign-and-scope",
+      "comparative-period-bridge"
+    ],
+    "deliverable_formats": [
+      "xlsx",
+      "md"
+    ],
+    "difficulty": "hard",
+    "summary": "对净利润与经营现金流差异及跨期变动做公式桥接，核对营运资本和附注，解释有证据的变化及不能直接归因的差额。"
+  },
+  "sources": [
+    {
+      "document_id": "F003",
+      "content_hash": "9a11b1b6d78d2a2016a529f36270fe318eaa3f38a78caa364236ac7416ca7d3c",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "F003:consolidated-2025-2024-NP-CFO",
+          "locator": "PDF物理/印刷p7（比较期标记）、p82（合并净利润及归属）、p85（合并CFO）、p181（七79(1)完整17行现金流补充资料）；p31管理层说明",
+          "purpose": "两年合并利润-CFO公式桥接、主表控制及逐项同比贡献"
+        },
+        {
+          "unit_key": "F003:inventory-2025-allowance-cash-adjustment",
+          "locator": "PDF物理/印刷p77（存货净额）、p140（七10(1)存货毛额/準备/净额；七10(3)准备滚动）、p181（存货调整）",
+          "purpose": "复核净额/毛额变动与存货现金流调整的准备算术关系"
+        },
+        {
+          "unit_key": "F003:receivable-payable-contract-scope",
+          "locator": "PDF物理/印刷p77–78、p128（七5(2)应收毛额/坏账准备/净额）、p163（七36应付余额及购房/工程性质）、p165（七39合同负债分项）、p181（经营性应收/应付调整）",
+          "purpose": "单一余额变动与宽口径现金调整的差额、证据边界及具体补证"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "finance-pilot-01"
+    ],
+    "root_task_ids": [
+      "finance-pilot-01"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "F003"
+    ],
+    "split_group_ids": [
+      "baoxiniao-2025-consolidated-cash-profit"
+    ],
+    "changed_dimensions": [
+      "natural_professional_instruction",
+      "runtime_paths",
+      "Harbor0.17.1_schema",
+      "separate_verifier",
+      "review_handoff_index",
+      "executable_partial_scoring",
+      "formula_recalculation_and_sensitivity",
+      "artifact_bound_semantic_adjudication",
+      "challenge_suite",
+      "validation_scope",
+      "Harbor-native-environment-reference-verifier",
+      "natural-professional-work-request",
+      "actual-artifact-bound-independent-rubric",
+      "actual-local-lifecycle-calibration"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12ba8-1526-7fd2-862c-5aaa62205d39",
+    "producer_id": "/root",
+    "prompt_sha256": "ac8755ab8e3f32f9a45d016579c418f4c3e3af51de669fc4a3cb90b942b0010e",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "skill_sha256": "ee185358bec167644bff20a6dac51c9946c1386317aa48f0e650a2e19d41ef7c",
+    "model": null
+  }
+}

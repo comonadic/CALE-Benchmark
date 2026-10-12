@@ -1,0 +1,50 @@
+{
+  "oracle": "solution/reference",
+  "numeric-wrong": {
+    "changes": "recommended first payment raised from20% to30% producing110% and wrong advance offset",
+    "expected_objective": "failed",
+    "expected_professional": "affected numeric and rule criteria must lose points"
+  },
+  "semantic-wrong": {
+    "changes": "Unrevised supplier draft retains incompatible training/annex/payment/approval/retention conditions with correct arithmetic ledger",
+    "expected_objective": "passed",
+    "expected_professional": "substantive criteria must lose points despite valid files and arithmetic",
+    "control_variable_explanation": "intentional bundle-of-errors challenge, not one-error intervention; DOCX deliberately equals visible v0 in bytes, accompanied by correct R2 arithmetic ledger. It tests rejection of an unrevised supplier draft with multiple material errors, not sensitivity to one criterion."
+  },
+  "acceptable-alternative": {
+    "changes": "Equivalent IF settlement formulas, no proprietary tool transfer and equivalent usable interface approach",
+    "expected_objective": "passed",
+    "expected_professional": "accepted; no deduction for supported strategy or equivalent formulas"
+  },
+  "calibration_R3": {
+    "correct_reference_sha256": {
+      "谈判台账.xlsx": "0192490ceabd65377444410db58aff8b24d1c20ed4a65f9d2b42f422fd7c7565",
+      "修订合同.docx": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e"
+    },
+    "fixture_sha256": {
+      "numeric-wrong": {
+        "谈判台账.xlsx": "eba8970cadeae75bcb230441a425c27a33aca7cc3754c00dc8e6287e46db2aa3",
+        "修订合同.docx": "5985dc80ea7c7e5b8bbefb6f2e16702722974faa5fc5ea13ce44e470148ff45e"
+      },
+      "semantic-wrong": {
+        "谈判台账.xlsx": "0192490ceabd65377444410db58aff8b24d1c20ed4a65f9d2b42f422fd7c7565",
+        "修订合同.docx": "4030bcf3abed13b88cc7920a171f5789098615167835d0f681c972a298cecd4b"
+      },
+      "acceptable-alternative": {
+        "谈判台账.xlsx": "53ae5093cf1f247701b1bee739ae4bfac4c12291014af4579600fb91dfbb15f5",
+        "修订合同.docx": "64f61b372ed3957e518a675fe06c3b938a9f659658db81411d7881642b4a6003"
+      }
+    },
+    "controlled_differences": {
+      "numeric_DOCX_equal_correct_R2_reference": true,
+      "alternative_DOCX_only_tool_approach_paragraph_differs": [
+        25
+      ],
+      "semantic_DOCX_byte_identical_to_visible_unrevised_v0": true,
+      "semantic_control_kind": "intentional bundle-of-errors challenge, not one-error intervention",
+      "semantic_expected_failures": "unrevised data rights, scope, quality, fees, subcontract approval, retention/exit, priority and change trace; omissions here belong to deliberate unchanged v0, not residual R1 reference omissions"
+    },
+    "author_self_check_only": true,
+    "independent_final_runtime_evaluation": "pending root final runs"
+  }
+}

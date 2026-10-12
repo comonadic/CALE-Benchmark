@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "R01",
+      "points": 20,
+      "object": "evidence-ledger.csv",
+      "criterion": "36件逐项可追溯台账；名称/日期精度/首次提交/补交更正；E3放弃，C1形式与内容、反证2系列确认与单件用途、C3补译角色分清。按具体错误和遗漏分项给分，长标题可缩写。",
+      "evidence_ids": [
+        "F02",
+        "F03",
+        "F20"
+      ],
+      "method": "客观CSV检查作辅助；专业评审核对每行目的/评价，扣分落到具体错误，不因长标题缩写扣分",
+      "acceptable_alternatives": "可使用等价文字；未单独转述的单件用途/评价等叙述字段可空白或注明缺口；未知公开日期不得补造。36件首次提交日期均已明确记载，按记录填写。",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    },
+    {
+      "id": "R02",
+      "points": 20,
+      "object": "evidence-ledger.csv及A02/A03",
+      "criterion": "引证与现有技术分列；E2三日期链和两资格；E9–12创造性关联边界；未知判断不滥推",
+      "evidence_ids": [
+        "F04",
+        "F09",
+        "F10"
+      ],
+      "method": "日期与字段程序核查；资格专业解释专业评审",
+      "acceptable_alternatives": "可有条件挑战优先权或指南处理，必须先准确报告决定的立场及条件，不据引证资格断言前置公开",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    },
+    {
+      "id": "R03",
+      "points": 12,
+      "object": "argument-comparison.csv及team-review.md",
+      "criterion": "四要素分别对应本案领域、问题、三盐等方案和预期效果；E1/后文仅缺实施例A的差异、引证及成盐常识、补强而非新增的决定论证；旧法/细则与指南特定问题分层。",
+      "evidence_ids": [
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09"
+      ],
+      "method": "专业评审按可追溯链评分，不以赞同决定为前提",
+      "acceptable_alternatives": "接受批评过渡及医药不可预期性，但应回应具体事实并注明缺原文验证",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    },
+    {
+      "id": "R04",
+      "points": 20,
+      "object": "argument-comparison.csv及team-review.md",
+      "criterion": "E2路线的优先权前提；E7路线结构1–3及三盐、请求人/合议组技术问题差别、E13/16/盐证据各作用；JAK1缺口及Ki/IC50阈值不能给出确定倍数或临床优效。图示可作等价描述，不要求精确原子号。",
+      "evidence_ids": [
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14"
+      ],
+      "method": "专业评审核图与论证；无化学字符串匹配或自动法律通过规则",
+      "acceptable_alternatives": "等价结构描述可接受；无需精确原子编号或重绘；若补件策略不同，须说明如何填具体技术启示而非一般规则",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    },
+    {
+      "id": "R05",
+      "points": 10,
+      "object": "argument-comparison.csv及team-review.md",
+      "criterion": "第26条两款区别，结构/ATP/疾病三组，数值不扩张，60/61文字与决定概括分层",
+      "evidence_ids": [
+        "F06",
+        "F15",
+        "F16",
+        "F17",
+        "F18"
+      ],
+      "method": "专业评审依据争点、反方和限度评分",
+      "acceptable_alternatives": "允许争议用途支持/数据可信程度，但不得把ATP不一致或无临床实验直接当当然失败",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    },
+    {
+      "id": "R06",
+      "points": 10,
+      "object": "team-review.md",
+      "criterion": "D01–D08每条明确更正或有条件保留，证据/台账引用；本次结果和后续状态/期限边界",
+      "evidence_ids": [
+        "F01",
+        "F03",
+        "F04",
+        "F07",
+        "F09",
+        "F10",
+        "F12",
+        "F19"
+      ],
+      "method": "专业评审逐项，每项有理由且可引用，专业缺陷不以表面格式弥补",
+      "acceptable_alternatives": "表格或段落均可；不以参考措辞匹配；可集中交叉引用相同论点",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    },
+    {
+      "id": "R07",
+      "points": 5,
+      "object": "team-review.md",
+      "criterion": "优先补件有对象、缺口、争点、核验方法、缺件时收缩，能执行且对应不同链条",
+      "evidence_ids": [
+        "F20及A01–A10"
+      ],
+      "method": "专业评审评价具体可执行性",
+      "acceptable_alternatives": "可优先转向支持/公开充分或暂缓E2路线，优先级与参考不同不自动扣分",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    },
+    {
+      "id": "R08",
+      "points": 3,
+      "object": "全部交付",
+      "criterion": "CSV可筛选，字段、36件ID、争点ID稳定；实际输入页码；Markdown可审阅及交叉引用。争点可合理合并/拆分，不因行数或措辞不同扣分。",
+      "evidence_ids": [
+        "全部"
+      ],
+      "method": "运行tests/objective.py做客观结构检查，再专业评审可读性核查",
+      "acceptable_alternatives": "BOM/无BOM、列顺序、行顺序、标题缩写、争点合并拆分允许；schema允许的未知字段空白不扣格式分，实质遗漏由对应专业criterion判断。",
+      "tolerance": "专业文字不做精确匹配；明确日期、角色和资格须准确；分项按实质完成度计分"
+    }
+  ],
+  "scoring_policy": {
+    "reference_is_not_only_answer": true,
+    "manual_or_model_required": [
+      "R01法律用途",
+      "R02资格论证",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08可读性"
+    ],
+    "program_not_a_legal_verifier": true,
+    "no_score_for_predicting_known_outcome": true,
+    "major_errors": "专业评审须指出产物中的具体错误主张、支持/反驳证据和受影响criterion：E2引证资格直接等同现有技术、C1形式确认直接等同内容确认、把Ki/IC50阈值当确定倍数并扩为临床优效、把2024决定当2026法律状态。对缺件有条件讨论及忠实转述错误底稿不适用这一项。不能用形式得分补成这些核心判断已经正确。",
+    "unsupported_answer_policy": "泛泛摘要未形成争点比较或补件可执行关系，不满足相应criterion；准确复制已知决定结果不代替分析",
+    "professional_error_review": "出现上述肯定性核心错误时，不能给完整专业通过；评分要基于真实语义和证据，不按某词是否出现。仅引用D01–D08再更正不属于错误。不同补件优先级、条件性批评指南处理或主张不同技术问题，均按论证是否回应材料评分。"
+  }
+}

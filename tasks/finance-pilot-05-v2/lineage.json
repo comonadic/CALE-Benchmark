@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "task_id": "finance-pilot-05-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "finance",
+  "family_id": "F17",
+  "title": "中央预算审计整改事项审阅与补证安排",
+  "design": {
+    "task_type": "evidence-analysis",
+    "operation": "map",
+    "reasoning_axes": [
+      "same-publication-main-appendix-link",
+      "issue-to-remediation-evidence",
+      "aggregate-overlap-and-residual",
+      "reported-completion-versus-independent-verification"
+    ],
+    "deliverable_formats": [
+      "csv",
+      "docx"
+    ],
+    "difficulty": "hard",
+    "summary": "2025-12-22公开报告信息时点下，核对三份中央预算整改报告的资金/工程问题与公开进展、同事项关系及子项包含，复算披露差额和阶段比例，形成项目与银行/预算/验收补证计划。原生CSV与DOCX交付，60分数值结构及typed状态/关系检查加40分真实独立证据评阅。"
+  },
+  "sources": [
+    {
+      "document_id": "F048",
+      "content_hash": "f5656f27ffef3f27bfe5f4d5159360106ce5ed7d27c60b05da5d61648cef56da",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:overall-status",
+          "locator": "PDF physical/printed 1,3; 一（三）",
+          "purpose": "报告署日期与截至2025-09月底总览、立行立改分母、整改问题金额"
+        },
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:flood-reconstruction",
+          "locator": "PDF physical/printed 8-9; 二（三）1-2",
+          "purpose": "海河工程状态与灾后恢复重建整改金额总额和三项分项复核"
+        },
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:poyang-progress",
+          "locator": "PDF physical/printed 17; 生态环境保护修复第二方面",
+          "purpose": "核对鄱阳湖逾期项目开完工合并状态"
+        },
+        {
+          "unit_key": "F048:p3-p22-immediate-rectification-conflict",
+          "locator": "F048 PDF physical/printed p3 (2186,98%,as-of September30) and p22 (62,2%,no distinct cutoff)",
+          "purpose": "Preserve incompatible reported counts/percentages; conditional2124/97.1638 not a confirmed completion figure; fair blank and supported alternative representation"
+        }
+      ]
+    },
+    {
+      "document_id": "F049",
+      "content_hash": "96c5b62ccbc953fc4e1cd713a9b1b89c4505fdf70f57483aa8743214436a11c4",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:flood-funding-program-context",
+          "locator": "PDF physical2 printed1 二 opening",
+          "purpose": "Explicit2023增发国债 program identity; distinguishes departmental超长期特别国债 wetland and国有资本经营预算 knowledge platform"
+        },
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:flood-reconstruction",
+          "locator": "PDF physical 3-4 / printed 2-3; 二（一）（二）",
+          "purpose": "原问题267亿元及其中48亿元、57亿元挪用和已报告整改，海河状态"
+        },
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:poyang-progress",
+          "locator": "PDF physical 4-5 / printed 3-4; 二（三）",
+          "purpose": "鄱阳湖原计划投资/旧时点比例和逾期项目整改混合阶段，下一步工作区分"
+        }
+      ]
+    },
+    {
+      "document_id": "F050",
+      "content_hash": "c3c6bb5fe310ebc22c445bfcd48bf0058bee504b3e79c924d53d0cc02ab3d1b6",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:water-ministry-wetland-project",
+          "locator": "PDF physical/printed 14; 序号9水利部首行",
+          "purpose": "超长期特别国债1.86亿元闲置与2025-07全面开工；与全国2023增发国债无同项证据"
+        },
+        {
+          "unit_key": "central-budget-2024-audit-rectification-2025:water-publishing-platform",
+          "locator": "PDF physical/printed 15; 序号9水利部水利知识平台行",
+          "purpose": "5000万元申请与4420.05万元闲置，工作台账和已申请调减不能等同实际资金闭环"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "finance-pilot-05"
+    ],
+    "root_task_ids": [
+      "finance-pilot-05"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "finance-audit"
+    ],
+    "split_group_ids": [
+      "central-budget-2024-audit-rectification-2025"
+    ],
+    "changed_dimensions": [
+      "native-harbor-task-config",
+      "absolute-container-paths",
+      "realistic-business-instruction-and-visible-definitions",
+      "F049-opening-program-context",
+      "reference-DOCX-rebuild",
+      "objective-weighted-relationships-and-typed-state",
+      "actual-output-source-extraction",
+      "independent-rubric-digest-bridge",
+      "failure-versus-nop-reward-separation",
+      "28-local-boundary-fixtures",
+      "F048-p22-source-disclosure",
+      "dual-count-reconciliation-and-conditional-role",
+      "public-O01-business-definition",
+      "CSV-optional-counts-and-alternative-representations",
+      "DOCX-reference-and-layout",
+      "objective-O01-permitted-values",
+      "independent-rubric-O01-real-source-reconciliation",
+      "six-new-O01-boundary-and-alternative-fixtures",
+      "R1-byte-preserving-compressed-history",
+      "limited-current-actual-review-requests",
+      "actual-local-lifecycle-calibration"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12ba8-1526-7fd2-862c-5aaa62205d39",
+    "producer_id": "/root",
+    "prompt_sha256": "ac8755ab8e3f32f9a45d016579c418f4c3e3af51de669fc4a3cb90b942b0010e",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "skill_sha256": "ee185358bec167644bff20a6dac51c9946c1386317aa48f0e650a2e19d41ef7c",
+    "model": null
+  }
+}

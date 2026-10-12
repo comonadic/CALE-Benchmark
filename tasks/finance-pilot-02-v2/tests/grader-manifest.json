@@ -1,0 +1,10 @@
+{
+  "evaluate.py": "dd242b60b070840ddab1383baa9c6356ce73dcab44e1bf08c52761d8ecadde0c",
+  "rubric_bridge.py": "6b4445bdf5daa67e569887b897f7e8830a9f3874df643ba7a4cd468d29d8e31f",
+  "test.sh": "7c92dc51b6286df93a89ab02975e00687c156a87360a60e31d06e6c0cbe994f1",
+  "facts.json": "9de6abc2f330b7d2227aa4b9bb97dc8b9afade1250e40dfb1f4ca728a4695699",
+  "rubric.json": "eacc5f4ed3b176c3a6c9e9cf69bd0ca866a6d084351f8a72d72f93f26d7379d9",
+  "evidence-context.json": "96f37c0de9a81607cd7e868287f563e6f694d784f542fe8db430006aa852454c",
+  "instruction-context.md": "786011d2860b0b71cbbc3445bc192be931aa3890ba2e30e05f4ae58072e7a07e",
+  "source-manifest.json": "98c8e015a96ffa5ba14216312cd33b4a8aa5af95344cbecc79d9b3cbee2de420"
+}

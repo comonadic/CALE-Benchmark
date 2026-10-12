@@ -1,0 +1,352 @@
+{
+  "version": 2,
+  "parent_task": "legal-pilot-02",
+  "parent_path": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-02",
+  "parent_accepted_immutable": true,
+  "construction": "Corporate parties, business project facts, correspondence and conditional schedules were authored for the original pilot. Version2 places authoring provenance here and presents ordinary work requests; no original official PDF was altered and no official endorsement is claimed.",
+  "source_mapping": [
+    {
+      "file": "CIETAC-2024-CN.pdf",
+      "old_sha256": "4a8fe6fa519e3d8663aa72d70ce5ccd15f85368fcf181f823326a1fa57739507",
+      "new_sha256": "4a8fe6fa519e3d8663aa72d70ce5ccd15f85368fcf181f823326a1fa57739507",
+      "official_original": true,
+      "byte_preserved": true
+    },
+    {
+      "file": "CIETAC-2024-CN.txt",
+      "old_sha256": "b63afd006bb91f44e2a231939d3067849f89db14ff9e278de386bda4c670c381",
+      "new_sha256": "b63afd006bb91f44e2a231939d3067849f89db14ff9e278de386bda4c670c381",
+      "official_original": false,
+      "byte_preserved": true
+    },
+    {
+      "file": "client-email.md",
+      "old_sha256": "87835832109fffc1148523c5b81daec826e1cfd1190ba849ddeced487b2a76b6",
+      "new_sha256": "c1c45dd1d0af689bb4839bcba39206b3fb7e19fdb65d45db5788f188c7c4b47a",
+      "official_original": false,
+      "byte_preserved": false
+    },
+    {
+      "file": "delivery-log.csv",
+      "old_sha256": "a66274830df2ae2ff4df61281ae0a222b1f4bdfd8c9ab370d2d17e89a4f210f1",
+      "new_sha256": "ed9635253f1356df4e560d24981924b40887a0e1ccb892f6655fb99b7c9a4a23",
+      "official_original": false,
+      "byte_preserved": false
+    },
+    {
+      "file": "events.json",
+      "old_sha256": "e265e7bc3fb907677f762d348b9e890f1313238dd140cd28b0cb726b341f9b83",
+      "new_sha256": "e9e96458b4cbf4cc72ba3507bd12617773376f06baa66cc4708f3589ca58a45f",
+      "official_original": false,
+      "byte_preserved": false
+    },
+    {
+      "file": "future-events.md",
+      "old_sha256": "46e1cdbd5ea77e6ee83aac02f1ca9b157e652665df34cecab29a02af93e545a0",
+      "new_sha256": "cb9233278e9e1c54ad0b27b3f5fbce4b53bc9b1c35ae68f2e32549a026bd0182",
+      "official_original": false,
+      "byte_preserved": false
+    },
+    {
+      "file": "notice.md",
+      "old_sha256": "ae98af0826d4f05ae9f9b884b10c5951204a042c571ec4b10c76de049e851bda",
+      "new_sha256": "0bfb36480dcdf40b7b867692a908bf57a41cc440b4537204a03a905694ad9403",
+      "official_original": false,
+      "byte_preserved": false
+    },
+    {
+      "file": "scenario.md",
+      "old_sha256": "501ec5f0d2b699ec0a506d86f18875f4e298c4a7e446568a90f9c4f5537ae239",
+      "new_sha256": "b5f8574403b7a00a18e87a105ab8eca21055b0d7effd35ce0c89e708bbdc6c21",
+      "official_original": false,
+      "byte_preserved": false
+    }
+  ],
+  "visible_exclusions": [
+    "private evaluation",
+    "solution reference",
+    "challenge files",
+    "old private authoring history"
+  ],
+  "oracle_method": "Runtime copies the privately mounted reference; oracle is not an independent model solution.",
+  "reference_artifacts": [
+    {
+      "path": "solution/reference/action-calendar.xlsx",
+      "sha256": "7ab9a14e3417959e92c6de179128374df023ea19cbf88cd60d3b882849cf9619"
+    },
+    {
+      "path": "solution/reference/procedure-plan.md",
+      "sha256": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248"
+    }
+  ],
+  "challenge_revision": {
+    "id": "02-alternative-cross-file-targets",
+    "changed_at": "2026-10-12T04:17:49.899278+00:00",
+    "xlsx_sha256": "f833e96585acc9acc5c6a0b08b814e9e8930328bc7e6eacef1df27434f37b628",
+    "md_sha256": "ff47ed85330788ed1d47dbccab9b1dd8a210bbffa8f95b9d73aabefd95ffd311",
+    "rule_dates_formulas_unchanged": true
+  },
+  "revisions": [
+    {
+      "id": "R2",
+      "changed_at": "2026-10-12T04:43:08.413290+00:00",
+      "changed": [
+        {
+          "path": "solution/reference/action-calendar.xlsx",
+          "before_sha256": "7c76f06439a176c793a962e97fbd6ff9d680577ec0547e07b6a2c54fe6632f23",
+          "after_sha256": "7ab9a14e3417959e92c6de179128374df023ea19cbf88cd60d3b882849cf9619",
+          "native_table_filter": "ActionCalendar A6:L24",
+          "all_serialized_formula_and_cache_vectors_unchanged": true,
+          "artifact_getter_blank_note": "Untriggered A15 D21 getter normalizes None to empty string after recalculation; serialized formula/cache and displayed blank unchanged"
+        },
+        {
+          "path": "tests/challenges/numeric-wrong/action-calendar.xlsx",
+          "before_sha256": "496ff64d827d958c1f4f7d15ca8b448223e4761e008c869e672fb405ace4cdf7",
+          "after_sha256": "89dd346853a4b4bb90ddbf4b58e5faa38b0fe4d1eeb6f9510cd239d8038f5194",
+          "native_table_filter": "ActionCalendar A6:L24",
+          "all_serialized_formula_and_cache_vectors_unchanged": true,
+          "artifact_getter_blank_note": "Untriggered A15 D21 getter normalizes None to empty string after recalculation; serialized formula/cache and displayed blank unchanged"
+        },
+        {
+          "path": "tests/challenges/semantic-wrong/action-calendar.xlsx",
+          "before_sha256": "7c76f06439a176c793a962e97fbd6ff9d680577ec0547e07b6a2c54fe6632f23",
+          "after_sha256": "d56b73d88e0e1dbbecfb7c16605e904ebe32a063cf84c21c2329a3812eed2c0d",
+          "native_table_filter": "ActionCalendar A6:L24",
+          "all_serialized_formula_and_cache_vectors_unchanged": true,
+          "artifact_getter_blank_note": "Untriggered A15 D21 getter normalizes None to empty string after recalculation; serialized formula/cache and displayed blank unchanged"
+        },
+        {
+          "path": "tests/challenges/acceptable-alternative/action-calendar.xlsx",
+          "before_sha256": "f833e96585acc9acc5c6a0b08b814e9e8930328bc7e6eacef1df27434f37b628",
+          "after_sha256": "9dc3f6a733937a977798bd48de95737783b26eec83be22929da7fbe22db17f31",
+          "native_table_filter": "ActionCalendar A6:L24",
+          "all_serialized_formula_and_cache_vectors_unchanged": true,
+          "artifact_getter_blank_note": "Untriggered A15 D21 getter normalizes None to empty string after recalculation; serialized formula/cache and displayed blank unchanged"
+        },
+        {
+          "path": "solution/reference/procedure-plan.md",
+          "before_sha256": "04b7e07a3150e866905e9c3002ef5ba85e2f9521f8b9379845b923193556c5e8",
+          "after_sha256": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248",
+          "change": "specific relation/record/receipt/knowledge-time checks and ownership/next action"
+        },
+        {
+          "path": "tests/challenges/acceptable-alternative/procedure-plan.md",
+          "before_sha256": "ff47ed85330788ed1d47dbccab9b1dd8a210bbffa8f95b9d73aabefd95ffd311",
+          "after_sha256": "494198ef3a549bd0c0f8ddf3ea34c0769fb571886f6ccbe0cc7e99fcb44fa1ed",
+          "change": "specific relation/record/receipt/knowledge-time checks and ownership/next action"
+        }
+      ],
+      "scope": "specific recusal evidence/actions and native table filter; no rule or scoring change"
+    }
+  ],
+  "fixture_calibration_R3": {
+    "revision_id": "R3-controlled-fixture-calibration",
+    "completed_at": "2026-10-12T04:53:06.174406+00:00",
+    "correct_R2_reference_sha256": {
+      "action-calendar.xlsx": "7ab9a14e3417959e92c6de179128374df023ea19cbf88cd60d3b882849cf9619",
+      "procedure-plan.md": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248"
+    },
+    "fixture_sha256": {
+      "numeric-wrong": {
+        "action-calendar.xlsx": "89dd346853a4b4bb90ddbf4b58e5faa38b0fe4d1eeb6f9510cd239d8038f5194",
+        "procedure-plan.md": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248"
+      },
+      "semantic-wrong": {
+        "action-calendar.xlsx": "d56b73d88e0e1dbbecfb7c16605e904ebe32a063cf84c21c2329a3812eed2c0d",
+        "procedure-plan.md": "010149344050d081a0237b46e1b3f2af4dc229498e7d58708d22fd896ad654c6"
+      },
+      "acceptable-alternative": {
+        "action-calendar.xlsx": "9dc3f6a733937a977798bd48de95737783b26eec83be22929da7fbe22db17f31",
+        "procedure-plan.md": "494198ef3a549bd0c0f8ddf3ea34c0769fb571886f6ccbe0cc7e99fcb44fa1ed"
+      }
+    },
+    "controls": {
+      "numeric_xlsx_delta": [
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "E10",
+          "reference": [
+            null,
+            "20"
+          ],
+          "numeric_wrong": [
+            null,
+            "45"
+          ]
+        },
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "E9",
+          "reference": [
+            null,
+            "20"
+          ],
+          "numeric_wrong": [
+            null,
+            "45"
+          ]
+        },
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "G10",
+          "reference": [
+            "IF(D10=\"\",\"\",D10+E10)",
+            "45764"
+          ],
+          "numeric_wrong": [
+            "IF(D10=\"\",\"\",D10+E10)",
+            "45789"
+          ]
+        },
+        {
+          "sheet": "xl/worksheets/sheet1.xml",
+          "cell": "G9",
+          "reference": [
+            "IF(D9=\"\",\"\",D9+E9)",
+            "45764"
+          ],
+          "numeric_wrong": [
+            "IF(D9=\"\",\"\",D9+E9)",
+            "45789"
+          ]
+        }
+      ],
+      "semantic_xlsx_all_values_formulas_caches_match_correct_reference": true,
+      "numeric_MD_equal_correct_reference": true,
+      "semantic_MD_exactly_six_planned_replacements": true
+    },
+    "objective_regression": {
+      "numeric-wrong": {
+        "status": "failed",
+        "exit_code": 1,
+        "facts": {
+          "native_tables": [
+            {
+              "name": "ActionCalendar",
+              "range": "A6:L24",
+              "autoFilter_range": "A6:L24"
+            },
+            {
+              "name": "InputEvents",
+              "range": "A5:F18",
+              "autoFilter_range": null
+            }
+          ],
+          "freeze_pane": {
+            "xSplit": "3",
+            "ySplit": "6",
+            "topLeftCell": "D7",
+            "activePane": "bottomRight",
+            "state": "frozen"
+          },
+          "deferred_date_checks": [],
+          "calendar_rows": 18,
+          "professional_scope": "triggers, objections, authority, alternatives and legal citations require professional criterion scoring"
+        }
+      },
+      "semantic-wrong": {
+        "status": "passed",
+        "exit_code": 0,
+        "facts": {
+          "native_tables": [
+            {
+              "name": "ActionCalendar",
+              "range": "A6:L24",
+              "autoFilter_range": "A6:L24"
+            },
+            {
+              "name": "InputEvents",
+              "range": "A5:F18",
+              "autoFilter_range": null
+            }
+          ],
+          "freeze_pane": {
+            "xSplit": "3",
+            "ySplit": "6",
+            "topLeftCell": "D7",
+            "activePane": "bottomRight",
+            "state": "frozen"
+          },
+          "deferred_date_checks": [],
+          "calendar_rows": 18,
+          "professional_scope": "triggers, objections, authority, alternatives and legal citations require professional criterion scoring"
+        }
+      },
+      "acceptable-alternative": {
+        "status": "passed",
+        "exit_code": 0,
+        "facts": {
+          "native_tables": [
+            {
+              "name": "ActionCalendar",
+              "range": "A6:L24",
+              "autoFilter_range": "A6:L24"
+            },
+            {
+              "name": "InputEvents",
+              "range": "A5:F18",
+              "autoFilter_range": null
+            }
+          ],
+          "freeze_pane": {
+            "xSplit": "3",
+            "ySplit": "6",
+            "topLeftCell": "D7",
+            "activePane": "bottomRight",
+            "state": "frozen"
+          },
+          "deferred_date_checks": [],
+          "calendar_rows": 18,
+          "professional_scope": "triggers, objections, authority, alternatives and legal citations require professional criterion scoring"
+        }
+      }
+    },
+    "02_MD_reconstruction_diffs": {
+      "numeric-wrong": {
+        "before_sha256": "14cd244710c28f4e6a6f39771cb07770b25932157ad085078e2c9a4a202e7051",
+        "after_sha256": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248",
+        "final_R2_reference_sha256": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248",
+        "baseline_diff_path": "private/authoring/qa/R3-numeric-wrong-from-R2.diff",
+        "explicit_intended_replacements": [],
+        "new_recusal_action_paragraph_present": true,
+        "numeric_MD_exact_correct_R2_reference": true
+      },
+      "semantic-wrong": {
+        "before_sha256": "1663d3d4432eba11db510a1c37c32f98c2a3553e015522e93424d31aba68ba28",
+        "after_sha256": "010149344050d081a0237b46e1b3f2af4dc229498e7d58708d22fd896ad654c6",
+        "final_R2_reference_sha256": "38162439d566e66749cb389af8e523ab2150306e6bb34f26955834b4b1fa5248",
+        "baseline_diff_path": "private/authoring/qa/R3-semantic-wrong-from-R2.diff",
+        "explicit_intended_replacements": [
+          [
+            "异议不影响程序继续",
+            "异议提出后程序自动停止"
+          ],
+          [
+            "也不能因异议暂停答辩、反请求或选仲裁员",
+            "提出异议后可暂停答辩、反请求及选仲裁员并等待管辖决定"
+          ],
+          [
+            "4月3日的延期申请尚未获准，答辩和反请求仍按4月17日准备",
+            "4月3日提交延期申请即将答辩和反请求期限顺延至4月24日，当前不必再按4月17日准备"
+          ],
+          [
+            "金额超过500万元仍可由一方书面申请并征得另一方书面同意，或双方约定简易",
+            "金额超过500万元不得再适用简易程序，即使双方书面同意也无效"
+          ],
+          [
+            "不能把金额单独上涨当成自动普通",
+            "金额单独上涨即自动转普通"
+          ],
+          [
+            "不能以两者要求重审实体结论",
+            "可以据此要求重审实体结论"
+          ]
+        ],
+        "new_recusal_action_paragraph_present": true,
+        "numeric_MD_exact_correct_R2_reference": null
+      }
+    },
+    "unchanged": "all DOCX bytes, all XLSX bytes, public inputs, rubric scoring rules, root task/Docker/verifier and lineage; only02numeric/semantic Markdown fixtures and author calibration metadata changed",
+    "independent_review": "not claimed; author self calibration only"
+  }
+}

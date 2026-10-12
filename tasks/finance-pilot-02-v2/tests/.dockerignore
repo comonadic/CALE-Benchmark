@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!*.py
+!*.json
+!*.md
+!test.sh
+!trusted-inputs/
+!trusted-inputs/**

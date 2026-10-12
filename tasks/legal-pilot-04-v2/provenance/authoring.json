@@ -1,0 +1,108 @@
+{
+  "version": 2,
+  "parent_provenance": {
+    "version": 1,
+    "task_id": "legal-pilot-04",
+    "sources": [
+      {
+        "input_path": "workspace/input-data/L041-original.html",
+        "sha256": "0357bd3dcd783574afb5a052662f699b494ae7e394ddccbd54bf459ba8eac630",
+        "source_document_id": "L041",
+        "source_path": "reference-library/seed-2026-10-11/raw/law/L041/original.html",
+        "source_sha256": "0357bd3dcd783574afb5a052662f699b494ae7e394ddccbd54bf459ba8eac630",
+        "source_url": "https://www.csrc.gov.cn/csrc/c101928/c7630095/content.shtml",
+        "role": "primary-original",
+        "transformation": "byte-copy",
+        "evidence_range": "detail-news direct p elements P01, P04–P45",
+        "version": "2026-10-11 acquired snapshot"
+      },
+      {
+        "input_path": "workspace/input-data/L041-正文定位.txt",
+        "sha256": "e8296e831149db01ff68f9a76fd40d36ae5c7076c815150e6457263fbf17013b",
+        "source_document_id": "L041",
+        "source_path": "reference-library/seed-2026-10-11/raw/law/L041/original.html",
+        "source_sha256": "0357bd3dcd783574afb5a052662f699b494ae7e394ddccbd54bf459ba8eac630",
+        "source_url": "https://www.csrc.gov.cn/csrc/c101928/c7630095/content.shtml",
+        "role": "derived-source",
+        "transformation": "lxml HTML direct p text extraction; paragraph indices include empty p slots",
+        "evidence_range": "detail-news direct p elements P01, P04–P45",
+        "version": "2026-10-11 acquired snapshot"
+      },
+      {
+        "input_path": "workspace/input-data/交办背景与口径.md",
+        "sha256": "92e0eb63f82e28167fe5c5fefcc3feb01c577ec414b4e36cc9d9a81f4bea7384",
+        "role": "synthetic-task-material",
+        "source_document_id": null,
+        "author_id": "/root/author_04",
+        "transformation": "authored scenario/explicitly erroneous draft",
+        "assumption": true,
+        "source_relation": "scenario and intentionally erroneous paraphrases for review; never independent evidence"
+      },
+      {
+        "input_path": "workspace/input-data/内部核查初稿.docx",
+        "sha256": "cf3f36876a012068645a6a83499921cfaebf4848ed2c3721cd11f240a079cc92",
+        "role": "synthetic-task-material",
+        "source_document_id": null,
+        "author_id": "/root/author_04",
+        "transformation": "authored scenario/explicitly erroneous draft",
+        "assumption": true,
+        "source_relation": "scenario and intentionally erroneous paraphrases for review; never independent evidence"
+      }
+    ],
+    "scope": "source roles distinguished; no supplemental downloads"
+  },
+  "created_at": "2026-10-12T04:02:58.376099+00:00",
+  "construction_record": "本版本保留旧版构造的业务提案、价格台账和内部待审稿，不将其冒称官方文件或真实公司证据。官方原件逐字节复制；自建材料改写成正常职业交办材料，合成构造说明仅在此私有记录保留。",
+  "official_endorsement": false,
+  "parent_readonly_hash_snapshot": "private/authoring/parent-readonly-hashes.json",
+  "input_mapping": [
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-04/workspace/input-data/L041-original.html",
+      "new": "environment/input-data/L041-original.html",
+      "parent_sha256": "0357bd3dcd783574afb5a052662f699b494ae7e394ddccbd54bf459ba8eac630",
+      "role": "official_original",
+      "new_sha256": "0357bd3dcd783574afb5a052662f699b494ae7e394ddccbd54bf459ba8eac630",
+      "official_bytes_unchanged": true
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-04/workspace/input-data/交办背景与口径.md",
+      "new": "environment/input-data/交办背景与口径.md",
+      "parent_sha256": "92e0eb63f82e28167fe5c5fefcc3feb01c577ec414b4e36cc9d9a81f4bea7384",
+      "role": "constructed_business_material",
+      "new_sha256": "7582206200232f979f8161a9fcd1e53fbf546cbbaaa0fe2cd19ab3ca87f7ddf6",
+      "official_bytes_unchanged": null
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-04/workspace/input-data/内部核查初稿.docx",
+      "new": "environment/input-data/内部核查初稿.docx",
+      "parent_sha256": "cf3f36876a012068645a6a83499921cfaebf4848ed2c3721cd11f240a079cc92",
+      "role": "constructed_business_material",
+      "new_sha256": "1687acf4684c75c451a26a91f7e8e926f861c88a8075e1bb5200673a6ba5f42e",
+      "official_bytes_unchanged": null
+    },
+    {
+      "parent": "/Users/czx/Documents/data/ale-material-atlas/generated-tasks/pilot-2026-10-11/law/legal-pilot-04/workspace/input-data/L041-正文定位.txt",
+      "new": "environment/input-data/L041-正文定位.txt",
+      "parent_sha256": "e8296e831149db01ff68f9a76fd40d36ae5c7076c815150e6457263fbf17013b",
+      "role": "source_derivative",
+      "new_sha256": "e8296e831149db01ff68f9a76fd40d36ae5c7076c815150e6457263fbf17013b",
+      "official_bytes_unchanged": null
+    }
+  ],
+  "reference_changes": [
+    "自然职业化开头和来源说明",
+    "source vs computed role precision",
+    "S07 explicitly preserves regulator P33 unawareness wording and adverse diligence finding"
+  ],
+  "reference_sha256": {
+    "审改报告.docx": "02d6cd39e706b0fc7fea8dd65f05b8bb119d59985c8652577c1261837b1e89b6",
+    "核查台账.xlsx": "23927458a248534a2da844be6e766ec494908e3b1b92e11fb51617ec64d6ce1d"
+  },
+  "author_revisions": [
+    {
+      "id": "R1-review-followup",
+      "completed_at": "2026-10-12T04:15:19.025001+00:00",
+      "description": "main review R01–R06 response; 04 A3 wording synced in four workbooks preserving all formulas/caches"
+    }
+  ]
+}

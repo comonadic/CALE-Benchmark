@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "task_id": "legal-pilot-03-v2",
+  "batch_id": "harbor-v2-2026-10-12",
+  "industry": "law",
+  "family_id": "L07",
+  "title": "分众新潮附条件批准：限制性条件执行控制台",
+  "design": {
+    "task_type": "compliance-review",
+    "operation": "map",
+    "reasoning_axes": [
+      "legal-obligation-vs-control-design",
+      "customer-and-property-contract-exceptions",
+      "city-price-baseline",
+      "release-application-not-auto-expiry",
+      "missing-commitment-annex"
+    ],
+    "deliverable_formats": [
+      "xlsx",
+      "md"
+    ],
+    "difficulty": "hard",
+    "summary": "把2026-10-9公开决定的六项限制性条件转成责任人、触发条件、控制证据和持续报告机制；对合成运营提案逐项判定，并明确缺失承诺附件和不确定价格口径。"
+  },
+  "sources": [
+    {
+      "document_id": "L034",
+      "content_hash": "1181a1b2244a3d078ec76a930acde94a750239743c84b556b660cb65c2f073b2",
+      "role": "primary",
+      "evidence_units": [
+        {
+          "unit_key": "Focus-Xinchao-2026/decision-VI",
+          "locator": "Original HTML VI decision; L034-body-numbered.txt P32-P44: six duties P32-P37, annual report P38, release P39, supervision P40, effective date P41/P44",
+          "purpose": "把2026-10-9公开决定的六项限制性条件转成责任人、触发条件、控制证据和持续报告机制；对合成运营提案逐项判定，并明确缺失承诺附件和不确定价格口径。"
+        }
+      ]
+    }
+  ],
+  "derivation": {
+    "parent_task_ids": [
+      "legal-pilot-03"
+    ],
+    "root_task_ids": [
+      "legal-pilot-03"
+    ],
+    "mutation_type": "workflow-extension",
+    "material_cluster_ids": [
+      "law-competition"
+    ],
+    "split_group_ids": [
+      "Focus-Xinchao-2026"
+    ],
+    "changed_dimensions": [
+      "natural-professional-request",
+      "agent-visible-input-editing",
+      "native-Harbor-paths",
+      "reference-role-precision",
+      "evidence-based-professional-grading",
+      "challenge-artifacts",
+      "portable_public_digest_complete_environment_recipe",
+      "trusted_input_integrity_and_candidate_format_boundaries"
+    ]
+  },
+  "generation": {
+    "session_id": "01a12e44-1329-7413-8657-554bf9749953",
+    "producer_id": "/root/harbor_author_03_04",
+    "prompt_sha256": "25ff6adb0ffb64f5f4b598d0ad49412306f672efc40c28ce107efa5e096dfcaa",
+    "skill_sha256": "38770617b8664564b9c6a65250129c8a6e29c0037e10aa4bed5c3c5978a17803",
+    "policy_sha256": "0899d30cea6e4e40db2c4b65dcdd6610c2702ac445e983ea97961184844b001c",
+    "catalog_sha256": "2a41bc7a7b580dae8430f543e51dae0ad15245c900aea70d1ff00c1447f517b2",
+    "model": null
+  }
+}

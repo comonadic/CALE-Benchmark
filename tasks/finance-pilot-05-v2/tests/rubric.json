@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "total_points": 100,
+  "objective_points": 60,
+  "semantic_points": 40,
+  "objective_criteria": [
+    {
+      "id": "A01",
+      "points": 6,
+      "method": "CSV schema, stable issue keys and required text field presence"
+    },
+    {
+      "id": "A02",
+      "points": 18,
+      "method": "Disclosed raw amounts/counts and field-specific unit conversions"
+    },
+    {
+      "id": "A03",
+      "points": 18,
+      "method": "Decimal count/coverage/gap and submitted financial relationship assertions"
+    },
+    {
+      "id": "A04",
+      "points": 8,
+      "method": "Typed source mapping/aggregation rules and preserved R01 rounding discrepancy"
+    },
+    {
+      "id": "A05",
+      "points": 10,
+      "method": "Typed evidence states and missing versus zero numeric boundaries"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "M01",
+      "points": 10,
+      "object": "Actual CSV/DOCX source support, date and scope",
+      "requirements": "Read every claimed citation, dates, entity, provinces, projects and fund-program role against supplied originals. Report date2025-12-22 differs from overall2025-09 month end; item cutoff can remain unstated. F049physical2printed1 says2023增发国债. Main/appendix restatements trace to the actual same issue; D01超长期特别国债 and D02国有资本经营预算 have different project/fund scope. Citation exists and actually supports the claimed conclusion, not only a valid page number. O01mustcapturebothp3(2186/98%, overallSeptembercutoff)andp22(62outstanding/2%, owncutoffnotseparatelystated). Matchcitationtoactualdisclosure, keepunresolvedtime/denominator/classificationdifference; lackofconfirmedcompletecountdoesnotmeanabsenceofdisclosedoutstandingcount.",
+      "allocation": "4 source citation support;3 time/scope/fund identity;3 supported same-item versus independent-issue relationships.",
+      "acceptable_alternatives": "Any accurate locators including necessary page ranges and equivalent chapter/table descriptions; limited thematic comparisons; single-item cutoffs left unstated rather than forcingSeptember. O01p22facts may be in optionalbusinesscolumns, existingexplanatoryfields oruniqueauxiliaryrows. No fixedonlyrepresentationis required."
+    },
+    {
+      "id": "M02",
+      "points": 15,
+      "object": "Fiscal/progress interpretation and evidence closure",
+      "requirements": "Read all actual text for scope-limited coverage/residual,98% integer precision and the explicitp22 62outstanding(2%) disclosure,68.85 lacking a money denominator,267 includes48,main/appendix repetition and R01 rounding boundary.232.35 and12.34 are disclosure differences not actual loss or verified balance. Haihe78started/8finished/178preparation sum264; Poyang43open-or-complete cannot mean43finished. Historical120.3/7.5% is not a current investment progress fact. D01opening action does not prove1.86 fully used; D02work ledger/reduction application does not prove approval/use.148.17 versus148.16 discrepancy0.01 preserved; plausible rounding or unrevealed reconciliation can be discussed but no unique cause/confirmed missing100万元. Different supported professional wording earns credit, while a direct contradiction in either output reduces the corresponding credit even if the typed field is right. O01cannotignore62or claim the report nevergives anoutstandingcount. Underunconfirmed same-cutoff/sameclassification/samedenominatorassumption,62/2186=2.8362%,2186-62=2124 and2124/2186=97.1638%; conventionalroundingcannotreconcilethemwith2%/98%. Accept2124 only as conditionalderivedcount, neverconfirmedsourceactual. Acceptblankcompletecountwith accuratebothdisclosuresandunreconciledscope/cutoff, withoutrequiringauniquehypothesisfor thedifference.",
+      "allocation": "3 O01 dualdisclosure, precision, conditional role andunreconciledscope;3 coverage/residual anddenominatorinterpretation;2 overlap/aggregation/rounding;4 engineeringstates;3 departmentplans/opening andindependentclosureevidence.",
+      "acceptable_alternatives": "Conservative closure_not_established labels with precise explanation; more precise percentage calculations; plausible alternative reconciliation requests; different explanations of the limited public evidence. ForO01a blankcompletecountor explicitlyconditional2124 may earnfullcredit. Conditionalfiguresmayuse extra columns, explanatorytext or auxiliaryrows. A plausible differencehypothesisis permittedas a hypothesisbut cannotbe assertedastheknowncause."
+    },
+    {
+      "id": "M03",
+      "points": 10,
+      "object": "Value and executability of follow-up actions",
+      "requirements": "At least5 distinct substantive unresolved matters have credible responsible party, specific records/project details, acceptance/closure test and explicitly proposed deadline. Assess how requested evidence resolves the actual gap. Prioritize material funding/project exposure. Generic asks or cosmetic changes do not substitute for records needed to reconcile actual funds, budget approval, scopes or工程验收. IfO01selected, obtain同期分类台账、销号明细和统计口径 toelucidatep3/p22 denominator, cutoff andclassificationratherthan pretending98%determinesa preciseactualcount.",
+      "allocation": "2 points per substantive completed issue-action chain, maximum10; at least5 distinct issues. Deadline/owner/document/evidence-purpose can be shared when logically applying to multiple identified issues.",
+      "acceptable_alternatives": "Reasonable different owners, evidence routes, sequencing, priority and suggested deadlines accepted. Ten or fifteen working days is not a fixed expected answer. Conditional/relative suggested dates accepted without fabricated current business facts."
+    },
+    {
+      "id": "M04",
+      "points": 5,
+      "object": "Editable memo and business handoff quality",
+      "requirements": "Actual2–4page Chinese DOCX usable by project leader, lead conclusion, key financial/count review and priority evidence plan. Current text reconciles with CSV; file readable/editable, practical headings/table use, units and sources legible, no fabricated bank/acceptance or independent-audit evidence. Rendered actual candidate pages supplied; evaluate real usability without matching reference layout/phrases.",
+      "allocation": "2 concise useful conclusions;2 coherent quantified and evidence-action handoff;1 readable2–4page editable layout.",
+      "acceptable_alternatives": "Any reasonable wording, paragraph/table order or layout; CSVrow order/extra unique rows and columns accepted."
+    }
+  ],
+  "scoring": "Final=(objective60+actually independently reviewed semantic40)/100. Positive credit requires actual candidate/source evidence. Pending review never defaults to full. No reference-output hash or keyword grading.",
+  "revision": "R2-p22-reconciliation"
+}

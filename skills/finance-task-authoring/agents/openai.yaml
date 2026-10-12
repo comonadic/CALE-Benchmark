@@ -1,0 +1,4 @@
+interface:
+  display_name: "金融行业参考"
+  short_description: "来源、采集、筛选、抽取、benchmark 与造题方法的行业上下文"
+  default_prompt: "使用 $finance-task-authoring 作为金融行业参考，按当前工作读取相应 references；需要拉取资源时执行采集，需要造题时根据给定 input-data 自主决定问题并交付完整题目文件夹。"

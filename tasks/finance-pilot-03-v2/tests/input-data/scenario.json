@@ -1,0 +1,42 @@
+{
+  "as_of": "2026-03-31",
+  "purpose": "分配方案讨论采用的静态增量测算",
+  "currency": "CNY",
+  "amount_unit": "yuan",
+  "measurement_basis": {
+    "anchor": "2025报告期复算的基金合并可供分配金额，保留报告期已扣除的未来合理相关支出预留",
+    "revenue_driver": "2025报告期国金项目公司营业收入",
+    "revenue_loss": "项目收入下降额等额减少可供分配金额；成本、税金和营运资本按历史口径保持不变",
+    "extra_reserve": "原披露预留以外拟增加的未来支出预留，正数表示新增扣减；本期已计入净利润和可供分配金额的费用保持原处理"
+  },
+  "cases": [
+    {"case_id": 1, "name": "基准", "revenue_decline": 0, "extra_reserve_yuan": 0},
+    {"case_id": 2, "name": "压力", "revenue_decline": 0.1, "extra_reserve_yuan": 5000000},
+    {"case_id": 3, "name": "自定义", "revenue_decline": 0.2, "extra_reserve_yuan": 10000000}
+  ],
+  "proposed_distribution_yuan": 85000000,
+  "distribution_assumptions": {
+    "scope": "一次年度分配方案测算",
+    "six_month_exception_applies": false,
+    "other_distribution_conditions_met": true,
+    "prior_distributions_in_measurement_year_yuan": 0,
+    "lower_ratio": 0.9,
+    "upper_ratio": 1,
+    "positive_D": "拟分配额同时满足90%下限和100%上限",
+    "nonpositive_D": "正向可分配额、上下限及正向每份金额为0，状态为无正向分配空间；保留原始D",
+    "reserve_budget": "新增预留总预算只测试拟分配额不超过100%上限；预算为负时目标在未增加预留前已不可达。可列示有符号预算，或列示0下界预算并单列缺口。剩余空间扣除当前新增预留。90%下限另行检查。"
+  },
+  "sensitivity": {
+    "revenue_decline": [0, 0.05, 0.1, 0.15, 0.2],
+    "extra_reserve_yuan": [0, 5000000, 10000000],
+    "outputs": ["D", "拟分配额对100%上限余量"]
+  },
+  "valid_input_ranges": {
+    "case_id": "整数1、2或3",
+    "revenue_decline": "0到1，包含两端",
+    "extra_reserve_yuan": "非负数",
+    "proposed_distribution_yuan": "非负数"
+  },
+  "missing_input_policy": "0为有效数值；空白、非数值或超范围活动输入应显示不可用及原因。未选情景的空白输入不影响有效活动情景。",
+  "precision": "计算保留原始人民币元精度；展示可换算为万元。"
+}

@@ -1,0 +1,85 @@
+{
+  "version": 4,
+  "task_id": "finance/finance-pilot-03-v2",
+  "inputs": [
+    {
+      "path": "environment/input-data/F025-2025-annual-report.pdf",
+      "sha256": "a4ada0168976bd8bf5dd31e3ca45f7df3da1de137723b77b65d9f27b9956888b",
+      "size_bytes": 1949860,
+      "role": "official_original",
+      "source_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/raw/finance/F025/original.pdf",
+      "parent_input_sha256": "a4ada0168976bd8bf5dd31e3ca45f7df3da1de137723b77b65d9f27b9956888b",
+      "transformation": "byte-for-byte copy of fixed seed",
+      "source_url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-31/508060_20260331_2IEL.pdf",
+      "author_created": false
+    },
+    {
+      "path": "environment/input-data/F025-2025-parsed.txt",
+      "sha256": "c748ad8081c59753c8cc70c703a7ea1e2d841bf710caa622bdde5d5955994cfb",
+      "size_bytes": 199526,
+      "role": "search_extract",
+      "source_path": "/Users/czx/Documents/data/ale-material-atlas/reference-library/seed-2026-10-11/parsed/finance/F025.txt",
+      "parent_input_sha256": "c748ad8081c59753c8cc70c703a7ea1e2d841bf710caa622bdde5d5955994cfb",
+      "transformation": "byte-for-byte copy of fixed seed",
+      "source_url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-31/508060_20260331_2IEL.pdf",
+      "author_created": false
+    },
+    {
+      "path": "environment/input-data/scenario.json",
+      "sha256": "a6dbf3e8cdec1337db0a9b7bc384e8013e9df79e774191715849870c6628c3b8",
+      "size_bytes": 2395,
+      "role": "financial_discussion_assumptions",
+      "source_path": null,
+      "parent_input_sha256": "3ecfaca6c0f1ddfa7567576dc5ae619e0a5f0e12d0a08f204ae5cefdb7b57d27",
+      "transformation": "rewrite author-created scenario into financial discussion parameters; numeric assumptions retained",
+      "source_url": null,
+      "author_created": true
+    },
+    {
+      "path": "environment/input-data/model-data-dictionary.json",
+      "sha256": "d04e74c352c21225c9ce368429b0f2587e0ff3c573d4f5e3db3fd3cfefff4b69",
+      "size_bytes": 24195,
+      "role": "financial_model_business_handoff_dictionary",
+      "source_path": "private/authoring/public_model_index.py",
+      "transformation": "New public role/unit/sign/range and stable native named-region interface; no disclosed values, solution outputs, golden coordinates or scoring aliases.",
+      "author_created": true
+    },
+    {
+      "path": "environment/input-data/model-data-dictionary.md",
+      "sha256": "584e0ae19f55cf06c76c57e4f278981edcbad2f7bdcba9b79f552f972b9e2da3",
+      "size_bytes": 11353,
+      "role": "financial_model_business_handoff_dictionary",
+      "source_path": "private/authoring/public_model_index.py",
+      "transformation": "New public role/unit/sign/range and stable native named-region interface; no disclosed values, solution outputs, golden coordinates or scoring aliases.",
+      "author_created": true
+    }
+  ],
+  "authoring_only_scenario_origin": {
+    "type": "author_constructed_static_incremental_scenario",
+    "steps": [
+      "Retain reported partial-period consolidated historical bridge as anchor",
+      "Use the same project company operating revenue for proportional reduction",
+      "Hold cost, tax and working-capital effects constant",
+      "Add reserves beyond already deducted historical reserve",
+      "Test one assumed annual distribution with six-month exception inapplicable, other conditions met and no prior distributions"
+    ],
+    "policy_roles": "90% lower policy is reported; 100% cap and annual scenario conditions are financial decision assumptions",
+    "not_attributed_to": "fund manager forecast or 2026 bank cash plan"
+  },
+  "official_historical_controls": "The annual report necessarily contains historical totals. They are retained as disclosed controls; scenario outputs and formulas remain solver work.",
+  "source_integrity": {
+    "official_pdf_unchanged": true,
+    "search_extract_unchanged": true
+  },
+  "public_model_handoff_contract": {
+    "executed_at": "2026-10-12T05:53:37Z",
+    "source_facts_and_scenario": "Unchanged; only public model handoff interface added.",
+    "public_inputs": [
+      "model-data-dictionary.md",
+      "model-data-dictionary.json"
+    ],
+    "locator": "Required workbook-level single-cell names; no private labels/right1-3cell lookup; public sensitivity names remove private axes/header discovery.",
+    "candidate_mapping_failure": "normal invalid_submission scored0, not grader failure",
+    "scoring": "Full R01-R07 real judge and80technical/20professional per-criterion caps retained."
+  }
+}
