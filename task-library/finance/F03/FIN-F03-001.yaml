@@ -1,0 +1,65 @@
+task_type_id: FIN-F03-001
+industry: finance
+work_family: F03 银行对公授信与信用审查
+title: 公开资料的对公授信调查与偿债能力审查报告
+role: 客户经理 / 风险经理（对公授信岗）
+trigger: 借款主体提出授信申请（新申请或续授），银行启动尽职调查流程
+expert_time_estimate: 120-180 min（基于公开资料的初步调查，不含实地走访）
+workflow_steps:
+  - 接收申请材料，核查主体资格（营业执照、法定代表人、签署授权）
+  - 收集并整理公开财务披露（近三年年报/半年报及附注）
+  - 整理债务与担保图谱：债券契约、关联担保、存量授信及对外保证
+  - 计算核心偿债能力指标：EBITDA覆盖倍数、资产负债率、流动比率、经营现金流净额/短期债务
+  - 独立测算现金流量（不依赖管理层提供数据），形成书面分析存档
+  - 评价非财务因素：主营业务稳定性、管理层治理、所处行业监管环境
+  - 核查担保合法性与充分性（保证人代偿能力 / 抵质押评估）
+  - 撰写授信调查报告，出具风险点清单和控制措施建议
+  - 风险经理独立复核并出具评价意见，揭示与客户经理分析的分歧
+software:
+  - {name: Excel, use: 财务指标重建、债务到期日历、现金流模型, provision: container}
+  - {name: Word, use: 授信调查报告及风险评价意见, provision: container}
+deliverables:
+  - {file: credit_model.xlsx, form: 财务指标模型，含近三年指标趋势与债务到期日历}
+  - {file: credit_report.docx, form: 授信调查报告，含偿债能力分析/担保评价/风险点清单}
+  - {file: risk_opinion.docx, form: 风险经理评价意见（独立于客户经理报告）}
+verification:
+  profession_checks:
+    - 财务指标计算口径与报告期一致（不混用合并/母公司口径）
+    - 现金流测算独立于管理层提供数据，可追溯至公开报表科目
+    - 担保核查覆盖保证人代偿能力和抵质押合法性两个维度
+    - 债务图谱去重（同一笔授信不重复计入）
+    - 风险经理意见独立撰写，不是对客户经理报告的复述
+  objective_parts:
+    - 财务指标数值计算准确（可从原始报表复核）
+    - 债务到期日历字段完整（债权人/金额/到期日/担保方式）
+    - 风险点清单与财务异常/担保缺口有对应关系
+  rubric_parts:
+    - 非财务评价的证据充分性（不依赖无来源的行业描述）
+    - 风险控制措施的针对性与可操作性
+input_data:
+  - {kind: 近三年年报及附注（合并+母公司口径）, point_in_time: 申请日前最新披露, source_hint: S01 巨潮资讯}
+  - {kind: 存续期债券募集说明书及受托报告, point_in_time: 最新存续期版本, source_hint: S06 上清所/S08 评级机构}
+  - {kind: 公开担保信息（对外担保公告）, point_in_time: 近两年, source_hint: S01 巨潮资讯}
+fusable_with:
+  - {id: FIN-F04-001, relation: downstream, note: 授信报告完成后可融合：债券到期压力与违约处置方案}
+  - {id: FIN-F03-002, relation: downstream, note: 初步调查后可融合：结合契约条款的合规监测台账}
+evidence:
+  - type: guideline
+    url: https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=160367
+    locator: 银监会《商业银行授信工作尽职指引》
+    excerpt: "评估财务报表，预测未来财务和经营情况；必要时进行利率、汇率敏感度分析；独立计算客户现金流量并存档，形成书面分析评价报告；核查保证人代偿能力及抵质押的合法性、充分性和可实现性"
+  - type: practitioner
+    url: https://static.sse.com.cn/cs/zhs/scfw/gg/ssgs/2010-07-30/601818_20100730_2.pdf
+    locator: 光大银行招股说明书（2010）授信审批流程披露
+    excerpt: "受理及授信调查阶段坚持'双人调查'，实地走访财务部门、生产经营场所、管理层、交易对手及其他债权人；评价主体资格、偿债能力、业务合规性和方案合理性"
+  - type: practitioner
+    url: https://www.laomi.ink/万字长文详解银行对公授信报告撰写思路及模板/
+    locator: 《银行对公授信报告撰写思路及模板》
+    excerpt: "标准报告包含：报告编号/调查日期/客户经理与风险经理署名/授信业务概要（额度期限用途）/偿债能力分析（现金流资产负债盈利）/担保评价"
+  - type: practitioner
+    url: https://wws.bracebook.com.cn/web/freeReadAction_view.action?id=baffc931-00d7-444c-bb74-19f637a355bb
+    locator: 建设银行大中型客户授信流程（风控最佳实践案例）
+    excerpt: "遵循'先评级、后授信、再单笔支用'原则；风险经理参与客户调查和信用评级，出具评价意见，揭示关键风险点并提出控制措施，与客户经理形成制衡"
+status: verified
+instantiated_tasks: []
+notes: ""
