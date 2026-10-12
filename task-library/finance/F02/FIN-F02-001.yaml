@@ -1,0 +1,85 @@
+task_type_id: FIN-F02-001
+industry: finance
+work_family: F02 IPO、再融资与并购投行
+title: IPO审核材料跨文件一致性核查与问询回复底稿
+role: 保荐机构项目组（投行分析师/律师）
+trigger: 交易所下发首轮或后续轮次问询函，发行人与中介机构联合准备回复，需在提交前完成四方（发行人/保荐机构/律师/会计师）联合核稿
+expert_time_estimate: 120-240 min（单轮问询中一个专题的核查底稿）
+workflow_steps:
+  - 拆解问询函：识别每个问题的核查维度（财务数据/关联交易/法律权属/披露一致性）
+  - 确定需要跨文件比对的文件对：招股书 ↔ 审计报告 ↔ 法律意见书 ↔ 上轮问询回复
+  - 按问题建立底稿索引表：问题编号/核查事项/引用文件/页码/结论/责任方
+  - 针对财务数据核查：从审计报告原始数值出发，追溯至招股书对应披露位置，记录差异
+  - 针对关联交易核查：律师底稿与审计报告交叉印证；律师未覆盖但审计列示的事项补充材料；审计未列示但律师已核查的事项与审计师确认
+  - 整理网查证据：工商登记截图（记录查询时间、方式与内容）、司法拍卖/诉讼查询记录
+  - 起草问询回复相关章节，四方会签前完成内部质控核查（保荐机构质控部门审阅底稿目录与索引表）
+  - 出具核查底稿：合同/银行流水/会计凭证/访谈笔录/声明/评估及审计文件分类归档
+software:
+  - {name: Excel, use: 底稿索引表/差异台账/跨文件数据勾稽, provision: container}
+  - {name: Word, use: 问询回复草稿与核查说明, provision: container}
+  - {name: PDF阅读器, use: 招股书/审计报告/法律意见书原文定位, provision: container}
+deliverables:
+  - {file: cross_check_index.xlsx, form: 底稿索引表，含问题编号/核查事项/引用文件/页码/结论}
+  - {file: discrepancy_ledger.xlsx, form: 差异台账，列出各文件间不一致项与处置结论}
+  - {file: inquiry_response_draft.docx, form: 问询回复草稿，含四方核查结论及证据索引}
+verification:
+  profession_checks:
+    - 每个问询子问题均有对应底稿条目，无遗漏覆盖
+    - 财务数据引用可追溯至审计报告原始数值（页码可核对）
+    - 关联交易双向核查：律师侧与审计侧均有记录或有协商确认的解释
+    - 网查截图记录查询时间戳，不是过期截图
+    - 回复结论与底稿证据一致（不出现回复说"不存在"但底稿有发现的情况）
+  objective_parts:
+    - 底稿索引表覆盖率（问询子问题数 vs 有底稿条目数）
+    - 数据引用页码准确性（可按页码定位到原文对应数字）
+    - 差异项处置结论是否均有明确说明（不留空白或"待确认"）
+  rubric_parts:
+    - 核查结论的逻辑充分性（是否说清楚为何差异不构成实质性问题）
+    - 底稿证据链的完整性（来源多样性，不单依赖自述）
+input_data:
+  - {kind: 招股说明书（含历史版本）, point_in_time: 报告期内有效版本, source_hint: S02 上交所/S03 深交所/S04 北交所}
+  - {kind: 审计报告及财务报表, point_in_time: 报告期末, source_hint: S02 S03 S04}
+  - {kind: 法律意见书及律师工作报告, point_in_time: 审核阶段, source_hint: S02 S03 S04}
+  - {kind: 历轮问询函及回复文件, point_in_time: 各轮披露版本, source_hint: S02 S03 S04}
+fusable_with:
+  - {id: FIN-F17-001, relation: upstream, note: 财务数据勾稽可与审计差异调整工作表融合，须同主体同材料}
+evidence:
+  - id: WF-F02-001-01
+    type: practitioner
+    origin: 锦天城律师事务所
+    url: https://www.allbrightlaw.com/SH/CN/10475/7f4ae1283076595a.aspx
+    locator: 《关联交易核查中的跨文件验证实务》
+    excerpt: 将关联交易基础文件与审计报告相互印证；对审计报告列示但律师未覆盖的事项补充收集资料；对律师已核查但审计报告未列示的事项与审计师沟通确认；底稿包括合同、银行流水、会计凭证、访谈笔录、声明、评估及审计文件。
+    supports: [role, workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-F02-001-02
+    type: practitioner
+    origin: 北京华一律师事务所
+    url: https://www.huayilawfirm.com/?p=2290
+    locator: 《IPO核查工作底稿分类与归档标准》
+    excerpt: 工作底稿分三类：客观证据（合同/流水/证照等）、进程文件（邮件/沟通记录）、工作记录（访谈笔录/网查截图及查询记录）；网查须记录查询时间、方式与内容，截屏留档。Excel用于底稿索引表的编制与维护。
+    supports: [role, workflow_steps, deliverables, verification, software]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-F02-001-03
+    type: public_artifact
+    origin: 华特气体（上交所2019年首轮问询回复）
+    url: https://static.sse.com.cn/stock/disclosure/announcement/c/201906/000108_20190611_K21Q.pdf
+    locator: 华特气体2019年首轮问询回复，保荐机构核查说明章节
+    excerpt: 发行人、保荐机构、律师、会计师四方对首轮回复全面核查；保荐机构质控及内核部门独立执行交叉复核程序。
+    supports: [role, trigger, workflow_steps, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-F02-001-04
+    type: public_artifact
+    origin: 达嘉维康（深交所2022年IPO审核文件）
+    url: https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_0001837454DCE03FD63630B7FD3A6A3F.pdf
+    locator: 深交所达嘉维康IPO审核文件，质控意见披露章节
+    excerpt: 质控部门重点核查重大法律和财务问题，审阅底稿（含目录和索引表），判断专业意见与推荐文件的依据充分性，现场核查后出具质控预审意见。
+    supports: [role, workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 律所实务文章（锦天城/华一）与监管披露文件（华特气体/达嘉维康）分别构成两组独立原始来源；华一文章明确Excel用于底稿索引表。FIN-F02-002尚未创建，融合链接已移除。软件采用container而非CUA，与本批次其他卡的软件提供方式保持一致。

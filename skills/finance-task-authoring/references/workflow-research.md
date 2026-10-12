@@ -31,13 +31,41 @@
 模板见 [任务类型卡](../assets/task-card.template.yaml)。每张一个 YAML 文件，存放在 `task-library/finance/<工作族>/<task_type_id>.yaml`。字段要点：
 
 - `trigger`：工作在什么节点、因为什么发生。这是判断"真不真"最直接的字段。
-- `workflow_steps`：从业者实际的动作序列，按来源整理，不按作者想象补全。
-- `software`：工作中使用的专业软件及用途；`provision` 写明容器内安装、MCP 或 CUA。
-- `deliverables`：理想产物的文件与形态。
-- `verification`：行业自己的复核要点，以及其中哪些可客观核对、哪些需 rubric。
-- `input_data`：需要的材料种类、时点信息集、建议的资源库来源（对应 [来源索引](sources.md) 的 S 编号）。
-- `fusable_with`：可与之融合的其他卡（见下）。
-- `evidence`：来源记录。
+- `workflow_steps`：从业者实际的动作序列，按来源整理，不按作者想象补全。至少 3 步。
+- `software`：工作中使用的专业软件及用途；`provision` 必须是 `container`、`mcp`、`cua` 或 `input-data` 之一。桌面软件（Excel/Word）通常用 `cua`；可装包的命令行工具用 `container`；外部 API 用 `mcp`；只提供数据快照时用 `input-data`。
+- `deliverables`：理想产物的文件与形态。文件名用相对路径，不含 `..`。
+- `verification`：行业自己的复核要点，分三部分：`profession_checks`（业务规范）、`objective_parts`（可客观核对的部分）、`rubric_parts`（需要判断评估的部分）。三部分都必须有内容。
+- `input_data`：需要的材料种类、时点、来源提示（写 `S01` 等 S 编号，编号须存在于 [来源索引](sources.md)）。
+- `fusable_with`：已确认上下游关系的其他卡（含 `id`/`relation`/`note` 三个字段）；引用的 id 必须是库里已存在的卡。不确定时保持空列表。
+- `evidence`：来源记录，见下方格式要求。
+- `notes`：对卡片边界、来源局限或待补事项的说明。不能为空字符串。
+
+### evidence 字段格式
+
+每条来源记录必须包含以下所有字段，校验器会逐字段检查：
+
+```yaml
+evidence:
+  - id: WF-YYYYMMDD-NN           # 全库唯一，格式 WF-<日期>-<序号>
+    type: practitioner | regulation | guideline | training | software_documentation | public_artifact | operating_procedure
+    origin: 原始作者或机构名称     # 转载不计为新来源，按原作者归属
+    url: https://...              # 必须是完整 HTTP(S) 地址
+    locator: 文档内的定位描述      # 章节/条款/页码/段落
+    excerpt: 关键内容摘要          # 50-200 字，说明该来源印证了卡片的哪些事实
+    supports:                     # 列出该来源实际覆盖的字段，从下方集合中选
+      - role                      # 可选项：role | trigger | workflow_steps |
+      - workflow_steps             #   deliverables | verification | software
+      - software
+    checked_at: 'YYYY-MM-DD'     # ISO 日期，实际读取原文的日期
+    access: full_text | full_text_official_republication | full_text_attributed_republication | indexed_excerpt_only
+```
+
+**`verified` 状态的最低证据要求**（校验器强制检查）：
+1. 至少两条来自不同原始机构/作者的来源，均有 `access` 为 `full_text*`，且 `supports` 包含 `workflow_steps`。
+2. 至少一条来源有 `access` 为 `full_text*`，且 `supports` 包含 `software`。
+3. `software` 列表中至少一项的 `provision` 是 `container`、`mcp` 或 `cua`（而非 `input-data`）。
+
+转载、镜像和官方转载只计为原始来源的一次引用，不作独立来源计数。
 
 ## 关联任务融合
 
