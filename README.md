@@ -39,7 +39,7 @@ Runner 调用原生 Harbor `Job` 和 `claude-code` agent，每题一次独立尝
 
 ## 环境与评分
 
-Agent 镜像只含输入、工具和 CLI；开始时输出为空。参考解和 tests 不进入 agent 镜像。模型 endpoint 在 agent 阶段以运行时域名白名单开放，评分沙箱保持离线。文件产物由 Harbor 从 agent 环境导出并传入独立 verifier。
+Agent 镜像只含输入、工具和 CLI；开始时输出为空。参考解和 tests 不进入 agent 镜像。模型 endpoint 以运行时域名白名单加入 agent 初始网络，启动时检查 DNS/HTTP 连通性，评分沙箱保持离线。文件产物由 Harbor 从 agent 环境导出并传入独立 verifier。
 
 `tests/Dockerfile` 的构建上下文为该题 `tests/`，评分镜像自带 `/tests/test.sh` 和可信输入。`build_images.py` 分别构建两种角色；`run_benchmark.py` 在本次运行的 staging 副本里绑定真实镜像 ID 到原生 `task.toml`。规范任务保留公开可构建配方，仓库不写入宿主局部镜像 ID。独立 verifier 需要此镜像准备/绑定步骤；直接运行未经准备的 task 会缺少评分代码。
 

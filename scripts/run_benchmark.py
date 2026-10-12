@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Run one independent Claude Code attempt per task with native Harbor and host grading."""
-import argparse,asyncio,json,os,shutil,subprocess,sys,time
+import argparse,asyncio,json,os,shlex,shutil,subprocess,sys,time
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -9,6 +9,7 @@ import toml
 from harbor.job import Job
 from harbor.models.job.config import JobConfig
 from harbor.models.task.task import Task
+from harbor.models.task.config import HealthcheckConfig
 from build_images import tree_hash
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -41,6 +42,8 @@ async def run(args):
         cfg.verifier.environment.docker_image=r['verifier']
         cfg.verifier.environment.cpus=1
         cfg.verifier.environment.memory_mb=2048
+        probe="import urllib.request; r=urllib.request.urlopen(urllib.request.Request("+repr(base)+", headers={'User-Agent':'Mozilla/5.0'}),timeout=15); assert 200<=r.status<400"
+        cfg.environment.healthcheck=HealthcheckConfig(command='python -c '+shlex.quote(probe),timeout_sec=20,retries=2,interval_sec=2)
         (target/'task.toml').write_text(toml.dumps(cfg.model_dump(mode='json',exclude_none=True)))
     bridges=[];bridge_logs=[]
     try:
@@ -60,13 +63,13 @@ async def run(args):
         }
         cfg=JobConfig.model_validate({
             'job_name':'claude-opus-5-5','jobs_dir':str(out/'jobs'),'n_attempts':1,'n_concurrent_trials':args.concurrency,'quiet':True,'retry':{'max_retries':0},
-            'environment':{'type':'docker','delete':True},
+            'environment':{'type':'docker','delete':True,'extra_allowed_hosts':[urlparse(base).hostname]},
             'agents':[{'name':'claude-code','model_name':args.model,'override_timeout_sec':args.agent_timeout,'override_setup_timeout_sec':300,'extra_allowed_hosts':[urlparse(base).hostname],
                 'env':public_agent_env,'kwargs':{'version':'2.1.296','max_turns':args.max_turns,'reasoning_effort':'medium','disallowed_tools':'Agent,Task,WebSearch,WebFetch'}}],
             'verifier':{'override_timeout_sec':args.verifier_timeout},
             'datasets':[{'path':str(stage)}],
         })
-        (out/'run-policy.json').write_text(json.dumps({'started_at':datetime.now(timezone.utc).isoformat(),'model':args.model,'agent':'claude-code','claude_code_version':'2.1.296','concurrency':args.concurrency,'attempts_per_task':1,'max_turns':args.max_turns,'agent_timeout_sec':args.agent_timeout,'verifier_timeout_sec':args.verifier_timeout,'retry_attempts':0,'grading_prompt_cache':'off: one unique candidate per task','agent_prompt_cache':'Claude Code default enabled; measure actual usage','task_ids':[r['task_id'] for r in records]},indent=2)+'\n')
+        (out/'run-policy.json').write_text(json.dumps({'started_at':datetime.now(timezone.utc).isoformat(),'model':args.model,'agent':'claude-code','claude_code_version':'2.1.296','concurrency':args.concurrency,'attempts_per_task':1,'max_turns':args.max_turns,'agent_timeout_sec':args.agent_timeout,'verifier_timeout_sec':args.verifier_timeout,'retry_attempts':0,'model_network_preflight':'Heju hostname added to initial agent environment allowlist; HTTP/DNS healthcheck before agent setup','grading_prompt_cache':'off: one unique candidate per task','agent_prompt_cache':'Claude Code default enabled; measure actual usage','task_ids':[r['task_id'] for r in records]},indent=2)+'\n')
         job=await Job.create(cfg)
         result=await job.run()
         (out/'harbor-result.json').write_text(result.model_dump_json(indent=2)+'\n')
