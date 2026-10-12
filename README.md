@@ -33,13 +33,13 @@ python -m venv .venv
   --docker-host unix:///var/run/docker.sock
 ```
 
-凭据文件使用 `ANTHROPIC_API_KEY` 和 `ANTHROPIC_BASE_URL`；也接受已有 Forge 的 `RSI_ANTHROPIC_BASE_URL`。Heju endpoint 为 `https://www.hejuapi.com`，模型为 `claude-opus-5-5`。密钥从运行时读取，不能提交仓库。自定义 Docker socket/config 或构建代理通过各脚本参数指定。
+凭据文件使用 `ANTHROPIC_API_KEY` 和 `ANTHROPIC_BASE_URL`；也接受已有 Forge 的 `RSI_ANTHROPIC_BASE_URL`。Heju endpoint 为 `https://www.hejuapi.com`，模型为 `claude-opus-5-5`。密钥从运行时读取，不能提交仓库。模型请求经带临时 token 的宿主转发器送至 Heju；真实模型密钥保留在宿主。自定义 Docker socket/config 或构建代理通过各脚本参数指定。Colima 无法解析宿主域名时，传 `--relay-host 192.168.5.2`（按本机实际 VM 宿主地址调整）；Docker Desktop 默认使用 host.docker.internal。
 
 Runner 调用原生 Harbor `Job` 和 `claude-code` agent，每题一次独立尝试，默认并发 2、最多 60 轮、解题 2400 秒、评分 2100 秒，关闭 Job 自动重试。模型调用使用实际响应的 token usage；CLI 成本字段是其估计值，供应商账单另行核对。
 
 ## 环境与评分
 
-Agent 镜像只含输入、工具和 CLI；开始时输出为空。参考解和 tests 不进入 agent 镜像。模型 endpoint 以运行时域名白名单加入 agent 初始网络，启动时检查 DNS/HTTP 连通性，评分沙箱保持离线。文件产物由 Harbor 从 agent 环境导出并传入独立 verifier。
+Agent 镜像只含输入、工具和 CLI；开始时输出为空。参考解和 tests 不进入 agent 镜像。宿主转发 endpoint 以运行时白名单加入 agent 初始网络，启动时检查 HTTP 连通性，评分沙箱保持离线。转发器固定本次模型、原样转发请求内容并记录真实 provider 响应的 usage，任务进程拿到的是临时转发 token。文件产物由 Harbor 从 agent 环境导出并传入独立 verifier。
 
 `tests/Dockerfile` 的构建上下文为该题 `tests/`，评分镜像自带 `/tests/test.sh` 和可信输入。`build_images.py` 分别构建两种角色；`run_benchmark.py` 在本次运行的 staging 副本里绑定真实镜像 ID 到原生 `task.toml`。规范任务保留公开可构建配方，仓库不写入宿主局部镜像 ID。独立 verifier 需要此镜像准备/绑定步骤；直接运行未经准备的 task 会缺少评分代码。
 
