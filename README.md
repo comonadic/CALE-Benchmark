@@ -35,13 +35,13 @@ python -m venv .venv
 
 凭据文件使用 `ANTHROPIC_API_KEY` 和 `ANTHROPIC_BASE_URL`；也接受已有 Forge 的 `RSI_ANTHROPIC_BASE_URL`。Heju endpoint 为 `https://www.hejuapi.com`，模型为 `claude-opus-5-5`。密钥从运行时读取，不能提交仓库。模型请求经带临时 token 的宿主转发器送至 Heju；真实模型密钥保留在宿主。自定义 Docker socket/config 或构建代理通过各脚本参数指定。Colima 无法解析宿主域名时，传 `--relay-host 192.168.5.2`（按本机实际 VM 宿主地址调整）；Docker Desktop 默认使用 host.docker.internal。
 
-Runner 调用原生 Harbor `Job` 和 `claude-code` agent，每题一次独立尝试，默认并发 2、最多 60 轮、解题 2400 秒、评分 2100 秒，关闭 Job 自动重试。模型调用使用实际响应的 token usage；CLI 成本字段是其估计值，供应商账单另行核对。
+Runner 调用原生 Harbor `Job` 和 `claude-code` agent，每题一次独立尝试，默认并发 2、推理 effort 为 medium、最多 60 轮、解题 2400 秒、评分 2100 秒，关闭 Job 自动重试。模型调用使用实际响应的 token usage；CLI 成本字段是其估计值，供应商账单另行核对。
 
 ## 环境与评分
 
 Agent 镜像只含输入、工具和 CLI；开始时输出为空。参考解和 tests 不进入 agent 镜像。宿主转发 endpoint 以运行时白名单加入 agent 初始网络，启动时检查 HTTP 连通性，评分沙箱保持离线。转发器固定本次模型、原样转发请求内容并记录真实 provider 响应的 usage，任务进程拿到的是临时转发 token。文件产物由 Harbor 从 agent 环境导出并传入独立 verifier。
 
-`tests/Dockerfile` 的构建上下文为该题 `tests/`，评分镜像自带 `/tests/test.sh` 和可信输入。`build_images.py` 分别构建两种角色；`run_benchmark.py` 在本次运行的 staging 副本里绑定真实镜像 ID 到原生 `task.toml`。规范任务保留公开可构建配方，仓库不写入宿主局部镜像 ID。独立 verifier 需要此镜像准备/绑定步骤；直接运行未经准备的 task 会缺少评分代码。
+`tests/Dockerfile` 的构建上下文为该题 `tests/`，评分镜像自带 `/tests/test.sh` 和可信输入。`build_images.py` 分别构建两种角色；`run_benchmark.py` 在本次运行的 staging 副本里绑定真实镜像 ID 到原生 `task.toml`。规范任务保留公开可构建配方，仓库不写入宿主局部镜像 ID。Harbor 也可从独立评分器的 `tests/` 上下文构建镜像；本 runner 预先构建并绑定两种角色，以复用缓存并核对镜像与输入的一致性。开放式评分还需要启动宿主桥接器。
 
 客观检查与开放式专业评阅共同聚合最终 reward。宿主桥接器只读取本次声明的 verifier 镜像产生的密封请求，将题面、可信输入、候选与私有 rubric 发给配置的评分模型，校验响应后写回。金融桥接保留原始 PDF 页面和候选引用证据。Judge 不接收参考解或预期分数。协议与恢复条件见 [评分桥接协议](scripts/rubric-bridge-protocol.md)。
 
@@ -51,7 +51,7 @@ Harbor 将数值 reward 写入 `/logs/verifier/reward.txt` 或 reward.json；完
 
 源任务在入库前完成 10 次参考解、10 次空输出基线，以及专业校准与独立审阅。参考解得到的真实 reward 保留：其中金融第 4 题为 0.94，其余参考分数和校准依据由源批次报告记录。这个阶段验证执行与评分链路，独立模型解题结果另行保存；静态解析通过也不表示模型已解出题目。
 
-本仓库的发布变更是在相同题面、输入、参考解和评分代码基础上补齐 Claude Code 依赖；`manifest.json` 记录发布差异。实际 Claude Code + Opus 5.5 首轮结果将在运行完成后更新到 reports/。
+本仓库的发布变更是在相同题面、输入、参考解和评分代码基础上补齐 Claude Code 依赖；`manifest.json` 记录发布差异。实际 Claude Code + Opus 5.5 首轮正在运行，当前分数、阶段耗时、真实 token 与缓存用量见 [试解报告](reports/opus-5-5-2026-10-12/report.md)。报告明确标注完成数量；部分结果不代表十题整体表现。
 
 两份行业参考 skill 在 `skills/`，包括资料获取/筛选/抽取、题目设计、环境、参考解、评分器构造、谱系和批量验收方法。当前任务保留生成时的历史谱系，后续修改生成新版本。
 

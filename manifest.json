@@ -97,6 +97,11 @@
   ],
   "validation": {
     "reference_and_empty_output_baselines": "completed in source packages",
-    "independent_solver": "not_run"
+    "independent_solver": {
+      "status": "running",
+      "agent": "claude-code",
+      "model": "claude-opus-5-5",
+      "report": "reports/opus-5-5-2026-10-12/report.md"
+    }
   }
 }

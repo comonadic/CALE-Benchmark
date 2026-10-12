@@ -6,4 +6,3 @@ COPY . /tests/
 COPY input-data/ /workspace/input-data/
 RUN mkdir -p /workspace/output
 # Add the selected agent harness and task-specific tools at build time.
-

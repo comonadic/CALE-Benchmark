@@ -34,7 +34,7 @@ class ModelRelay:
                 if body.get('model')!=relay.model:
                     self.reply(400,b'{"error":{"type":"invalid_request_error","message":"Model differs from run policy"}}');return
                 with relay.lock:relay.counter+=1;number=relay.counter
-                receipt={'request_number':number,'started_at_unix':time.time(),'route':route,'requested_model':body['model'],'request_sha256':hashlib.sha256(data).hexdigest(),'request_bytes':len(data),'cache_control_blocks':sum(1 for m in body.get('messages',[]) for b in (m.get('content',[]) if isinstance(m.get('content'),list) else []) if isinstance(b,dict) and b.get('cache_control'))}
+                receipt={'request_number':number,'started_at_unix':time.time(),'route':route,'requested_model':body['model'],'request_sha256':hashlib.sha256(data).hexdigest(),'request_bytes':len(data),'max_tokens':body.get('max_tokens'),'thinking':body.get('thinking'),'output_config':body.get('output_config'),'cache_control_blocks_scope':'messages-only','cache_control_blocks':sum(1 for m in body.get('messages',[]) for b in (m.get('content',[]) if isinstance(m.get('content'),list) else []) if isinstance(b,dict) and b.get('cache_control'))}
                 endpoint=relay.base+(route[3:] if relay.base.endswith('/v1') and route.startswith('/v1') else route)
                 headers={'Content-Type':'application/json','x-api-key':relay.key,'User-Agent':'Mozilla/5.0','anthropic-version':self.headers.get('anthropic-version','2023-06-01')}
                 if self.headers.get('anthropic-beta'):headers['anthropic-beta']=self.headers['anthropic-beta']

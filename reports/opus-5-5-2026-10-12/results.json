@@ -1,0 +1,423 @@
+{
+  "status": "partial",
+  "model": "claude-opus-5-5",
+  "agent": "claude-code",
+  "as_of": "2026-10-12T11:11:59.289400+00:00",
+  "started_at": "2026-10-12T09:56:48.076193+00:00",
+  "finished_at": null,
+  "elapsed_wall_seconds": 4511.213,
+  "expected_tasks": 10,
+  "completed_trials": 2,
+  "valid_scored_trials": 2,
+  "mean_reward_valid_trials": 0.4865,
+  "usage": {
+    "agent_provider": {
+      "input_tokens": 160,
+      "cache_creation_input_tokens": 1405540,
+      "cache_read_input_tokens": 6833143,
+      "output_tokens": 425955,
+      "responses": 80,
+      "responses_without_usage": 0,
+      "incomplete_responses": 5,
+      "thinking_tokens_known": 245010,
+      "responses_with_thinking_breakdown": 75,
+      "cache_read_share_of_reported_prompt": 0.8294,
+      "requests_without_response_id": 0,
+      "http_requests": 80
+    },
+    "judge": {
+      "input_tokens": 213826,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 22398,
+      "responses": 1,
+      "responses_without_usage": 0,
+      "incomplete_responses": 0,
+      "thinking_tokens_known": 12441,
+      "responses_with_thinking_breakdown": 1,
+      "cache_read_share_of_reported_prompt": 0.0
+    }
+  },
+  "trials": [
+    {
+      "task_id": "finance-pilot-01-v2",
+      "trial_name": "finance-pilot-01-v2__ZitR2R9",
+      "completed": true,
+      "reward": {
+        "reward": 0.0
+      },
+      "exception": {
+        "exception_type": "AgentTimeoutError"
+      },
+      "started_at": "2026-10-12T09:59:06.479493Z",
+      "finished_at": "2026-10-12T10:39:35.277561Z",
+      "scoring_details": {
+        "status": "graded_candidate_defect",
+        "points": null,
+        "max_points": null,
+        "request_sha256": null,
+        "output_sha256": null,
+        "report_sha256": "dea392363d5972ca9dbfec7ae3d1aa391ad692fabffe360ca0d36ea9f233778a",
+        "objective_assertions": 0,
+        "objective_failed": [],
+        "criteria": []
+      },
+      "receipt_sha256": {
+        "result.json": "7d7b5ef993d861ea2a366eb5a40bec9958d5806640df3d98de4fe75a0df76c0a",
+        "agent/claude-code.txt": "e208ae642785242aa0ddd3c46cb1c852e104186a548036892002b1fad0ebe645"
+      },
+      "seconds": {
+        "total": 2428.798,
+        "environment_setup": 3.46,
+        "agent_setup": 0.094,
+        "agent_execution": 2400.008,
+        "verifier": 14.244
+      },
+      "agent": {
+        "final_result_seen": false,
+        "subtype": null,
+        "is_error": null,
+        "num_turns": null,
+        "usage": null,
+        "observed_models": [
+          "claude-opus-5-5"
+        ],
+        "response_ids": [
+          "msg_011Cfx9UjVaJHiUSHqQcvPbE",
+          "msg_011Cfx9UraEf3HoVP7CcKlDl",
+          "msg_011Cfx9VITZWDycsZIFPJTie",
+          "msg_011Cfx9WMRrI0gW4uDcebMcm",
+          "msg_011Cfx9WmJ7vonsuLR68qrtw",
+          "msg_011Cfx9XePlhIkbcZnFIzzGd",
+          "msg_011Cfx9YJhTvydvez7k1GsxP",
+          "msg_011Cfx9YMJysAJGP6qXpcOYg",
+          "msg_011Cfx9Z1IUnK42Ul9MmCEF3",
+          "msg_011Cfx9Zf4Q5WCqLwXDUF7Lm",
+          "msg_011Cfx9eH55olo0XP6pPKtSR",
+          "msg_011CfxAP8SUkxtun1vBFgjrj",
+          "msg_011CfxAsDY1rhExWfmQ5sjVY",
+          "msg_011CfxB1unw803VLz4cnpDNc",
+          "msg_011CfxB2OBDeBDuBraLSK51n",
+          "msg_011CfxB48M4IeUOjRfy2ZtVN",
+          "msg_011CfxB4MyN2JNZJYH6Q3j32",
+          "msg_011CfxBQUjqx8b7DcFD5EMtu",
+          "msg_011CfxBRUqKdkYF3uuG2tKtD",
+          "msg_011CfxBrbumHk7hE7KPMwqCT",
+          "msg_011CfxCEmxIT1DaPQNz7f6Xq",
+          "msg_011CfxCNk6HJ6TZ3WCddicIp"
+        ],
+        "cli_cost_estimate_usd": null
+      },
+      "candidate_files": [],
+      "result_path": "jobs/claude-opus-5-5/finance-pilot-01-v2__ZitR2R9/result.json",
+      "judge_response_ids": []
+    },
+    {
+      "task_id": "finance-pilot-04-v2",
+      "trial_name": "finance-pilot-04-v2__PEYzVxh",
+      "completed": true,
+      "reward": {
+        "reward": 0.973
+      },
+      "exception": null,
+      "started_at": "2026-10-12T09:56:48.304235Z",
+      "finished_at": "2026-10-12T10:43:06.183229Z",
+      "scoring_details": {
+        "status": "graded",
+        "points": 97.3,
+        "max_points": 100,
+        "request_sha256": "3cfe74bb0b96968ad3a049972b56bed53897c3a9c34cde722d80081fd7e7fca9",
+        "output_sha256": {
+          "risk_ledger.csv": "aa8d2cfa88e57e199041845383905d68a04afa8bd27896c9b4e35dd335cc274a",
+          "funding_results.json": "8c82772c01c2ff458302b31a8c865548d346eb6bdee504cc3cc74b91c1b61596",
+          "action_memo.md": "98a8fcafdebf6817601c947f73c967a8b1548273d8fd9454a59b00005ce3f97c"
+        },
+        "report_sha256": "fc7c3e71081ca4e7417a9102332daa93f46ae936cb2f6e736c2891a211b3b32e",
+        "objective_assertions": 208,
+        "objective_failed": [
+          {
+            "criterion": "R2",
+            "object": "R03.parity_compliant"
+          }
+        ],
+        "criteria": [
+          {
+            "id": "R1",
+            "score": 20,
+            "judge_score": 20,
+            "objective_ceiling": 20.0
+          },
+          {
+            "id": "R2",
+            "score": 17.8,
+            "judge_score": 17.8,
+            "objective_ceiling": 17.81818181818182
+          },
+          {
+            "id": "R3",
+            "score": 12,
+            "judge_score": 12,
+            "objective_ceiling": 12.0
+          },
+          {
+            "id": "R4",
+            "score": 19.5,
+            "judge_score": 19.5,
+            "objective_ceiling": 20.0
+          },
+          {
+            "id": "R5",
+            "score": 14,
+            "judge_score": 14,
+            "objective_ceiling": 15.0
+          },
+          {
+            "id": "R6",
+            "score": 5,
+            "judge_score": 5,
+            "objective_ceiling": 5.0
+          },
+          {
+            "id": "R7",
+            "score": 9,
+            "judge_score": 9,
+            "objective_ceiling": 10.0
+          }
+        ]
+      },
+      "receipt_sha256": {
+        "result.json": "a23b42fa3dce80451c911ab7af024eaacec68d1db6253ee53267cc5045ede7f9",
+        "agent/claude-code.txt": "cc366bab27a6997de4bb34a9e3354b5497eaf49638f4acd5a2a68047480e6e82"
+      },
+      "seconds": {
+        "total": 2777.879,
+        "environment_setup": 3.543,
+        "agent_setup": 0.09,
+        "agent_execution": 2396.625,
+        "verifier": 366.624
+      },
+      "agent": {
+        "final_result_seen": true,
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 30,
+        "usage": {
+          "input_tokens": 52,
+          "cache_creation_input_tokens": 327473,
+          "cache_read_input_tokens": 3155563,
+          "output_tokens": 129262,
+          "output_tokens_details": {
+            "thinking_tokens": 54853
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 327473
+          },
+          "inference_geo": "global",
+          "iterations": [],
+          "speed": "standard",
+          "fallback_credit": null
+        },
+        "observed_models": [
+          "<synthetic>",
+          "claude-opus-5-5"
+        ],
+        "response_ids": [
+          "a8f43f7d-9c46-46dd-8b42-451f10c26a9e",
+          "msg_011Cfx9JwWxvgZzJOoxxpTNi",
+          "msg_011Cfx9K2NlZWcE9CMlBYe08",
+          "msg_011Cfx9LNtxOnpw81g55NzYo",
+          "msg_011Cfx9LVdwRkTzytdahwbu0",
+          "msg_011Cfx9fh8mjd5xGUqtIXypW",
+          "msg_011CfxA2S0vhsnPHA5rEekeb",
+          "msg_011CfxA6rKAV8K2fFcR6KYoZ",
+          "msg_011CfxA8iLJqbiMZnAxDUCvf",
+          "msg_011CfxADeGxObAgt7c5V5czp",
+          "msg_011CfxAWN6x367u6yBarwmvH",
+          "msg_011CfxAXqrG0aH6O6zfIKAP1",
+          "msg_011CfxAYMbGoLCG2Vk3RPddH",
+          "msg_011CfxAcEBaWsq7z0JpyHbx1",
+          "msg_011CfxAgk8PptiYkJnhgtsuv",
+          "msg_011CfxAx7ErdnxAApJ9A6aqn",
+          "msg_011CfxBbBaNrSjsu0aEP2Um8",
+          "msg_011CfxBbw7XYEWmaAqEtNtsw",
+          "msg_011CfxBqQ8unQTSkCfmfMB82",
+          "msg_011CfxBrCVXke81WGrFVfbp7",
+          "msg_011CfxC74V9wLaUc4seOfZsL",
+          "msg_011CfxCDvBm53HXv2rdEJy4B",
+          "msg_011CfxCGJeFtnSVaFKAm7tB3",
+          "msg_011CfxCHfXqVsPPVylSCtA2e",
+          "msg_011CfxCJRdvwMdGBdeIx9zvU",
+          "msg_011CfxCKfEkTj92WoTIEmrFI",
+          "msg_011CfxCLUG9HdfTwqcaQT6k5"
+        ],
+        "cli_cost_estimate_usd": 4.8539256
+      },
+      "candidate_files": [
+        "action_memo.md",
+        "funding_results.json",
+        "risk_ledger.csv"
+      ],
+      "result_path": "jobs/claude-opus-5-5/finance-pilot-04-v2__PEYzVxh/result.json",
+      "judge_response_ids": [
+        "msg_011CfxCOtaThFGgXzXSpprzM"
+      ]
+    },
+    {
+      "task_id": "finance-pilot-05-v2",
+      "trial_name": "finance-pilot-05-v2__hKQByLh",
+      "completed": false,
+      "reward": null,
+      "exception": null,
+      "started_at": null,
+      "finished_at": null,
+      "scoring_details": null,
+      "receipt_sha256": {
+        "agent/claude-code.txt": "649a88ac836f133c705a65346a1a93f9a7ee69c4e9b1607783325ddd7129ef4d"
+      },
+      "seconds": {
+        "total": null,
+        "environment_setup": null,
+        "agent_setup": null,
+        "agent_execution": null,
+        "verifier": null
+      },
+      "agent": {
+        "final_result_seen": false,
+        "subtype": null,
+        "is_error": null,
+        "num_turns": null,
+        "usage": null,
+        "observed_models": [
+          "claude-opus-5-5"
+        ],
+        "response_ids": [
+          "msg_011CfxCrdZ6SWEvldnF19f0S",
+          "msg_011CfxCs7ShECdC8OI8T7MP5",
+          "msg_011CfxCsCMO0GjnU2pWV7e4g",
+          "msg_011CfxCtDnRSip0g9eEHzx9K",
+          "msg_011CfxCtPr10MpgWnvgXUZMl",
+          "msg_011CfxCuGmDHVhM1F8bMaWfP",
+          "msg_011CfxCuRL64p3EdO5qSqdJd",
+          "msg_011CfxCv7LCuL0VqRRTfTXGY",
+          "msg_011CfxCvd8dnt3KsTKw5BZay",
+          "msg_011CfxCzbNtUfhQfj4z2O3QJ",
+          "msg_011CfxD0BqbhRXkeprOpC0xA",
+          "msg_011CfxD3PfqDvcWm1O08CY5a",
+          "msg_011CfxD3TC5pJoSHtBiMkCjp",
+          "msg_011CfxD4F8cPErv0Clds5enD",
+          "msg_011CfxDFHqedclSV5PHDb3N8",
+          "msg_011CfxDYNSmOJWSzh6ef9n7Z",
+          "msg_011CfxDudgkml56MSVu02UiB",
+          "msg_011CfxENxUHy7T8BUiRMHHLK"
+        ],
+        "cli_cost_estimate_usd": null
+      },
+      "candidate_files": [],
+      "result_path": null,
+      "judge_response_ids": []
+    },
+    {
+      "task_id": "legal-pilot-02-v2",
+      "trial_name": "legal-pilot-02-v2__mZBvdDG",
+      "completed": false,
+      "reward": null,
+      "exception": null,
+      "started_at": null,
+      "finished_at": null,
+      "scoring_details": null,
+      "receipt_sha256": {
+        "agent/claude-code.txt": "7441994ecb04d4d05b424932bb6a63df584c92a4fc40484c73019e135340dd64"
+      },
+      "seconds": {
+        "total": null,
+        "environment_setup": null,
+        "agent_setup": null,
+        "agent_execution": null,
+        "verifier": null
+      },
+      "agent": {
+        "final_result_seen": false,
+        "subtype": null,
+        "is_error": null,
+        "num_turns": null,
+        "usage": null,
+        "observed_models": [
+          "claude-opus-5-5"
+        ],
+        "response_ids": [
+          "msg_011CfxCZvAhoLE3BUX7FOkRD",
+          "msg_011CfxCaJODvTZ536P7zYlq9",
+          "msg_011CfxCavdi7hMZT8SwgQ2We",
+          "msg_011CfxCbZFBppQ0S3WXqZDZq",
+          "msg_011CfxCcqBYGRjmf0Wdg1rXO",
+          "msg_011CfxCdNtNMXMdtF6fBSRJ4",
+          "msg_011CfxCdcfjdMFHHPixpU0Vz",
+          "msg_011CfxCeMwp200lMeloWkY4d",
+          "msg_011CfxCejit1LS3OAlmq6gfo",
+          "msg_011CfxD2sXb6pQW1eyvfpnRO",
+          "msg_011CfxDf0pd6mmVvDOT3RcL9",
+          "msg_011CfxEWh8u86iZT9FoUW9eA",
+          "msg_011CfxExYkNbC6vPtSBgDlyI"
+        ],
+        "cli_cost_estimate_usd": null
+      },
+      "candidate_files": [],
+      "result_path": null,
+      "judge_response_ids": []
+    }
+  ],
+  "runtime_agents": [
+    [
+      {
+        "name": "claude-code",
+        "model_name": "claude-opus-5-5",
+        "override_timeout_sec": 2400.0,
+        "kwargs": {
+          "version": "2.1.296",
+          "max_turns": 60,
+          "reasoning_effort": "medium",
+          "disallowed_tools": "Agent,Task,WebSearch,WebFetch"
+        }
+      }
+    ],
+    [
+      {
+        "name": "claude-code",
+        "model_name": "claude-opus-5-5",
+        "override_timeout_sec": 2400.0,
+        "kwargs": {
+          "version": "2.1.296",
+          "max_turns": 60,
+          "reasoning_effort": "medium",
+          "disallowed_tools": "Agent,Task,WebSearch,WebFetch"
+        }
+      }
+    ],
+    [
+      {
+        "name": "claude-code",
+        "model_name": "claude-opus-5-5",
+        "override_timeout_sec": 2400.0,
+        "kwargs": {
+          "version": "2.1.296",
+          "max_turns": 60,
+          "reasoning_effort": "medium",
+          "disallowed_tools": "Agent,Task,WebSearch,WebFetch"
+        }
+      }
+    ]
+  ],
+  "provider_invoice_cost_usd": null,
+  "usage_note": "Observed counters include incomplete responses. Missing final usage and missing thinking breakdowns are unknown, not zero. CLI dollar costs are estimates, not the Heju invoice.",
+  "run_sources": [
+    "cale-opus-5-5-real-first",
+    "cale-opus-5-5-real-a",
+    "cale-opus-5-5-real-b"
+  ]
+}

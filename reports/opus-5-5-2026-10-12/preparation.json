@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "images_checked": 20,
+  "architecture": "aarch64",
+  "build_cache": "Warm local office/base cache reused; values are incremental image builds, not cold cloud preparation.",
+  "total_image_build_seconds": 28.148,
+  "per_task": [
+    {
+      "task_id": "finance-pilot-01-v2",
+      "agent_build_seconds": 12.255,
+      "verifier_build_seconds": 0.204,
+      "context_sha256": {
+        "agent": "7719bb8b228d54d429fed3ae7c5509193a8fcec3f2af3d648875e95dc05fedc5",
+        "verifier": "6daad8ab1aeadb9c3d135f92452a90f8e4942bb2122a2c9664a511ab557db725"
+      },
+      "image_ids": {
+        "agent": "sha256:d0891b78d69d98038b87db89c40c25e9546ecdc1f30380266695fa70034f65b3",
+        "verifier": "sha256:67678757af87739c0da4f4f87e4e81dd6172c5b2fb8989e1a6252beca7dc32be"
+      }
+    },
+    {
+      "task_id": "finance-pilot-02-v2",
+      "agent_build_seconds": 0.485,
+      "verifier_build_seconds": 0.198,
+      "context_sha256": {
+        "agent": "7aa5cf277a028d672006c12e29226ace3b9adaa2ad350c7810bbda2a667f75ae",
+        "verifier": "639ca437d42745e929b50010e967fce2f347e93386ff94f5cb58ab0c32cfb4f2"
+      },
+      "image_ids": {
+        "agent": "sha256:47ef00e9439c8824bc864431f5025520b6ec1f274006b89bb324bb0057b232d1",
+        "verifier": "sha256:98341ef564b64c62f27ebb293ab5afaa0d49bb38acf57a51a41882375c1cdb46"
+      }
+    },
+    {
+      "task_id": "finance-pilot-03-v2",
+      "agent_build_seconds": 0.315,
+      "verifier_build_seconds": 0.185,
+      "context_sha256": {
+        "agent": "974ce190524828520003e2663321f6a4a5885bfcf42962ec4eadc4ada21c422c",
+        "verifier": "0215a36c28f6c37594bc74d7880a1beea4f0a73c6fe551aaebbbe91de84ece6b"
+      },
+      "image_ids": {
+        "agent": "sha256:994ccfb23ec0434ed6f0ae48b3fe3337a3104b22c861613301fd4d73b5f196b6",
+        "verifier": "sha256:84574e72ba74d97d62b0beb466bee79c24d6558e6e1b568a27bb8d4ea6896352"
+      }
+    },
+    {
+      "task_id": "finance-pilot-04-v2",
+      "agent_build_seconds": 0.194,
+      "verifier_build_seconds": 0.169,
+      "context_sha256": {
+        "agent": "4f0a71eb2afc8cbade36e548172510eb5c59b8d8c7e8cfc72c6e6f5fea5efd2a",
+        "verifier": "c8da84f9989e1efb677025c442b6f7b145d869fe9c9931f37e01d7b6c66cce34"
+      },
+      "image_ids": {
+        "agent": "sha256:bae3ad4943fe92845e5ff44c47670f918e049aec5778fdc2296c9aaf68e720e0",
+        "verifier": "sha256:c865358825e463baa8a6c5eb1d0f1d16351800392d65fc20fa3d7a6b7975e579"
+      }
+    },
+    {
+      "task_id": "finance-pilot-05-v2",
+      "agent_build_seconds": 0.21,
+      "verifier_build_seconds": 0.18,
+      "context_sha256": {
+        "agent": "3301eecdf9a9920534c1c0d1fffae1f72948e97d8ea88bcedd1193e3f735adb1",
+        "verifier": "a967bf61989d78e6d6891fe7e5362496b177f98f16c2946ba0c4d2f3c1b8e28b"
+      },
+      "image_ids": {
+        "agent": "sha256:fa4c11bf7fffcc2ac98c19d50a16999e27548c81c189cd6d54192890d5b91843",
+        "verifier": "sha256:ca4614287e768b7004d69913092f5d2b242eea84efeb0a2f6ecd15089f7ea918"
+      }
+    },
+    {
+      "task_id": "legal-pilot-01-v2",
+      "agent_build_seconds": 11.252,
+      "verifier_build_seconds": 0.205,
+      "context_sha256": {
+        "agent": "ae0dc8232501dcd646b0704fd7ee5ccd2407274e851c4e2abb11bc7aafcde61b",
+        "verifier": "772cae1fdbd36e7e8e19f9408690ad931f904808833e830d5ed25b4f5d05f466"
+      },
+      "image_ids": {
+        "agent": "sha256:97f3fb2b1c0d1b2168b8d0a46837f6be53e6f43a878c51ffef1487d26351a14b",
+        "verifier": "sha256:8ac4853beffe54544918321dbfce6e0d18007ee773c0976f6487abb8b890c261"
+      }
+    },
+    {
+      "task_id": "legal-pilot-02-v2",
+      "agent_build_seconds": 0.591,
+      "verifier_build_seconds": 0.207,
+      "context_sha256": {
+        "agent": "52ff12d9bf04e6ee96270702757529d18fc36d6ac3ae0a840116ddf4640f88d8",
+        "verifier": "6849fb3f738fbede18ffae37f36db0d265714d3ebce7c706446ef836e1ab6f69"
+      },
+      "image_ids": {
+        "agent": "sha256:4f505d5cb9096dd3a89b2109c6ac06f62d3ec01d96aa55521b529daa4387408d",
+        "verifier": "sha256:4116b6f23c650d7b9dabb845c4d9bfe78999697e95dd4281421ffa17a308d409"
+      }
+    },
+    {
+      "task_id": "legal-pilot-03-v2",
+      "agent_build_seconds": 0.29,
+      "verifier_build_seconds": 0.181,
+      "context_sha256": {
+        "agent": "7e893e87cfac3a75fd3be65c3b63c517111d119d13c92bd133d60c235debd518",
+        "verifier": "e0f7e46d68263a6b878e37bda93be43f6710f17ea51d1d9601bcb3a8041ab762"
+      },
+      "image_ids": {
+        "agent": "sha256:05e8116a66edd9ea9eaffdf9b1f34a9530ff021445156d21ac01dc70a79b5863",
+        "verifier": "sha256:e5414e4d15cd1774593d130025cb0a2f7b0c15de2fb20af141fe460e2a87edde"
+      }
+    },
+    {
+      "task_id": "legal-pilot-04-v2",
+      "agent_build_seconds": 0.276,
+      "verifier_build_seconds": 0.173,
+      "context_sha256": {
+        "agent": "c9486b88d84cccf913b5191881696b498951027c7e3e1aab303de8abf56902a6",
+        "verifier": "971df732e410f7c5e0e038877fd7a97cf0af78c741df78c84002cdcb051a8ded"
+      },
+      "image_ids": {
+        "agent": "sha256:ae2de6b89926ff4ee385f49bbf712f4aa6a4cd84cf0480b36ae547a63965f278",
+        "verifier": "sha256:6244c1be4ecc4856d17f8669e1fad4d5a52b0c9e7b78233656be85a97c049b73"
+      }
+    },
+    {
+      "task_id": "legal-pilot-05-v2",
+      "agent_build_seconds": 0.277,
+      "verifier_build_seconds": 0.301,
+      "context_sha256": {
+        "agent": "ef0d1f842acec36635084161a08c65c60490dc9b616aa1c216039dba9f8a3afa",
+        "verifier": "3b3eb7d735f13f34fd26e31b8be84eecea95f90d7e3645f118d3d242075ce43a"
+      },
+      "image_ids": {
+        "agent": "sha256:d00482227dac95067f382618bbeb5d4aeb2cd3c6ad75a6fc079b69446d140d6b",
+        "verifier": "sha256:157b8e2e5d2ab4c0deeaadd3159e56e73351d3945ff53404e8bc6445c572aa2e"
+      }
+    }
+  ],
+  "image_smoke_sha256": "2ce05a4a1313d011f6554a0704b87dd6d0957bf02a84d04d0689601246e504c4",
+  "checks": [
+    "CLI version 2.1.296",
+    "All agent inputs present",
+    "Agent output empty at start",
+    "No solution/tests in agent image",
+    "Separate verifier entrypoint and trusted inputs"
+  ]
+}
