@@ -1,0 +1,65 @@
+task_type_id: LAW-L02-001
+industry: legal
+work_family: L02 民商事诉讼、争点与证据
+title: 民商事合同纠纷证据梳理与要件争点矩阵
+role: 诉讼律师 / 诉讼辅助人员
+trigger: 接受委托后、立案或交换证据前，需整理全部现有证据材料并建立与诉讼请求要件的对应关系
+expert_time_estimate: 90-180 min
+workflow_steps:
+  - 识别诉讼请求及其法律依据，列出请求权基础（如违约责任/侵权要件）对应的全部构成要件
+  - 逐一阅读委托方提供的证据材料，记录名称、来源、形式（原件/复印件）、证明对象
+  - 构建要件-证据矩阵（Excel表格）：行为要件事实，列为证据编号，交叉标注覆盖关系
+  - 识别孤证风险：单一证据支撑关键要件时标注需补强
+  - 制作证据缺口清单（未覆盖要件、证明力存疑的项目），提出补充或取证方向
+  - 按分组逻辑编排证据目录（同属性多份证据共同证明同一事实时制作汇总说明）
+  - 针对对方可能提出的质证维度（三性：真实性/合法性/关联性）预判并准备应对说明
+software:
+  - {name: Excel, use: 要件-证据对应矩阵与证据目录, provision: container}
+  - {name: Word, use: 质证意见草稿与证据清单文本, provision: container}
+  - {name: 北大法宝, use: 类案检索与要件规则确认, provision: mcp}
+deliverables:
+  - {file: evidence_matrix.xlsx, form: 要件-证据矩阵表，含证据编号、要件覆盖、缺口标注}
+  - {file: evidence_list.docx, form: 证据目录，含名称/来源/页数/证明目的/原件复印件}
+  - {file: gap_memo.docx, form: 材料缺口清单，含未覆盖要件与补强建议}
+verification:
+  profession_checks:
+    - 每项诉讼请求的全部构成要件均已在矩阵中列出，无遗漏
+    - 同一证据的证明对象描述与其实际内容匹配（不过度引申）
+    - 孤证情形已标注，重要要件无单点证据支撑风险
+    - 证据目录法定要素完整（名称/来源/页数/证明目的/原件或复印件）
+  objective_parts:
+    - 要件与请求权基础的对应关系是否正确
+    - 证据编号与矩阵覆盖标注的一致性
+    - 缺口清单与矩阵中未覆盖要件的对应
+    - 证据页码/出处定位的准确性
+  rubric_parts:
+    - 证明对象描述的精准性（要件事实 vs 泛化描述）
+    - 缺口补强建议的可行性（能否在实际案件中取到）
+    - 质证风险预判的合理性
+input_data:
+  - {kind: 委托方提供的证据材料（合同/付款凭证/往来记录/通知等）, point_in_time: 现有材料, source_hint: 委托方提供}
+  - {kind: 起诉状草稿或诉讼请求说明, point_in_time: 立案前版本, source_hint: 委托方提供}
+  - {kind: 适用实体法规范（合同法/民法典等）, point_in_time: 事项发生时有效版本, source_hint: S31 北大法宝}
+fusable_with:
+  - {id: LAW-L02-002, relation: downstream, note: 矩阵完成后可融合：计算损失金额 → 起诉状草拟}
+  - {id: LAW-L01-001, relation: upstream, note: 案件起源于合同纠纷时，合同审查结论可直接作为输入}
+evidence:
+  - type: guideline
+    url: https://www.acla.org.cn/article/page/detailById/32229
+    locator: 全国律协《律师办理商事诉讼业务操作指引》
+    excerpt: "围绕基础规范的构成要件形成争议点清单；建立证据与争议点的对应关系；检查要件及分歧是否明确完整"
+  - type: guideline
+    url: https://www.gzlawyer.org/file/upload/20230428/file/20230428095051_707aa17997e842cba098539bb3db938d.pdf
+    locator: 全国律协《民商事诉讼证据清单的编排逻辑和方法》（刘远莎）
+    excerpt: "同属性的多份证据共同证明同一事实时，可制作Excel汇总表置于该组证据之前作为说明和分组索引"
+  - type: guideline
+    url: https://www.hncourt.gov.cn/public/detail.php?id=203472
+    locator: 郑州中院《民事案件证据审查与事实认定指引》
+    excerpt: "证据目录须包含证据名称、来源、页数、证明目的、原件或复印件，并分类编号；围绕证据三性（真实性、合法性、关联性）逐项质证"
+  - type: practitioner
+    url: https://www.wenshucha.com/blog/cross-examination-opinion-evidence-challenge.html
+    locator: 文书查《质证意见怎么写》
+    excerpt: "质证准备表七栏：证据编号与名称、对应要件、是否有其他证据支撑、形式瑕疵、与其他材料冲突及页码、证明目的与待证事实落差、当庭质证表述"
+status: verified
+instantiated_tasks: []
+notes: ""

@@ -1,0 +1,61 @@
+task_type_id: LAW-L01-001
+industry: legal
+work_family: L01 合同审查、起草与履约
+title: 续签框架协议与补充协议的联动审查及修订
+role: 企业法务 / 律所非诉律师
+trigger: 业务部门提交续签的框架协议及新补充协议，要求签署前出具审查意见与修订稿
+expert_time_estimate: 60-120 min
+workflow_steps:
+  - 接收合同包（主协议、附件、补充协议、历史版本），梳理效力层级关系
+  - 对照公司合同审查清单逐项审查：当事人身份、标的权利瑕疵、付款条件、违约责任、争议条款
+  - 在 Word 修订模式下逐条标注修改（增删用修订功能，风险提示与谈判建议用批注）
+  - 识别主文与附件/补充协议之间的冲突条款，确认效力优先级约定，推动联动修改
+  - 出具审查意见（含风险等级评定）与问题台账，同时提交带修订的合同稿和清洁版
+software:
+  - {name: Word, use: 修订模式标注增删、批注风险与建议, provision: container}
+  - {name: 北大法宝, use: 检索适用规范版本（签署时有效版本）, provision: mcp}
+deliverables:
+  - {file: agreement_redline.docx, form: 带修订痕迹与批注的合同稿}
+  - {file: agreement_clean.docx, form: 清洁版（接受修改后）}
+  - {file: review_memo.docx, form: 审查意见，含风险说明与谈判建议}
+  - {file: issue_ledger.xlsx, form: 问题台账，列条款定位、风险等级、修改状态}
+verification:
+  profession_checks:
+    - 主文与附件/补充协议冲突时是否按效力顺序处理，而非各自表述
+    - 定义修改是否在全文联动（同一概念在多处出现时须同步）
+    - 交叉引用（如第X条第Y款）在修改后仍然指向正确位置
+    - 违约责任、通知期限、付款条件等关键义务是否逻辑一致
+  objective_parts:
+    - 冲突条款识别与定位（条款编号+页码）
+    - 修订是否落在正确位置（主协议 vs 附件 vs 补充协议）
+    - 法源版本正确性（适用签署时有效版本而非现行版本）
+    - 风险台账与合同条款的对应关系
+  rubric_parts:
+    - 修改建议的合理性（是否符合交易目的与双方商业关系）
+    - 谈判策略的可行性（是否区分必守底线与可让步事项）
+input_data:
+  - {kind: 框架协议主文及历史版本, point_in_time: 签署时有效, source_hint: 委托方提供}
+  - {kind: 补充协议及附件, point_in_time: 当前版本, source_hint: 委托方提供}
+  - {kind: 适用规范, point_in_time: 签署时有效版本, source_hint: S31 北大法宝}
+fusable_with:
+  - {id: LAW-L08-001, relation: downstream, note: 合同中劳动条款审查可与劳动合规任务融合}
+evidence:
+  - type: guideline
+    url: https://www.acla.org.cn/info/ca424c3b1b5f4defa7b5b20ab56077e0
+    locator: 全国律协《律师办理合同审查业务操作指引》
+    excerpt: "律师提交合同审查意见时，通常同时交付带修订痕迹版本和清洁版；Word「审阅→修订」保留修改记录，批注用于风险提示"
+  - type: guideline
+    url: https://www.acla.org.cn/info/e381005e09d44bbeaf13254c90f647ba
+    locator: 全国律协《律师办理买卖合同业务操作指引》
+    excerpt: "审查项目涵盖当事人身份及法人基本情况、标的物来源与权利瑕疵、买受人付款能力，以及对易产生歧义或相互矛盾的约定作出说明"
+  - type: practitioner
+    url: https://www.jtn.com/CN/booksdetail.aspx?Lan=CN&PageUrl=majorbook&keyid=00000000000000004748&type=06001
+    locator: 金诚同达律师事务所《法律尽职调查实务》
+    excerpt: "合同审查的核心产物包括带修订的合同稿和审查意见；条款冲突处理须确认效力优先级约定再联动修改"
+  - type: practitioner
+    url: https://www.tyglobe.com/articles/252.html?lang=cn
+    locator: 天聿格律师事务所《尽调工作底稿管理》
+    excerpt: "问题台账设四档状态：已收齐/部分收到/未收到/不适用；每次跟进后更新，用于识别材料缺口"
+status: verified
+instantiated_tasks: []
+notes: ""

@@ -1,0 +1,66 @@
+task_type_id: FIN-F13-001
+industry: finance
+work_family: F13 衍生品与套期保值
+title: 商品期货套期保值方案执行与风险台账维护
+role: 企业财资/风险管理部门（套保执行岗）
+trigger: 企业采购/销售部门识别到原材料或产品的价格敞口，由财资部门制定并执行期货套保方案
+expert_time_estimate: 90-150 min（单批次方案审批及台账更新，不含持续监控）
+workflow_steps:
+  - 接收敞口数据（采购/销售合同、数量、时间窗口），确定最大净敞口
+  - 制作套保方案：填写品种、价位区间、合约月、数量、拟用保证金、止损额度、风险分析
+  - 提交供应链/采购/财务BP联合评审，负责人审批
+  - 执行建仓：按方案下单，记录成交情况（成交价、手数、合约代码）
+  - 建仓后计算初始保证金占用，核对账户可用资金
+  - 每日收市后更新台账：当日盈亏、浮动盈亏、持仓保证金占用、风险率
+  - 触发风险阈值时（风险率≥70%启动讨论，≥90%平仓或移仓决策）记录处置行动
+  - 平仓后核对期现对冲效果：期货盈亏 vs 现货敞口损益，出具本批次套保总结
+software:
+  - {name: Excel, use: 台账五张工作表（期现对冲/移仓/现现对冲/单边/总体损益）及保证金日报, provision: container}
+  - {name: 交易所行情终端（行情数据文件替代）, use: 结算价与行情数据，由input-data提供对应时点快照, provision: input-data}
+deliverables:
+  - {file: hedge_ledger.xlsx, form: 套保台账，含五张工作表：期现对冲/移仓/现现对冲/单边操作/总体损益}
+  - {file: margin_daily.xlsx, form: 保证金日报，含占用保证金/当日盈亏/浮动盈亏/风险率}
+  - {file: hedge_summary.docx, form: 批次套保总结，含期现对冲效果、偏差分析、下次改进点}
+verification:
+  profession_checks:
+    - 合约月与敞口时间窗口的匹配（到期前能否完成移仓或实物交割）
+    - 套保比率是否在初始方案范围内，偏离时有变更记录
+    - 保证金风险率计算公式正确（权益/占用保证金）
+    - 期现对冲效果中，期货盈亏与现货损益方向相反且金额可核对
+    - 会计核算适用财会〔2015〕18号（商品期货套期业务会计处理暂行规定）
+  objective_parts:
+    - 台账字段完整性（品种/合约代码/手数/成交价/保证金/日盈亏均已填写）
+    - 保证金数值计算准确（手数×合约乘数×结算价×保证金率）
+    - 风险率阈值触发记录与处置动作对应
+    - 期现总损益勾稽（期货盈亏+现货损益=净对冲成本）
+  rubric_parts:
+    - 合约月选择的合理性（基差风险与流动性的权衡）
+    - 止损设置与企业风险承受能力的匹配
+input_data:
+  - {kind: 敞口信息（采购/销售合同量、时间、品种）, point_in_time: 方案制定时, source_hint: 委托方提供}
+  - {kind: 交易所合约规格（乘数/保证金率/涨跌停规则）, point_in_time: 对应合约上市时有效版本, source_hint: S21 交易所官网/S22 wind历史合约}
+  - {kind: 结算价与行情时间序列, point_in_time: 持仓期对应日期, source_hint: S21 S22}
+  - {kind: 现货采购/销售执行记录（价格/数量/日期）, point_in_time: 同期, source_hint: 委托方提供}
+fusable_with:
+  - {id: FIN-F13-002, relation: downstream, note: 套保执行台账完成后可融合：压力情景下追加保证金测算}
+  - {id: FIN-F17-001, relation: downstream, note: 台账数据可用于套期会计处理任务（财会〔2015〕18号）}
+evidence:
+  - type: practitioner
+    url: https://edu.cfachina.org/zthd/qhhyrzxx/2024ALK/zxfw2024/202601/P020260109326224112777.pdf
+    locator: 中国期货业协会《2024年套期保值台账实操案例》
+    excerpt: "台账结构设五张工作表：期现对冲、移仓操作、现现对冲、单边操作、总体损益；2024年4月200吨铜杆对冲操作，期货盈利542,000元，抵消现货损失534,000元"
+  - type: practitioner
+    url: https://static.cninfo.com.cn/finalpage/2025-12-13/1224874131.PDF
+    locator: 晶科能源套期保值管理制度披露（2025年12月）
+    excerpt: "建仓前核算预计保证金；每日收市后测算占用保证金/当日盈亏/浮动盈亏/追加需求；持仓占比上限总体权益60%；风险率70%附近启动讨论补保，90%决策平仓或移仓；成交后1个交易日内提交审核"
+  - type: guideline
+    url: https://www.mof.gov.cn/gkml/caizhengwengao/wg2016/wg201602/201606/t20160601_2116319.htm
+    locator: 财政部财会〔2015〕18号《商品期货套期业务会计处理暂行规定》
+    excerpt: "规范期货套期业务在财务报表中的反映方式，使其体现价格风险管理的目标、过程与结果"
+  - type: practitioner
+    url: https://www.cfachina.org/servicesupport/researchandpublishin/publication/chinafutures/2016/zgqh2016_1_49/201603/t20160321_16000.html
+    locator: 中国期货业协会《实体企业套期保值实务》（2016）
+    excerpt: "常见问题：把交易所套保审批等同于套期关系界定；仅凭采购/销售订单指定套期关系，缺乏正式文件；交易过程中偏离初始套保比率未及时记录"
+status: verified
+instantiated_tasks: [finance-pilot-04-v2]
+notes: "fin-04已实例化了此类型的变体（期权+期货+交割组合），但那道题侧重合规审查与风险台账构建；本卡覆盖更标准的纯期货套保执行流程，可用于出新题"
