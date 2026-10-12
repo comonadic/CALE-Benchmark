@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "case": "promote_without_software_evidence",
+      "rejected": true,
+      "errors": [
+        "legal/L12/LAW-L12-001.yaml: verified cards need full-text workflow evidence from two original sources",
+        "legal/L12/LAW-L12-001.yaml: verified cards need direct full-text software evidence"
+      ]
+    },
+    {
+      "case": "same_origin_counted_twice",
+      "rejected": true,
+      "errors": [
+        "finance/F03/FIN-F03-002.yaml: verified cards need full-text workflow evidence from two original sources"
+      ]
+    },
+    {
+      "case": "dangling_fusion_reference",
+      "rejected": true,
+      "errors": [
+        "finance/F01/FIN-F01-001.yaml: unresolved or self fusion link FIN-F03-999"
+      ]
+    }
+  ],
+  "all_rejected": true,
+  "production_cards_modified": false
+}

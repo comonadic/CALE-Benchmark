@@ -1,0 +1,63 @@
+task_type_id: FIN-F03-002
+industry: finance
+work_family: F03 银行对公授信与信用审查
+title: 流动资金贷款需求测算与授信调查报告复核
+role: 银行对公客户经理或授信分析岗
+trigger: 企业提交流动资金贷款申请或续授信材料，需要核实经营周转需求、现有融资和还款来源
+expert_time_estimate: 120-240 min（研究者估计，限资料已提供后的桌面调查及测算）
+workflow_steps:
+  - 核对申请用途、主体信息和提交材料，记录需要补充核实的项目。
+  - 结合财务报表、往来及存货明细和经营说明，核对真实经营规模与资金循环周期。
+  - 在 Excel 中计算存货、应收、应付、预收和预付周转，并保留取数依据。
+  - 按适用测算方法估算营运资金需求，明确销售增长及周转变化的业务依据。
+  - 扣除自有资金、现有流贷和其他营运融资，复核新增贷款需求，避免集团融资重复计算。
+  - 结合经营现金流、债务偿付和担保材料评价还款来源，记录预测与证据缺口。
+  - 形成调查报告及补件、风险措施建议，提交独立风险评价和审批岗位。
+software:
+  - {name: Microsoft Excel, use: 营运资金周转、融资缺口和债务现金流支持表的公式计算及复核, provision: cua}
+deliverables:
+  - {file: working_capital_review.xlsx, form: 原始取数、周转计算、营运资金需求与融资扣减工作簿}
+  - {file: credit_investigation.pdf, form: 调查结论、还款来源、材料缺口与风险措施报告}
+verification:
+  profession_checks:
+    - 调查、风险评价与审批职责区分，资料测算不冒充已经完成现场核查或审批。
+    - 各周转项目的取数分母、平均余额及报告期按选定方法一致。
+    - 贷款需求扣减现有融资，集团范围和资金用途可追溯。
+    - 管理办法附件是测算示例，不能把所有客户强制套入同一公式。
+  objective_parts:
+    - 按所选方法复算周转次数、天数、营运资金量和新增需求。
+    - 现有贷款、自有资金和其他融资的金额及去重。
+    - 财报口径、借款主体、测算期间及输入来源匹配。
+    - 缺失输入保持未确定，不静默用零或行业均值替代。
+  rubric_parts:
+    - 对经营预测、回款周期及还款来源的质疑是否有依据。
+    - 所选测算方法与企业业务特征的匹配及风险措施的可执行性。
+input_data:
+  - {kind: 贷款申请、用途说明和真实经营资料, point_in_time: 申请或续授信日, source_hint: 委托方授权业务底稿}
+  - {kind: 财报、附注、往来和存货明细及经营预测, point_in_time: 调查时已取得且明确期间, source_hint: S01 公开披露加委托方明细，公开年报不能替代全部明细}
+  - {kind: 存量授信、借款、担保与其他营运融资记录, point_in_time: 同一调查截止日, source_hint: 委托方授信台账、S06 及公开担保公告}
+  - {kind: 适用贷款管理办法及银行测算方法, point_in_time: 申请时适用版本, source_hint: S40 金融监管总局及银行内部授权规则}
+fusable_with:
+  - {id: FIN-F01-001, relation: upstream, note: 同一借款人的三表及支持表可作为输入，授信岗仍须独立检查经营假设和融资扣减；不同主体的研究模型不能直接拼接。}
+evidence:
+  - id: WF-20261013-03
+    type: regulation
+    origin: 国家金融监督管理总局
+    url: https://credit.mot.gov.cn/zhengcefagui/202408/t20240807_4147083.html
+    locator: 金融监管总局令2024年第2号；第16、19、20条及附件流动资金贷款需求量测算示例
+    excerpt: 摘要：要求形成调查报告、测算营运资金需求和贷款结构；附件说明周转项目及现有融资扣减。
+    supports: [trigger, workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text_official_republication
+  - id: WF-20261013-04
+    type: training
+    origin: Corporate Finance Institute
+    url: https://corporatefinanceinstitute.com/course/commercial-banking-debt-modeling/
+    locator: Learning Objectives；Yearly Debt Schedules；Monthly Operating Line Analysis；Excel prerequisite
+    excerpt: 摘要：商业银行信用分析模型包含债务偿付、营运资金缺口、月度融资及契约分析，并与三表相联。
+    supports: [role, workflow_steps, verification, software]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 从零调研的新卡。金融监管总局原页本次返回403，正文在交通运输部官方转载页核对；两者只算同一原始来源。国外培训仅印证岗位和 Excel 建模工作，不提供国内监管参数。耗时及文件名为研究估计和建议；未开展实地调查、审批或软件部署。

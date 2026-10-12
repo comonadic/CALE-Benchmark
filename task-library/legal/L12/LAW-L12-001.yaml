@@ -1,0 +1,57 @@
+task_type_id: LAW-L12-001
+industry: legal
+work_family: L12 仲裁、涉外商事与海事
+title: 国际仲裁程序时间表草案与延期联动复核
+role: 国际仲裁代理律师或仲裁庭秘书
+trigger: 案件管理会议前准备程序安排，或已有时间表收到延期和程序调整请求
+expert_time_estimate: 90-180 min（研究者估计，限一次程序安排或变更复核）
+workflow_steps:
+  - 对照仲裁协议、适用规则及已有程序令，确定本次程序范围和已经固定的节点。
+  - 根据双方请求整理书状、证据、文件开示、证人及开庭阶段所需时间和依赖关系。
+  - 制作事件、责任方、时间间隔和日期的程序时间表草案。
+  - 对照延期申请及对方意见，复核后续节点是否受影响，标明需仲裁庭决定的事项。
+  - 区分已经作出的程序决定、双方提议及代理人的内部目标，并提交时间表及变动说明。
+software:
+  - {name: Microsoft Word（拟用，待补工作流直接证据）, use: 编辑程序时间表及程序安排说明，保留变动版本, provision: cua}
+deliverables:
+  - {file: procedural_timetable.docx, form: 事件、责任方、间隔与日期的可编辑程序时间表草案}
+  - {file: timetable_change_note.docx, form: 延期申请对后续安排的影响及待决定事项}
+verification:
+  profession_checks:
+    - 程序令、双方提议和内部目标不混同。
+    - 当前案件规则版本及已有决定优先，不套用旧示例期限。
+    - 时间表考虑证据、书状和开庭之间的依赖及双方陈述机会。
+  objective_parts:
+    - 日期、间隔、责任方和程序事件与输入一致。
+    - 变更后受影响节点覆盖及时间依赖冲突。
+    - 硬性节点、提议节点和待决定事项标注的一致性。
+  rubric_parts:
+    - 对延期及程序安排合理性的论证。
+    - 对效率、程序公平和材料准备需要的平衡。
+input_data:
+  - {kind: 仲裁协议、适用规则及现有程序令, point_in_time: 本案启动及变更时适用版本, source_hint: S48 仅覆盖对应贸仲材料；其他机构须各自取得正式规则}
+  - {kind: 双方程序提案、准备情况和延期请求, point_in_time: 本轮案件管理会议或变更前, source_hint: 委托方获授权程序文件}
+  - {kind: 已确定开庭安排、送达记录及程序日历, point_in_time: 同一轮更新时间, source_hint: 本案程序记录}
+fusable_with: []
+evidence:
+  - id: WF-20261013-20
+    type: public_artifact
+    origin: International Chamber of Commerce
+    url: https://iccwbo.org/wp-content/uploads/sites/3/2018/04/icc-model-procedural-timetable-english.pdf
+    locator: Model Procedural Timetable，PDF第2-5页事件、责任方、时间间隔及日期表
+    excerpt: 摘要：官方非强制示例以事件、当事人或仲裁庭、时间间隔和日期组织书状、证据及开庭安排。
+    supports: [workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-21
+    type: practitioner
+    origin: 金诚同达律师事务所
+    url: https://www.jtn.com/CN/booksdetail.aspx?Lan=CN&PageUrl=majorbook&keyid=00000000000000007265&type=06001
+    locator: 《国际仲裁中的第一号程序令》，程序时间表段落
+    excerpt: 摘要：时间表记录各阶段工作和安排，协商后作为程序令组成部分约束相关参与者。
+    supports: [role, trigger, workflow_steps, verification]
+    checked_at: '2026-10-13'
+    access: indexed_excerpt_only
+status: candidate
+instantiated_tasks: []
+notes: 工作和产物已获得两类来源支持，但尚未取得具体律师团队使用Word制作、更新此类时间表的直接证据，且第二来源仅核对检索摘要；不据此标verified。2018 ICC示例引用旧规则，仅用于表格形态，不能当作2026年现行规则。后续需补从业者软件操作证据及第二来源全文核验。耗时和文件名为研究估计及建议，未部署环境。

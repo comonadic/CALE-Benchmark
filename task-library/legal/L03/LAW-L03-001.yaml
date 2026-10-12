@@ -1,0 +1,60 @@
+task_type_id: LAW-L03-001
+industry: legal
+work_family: L03 公司、证券与并购法律尽调
+title: 收购项目法律尽调资料清单与缺口台账维护
+role: 收购方尽调律师或项目律师助理
+trigger: 收购方启动尽职调查，目标公司开始提供资料，需要针对交易范围提出清单并持续核对材料覆盖
+expert_time_estimate: 120-240 min（研究者估计，限一轮有限范围资料清单与缺口复核）
+workflow_steps:
+  - 根据委托范围、目标公司业务和交易安排确定调查事项及资料要求。
+  - 编制适合该项目的需求清单，说明需要哪些文件、期间、版本和确认信息。
+  - 对照数据室索引和已提供资料，将每项需求关联实际文件及形成时间。
+  - 审阅并核对文件内容，区分已经覆盖、部分覆盖、未提供和经说明不适用事项。
+  - 对不清楚、互相矛盾或缺乏关键依据的事项整理追问和补件需求。
+  - 在电子表格清单中更新状态、引用及跟进记录，输出本轮缺口和重点问题供后续调查。
+software:
+  - {name: Microsoft Excel, use: 编辑并维护尽调清单的状态、文件链接和缺口，筛选待跟进事项, provision: cua}
+deliverables:
+  - {file: dd_request_tracker.xlsx, form: 项目化需求、材料对应、状态及追问记录的可编辑台账}
+  - {file: dd_gap_summary.pdf, form: 本轮材料缺口及有证据的重点问题摘要}
+verification:
+  profession_checks:
+    - 清单按委托和业务定制，不能以模板行数多代表调查充分。
+    - 收到文件与已核实事实分开，资料缺失不推导为不存在风险。
+    - 不适用状态有说明依据，旧版和不完整资料不能标为完整覆盖。
+    - 问题能回溯至具体需求和材料；清单维护不冒充已完成全部尽调。
+  objective_parts:
+    - 清单事项与数据室文件、版本、期间及链接对应。
+    - 覆盖状态和材料内容、补件反馈的一致性。
+    - 未提供或部分提供事项是否完整进入跟进清单。
+    - 同一文件跨事项复用和同一需求重复计数的处理。
+  rubric_parts:
+    - 资料要求是否与目标公司行业和交易关注点相关。
+    - 补件和追问是否具体、可回答并能弥补实质证据缺口。
+input_data:
+  - {kind: 委托范围、交易概要及目标公司业务说明, point_in_time: 尽调启动或本轮更新日, source_hint: 委托方业务材料}
+  - {kind: 数据室索引及已提供公司、股权、合同、许可等资料, point_in_time: 该轮资料快照, source_hint: 委托方授权资料；S01、S02、S03 仅补充公开披露}
+  - {kind: 上轮需求清单及目标公司回复, point_in_time: 本轮截止日前, source_hint: 项目真实跟进记录}
+fusable_with: []
+evidence:
+  - id: WF-20261013-16
+    type: guideline
+    origin: 上海市律师协会
+    url: https://wx.lawyers.org.cn/info/32a9e69daf2747b683f49eec1942c7a6
+    locator: 2024并购重组法律尽调指引，第7条、第9条9.3-9.4、第10条10.1及第11条
+    excerpt: 摘要：针对委托目的审慎调查与核实，整理需提供材料及确认问题，以底稿支持法律分析。
+    supports: [role, trigger, workflow_steps, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-17
+    type: software_documentation
+    origin: Ideals
+    url: https://helpcenter.idealsvdr.com/zh-CN/articles/10174408-%E5%B0%BD%E8%81%8C%E8%B0%83%E6%9F%A5%E6%B8%85%E5%8D%95
+    locator: 尽职调查清单，导言、上传和管理检查清单、编辑清单及下载
+    excerpt: 摘要：尽调需求清单实际通过Excel共享管理，可上传XLSX、编辑状态及文件链接，再下载Excel。
+    supports: [trigger, workflow_steps, deliverables, software]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 卡片限定资料清单及缺口维护，不扩展为材料不足时仍出完整并购法律意见。状态字段是本卡整理约定，不声称四档状态为通行法定标准。选择Excel本地文件版本；Ideals文档用于证明真实工作方式，不要求开通或分享线上数据室。耗时及文件名为研究估计及建议；未部署环境。

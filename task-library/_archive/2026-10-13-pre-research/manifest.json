@@ -1,0 +1,30 @@
+{
+  "archived_at": "2026-10-13",
+  "reason": "Excluded from fresh workflow research batch",
+  "cards": [
+    {
+      "id": "FIN-F03-001",
+      "original_path": "finance/F03/FIN-F03-001.yaml",
+      "archived_path": "_archive/2026-10-13-pre-research/finance/F03/FIN-F03-001.yaml",
+      "sha256": "44a8b384fe44f1a0104dbb6970b18aa0aace62168d030b4fcd5110d765e574aa"
+    },
+    {
+      "id": "FIN-F13-001",
+      "original_path": "finance/F13/FIN-F13-001.yaml",
+      "archived_path": "_archive/2026-10-13-pre-research/finance/F13/FIN-F13-001.yaml",
+      "sha256": "c66d9d17c896aa7168c0da882ecb1438d20cc4e0b882edf9d0e22b030541882e"
+    },
+    {
+      "id": "LAW-L01-001",
+      "original_path": "legal/L01/LAW-L01-001.yaml",
+      "archived_path": "_archive/2026-10-13-pre-research/legal/L01/LAW-L01-001.yaml",
+      "sha256": "235afc2afff222c6d3ad073fe0ab4da7ecd1721d6f0d782c6af3cd6f887b5d3f"
+    },
+    {
+      "id": "LAW-L02-001",
+      "original_path": "legal/L02/LAW-L02-001.yaml",
+      "archived_path": "_archive/2026-10-13-pre-research/legal/L02/LAW-L02-001.yaml",
+      "sha256": "dfae55446fb73fb45b7dc027155db7ef741256f0d56a45f15f831112f2019489"
+    }
+  ]
+}

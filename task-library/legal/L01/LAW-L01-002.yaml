@@ -1,0 +1,61 @@
+task_type_id: LAW-L01-002
+industry: legal
+work_family: L01 合同审查、起草与履约
+title: 签署前合同审改及谈判后版本复核
+role: 企业法务或常年法律顾问律师
+trigger: 业务部门提交拟签合同及谈判反馈，需要出具可追踪修订稿并核对最终签署版本
+expert_time_estimate: 90-180 min（研究者估计，限一个含附件和一轮反馈的合同包）
+workflow_steps:
+  - 确认代表哪一方、交易目的、谈判地位和允许修改的范围。
+  - 阅读待审合同、附件及相关商务资料，核对主体、标的、价款、履行条件与已达成安排。
+  - 使用 Word 修订和批注记录条款增删、风险及需要业务确认的问题。
+  - 接收谈判反馈，核查哪些意见被接受、哪些变动未被标出，以及新增内容的原因。
+  - 逐处复核定义、主文附件、付款或责任条件及交叉引用，更新相互影响的条款。
+  - 保存带修订版本、清洁版本及审查意见，核对最终稿是否与已确认修改一致。
+software:
+  - {name: Microsoft Word, use: 开启修订、添加批注、对照反馈修改并生成清洁版本, provision: cua}
+deliverables:
+  - {file: contract_redline.docx, form: 保留作者及修改痕迹、风险批注的合同与附件}
+  - {file: contract_clean.docx, form: 与已确认修改相一致的清洁合同版本}
+  - {file: review_opinion.docx, form: 审查立场、重要变动、待确认问题和谈判意见}
+verification:
+  profession_checks:
+    - 修改符合委托立场及允许修改范围，而非把所有条件单向改到极端。
+    - 业务事实和谈判反馈进入相关条款，待确认事项保留明确状态。
+    - 清洁版本与已接受修订一致，不遗漏新增或未标记的变动。
+    - 定义、附件、履行条件和交叉引用在最终版本中一致。
+  objective_parts:
+    - 实际修订与批注是否位于对应条款，原始文本保留可追溯关系。
+    - 清洁版与接受修订后的文本一致性。
+    - 主体、价款、日期、条件与商务材料及确认记录的一致性。
+    - 交叉引用和定义使用，以及主文附件冲突的具体定位。
+  rubric_parts:
+    - 风险提示与交易目标、谈判地位的匹配。
+    - 修改建议是否可执行，并区分法律底线和商业选择。
+input_data:
+  - {kind: 待签合同、附件及此前审改版本, point_in_time: 本轮签署前版本, source_hint: 委托方授权材料或 S32 示范文本加真实交易材料}
+  - {kind: 商务要求、招采或响应文件及谈判反馈, point_in_time: 本轮审查时已确认记录, source_hint: 委托方业务文件，不能由作者编造确认记录}
+  - {kind: 适用规范及内部审查要求, point_in_time: 交易事项适用版本, source_hint: S31 国家法律法规数据库及委托方制度}
+fusable_with: []
+evidence:
+  - id: WF-20261013-12
+    type: practitioner
+    origin: 中国律师杂志／张海燕
+    url: https://www.acla.org.cn/info/e381005e09d44bbeaf13254c90f647ba
+    locator: 2025-04-29《合同审查的三个基本前提》，修改立场、修改程度、修改模式
+    excerpt: 摘要：按委托立场和谈判地位审改合同，以Word修订、批注和版本管理沟通修改，交付修订版及清洁版。
+    supports: [role, workflow_steps, deliverables, verification, software]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-13
+    type: operating_procedure
+    origin: 西南民族大学
+    url: https://xb.swun.edu.cn/__local/B/D3/2E/F319B219957534CBB47961397DF_A655552B_2077A.pdf
+    locator: 2023-09-28合同审查工作提示，二（二）第1-3项，PDF第2-4页
+    excerpt: 摘要：业务方提交可修改Word文本，核对招采和谈判内容；反馈律师意见采纳及新增变动，复核定稿。
+    supports: [trigger, workflow_steps, deliverables, verification, software]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 大学流程是机构实践示例，提前提交天数、免审条件等不推广到其他机构。Word通过CUA提供是未来环境要求，尚未部署。耗时与文件名是研究估计及建议。

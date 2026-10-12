@@ -1,0 +1,62 @@
+task_type_id: LAW-L04-001
+industry: legal
+work_family: L04 破产重整、清算与债权
+title: 债权申报材料整理与本金利息计算复核
+role: 机构债权人的代理律师或债权管理法务
+trigger: 收到破产受理及债权申报通知，需要在指定期限内完成债权申报文件和金额依据
+expert_time_estimate: 120-240 min（研究者估计，限有限合同及偿付记录的申报包准备）
+workflow_steps:
+  - 核对受理日期、申报通知、具体表格要求及代理权限材料。
+  - 对照合同、放款或履行凭证、对账和偿付记录，确定债权形成及变动经过。
+  - 在 Excel 中分段计算本金余额、利息及其他主张金额，标明计息截止和适用依据。
+  - 核对担保、抵销、转让及已有诉讼执行情况，分开主张性质和待确认事项。
+  - 将金额计算与申报表、书面说明和证据目录逐一关联，记录缺少的凭证。
+  - 对照本案提交清单复核授权、签章和文件版本，保存可编辑计算过程及申报文件。
+software:
+  - {name: Microsoft Excel, use: 编辑逐笔、分段本金利息计算，核对申报金额并保留测算过程, provision: cua}
+deliverables:
+  - {file: claim_calculation.xlsx, form: 逐笔本金、偿付、利息期间及依据联动的计算工作簿}
+  - {file: claim_declaration.pdf, form: 按本案表格准备的申报表及金额计算说明}
+  - {file: supporting_evidence_index.pdf, form: 申报项目与债权、授权及担保证据对应目录}
+verification:
+  profession_checks:
+    - 申报金额和性质有原始材料支撑，登记受理与最终确权区分。
+    - 利息截止、抵扣、担保和费用项目按具体适用法及本案要求处理。
+    - 已偿付、执行受偿或抵销金额不重复主张，争议事项单列。
+    - 计算工作簿、申报表和证据目录保持相同债权编号及金额。
+  objective_parts:
+    - 逐笔本金余额及各次偿付的加总、扣减和去重。
+    - 计息区间、日数、利率、单位和指定截止日的复算。
+    - 各主张金额与申报表汇总、原始凭证的对应。
+    - 申报材料是否覆盖本案通知列出的文件类别和格式。
+  rubric_parts:
+    - 对有争议主张、担保性质及金额依据的论证是否有证据。
+    - 对补证、申报范围及待确认事项的处理是否合理。
+input_data:
+  - {kind: 法院受理公告、管理人申报通知及模板, point_in_time: 本案申报阶段有效通知, source_hint: S33 全国企业破产重整案件信息网}
+  - {kind: 合同、债权转移、履行和偿付证明, point_in_time: 受理及申报截止日前已取得材料, source_hint: 委托方授权债权文件}
+  - {kind: 担保、抵销、诉讼执行和授权文件, point_in_time: 与申报截止日一致, source_hint: 委托方业务及程序记录}
+  - {kind: 适用实体法、破产规范和具体计算口径, point_in_time: 对应债权事实及程序版本, source_hint: S31 与本案通知}
+fusable_with: []
+evidence:
+  - id: WF-20261013-18
+    type: guideline
+    origin: 上海市律师协会
+    url: https://www.lawyers.org.cn/info/eed25a4769014bfe9245102363fff029
+    locator: 2016破产债权申报与审核指引，第4-6条及申报材料说明
+    excerpt: 摘要：债权人按通知申报，说明金额和形成原因，并附身份、债权、偿付及担保证据。
+    supports: [role, trigger, workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-19
+    type: operating_procedure
+    origin: 哈尔滨工大集团管理人
+    url: https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=724AE88AFFEEA3E12F1955A4D71EA142
+    locator: 2022-09-23申报指引，五（一）第3项及五（三）、六
+    excerpt: 摘要：对每笔涉及利息、罚息或违约金的主张说明计算依据，并提交相符的Excel测算过程。
+    supports: [trigger, workflow_steps, deliverables, verification, software]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 来源只留工作方法和提交要求摘要，不保存自然人信息或案件事实数据。2016、2022材料证明工作存在，旧规范和具体案件的截止日期、汇率、签章份数等不直接用于新题。实例化前核对事项时点的现行规范和本案通知。耗时及文件名为研究估计及建议；当前未申报债权、采集案卷或部署软件。

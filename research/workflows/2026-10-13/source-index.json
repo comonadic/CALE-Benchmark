@@ -1,0 +1,371 @@
+{
+  "researched_at": "2026-10-13",
+  "base_commit": "d830265aef6ea85be7daad35fb0eca77ed0dbedd",
+  "independent_of_previous_cards": true,
+  "sources": [
+    {
+      "id": "WF-20261013-01",
+      "type": "training",
+      "origin": "CFA Institute",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/practical-skills-modules/financial-modelling",
+      "locator": "Financial modelling techniques covered；Unit 7-10；What software is used",
+      "excerpt": "摘要：以 Excel 制作三表模型，覆盖营运资金、资本结构、报表联动及输出排错。",
+      "supports": [
+        "role",
+        "workflow_steps",
+        "deliverables",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F01-001"
+    },
+    {
+      "id": "WF-20261013-02",
+      "type": "practitioner",
+      "origin": "Corporate Finance Institute",
+      "url": "https://corporatefinanceinstitute.com/resources/financial-modeling/3-statement-model/",
+      "locator": "How Do You Build a Three-Statement Model in Excel，步骤 1-8",
+      "excerpt": "摘要：从历史数和预测假设开始，依次建立经营、资本资产、融资支持表，再完成三表和现金余额。",
+      "supports": [
+        "workflow_steps",
+        "deliverables",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F01-001"
+    },
+    {
+      "id": "WF-20261013-03",
+      "type": "regulation",
+      "origin": "国家金融监督管理总局",
+      "url": "https://credit.mot.gov.cn/zhengcefagui/202408/t20240807_4147083.html",
+      "locator": "金融监管总局令2024年第2号；第16、19、20条及附件流动资金贷款需求量测算示例",
+      "excerpt": "摘要：要求形成调查报告、测算营运资金需求和贷款结构；附件说明周转项目及现有融资扣减。",
+      "supports": [
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text_official_republication",
+      "task_type_id": "FIN-F03-002"
+    },
+    {
+      "id": "WF-20261013-04",
+      "type": "training",
+      "origin": "Corporate Finance Institute",
+      "url": "https://corporatefinanceinstitute.com/course/commercial-banking-debt-modeling/",
+      "locator": "Learning Objectives；Yearly Debt Schedules；Monthly Operating Line Analysis；Excel prerequisite",
+      "excerpt": "摘要：商业银行信用分析模型包含债务偿付、营运资金缺口、月度融资及契约分析，并与三表相联。",
+      "supports": [
+        "role",
+        "workflow_steps",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F03-002"
+    },
+    {
+      "id": "WF-20261013-05",
+      "type": "regulation",
+      "origin": "中国证监会",
+      "url": "https://www.csrc.gov.cn/beijing/c103545/c1999299/content.shtml",
+      "locator": "2022年通知，二（五）第1项及附件3.xlsx",
+      "excerpt": "摘要：受托管理人逐券排查到期或回售资金来源并报送 Excel 可编辑排查表。",
+      "supports": [
+        "role",
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F04-001"
+    },
+    {
+      "id": "WF-20261013-06",
+      "type": "regulation",
+      "origin": "中国证监会",
+      "url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+      "locator": "2026年6月9日通知，二（三）（四）及附件5",
+      "excerpt": "摘要：要求定期排查次月受托债券到期及资金落实情况，并针对兑付不确定性报告。",
+      "supports": [
+        "trigger",
+        "workflow_steps",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F04-001"
+    },
+    {
+      "id": "WF-20261013-07",
+      "type": "public_artifact",
+      "origin": "中信建投证券",
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-30/243191_20260630_H5C5.pdf",
+      "locator": "国新商业保理2025年度受托报告，PDF第2页编制来源、第5-6页履职、第9-12页偿债与履约章节",
+      "excerpt": "摘要：真实受托报告通过沟通、披露查阅和持续跟踪，复核财务、偿债保障与本息偿付。",
+      "supports": [
+        "role",
+        "workflow_steps",
+        "deliverables",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F04-001"
+    },
+    {
+      "id": "WF-20261013-08",
+      "type": "practitioner",
+      "origin": "金瑞期货",
+      "url": "https://edu.cfachina.org/zthd/qhhyrzxx/2024ALK/zxfw2024/202601/P020260109326224112777.pdf",
+      "locator": "中期协案例选编，印刷页93-95，二（一）与二（三）；PDF第2-4页",
+      "excerpt": "摘要：电子化业务和套保台账记录购销、期现对冲、移仓等操作，并自动汇总净敞口和综合损益。",
+      "supports": [
+        "role",
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F13-002"
+    },
+    {
+      "id": "WF-20261013-09",
+      "type": "public_artifact",
+      "origin": "广东天禾农资股份有限公司",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-20/1223587146.PDF",
+      "locator": "公告2025-031，五（二）（五），PDF第5页",
+      "excerpt": "摘要：企业按照审批权限安排保证金，后台部门审查实际操作、资金使用及盈亏情况。",
+      "supports": [
+        "role",
+        "workflow_steps",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F13-002"
+    },
+    {
+      "id": "WF-20261013-10",
+      "type": "guideline",
+      "origin": "中国注册会计师协会",
+      "url": "https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyzz/sjzz/202105/P020210507610910041600.pdf",
+      "locator": "中国注册会计师审计准则第1251号，2019年修订，第6、9-16条，PDF第2-4页",
+      "excerpt": "摘要：累积错报、沟通更正、评价未更正错报，并记录是否更正及结论依据。",
+      "supports": [
+        "role",
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F17-001"
+    },
+    {
+      "id": "WF-20261013-11",
+      "type": "software_documentation",
+      "origin": "Caseware",
+      "url": "https://docs.caseware.com/2020/webapps/31/cn/Engagements/Accounts-and-Analysis/Export-adjustments-and-trial-balance-data.htm",
+      "locator": "Export adjustments；Export trial balance data；Adjustments 与 Data 页面",
+      "excerpt": "摘要：审计人员按调整类型筛选并导出调整及试算数据，供客户更新账簿；支持CSV和PDF。",
+      "supports": [
+        "role",
+        "workflow_steps",
+        "deliverables",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "FIN-F17-001"
+    },
+    {
+      "id": "WF-20261013-12",
+      "type": "practitioner",
+      "origin": "中国律师杂志／张海燕",
+      "url": "https://www.acla.org.cn/info/e381005e09d44bbeaf13254c90f647ba",
+      "locator": "2025-04-29《合同审查的三个基本前提》，修改立场、修改程度、修改模式",
+      "excerpt": "摘要：按委托立场和谈判地位审改合同，以Word修订、批注和版本管理沟通修改，交付修订版及清洁版。",
+      "supports": [
+        "role",
+        "workflow_steps",
+        "deliverables",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L01-002"
+    },
+    {
+      "id": "WF-20261013-13",
+      "type": "operating_procedure",
+      "origin": "西南民族大学",
+      "url": "https://xb.swun.edu.cn/__local/B/D3/2E/F319B219957534CBB47961397DF_A655552B_2077A.pdf",
+      "locator": "2023-09-28合同审查工作提示，二（二）第1-3项，PDF第2-4页",
+      "excerpt": "摘要：业务方提交可修改Word文本，核对招采和谈判内容；反馈律师意见采纳及新增变动，复核定稿。",
+      "supports": [
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L01-002"
+    },
+    {
+      "id": "WF-20261013-14",
+      "type": "guideline",
+      "origin": "上海市律师协会",
+      "url": "https://www.lawyers.org.cn/info/453c50f6b8374371ae6e5331a9e2c301",
+      "locator": "2019商事诉讼指引，第3、15-21条",
+      "excerpt": "摘要：围绕请求及抗辩要件多轮整理争议点，建立与证据的对应，庭前分类编码并制作目录。",
+      "supports": [
+        "role",
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L02-002"
+    },
+    {
+      "id": "WF-20261013-15",
+      "type": "practitioner",
+      "origin": "法悟／张建",
+      "url": "https://sdcylaw.com/lvshiwenshu/189.html",
+      "locator": "储誉律师网站转载《Excel在证据及事实梳理中的应用指引》，第2.2-2.10、3.1-3.6、4.1节",
+      "excerpt": "摘要：以Excel登记整理码、时间和关键词，排序证据及二维时间线；内部整理不等同最终提交。",
+      "supports": [
+        "workflow_steps",
+        "deliverables",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text_attributed_republication",
+      "task_type_id": "LAW-L02-002"
+    },
+    {
+      "id": "WF-20261013-16",
+      "type": "guideline",
+      "origin": "上海市律师协会",
+      "url": "https://wx.lawyers.org.cn/info/32a9e69daf2747b683f49eec1942c7a6",
+      "locator": "2024并购重组法律尽调指引，第7条、第9条9.3-9.4、第10条10.1及第11条",
+      "excerpt": "摘要：针对委托目的审慎调查与核实，整理需提供材料及确认问题，以底稿支持法律分析。",
+      "supports": [
+        "role",
+        "trigger",
+        "workflow_steps",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L03-001"
+    },
+    {
+      "id": "WF-20261013-17",
+      "type": "software_documentation",
+      "origin": "Ideals",
+      "url": "https://helpcenter.idealsvdr.com/zh-CN/articles/10174408-%E5%B0%BD%E8%81%8C%E8%B0%83%E6%9F%A5%E6%B8%85%E5%8D%95",
+      "locator": "尽职调查清单，导言、上传和管理检查清单、编辑清单及下载",
+      "excerpt": "摘要：尽调需求清单实际通过Excel共享管理，可上传XLSX、编辑状态及文件链接，再下载Excel。",
+      "supports": [
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L03-001"
+    },
+    {
+      "id": "WF-20261013-18",
+      "type": "guideline",
+      "origin": "上海市律师协会",
+      "url": "https://www.lawyers.org.cn/info/eed25a4769014bfe9245102363fff029",
+      "locator": "2016破产债权申报与审核指引，第4-6条及申报材料说明",
+      "excerpt": "摘要：债权人按通知申报，说明金额和形成原因，并附身份、债权、偿付及担保证据。",
+      "supports": [
+        "role",
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L04-001"
+    },
+    {
+      "id": "WF-20261013-19",
+      "type": "operating_procedure",
+      "origin": "哈尔滨工大集团管理人",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=724AE88AFFEEA3E12F1955A4D71EA142",
+      "locator": "2022-09-23申报指引，五（一）第3项及五（三）、六",
+      "excerpt": "摘要：对每笔涉及利息、罚息或违约金的主张说明计算依据，并提交相符的Excel测算过程。",
+      "supports": [
+        "trigger",
+        "workflow_steps",
+        "deliverables",
+        "verification",
+        "software"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L04-001"
+    },
+    {
+      "id": "WF-20261013-20",
+      "type": "public_artifact",
+      "origin": "International Chamber of Commerce",
+      "url": "https://iccwbo.org/wp-content/uploads/sites/3/2018/04/icc-model-procedural-timetable-english.pdf",
+      "locator": "Model Procedural Timetable，PDF第2-5页事件、责任方、时间间隔及日期表",
+      "excerpt": "摘要：官方非强制示例以事件、当事人或仲裁庭、时间间隔和日期组织书状、证据及开庭安排。",
+      "supports": [
+        "workflow_steps",
+        "deliverables",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "full_text",
+      "task_type_id": "LAW-L12-001"
+    },
+    {
+      "id": "WF-20261013-21",
+      "type": "practitioner",
+      "origin": "金诚同达律师事务所",
+      "url": "https://www.jtn.com/CN/booksdetail.aspx?Lan=CN&PageUrl=majorbook&keyid=00000000000000007265&type=06001",
+      "locator": "《国际仲裁中的第一号程序令》，程序时间表段落",
+      "excerpt": "摘要：时间表记录各阶段工作和安排，协商后作为程序令组成部分约束相关参与者。",
+      "supports": [
+        "role",
+        "trigger",
+        "workflow_steps",
+        "verification"
+      ],
+      "checked_at": "2026-10-13",
+      "access": "indexed_excerpt_only",
+      "task_type_id": "LAW-L12-001"
+    }
+  ]
+}

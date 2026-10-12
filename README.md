@@ -55,4 +55,8 @@ Harbor 将数值 reward 写入 `/logs/verifier/reward.txt` 或 reward.json；完
 
 两份行业参考 skill 在 `skills/`，包括资料获取/筛选/抽取、题目设计、环境、参考解、评分器构造、谱系和批量验收方法。当前任务保留生成时的历史谱系，后续修改生成新版本。
 
+## 任务类型库与工作流调研
+
+[任务类型库](task-library/README.md)用于 task-first 造题：先从真实岗位、触发节点、软件操作和交付物确定工作，再按卡片的输入要求选取材料。2026-10-13 从零调研的首批含金融、法律各5张卡，其中9张工作流已核验、1张仍为候选；此前种子卡保留在历史目录。卡片的 `verified` 不代表具体题目已运行或软件环境已建成。来源核验、适用边界和候选缺口见[批次记录](research/workflows/2026-10-13/README.md)。
+
 目录结构和 reward 接口遵循 [Harbor task format](https://docs.harborframework.com/tasks/overview)。原始资料的发布机构、文件地址与哈希见各题的 provenance 和 lineage；这些原件的权利由原发布方保留。

@@ -1,0 +1,28 @@
+{
+  "scope": "Active finance/*/*.yaml and legal/*/*.yaml; excludes _archive.",
+  "validation_kind": "static_structure_and_recorded_evidence_metadata",
+  "limitation": "Does not independently verify source contents, professional quality, elapsed time or software availability.",
+  "card_count": 10,
+  "by_industry": {
+    "finance": 5,
+    "legal": 5
+  },
+  "by_status": {
+    "verified": 9,
+    "candidate": 1
+  },
+  "evidence_records": 21,
+  "card_sha256": {
+    "FIN-F01-001": "ed8e7b00bc84a532efd00fab3d3e384a026d566f3f5830386fbf55b58672f234",
+    "FIN-F03-002": "121787e559860e86b922a039789f2057e3748545ba673cd34901d629875786b7",
+    "FIN-F04-001": "ccf2e6ed3fe05bc52af2837371181f051cbe5e3599b41ac14eb523363295247c",
+    "FIN-F13-002": "d11f1617ec22179499c682ccf61fe3114b6986ce1ba5006c2a36d8a975232e30",
+    "FIN-F17-001": "839213ac658ba3cc663e4964b5e8e02e15e7c873c2efca23a6961103a7b53e85",
+    "LAW-L01-002": "a35fa9ba19ae07e22d8f80189638c750c24e2148c6ebd9df530885a99a700920",
+    "LAW-L02-002": "3dbf40ff7507dd9c7542a4680a1fc2d675b5d278c718f41722ae84016dccb426",
+    "LAW-L03-001": "14b8804274adf593ba75deced08e7baf4507cd5e2f9e77175c2a38f75e14b6e1",
+    "LAW-L04-001": "87cef346aba42a3d87a610c1ea9b4f95fbfd1ef53b60010b8a14fbc1018fdfb3",
+    "LAW-L12-001": "e71f9b1fdc6a5ed633605c36be4c22275752d25904947d64cd5b0fec20c9a72b"
+  },
+  "errors": []
+}

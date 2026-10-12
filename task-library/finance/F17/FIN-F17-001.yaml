@@ -1,0 +1,61 @@
+task_type_id: FIN-F17-001
+industry: finance
+work_family: F17 财务会计、审计与内控
+title: 审计错报汇总、更正状态复核与调整后余额交接
+role: 会计师事务所审计项目组成员或复核经理
+trigger: 各审计项目已发现差异，报告签发前需要汇总错报、跟进更正并复核调整后余额
+expert_time_estimate: 90-180 min（研究者估计，限已提供差异证据的收尾工作）
+workflow_steps:
+  - 对照差异底稿及支持证据，汇总各项目识别的金额、分类和列报错报。
+  - 将错报、管理层接受的调整及未更正事项分开，记录原因和影响期间。
+  - 在审计软件中维护调整分录及状态，检查借贷平衡、科目和重复调整。
+  - 重算调整后试算余额，对照管理层是否实际入账和相应复核证据。
+  - 单独和汇总评价未更正错报，结合金额、性质及以前期间影响记录专业结论。
+  - 导出调整分录和试算平衡数据，交付客户更新账簿并保留未更正事项沟通记录。
+software:
+  - {name: Caseware Cloud 审计应用, use: 在调整与账户界面维护分录、筛选调整类型并导出 CSV 或 PDF, provision: cua}
+deliverables:
+  - {file: adjustments.csv, form: 可交接的调整分录明细，保留类型、科目、金额及说明}
+  - {file: adjusted_trial_balance.csv, form: 与调整分录相衔接的调整后账户余额}
+  - {file: misstatement_review.pdf, form: 更正状态及未更正错报评价和沟通记录}
+verification:
+  profession_checks:
+    - 识别出的错报、提议调整、已更正及未更正状态有证据支持。
+    - 重大性判断同时考虑金额、性质、发生环境和以前期间影响。
+    - 软件调整不等于客户已入账，需对照入账或确认记录。
+    - 导出调整类型及试算范围明确，数据足以供客户核对。
+  objective_parts:
+    - 调整分录借贷平衡、科目映射及金额复算。
+    - 调整前余额加调整等于调整后余额，项目之间不重复。
+    - 未更正清单与原差异记录、管理层反馈和汇总金额一致。
+    - 按所选导出范围和调整类型检查遗漏及重复。
+  rubric_parts:
+    - 对未更正错报重大性及沟通重点的论证是否充分。
+    - 对估计差异、披露问题及进一步程序的判断是否有依据。
+input_data:
+  - {kind: 原始试算平衡、科目映射及差异底稿, point_in_time: 本次审计收尾截止日, source_hint: 委托方授权账务及审计材料，S01 年报不能代替底层账簿}
+  - {kind: 更正、未更正及客户入账确认记录, point_in_time: 报告签发前最后复核版本, source_hint: 审计项目业务记录}
+  - {kind: 审计重要性及适用报告基础和准则, point_in_time: 本期项目批准且适用版本, source_hint: 项目计划与 S27 会计规范}
+fusable_with: []
+evidence:
+  - id: WF-20261013-10
+    type: guideline
+    origin: 中国注册会计师协会
+    url: https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyzz/sjzz/202105/P020210507610910041600.pdf
+    locator: 中国注册会计师审计准则第1251号，2019年修订，第6、9-16条，PDF第2-4页
+    excerpt: 摘要：累积错报、沟通更正、评价未更正错报，并记录是否更正及结论依据。
+    supports: [role, trigger, workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-11
+    type: software_documentation
+    origin: Caseware
+    url: https://docs.caseware.com/2020/webapps/31/cn/Engagements/Accounts-and-Analysis/Export-adjustments-and-trial-balance-data.htm
+    locator: Export adjustments；Export trial balance data；Adjustments 与 Data 页面
+    excerpt: 摘要：审计人员按调整类型筛选并导出调整及试算数据，供客户更新账簿；支持CSV和PDF。
+    supports: [role, workflow_steps, deliverables, software]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 按PDF正文识别为中国准则1251号，未沿用搜索标题的450号。软件证据为 Caseware Cloud，不混用 Working Papers 桌面版的功能与文件格式。软件版本、账户与授权需在实例化时提供，当前未部署。耗时及文件名为研究估计与建议，不等于审计项目全部工时。

@@ -1,0 +1,61 @@
+task_type_id: LAW-L02-002
+industry: legal
+work_family: L02 民商事诉讼、争点与证据
+title: 商事案件证据编排、事实时间线与争点对应复核
+role: 商事争议代理律师或律师助理
+trigger: 接受诉讼委托或准备庭前举证，需要把现有证据整理为可核查的事实及争点材料
+expert_time_estimate: 120-240 min（研究者估计，限有限证据包的庭前整理）
+workflow_steps:
+  - 阅读诉辩材料与委托说明，确定本方请求、抗辩和待证明的事实。
+  - 给现有材料及页面建立整理编号，登记名称、形成时间、来源、原件状态和关键词。
+  - 在 Excel 中按事实类别和时间排序，建立约定事项与实际履行相对照的时间线。
+  - 对照请求权或抗辩权基础，将要件事实、双方分歧与证据编号对应，区分无争议及有争议事实。
+  - 核对证据间矛盾、材料形式、证明范围和补强需求，提出补充问题或材料清单。
+  - 编排拟提交的证据目录，复核编号、页码、来源和证明内容，保留内部整理码与提交编号映射。
+software:
+  - {name: Microsoft Excel, use: 建立日期、关键词及证据编号表，排序筛选事实时间线与争点证据对应关系, provision: cua}
+deliverables:
+  - {file: evidence_workbook.xlsx, form: 原始材料索引、事实时间线、争点对应及编号映射}
+  - {file: evidence_catalog.pdf, form: 按拟提交顺序导出的证据目录及证明内容}
+  - {file: supplementation_note.pdf, form: 补充问题、冲突与需补强材料清单}
+verification:
+  profession_checks:
+    - 当事人陈述、证据内容、推测和已认定事实分别标注。
+    - 争点从请求、抗辩及要件事实整理，不把所有材料主题都列为争点。
+    - 证明内容不超出证据实际范围，不机械以单份证据认定证明不足。
+    - 内部整理顺序与法庭提交目录区分，原件或原始材料定位不丢失。
+  objective_parts:
+    - 证据编号、形成日期、页码和原件状态与输入一致。
+    - 时间线的约定与履行事项、金额及对应出处。
+    - 争点或缺口条目所引用的证据实际存在且位置正确。
+    - 提交编号与内部整理码映射，以及目录的遗漏和重复。
+  rubric_parts:
+    - 要件事实与证据的对应和证明范围是否合理。
+    - 对矛盾、形式问题及补强方向的判断是否有依据且可实施。
+input_data:
+  - {kind: 授权的合同、付款、履行、通知和往来材料, point_in_time: 庭前整理截止日已经取得, source_hint: 委托方证据包，S34 案例不能替代原始卷宗}
+  - {kind: 诉辩请求、委托说明及对方已提交材料, point_in_time: 对应程序阶段, source_hint: 委托方业务文件}
+  - {kind: 实体和程序规范及举证通知, point_in_time: 事项及程序时适用版本, source_hint: S31、法院通知及获授权文书}
+fusable_with: []
+evidence:
+  - id: WF-20261013-14
+    type: guideline
+    origin: 上海市律师协会
+    url: https://www.lawyers.org.cn/info/453c50f6b8374371ae6e5331a9e2c301
+    locator: 2019商事诉讼指引，第3、15-21条
+    excerpt: 摘要：围绕请求及抗辩要件多轮整理争议点，建立与证据的对应，庭前分类编码并制作目录。
+    supports: [role, trigger, workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-15
+    type: practitioner
+    origin: 法悟／张建
+    url: https://sdcylaw.com/lvshiwenshu/189.html
+    locator: 储誉律师网站转载《Excel在证据及事实梳理中的应用指引》，第2.2-2.10、3.1-3.6、4.1节
+    excerpt: 摘要：以Excel登记整理码、时间和关键词，排序证据及二维时间线；内部整理不等同最终提交。
+    supports: [workflow_steps, deliverables, verification, software]
+    checked_at: '2026-10-13'
+    access: full_text_attributed_republication
+status: verified
+instantiated_tasks: []
+notes: 原始作者按正文署名记录为法悟／张建，转载网站不计作另一条独立证据。2019指引用于工作方法；现行实体法、证据规则和程序期限在实例化时按具体事项另核。证明力需要根据具体材料判断。耗时及文件名为研究估计与建议；当前未接收真实当事人材料或部署软件。

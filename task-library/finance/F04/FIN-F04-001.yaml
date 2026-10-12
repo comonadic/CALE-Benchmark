@@ -1,0 +1,69 @@
+task_type_id: FIN-F04-001
+industry: finance
+work_family: F04 固定收益信用与违约处置
+title: 公司债到期及回售资金落实排查
+role: 证券公司债券受托管理或存续期风险管理岗
+trigger: 按受托管理和辖区监管要求，排查下一阶段到期、回售或兑付债券的资金安排
+expert_time_estimate: 90-180 min（研究者估计，限同一发行人或有限债券批次的排查）
+workflow_steps:
+  - 锁定辖区、排查截止日和报送范围，读取适用通知及受托管理协议。
+  - 从募集说明书、回售公告和偿付记录逐券整理本金、付息、回售与兑付节点。
+  - 对照发行人反馈、偿债安排和资金证明，逐项区分已落实资金、待落实安排和重复来源。
+  - 在 Excel 排查表中维护债券余额、到期金额、资金来源及落实状态，记录出处和更新时间。
+  - 结合近期财务、重大事项和增信情况，标识资金缺口、到账时点及偿付不确定性。
+  - 形成排查表和重点事项说明，提出跟进、补证及按适用要求报告的事项。
+software:
+  - {name: Microsoft Excel, use: 填写并更新可编辑偿债资金排查表，按债券和资金来源筛选、核对与汇总, provision: cua}
+deliverables:
+  - {file: debt_funding_check.xlsx, form: 到期或回售债券与资金落实情况排查表}
+  - {file: funding_risk_note.pdf, form: 重点资金缺口、证明材料及跟进事项说明}
+verification:
+  profession_checks:
+    - 排查日、到期日、回售日和实际付款节点分别登记。
+    - 发行人筹资计划与已取得到账或可用证明的资金区分。
+    - 同一笔资金不同时重复覆盖多只债券；可用性及到账时点有证据。
+    - 适用辖区及年度明确，不混用历史通知的报送期限。
+  objective_parts:
+    - 排查范围内债券的本金余额、偿付日期和应付金额。
+    - 确认资金、待确认资金及缺口的加总和去重。
+    - 排查表状态与原始资金证明、公告和更新时间的一致性。
+    - 重大事项及未落实资金是否进入跟进清单。
+  rubric_parts:
+    - 对筹资可行性、时点风险和增信有效性的判断依据。
+    - 跟进措施的优先级与受托管理职责是否匹配。
+input_data:
+  - {kind: 募集说明书、受托协议及回售或兑付公告, point_in_time: 排查截止日已生效或公告版本, source_hint: S01、S06、交易所公开披露}
+  - {kind: 财务报告、资金安排反馈及资金证明, point_in_time: 同一排查截止日, source_hint: 公开披露加发行人授权业务材料}
+  - {kind: 辖区监管通知、报送模板及重大事项记录, point_in_time: 对应辖区和年度, source_hint: S39 证监会及派出机构}
+fusable_with: []
+evidence:
+  - id: WF-20261013-05
+    type: regulation
+    origin: 中国证监会
+    url: https://www.csrc.gov.cn/beijing/c103545/c1999299/content.shtml
+    locator: 2022年通知，二（五）第1项及附件3.xlsx
+    excerpt: 摘要：受托管理人逐券排查到期或回售资金来源并报送 Excel 可编辑排查表。
+    supports: [role, trigger, workflow_steps, deliverables, software]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-06
+    type: regulation
+    origin: 中国证监会
+    url: https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml
+    locator: 2026年6月9日通知，二（三）（四）及附件5
+    excerpt: 摘要：要求定期排查次月受托债券到期及资金落实情况，并针对兑付不确定性报告。
+    supports: [trigger, workflow_steps, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-07
+    type: public_artifact
+    origin: 中信建投证券
+    url: https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-30/243191_20260630_H5C5.pdf
+    locator: 国新商业保理2025年度受托报告，PDF第2页编制来源、第5-6页履职、第9-12页偿债与履约章节
+    excerpt: 摘要：真实受托报告通过沟通、披露查阅和持续跟踪，复核财务、偿债保障与本息偿付。
+    supports: [role, workflow_steps, deliverables, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 本卡为从零调研的工作类型，不绑定原 pilot。两份监管通知来自同一发布体系，只计一组独立来源；券商原始报告为第二组。北京2022年的每月20日与新疆2026年的每月10日是各自条件，不能推广为统一期限。公开报告仅保存链接和摘要，实例化前检查原件授权。耗时与文件名为研究估计及建议。

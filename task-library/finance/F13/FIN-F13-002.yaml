@@ -1,0 +1,60 @@
+task_type_id: FIN-F13-002
+industry: finance
+work_family: F13 衍生品与套期保值
+title: 企业期现敞口台账更新与套保效果复核
+role: 企业套保管理或财务风控岗
+trigger: 新一批采购、销售、期货成交或移仓发生后，需要更新敞口、操作记录和期现综合损益
+expert_time_estimate: 90-180 min（研究者估计，限单一商品的有限业务批次）
+workflow_steps:
+  - 读取企业批准的套保策略、授权范围与对应期间的采购和销售记录。
+  - 整理现货数量、作价时点及已互相对冲的购销业务，识别剩余净敞口。
+  - 对照期货成交和持仓快照，将期现对冲、移仓、现现对冲及未完全对冲操作分类登记。
+  - 在电子表格中关联现货业务和期货操作，重算剩余敞口、手数换算及期现损益。
+  - 对照资金、保证金及授权记录，复核使用规模和需要补证或跟进的项目。
+  - 汇总保值效果与未覆盖风险，说明基差、时点和数量差异，而非只评价期货端盈利。
+software:
+  - {name: 电子表格软件（本卡拟以 Microsoft Excel 提供）, use: 编辑购销与套保操作台账，公式汇总敞口及期现损益并输出批次说明, provision: cua}
+deliverables:
+  - {file: hedge_ledger.xlsx, form: 业务记录、操作分类、敞口及期现损益联动工作簿}
+  - {file: hedge_review.pdf, form: 保值效果、资金和授权异常及跟进说明}
+verification:
+  profession_checks:
+    - 对冲以真实现货经营敞口和批准策略为依据。
+    - 每笔现货与期货操作有对应或未对应状态，移仓和平仓不重复计入。
+    - 保值评价覆盖现货与期货两端，保留数量、作价和基差差异。
+    - 套保比率、资金上限及风险阈值取自企业本期规则，不能复制案例企业参数。
+  objective_parts:
+    - 采购、销售、库存和期货头寸的数量与单位换算。
+    - 逐笔及汇总净敞口、已实现损益、移仓和总体损益的勾稽。
+    - 操作记录、成交日期和授权范围的一致性。
+    - 工作簿公式在交易输入变化后重算相应汇总。
+  rubric_parts:
+    - 对套保偏差和残余风险的解释是否与业务及市场材料一致。
+    - 风险跟进建议是否遵守企业授权和资金约束。
+input_data:
+  - {kind: 企业批准的套保策略、授权和资金限额, point_in_time: 本批次操作时有效版本, source_hint: 委托方业务制度或 S01 披露}
+  - {kind: 现货采购、销售、库存及作价记录, point_in_time: 本批次实际发生记录, source_hint: 委托方授权经营台账}
+  - {kind: 成交、持仓、结算和资金快照, point_in_time: 与台账截止日及交易期间一致, source_hint: 委托方账户记录与 S21 上期所参数快照}
+fusable_with: []
+evidence:
+  - id: WF-20261013-08
+    type: practitioner
+    origin: 金瑞期货
+    url: https://edu.cfachina.org/zthd/qhhyrzxx/2024ALK/zxfw2024/202601/P020260109326224112777.pdf
+    locator: 中期协案例选编，印刷页93-95，二（一）与二（三）；PDF第2-4页
+    excerpt: 摘要：电子化业务和套保台账记录购销、期现对冲、移仓等操作，并自动汇总净敞口和综合损益。
+    supports: [role, trigger, workflow_steps, deliverables, verification, software]
+    checked_at: '2026-10-13'
+    access: full_text
+  - id: WF-20261013-09
+    type: public_artifact
+    origin: 广东天禾农资股份有限公司
+    url: https://static.cninfo.com.cn/finalpage/2025-05-20/1223587146.PDF
+    locator: 公告2025-031，五（二）（五），PDF第5页
+    excerpt: 摘要：企业按照审批权限安排保证金，后台部门审查实际操作、资金使用及盈亏情况。
+    supports: [role, workflow_steps, verification]
+    checked_at: '2026-10-13'
+    access: full_text
+status: verified
+instantiated_tasks: []
+notes: 第一来源明确电子表格真实参与，但未确认软件品牌；Excel是本卡建议实现。表结构按具体业务组织，套保比率和风险阈值按企业制度确定。现货报价、成交和保证金参数由时点快照提供。耗时及文件名为研究估计与建议；未部署环境。
