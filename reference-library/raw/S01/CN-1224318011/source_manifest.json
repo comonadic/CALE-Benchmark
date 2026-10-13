@@ -1,0 +1,62 @@
+{
+  "document_id": "CN-1224318011",
+  "source_id": "S01",
+  "title": "海大集团：商品套期保值业务管理制度",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2025-07-29/1224318011.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1224318011&announcementTime=2025-07-29",
+  "publisher": "海大集团 (002311)",
+  "entity_ids": [
+    "海大集团 (002311)"
+  ],
+  "package_id": "PKG-HAID-2026",
+  "task_type_ids": [
+    "FIN-F13-002"
+  ],
+  "published_at": "2025-07-29",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2025年8月股东会通过后的12个月；不与2026年8月新额度混用",
+  "original_format": "pdf",
+  "content_role": "hedge_internal_public_policy",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "海大集团"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:13:26+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1224318011/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1224318011",
+  "content_hash": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699",
+  "bytes": 415417,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2025-07-29/1224318011.PDF",
+    "content_length": "415417"
+  },
+  "format_check": {
+    "pages": 8,
+    "page_text_lengths": [
+      591,
+      615,
+      754,
+      626,
+      577,
+      548,
+      570,
+      11
+    ],
+    "pages_needing_visual_review": [
+      8
+    ]
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1224318011/original.pdf",
+  "repository_content_hash": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699",
+  "repository_bytes": 415417,
+  "repository_pages": 8,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

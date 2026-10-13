@@ -1,0 +1,48 @@
+{
+  "document_id": "GZ-CZ20260463-REQUIREMENTS",
+  "source_id": "S44",
+  "title": "广州市政府办公厅2026-2027信息化运维：第二章 采购需求",
+  "original_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/ZF_JGBM_000009/zone/2026/4/15/8a7e9d799d7517d7019d8e9df7cf4819/gpx-tender/8a7efde19c33c770019dd8575ce37a44.docx?accessCode=f98c9dd951d737711b8b7e0362f7f9fa",
+  "publication_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202604/t20260430_26486504.htm",
+  "publisher": "CZ2026-0463 / 广州市人民政府办公厅",
+  "entity_ids": [
+    "CZ2026-0463 / 广州市人民政府办公厅"
+  ],
+  "package_id": "PKG-GZ-IT-CONTRACT-2026",
+  "task_type_ids": [
+    "LAW-L01-002"
+  ],
+  "published_at": "2026-04-30",
+  "published_at_basis": "官方发布页日期及原件正文核对",
+  "business_period": "服务期2026-06-21至2027-06-20；招标版本2026042903",
+  "original_format": "docx",
+  "content_role": "project_specific_procurement_requirements",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:34+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S44/GZ-CZ20260463-REQUIREMENTS/original.docx",
+  "parsed_path": "reference-library/parsed/GZ-CZ20260463-REQUIREMENTS",
+  "content_hash": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+  "bytes": 72147,
+  "http": {
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "final_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/ZF_JGBM_000009/zone/2026/4/15/8a7e9d799d7517d7019d8e9df7cf4819/gpx-tender/8a7efde19c33c770019dd8575ce37a44.docx?accessCode=f98c9dd951d737711b8b7e0362f7f9fa",
+    "content_length": "72147"
+  },
+  "format_check": {
+    "paragraph_text_nodes": 995,
+    "tables": 17
+  },
+  "repository_file_path": "reference-library/raw/S44/GZ-CZ20260463-REQUIREMENTS/original.docx",
+  "repository_content_hash": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+  "repository_bytes": 72147,
+  "repository_pages": null,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

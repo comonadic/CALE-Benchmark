@@ -1,0 +1,56 @@
+{
+  "document_id": "CN-1224486549",
+  "source_id": "S01",
+  "title": "海大集团：2025年第三次临时股东会决议公告",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2025-08-15/1224486549.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1224486549&announcementTime=2025-08-15",
+  "publisher": "海大集团 (002311)",
+  "entity_ids": [
+    "海大集团 (002311)"
+  ],
+  "package_id": "PKG-HAID-2026",
+  "task_type_ids": [
+    "FIN-F13-002"
+  ],
+  "published_at": "2025-08-15",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2025年8月股东会通过后的12个月；不与2026年8月新额度混用",
+  "original_format": "pdf",
+  "content_role": "prior_shareholder_authorization_decision",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "海大集团"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:13:26+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1224486549/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1224486549",
+  "content_hash": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+  "bytes": 331271,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2025-08-15/1224486549.PDF",
+    "content_length": "331271"
+  },
+  "format_check": {
+    "pages": 4,
+    "page_text_lengths": [
+      848,
+      932,
+      957,
+      447
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1224486549/original.pdf",
+  "repository_content_hash": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+  "repository_bytes": 331271,
+  "repository_pages": 4,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

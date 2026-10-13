@@ -1,0 +1,50 @@
+{
+  "document_id": "CSRC-XJ-DEBT-NOTICE-20260609",
+  "source_id": "S39",
+  "title": "关于做好2026年新疆辖区债券相关工作的通知",
+  "original_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+  "publication_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+  "publisher": "新疆证监局",
+  "entity_ids": [
+    "新疆证监局"
+  ],
+  "package_id": "PKG-SWHY-DEBT-2026",
+  "task_type_ids": [
+    "FIN-F04-001"
+  ],
+  "published_at": "2026-06-09",
+  "published_at_basis": "官方发布页日期及原件正文核对",
+  "business_period": "新疆辖区2026年度",
+  "original_format": "html",
+  "content_role": "jurisdiction_specific_operating_rule",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "2026",
+    "偿债资金"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:54+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S39/CSRC-XJ-DEBT-NOTICE-20260609/original.html",
+  "parsed_path": "reference-library/parsed/CSRC-XJ-DEBT-NOTICE-20260609",
+  "content_hash": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+  "bytes": 38468,
+  "http": {
+    "status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+    "content_length": "38468"
+  },
+  "format_check": {
+    "text_characters": 3099
+  },
+  "repository_file_path": "reference-library/raw/S39/CSRC-XJ-DEBT-NOTICE-20260609/original.html",
+  "repository_content_hash": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+  "repository_bytes": 38468,
+  "repository_pages": null,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

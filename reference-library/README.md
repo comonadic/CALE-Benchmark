@@ -7,11 +7,13 @@
 - [文件索引](batches/2026-10-13-task-inputs/catalog.jsonl)、[质量记录](batches/2026-10-13-task-inputs/quality.jsonl)、[输入覆盖](batches/2026-10-13-task-inputs/input-coverage.json)：可以按卡片、主体、时点和材料角色选材。
 - [`packages/`](packages/)：9组材料的关联键、默认截止日、版本链、默认输入和隔离文件。
 
-原件在 `raw/<source_id>/<document_id>/original.*`，每份带 `source_manifest.json` 和SHA-256。解析、OCR在 `parsed/`，连接原件哈希。原件与阅读副本保留在本地，不随 Git 分发；索引里的相对路径可在当前工作区打开。ICC规则只保留链接及版本信息。
+真实材料文件及解析层均随仓库保存，克隆后可以直接读取。38份原件在 `raw/<source_id>/<document_id>/original.*`，每份带 `source_manifest.json` 和SHA-256。另1份审计报告通过 `business-pages.pdf` 保存完整业务正文（原始页1-6），含身份证信息的证照附页7-10没有公开；完整来源原件留在本地，原件哈希和删页范围见 `publication_manifest.json`。解析、OCR在 `parsed/`，连接来源原件哈希。
+
+[实际入库文件清单](batches/2026-10-13-task-inputs/repository-files.json)逐项记录39份文件的仓库路径、哈希及大小，`repository_file_path` 是可直接读取的文件路径。ICC规则仍只保留链接及版本信息。
 
 `accepted_public_source` 表示公开原件来源、格式和记录通过核验；`accepted_with_issue` 要阅读具体问题。两者都不表示一项真实工作所需的内部输入已齐备。任务实例化前，按输入覆盖表补授权材料，按默认视图隔离事后结果，并核对再分发范围。
 
-复核本批：
+复核本批（无需事先重新下载原件）：
 
 ```bash
 python scripts/validate_reference_library.py reference-library/batches/2026-10-13-task-inputs

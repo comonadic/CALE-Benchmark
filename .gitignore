@@ -8,7 +8,7 @@ jobs/
 __pycache__/
 *.pyc
 .DS_Store
-# Acquired third-party originals and reading/QA derivatives stay local.
-reference-library/raw/
-reference-library/parsed/
+# Full source includes identity-number certificate appendices; publish business-pages.pdf.
+reference-library/raw/S01/CN-1225460243/original.pdf
+# Temporary page renders and visual QA stay local.
 reference-library/qa/

@@ -1,0 +1,84 @@
+{
+  "document_id": "CN-1225398819",
+  "source_id": "S01",
+  "title": "申万宏源：申万宏源集团股份有限公司公司债券受托管理事务报告（2025年度）",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225398819.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225398819&announcementTime=2026-06-30",
+  "publisher": "申万宏源 (000166)",
+  "entity_ids": [
+    "申万宏源 (000166)"
+  ],
+  "package_id": "PKG-SWHY-DEBT-2026",
+  "task_type_ids": [
+    "FIN-F04-001"
+  ],
+  "published_at": "2026-06-30",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "申万宏源集团（非证券子公司）；23申宏04到期事项",
+  "original_format": "pdf",
+  "content_role": "trustee_annual_public_artifact",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "申万宏源"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:33+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1225398819/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1225398819",
+  "content_hash": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+  "bytes": 358500,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225398819.PDF",
+    "content_length": "358500"
+  },
+  "format_check": {
+    "pages": 30,
+    "page_text_lengths": [
+      49,
+      361,
+      1023,
+      1185,
+      1062,
+      906,
+      606,
+      608,
+      594,
+      622,
+      607,
+      601,
+      633,
+      612,
+      535,
+      684,
+      627,
+      590,
+      651,
+      501,
+      704,
+      126,
+      634,
+      219,
+      1081,
+      798,
+      36,
+      521,
+      135,
+      72
+    ],
+    "pages_needing_visual_review": [
+      27
+    ]
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1225398819/original.pdf",
+  "repository_content_hash": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+  "repository_bytes": 358500,
+  "repository_pages": 30,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

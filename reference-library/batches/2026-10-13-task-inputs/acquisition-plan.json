@@ -34,9 +34,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225203635/original.pdf",
+      "repository_content_hash": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "repository_bytes": 7393821,
+      "repository_pages": 294,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225495975",
@@ -64,9 +70,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225495975/original.pdf",
+      "repository_content_hash": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "repository_bytes": 6303458,
+      "repository_pages": 221,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225451854",
@@ -92,9 +104,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225451854/original.pdf",
+      "repository_content_hash": "058d72df110d1f589549ba129d49e60ea6d52e81a995812735ec797a2a9b3d47",
+      "repository_bytes": 195466,
+      "repository_pages": 5,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225451855",
@@ -120,9 +138,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225451855/original.pdf",
+      "repository_content_hash": "3912be006b73d04bd9702bcf4d696bffc56dd5413cdb8faa10e3c85644e10135",
+      "repository_bytes": 111464,
+      "repository_pages": 5,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225491061",
@@ -148,9 +172,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225491061/original.pdf",
+      "repository_content_hash": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+      "repository_bytes": 150953,
+      "repository_pages": 3,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "SSE-ZHIXIN-PROSPECTUS-20251030",
@@ -176,10 +206,16 @@
       "expected_text": [
         "至信"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html",
+      "repository_file_path": "reference-library/raw/S02/SSE-ZHIXIN-PROSPECTUS-20251030/original.pdf",
+      "repository_content_hash": "42dc923b52ffecd0f215532839911bd7f7806296f6403c7e2f72cfe6c8a69242",
+      "repository_bytes": 11009499,
+      "repository_pages": 411,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "SSE-ZHIXIN-PROSPECTUS-20251114",
@@ -205,10 +241,16 @@
       "expected_text": [
         "至信"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html",
+      "repository_file_path": "reference-library/raw/S02/SSE-ZHIXIN-PROSPECTUS-20251114/original.pdf",
+      "repository_content_hash": "97d43bcedd4654ec96828bdf9c264e6ccf86f5ac21cf2ee1cc8704ba11881628",
+      "repository_bytes": 11195600,
+      "repository_pages": 414,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "SSE-ZHIXIN-AUDIT-20251030",
@@ -234,10 +276,16 @@
       "expected_text": [
         "至信"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html",
+      "repository_file_path": "reference-library/raw/S02/SSE-ZHIXIN-AUDIT-20251030/original.pdf",
+      "repository_content_hash": "f2ad219a3f892e300e1de6a3ab15fe4800036fee8a9608f88bb0b960b39aa61e",
+      "repository_bytes": 13793972,
+      "repository_pages": 205,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "SSE-ZHIXIN-LEGAL-20251030",
@@ -263,10 +311,16 @@
       "expected_text": [
         "至信"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html",
+      "repository_file_path": "reference-library/raw/S02/SSE-ZHIXIN-LEGAL-20251030/original.pdf",
+      "repository_content_hash": "e07a9585865a3982cb123c4d5418d0724dec4d002de4f788a6cbf21afd2f45a4",
+      "repository_bytes": 5958180,
+      "repository_pages": 305,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "SSE-ZHIXIN-REPLY1-20250901",
@@ -292,10 +346,16 @@
       "expected_text": [
         "至信"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html",
+      "repository_file_path": "reference-library/raw/S02/SSE-ZHIXIN-REPLY1-20250901/original.pdf",
+      "repository_content_hash": "1734519655b8822e7df3163d3cec9b0704084a1076a3d66d7df3f0ca77e9394b",
+      "repository_bytes": 7164262,
+      "repository_pages": 340,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "SSE-ZHIXIN-REPLY2-20251010",
@@ -321,10 +381,16 @@
       "expected_text": [
         "至信"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html",
+      "repository_file_path": "reference-library/raw/S02/SSE-ZHIXIN-REPLY2-20251010/original.pdf",
+      "repository_content_hash": "c463e1dd9b79810a0ece4a6059dcf90f83f8d42603365a7ee7c16b1e53d4be92",
+      "repository_bytes": 4210329,
+      "repository_pages": 157,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225327554",
@@ -350,9 +416,15 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225327554/original.pdf",
+      "repository_content_hash": "968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892",
+      "repository_bytes": 5954840,
+      "repository_pages": 383,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225449388",
@@ -378,9 +450,15 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225449388/original.pdf",
+      "repository_content_hash": "e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98",
+      "repository_bytes": 6240258,
+      "repository_pages": 398,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225327559",
@@ -406,10 +484,16 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "allow_visual_identity_review": true
+      "allow_visual_identity_review": true,
+      "repository_file_path": "reference-library/raw/S01/CN-1225327559/original.pdf",
+      "repository_content_hash": "31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f",
+      "repository_bytes": 28930209,
+      "repository_pages": 77,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225449382",
@@ -435,10 +519,16 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "allow_visual_identity_review": true
+      "allow_visual_identity_review": true,
+      "repository_file_path": "reference-library/raw/S01/CN-1225449382/original.pdf",
+      "repository_content_hash": "a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438",
+      "repository_bytes": 21225865,
+      "repository_pages": 61,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225327560",
@@ -464,9 +554,15 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225327560/original.pdf",
+      "repository_content_hash": "ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df",
+      "repository_bytes": 24431250,
+      "repository_pages": 80,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225449390",
@@ -492,9 +588,15 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225449390/original.pdf",
+      "repository_content_hash": "c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1",
+      "repository_bytes": 8034657,
+      "repository_pages": 96,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225449376",
@@ -520,9 +622,15 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225449376/original.pdf",
+      "repository_content_hash": "e09e3a2ab4a019f7fe4ed063552dbaeccd1f2cc71a793ab9f0759dee45a41b83",
+      "repository_bytes": 1737533,
+      "repository_pages": 228,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225449371",
@@ -548,9 +656,15 @@
       "expected_text": [
         "国城矿业"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225449371/original.pdf",
+      "repository_content_hash": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+      "repository_bytes": 147025,
+      "repository_pages": 2,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225248741",
@@ -577,9 +691,15 @@
       "expected_text": [
         "茂化实华"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225248741/original.pdf",
+      "repository_content_hash": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+      "repository_bytes": 1291103,
+      "repository_pages": 209,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225460245",
@@ -606,9 +726,15 @@
       "expected_text": [
         "茂化实华"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225460245/original.pdf",
+      "repository_content_hash": "9f450c4fc9370aeb5023e498cdc1a9601b24f28ffba5ec3d865e97af0bcd346b",
+      "repository_bytes": 340728,
+      "repository_pages": 26,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225460240",
@@ -635,9 +761,15 @@
       "expected_text": [
         "茂化实华"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225460240/original.pdf",
+      "repository_content_hash": "1188d9bcac97cc67fa75424b8382acfbb387384b5e3dfeb71f545d1f90fb4791",
+      "repository_bytes": 1231152,
+      "repository_pages": 209,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225460243",
@@ -664,10 +796,21 @@
       "expected_text": [
         "茂名石化实华"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
       "contamination_status": "not_empirically_tested",
-      "allow_visual_identity_review": true
+      "allow_visual_identity_review": true,
+      "repository_file_path": "reference-library/raw/S01/CN-1225460243/business-pages.pdf",
+      "repository_content_hash": "148ac2b4d67ff4316e72451f02fba6613da0a424fea248a872ba534d1782da16",
+      "repository_bytes": 1306209,
+      "repository_pages": 6,
+      "publication_kind": "business_pages_copy",
+      "source_pages_excluded": [
+        7,
+        8,
+        9,
+        10
+      ]
     },
     {
       "document_id": "CN-1225045474",
@@ -693,9 +836,15 @@
       "expected_text": [
         "申万宏源"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225045474/original.pdf",
+      "repository_content_hash": "6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471",
+      "repository_bytes": 25046372,
+      "repository_pages": 458,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225398819",
@@ -721,9 +870,15 @@
       "expected_text": [
         "申万宏源"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225398819/original.pdf",
+      "repository_content_hash": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+      "repository_bytes": 358500,
+      "repository_pages": 30,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225545737",
@@ -749,9 +904,15 @@
       "expected_text": [
         "申万宏源"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225545737/original.pdf",
+      "repository_content_hash": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+      "repository_bytes": 187319,
+      "repository_pages": 5,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1225489930",
@@ -777,9 +938,15 @@
       "expected_text": [
         "重庆建工"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1225489930/original.pdf",
+      "repository_content_hash": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "repository_bytes": 186509,
+      "repository_pages": 5,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "GZ-CZ20260463-CONTRACT",
@@ -803,9 +970,15 @@
       "version_of": null,
       "acquisition_policy": "download",
       "expected_text": [],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S44/GZ-CZ20260463-CONTRACT/original.docx",
+      "repository_content_hash": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "repository_bytes": 20422,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "GZ-CZ20260463-REQUIREMENTS",
@@ -829,9 +1002,15 @@
       "version_of": null,
       "acquisition_policy": "download",
       "expected_text": [],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S44/GZ-CZ20260463-REQUIREMENTS/original.docx",
+      "repository_content_hash": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "repository_bytes": 72147,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "GZ-CZ20260463-TENDER",
@@ -855,9 +1034,15 @@
       "version_of": null,
       "acquisition_policy": "download",
       "expected_text": [],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S44/GZ-CZ20260463-TENDER/original.zip",
+      "repository_content_hash": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+      "repository_bytes": 387055,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "COURT-ZHENXIN-GUIDE",
@@ -881,9 +1066,15 @@
       "version_of": null,
       "acquisition_policy": "download",
       "expected_text": [],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S33/COURT-ZHENXIN-GUIDE/original.pdf",
+      "repository_content_hash": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+      "repository_bytes": 188442,
+      "repository_pages": 6,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "COURT-ZHENXIN-CLAIM",
@@ -907,9 +1098,15 @@
       "version_of": null,
       "acquisition_policy": "download",
       "expected_text": [],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S33/COURT-ZHENXIN-CLAIM/original.docx",
+      "repository_content_hash": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+      "repository_bytes": 15373,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "COURT-ZHENXIN-LIST",
@@ -933,9 +1130,15 @@
       "version_of": null,
       "acquisition_policy": "download",
       "expected_text": [],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S33/COURT-ZHENXIN-LIST/original.docx",
+      "repository_content_hash": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+      "repository_bytes": 13376,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "COURT-ZHENXIN-REGISTER",
@@ -959,9 +1162,15 @@
       "version_of": null,
       "acquisition_policy": "download",
       "expected_text": [],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S33/COURT-ZHENXIN-REGISTER/original.docx",
+      "repository_content_hash": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db",
+      "repository_bytes": 14240,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CSRC-XJ-DEBT-NOTICE-20260609",
@@ -988,9 +1197,15 @@
         "2026",
         "偿债资金"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S39/CSRC-XJ-DEBT-NOTICE-20260609/original.html",
+      "repository_content_hash": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+      "repository_bytes": 38468,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CSRC-XJ-FUNDING-FORM-20260609",
@@ -1016,9 +1231,15 @@
       "expected_text": [
         "资金"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S39/CSRC-XJ-FUNDING-FORM-20260609/original.xlsx",
+      "repository_content_hash": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+      "repository_bytes": 68084,
+      "repository_pages": null,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "ICC-RULES-2026-EN",
@@ -1096,9 +1317,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1224318011/original.pdf",
+      "repository_content_hash": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699",
+      "repository_bytes": 415417,
+      "repository_pages": 8,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1224318016",
@@ -1124,9 +1351,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1224318016/original.pdf",
+      "repository_content_hash": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+      "repository_bytes": 438773,
+      "repository_pages": 5,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     },
     {
       "document_id": "CN-1224486549",
@@ -1152,9 +1385,15 @@
       "expected_text": [
         "海大集团"
       ],
-      "rights_status": "local_research_only; redistribution_not_authorized",
+      "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
       "source_authenticity": "primary_publication",
-      "contamination_status": "not_empirically_tested"
+      "contamination_status": "not_empirically_tested",
+      "repository_file_path": "reference-library/raw/S01/CN-1224486549/original.pdf",
+      "repository_content_hash": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+      "repository_bytes": 331271,
+      "repository_pages": 4,
+      "publication_kind": "unaltered_source_original",
+      "source_pages_excluded": []
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "document_id": "CSRC-XJ-FUNDING-FORM-20260609",
+  "source_id": "S39",
+  "title": "附件5：公司（企业）债券偿债资金落实情况排查表",
+  "original_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/7638121/files/附件5：公司（企业）债券偿债资金落实情况排查表.xlsx",
+  "publication_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+  "publisher": "新疆证监局",
+  "entity_ids": [
+    "新疆证监局"
+  ],
+  "package_id": "PKG-SWHY-DEBT-2026",
+  "task_type_ids": [
+    "FIN-F04-001"
+  ],
+  "published_at": "2026-06-09",
+  "published_at_basis": "官方发布页日期及原件正文核对",
+  "business_period": "新疆辖区2026年度",
+  "original_format": "xlsx",
+  "content_role": "blank_regulatory_workbook",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "资金"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:54+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S39/CSRC-XJ-FUNDING-FORM-20260609/original.xlsx",
+  "parsed_path": "reference-library/parsed/CSRC-XJ-FUNDING-FORM-20260609",
+  "content_hash": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+  "bytes": 68084,
+  "http": {
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "final_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/7638121/files/%E9%99%84%E4%BB%B65%EF%BC%9A%E5%85%AC%E5%8F%B8%EF%BC%88%E4%BC%81%E4%B8%9A%EF%BC%89%E5%80%BA%E5%88%B8%E5%81%BF%E5%80%BA%E8%B5%84%E9%87%91%E8%90%BD%E5%AE%9E%E6%83%85%E5%86%B5%E6%8E%92%E6%9F%A5%E8%A1%A8.xlsx",
+    "content_length": "68084"
+  },
+  "format_check": {
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "rows": 18,
+        "columns": 16384
+      },
+      {
+        "name": "Sheet2",
+        "rows": 1,
+        "columns": 1
+      }
+    ]
+  },
+  "repository_file_path": "reference-library/raw/S39/CSRC-XJ-FUNDING-FORM-20260609/original.xlsx",
+  "repository_content_hash": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+  "repository_bytes": 68084,
+  "repository_pages": null,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

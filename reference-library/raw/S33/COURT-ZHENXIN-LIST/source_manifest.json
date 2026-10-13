@@ -1,0 +1,48 @@
+{
+  "document_id": "COURT-ZHENXIN-LIST",
+  "source_id": "S33",
+  "title": "东莞市震鑫磁业有限公司：债权申报材料清单",
+  "original_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/ea19bf98f126c67adb1f837ef3ef93f4?fn=01-债权申报材料清单.docx",
+  "publication_url": "https://pccz.court.gov.cn/pcgg/ggxq?id=9a1a221faa0c4d1bae29b28a3845b4d4",
+  "publisher": "东莞市震鑫磁业有限公司 / 管理人",
+  "entity_ids": [
+    "东莞市震鑫磁业有限公司 / 管理人"
+  ],
+  "package_id": "PKG-ZHENXIN-CLAIM-2026",
+  "task_type_ids": [
+    "LAW-L04-001"
+  ],
+  "published_at": "2026-10-08",
+  "published_at_basis": "法院信息网管理人公告公开时间；不是受理日",
+  "business_period": "受理2026-09-02；申报截止2026-11-03",
+  "original_format": "docx",
+  "content_role": "blank_case_specific_filing_form",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:37+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S33/COURT-ZHENXIN-LIST/original.docx",
+  "parsed_path": "reference-library/parsed/COURT-ZHENXIN-LIST",
+  "content_hash": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+  "bytes": 13376,
+  "http": {
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "final_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/ea19bf98f126c67adb1f837ef3ef93f4?fn=01-%E5%80%BA%E6%9D%83%E7%94%B3%E6%8A%A5%E6%9D%90%E6%96%99%E6%B8%85%E5%8D%95.docx",
+    "content_length": "13376"
+  },
+  "format_check": {
+    "paragraph_text_nodes": 24,
+    "tables": 1
+  },
+  "repository_file_path": "reference-library/raw/S33/COURT-ZHENXIN-LIST/original.docx",
+  "repository_content_hash": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+  "repository_bytes": 13376,
+  "repository_pages": null,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

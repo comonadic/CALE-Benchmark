@@ -1,2 +1,5 @@
 # Preserve archived publisher responses byte-for-byte for recorded SHA-256.
 reference-library/batches/**/source-pages/*.html -text -diff
+reference-library/raw/**/original.html -text -diff
+# Text extraction retains whitespace from source layout.
+reference-library/parsed/**/*.txt -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab

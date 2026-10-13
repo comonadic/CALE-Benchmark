@@ -1,0 +1,54 @@
+{
+  "document_id": "CN-1225449371",
+  "source_id": "S01",
+  "title": "国城矿业：关于重大资产购买暨关联交易报告书（草案）修订的说明",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449371.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225449371&announcementTime=2026-07-31",
+  "publisher": "国城矿业 (000688)",
+  "entity_ids": [
+    "国城矿业 (000688)"
+  ],
+  "package_id": "PKG-GUOCHENG-MA-2026",
+  "task_type_ids": [
+    "LAW-L03-001"
+  ],
+  "published_at": "2026-07-31",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+  "original_format": "pdf",
+  "content_role": "revision_explanation",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "国城矿业"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:29+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1225449371/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1225449371",
+  "content_hash": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+  "bytes": 147025,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449371.PDF",
+    "content_length": "147025"
+  },
+  "format_check": {
+    "pages": 2,
+    "page_text_lengths": [
+      733,
+      805
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1225449371/original.pdf",
+  "repository_content_hash": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+  "repository_bytes": 147025,
+  "repository_pages": 2,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

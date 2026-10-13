@@ -23,6 +23,9 @@ def validate(batch):
     check(len(docs) == len(records), 'Duplicate document IDs')
     check(set(docs) == set(quality), 'Quality records do not match catalog')
     hashes = []
+    public_files = 0
+    full_originals = 0
+    local_source_files_checked = 0
     for card in cards:
         file = ROOT/card['card_path']
         check(file.is_file() and hashlib.sha256(file.read_bytes()).hexdigest() == card['card_sha256'],
@@ -43,15 +46,32 @@ def validate(batch):
             if record['version_of'] in docs:
                 check(docs[record['version_of']]['published_at'] <= record['published_at'], f'{id}: reversed version dates')
         if record['acquisition_status'] == 'downloaded':
-            path = (ROOT/record['file_path']).resolve()
+            path = (ROOT/record.get('repository_file_path', record['file_path'])).resolve()
             check(path.is_relative_to(ROOT/'reference-library'), f'{id}: unsafe file path')
             check(path.is_file(), f'{id}: missing original')
             if path.is_file():
                 actual = hashlib.sha256(path.read_bytes()).hexdigest()
-                check(actual == record['content_hash'], f'{id}: original hash mismatch')
-                check(path.stat().st_size == record['bytes'], f'{id}: size mismatch')
-                hashes.append(actual)
+                expected_hash = record.get('repository_content_hash', record['content_hash'])
+                check(actual == expected_hash, f'{id}: repository file hash mismatch')
+                check(path.stat().st_size == record.get('repository_bytes', record['bytes']), f'{id}: size mismatch')
+                hashes.append(record['content_hash'])
+                public_files += 1
+                if expected_hash == record['content_hash']:
+                    full_originals += 1
+                else:
+                    check(record.get('publication_kind') == 'business_pages_copy', f'{id}: unexplained source-byte change')
+                    public_manifest = path.with_name('publication_manifest.json')
+                    check(public_manifest.is_file(), f'{id}: missing page-exclusion manifest')
+                    if public_manifest.is_file():
+                        detail = json.loads(public_manifest.read_text())
+                        check(detail['repository_content_hash'] == expected_hash, f'{id}: publication manifest hash mismatch')
+                        check(detail['source_original_content_hash'] == record['content_hash'], f'{id}: original provenance mismatch')
+                        check(detail['source_pages_excluded'] == record.get('source_pages_excluded'), f'{id}: page exclusion mismatch')
             check((ROOT/record['parsed_path']/'pages.json').is_file(), f'{id}: missing parsed layer')
+            source_path = ROOT/record['file_path']
+            if source_path.is_file():
+                check(hashlib.sha256(source_path.read_bytes()).hexdigest() == record['content_hash'], f'{id}: local source original hash mismatch')
+                local_source_files_checked += 1
             if quality[id].get('ocr_pages_retained'):
                 pages = json.loads((ROOT/record['parsed_path']/'ocr-pages.json').read_text())
                 check(len(pages) == quality[id]['ocr_pages_retained'], f'{id}: OCR count mismatch')
@@ -85,6 +105,8 @@ def validate(batch):
     check(report['unique_original_hashes'] == len(set(hashes)), 'Hash deduplication inconsistent')
     return {'validation_kind':'original_integrity_card_mapping_version_and_time_views',
             'documents':len(records),'originals':len(hashes),'unique_original_hashes':len(set(hashes)),
+            'repository_material_files_verified':public_files,'unaltered_originals_verified':full_originals,
+            'local_source_originals_checked':local_source_files_checked,
             'card_count':len(cards),'input_requirements':len(coverage),'packages':len(packages),
             'scope_limit':'Not a complete professional task trial, redistribution licence, or zero-contamination certification.',
             'errors':errors}

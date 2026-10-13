@@ -1,0 +1,24 @@
+{
+  "method": "exported_staged_git_index_without_ignored_local_files",
+  "material_files": 39,
+  "unaltered_originals": 38,
+  "business_body_copies": 1,
+  "parsed_layers_available": true,
+  "all_39_excel_file_links_resolve": true,
+  "private_full_source_absent": true,
+  "validation": {
+    "validation_kind": "original_integrity_card_mapping_version_and_time_views",
+    "documents": 41,
+    "originals": 39,
+    "unique_original_hashes": 39,
+    "repository_material_files_verified": 39,
+    "unaltered_originals_verified": 38,
+    "local_source_originals_checked": 38,
+    "card_count": 11,
+    "input_requirements": 36,
+    "packages": 9,
+    "scope_limit": "Not a complete professional task trial, redistribution licence, or zero-contamination certification.",
+    "errors": []
+  },
+  "errors": []
+}

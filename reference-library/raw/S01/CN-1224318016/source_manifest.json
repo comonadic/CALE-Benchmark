@@ -1,0 +1,57 @@
+{
+  "document_id": "CN-1224318016",
+  "source_id": "S01",
+  "title": "海大集团：关于开展套期保值业务的公告",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2025-07-29/1224318016.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1224318016&announcementTime=2025-07-29",
+  "publisher": "海大集团 (002311)",
+  "entity_ids": [
+    "海大集团 (002311)"
+  ],
+  "package_id": "PKG-HAID-2026",
+  "task_type_ids": [
+    "FIN-F13-002"
+  ],
+  "published_at": "2025-07-29",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2025年8月股东会通过后的12个月；不与2026年8月新额度混用",
+  "original_format": "pdf",
+  "content_role": "prior_hedge_proposed_authorization",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "海大集团"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:13:26+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1224318016/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1224318016",
+  "content_hash": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+  "bytes": 438773,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2025-07-29/1224318016.PDF",
+    "content_length": "438773"
+  },
+  "format_check": {
+    "pages": 5,
+    "page_text_lengths": [
+      786,
+      763,
+      709,
+      873,
+      467
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1224318016/original.pdf",
+  "repository_content_hash": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+  "repository_bytes": 438773,
+  "repository_pages": 5,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

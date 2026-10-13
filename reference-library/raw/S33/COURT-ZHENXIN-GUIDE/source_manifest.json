@@ -1,0 +1,56 @@
+{
+  "document_id": "COURT-ZHENXIN-GUIDE",
+  "source_id": "S33",
+  "title": "东莞市震鑫磁业有限公司：债权申报指引",
+  "original_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/0c086b4d8db38b2ad97cdfbb7579f593?fn=00债权申报指引.pdf",
+  "publication_url": "https://pccz.court.gov.cn/pcgg/ggxq?id=9a1a221faa0c4d1bae29b28a3845b4d4",
+  "publisher": "东莞市震鑫磁业有限公司 / 管理人",
+  "entity_ids": [
+    "东莞市震鑫磁业有限公司 / 管理人"
+  ],
+  "package_id": "PKG-ZHENXIN-CLAIM-2026",
+  "task_type_ids": [
+    "LAW-L04-001"
+  ],
+  "published_at": "2026-10-08",
+  "published_at_basis": "法院信息网管理人公告公开时间；不是受理日",
+  "business_period": "受理2026-09-02；申报截止2026-11-03",
+  "original_format": "pdf",
+  "content_role": "case_specific_procedural_notice",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:35+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S33/COURT-ZHENXIN-GUIDE/original.pdf",
+  "parsed_path": "reference-library/parsed/COURT-ZHENXIN-GUIDE",
+  "content_hash": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+  "bytes": 188442,
+  "http": {
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "final_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/0c086b4d8db38b2ad97cdfbb7579f593?fn=00%E5%80%BA%E6%9D%83%E7%94%B3%E6%8A%A5%E6%8C%87%E5%BC%95.pdf",
+    "content_length": "188442"
+  },
+  "format_check": {
+    "pages": 6,
+    "page_text_lengths": [
+      603,
+      631,
+      732,
+      629,
+      660,
+      185
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S33/COURT-ZHENXIN-GUIDE/original.pdf",
+  "repository_content_hash": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+  "repository_bytes": 188442,
+  "repository_pages": 6,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

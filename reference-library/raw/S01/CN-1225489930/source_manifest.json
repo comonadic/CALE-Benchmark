@@ -1,0 +1,57 @@
+{
+  "document_id": "CN-1225489930",
+  "source_id": "S01",
+  "title": "重庆建工：重庆建工关于公司及子公司涉及诉讼的公告",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225489930.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225489930&announcementTime=2026-08-22",
+  "publisher": "重庆建工 (600939)",
+  "entity_ids": [
+    "重庆建工 (600939)"
+  ],
+  "package_id": "PKG-CQJG-LITIGATION-2026",
+  "task_type_ids": [
+    "LAW-L02-002"
+  ],
+  "published_at": "2026-08-22",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2026-08-22披露的诉讼；案情须区分当事人主张与认定",
+  "original_format": "pdf",
+  "content_role": "issuer_claim_summary_not_original_case_evidence",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "重庆建工"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:33+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1225489930/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1225489930",
+  "content_hash": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+  "bytes": 186509,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225489930.PDF",
+    "content_length": "186509"
+  },
+  "format_check": {
+    "pages": 5,
+    "page_text_lengths": [
+      717,
+      1277,
+      1240,
+      1348,
+      269
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1225489930/original.pdf",
+  "repository_content_hash": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+  "repository_bytes": 186509,
+  "repository_pages": 5,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

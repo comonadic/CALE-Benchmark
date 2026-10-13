@@ -1,0 +1,59 @@
+{
+  "document_id": "GZ-CZ20260463-TENDER",
+  "source_id": "S44",
+  "title": "广州市政府办公厅2026-2027信息化运维：项目招标文件（2026042903）",
+  "original_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/440101/gpx-tender/2026/4/29/8a7e8bdf9c42e616019dd8c9516549d1.zip?accessCode=6aa48b6ac136cc1c2016d52d13e8cd81",
+  "publication_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202604/t20260430_26486504.htm",
+  "publisher": "CZ2026-0463 / 广州市人民政府办公厅",
+  "entity_ids": [
+    "CZ2026-0463 / 广州市人民政府办公厅"
+  ],
+  "package_id": "PKG-GZ-IT-CONTRACT-2026",
+  "task_type_ids": [
+    "LAW-L01-002"
+  ],
+  "published_at": "2026-04-30",
+  "published_at_basis": "官方发布页日期及原件正文核对",
+  "business_period": "服务期2026-06-21至2027-06-20；招标版本2026042903",
+  "original_format": "zip",
+  "content_role": "tender_archive_overlaps_separate_chapters",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:35+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S44/GZ-CZ20260463-TENDER/original.zip",
+  "parsed_path": "reference-library/parsed/GZ-CZ20260463-TENDER",
+  "content_hash": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+  "bytes": 387055,
+  "http": {
+    "status": 200,
+    "content_type": "application/zip",
+    "final_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/440101/gpx-tender/2026/4/29/8a7e8bdf9c42e616019dd8c9516549d1.zip?accessCode=6aa48b6ac136cc1c2016d52d13e8cd81",
+    "content_length": "387055"
+  },
+  "format_check": {
+    "archive_members": [
+      {
+        "name": "广州市人民政府办公厅2026-2027年度信息化运维服务项目招标文件（2026042903）.pdf",
+        "bytes": 394309
+      },
+      {
+        "name": "广州市人民政府办公厅2026-2027年度信息化运维服务项目招标文件（2026042903）.docx",
+        "bytes": 55602
+      }
+    ],
+    "pdf_members": [
+      "广州市人民政府办公厅2026-2027年度信息化运维服务项目招标文件（2026042903）.pdf"
+    ]
+  },
+  "repository_file_path": "reference-library/raw/S44/GZ-CZ20260463-TENDER/original.zip",
+  "repository_content_hash": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+  "repository_bytes": 387055,
+  "repository_pages": null,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

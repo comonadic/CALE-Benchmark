@@ -1,0 +1,79 @@
+{
+  "document_id": "CN-1225460245",
+  "source_id": "S01",
+  "title": "茂化实华：关于前期会计差错更正的公告",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-06/1225460245.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225460245&announcementTime=2026-08-06",
+  "publisher": "茂化实华 (000637)",
+  "entity_ids": [
+    "茂化实华 (000637)"
+  ],
+  "package_id": "PKG-MAOHUA-CORRECTION-2026",
+  "task_type_ids": [
+    "FIN-F17-001",
+    "FIN-F01-001"
+  ],
+  "published_at": "2026-08-06",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2025年度；2026-08-06更正涉及2023-2026Q1",
+  "original_format": "pdf",
+  "content_role": "correction_result_answer_bearing",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "茂化实华"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:29+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1225460245/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1225460245",
+  "content_hash": "9f450c4fc9370aeb5023e498cdc1a9601b24f28ffba5ec3d865e97af0bcd346b",
+  "bytes": 340728,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2026-08-06/1225460245.PDF",
+    "content_length": "340728"
+  },
+  "format_check": {
+    "pages": 26,
+    "page_text_lengths": [
+      497,
+      661,
+      985,
+      970,
+      850,
+      1085,
+      922,
+      1018,
+      1041,
+      1001,
+      728,
+      1011,
+      1194,
+      966,
+      795,
+      1100,
+      1056,
+      979,
+      777,
+      1191,
+      1100,
+      1085,
+      819,
+      845,
+      636,
+      264
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1225460245/original.pdf",
+  "repository_content_hash": "9f450c4fc9370aeb5023e498cdc1a9601b24f28ffba5ec3d865e97af0bcd346b",
+  "repository_bytes": 340728,
+  "repository_pages": 26,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

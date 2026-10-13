@@ -1,0 +1,57 @@
+{
+  "document_id": "CN-1225545737",
+  "source_id": "S01",
+  "title": "申万宏源：申万宏源集团股份有限公司2023年面向专业投资者公开发行公司债券（(第二期）（品种二）2026年兑付兑息及摘牌的公告",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-09-03/1225545737.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225545737&announcementTime=2026-09-03",
+  "publisher": "申万宏源 (000166)",
+  "entity_ids": [
+    "申万宏源 (000166)"
+  ],
+  "package_id": "PKG-SWHY-DEBT-2026",
+  "task_type_ids": [
+    "FIN-F04-001"
+  ],
+  "published_at": "2026-09-03",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "申万宏源集团（非证券子公司）；23申宏04到期事项",
+  "original_format": "pdf",
+  "content_role": "announced_maturity_payment",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "申万宏源"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:33+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1225545737/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1225545737",
+  "content_hash": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+  "bytes": 187319,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2026-09-03/1225545737.PDF",
+    "content_length": "187319"
+  },
+  "format_check": {
+    "pages": 5,
+    "page_text_lengths": [
+      675,
+      665,
+      562,
+      594,
+      256
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1225545737/original.pdf",
+  "repository_content_hash": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+  "repository_bytes": 187319,
+  "repository_pages": 5,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

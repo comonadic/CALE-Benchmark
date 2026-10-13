@@ -1,0 +1,55 @@
+{
+  "document_id": "CN-1225491061",
+  "source_id": "S01",
+  "title": "海大集团：2026年第一次临时股东会决议公告",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225491061.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225491061&announcementTime=2026-08-22",
+  "publisher": "海大集团 (002311)",
+  "entity_ids": [
+    "海大集团 (002311)"
+  ],
+  "package_id": "PKG-HAID-2026",
+  "task_type_ids": [
+    "FIN-F13-002"
+  ],
+  "published_at": "2026-08-22",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2025年度 / 2026上半年；各原件注明",
+  "original_format": "pdf",
+  "content_role": "shareholder_authorization_decision",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "海大集团"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:07:56+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1225491061/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1225491061",
+  "content_hash": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+  "bytes": 150953,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225491061.PDF",
+    "content_length": "150953"
+  },
+  "format_check": {
+    "pages": 3,
+    "page_text_lengths": [
+      673,
+      1070,
+      404
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1225491061/original.pdf",
+  "repository_content_hash": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+  "repository_bytes": 150953,
+  "repository_pages": 3,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

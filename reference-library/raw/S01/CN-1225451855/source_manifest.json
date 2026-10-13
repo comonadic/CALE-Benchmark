@@ -1,0 +1,57 @@
+{
+  "document_id": "CN-1225451855",
+  "source_id": "S01",
+  "title": "海大集团：关于开展套期保值业务的可行性分析",
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451855.PDF",
+  "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225451855&announcementTime=2026-08-01",
+  "publisher": "海大集团 (002311)",
+  "entity_ids": [
+    "海大集团 (002311)"
+  ],
+  "package_id": "PKG-HAID-2026",
+  "task_type_ids": [
+    "FIN-F13-002"
+  ],
+  "published_at": "2026-08-01",
+  "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+  "business_period": "2025年度 / 2026上半年；各原件注明",
+  "original_format": "pdf",
+  "content_role": "hedge_feasibility_public_artifact",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [
+    "海大集团"
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:07:56+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S01/CN-1225451855/original.pdf",
+  "parsed_path": "reference-library/parsed/CN-1225451855",
+  "content_hash": "3912be006b73d04bd9702bcf4d696bffc56dd5413cdb8faa10e3c85644e10135",
+  "bytes": 111464,
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451855.PDF",
+    "content_length": "111464"
+  },
+  "format_check": {
+    "pages": 5,
+    "page_text_lengths": [
+      671,
+      783,
+      740,
+      875,
+      297
+    ],
+    "pages_needing_visual_review": []
+  },
+  "repository_file_path": "reference-library/raw/S01/CN-1225451855/original.pdf",
+  "repository_content_hash": "3912be006b73d04bd9702bcf4d696bffc56dd5413cdb8faa10e3c85644e10135",
+  "repository_bytes": 111464,
+  "repository_pages": 5,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}

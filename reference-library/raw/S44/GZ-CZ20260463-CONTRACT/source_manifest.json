@@ -1,0 +1,48 @@
+{
+  "document_id": "GZ-CZ20260463-CONTRACT",
+  "source_id": "S44",
+  "title": "广州市政府办公厅2026-2027信息化运维：第五章 合同文本",
+  "original_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/ZF_JGBM_000009/zone/2026/4/15/8a7e9d799d7517d7019d8e9df7cf4819/gpx-tender/8a7e00c79c33c7e6019dd857668b6d61.docx?accessCode=d1a83dc2ca38ad145bf1adf4db5f823c",
+  "publication_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202604/t20260430_26486504.htm",
+  "publisher": "CZ2026-0463 / 广州市人民政府办公厅",
+  "entity_ids": [
+    "CZ2026-0463 / 广州市人民政府办公厅"
+  ],
+  "package_id": "PKG-GZ-IT-CONTRACT-2026",
+  "task_type_ids": [
+    "LAW-L01-002"
+  ],
+  "published_at": "2026-04-30",
+  "published_at_basis": "官方发布页日期及原件正文核对",
+  "business_period": "服务期2026-06-21至2027-06-20；招标版本2026042903",
+  "original_format": "docx",
+  "content_role": "project_specific_unsigned_contract_template",
+  "version_of": null,
+  "acquisition_policy": "download",
+  "expected_text": [],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "source_authenticity": "primary_publication",
+  "contamination_status": "not_empirically_tested",
+  "acquired_at": "2026-10-13T14:08:34+08:00",
+  "acquisition_status": "downloaded",
+  "file_path": "reference-library/raw/S44/GZ-CZ20260463-CONTRACT/original.docx",
+  "parsed_path": "reference-library/parsed/GZ-CZ20260463-CONTRACT",
+  "content_hash": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+  "bytes": 20422,
+  "http": {
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "final_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/ZF_JGBM_000009/zone/2026/4/15/8a7e9d799d7517d7019d8e9df7cf4819/gpx-tender/8a7e00c79c33c7e6019dd857668b6d61.docx?accessCode=d1a83dc2ca38ad145bf1adf4db5f823c",
+    "content_length": "20422"
+  },
+  "format_check": {
+    "paragraph_text_nodes": 186,
+    "tables": 0
+  },
+  "repository_file_path": "reference-library/raw/S44/GZ-CZ20260463-CONTRACT/original.docx",
+  "repository_content_hash": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+  "repository_bytes": 20422,
+  "repository_pages": null,
+  "publication_kind": "unaltered_source_original",
+  "source_pages_excluded": []
+}
