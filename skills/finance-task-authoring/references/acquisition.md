@@ -25,6 +25,8 @@ reference-library/
 
 可映射到现有库结构，不必为本 skill 迁移存储。单文件索引至少保留 `document_id, source_id, original_url, title, entity_ids, published_at, acquired_at, file_path, original_format, content_hash, version_of`；材料包记录关联键、文件列表、覆盖范围与缺口。
 
+**原件是任务 input-data 的唯一来源。** `parsed/` 与 OCR 是阅读副本，服务于出题人自己读懂文件和留档，不作为任务输入，也不因为校验器要求它们就变成造题的前置步骤。采集端只保证原件本身可读、可溯、哈希对上。详见 [任务设计](task-design.md) 的"原材料就是 input-data"。
+
 ## 行业组包重点
 
 - 公司代码、债券代码、基金代码、项目号是优先关联键；简称只是别名。
