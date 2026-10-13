@@ -1,0 +1,53 @@
+{
+  "batch_id": "2026-10-13-task-inputs",
+  "as_of": "2026-10-13",
+  "base_commit": "21667a9fa26a16e5e2f214031f10e327f5420b10",
+  "active_cards": 11,
+  "by_card_status": {
+    "verified": 10,
+    "candidate": 1
+  },
+  "planned_records": 41,
+  "downloaded_originals": 39,
+  "unique_original_hashes": 39,
+  "link_only_records": 2,
+  "downloaded_bytes": 197139414,
+  "by_format": {
+    "pdf": 31,
+    "docx": 5,
+    "html": 1,
+    "xlsx": 1,
+    "zip": 1
+  },
+  "by_publication_year": {
+    "2025": 9,
+    "2026": 30
+  },
+  "all_downloaded_in_preferred_window": true,
+  "public_material_groups": 9,
+  "downloaded_groups": 8,
+  "full_workflow_ready_packages": 0,
+  "input_requirements": 36,
+  "input_coverage_states": {
+    "partial": 15,
+    "missing": 11,
+    "public_component": 6,
+    "supplement_only": 3,
+    "restricted_link_only": 1
+  },
+  "quality_states": {
+    "accepted_public_source": 28,
+    "accepted_with_issue": 11,
+    "restricted_link_only": 2
+  },
+  "source_pages_archived": 3,
+  "numeric_spot_checks": 4,
+  "ocr_attempted_pages": 172,
+  "business_ocr_pages_retained": 168,
+  "failures": [],
+  "limitations": [
+    "缺少客户内部模型、流水、TB、诉讼卷宗、数据室、程序令；不将其伪造",
+    "OCR是派生阅读层，不是专业评分金标准",
+    "版权受限的ICC仅链接；现有公开材料不能证明零训练污染"
+  ]
+}

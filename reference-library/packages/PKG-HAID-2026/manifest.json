@@ -1,0 +1,208 @@
+{
+  "material_id": "PKG-HAID-2026",
+  "title": "海大集团财报与两轮套保授权",
+  "task_type_ids": [
+    "FIN-F01-001",
+    "FIN-F03-002",
+    "FIN-F13-002"
+  ],
+  "family_split_key": "PKG-HAID-2026",
+  "as_of": "2026-08-25",
+  "status": "partial_public_inputs",
+  "document_ids": [
+    "CN-1224318011",
+    "CN-1224318016",
+    "CN-1224486549",
+    "CN-1225203635",
+    "CN-1225451854",
+    "CN-1225451855",
+    "CN-1225491061",
+    "CN-1225495975"
+  ],
+  "default_input_document_ids": [
+    "CN-1224318011",
+    "CN-1224318016",
+    "CN-1224486549",
+    "CN-1225203635",
+    "CN-1225451854",
+    "CN-1225451855",
+    "CN-1225491061",
+    "CN-1225495975"
+  ],
+  "excluded_from_default_inputs": [],
+  "benchmark_ready": false,
+  "input_coverage": [
+    {
+      "task_type_id": "FIN-F01-001",
+      "title": "根据最新财报更新三表联动预测模型",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "同一公司的多期财报、附注及更正公告",
+      "point_in_time": "更新截止日已公开版本",
+      "document_ids": [
+        "CN-1225203635",
+        "CN-1225495975",
+        "CN-1225248741",
+        "CN-1225460245",
+        "CN-1225460240",
+        "CN-1225460243"
+      ],
+      "coverage": "partial",
+      "supports": "已取得2025年报、2026半年报及另一主体的真实更正链；各主体单独使用",
+      "gap": "尚缺既有多期模型；历史比较列不能等同多期完整原件",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F01-001",
+      "title": "根据最新财报更新三表联动预测模型",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "既有三表模型和经授权的经营预算或预测假设",
+      "point_in_time": "更新前模型及当前批准版本",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "公开材料没有企业批准的模型和经营预算",
+      "gap": "需授权既有三表模型、批准假设与更新前版本",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F01-001",
+      "title": "根据最新财报更新三表联动预测模型",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "债务、资本开支及分红的相关披露",
+      "point_in_time": "与模型更新截止日一致",
+      "document_ids": [
+        "CN-1225203635",
+        "CN-1225495975"
+      ],
+      "coverage": "partial",
+      "supports": "财报内债务、资本开支、分红披露",
+      "gap": "需更新截止日逐笔台账与获批准资本开支假设",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F03-002",
+      "title": "流动资金贷款需求测算与授信调查报告复核",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "贷款申请、用途说明和真实经营资料",
+      "point_in_time": "申请或续授信日",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "未取得借款人授权申请资料",
+      "gap": "缺申请、贷款用途和真实经营说明",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F03-002",
+      "title": "流动资金贷款需求测算与授信调查报告复核",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "财报、附注、往来和存货明细及经营预测",
+      "point_in_time": "调查时已取得且明确期间",
+      "document_ids": [
+        "CN-1225203635",
+        "CN-1225495975"
+      ],
+      "coverage": "partial",
+      "supports": "已取得公司合并与母公司三表及往来、存货披露",
+      "gap": "缺应收/应付/存货明细、经营预算及周转计算口径",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F03-002",
+      "title": "流动资金贷款需求测算与授信调查报告复核",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "存量授信、借款、担保与其他营运融资记录",
+      "point_in_time": "同一调查截止日",
+      "document_ids": [
+        "CN-1225203635",
+        "CN-1225495975"
+      ],
+      "coverage": "partial",
+      "supports": "财报附注含借款、担保与融资披露",
+      "gap": "缺调查截止日逐笔授信余额、未用额度及保证金等融资扣减台账",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F03-002",
+      "title": "流动资金贷款需求测算与授信调查报告复核",
+      "card_status": "verified",
+      "requirement_index": 4,
+      "required_input": "适用贷款管理办法及银行测算方法",
+      "point_in_time": "申请时适用版本",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "现有卡片证据有公开管理办法线索，本批未替代银行规则",
+      "gap": "仍需适用版本正式办法和经授权银行内部测算方法",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F13-002",
+      "title": "企业期现敞口台账更新与套保效果复核",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "企业批准的套保策略、授权和资金限额",
+      "point_in_time": "本批次操作时有效版本",
+      "document_ids": [
+        "CN-1224318011",
+        "CN-1224318016",
+        "CN-1224486549",
+        "CN-1225451854",
+        "CN-1225451855",
+        "CN-1225491061"
+      ],
+      "coverage": "public_component",
+      "supports": "2025及2026两轮提案、已通过股东授权与公开制度",
+      "gap": "2026H1使用2025-08-14通过的授权；不追溯套用2026-08-21新额度",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F13-002",
+      "title": "企业期现敞口台账更新与套保效果复核",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "现货采购、销售、库存及作价记录",
+      "point_in_time": "本批次实际发生记录",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "公开半年报提供汇总效果，未提供逐笔现货记录",
+      "gap": "缺采购、销售、库存、定价日、数量与作价台账",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F13-002",
+      "title": "企业期现敞口台账更新与套保效果复核",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "成交、持仓、结算和资金快照",
+      "point_in_time": "与台账截止日及交易期间一致",
+      "document_ids": [
+        "CN-1225495975"
+      ],
+      "coverage": "partial",
+      "supports": "半年报提供持仓/衍生品及套期会计汇总披露",
+      "gap": "缺成交、持仓、结算、保证金账户与适用交易所参数快照",
+      "benchmark_ready": false
+    }
+  ],
+  "versions": [],
+  "historical_hedge_2026H1_view": {
+    "as_of": "2026-08-25",
+    "business_period": "2026-01-01/2026-06-30",
+    "input_document_ids": [
+      "CN-1224318011",
+      "CN-1224318016",
+      "CN-1224486549",
+      "CN-1225495975"
+    ],
+    "excluded_new_authorization": [
+      "CN-1225451854",
+      "CN-1225451855",
+      "CN-1225491061"
+    ],
+    "reason": "2025股东会通过日2025-08-14；2026新额度2026-08-21通过，不能追溯"
+  }
+}

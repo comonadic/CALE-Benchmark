@@ -1,0 +1,50 @@
+[
+  {
+    "document_id": "CN-1225495975",
+    "pdf_page": 57,
+    "label": "货币资金",
+    "value": "3,425,134,746.81",
+    "currency": "CNY",
+    "unit": "元",
+    "extraction": "native",
+    "matches_extraction": true,
+    "visual_verified": true,
+    "scope": "代表性格式与取数抽查，不是完整事实表或评分金标准"
+  },
+  {
+    "document_id": "CN-1225495975",
+    "pdf_page": 65,
+    "label": "销售商品提供劳务收到现金",
+    "value": "63,459,274,415.43",
+    "currency": "CNY",
+    "unit": "元",
+    "extraction": "native",
+    "matches_extraction": true,
+    "visual_verified": true,
+    "scope": "代表性格式与取数抽查，不是完整事实表或评分金标准"
+  },
+  {
+    "document_id": "SSE-ZHIXIN-AUDIT-20251030",
+    "pdf_page": 11,
+    "label": "2025H1营业收入",
+    "value": "1,604,147,534.88",
+    "currency": "CNY",
+    "unit": "元",
+    "extraction": "ocr",
+    "matches_extraction": true,
+    "visual_verified": true,
+    "scope": "代表性格式与取数抽查，不是完整事实表或评分金标准"
+  },
+  {
+    "document_id": "CN-1225460245",
+    "pdf_page": 21,
+    "label": "2025经营活动现金流净额更正后",
+    "value": "-79,583,416.97",
+    "currency": "CNY",
+    "unit": "元",
+    "extraction": "native",
+    "matches_extraction": true,
+    "visual_verified": true,
+    "scope": "代表性格式与取数抽查，不是完整事实表或评分金标准"
+  }
+]

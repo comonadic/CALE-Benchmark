@@ -1,0 +1,440 @@
+[
+  {
+    "query": "海大集团 套期保值",
+    "total": 2,
+    "rows": [
+      {
+        "announcementId": "1225451854",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "关于开展套期保值业务的公告",
+        "announcementTime": 1785513600000,
+        "adjunctUrl": "finalpage/2026-08-01/1225451854.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225451855",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "关于开展套期保值业务的可行性分析",
+        "announcementTime": 1785513600000,
+        "adjunctUrl": "finalpage/2026-08-01/1225451855.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "国城矿业",
+    "total": 23,
+    "rows": [
+      {
+        "announcementId": "1225449373",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "第十二届董事会第五十八次会议决议公告",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449373.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449384",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "交易标的业绩真实性的专项核查意见（天健函〔2026〕8-74号）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449384.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449387",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "重大资产购买暨关联交易报告书（草案）摘要（修订稿）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449387.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449390",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "内蒙古国城实业有限公司审计报告（天健审〔2026〕8-650号）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449390.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449382",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "北京中银律师事务所关于国城矿业股份有限公司重大资产购买暨关联交易之补充法律意见书（一）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449382.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449374",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于召开2026年第四次临时股东会的通知",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449374.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449375",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于回购股份事项前十大股东和前十大无限售条件股东持股情况的公告",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449375.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449379",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于国城矿业股份有限公司重大资产购买暨关联交易之相关主体买卖股票情况自查情况的专项核查意见",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449379.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449385",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于对国城矿业股份有限公司重大资产购买暨关联交易的问询函有关财务事项的说明 （天健函〔2026〕8-71号）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449385.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449389",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "审阅报告（天健审〔2026〕8-652号）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449389.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449392",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易摊薄即期回报情况及填补措施的说明",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449392.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449378",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于深圳证券交易所《关于对国城矿业股份有限公司重大资产购买暨关联交易的问询函》回复之核查意见",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449378.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449388",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "重大资产购买暨关联交易报告书（草案）（修订稿）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449388.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449391",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于本次重组相关主体买卖股票情况自查报告的公告",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449391.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449383",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "北京中银律师事务所关于国城矿业股份有限公司重大资产购买暨关联交易之相关主体买卖股票情况自查情况的专项核查意见",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449383.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449386",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "上海立信资产评估有限公司对深圳证券交易所《关于对国城矿业股份有限公司重大资产购买暨关联交易的问询函》的回复",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449386.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449371",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于重大资产购买暨关联交易报告书（草案）修订的说明",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449371.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449372",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "独立董事关于《关于对国城矿业股份有限公司重大资产购买暨关联交易的问询函》的专项意见",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449372.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449377",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于国城矿业股份有限公司重大资产购买暨关联交易之独立财务顾问报告（修订稿）",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449377.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449380",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于本次交易摊薄上市公司即期回报情况及填补措施之专项核查意见",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449380.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449381",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于国城矿业股份有限公司本次交易标的资产报告期内业绩真实性之专项核查意见",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449381.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449376",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于回复深圳证券交易所《关于对国城矿业股份有限公司重大资产购买暨关联交易的问询函》的公告",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449376.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225449393",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于批准公司本次交易相关的加期审计报告及备考审阅报告的说明",
+        "announcementTime": 1785427200000,
+        "adjunctUrl": "finalpage/2026-07-31/1225449393.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "茂化实华",
+    "total": 19,
+    "rows": [
+      {
+        "announcementId": "1225460227",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2024年半年度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460227.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460231",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年第一季度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460231.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460234",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2023年年度报告摘要（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460234.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460237",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年年度报告摘要（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460237.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460241",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2024年年度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460241.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460244",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "关于前期会计差错更正的财务报表及相关附注",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460244.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460222",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "第十三届董事会第十五次临时会议决议公告",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460222.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460226",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年第三季度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460226.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460228",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年半年度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460228.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460233",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2023年半年度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460233.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460242",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2026年第一季度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460242.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460243",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "关于茂名石化实华股份有限公司前期会计差错更正情况专项说明的审核报告",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460243.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460224",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2024年第一季度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460224.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460230",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2023年第一季度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460230.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460235",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年半年度报告摘要（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460235.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460238",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2023年半年度报告摘要（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460238.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460239",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2024年年度报告摘要（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460239.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460240",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年年度报告（更正后）",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460240.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225460245",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "关于前期会计差错更正的公告",
+        "announcementTime": 1785945600000,
+        "adjunctUrl": "finalpage/2026-08-06/1225460245.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "天禾股份 年度报告",
+    "total": 2,
+    "rows": [
+      {
+        "announcementId": "1225207485",
+        "secCode": "002999",
+        "secName": "天禾股份",
+        "announcementTitle": "2025年年度报告摘要",
+        "announcementTime": 1777305600000,
+        "adjunctUrl": "finalpage/2026-04-28/1225207485.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225207486",
+        "secCode": "002999",
+        "secName": "天禾股份",
+        "announcementTitle": "2025年年度报告",
+        "announcementTime": 1777305600000,
+        "adjunctUrl": "finalpage/2026-04-28/1225207486.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  }
+]

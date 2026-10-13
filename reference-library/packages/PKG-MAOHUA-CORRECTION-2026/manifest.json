@@ -1,0 +1,143 @@
+{
+  "material_id": "PKG-MAOHUA-CORRECTION-2026",
+  "title": "茂化实华2026会计差错更正链",
+  "task_type_ids": [
+    "FIN-F01-001",
+    "FIN-F17-001"
+  ],
+  "family_split_key": "PKG-MAOHUA-CORRECTION-2026",
+  "as_of": "2026-04-29",
+  "status": "partial_public_inputs",
+  "document_ids": [
+    "CN-1225248741",
+    "CN-1225460240",
+    "CN-1225460243",
+    "CN-1225460245"
+  ],
+  "default_input_document_ids": [
+    "CN-1225248741"
+  ],
+  "excluded_from_default_inputs": [
+    {
+      "document_id": "CN-1225460240",
+      "reason": "resolved_result_or_reply_answer"
+    },
+    {
+      "document_id": "CN-1225460243",
+      "reason": "resolved_result_or_reply_answer"
+    },
+    {
+      "document_id": "CN-1225460245",
+      "reason": "resolved_result_or_reply_answer"
+    }
+  ],
+  "benchmark_ready": false,
+  "input_coverage": [
+    {
+      "task_type_id": "FIN-F01-001",
+      "title": "根据最新财报更新三表联动预测模型",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "同一公司的多期财报、附注及更正公告",
+      "point_in_time": "更新截止日已公开版本",
+      "document_ids": [
+        "CN-1225203635",
+        "CN-1225495975",
+        "CN-1225248741",
+        "CN-1225460245",
+        "CN-1225460240",
+        "CN-1225460243"
+      ],
+      "coverage": "partial",
+      "supports": "已取得2025年报、2026半年报及另一主体的真实更正链；各主体单独使用",
+      "gap": "尚缺既有多期模型；历史比较列不能等同多期完整原件",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F01-001",
+      "title": "根据最新财报更新三表联动预测模型",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "既有三表模型和经授权的经营预算或预测假设",
+      "point_in_time": "更新前模型及当前批准版本",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "公开材料没有企业批准的模型和经营预算",
+      "gap": "需授权既有三表模型、批准假设与更新前版本",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F01-001",
+      "title": "根据最新财报更新三表联动预测模型",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "债务、资本开支及分红的相关披露",
+      "point_in_time": "与模型更新截止日一致",
+      "document_ids": [
+        "CN-1225203635",
+        "CN-1225495975"
+      ],
+      "coverage": "partial",
+      "supports": "财报内债务、资本开支、分红披露",
+      "gap": "需更新截止日逐笔台账与获批准资本开支假设",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F17-001",
+      "title": "审计错报汇总、更正状态复核与调整后余额交接",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "原始试算平衡、科目映射及差异底稿",
+      "point_in_time": "本次审计收尾截止日",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "不能把公开更正前报表作为原始试算平衡表",
+      "gap": "缺TB、科目映射、错报形成记录与底层凭证",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F17-001",
+      "title": "审计错报汇总、更正状态复核与调整后余额交接",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "更正、未更正及客户入账确认记录",
+      "point_in_time": "报告签发前最后复核版本",
+      "document_ids": [
+        "CN-1225460245",
+        "CN-1225460240",
+        "CN-1225460243"
+      ],
+      "coverage": "partial",
+      "supports": "更正公告、更正后报表及会计师专项审核报告形成结果链",
+      "gap": "这些是事后结果；缺报告签发前客户入账确认、未更正错报记录",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "FIN-F17-001",
+      "title": "审计错报汇总、更正状态复核与调整后余额交接",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "审计重要性及适用报告基础和准则",
+      "point_in_time": "本期项目批准且适用版本",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "公开报告不披露项目批准的重要性",
+      "gap": "缺项目重要性、计划、适用报告基础和准则版本",
+      "benchmark_ready": false
+    }
+  ],
+  "versions": [
+    {
+      "document_id": "CN-1225460240",
+      "version_of": "CN-1225248741"
+    }
+  ],
+  "explicit_excluded_pages": {
+    "CN-1225460243": [
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

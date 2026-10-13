@@ -1,0 +1,558 @@
+[
+  {
+    "task_type_id": "FIN-F01-001",
+    "title": "根据最新财报更新三表联动预测模型",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "同一公司的多期财报、附注及更正公告",
+    "point_in_time": "更新截止日已公开版本",
+    "document_ids": [
+      "CN-1225203635",
+      "CN-1225495975",
+      "CN-1225248741",
+      "CN-1225460245",
+      "CN-1225460240",
+      "CN-1225460243"
+    ],
+    "coverage": "partial",
+    "supports": "已取得2025年报、2026半年报及另一主体的真实更正链；各主体单独使用",
+    "gap": "尚缺既有多期模型；历史比较列不能等同多期完整原件",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F01-001",
+    "title": "根据最新财报更新三表联动预测模型",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "既有三表模型和经授权的经营预算或预测假设",
+    "point_in_time": "更新前模型及当前批准版本",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "公开材料没有企业批准的模型和经营预算",
+    "gap": "需授权既有三表模型、批准假设与更新前版本",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F01-001",
+    "title": "根据最新财报更新三表联动预测模型",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "债务、资本开支及分红的相关披露",
+    "point_in_time": "与模型更新截止日一致",
+    "document_ids": [
+      "CN-1225203635",
+      "CN-1225495975"
+    ],
+    "coverage": "partial",
+    "supports": "财报内债务、资本开支、分红披露",
+    "gap": "需更新截止日逐笔台账与获批准资本开支假设",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F02-001",
+    "title": "IPO审核材料跨文件一致性核查与问询回复底稿",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "招股说明书（含历史版本）",
+    "point_in_time": "报告期内有效版本",
+    "document_ids": [
+      "SSE-ZHIXIN-PROSPECTUS-20251030",
+      "SSE-ZHIXIN-PROSPECTUS-20251114"
+    ],
+    "coverage": "public_component",
+    "supports": "上会稿与注册稿形成公开版本链",
+    "gap": "当前包最早招股版本为2025-10-30；缺初始申报稿",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F02-001",
+    "title": "IPO审核材料跨文件一致性核查与问询回复底稿",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "审计报告及财务报表",
+    "point_in_time": "报告期末",
+    "document_ids": [
+      "SSE-ZHIXIN-AUDIT-20251030"
+    ],
+    "coverage": "public_component",
+    "supports": "已取得同一发行人的完整申报审计原件及首24页OCR",
+    "gap": "缺合同、凭证、流水等审计底稿",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F02-001",
+    "title": "IPO审核材料跨文件一致性核查与问询回复底稿",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "法律意见书及律师工作报告",
+    "point_in_time": "审核阶段",
+    "document_ids": [
+      "SSE-ZHIXIN-LEGAL-20251030"
+    ],
+    "coverage": "public_component",
+    "supports": "同一项目法律意见书原件含相关律师工作内容",
+    "gap": "不能当作全部律师内部工作底稿",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F02-001",
+    "title": "IPO审核材料跨文件一致性核查与问询回复底稿",
+    "card_status": "verified",
+    "requirement_index": 4,
+    "required_input": "历轮问询函及回复文件",
+    "point_in_time": "各轮披露版本",
+    "document_ids": [
+      "SSE-ZHIXIN-REPLY1-20250901",
+      "SSE-ZHIXIN-REPLY2-20251010"
+    ],
+    "coverage": "partial",
+    "supports": "两轮回复原件内重述问询问题",
+    "gap": "缺独立问询函；现轮回复及后续版本需隔离后方可用于事前起草",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F03-002",
+    "title": "流动资金贷款需求测算与授信调查报告复核",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "贷款申请、用途说明和真实经营资料",
+    "point_in_time": "申请或续授信日",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "未取得借款人授权申请资料",
+    "gap": "缺申请、贷款用途和真实经营说明",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F03-002",
+    "title": "流动资金贷款需求测算与授信调查报告复核",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "财报、附注、往来和存货明细及经营预测",
+    "point_in_time": "调查时已取得且明确期间",
+    "document_ids": [
+      "CN-1225203635",
+      "CN-1225495975"
+    ],
+    "coverage": "partial",
+    "supports": "已取得公司合并与母公司三表及往来、存货披露",
+    "gap": "缺应收/应付/存货明细、经营预算及周转计算口径",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F03-002",
+    "title": "流动资金贷款需求测算与授信调查报告复核",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "存量授信、借款、担保与其他营运融资记录",
+    "point_in_time": "同一调查截止日",
+    "document_ids": [
+      "CN-1225203635",
+      "CN-1225495975"
+    ],
+    "coverage": "partial",
+    "supports": "财报附注含借款、担保与融资披露",
+    "gap": "缺调查截止日逐笔授信余额、未用额度及保证金等融资扣减台账",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F03-002",
+    "title": "流动资金贷款需求测算与授信调查报告复核",
+    "card_status": "verified",
+    "requirement_index": 4,
+    "required_input": "适用贷款管理办法及银行测算方法",
+    "point_in_time": "申请时适用版本",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "现有卡片证据有公开管理办法线索，本批未替代银行规则",
+    "gap": "仍需适用版本正式办法和经授权银行内部测算方法",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F04-001",
+    "title": "公司债到期及回售资金落实排查",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "募集说明书、受托协议及回售或兑付公告",
+    "point_in_time": "排查截止日已生效或公告版本",
+    "document_ids": [
+      "CN-1225045474",
+      "CN-1225398819",
+      "CN-1225545737"
+    ],
+    "coverage": "partial",
+    "supports": "集团发行人受托年报、23申宏04（148449）2026兑付公告",
+    "gap": "缺募集说明书及受托协议全文；不混入申万宏源证券子公司债",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F04-001",
+    "title": "公司债到期及回售资金落实排查",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "财务报告、资金安排反馈及资金证明",
+    "point_in_time": "同一排查截止日",
+    "document_ids": [
+      "CN-1225045474",
+      "CN-1225545737"
+    ],
+    "coverage": "partial",
+    "supports": "集团财报、公开资金划付安排",
+    "gap": "公告是安排，不能证明已足额到账；缺银行回单及发行人反馈",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F04-001",
+    "title": "公司债到期及回售资金落实排查",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "辖区监管通知、报送模板及重大事项记录",
+    "point_in_time": "对应辖区和年度",
+    "document_ids": [
+      "CSRC-XJ-DEBT-NOTICE-20260609",
+      "CSRC-XJ-FUNDING-FORM-20260609"
+    ],
+    "coverage": "public_component",
+    "supports": "新疆辖区2026通知及原生Excel排查表",
+    "gap": "原表范围异常且邮箱与正文不一致；使用前确认；非全国统一要求",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F13-002",
+    "title": "企业期现敞口台账更新与套保效果复核",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "企业批准的套保策略、授权和资金限额",
+    "point_in_time": "本批次操作时有效版本",
+    "document_ids": [
+      "CN-1224318011",
+      "CN-1224318016",
+      "CN-1224486549",
+      "CN-1225451854",
+      "CN-1225451855",
+      "CN-1225491061"
+    ],
+    "coverage": "public_component",
+    "supports": "2025及2026两轮提案、已通过股东授权与公开制度",
+    "gap": "2026H1使用2025-08-14通过的授权；不追溯套用2026-08-21新额度",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F13-002",
+    "title": "企业期现敞口台账更新与套保效果复核",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "现货采购、销售、库存及作价记录",
+    "point_in_time": "本批次实际发生记录",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "公开半年报提供汇总效果，未提供逐笔现货记录",
+    "gap": "缺采购、销售、库存、定价日、数量与作价台账",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F13-002",
+    "title": "企业期现敞口台账更新与套保效果复核",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "成交、持仓、结算和资金快照",
+    "point_in_time": "与台账截止日及交易期间一致",
+    "document_ids": [
+      "CN-1225495975"
+    ],
+    "coverage": "partial",
+    "supports": "半年报提供持仓/衍生品及套期会计汇总披露",
+    "gap": "缺成交、持仓、结算、保证金账户与适用交易所参数快照",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F17-001",
+    "title": "审计错报汇总、更正状态复核与调整后余额交接",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "原始试算平衡、科目映射及差异底稿",
+    "point_in_time": "本次审计收尾截止日",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "不能把公开更正前报表作为原始试算平衡表",
+    "gap": "缺TB、科目映射、错报形成记录与底层凭证",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F17-001",
+    "title": "审计错报汇总、更正状态复核与调整后余额交接",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "更正、未更正及客户入账确认记录",
+    "point_in_time": "报告签发前最后复核版本",
+    "document_ids": [
+      "CN-1225460245",
+      "CN-1225460240",
+      "CN-1225460243"
+    ],
+    "coverage": "partial",
+    "supports": "更正公告、更正后报表及会计师专项审核报告形成结果链",
+    "gap": "这些是事后结果；缺报告签发前客户入账确认、未更正错报记录",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "FIN-F17-001",
+    "title": "审计错报汇总、更正状态复核与调整后余额交接",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "审计重要性及适用报告基础和准则",
+    "point_in_time": "本期项目批准且适用版本",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "公开报告不披露项目批准的重要性",
+    "gap": "缺项目重要性、计划、适用报告基础和准则版本",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L01-002",
+    "title": "签署前合同审改及谈判后版本复核",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "待签合同、附件及此前审改版本",
+    "point_in_time": "本轮签署前版本",
+    "document_ids": [
+      "GZ-CZ20260463-CONTRACT",
+      "GZ-CZ20260463-REQUIREMENTS",
+      "GZ-CZ20260463-TENDER"
+    ],
+    "coverage": "partial",
+    "supports": "真实项目专用合同Word、采购需求Word和全套招标文件",
+    "gap": "合同为未签模板，仍有CZ2026-xxxx占位；缺前轮审改稿、完整签署附件",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L01-002",
+    "title": "签署前合同审改及谈判后版本复核",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "商务要求、招采或响应文件及谈判反馈",
+    "point_in_time": "本轮审查时已确认记录",
+    "document_ids": [
+      "GZ-CZ20260463-REQUIREMENTS",
+      "GZ-CZ20260463-TENDER"
+    ],
+    "coverage": "partial",
+    "supports": "采购需求与实际项目招标条件",
+    "gap": "缺中标响应、谈判确认与业务立场；合同分包条款需与采购条件核对",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L01-002",
+    "title": "签署前合同审改及谈判后版本复核",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "适用规范及内部审查要求",
+    "point_in_time": "交易事项适用版本",
+    "document_ids": [
+      "GZ-CZ20260463-REQUIREMENTS",
+      "GZ-CZ20260463-TENDER"
+    ],
+    "coverage": "partial",
+    "supports": "招标文件列示采购规范与审查条件",
+    "gap": "需事项时点正式法源与委托方内审要求",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L02-002",
+    "title": "商事案件证据编排、事实时间线与争点对应复核",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "授权的合同、付款、履行、通知和往来材料",
+    "point_in_time": "庭前整理截止日已经取得",
+    "document_ids": [
+      "CN-1225489930"
+    ],
+    "coverage": "supplement_only",
+    "supports": "原始上市公司诉讼披露用于案号、诉请及流程线索",
+    "gap": "不含合同、付款、履行及通知原件；不能充当原始卷宗",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L02-002",
+    "title": "商事案件证据编排、事实时间线与争点对应复核",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "诉辩请求、委托说明及对方已提交材料",
+    "point_in_time": "对应程序阶段",
+    "document_ids": [
+      "CN-1225489930"
+    ],
+    "coverage": "supplement_only",
+    "supports": "包含当事人地位、诉请和部分程序信息",
+    "gap": "缺完整诉辩文书、委托说明和对方证据",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L02-002",
+    "title": "商事案件证据编排、事实时间线与争点对应复核",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "实体和程序规范及举证通知",
+    "point_in_time": "事项及程序时适用版本",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "未取得对应案号的举证通知和完整适用规范",
+    "gap": "需授权法院程序文件；公告旧案结果另行隔离",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L03-001",
+    "title": "收购项目法律尽调资料清单与缺口台账维护",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "委托范围、交易概要及目标公司业务说明",
+    "point_in_time": "尽调启动或本轮更新日",
+    "document_ids": [
+      "CN-1225327554",
+      "CN-1225449388"
+    ],
+    "coverage": "partial",
+    "supports": "同一2026收购40%股权交易的草案、修订稿及概要",
+    "gap": "缺委托范围与内部交易说明；不与2025收购60%混组",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L03-001",
+    "title": "收购项目法律尽调资料清单与缺口台账维护",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "数据室索引及已提供公司、股权、合同、许可等资料",
+    "point_in_time": "该轮资料快照",
+    "document_ids": [
+      "CN-1225327554",
+      "CN-1225449388",
+      "CN-1225327559",
+      "CN-1225449382",
+      "CN-1225327560",
+      "CN-1225449390",
+      "CN-1225449376",
+      "CN-1225449371"
+    ],
+    "coverage": "partial",
+    "supports": "同标的两期审计、两版法律意见、交易披露、许可/产权信息",
+    "gap": "不含数据室原始索引、完整公司档案和许可/合同原件",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L03-001",
+    "title": "收购项目法律尽调资料清单与缺口台账维护",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "上轮需求清单及目标公司回复",
+    "point_in_time": "本轮截止日前",
+    "document_ids": [
+      "CN-1225449376",
+      "CN-1225449371"
+    ],
+    "coverage": "supplement_only",
+    "supports": "公开问询回复和修订说明可提供补充事项线索",
+    "gap": "不能当作上轮真实资料清单与数据室逐项回复",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L04-001",
+    "title": "债权申报材料整理与本金利息计算复核",
+    "card_status": "verified",
+    "requirement_index": 1,
+    "required_input": "法院受理公告、管理人申报通知及模板",
+    "point_in_time": "本案申报阶段有效通知",
+    "document_ids": [
+      "COURT-ZHENXIN-GUIDE",
+      "COURT-ZHENXIN-CLAIM",
+      "COURT-ZHENXIN-LIST",
+      "COURT-ZHENXIN-REGISTER"
+    ],
+    "coverage": "public_component",
+    "supports": "2026-10-08原始管理人指引及三份Word表单",
+    "gap": "指引记载受理2026-09-02；仍缺法院受理裁定原件及完整授权/送达表",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L04-001",
+    "title": "债权申报材料整理与本金利息计算复核",
+    "card_status": "verified",
+    "requirement_index": 2,
+    "required_input": "合同、债权转移、履行和偿付证明",
+    "point_in_time": "受理及申报截止日前已取得材料",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "空表并不含实际债权事实",
+    "gap": "缺合同、债权转移、履行、还款及利息原始凭证",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L04-001",
+    "title": "债权申报材料整理与本金利息计算复核",
+    "card_status": "verified",
+    "requirement_index": 3,
+    "required_input": "担保、抵销、诉讼执行和授权文件",
+    "point_in_time": "与申报截止日一致",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "本批未获取具体债权人的担保和程序记录",
+    "gap": "缺担保登记、抵销、诉执及授权材料",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L04-001",
+    "title": "债权申报材料整理与本金利息计算复核",
+    "card_status": "verified",
+    "requirement_index": 4,
+    "required_input": "适用实体法、破产规范和具体计算口径",
+    "point_in_time": "对应债权事实及程序版本",
+    "document_ids": [
+      "COURT-ZHENXIN-GUIDE"
+    ],
+    "coverage": "partial",
+    "supports": "指引给出本案申报截止、停息与日计数说明",
+    "gap": "其具体计算方法需要与合同、生效文书和正式法源核对，不能跨案推广",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L12-001",
+    "title": "国际仲裁程序时间表草案与延期联动复核",
+    "card_status": "candidate",
+    "requirement_index": 1,
+    "required_input": "仲裁协议、适用规则及现有程序令",
+    "point_in_time": "本案启动及变更时适用版本",
+    "document_ids": [
+      "ICC-RULES-2026-EN",
+      "ICC-RULES-2026-ZH"
+    ],
+    "coverage": "restricted_link_only",
+    "supports": "已核对2026-06-01生效规则、2026-06出版；英文为原文",
+    "gap": "仅链接；需分发授权、仲裁协议和现有程序令",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L12-001",
+    "title": "国际仲裁程序时间表草案与延期联动复核",
+    "card_status": "candidate",
+    "requirement_index": 2,
+    "required_input": "双方程序提案、准备情况和延期请求",
+    "point_in_time": "本轮案件管理会议或变更前",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "尚无本案双方提案及延期请求",
+    "gap": "需授权真实程序文件",
+    "benchmark_ready": false
+  },
+  {
+    "task_type_id": "LAW-L12-001",
+    "title": "国际仲裁程序时间表草案与延期联动复核",
+    "card_status": "candidate",
+    "requirement_index": 3,
+    "required_input": "已确定开庭安排、送达记录及程序日历",
+    "point_in_time": "同一轮更新时间",
+    "document_ids": [],
+    "coverage": "missing",
+    "supports": "规则不能代替本案送达与日历",
+    "gap": "需开庭安排、送达证明、节假日日历；卡片仍为candidate",
+    "benchmark_ready": false
+  }
+]

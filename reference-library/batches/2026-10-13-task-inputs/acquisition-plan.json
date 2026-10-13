@@ -1,0 +1,1160 @@
+{
+  "batch_id": "2026-10-13-task-inputs",
+  "base_commit": "21667a9fa26a16e5e2f214031f10e327f5420b10",
+  "as_of": "2026-10-13",
+  "preferred_publication_window": [
+    "2025-07-01",
+    "2026-10-13"
+  ],
+  "scope": "11 active cards; bounded first acquisition batch; original public disclosures and case/project-specific editable attachments",
+  "documents": [
+    {
+      "document_id": "CN-1225203635",
+      "source_id": "S01",
+      "title": "海大集团：2025年年度报告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225203635.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225203635&announcementTime=2026-04-28",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F01-001",
+        "FIN-F03-002",
+        "FIN-F13-002"
+      ],
+      "published_at": "2026-04-28",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度 / 2026上半年；各原件注明",
+      "original_format": "pdf",
+      "content_role": "historical_financial_input",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225495975",
+      "source_id": "S01",
+      "title": "海大集团：2026年半年度报告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225495975.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225495975&announcementTime=2026-08-25",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F01-001",
+        "FIN-F03-002",
+        "FIN-F13-002"
+      ],
+      "published_at": "2026-08-25",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度 / 2026上半年；各原件注明",
+      "original_format": "pdf",
+      "content_role": "latest_financial_input",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225451854",
+      "source_id": "S01",
+      "title": "海大集团：关于开展套期保值业务的公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451854.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225451854&announcementTime=2026-08-01",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F13-002"
+      ],
+      "published_at": "2026-08-01",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度 / 2026上半年；各原件注明",
+      "original_format": "pdf",
+      "content_role": "proposed_hedge_authorization",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225451855",
+      "source_id": "S01",
+      "title": "海大集团：关于开展套期保值业务的可行性分析",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451855.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225451855&announcementTime=2026-08-01",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F13-002"
+      ],
+      "published_at": "2026-08-01",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度 / 2026上半年；各原件注明",
+      "original_format": "pdf",
+      "content_role": "hedge_feasibility_public_artifact",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225491061",
+      "source_id": "S01",
+      "title": "海大集团：2026年第一次临时股东会决议公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225491061.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225491061&announcementTime=2026-08-22",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F13-002"
+      ],
+      "published_at": "2026-08-22",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度 / 2026上半年；各原件注明",
+      "original_format": "pdf",
+      "content_role": "shareholder_authorization_decision",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "SSE-ZHIXIN-PROSPECTUS-20251030",
+      "source_id": "S02",
+      "title": "至信股份招股说明书（上会稿）",
+      "original_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251030_N20S.pdf",
+      "publication_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251030_N20S.pdf",
+      "publisher": "重庆至信实业股份有限公司 / 上交所项目002073",
+      "entity_ids": [
+        "重庆至信实业股份有限公司 / 上交所项目002073"
+      ],
+      "package_id": "PKG-ZHIXIN-IPO-2025",
+      "task_type_ids": [
+        "FIN-F02-001"
+      ],
+      "published_at": "2025-10-30",
+      "published_at_basis": "披露索引及交易所附件日期；签署月与披露日分别核对",
+      "business_period": "2022-2024年度及2025上半年（须按各原件范围）",
+      "original_format": "pdf",
+      "content_role": "disclosed_prospectus",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "至信"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+    },
+    {
+      "document_id": "SSE-ZHIXIN-PROSPECTUS-20251114",
+      "source_id": "S02",
+      "title": "至信股份招股说明书（注册稿）",
+      "original_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202511/002073_20251114_25R9.pdf",
+      "publication_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202511/002073_20251114_25R9.pdf",
+      "publisher": "重庆至信实业股份有限公司 / 上交所项目002073",
+      "entity_ids": [
+        "重庆至信实业股份有限公司 / 上交所项目002073"
+      ],
+      "package_id": "PKG-ZHIXIN-IPO-2025",
+      "task_type_ids": [
+        "FIN-F02-001"
+      ],
+      "published_at": "2025-11-14",
+      "published_at_basis": "披露索引及交易所附件日期；签署月与披露日分别核对",
+      "business_period": "2022-2024年度及2025上半年（须按各原件范围）",
+      "original_format": "pdf",
+      "content_role": "later_version_not_pre_cutoff_input",
+      "version_of": "SSE-ZHIXIN-PROSPECTUS-20251030",
+      "acquisition_policy": "download",
+      "expected_text": [
+        "至信"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+    },
+    {
+      "document_id": "SSE-ZHIXIN-AUDIT-20251030",
+      "source_id": "S02",
+      "title": "至信股份申报审计报告",
+      "original_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251030_51U2.pdf",
+      "publication_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251030_51U2.pdf",
+      "publisher": "重庆至信实业股份有限公司 / 上交所项目002073",
+      "entity_ids": [
+        "重庆至信实业股份有限公司 / 上交所项目002073"
+      ],
+      "package_id": "PKG-ZHIXIN-IPO-2025",
+      "task_type_ids": [
+        "FIN-F02-001"
+      ],
+      "published_at": "2025-10-30",
+      "published_at_basis": "披露索引及交易所附件日期；签署月与披露日分别核对",
+      "business_period": "2022-2024年度及2025上半年（须按各原件范围）",
+      "original_format": "pdf",
+      "content_role": "audited_financial_input",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "至信"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+    },
+    {
+      "document_id": "SSE-ZHIXIN-LEGAL-20251030",
+      "source_id": "S02",
+      "title": "国浩律师关于至信股份上市的法律意见书",
+      "original_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251030_3MM6.pdf",
+      "publication_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251030_3MM6.pdf",
+      "publisher": "重庆至信实业股份有限公司 / 上交所项目002073",
+      "entity_ids": [
+        "重庆至信实业股份有限公司 / 上交所项目002073"
+      ],
+      "package_id": "PKG-ZHIXIN-IPO-2025",
+      "task_type_ids": [
+        "FIN-F02-001"
+      ],
+      "published_at": "2025-10-30",
+      "published_at_basis": "披露索引及交易所附件日期；签署月与披露日分别核对",
+      "business_period": "2022-2024年度及2025上半年（须按各原件范围）",
+      "original_format": "pdf",
+      "content_role": "published_legal_opinion",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "至信"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+    },
+    {
+      "document_id": "SSE-ZHIXIN-REPLY1-20250901",
+      "source_id": "S02",
+      "title": "至信股份首轮问询回复",
+      "original_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202509/002073_20250901_3KCM.pdf",
+      "publication_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202509/002073_20250901_3KCM.pdf",
+      "publisher": "重庆至信实业股份有限公司 / 上交所项目002073",
+      "entity_ids": [
+        "重庆至信实业股份有限公司 / 上交所项目002073"
+      ],
+      "package_id": "PKG-ZHIXIN-IPO-2025",
+      "task_type_ids": [
+        "FIN-F02-001"
+      ],
+      "published_at": "2025-09-01",
+      "published_at_basis": "披露索引及交易所附件日期；签署月与披露日分别核对",
+      "business_period": "2022-2024年度及2025上半年（须按各原件范围）",
+      "original_format": "pdf",
+      "content_role": "resolved_reply_answer_bearing",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "至信"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+    },
+    {
+      "document_id": "SSE-ZHIXIN-REPLY2-20251010",
+      "source_id": "S02",
+      "title": "至信股份第二轮问询回复",
+      "original_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251010_1NW4.pdf",
+      "publication_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202510/002073_20251010_1NW4.pdf",
+      "publisher": "重庆至信实业股份有限公司 / 上交所项目002073",
+      "entity_ids": [
+        "重庆至信实业股份有限公司 / 上交所项目002073"
+      ],
+      "package_id": "PKG-ZHIXIN-IPO-2025",
+      "task_type_ids": [
+        "FIN-F02-001"
+      ],
+      "published_at": "2025-10-10",
+      "published_at_basis": "披露索引及交易所附件日期；签署月与披露日分别核对",
+      "business_period": "2022-2024年度及2025上半年（须按各原件范围）",
+      "original_format": "pdf",
+      "content_role": "resolved_reply_answer_bearing",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "至信"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "discovery_url": "https://www.stcn.com/ipo/detail/3348.html"
+    },
+    {
+      "document_id": "CN-1225327554",
+      "source_id": "S01",
+      "title": "国城矿业：国城矿业股份有限公司重大资产购买暨关联交易报告书（草案）",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225327554.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225327554&announcementTime=2026-05-23",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-05-23",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "initial_transaction_disclosure",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225449388",
+      "source_id": "S01",
+      "title": "国城矿业：重大资产购买暨关联交易报告书（草案）（修订稿）",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449388.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225449388&announcementTime=2026-07-31",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-07-31",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "revised_transaction_disclosure",
+      "version_of": "CN-1225327554",
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225327559",
+      "source_id": "S01",
+      "title": "国城矿业：北京中银律师事务所关于国城矿业股份有限公司重大资产购买暨关联交易之法律意见书",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225327559.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225327559&announcementTime=2026-05-23",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-05-23",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "initial_published_legal_opinion",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "allow_visual_identity_review": true
+    },
+    {
+      "document_id": "CN-1225449382",
+      "source_id": "S01",
+      "title": "国城矿业：北京中银律师事务所关于国城矿业股份有限公司重大资产购买暨关联交易之补充法律意见书（一）",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449382.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225449382&announcementTime=2026-07-31",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-07-31",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "supplemental_published_legal_opinion",
+      "version_of": "CN-1225327559",
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "allow_visual_identity_review": true
+    },
+    {
+      "document_id": "CN-1225327560",
+      "source_id": "S01",
+      "title": "国城矿业：内蒙古国城实业有限公司审计报告（天健审〔2026〕8-580 号）",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225327560.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225327560&announcementTime=2026-05-23",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-05-23",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "initial_target_audit",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225449390",
+      "source_id": "S01",
+      "title": "国城矿业：内蒙古国城实业有限公司审计报告（天健审〔2026〕8-650号）",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449390.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225449390&announcementTime=2026-07-31",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-07-31",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "updated_target_audit",
+      "version_of": "CN-1225327560",
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225449376",
+      "source_id": "S01",
+      "title": "国城矿业：关于回复深圳证券交易所《关于对国城矿业股份有限公司重大资产购买暨关联交易的问询函》的公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449376.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225449376&announcementTime=2026-07-31",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-07-31",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "resolved_reply_answer_bearing",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225449371",
+      "source_id": "S01",
+      "title": "国城矿业：关于重大资产购买暨关联交易报告书（草案）修订的说明",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449371.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225449371&announcementTime=2026-07-31",
+      "publisher": "国城矿业 (000688)",
+      "entity_ids": [
+        "国城矿业 (000688)"
+      ],
+      "package_id": "PKG-GUOCHENG-MA-2026",
+      "task_type_ids": [
+        "LAW-L03-001"
+      ],
+      "published_at": "2026-07-31",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026收购国城实业40%股权；不是2025收购60%交易",
+      "original_format": "pdf",
+      "content_role": "revision_explanation",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "国城矿业"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225248741",
+      "source_id": "S01",
+      "title": "茂化实华：2025年年度报告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225248741.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225248741&announcementTime=2026-04-29",
+      "publisher": "茂化实华 (000637)",
+      "entity_ids": [
+        "茂化实华 (000637)"
+      ],
+      "package_id": "PKG-MAOHUA-CORRECTION-2026",
+      "task_type_ids": [
+        "FIN-F17-001",
+        "FIN-F01-001"
+      ],
+      "published_at": "2026-04-29",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度；2026-08-06更正涉及2023-2026Q1",
+      "original_format": "pdf",
+      "content_role": "original_pre_correction_financials",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "茂化实华"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225460245",
+      "source_id": "S01",
+      "title": "茂化实华：关于前期会计差错更正的公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-06/1225460245.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225460245&announcementTime=2026-08-06",
+      "publisher": "茂化实华 (000637)",
+      "entity_ids": [
+        "茂化实华 (000637)"
+      ],
+      "package_id": "PKG-MAOHUA-CORRECTION-2026",
+      "task_type_ids": [
+        "FIN-F17-001",
+        "FIN-F01-001"
+      ],
+      "published_at": "2026-08-06",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度；2026-08-06更正涉及2023-2026Q1",
+      "original_format": "pdf",
+      "content_role": "correction_result_answer_bearing",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "茂化实华"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225460240",
+      "source_id": "S01",
+      "title": "茂化实华：2025年年度报告（更正后）",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-06/1225460240.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225460240&announcementTime=2026-08-06",
+      "publisher": "茂化实华 (000637)",
+      "entity_ids": [
+        "茂化实华 (000637)"
+      ],
+      "package_id": "PKG-MAOHUA-CORRECTION-2026",
+      "task_type_ids": [
+        "FIN-F17-001",
+        "FIN-F01-001"
+      ],
+      "published_at": "2026-08-06",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度；2026-08-06更正涉及2023-2026Q1",
+      "original_format": "pdf",
+      "content_role": "corrected_financials_answer_bearing",
+      "version_of": "CN-1225248741",
+      "acquisition_policy": "download",
+      "expected_text": [
+        "茂化实华"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225460243",
+      "source_id": "S01",
+      "title": "茂化实华：关于茂名石化实华股份有限公司前期会计差错更正情况专项说明的审核报告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-06/1225460243.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225460243&announcementTime=2026-08-06",
+      "publisher": "茂化实华 (000637)",
+      "entity_ids": [
+        "茂化实华 (000637)"
+      ],
+      "package_id": "PKG-MAOHUA-CORRECTION-2026",
+      "task_type_ids": [
+        "FIN-F17-001",
+        "FIN-F01-001"
+      ],
+      "published_at": "2026-08-06",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年度；2026-08-06更正涉及2023-2026Q1",
+      "original_format": "pdf",
+      "content_role": "auditor_review_of_correction_answer_bearing",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "茂名石化实华"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested",
+      "allow_visual_identity_review": true
+    },
+    {
+      "document_id": "CN-1225045474",
+      "source_id": "S01",
+      "title": "申万宏源：2025年年度报告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045474.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225045474&announcementTime=2026-03-28",
+      "publisher": "申万宏源 (000166)",
+      "entity_ids": [
+        "申万宏源 (000166)"
+      ],
+      "package_id": "PKG-SWHY-DEBT-2026",
+      "task_type_ids": [
+        "FIN-F04-001"
+      ],
+      "published_at": "2026-03-28",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "申万宏源集团（非证券子公司）；23申宏04到期事项",
+      "original_format": "pdf",
+      "content_role": "issuer_annual_financials",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "申万宏源"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225398819",
+      "source_id": "S01",
+      "title": "申万宏源：申万宏源集团股份有限公司公司债券受托管理事务报告（2025年度）",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225398819.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225398819&announcementTime=2026-06-30",
+      "publisher": "申万宏源 (000166)",
+      "entity_ids": [
+        "申万宏源 (000166)"
+      ],
+      "package_id": "PKG-SWHY-DEBT-2026",
+      "task_type_ids": [
+        "FIN-F04-001"
+      ],
+      "published_at": "2026-06-30",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "申万宏源集团（非证券子公司）；23申宏04到期事项",
+      "original_format": "pdf",
+      "content_role": "trustee_annual_public_artifact",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "申万宏源"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225545737",
+      "source_id": "S01",
+      "title": "申万宏源：申万宏源集团股份有限公司2023年面向专业投资者公开发行公司债券（(第二期）（品种二）2026年兑付兑息及摘牌的公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-09-03/1225545737.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225545737&announcementTime=2026-09-03",
+      "publisher": "申万宏源 (000166)",
+      "entity_ids": [
+        "申万宏源 (000166)"
+      ],
+      "package_id": "PKG-SWHY-DEBT-2026",
+      "task_type_ids": [
+        "FIN-F04-001"
+      ],
+      "published_at": "2026-09-03",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "申万宏源集团（非证券子公司）；23申宏04到期事项",
+      "original_format": "pdf",
+      "content_role": "announced_maturity_payment",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "申万宏源"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1225489930",
+      "source_id": "S01",
+      "title": "重庆建工：重庆建工关于公司及子公司涉及诉讼的公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225489930.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1225489930&announcementTime=2026-08-22",
+      "publisher": "重庆建工 (600939)",
+      "entity_ids": [
+        "重庆建工 (600939)"
+      ],
+      "package_id": "PKG-CQJG-LITIGATION-2026",
+      "task_type_ids": [
+        "LAW-L02-002"
+      ],
+      "published_at": "2026-08-22",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2026-08-22披露的诉讼；案情须区分当事人主张与认定",
+      "original_format": "pdf",
+      "content_role": "issuer_claim_summary_not_original_case_evidence",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "重庆建工"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "GZ-CZ20260463-CONTRACT",
+      "source_id": "S44",
+      "title": "广州市政府办公厅2026-2027信息化运维：第五章 合同文本",
+      "original_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/ZF_JGBM_000009/zone/2026/4/15/8a7e9d799d7517d7019d8e9df7cf4819/gpx-tender/8a7e00c79c33c7e6019dd857668b6d61.docx?accessCode=d1a83dc2ca38ad145bf1adf4db5f823c",
+      "publication_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202604/t20260430_26486504.htm",
+      "publisher": "CZ2026-0463 / 广州市人民政府办公厅",
+      "entity_ids": [
+        "CZ2026-0463 / 广州市人民政府办公厅"
+      ],
+      "package_id": "PKG-GZ-IT-CONTRACT-2026",
+      "task_type_ids": [
+        "LAW-L01-002"
+      ],
+      "published_at": "2026-04-30",
+      "published_at_basis": "官方发布页日期及原件正文核对",
+      "business_period": "服务期2026-06-21至2027-06-20；招标版本2026042903",
+      "original_format": "docx",
+      "content_role": "project_specific_unsigned_contract_template",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "GZ-CZ20260463-REQUIREMENTS",
+      "source_id": "S44",
+      "title": "广州市政府办公厅2026-2027信息化运维：第二章 采购需求",
+      "original_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/ZF_JGBM_000009/zone/2026/4/15/8a7e9d799d7517d7019d8e9df7cf4819/gpx-tender/8a7efde19c33c770019dd8575ce37a44.docx?accessCode=f98c9dd951d737711b8b7e0362f7f9fa",
+      "publication_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202604/t20260430_26486504.htm",
+      "publisher": "CZ2026-0463 / 广州市人民政府办公厅",
+      "entity_ids": [
+        "CZ2026-0463 / 广州市人民政府办公厅"
+      ],
+      "package_id": "PKG-GZ-IT-CONTRACT-2026",
+      "task_type_ids": [
+        "LAW-L01-002"
+      ],
+      "published_at": "2026-04-30",
+      "published_at_basis": "官方发布页日期及原件正文核对",
+      "business_period": "服务期2026-06-21至2027-06-20；招标版本2026042903",
+      "original_format": "docx",
+      "content_role": "project_specific_procurement_requirements",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "GZ-CZ20260463-TENDER",
+      "source_id": "S44",
+      "title": "广州市政府办公厅2026-2027信息化运维：项目招标文件（2026042903）",
+      "original_url": "https://gdgpo.czt.gd.gov.cn/gpx-bid-file/440101/gpx-tender/2026/4/29/8a7e8bdf9c42e616019dd8c9516549d1.zip?accessCode=6aa48b6ac136cc1c2016d52d13e8cd81",
+      "publication_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202604/t20260430_26486504.htm",
+      "publisher": "CZ2026-0463 / 广州市人民政府办公厅",
+      "entity_ids": [
+        "CZ2026-0463 / 广州市人民政府办公厅"
+      ],
+      "package_id": "PKG-GZ-IT-CONTRACT-2026",
+      "task_type_ids": [
+        "LAW-L01-002"
+      ],
+      "published_at": "2026-04-30",
+      "published_at_basis": "官方发布页日期及原件正文核对",
+      "business_period": "服务期2026-06-21至2027-06-20；招标版本2026042903",
+      "original_format": "zip",
+      "content_role": "tender_archive_overlaps_separate_chapters",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "COURT-ZHENXIN-GUIDE",
+      "source_id": "S33",
+      "title": "东莞市震鑫磁业有限公司：债权申报指引",
+      "original_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/0c086b4d8db38b2ad97cdfbb7579f593?fn=00债权申报指引.pdf",
+      "publication_url": "https://pccz.court.gov.cn/pcgg/ggxq?id=9a1a221faa0c4d1bae29b28a3845b4d4",
+      "publisher": "东莞市震鑫磁业有限公司 / 管理人",
+      "entity_ids": [
+        "东莞市震鑫磁业有限公司 / 管理人"
+      ],
+      "package_id": "PKG-ZHENXIN-CLAIM-2026",
+      "task_type_ids": [
+        "LAW-L04-001"
+      ],
+      "published_at": "2026-10-08",
+      "published_at_basis": "法院信息网管理人公告公开时间；不是受理日",
+      "business_period": "受理2026-09-02；申报截止2026-11-03",
+      "original_format": "pdf",
+      "content_role": "case_specific_procedural_notice",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "COURT-ZHENXIN-CLAIM",
+      "source_id": "S33",
+      "title": "东莞市震鑫磁业有限公司：债权申报书",
+      "original_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/471a7121f718d5dd43c46094b31d7c6f?fn=03-债权申报书.docx",
+      "publication_url": "https://pccz.court.gov.cn/pcgg/ggxq?id=9a1a221faa0c4d1bae29b28a3845b4d4",
+      "publisher": "东莞市震鑫磁业有限公司 / 管理人",
+      "entity_ids": [
+        "东莞市震鑫磁业有限公司 / 管理人"
+      ],
+      "package_id": "PKG-ZHENXIN-CLAIM-2026",
+      "task_type_ids": [
+        "LAW-L04-001"
+      ],
+      "published_at": "2026-10-08",
+      "published_at_basis": "法院信息网管理人公告公开时间；不是受理日",
+      "business_period": "受理2026-09-02；申报截止2026-11-03",
+      "original_format": "docx",
+      "content_role": "blank_case_specific_filing_form",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "COURT-ZHENXIN-LIST",
+      "source_id": "S33",
+      "title": "东莞市震鑫磁业有限公司：债权申报材料清单",
+      "original_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/ea19bf98f126c67adb1f837ef3ef93f4?fn=01-债权申报材料清单.docx",
+      "publication_url": "https://pccz.court.gov.cn/pcgg/ggxq?id=9a1a221faa0c4d1bae29b28a3845b4d4",
+      "publisher": "东莞市震鑫磁业有限公司 / 管理人",
+      "entity_ids": [
+        "东莞市震鑫磁业有限公司 / 管理人"
+      ],
+      "package_id": "PKG-ZHENXIN-CLAIM-2026",
+      "task_type_ids": [
+        "LAW-L04-001"
+      ],
+      "published_at": "2026-10-08",
+      "published_at_basis": "法院信息网管理人公告公开时间；不是受理日",
+      "business_period": "受理2026-09-02；申报截止2026-11-03",
+      "original_format": "docx",
+      "content_role": "blank_case_specific_filing_form",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "COURT-ZHENXIN-REGISTER",
+      "source_id": "S33",
+      "title": "东莞市震鑫磁业有限公司：债权申报登记表",
+      "original_url": "https://pccz.court.gov.cn/filedownloads/pcglr/202610/b791e8acafed49459a07158a3b1fd960/9a1a221faa0c4d1bae29b28a3845b4d4/75ea021393b3d79ee2dfa98b846383c8?fn=02-债权申报登记表.docx",
+      "publication_url": "https://pccz.court.gov.cn/pcgg/ggxq?id=9a1a221faa0c4d1bae29b28a3845b4d4",
+      "publisher": "东莞市震鑫磁业有限公司 / 管理人",
+      "entity_ids": [
+        "东莞市震鑫磁业有限公司 / 管理人"
+      ],
+      "package_id": "PKG-ZHENXIN-CLAIM-2026",
+      "task_type_ids": [
+        "LAW-L04-001"
+      ],
+      "published_at": "2026-10-08",
+      "published_at_basis": "法院信息网管理人公告公开时间；不是受理日",
+      "business_period": "受理2026-09-02；申报截止2026-11-03",
+      "original_format": "docx",
+      "content_role": "blank_case_specific_filing_form",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CSRC-XJ-DEBT-NOTICE-20260609",
+      "source_id": "S39",
+      "title": "关于做好2026年新疆辖区债券相关工作的通知",
+      "original_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+      "publication_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+      "publisher": "新疆证监局",
+      "entity_ids": [
+        "新疆证监局"
+      ],
+      "package_id": "PKG-SWHY-DEBT-2026",
+      "task_type_ids": [
+        "FIN-F04-001"
+      ],
+      "published_at": "2026-06-09",
+      "published_at_basis": "官方发布页日期及原件正文核对",
+      "business_period": "新疆辖区2026年度",
+      "original_format": "html",
+      "content_role": "jurisdiction_specific_operating_rule",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "2026",
+        "偿债资金"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CSRC-XJ-FUNDING-FORM-20260609",
+      "source_id": "S39",
+      "title": "附件5：公司（企业）债券偿债资金落实情况排查表",
+      "original_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/7638121/files/附件5：公司（企业）债券偿债资金落实情况排查表.xlsx",
+      "publication_url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+      "publisher": "新疆证监局",
+      "entity_ids": [
+        "新疆证监局"
+      ],
+      "package_id": "PKG-SWHY-DEBT-2026",
+      "task_type_ids": [
+        "FIN-F04-001"
+      ],
+      "published_at": "2026-06-09",
+      "published_at_basis": "官方发布页日期及原件正文核对",
+      "business_period": "新疆辖区2026年度",
+      "original_format": "xlsx",
+      "content_role": "blank_regulatory_workbook",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "资金"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "ICC-RULES-2026-EN",
+      "source_id": "EXT-ICC",
+      "title": "ICC 2026仲裁规则（英文原文）",
+      "original_url": "https://iccwbo.org/wp-content/uploads/sites/3/2026/06/ICC_2026_Arbitration_Rules_2014_Mediation_Rules_EN.pdf",
+      "publication_url": "https://iccwbo.org/dispute-resolution/dispute-resolution-services/arbitration/rules-procedure/2026-arbitration-rules/",
+      "publisher": "International Chamber of Commerce",
+      "entity_ids": [
+        "International Chamber of Commerce"
+      ],
+      "package_id": "PKG-ICC-RULES-2026",
+      "task_type_ids": [
+        "LAW-L12-001"
+      ],
+      "published_at": "2026-06",
+      "published_at_basis": "原件版权页 Publication date: June 2026，日期精度为月",
+      "business_period": "仲裁规则自2026-06-01生效；合订调解规则仍为2014年版本",
+      "original_format": "pdf",
+      "content_role": "current_institutional_rules",
+      "version_of": null,
+      "acquisition_policy": "link_only",
+      "expected_text": [],
+      "rights_status": "explicit_copyright_restriction; link_only; permission_required_before_task_distribution",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "ICC-RULES-2026-ZH",
+      "source_id": "EXT-ICC",
+      "title": "ICC 2026仲裁规则（中文译本）",
+      "original_url": "https://iccwbo.org/wp-content/uploads/sites/3/2026/06/ICC_2026_Arbitration_Rules_2014_Mediation_Rules_ZH.pdf",
+      "publication_url": "https://iccwbo.org/dispute-resolution/dispute-resolution-services/arbitration/rules-procedure/2026-arbitration-rules/",
+      "publisher": "International Chamber of Commerce",
+      "entity_ids": [
+        "International Chamber of Commerce"
+      ],
+      "package_id": "PKG-ICC-RULES-2026",
+      "task_type_ids": [
+        "LAW-L12-001"
+      ],
+      "published_at": "2026-06",
+      "published_at_basis": "原件版权页 Publication date: June 2026，日期精度为月",
+      "business_period": "仲裁规则自2026-06-01生效；合订调解规则仍为2014年版本",
+      "original_format": "pdf",
+      "content_role": "translation_of_rules",
+      "version_of": null,
+      "acquisition_policy": "link_only",
+      "expected_text": [],
+      "rights_status": "explicit_copyright_restriction; link_only; permission_required_before_task_distribution",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1224318011",
+      "source_id": "S01",
+      "title": "海大集团：商品套期保值业务管理制度",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2025-07-29/1224318011.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1224318011&announcementTime=2025-07-29",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F13-002"
+      ],
+      "published_at": "2025-07-29",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年8月股东会通过后的12个月；不与2026年8月新额度混用",
+      "original_format": "pdf",
+      "content_role": "hedge_internal_public_policy",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1224318016",
+      "source_id": "S01",
+      "title": "海大集团：关于开展套期保值业务的公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2025-07-29/1224318016.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1224318016&announcementTime=2025-07-29",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F13-002"
+      ],
+      "published_at": "2025-07-29",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年8月股东会通过后的12个月；不与2026年8月新额度混用",
+      "original_format": "pdf",
+      "content_role": "prior_hedge_proposed_authorization",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    },
+    {
+      "document_id": "CN-1224486549",
+      "source_id": "S01",
+      "title": "海大集团：2025年第三次临时股东会决议公告",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2025-08-15/1224486549.PDF",
+      "publication_url": "https://www.cninfo.com.cn/new/disclosure/detail?announcementId=1224486549&announcementTime=2025-08-15",
+      "publisher": "海大集团 (002311)",
+      "entity_ids": [
+        "海大集团 (002311)"
+      ],
+      "package_id": "PKG-HAID-2026",
+      "task_type_ids": [
+        "FIN-F13-002"
+      ],
+      "published_at": "2025-08-15",
+      "published_at_basis": "巨潮公开披露查询公告时间；不是报告期或文件签署日",
+      "business_period": "2025年8月股东会通过后的12个月；不与2026年8月新额度混用",
+      "original_format": "pdf",
+      "content_role": "prior_shareholder_authorization_decision",
+      "version_of": null,
+      "acquisition_policy": "download",
+      "expected_text": [
+        "海大集团"
+      ],
+      "rights_status": "local_research_only; redistribution_not_authorized",
+      "source_authenticity": "primary_publication",
+      "contamination_status": "not_empirically_tested"
+    }
+  ]
+}

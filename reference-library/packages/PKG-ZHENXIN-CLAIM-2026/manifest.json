@@ -1,0 +1,86 @@
+{
+  "material_id": "PKG-ZHENXIN-CLAIM-2026",
+  "title": "东莞震鑫磁业2026债权申报指引与表单",
+  "task_type_ids": [
+    "LAW-L04-001"
+  ],
+  "family_split_key": "PKG-ZHENXIN-CLAIM-2026",
+  "as_of": "2026-10-08",
+  "status": "partial_public_inputs",
+  "document_ids": [
+    "COURT-ZHENXIN-CLAIM",
+    "COURT-ZHENXIN-GUIDE",
+    "COURT-ZHENXIN-LIST",
+    "COURT-ZHENXIN-REGISTER"
+  ],
+  "default_input_document_ids": [
+    "COURT-ZHENXIN-CLAIM",
+    "COURT-ZHENXIN-GUIDE",
+    "COURT-ZHENXIN-LIST",
+    "COURT-ZHENXIN-REGISTER"
+  ],
+  "excluded_from_default_inputs": [],
+  "benchmark_ready": false,
+  "input_coverage": [
+    {
+      "task_type_id": "LAW-L04-001",
+      "title": "债权申报材料整理与本金利息计算复核",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "法院受理公告、管理人申报通知及模板",
+      "point_in_time": "本案申报阶段有效通知",
+      "document_ids": [
+        "COURT-ZHENXIN-GUIDE",
+        "COURT-ZHENXIN-CLAIM",
+        "COURT-ZHENXIN-LIST",
+        "COURT-ZHENXIN-REGISTER"
+      ],
+      "coverage": "public_component",
+      "supports": "2026-10-08原始管理人指引及三份Word表单",
+      "gap": "指引记载受理2026-09-02；仍缺法院受理裁定原件及完整授权/送达表",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "LAW-L04-001",
+      "title": "债权申报材料整理与本金利息计算复核",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "合同、债权转移、履行和偿付证明",
+      "point_in_time": "受理及申报截止日前已取得材料",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "空表并不含实际债权事实",
+      "gap": "缺合同、债权转移、履行、还款及利息原始凭证",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "LAW-L04-001",
+      "title": "债权申报材料整理与本金利息计算复核",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "担保、抵销、诉讼执行和授权文件",
+      "point_in_time": "与申报截止日一致",
+      "document_ids": [],
+      "coverage": "missing",
+      "supports": "本批未获取具体债权人的担保和程序记录",
+      "gap": "缺担保登记、抵销、诉执及授权材料",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "LAW-L04-001",
+      "title": "债权申报材料整理与本金利息计算复核",
+      "card_status": "verified",
+      "requirement_index": 4,
+      "required_input": "适用实体法、破产规范和具体计算口径",
+      "point_in_time": "对应债权事实及程序版本",
+      "document_ids": [
+        "COURT-ZHENXIN-GUIDE"
+      ],
+      "coverage": "partial",
+      "supports": "指引给出本案申报截止、停息与日计数说明",
+      "gap": "其具体计算方法需要与合同、生效文书和正式法源核对，不能跨案推广",
+      "benchmark_ready": false
+    }
+  ],
+  "versions": []
+}

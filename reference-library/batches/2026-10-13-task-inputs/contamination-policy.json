@@ -1,0 +1,18 @@
+{
+  "preferred_publication_window": [
+    "2025-07-01",
+    "2026-10-13"
+  ],
+  "document_freshness": "按首次披露/该修订版披露，而非下载日；2026发布且主体事实仍为早年时单独标注",
+  "not_a_zero_contamination_claim": true,
+  "model_training_cutoffs_unknown": true,
+  "split_unit": "同一主体/同一IPO、并购或案件及所有版本、译本、派生层不得跨train/eval",
+  "answer_control": "包默认视图排除已解决回复、事后更正结果及截止日之后材料；实际造题仍须逐页隔离",
+  "selection_bias": "首批有目的抽样；公开可得性偏向披露多的大中型企业，不能代表行业总体",
+  "future_input_checks": [
+    "要求具体近期金额、条款、版本和跨文件勾稽",
+    "使用同主体截止日一致的授权原始底稿补齐缺口",
+    "在目标模型上做closed-book基线与近似答案检索，当前未运行"
+  ],
+  "duplicate_policy": "SHA256识别字节重复；ZIP成员/独立章节以及英文/译文不计独立来源，全文语义重复率未量化"
+}

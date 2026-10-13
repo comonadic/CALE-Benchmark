@@ -1,0 +1,23 @@
+[
+  {
+    "id": "CCGP-GZ-CZ20260463",
+    "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202604/t20260430_26486504.htm",
+    "file": "source-pages/CCGP-GZ-CZ20260463.html",
+    "sha256": "bc5c660a38179ec295c77eba3b6e1b1133378da8ca903bcc2cdf650fde0d2267",
+    "acquired_at": "2026-10-13T14:14:26+08:00"
+  },
+  {
+    "id": "COURT-ZHENXIN",
+    "url": "https://pccz.court.gov.cn/pcgg/ggxq?id=9a1a221faa0c4d1bae29b28a3845b4d4",
+    "file": "source-pages/COURT-ZHENXIN.html",
+    "sha256": "6f705f19a147156a6c3f309d19d7a10153620991070659c743fd02073d1d7c2a",
+    "acquired_at": "2026-10-13T14:14:26+08:00"
+  },
+  {
+    "id": "CSRC-XINJIANG",
+    "url": "https://www.csrc.gov.cn/xinjiang/c104362/c7638121/content.shtml",
+    "file": "source-pages/CSRC-XINJIANG.html",
+    "sha256": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+    "acquired_at": "2026-10-13T14:14:27+08:00"
+  }
+]

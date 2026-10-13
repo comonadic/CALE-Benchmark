@@ -1,0 +1,59 @@
+[
+  {
+    "query": "海大集团 套期保值",
+    "total": 3,
+    "rows": [
+      {
+        "announcementId": "1224318011",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "商品套期保值业务管理制度",
+        "announcementTime": 1753718400000,
+        "adjunctUrl": "finalpage/2025-07-29/1224318011.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1224318022",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "关于开展套期保值业务的可行性分析",
+        "announcementTime": 1753718400000,
+        "adjunctUrl": "finalpage/2025-07-29/1224318022.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1224318016",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "关于开展套期保值业务的公告",
+        "announcementTime": 1753718400000,
+        "adjunctUrl": "finalpage/2025-07-29/1224318016.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "海大集团 临时股东会决议",
+    "total": 2,
+    "rows": [
+      {
+        "announcementId": "1224807266",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "2025年第四次临时股东会决议公告",
+        "announcementTime": 1763136000000,
+        "adjunctUrl": "finalpage/2025-11-15/1224807266.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1224486549",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "2025年第三次临时股东会决议公告",
+        "announcementTime": 1755187200000,
+        "adjunctUrl": "finalpage/2025-08-15/1224486549.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  }
+]

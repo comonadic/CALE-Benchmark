@@ -1,0 +1,106 @@
+{
+  "material_id": "PKG-GUOCHENG-MA-2026",
+  "title": "国城矿业2026收购国城实业40%股权",
+  "task_type_ids": [
+    "LAW-L03-001"
+  ],
+  "family_split_key": "PKG-GUOCHENG-MA-2026",
+  "as_of": "2026-07-31",
+  "status": "partial_public_inputs",
+  "document_ids": [
+    "CN-1225327554",
+    "CN-1225327559",
+    "CN-1225327560",
+    "CN-1225449371",
+    "CN-1225449376",
+    "CN-1225449382",
+    "CN-1225449388",
+    "CN-1225449390"
+  ],
+  "default_input_document_ids": [
+    "CN-1225327554",
+    "CN-1225327559",
+    "CN-1225327560",
+    "CN-1225449371",
+    "CN-1225449382",
+    "CN-1225449388",
+    "CN-1225449390"
+  ],
+  "excluded_from_default_inputs": [
+    {
+      "document_id": "CN-1225449376",
+      "reason": "resolved_result_or_reply_answer"
+    }
+  ],
+  "benchmark_ready": false,
+  "input_coverage": [
+    {
+      "task_type_id": "LAW-L03-001",
+      "title": "收购项目法律尽调资料清单与缺口台账维护",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "委托范围、交易概要及目标公司业务说明",
+      "point_in_time": "尽调启动或本轮更新日",
+      "document_ids": [
+        "CN-1225327554",
+        "CN-1225449388"
+      ],
+      "coverage": "partial",
+      "supports": "同一2026收购40%股权交易的草案、修订稿及概要",
+      "gap": "缺委托范围与内部交易说明；不与2025收购60%混组",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "LAW-L03-001",
+      "title": "收购项目法律尽调资料清单与缺口台账维护",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "数据室索引及已提供公司、股权、合同、许可等资料",
+      "point_in_time": "该轮资料快照",
+      "document_ids": [
+        "CN-1225327554",
+        "CN-1225449388",
+        "CN-1225327559",
+        "CN-1225449382",
+        "CN-1225327560",
+        "CN-1225449390",
+        "CN-1225449376",
+        "CN-1225449371"
+      ],
+      "coverage": "partial",
+      "supports": "同标的两期审计、两版法律意见、交易披露、许可/产权信息",
+      "gap": "不含数据室原始索引、完整公司档案和许可/合同原件",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "LAW-L03-001",
+      "title": "收购项目法律尽调资料清单与缺口台账维护",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "上轮需求清单及目标公司回复",
+      "point_in_time": "本轮截止日前",
+      "document_ids": [
+        "CN-1225449376",
+        "CN-1225449371"
+      ],
+      "coverage": "supplement_only",
+      "supports": "公开问询回复和修订说明可提供补充事项线索",
+      "gap": "不能当作上轮真实资料清单与数据室逐项回复",
+      "benchmark_ready": false
+    }
+  ],
+  "versions": [
+    {
+      "document_id": "CN-1225449382",
+      "version_of": "CN-1225327559"
+    },
+    {
+      "document_id": "CN-1225449388",
+      "version_of": "CN-1225327554"
+    },
+    {
+      "document_id": "CN-1225449390",
+      "version_of": "CN-1225327560"
+    }
+  ]
+}

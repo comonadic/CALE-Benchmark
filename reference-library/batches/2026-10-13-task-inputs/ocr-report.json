@@ -1,0 +1,57 @@
+{
+  "engine": "macOS Vision",
+  "earlier_sandbox_attempt": "zero observations; discarded; retried with local Vision service access",
+  "documents": [
+    {
+      "document_id": "CN-1225327559",
+      "ocr_pages_attempted": 77,
+      "ocr_pages_returned": 77,
+      "ocr_pages_with_text": 77,
+      "text_characters": 56447,
+      "low_confidence_lines": 1943,
+      "process_exit_code": 0
+    },
+    {
+      "document_id": "CN-1225449382",
+      "ocr_pages_attempted": 61,
+      "ocr_pages_returned": 61,
+      "ocr_pages_with_text": 61,
+      "text_characters": 47353,
+      "low_confidence_lines": 1667,
+      "process_exit_code": 0
+    },
+    {
+      "document_id": "CN-1225460243",
+      "ocr_pages_attempted": 10,
+      "ocr_pages_returned": 10,
+      "ocr_pages_with_text": 10,
+      "text_characters": 4253,
+      "low_confidence_lines": 167,
+      "process_exit_code": 0
+    },
+    {
+      "document_id": "SSE-ZHIXIN-AUDIT-20251030",
+      "ocr_pages_attempted": 24,
+      "ocr_pages_returned": 24,
+      "ocr_pages_with_text": 24,
+      "text_characters": 25882,
+      "low_confidence_lines": 1594,
+      "process_exit_code": 0
+    }
+  ],
+  "numeric_gold_verified": false,
+  "derived_exclusions": {
+    "CN-1225460243": {
+      "pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "证照与个人信息附页不进入OCR派生层或任务输入",
+      "business_ocr_pages_retained": 6
+    }
+  },
+  "ocr_pages_attempted": 172,
+  "business_ocr_pages_retained": 168
+}

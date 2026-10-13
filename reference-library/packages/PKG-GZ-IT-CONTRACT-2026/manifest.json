@@ -1,0 +1,74 @@
+{
+  "material_id": "PKG-GZ-IT-CONTRACT-2026",
+  "title": "广州CZ2026-0463合同及采购需求",
+  "task_type_ids": [
+    "LAW-L01-002"
+  ],
+  "family_split_key": "PKG-GZ-IT-CONTRACT-2026",
+  "as_of": "2026-04-30",
+  "status": "partial_public_inputs",
+  "document_ids": [
+    "GZ-CZ20260463-CONTRACT",
+    "GZ-CZ20260463-REQUIREMENTS",
+    "GZ-CZ20260463-TENDER"
+  ],
+  "default_input_document_ids": [
+    "GZ-CZ20260463-CONTRACT",
+    "GZ-CZ20260463-REQUIREMENTS",
+    "GZ-CZ20260463-TENDER"
+  ],
+  "excluded_from_default_inputs": [],
+  "benchmark_ready": false,
+  "input_coverage": [
+    {
+      "task_type_id": "LAW-L01-002",
+      "title": "签署前合同审改及谈判后版本复核",
+      "card_status": "verified",
+      "requirement_index": 1,
+      "required_input": "待签合同、附件及此前审改版本",
+      "point_in_time": "本轮签署前版本",
+      "document_ids": [
+        "GZ-CZ20260463-CONTRACT",
+        "GZ-CZ20260463-REQUIREMENTS",
+        "GZ-CZ20260463-TENDER"
+      ],
+      "coverage": "partial",
+      "supports": "真实项目专用合同Word、采购需求Word和全套招标文件",
+      "gap": "合同为未签模板，仍有CZ2026-xxxx占位；缺前轮审改稿、完整签署附件",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "LAW-L01-002",
+      "title": "签署前合同审改及谈判后版本复核",
+      "card_status": "verified",
+      "requirement_index": 2,
+      "required_input": "商务要求、招采或响应文件及谈判反馈",
+      "point_in_time": "本轮审查时已确认记录",
+      "document_ids": [
+        "GZ-CZ20260463-REQUIREMENTS",
+        "GZ-CZ20260463-TENDER"
+      ],
+      "coverage": "partial",
+      "supports": "采购需求与实际项目招标条件",
+      "gap": "缺中标响应、谈判确认与业务立场；合同分包条款需与采购条件核对",
+      "benchmark_ready": false
+    },
+    {
+      "task_type_id": "LAW-L01-002",
+      "title": "签署前合同审改及谈判后版本复核",
+      "card_status": "verified",
+      "requirement_index": 3,
+      "required_input": "适用规范及内部审查要求",
+      "point_in_time": "交易事项适用版本",
+      "document_ids": [
+        "GZ-CZ20260463-REQUIREMENTS",
+        "GZ-CZ20260463-TENDER"
+      ],
+      "coverage": "partial",
+      "supports": "招标文件列示采购规范与审查条件",
+      "gap": "需事项时点正式法源与委托方内审要求",
+      "benchmark_ready": false
+    }
+  ],
+  "versions": []
+}

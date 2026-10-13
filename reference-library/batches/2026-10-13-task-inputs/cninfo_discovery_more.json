@@ -1,0 +1,361 @@
+[
+  {
+    "query": "海大集团 年度报告",
+    "total": 2,
+    "rows": [
+      {
+        "announcementId": "1225203634",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "2025年年度报告摘要",
+        "announcementTime": 1777305600000,
+        "adjunctUrl": "finalpage/2026-04-28/1225203634.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225203635",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "2025年年度报告",
+        "announcementTime": 1777305600000,
+        "adjunctUrl": "finalpage/2026-04-28/1225203635.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "海大集团 半年度报告",
+    "total": 0,
+    "rows": []
+  },
+  {
+    "query": "海大集团 股东会决议",
+    "total": 1,
+    "rows": [
+      {
+        "announcementId": "1225491061",
+        "secCode": "002311",
+        "secName": "海大集团",
+        "announcementTitle": "2026年第一次临时股东会决议公告",
+        "announcementTime": 1787328000000,
+        "adjunctUrl": "finalpage/2026-08-22/1225491061.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "国城矿业",
+    "total": 40,
+    "rows": [
+      {
+        "announcementId": "1225327562",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "审阅报告（天健审〔2026〕8-581号）",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327562.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327570",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易相关主体不存在《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》第十二条规定情形的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327570.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327571",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易摊薄即期回报情况及填补措施的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327571.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327574",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条规定及不适用第四十三条、第四十四条规定的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327574.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327582",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "上市公司并购重组财务顾问专业意见附表第2号——重大资产重组",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327582.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327583",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司在充分尽职调查和内核的基础上出具的承诺",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327583.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327586",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327586.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327589",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于本次交易相关主体不存在《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》第十二条规定的不得参与任何上市公司重大资产重组情形的核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327589.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327590",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于暂不召开股东会审议本次重大资产购买暨关联交易相关事项的公告",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327590.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327560",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "内蒙古国城实业有限公司审计报告（天健审〔2026〕8-580 号）",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327560.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327566",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易履行法定程序完备性、合规性及提交法律文件有效性的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327566.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327567",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易构成关联交易的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327567.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327576",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易前十二个月内上市公司购买、出售资产情况的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327576.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327577",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于本次交易符合《关于加强证券公司在投资银行类业务中聘请第三方等廉洁从业风险防控的意见》的相关规定之核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327577.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327581",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于国城矿业股份有限公司本次交易信息公布前公司股票价格波动情况的核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327581.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327584",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于上市公司内幕信息知情人登记制度的制定和执行情况之专项核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327584.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327588",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于国城矿业股份有限公司本次交易标的公司报告期内业绩真实性之专项核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327588.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327591",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "第十二届董事会第五十四次会议决议公告",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327591.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327592",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于对外担保的进展公告",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327592.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327564",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "内蒙古国城实业有限公司内蒙古卓资县大苏计钼矿采矿权（含深部资源量）及内蒙古卓资县大苏计钼矿补充勘探探矿权评估报告（信矿评报字[2026]第030001号）",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327564.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327555",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "国城矿业股份有限公司重大资产购买暨关联交易报告书（草案）摘要",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327555.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327565",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于本次交易采取的保密措施及保密制度的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327565.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327572",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "董事会关于评估机构的独立性、评估假设前提的合理性、评估方法与评估目的的相关性以及评估定价的公允性的说明",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327572.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327578",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于本次交易产业政策和交易类型之独立财务顾问核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327578.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327579",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于本次交易不构成《上市公司重大资产重组管理办法》第十三条规定的重组上市情形的核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327579.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327587",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "联储证券股份有限公司关于本次交易摊薄上市公司即期回报情况及填补措施之专项核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327587.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327593",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于向银行申请并购贷款的公告",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327593.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327558",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "北京中银律师事务所关于国城矿业股份有限公司内幕信息知情人登记制度的制定和执行情况之专项核查意见",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327558.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327554",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "国城矿业股份有限公司重大资产购买暨关联交易报告书（草案）",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327554.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225327556",
+        "secCode": "000688",
+        "secName": "国城矿业",
+        "announcementTitle": "关于本次重大资产购买暨关联交易的一般风险提示公告",
+        "announcementTime": 1779465600000,
+        "adjunctUrl": "finalpage/2026-05-23/1225327556.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "茂化实华 年度报告",
+    "total": 2,
+    "rows": [
+      {
+        "announcementId": "1225248741",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年年度报告",
+        "announcementTime": 1777392000000,
+        "adjunctUrl": "finalpage/2026-04-29/1225248741.PDF",
+        "adjunctType": "PDF"
+      },
+      {
+        "announcementId": "1225248740",
+        "secCode": "000637",
+        "secName": "茂化实华",
+        "announcementTitle": "2025年年度报告摘要",
+        "announcementTime": 1777392000000,
+        "adjunctUrl": "finalpage/2026-04-29/1225248740.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  },
+  {
+    "query": "中国国新 兑付",
+    "total": 1,
+    "rows": [
+      {
+        "announcementId": "1225425928",
+        "secCode": "600115",
+        "secName": "中国东航",
+        "announcementTitle": "中国东方航空股份有限公司关于东航海外（香港）有限公司发行的新加坡元债券兑付的公告",
+        "announcementTime": 1784131200000,
+        "adjunctUrl": "finalpage/2026-07-16/1225425928.PDF",
+        "adjunctType": "PDF"
+      }
+    ]
+  }
+]

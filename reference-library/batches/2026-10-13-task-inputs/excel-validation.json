@@ -1,0 +1,28 @@
+{
+  "sheets": [
+    "卡片覆盖",
+    "材料目录",
+    "输入缺口"
+  ],
+  "rows_in_tables": {
+    "cards": 11,
+    "materials": 41,
+    "input_requirements": 36
+  },
+  "native_hyperlinks": 80,
+  "formula_errors": [],
+  "reopened_counts": {
+    "originals": 39,
+    "2026_originals": 30
+  },
+  "freeze_panes": {
+    "卡片覆盖": "C7",
+    "材料目录": "C7",
+    "输入缺口": "C7"
+  },
+  "validation": "exported OOXML reopened; not a live Excel session",
+  "updated_card_original_counts": {
+    "FIN-F01-001": 6,
+    "FIN-F03-002": 2
+  }
+}
