@@ -1,0 +1,5 @@
+{
+  "valid": false,
+  "status": "verifier_failure",
+  "error": "ValueError: invalid assertion scale or evaluated result count"
+}

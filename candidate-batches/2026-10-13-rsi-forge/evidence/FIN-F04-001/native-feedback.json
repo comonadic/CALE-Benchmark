@@ -1,0 +1,159 @@
+{
+  "card": "FIN-F04-001",
+  "candidate_file_sha256": {
+    "COMPLETION_SUMMARY.md": "cee21be40d94844ee0c17bf47cf3c492de94b55b31e2c184dec1ebe858402ae8",
+    "MANIFEST.txt": "d1f939e01456e0e7263755631b9c6c791ed35a37af66a09933d637f628f06743",
+    "README.md": "b8f2f41a8e38a71e1c515f9006b75deb90521b1c3aebebbe860eeb7507377a62",
+    "VALIDATION_NOTES.md": "e37e6bc931d200955d014a77de848d40fdc91f69c442b226a9ad1fe7ecce7d53",
+    "environment/Dockerfile": "9c4b59290b5a4d663818cb68d1d7b96b4f782d69dc764afafe98f89c7702377b",
+    "environment/input-data/01_申万宏源2025年度报告.pdf": "6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471",
+    "environment/input-data/02_申万宏源2025年度受托报告.pdf": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+    "environment/input-data/03_23申宏04兑付公告.pdf": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+    "environment/input-data/04_新疆证监局2026通知.html": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+    "environment/input-data/05_附件5排查表模板.xlsx": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+    "instruction.md": "26d6342aeeaeb04ccde777d5b8b4350f4078528318409b9dcff43c1db662dbb9",
+    "lineage.json": "7d14a9155109613ab64a38278a6297e68b7a4adb9224428f0d0b2d6681c8d956",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "fc54c476c488fcbe42dfa5e868fe8d03afa837fe4e2d245f5b76c8005ff6695a",
+    "solution/build_reference.py": "61f9558c7951f912b701ebf24d4073efde4803693442fe246548a1377c4440eb",
+    "solution/solve.sh": "ed0c4e41d660b77abf3d4dca187006a60e9a26376b4eb6111317a856f3cfc831",
+    "task.toml": "a255d4a33b7b70b3cdc5b67ab745376d8118f799de3328da720e04e6807eab45",
+    "tests/Dockerfile": "36c5c598202a73723f33d07d3b09cc0d2f2e17a82f89828b2abab2f66be2bc2d",
+    "tests/__pycache__/grade.cpython-312.pyc": "f4266bc651e8d6817f0a4b3c2423c97dccdcb2977ea0901c120abfc26e07ef8b",
+    "tests/assertions.json": "1d0dd328e7dfed154f3f1cb5d9506e5b12d09fb7ce82ef53c434e103b8fed026",
+    "tests/grade.py": "23e2c08d8f444a958d75c96daa4c4dfcb2c8a3a745935b354e950711644af268",
+    "tests/test.sh": "7400dab743668ab01e40864d742b850c95d040df9a16668147f0d5842046944b"
+  },
+  "static_validation": {
+    "package": "[batch-root]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001",
+    "producer_attempt": "attempt_bb086ef4ad8f4ef3b6f615f96e16f95f",
+    "static_validator_exit": 0,
+    "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"FIN-F04-001\",\n      \"path\": \"[batch-root]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"26d6342aeeaeb04ccde777d5b8b4350f4078528318409b9dcff43c1db662dbb9\",\n        \"task.toml\": \"a255d4a33b7b70b3cdc5b67ab745376d8118f799de3328da720e04e6807eab45\",\n        \"environment/Dockerfile\": \"9c4b59290b5a4d663818cb68d1d7b96b4f782d69dc764afafe98f89c7702377b\",\n        \"solution/solve.sh\": \"ed0c4e41d660b77abf3d4dca187006a60e9a26376b4eb6111317a856f3cfc831\",\n        \"solution/build_reference.py\": \"61f9558c7951f912b701ebf24d4073efde4803693442fe246548a1377c4440eb\",\n        \"tests/test.sh\": \"7400dab743668ab01e40864d742b850c95d040df9a16668147f0d5842046944b\",\n        \"tests/assertions.json\": \"1d0dd328e7dfed154f3f1cb5d9506e5b12d09fb7ce82ef53c434e103b8fed026\",\n        \"tests/grade.py\": \"23e2c08d8f444a958d75c96daa4c4dfcb2c8a3a745935b354e950711644af268\"\n      },\n      \"assertion_count\": 25,\n      \"criteria_covered\": [\n        \"actions\",\n        \"amounts\",\n        \"artifact\",\n        \"bond_facts\",\n        \"dates\",\n        \"evidence\",\n        \"funding\",\n        \"risk\",\n        \"scope\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "file_sha256": {
+      "COMPLETION_SUMMARY.md": "cee21be40d94844ee0c17bf47cf3c492de94b55b31e2c184dec1ebe858402ae8",
+      "MANIFEST.txt": "d1f939e01456e0e7263755631b9c6c791ed35a37af66a09933d637f628f06743",
+      "README.md": "b8f2f41a8e38a71e1c515f9006b75deb90521b1c3aebebbe860eeb7507377a62",
+      "VALIDATION_NOTES.md": "e37e6bc931d200955d014a77de848d40fdc91f69c442b226a9ad1fe7ecce7d53",
+      "environment/Dockerfile": "9c4b59290b5a4d663818cb68d1d7b96b4f782d69dc764afafe98f89c7702377b",
+      "environment/input-data/01_申万宏源2025年度报告.pdf": "6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471",
+      "environment/input-data/02_申万宏源2025年度受托报告.pdf": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+      "environment/input-data/03_23申宏04兑付公告.pdf": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+      "environment/input-data/04_新疆证监局2026通知.html": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+      "environment/input-data/05_附件5排查表模板.xlsx": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+      "instruction.md": "26d6342aeeaeb04ccde777d5b8b4350f4078528318409b9dcff43c1db662dbb9",
+      "lineage.json": "7d14a9155109613ab64a38278a6297e68b7a4adb9224428f0d0b2d6681c8d956",
+      "solution/__pycache__/build_reference.cpython-312.pyc": "fc54c476c488fcbe42dfa5e868fe8d03afa837fe4e2d245f5b76c8005ff6695a",
+      "solution/build_reference.py": "61f9558c7951f912b701ebf24d4073efde4803693442fe246548a1377c4440eb",
+      "solution/solve.sh": "ed0c4e41d660b77abf3d4dca187006a60e9a26376b4eb6111317a856f3cfc831",
+      "task.toml": "a255d4a33b7b70b3cdc5b67ab745376d8118f799de3328da720e04e6807eab45",
+      "tests/Dockerfile": "36c5c598202a73723f33d07d3b09cc0d2f2e17a82f89828b2abab2f66be2bc2d",
+      "tests/__pycache__/grade.cpython-312.pyc": "f4266bc651e8d6817f0a4b3c2423c97dccdcb2977ea0901c120abfc26e07ef8b",
+      "tests/assertions.json": "1d0dd328e7dfed154f3f1cb5d9506e5b12d09fb7ce82ef53c434e103b8fed026",
+      "tests/grade.py": "23e2c08d8f444a958d75c96daa4c4dfcb2c8a3a745935b354e950711644af268",
+      "tests/test.sh": "7400dab743668ab01e40864d742b850c95d040df9a16668147f0d5842046944b"
+    }
+  },
+  "native_execution": {
+    "manifest": "[batch-root]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/forge-trials.json",
+    "bundle_sha256": "30276ae7cf40faa4a29fd9cf551f03ab333a3b55ac820e8b8a01db70ceb15abb",
+    "trials": [
+      {
+        "harness": "oracle",
+        "job_id": "job_30d6e0da3424413bb1aca180f9c34e34",
+        "run_id": "run_b4edf4988374432984f0289eeb89d2a2",
+        "status": "failed",
+        "attempt_id": "attempt_79881a634cd34dfab31fdff3aa58979f",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RuntimeError",
+          "exception_message": "oracle exited with status 2",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 41, in _run\n    await self._run_agent()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 442, in _run_agent_phase\n    await asyncio.wait_for(\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[batch-root]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 311, in run\n    await self.durable_command(environment, command, user=\"root\")\n  File \"[batch-root]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 407, in durable_command\n    raise RuntimeError(f\"{runtime.request.harness} exited with status {result.return_code}\")\nRuntimeError: oracle exited with status 2\n",
+          "occurred_at": "2026-10-14T02:28:57.523219"
+        },
+        "started_at": "2026-10-13T18:28:42.506744Z",
+        "finished_at": "2026-10-13T18:29:02.881536Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:28:46.171623Z",
+          "finished_at": "2026-10-13T18:28:54.701644Z"
+        },
+        "verifier": null,
+        "collected_path": "[batch-root]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/native-runs/oracle/attempt_79881a634cd34dfab31fdff3aa58979f",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "execution/stderr.log": "5f59c2169b324cb48cec23e35157f531232c00c97d5f4bbca3ba50d9b68c133d"
+        }
+      },
+      {
+        "harness": "nop",
+        "job_id": "job_cd7eb36b2ff6427aa89d9556c5846bef",
+        "run_id": "run_da85b02792fe41718d576edb09e8d852",
+        "status": "failed",
+        "attempt_id": "attempt_ed150263ca7946558a8ae99be7f458c4",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at [batch-root]/control/state/attempts/attempt_ed150263ca7946558a8ae99be7f458c4/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_ed150263ca7946558a8ae99be7f458c4/verifier/reward.json",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-root]/control/state/attempts/attempt_ed150263ca7946558a8ae99be7f458c4/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_ed150263ca7946558a8ae99be7f458c4/verifier/reward.json\n",
+          "occurred_at": "2026-10-14T02:29:05.295250"
+        },
+        "started_at": "2026-10-13T18:28:42.552398Z",
+        "finished_at": "2026-10-13T18:29:05.296814Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:28:46.539360Z",
+          "finished_at": "2026-10-13T18:28:46.817830Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:28:54.006956Z",
+          "finished_at": "2026-10-13T18:29:05.293517Z"
+        },
+        "collected_path": "[batch-root]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/native-runs/nop/attempt_ed150263ca7946558a8ae99be7f458c4",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "verifier/report.json": "8f8b1ad6d4bbc9f8e3c08515932af955de807b2ef2ad7aae617ea9e7bb03c489",
+          "verifier/test-stdout.txt": "ceab7c4d39b746eece2e00893959e0543a78eb82f62e4af1a46a57e43d264bc5"
+        }
+      },
+      {
+        "harness": "codex",
+        "job_id": "job_8647c54818b646cbba01608cb13f43e7",
+        "run_id": "run_f393a4cc873a47f289b9d2de0d54fa27",
+        "status": "cancelled"
+      }
+    ]
+  },
+  "verifier_files": [
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_ed150263ca7946558a8ae99be7f458c4",
+      "path": "report.json",
+      "sha256": "8f8b1ad6d4bbc9f8e3c08515932af955de807b2ef2ad7aae617ea9e7bb03c489",
+      "content": "{\n  \"reward\": null,\n  \"P\": 0,\n  \"S\": 25,\n  \"valid\": false,\n  \"status\": \"verifier_failure\",\n  \"error\": \"FileNotFoundError(2, 'No such file or directory')\",\n  \"assertions\": []\n}"
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_ed150263ca7946558a8ae99be7f458c4",
+      "path": "test-stdout.txt",
+      "sha256": "ceab7c4d39b746eece2e00893959e0543a78eb82f62e4af1a46a57e43d264bc5",
+      "content": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 15, in <module>\n    wb=load_workbook(x,data_only=False); wb_values=load_workbook(x,data_only=True); ws=wb['排查表']; calc=wb['计算与证据']; calc_values=wb_values['计算与证据']\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py\", line 346, in load_workbook\n    reader = ExcelReader(filename, read_only, keep_vba,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py\", line 123, in __init__\n    self.archive = _validate_archive(fn)\n                   ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/openpyxl/reader/excel.py\", line 95, in _validate_archive\n    archive = ZipFile(filename, 'r')\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/zipfile/__init__.py\", line 1378, in __init__\n    self.fp = io.open(file, filemode)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/workspace/output/debt_funding_check.xlsx'\n"
+    }
+  ],
+  "execution_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_79881a634cd34dfab31fdff3aa58979f",
+      "path": "execution/stderr.log",
+      "sha256": "5f59c2169b324cb48cec23e35157f531232c00c97d5f4bbca3ba50d9b68c133d",
+      "content": "python3: can't open file '/workspace/solution/build_reference.py': [Errno 2] No such file or directory\n"
+    }
+  ],
+  "pipeline": {
+    "stage": "submit",
+    "status": "succeeded",
+    "log": "[batch-root]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/forge-submit.log",
+    "pid": 60171,
+    "return_code": 0
+  },
+  "build_log_tail": "313a898fd45]\n[2026-10-13T18:28:21.653473+00:00] [debug] Adding layer to cache: 7419cbbd-2472-4846-b017-4b5e14c10882\n[2026-10-13T18:28:21.653596+00:00] [debug] Uploading layer: 7419cbbd-2472-4846-b017-4b5e14c10882\n[2026-10-13T18:28:21.666700+00:00] [info] [builder 6/8] RUN mkdir -p /workspace/output /logs/verifier [85261e8b205808ce808a4ab1892d856ebcff5eb740fa6deafb269cb27ca3d4a5]\n[2026-10-13T18:28:22.000121+00:00] [debug] Saved: 5e46de49-7709-45fe-bcb4-e772db9ffc02\n[2026-10-13T18:28:22.018182+00:00] [debug] Adding layer to cache: 4f0dc701-ef97-4f42-a81e-803cd084e30a\n[2026-10-13T18:28:22.018305+00:00] [debug] Uploading layer: 4f0dc701-ef97-4f42-a81e-803cd084e30a\n[2026-10-13T18:28:22.036354+00:00] [info] [builder 7/8] COPY . /tests/   [8af31d441106902b5d5f15703e5dac998a79de9937bf4d27f8f0b58889345aa3]\n[2026-10-13T18:28:22.117503+00:00] [debug] Saved: 7419cbbd-2472-4846-b017-4b5e14c10882\n[2026-10-13T18:28:22.454600+00:00] [debug] Saved: 4f0dc701-ef97-4f42-a81e-803cd084e30a\n[2026-10-13T18:28:22.464859+00:00] [debug] Adding layer to cache: 98953624-4c42-4857-9d9a-f59d1463d914\n[2026-10-13T18:28:22.465003+00:00] [debug] Uploading layer: 98953624-4c42-4857-9d9a-f59d1463d914\n[2026-10-13T18:28:22.481353+00:00] [info] [builder 8/8] USER user [480d87dec9d2e8b5ecb6fdac416aa5775ff0c68d0098600bc55fab156762ef40]\n[2026-10-13T18:28:22.829131+00:00] [debug] Adding layer to cache: 053561a2-ff81-42b2-9f54-3ab3626bd9ac\n[2026-10-13T18:28:22.829258+00:00] [debug] Uploading layer: 053561a2-ff81-42b2-9f54-3ab3626bd9ac\n[2026-10-13T18:28:22.829725+00:00] [info] [resize-disk] Resizing disk [6c272a76c821c107e8081e87fccfd8494bf2c218a31887b0c9b9e1e28cb67952]\n[2026-10-13T18:28:22.888526+00:00] [debug] Saved: 98953624-4c42-4857-9d9a-f59d1463d914\n[2026-10-13T18:28:23.221441+00:00] [debug] Saved: 053561a2-ff81-42b2-9f54-3ab3626bd9ac\n[2026-10-13T18:28:23.415837+00:00] [info] resize-disk: free 9915 -> 10241 MiB\n[2026-10-13T18:28:23.416603+00:00] [debug] Adding layer to cache: 468a08ea-7c7a-43b2-9be8-871095706f89\n[2026-10-13T18:28:23.416898+00:00] [debug] Uploading layer: 468a08ea-7c7a-43b2-9be8-871095706f89\n[2026-10-13T18:28:23.417146+00:00] [info] [finalize] Finalizing template build [e0fb13ea04e7d10a44ad59fff0fda0e689b30484c3785190dbc26bc4861461d3]\n[2026-10-13T18:28:23.647172+00:00] [debug] Saved: 468a08ea-7c7a-43b2-9be8-871095706f89\n[2026-10-13T18:28:24.251150+00:00] [debug] [config] [stdout]: Starting configuration script\n[2026-10-13T18:28:24.254208+00:00] [debug] [config] [stdout]: Create default user 'user' (if doesn't exist yet)\n[2026-10-13T18:28:24.255970+00:00] [debug] [config] [stdout]: Copy skeleton files to /home/user (keeping existing files)\n[2026-10-13T18:28:24.260377+00:00] [debug] [config] [stdout]: skel: keeping existing .bashrc\n[2026-10-13T18:28:24.260407+00:00] [debug] [config] [stdout]: skel: keeping existing .profile\n[2026-10-13T18:28:24.260660+00:00] [debug] [config] [stdout]: skel: keeping existing .bash_logout\n[2026-10-13T18:28:24.260905+00:00] [debug] [config] [stdout]: Add sudo to 'user' with no password\n[2026-10-13T18:28:24.284830+00:00] [debug] [config] [stdout]: passwd: password changed.\n[2026-10-13T18:28:24.289148+00:00] [debug] [config] [stdout]: sudoers entry already present\n[2026-10-13T18:28:24.289183+00:00] [debug] [config] [stdout]: Give 'user' ownership to /home/user\n[2026-10-13T18:28:24.293654+00:00] [debug] [config] [stdout]: Give 777 permission to /usr/local\n[2026-10-13T18:28:24.342007+00:00] [debug] [config] [stdout]: Create /code directory\n[2026-10-13T18:28:24.343455+00:00] [debug] [config] [stdout]: Give 777 permission to /code\n[2026-10-13T18:28:24.344825+00:00] [debug] [config] [stdout]: Finished configuration script\n[2026-10-13T18:28:24.540219+00:00] [debug] [certs] [stdout]: Updating certificates in /etc/ssl/certs...\n[2026-10-13T18:28:25.575090+00:00] [debug] [certs] [stderr]: rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL\n[2026-10-13T18:28:25.582149+00:00] [debug] [certs] [stdout]: 150 added, 0 removed; done.\n[2026-10-13T18:28:25.582183+00:00] [debug] [certs] [stdout]: Running hooks in /etc/ca-certificates/update.d...\n[2026-10-13T18:28:25.584876+00:00] [debug] [certs] [stdout]: done.\n[2026-10-13T18:28:26.223794+00:00] [debug] Adding layer to cache: 44f8331d-d61c-4f37-b4e2-54f5ed7045a4\n[2026-10-13T18:28:26.223931+00:00] [debug] Uploading layer: 44f8331d-d61c-4f37-b4e2-54f5ed7045a4\n[2026-10-13T18:28:26.224438+00:00] [info] [optimize] Optimizing template [afb2f32734d1109ae3cef1c45862f4cb83109a0939dedd7537b579f7cc29b8d3]\n[2026-10-13T18:28:26.911555+00:00] [debug] Saved: 44f8331d-d61c-4f37-b4e2-54f5ed7045a4\n[2026-10-13T18:28:26.999398+00:00] [info] Build finished, took 19s\n[2026-10-14T02:28:27.902649] [debug] Build finished\n{\"role\": \"verifier\", \"build\": {\"template_id\": \"h8x03b64lw1jpi1roaqs\", \"build_id\": \"44f8331d-d61c-4f37-b4e2-54f5ed7045a4\", \"name\": \"cale-fin-f04-001-verifier-9746af54\", \"alias\": \"cale-fin-f04-001-verifier-9746af54\", \"tags\": [\"default\"]}}\n",
+  "candidate_validation_record_present": false,
+  "candidate_private_files": []
+}

@@ -1,0 +1,1738 @@
+{
+  "copied_files": [
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/environment/Dockerfile",
+      "path": "tasks/FIN-F01-001/environment/Dockerfile",
+      "sha256": "2818d30b98a838b3217472b79b80087bab0caa2eec873113faf5c5988cb7244c",
+      "bytes": 377,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/environment/input-data/haid_group_2025_annual_report.pdf",
+      "path": "tasks/FIN-F01-001/environment/input-data/haid_group_2025_annual_report.pdf",
+      "sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "bytes": 7393821,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/environment/input-data/haid_group_2026_half_year_report.pdf",
+      "path": "tasks/FIN-F01-001/environment/input-data/haid_group_2026_half_year_report.pdf",
+      "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "bytes": 6303458,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/instruction.md",
+      "path": "tasks/FIN-F01-001/instruction.md",
+      "sha256": "2e2e00af3430ecdc11ab629697888c1f18726ae03d300a711414f03f457da10e",
+      "bytes": 2398,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/lineage.json",
+      "path": "tasks/FIN-F01-001/lineage.json",
+      "sha256": "db3b991aa83925c60139ab3056c998e2e87b87cf43e21f59302c417af936f473",
+      "bytes": 1779,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/model_update_notes.pdf",
+      "path": "tasks/FIN-F01-001/model_update_notes.pdf",
+      "sha256": "946edc5cb5ba01d7589f09ffd67a87fda9bee32e0f3d6cd86bdc0509a423648b",
+      "bytes": 73490,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/private/evaluation/reference-run/report.json",
+      "path": "tasks/FIN-F01-001/private/evaluation/reference-run/report.json",
+      "sha256": "b85efdd00c812122a4206206d7bce85eda464c55a94da7315686d5ce4cfa5d98",
+      "bytes": 128,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/private/provenance.json",
+      "path": "tasks/FIN-F01-001/private/provenance.json",
+      "sha256": "cfe97dbcb396d00132631209df1877ece1f880e30a2cdd1481c64c0c6f5590aa",
+      "bytes": 1162,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/run-logs/report.json",
+      "path": "tasks/FIN-F01-001/run-logs/report.json",
+      "sha256": "38c5c288739fe17b8e2e99d49935f05a63f65cbbc4abd793fb0a7c558f2c1b69",
+      "bytes": 9346,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/run-logs/reward.json",
+      "path": "tasks/FIN-F01-001/run-logs/reward.json",
+      "sha256": "fe35ff29cbdf8d2143eb3a7e8019c75eb6c3ffee79c5d7ba444ad4ab78dca14d",
+      "bytes": 19,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/solution/build_reference.py",
+      "path": "tasks/FIN-F01-001/solution/build_reference.py",
+      "sha256": "f311b4f8f1634cab88235b384c4339c8aa452da55010cca321a4208c87b81ca4",
+      "bytes": 18263,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/solution/solve.sh",
+      "path": "tasks/FIN-F01-001/solution/solve.sh",
+      "sha256": "d4a28f68c6e338ec24b9840c992f0a9b4c34e763294bdbe238639353ba1aecdc",
+      "bytes": 211,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/task.toml",
+      "path": "tasks/FIN-F01-001/task.toml",
+      "sha256": "47a9de420569498d85d84bb0583502b777cb6220dc2a4913c6cbe50132c5d74e",
+      "bytes": 514,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/tests/Dockerfile",
+      "path": "tasks/FIN-F01-001/tests/Dockerfile",
+      "sha256": "f5dd28514a81a6b3aead2ddc35b9fa010d663dafa88c4a1c3b4179560802a349",
+      "bytes": 360,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/tests/assertions.json",
+      "path": "tasks/FIN-F01-001/tests/assertions.json",
+      "sha256": "36b5037ac695092438401a74c0222d847096ff0b2880178a55283111db9c5acf",
+      "bytes": 8838,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/tests/grade.py",
+      "path": "tasks/FIN-F01-001/tests/grade.py",
+      "sha256": "4713401980d5d5f1be99fc165b351b551b12b01a2211450b2ff9e4ce127024a6",
+      "bytes": 11052,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/tests/test.sh",
+      "path": "tasks/FIN-F01-001/tests/test.sh",
+      "sha256": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9",
+      "bytes": 229,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/three_statement_model.xlsx",
+      "path": "tasks/FIN-F01-001/three_statement_model.xlsx",
+      "sha256": "9da4d5cd491c9098b4882a35531950b252a6332f469a19e8ea86692ae9059204",
+      "bytes": 27797,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/native-runs/oracle/attempt_808b09e40e774719be06d60696bc1197/artifacts/workspace/output/model_update_notes.pdf",
+      "path": "evidence/FIN-F01-001/history/attempt_9c29a8ad17a945c19836c1f45663f0a1/native-runs/oracle/attempt_808b09e40e774719be06d60696bc1197/output/model_update_notes.pdf",
+      "sha256": "e14fd46c82ef8b442483ae984bdb686d234001197d4e063875ea00dfc729b147",
+      "bytes": 73483,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/native-runs/oracle/attempt_808b09e40e774719be06d60696bc1197/artifacts/workspace/output/three_statement_model.xlsx",
+      "path": "evidence/FIN-F01-001/history/attempt_9c29a8ad17a945c19836c1f45663f0a1/native-runs/oracle/attempt_808b09e40e774719be06d60696bc1197/output/three_statement_model.xlsx",
+      "sha256": "600d5ac6436769da64a1e139309770e3581202e333b4945211f31015b1b31190",
+      "bytes": 27797,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/environment/Dockerfile",
+      "path": "tasks/FIN-F03-002/environment/Dockerfile",
+      "sha256": "ca28ad60efdf167b8044baf1388e733c111d47362c2bd57a098ba7d6a293615a",
+      "bytes": 494,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/environment/input-data/CN-1225203635.pdf",
+      "path": "tasks/FIN-F03-002/environment/input-data/CN-1225203635.pdf",
+      "sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "bytes": 7393821,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/environment/input-data/CN-1225451854.pdf",
+      "path": "tasks/FIN-F03-002/environment/input-data/CN-1225451854.pdf",
+      "sha256": "058d72df110d1f589549ba129d49e60ea6d52e81a995812735ec797a2a9b3d47",
+      "bytes": 195466,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/environment/input-data/CN-1225491061.pdf",
+      "path": "tasks/FIN-F03-002/environment/input-data/CN-1225491061.pdf",
+      "sha256": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+      "bytes": 150953,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/environment/input-data/CN-1225495975.pdf",
+      "path": "tasks/FIN-F03-002/environment/input-data/CN-1225495975.pdf",
+      "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "bytes": 6303458,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/instruction.md",
+      "path": "tasks/FIN-F03-002/instruction.md",
+      "sha256": "b96d99a30c0aa5b2db780e87c57a59e3171748e77871387caeb4e78a31902693",
+      "bytes": 2632,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/lineage.json",
+      "path": "tasks/FIN-F03-002/lineage.json",
+      "sha256": "26c502fc47debcb78d23d5b344cc25fb7bd136fb64460939c34b7220075966ce",
+      "bytes": 1638,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/private/authoring/decision-record.md",
+      "path": "tasks/FIN-F03-002/private/authoring/decision-record.md",
+      "sha256": "fd8db8d97402ac1c40bb5f85be4941558e0067ab2c0884a20874a68ab6bc318c",
+      "bytes": 2131,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/private/evaluation/validation.json",
+      "path": "tasks/FIN-F03-002/private/evaluation/validation.json",
+      "sha256": "7c56c269b6a20a5425700ebbf0fb63ccaa4a1367052cd8a6dca1b837a7b744ff",
+      "bytes": 886,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/private/provenance.json",
+      "path": "tasks/FIN-F03-002/private/provenance.json",
+      "sha256": "403a7a1d4234570933957665dbb79fc0258501ed0a616c6f7ba65fd455f6ca4b",
+      "bytes": 3246,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/solution/build_reference.py",
+      "path": "tasks/FIN-F03-002/solution/build_reference.py",
+      "sha256": "60710200acf6b464761eadec6f19e6e63c799f0a8dbb37d9e2446beacb66389e",
+      "bytes": 21652,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/solution/solve.sh",
+      "path": "tasks/FIN-F03-002/solution/solve.sh",
+      "sha256": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+      "bytes": 215,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/task.toml",
+      "path": "tasks/FIN-F03-002/task.toml",
+      "sha256": "6d12f57aa07248c53975a3abce13885dc4a22678264a3ee0318e7388af641edb",
+      "bytes": 327,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/tests/Dockerfile",
+      "path": "tasks/FIN-F03-002/tests/Dockerfile",
+      "sha256": "aca571533b36a87d341887a61b8d06d81136a821d1c5c6e0b5d3635f5a67531d",
+      "bytes": 509,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/tests/assertions.json",
+      "path": "tasks/FIN-F03-002/tests/assertions.json",
+      "sha256": "53e09223e75f580d911f5ab691579a5a15af153cae21b15df93ec516691928a1",
+      "bytes": 5748,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/tests/grade.py",
+      "path": "tasks/FIN-F03-002/tests/grade.py",
+      "sha256": "28145445768e001043ec23636f716092fe4e66303e87d20196326250123f3858",
+      "bytes": 8004,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/tests/test.sh",
+      "path": "tasks/FIN-F03-002/tests/test.sh",
+      "sha256": "43408b94fe547004a139d5ece90c73dca7ee25c59bd5953b41fbbabef9600467",
+      "bytes": 339,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/COMPLETION_SUMMARY.md",
+      "path": "tasks/FIN-F04-001/COMPLETION_SUMMARY.md",
+      "sha256": "cee21be40d94844ee0c17bf47cf3c492de94b55b31e2c184dec1ebe858402ae8",
+      "bytes": 4032,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/MANIFEST.txt",
+      "path": "tasks/FIN-F04-001/MANIFEST.txt",
+      "sha256": "d1f939e01456e0e7263755631b9c6c791ed35a37af66a09933d637f628f06743",
+      "bytes": 2015,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/README.md",
+      "path": "tasks/FIN-F04-001/README.md",
+      "sha256": "b8f2f41a8e38a71e1c515f9006b75deb90521b1c3aebebbe860eeb7507377a62",
+      "bytes": 1830,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/VALIDATION_NOTES.md",
+      "path": "tasks/FIN-F04-001/VALIDATION_NOTES.md",
+      "sha256": "e37e6bc931d200955d014a77de848d40fdc91f69c442b226a9ad1fe7ecce7d53",
+      "bytes": 3532,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/environment/Dockerfile",
+      "path": "tasks/FIN-F04-001/environment/Dockerfile",
+      "sha256": "9c4b59290b5a4d663818cb68d1d7b96b4f782d69dc764afafe98f89c7702377b",
+      "bytes": 460,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/environment/input-data/01_申万宏源2025年度报告.pdf",
+      "path": "tasks/FIN-F04-001/environment/input-data/01_申万宏源2025年度报告.pdf",
+      "sha256": "6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471",
+      "bytes": 25046372,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/environment/input-data/02_申万宏源2025年度受托报告.pdf",
+      "path": "tasks/FIN-F04-001/environment/input-data/02_申万宏源2025年度受托报告.pdf",
+      "sha256": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+      "bytes": 358500,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/environment/input-data/03_23申宏04兑付公告.pdf",
+      "path": "tasks/FIN-F04-001/environment/input-data/03_23申宏04兑付公告.pdf",
+      "sha256": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+      "bytes": 187319,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/environment/input-data/04_新疆证监局2026通知.html",
+      "path": "tasks/FIN-F04-001/environment/input-data/04_新疆证监局2026通知.html",
+      "sha256": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+      "bytes": 38468,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/environment/input-data/05_附件5排查表模板.xlsx",
+      "path": "tasks/FIN-F04-001/environment/input-data/05_附件5排查表模板.xlsx",
+      "sha256": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+      "bytes": 68084,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/instruction.md",
+      "path": "tasks/FIN-F04-001/instruction.md",
+      "sha256": "26d6342aeeaeb04ccde777d5b8b4350f4078528318409b9dcff43c1db662dbb9",
+      "bytes": 2947,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/lineage.json",
+      "path": "tasks/FIN-F04-001/lineage.json",
+      "sha256": "7d14a9155109613ab64a38278a6297e68b7a4adb9224428f0d0b2d6681c8d956",
+      "bytes": 2223,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/solution/build_reference.py",
+      "path": "tasks/FIN-F04-001/solution/build_reference.py",
+      "sha256": "61f9558c7951f912b701ebf24d4073efde4803693442fe246548a1377c4440eb",
+      "bytes": 11994,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/solution/solve.sh",
+      "path": "tasks/FIN-F04-001/solution/solve.sh",
+      "sha256": "ed0c4e41d660b77abf3d4dca187006a60e9a26376b4eb6111317a856f3cfc831",
+      "bytes": 112,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/task.toml",
+      "path": "tasks/FIN-F04-001/task.toml",
+      "sha256": "a255d4a33b7b70b3cdc5b67ab745376d8118f799de3328da720e04e6807eab45",
+      "bytes": 359,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/tests/Dockerfile",
+      "path": "tasks/FIN-F04-001/tests/Dockerfile",
+      "sha256": "36c5c598202a73723f33d07d3b09cc0d2f2e17a82f89828b2abab2f66be2bc2d",
+      "bytes": 369,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/tests/assertions.json",
+      "path": "tasks/FIN-F04-001/tests/assertions.json",
+      "sha256": "1d0dd328e7dfed154f3f1cb5d9506e5b12d09fb7ce82ef53c434e103b8fed026",
+      "bytes": 3412,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/tests/grade.py",
+      "path": "tasks/FIN-F04-001/tests/grade.py",
+      "sha256": "23e2c08d8f444a958d75c96daa4c4dfcb2c8a3a745935b354e950711644af268",
+      "bytes": 5864,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/tests/test.sh",
+      "path": "tasks/FIN-F04-001/tests/test.sh",
+      "sha256": "7400dab743668ab01e40864d742b850c95d040df9a16668147f0d5842046944b",
+      "bytes": 146,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/.grade-oracle/report.json",
+      "path": "tasks/FIN-F13-002/.grade-oracle/report.json",
+      "sha256": "2bb69c203fd847345a419801e653969388a21e1ad93e5a545e87e07edb281c5d",
+      "bytes": 4258,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/.grade-oracle/reward.json",
+      "path": "tasks/FIN-F13-002/.grade-oracle/reward.json",
+      "sha256": "f6a62d967308942513ddc11609c4ade6b760bbab990dc12d34171e67327f59fc",
+      "bytes": 30,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/.oracle-test/hedge_review.docx",
+      "path": "tasks/FIN-F13-002/.oracle-test/hedge_review.docx",
+      "sha256": "c11955d38d3e19dcf4a11258f1a712c8c471a61d66b0f6147c5dbdcec072fd35",
+      "bytes": 38843,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/.oracle-test/hedge_review.pdf",
+      "path": "tasks/FIN-F13-002/.oracle-test/hedge_review.pdf",
+      "sha256": "68581becf389c6211bd999dc9c538edb5a072c5b2a3f2baa4aaf6d51e5c38ea5",
+      "bytes": 125417,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/.oracle-test/hedge_review.xlsx",
+      "path": "tasks/FIN-F13-002/.oracle-test/hedge_review.xlsx",
+      "sha256": "3e286df098094fa86266bb407ad5a4c3e91086f75ab5d013fcb12cc355d097a4",
+      "bytes": 9741,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/environment/Dockerfile",
+      "path": "tasks/FIN-F13-002/environment/Dockerfile",
+      "sha256": "83798b7aea808e6ab0f0702ac4b0444437f956d99331602f644225311e69ec7b",
+      "bytes": 529,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/environment/input-data/2025_authorization_announcement.pdf",
+      "path": "tasks/FIN-F13-002/environment/input-data/2025_authorization_announcement.pdf",
+      "sha256": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+      "bytes": 438773,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/environment/input-data/2025_authorization_resolution.pdf",
+      "path": "tasks/FIN-F13-002/environment/input-data/2025_authorization_resolution.pdf",
+      "sha256": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+      "bytes": 331271,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/environment/input-data/halfyear_report_2026.pdf",
+      "path": "tasks/FIN-F13-002/environment/input-data/halfyear_report_2026.pdf",
+      "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "bytes": 6303458,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/environment/input-data/hedge_policy.pdf",
+      "path": "tasks/FIN-F13-002/environment/input-data/hedge_policy.pdf",
+      "sha256": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699",
+      "bytes": 415417,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/instruction.md",
+      "path": "tasks/FIN-F13-002/instruction.md",
+      "sha256": "8b87b6f2dab1036905010afb1557a7572e6a66c8d0b6f5a21a609065ecfcdf15",
+      "bytes": 2257,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/lineage.json",
+      "path": "tasks/FIN-F13-002/lineage.json",
+      "sha256": "9f05ad5ab3aa5541b09fcab4c0dd7d98c08f398f19f2db457a69a06841f151ac",
+      "bytes": 740,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/private/authoring/design-review.json",
+      "path": "tasks/FIN-F13-002/private/authoring/design-review.json",
+      "sha256": "1b5be4d2b130eb1a19b627c9fc46fe770a55d08f8d6e17a82ed000049fe1538e",
+      "bytes": 1085,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/private/authoring/evidence-facts.json",
+      "path": "tasks/FIN-F13-002/private/authoring/evidence-facts.json",
+      "sha256": "a73f6f0d451bfe9bc5bfc94659e87ad9495229218b494467dc248dc91293b70c",
+      "bytes": 938,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/private/evaluation/validation.json",
+      "path": "tasks/FIN-F13-002/private/evaluation/validation.json",
+      "sha256": "839725eb772d934b2e88c80155c97676b59a185446c33b5e413f67c4cd427c87",
+      "bytes": 852,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/private/provenance.json",
+      "path": "tasks/FIN-F13-002/private/provenance.json",
+      "sha256": "c007c6a441a86a539ddd7155019e29d54bec90e63be0fe3a645a794391259352",
+      "bytes": 1781,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/solution/build_reference.py",
+      "path": "tasks/FIN-F13-002/solution/build_reference.py",
+      "sha256": "52cd0b740ec1a843c14ac3cec00213f230d97cb6b668711c3cb040907b0773e6",
+      "bytes": 13897,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/solution/solve.sh",
+      "path": "tasks/FIN-F13-002/solution/solve.sh",
+      "sha256": "958f0776ff95620844b21263fb54c87ceb000161db86cc98b3fb43841685ab97",
+      "bytes": 128,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/task.toml",
+      "path": "tasks/FIN-F13-002/task.toml",
+      "sha256": "a1214e4ea76795e2079976cdd229207083f885b18d799f126551dc4c9ef762e7",
+      "bytes": 354,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/tests/Dockerfile",
+      "path": "tasks/FIN-F13-002/tests/Dockerfile",
+      "sha256": "160a12e7a58b4ecf29d693f08db4689e4f43c8dcf23ae3f12efe48f79ec356b5",
+      "bytes": 470,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/tests/assertions.json",
+      "path": "tasks/FIN-F13-002/tests/assertions.json",
+      "sha256": "39fef71b0b169c82fe64138576a94a0511bd4584bd5b95bf6ef209fbeefe1e84",
+      "bytes": 5781,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/tests/grade.py",
+      "path": "tasks/FIN-F13-002/tests/grade.py",
+      "sha256": "0570d0608b72838e03a8247e2c19e7bf49875ea8c66428a8d272094286ce911a",
+      "bytes": 11878,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002/tests/test.sh",
+      "path": "tasks/FIN-F13-002/tests/test.sh",
+      "sha256": "92f690f80b6d7a52c5e110db45b9e0788a151400cddb50dc2419fdfd9fc7afbe",
+      "bytes": 142,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/artifacts/workspace/output/hedge_review.pdf",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/output/hedge_review.pdf",
+      "sha256": "9a2e5d002aa36499580e79b1776a9bd2d1004b28e357ed26410953e94b17cf86",
+      "bytes": 223644,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/artifacts/workspace/output/hedge_review.xlsx",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/output/hedge_review.xlsx",
+      "sha256": "f8c9b0d7d35c44f89acbaa37f7d3333d2763c8067820f41a3b6fc73a9c74e3d7",
+      "bytes": 17534,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/artifacts/workspace/output/阶段留档/01_工作簿与证据索引.xlsx",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/output/阶段留档/01_工作簿与证据索引.xlsx",
+      "sha256": "acf7b21eb3286a7096be6eb6ae3a6dfb8110a81f2f0d6e765474a2a1e1a3aabd",
+      "bytes": 8086,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/artifacts/workspace/output/阶段留档/02_计算与勾稽.xlsx",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/output/阶段留档/02_计算与勾稽.xlsx",
+      "sha256": "9a837dda979cbc33dab85298b469e08501615c7c52dc705f1e7142025e0c5e08",
+      "bytes": 10716,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/artifacts/workspace/output/阶段留档/03_完整复核.xlsx",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049/output/阶段留档/03_完整复核.xlsx",
+      "sha256": "f8c9b0d7d35c44f89acbaa37f7d3333d2763c8067820f41a3b6fc73a9c74e3d7",
+      "bytes": 17534,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/oracle/attempt_ecc10ac42425438097df3eebcd67d170/artifacts/workspace/output/hedge_review.docx",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/oracle/attempt_ecc10ac42425438097df3eebcd67d170/output/hedge_review.docx",
+      "sha256": "2f4099d50c597c302dc16f3afad424bd7b27f5788a5da9a780be8c2304c6ed96",
+      "bytes": 38843,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/oracle/attempt_ecc10ac42425438097df3eebcd67d170/artifacts/workspace/output/hedge_review.pdf",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/oracle/attempt_ecc10ac42425438097df3eebcd67d170/output/hedge_review.pdf",
+      "sha256": "fbca833c3bd217ff6111d02aa22dd5609a279ecb3813aaf581b702d376f15721",
+      "bytes": 125420,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/producer-output/native-runs/oracle/attempt_ecc10ac42425438097df3eebcd67d170/artifacts/workspace/output/hedge_review.xlsx",
+      "path": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/oracle/attempt_ecc10ac42425438097df3eebcd67d170/output/hedge_review.xlsx",
+      "sha256": "cf4d43b508b457109314a52b4bb71ac2ae91b9782e44678b423c33d828748368",
+      "bytes": 9743,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/native-runs/oracle/attempt_c1a9947b6dc146dfa63d2367dfb3d5aa/artifacts/workspace/output/hedge_review.docx",
+      "path": "evidence/FIN-F13-002/history/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/native-runs/oracle/attempt_c1a9947b6dc146dfa63d2367dfb3d5aa/output/hedge_review.docx",
+      "sha256": "5263c2d8660278759bf21dea6d3f33aebade40554bf0ad755eef820487c2dab8",
+      "bytes": 38843,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/native-runs/oracle/attempt_c1a9947b6dc146dfa63d2367dfb3d5aa/artifacts/workspace/output/hedge_review.pdf",
+      "path": "evidence/FIN-F13-002/history/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/native-runs/oracle/attempt_c1a9947b6dc146dfa63d2367dfb3d5aa/output/hedge_review.pdf",
+      "sha256": "b17dbdfaefb98f0f156f2d0ff4ae2dbf7f9c81aa7e24ecf44b6e0ccffb1c08d7",
+      "bytes": 125420,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/native-runs/oracle/attempt_c1a9947b6dc146dfa63d2367dfb3d5aa/artifacts/workspace/output/hedge_review.xlsx",
+      "path": "evidence/FIN-F13-002/history/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/native-runs/oracle/attempt_c1a9947b6dc146dfa63d2367dfb3d5aa/output/hedge_review.xlsx",
+      "sha256": "57f894274e0dd94b150ca66491201cbc27008df543ed2bc9c982cdb0961361fc",
+      "bytes": 9742,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/environment/Dockerfile",
+      "path": "tasks/FIN-F17-001/environment/Dockerfile",
+      "sha256": "299b84de1dab56d53e208449140214fc9f1494124819b64ae50420680f815a79",
+      "bytes": 416,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/environment/input-data/CN-1225248741_original.pdf",
+      "path": "tasks/FIN-F17-001/environment/input-data/CN-1225248741_original.pdf",
+      "sha256": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+      "bytes": 1291103,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/evidence_gaps.csv",
+      "path": "tasks/FIN-F17-001/evidence_gaps.csv",
+      "sha256": "2f803abd43ece78ccc4b30e4af68047b65062b90868fc79685ac6879eda8b59d",
+      "bytes": 1743,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/evidence_register.csv",
+      "path": "tasks/FIN-F17-001/evidence_register.csv",
+      "sha256": "91e23d0200214ff29296f15294c3c61ee3e35c2c6c2a99e3dfdf22b538671e82",
+      "bytes": 4138,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/instruction.md",
+      "path": "tasks/FIN-F17-001/instruction.md",
+      "sha256": "4b49864184addffa78da2c6531f24916e3bbfb15f624a8c2e938e658f1d15474",
+      "bytes": 3224,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/lineage.json",
+      "path": "tasks/FIN-F17-001/lineage.json",
+      "sha256": "2a3cf467fbbefd0a383e5a0eb4c643dda05d21d9b48bc045b4ef849bec5fe1e7",
+      "bytes": 1894,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/misstatement_review.pdf",
+      "path": "tasks/FIN-F17-001/misstatement_review.pdf",
+      "sha256": "c1884d0babd7ed935b088fb6cd4bad7899e110611573484d953a663e190e9005",
+      "bytes": 5836,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/private/authoring/candidate-selection.json",
+      "path": "tasks/FIN-F17-001/private/authoring/candidate-selection.json",
+      "sha256": "cab871849374030c3765613814bd2319b28e0afcd10c7a1644ce26f2442c0dea",
+      "bytes": 792,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/private/authoring/evidence-review.json",
+      "path": "tasks/FIN-F17-001/private/authoring/evidence-review.json",
+      "sha256": "77171e55821749c68225ea9786425882cae2a4ec533f345aef3a84e7683f91eb",
+      "bytes": 501,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/private/evaluation/validation.json",
+      "path": "tasks/FIN-F17-001/private/evaluation/validation.json",
+      "sha256": "ea243f309277f842bf51719ad3bccbba0629743c8b75d93c6cd50256c0df0a2b",
+      "bytes": 1320,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/private/provenance.json",
+      "path": "tasks/FIN-F17-001/private/provenance.json",
+      "sha256": "a6132a2f7cc037bc5b20d69393294ce5ae0e7e9d8161d7674ee935cc2cec1140",
+      "bytes": 1066,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/solution/build_reference.py",
+      "path": "tasks/FIN-F17-001/solution/build_reference.py",
+      "sha256": "c7183f3684e2bd16a3c13bf109cd36fee24a7581bfed5377336dbc92cf9fc180",
+      "bytes": 11708,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/solution/solve.sh",
+      "path": "tasks/FIN-F17-001/solution/solve.sh",
+      "sha256": "4e30bb034a80966498a838b6de2a2e53d1160edfffe9f2465e62e8126b09da85",
+      "bytes": 101,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/task.toml",
+      "path": "tasks/FIN-F17-001/task.toml",
+      "sha256": "1d1702b14d3589f05e68bb7220c5f59f533920837d5e27ab5093408e9b3156d5",
+      "bytes": 355,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/tests/Dockerfile",
+      "path": "tasks/FIN-F17-001/tests/Dockerfile",
+      "sha256": "abefa8df83300909b28c99ed20aa0acb118bd85a4da2a8a0a3796a0a22570fab",
+      "bytes": 233,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/tests/assertions.json",
+      "path": "tasks/FIN-F17-001/tests/assertions.json",
+      "sha256": "dce5a594ea0cb0c29ad14cac09556d565cff664d384ec56539ff65747bec0931",
+      "bytes": 2756,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/tests/grade.py",
+      "path": "tasks/FIN-F17-001/tests/grade.py",
+      "sha256": "317dc52f9cd791afc2e66123a0bdcc34f57464c59a98a42f3de85ea0ce4f8c38",
+      "bytes": 10404,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/tests/input-data/CN-1225248741_original.pdf",
+      "path": "tasks/FIN-F17-001/tests/input-data/CN-1225248741_original.pdf",
+      "sha256": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+      "bytes": 1291103,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001/tests/test.sh",
+      "path": "tasks/FIN-F17-001/tests/test.sh",
+      "sha256": "1f8cf18eabaffd8848983f6eb6c0571de040ab3e5d5c1ce151c35b07a0f169ed",
+      "bytes": 145,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd/artifacts/workspace/output/evidence_gaps.csv",
+      "path": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd/output/evidence_gaps.csv",
+      "sha256": "fa55110d899e67d4ddd0c0b982d1f3ab8bfb80fe89f1fb93c92e98faa9466293",
+      "bytes": 3274,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd/artifacts/workspace/output/evidence_register.csv",
+      "path": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd/output/evidence_register.csv",
+      "sha256": "fb684f634d68390433f6d2cf03558fb6f888c4c62187f5d111a702b1dcffe5b1",
+      "bytes": 25664,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd/artifacts/workspace/output/misstatement_review.pdf",
+      "path": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd/output/misstatement_review.pdf",
+      "sha256": "7eeac90a50386bb437ecf20f49d19b0e24617a76d0e46e3cbc338c81dcae14c2",
+      "bytes": 230190,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/artifacts/workspace/output/evidence_gaps.csv",
+      "path": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/output/evidence_gaps.csv",
+      "sha256": "2f803abd43ece78ccc4b30e4af68047b65062b90868fc79685ac6879eda8b59d",
+      "bytes": 1743,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/artifacts/workspace/output/evidence_register.csv",
+      "path": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/output/evidence_register.csv",
+      "sha256": "91e23d0200214ff29296f15294c3c61ee3e35c2c6c2a99e3dfdf22b538671e82",
+      "bytes": 4138,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/artifacts/workspace/output/misstatement_review.docx",
+      "path": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/output/misstatement_review.docx",
+      "sha256": "6192fbb7bac2a0b8cb258b7ba4f053985756fb4cf6ec2953e93f1247bd56d887",
+      "bytes": 38961,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/artifacts/workspace/output/misstatement_review.pdf",
+      "path": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745/output/misstatement_review.pdf",
+      "sha256": "dd23d3521034d926a5e762dc9ead15f46874fb99bb23425a01daa0de4399d79e",
+      "bytes": 120548,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/environment/Dockerfile",
+      "path": "tasks/LAW-L01-002/environment/Dockerfile",
+      "sha256": "bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47",
+      "bytes": 508,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/environment/input-data/contract_original.docx",
+      "path": "tasks/LAW-L01-002/environment/input-data/contract_original.docx",
+      "sha256": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "bytes": 20422,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/environment/input-data/requirements_original.docx",
+      "path": "tasks/LAW-L01-002/environment/input-data/requirements_original.docx",
+      "sha256": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "bytes": 72147,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/environment/input-data/tender_original.zip",
+      "path": "tasks/LAW-L01-002/environment/input-data/tender_original.zip",
+      "sha256": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+      "bytes": 387055,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/instruction.md",
+      "path": "tasks/LAW-L01-002/instruction.md",
+      "sha256": "5f53ae807ddc46d7a5214cab00f73934d3c18cbd54002f5ca73fdf6cd9a972a0",
+      "bytes": 2785,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/lineage.json",
+      "path": "tasks/LAW-L01-002/lineage.json",
+      "sha256": "f9c9955caa5e42c168b85a5a666ed0f6b343c6057c5e781804095f48ae1b5813",
+      "bytes": 1413,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/private/evaluation/calibration-1.json",
+      "path": "tasks/LAW-L01-002/private/evaluation/calibration-1.json",
+      "sha256": "6b8bda354c23b04f795ad4fa04ffafca25cf4861ae66d3662bf7fd6b8988fc97",
+      "bytes": 558,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/private/evaluation/validation.json",
+      "path": "tasks/LAW-L01-002/private/evaluation/validation.json",
+      "sha256": "96e37b57590e69fe70098c991179032212a4ce27d769860e79ffb22b99cbaf19",
+      "bytes": 743,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/private/provenance.json",
+      "path": "tasks/LAW-L01-002/private/provenance.json",
+      "sha256": "4f6d3f8d4db6840f9f50c6271a7af9fa4dfcc08f64ddd40d160cc607d374c7d1",
+      "bytes": 678,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/solution/build_reference.py",
+      "path": "tasks/LAW-L01-002/solution/build_reference.py",
+      "sha256": "d4153dcf9f712a7e0f07f6b961194beb96b0c78f901abd320fad4b330e47a0c6",
+      "bytes": 11560,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/solution/solve.sh",
+      "path": "tasks/LAW-L01-002/solution/solve.sh",
+      "sha256": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+      "bytes": 215,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/task.toml",
+      "path": "tasks/LAW-L01-002/task.toml",
+      "sha256": "05405c749a79adc78d93712ab7017855097dd5e9bebb3950fbd87edf1831df2e",
+      "bytes": 381,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/Dockerfile",
+      "path": "tasks/LAW-L01-002/tests/Dockerfile",
+      "sha256": "0e5671e9290378f5adee62ab8f2c9383f9da3e9411e614892c06bab0e7abee22",
+      "bytes": 530,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/assertions.json",
+      "path": "tasks/LAW-L01-002/tests/assertions.json",
+      "sha256": "556b1dd0aaa8137210cce398c59bc933b296267dfb3d4f7e46e851366a5fca2e",
+      "bytes": 4043,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/grade.py",
+      "path": "tasks/LAW-L01-002/tests/grade.py",
+      "sha256": "7afa7114d991106ca3c396f789d7828c2d300f81f8935ee7364ac75eb35ff4bf",
+      "bytes": 4999,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/input-data/contract_original.docx",
+      "path": "tasks/LAW-L01-002/tests/input-data/contract_original.docx",
+      "sha256": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "bytes": 20422,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/input-data/requirements_original.docx",
+      "path": "tasks/LAW-L01-002/tests/input-data/requirements_original.docx",
+      "sha256": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "bytes": 72147,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/input-data/tender_original.zip",
+      "path": "tasks/LAW-L01-002/tests/input-data/tender_original.zip",
+      "sha256": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+      "bytes": 387055,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/test.sh",
+      "path": "tasks/LAW-L01-002/tests/test.sh",
+      "sha256": "6ad01e2fe86cc95fc78b5c33eea8eb84b4fce573edd8212dd60f0758a0fab19c",
+      "bytes": 255,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/extracted/contract.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/extracted/contract.txt",
+      "sha256": "cfe69668546073249fc335463db65f0c2645f191d6936a725f5c06b4508364b7",
+      "bytes": 12995,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/extracted/requirements.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/extracted/requirements.txt",
+      "sha256": "abca438864b47392f4c5a28ace72d06931f5d76b17071ecbc0f21b2e6ccbf95d",
+      "bytes": 61335,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/extracted/source_sha256.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/extracted/source_sha256.txt",
+      "sha256": "8fb6be62cd48c3abe7fda8f987edacca0b1032d677c719d658df1687ee93f5af",
+      "bytes": 334,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/extracted/tender.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/extracted/tender.txt",
+      "sha256": "bcae5124ee431761586cedb661810e7e40ec422c51646b40cc15638466a54589",
+      "bytes": 135679,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/extracted/tender_archive.docx",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/extracted/tender_archive.docx",
+      "sha256": "0489a3cf5230843aa04f11c6645a70525138228a380282377359d58566e5275e",
+      "bytes": 55602,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/extracted/tender_archive.pdf",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/extracted/tender_archive.pdf",
+      "sha256": "e9c375d6c295d86b6011911ed0113e6308a67815cec19b10dfa53c8250d2ddcb",
+      "bytes": 394309,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/extracted/tender_pdf.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/extracted/tender_pdf.txt",
+      "sha256": "1067a59310874c621f6ad0c53b30ef755973a999816a81cac4fb6586f97cb60e",
+      "bytes": 142753,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/artifacts/workspace/output/worklog.md",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc/output/worklog.md",
+      "sha256": "8e06081df0e2d65867206692a52bf4e1994733c5c65a8d4b4a5ee3e11767f864",
+      "bytes": 1372,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/artifacts/workspace/output/contract_extracted.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/output/contract_extracted.txt",
+      "sha256": "bb587cd74c573b64b84b247e6945e19bde1feef436b774c9a2b4f13462b04a7c",
+      "bytes": 12897,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/artifacts/workspace/output/requirements_extracted.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/output/requirements_extracted.txt",
+      "sha256": "151bced60a0537c604463cb7d1861caa28ddc6c8adae62e83928a66a87aed7d0",
+      "bytes": 63302,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/artifacts/workspace/output/tender_extracted.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/output/tender_extracted.txt",
+      "sha256": "2cacab1e28202f0459a040cc2f06e16c66a20205ef192f36295b568cd20bad36",
+      "bytes": 135983,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/artifacts/workspace/output/tender_original.docx",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/output/tender_original.docx",
+      "sha256": "0489a3cf5230843aa04f11c6645a70525138228a380282377359d58566e5275e",
+      "bytes": 55602,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/artifacts/workspace/output/tender_original.pdf",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/output/tender_original.pdf",
+      "sha256": "e9c375d6c295d86b6011911ed0113e6308a67815cec19b10dfa53c8250d2ddcb",
+      "bytes": 394309,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/artifacts/workspace/output/tender_pdf_extracted.txt",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/output/tender_pdf_extracted.txt",
+      "sha256": "1067a59310874c621f6ad0c53b30ef755973a999816a81cac4fb6586f97cb60e",
+      "bytes": 142753,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/artifacts/workspace/output/worklog.md",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee/output/worklog.md",
+      "sha256": "d5aa95df643dc53d6a7898efd7fb3dbe70735563a32885b8c7e9ec9df579d92f",
+      "bytes": 1296,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/artifacts/workspace/output/contract_clean.docx",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/output/contract_clean.docx",
+      "sha256": "20a906076eb34a1284315a1f659648547efe303f4e9ac4ae57be6ad1c7391e56",
+      "bytes": 17658,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/artifacts/workspace/output/contract_redline.docx",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/output/contract_redline.docx",
+      "sha256": "cd327d69a4578fa453740eef632be946bfeefdae03c5869e16427f2af19bf0f3",
+      "bytes": 19097,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/artifacts/workspace/output/review_opinion.docx",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/output/review_opinion.docx",
+      "sha256": "55e643c56d459a395db2197048d56ced89fe74e6b233f9807474599477d1a8a6",
+      "bytes": 38132,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/artifacts/workspace/output/worklog.md",
+      "path": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421/output/worklog.md",
+      "sha256": "dc504888c5fb7ce792df61b51210a5f57ecfab2f77b310bcc4121137237183f1",
+      "bytes": 187,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/environment/Dockerfile",
+      "path": "tasks/LAW-L02-002/environment/Dockerfile",
+      "sha256": "e5fdfd555af2cb9ac57693ef90f0991efd2a456ca6720bc9f909bde255077185",
+      "bytes": 467,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/environment/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf",
+      "path": "tasks/LAW-L02-002/environment/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf",
+      "sha256": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "bytes": 186509,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/evidence_catalog.pdf",
+      "path": "tasks/LAW-L02-002/evidence_catalog.pdf",
+      "sha256": "ed8b43d3fedef9b8969bc3ec08f8236df935af9415feabf3c3c66e816db9bb0a",
+      "bytes": 10522,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/evidence_workbook.xlsx",
+      "path": "tasks/LAW-L02-002/evidence_workbook.xlsx",
+      "sha256": "e83e649b14e0988efea3f1ef6c783f782d11398dab00aefd921a917a62794ee1",
+      "bytes": 20646,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/instruction.md",
+      "path": "tasks/LAW-L02-002/instruction.md",
+      "sha256": "e99af019cbad098d2b6cdb8b7e6e8f3a0e1927eb35307ed2c2053064cdebf5c5",
+      "bytes": 3763,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/lineage.json",
+      "path": "tasks/LAW-L02-002/lineage.json",
+      "sha256": "f814f513ee129891f788aa5429800b5829a28451a41fde60a3edf45618cec183",
+      "bytes": 1725,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/private/provenance.json",
+      "path": "tasks/LAW-L02-002/private/provenance.json",
+      "sha256": "55fb78e38a1076f5710fcd8fa7b3f7d81b884e17fae927bdbde3c203b614e723",
+      "bytes": 1271,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/solution/build_reference.py",
+      "path": "tasks/LAW-L02-002/solution/build_reference.py",
+      "sha256": "c0dd0b170d8520d00daf4f77d6fb2e1320685abaf3c92ee4eb28ace2f7d54aa2",
+      "bytes": 26343,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/solution/solve.sh",
+      "path": "tasks/LAW-L02-002/solution/solve.sh",
+      "sha256": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+      "bytes": 215,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/supplementation_note.pdf",
+      "path": "tasks/LAW-L02-002/supplementation_note.pdf",
+      "sha256": "13166625cab65a66511539ad88d9132f535da37f63ba6c2fe0c5cdbd5436b5c0",
+      "bytes": 5289,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/task.toml",
+      "path": "tasks/LAW-L02-002/task.toml",
+      "sha256": "8590ed9eadcaf087534ffdecccfab1d6ad95b2e44338d0bfbd2454c07e968506",
+      "bytes": 352,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/Dockerfile",
+      "path": "tasks/LAW-L02-002/tests/Dockerfile",
+      "sha256": "b5be7d8106c19d743aba1edda49c8791757bc7e2346ffd7057f14e86f02edc5e",
+      "bytes": 621,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/assertions.json",
+      "path": "tasks/LAW-L02-002/tests/assertions.json",
+      "sha256": "66acca59a5eeab32ac7f4dc6ca51e08347680f440a1d64a795cf66ad6d149fcc",
+      "bytes": 4206,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/expected_cases.json",
+      "path": "tasks/LAW-L02-002/tests/expected_cases.json",
+      "sha256": "ca7e539d02f719093a47f81995bf1c85e5edd8abedec60a1b6570016f4e14ecb",
+      "bytes": 12240,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/grade.py",
+      "path": "tasks/LAW-L02-002/tests/grade.py",
+      "sha256": "ea16f7c62c23c1f2b8178996b3547ef2d3fc2cb9e001eea5bbe1152e9c9dafb4",
+      "bytes": 13752,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf",
+      "path": "tasks/LAW-L02-002/tests/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf",
+      "sha256": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "bytes": 186509,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/rubric.json",
+      "path": "tasks/LAW-L02-002/tests/rubric.json",
+      "sha256": "838f9ac51958935debdbe3d22f19a3fe460305dbf0ca6e9c6ee8c4d015dc0d9d",
+      "bytes": 392,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/test.sh",
+      "path": "tasks/LAW-L02-002/tests/test.sh",
+      "sha256": "5bd39f42b3c59d0bbff184b37ce4dcdce7c9a2f2d4b16cdfc9a9f90a5f528e8b",
+      "bytes": 366,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238/artifacts/workspace/output/evidence_catalog.pdf",
+      "path": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238/output/evidence_catalog.pdf",
+      "sha256": "99c18de8d5392c0e4b1072fa186cd501bbbbe9a52ea88abcf52b73e9b5cf1402",
+      "bytes": 198580,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238/artifacts/workspace/output/evidence_workbook.xlsx",
+      "path": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238/output/evidence_workbook.xlsx",
+      "sha256": "ab728a97c4dbf240c46d53aacd7d4126003a61fa763f87b96ab4e5534a9c2f20",
+      "bytes": 37259,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238/artifacts/workspace/output/supplementation_note.pdf",
+      "path": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238/output/supplementation_note.pdf",
+      "sha256": "b31edbca2e55db362d8ef5fb7698aaaa1876459f0417ad852eefa8ec64bdd9e2",
+      "bytes": 215884,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/evidence_catalog.pdf",
+      "path": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/output/evidence_catalog.pdf",
+      "sha256": "0730bb007766f78ec5a77b3a2155b3c28b9b116dcb2eccb2bed2278c722b69c7",
+      "bytes": 10522,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/evidence_workbook.xlsx",
+      "path": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/output/evidence_workbook.xlsx",
+      "sha256": "de7a57985e71b0566bf9695f0a2931baa7431c0c9382a9be13a804bd893d4d96",
+      "bytes": 20646,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/supplementation_note.pdf",
+      "path": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/output/supplementation_note.pdf",
+      "sha256": "9d72156ebce78eaa92ee84e193923d11a80c09a63808002ea52801c2b6df1d92",
+      "bytes": 5289,
+      "category": "native_output"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/Dockerfile",
+      "path": "tasks/LAW-L03-001/environment/Dockerfile",
+      "sha256": "7d403b8979f859a28a39308ddbbfb3f486c6081f8945feaed4223ec41063ce55",
+      "bytes": 457,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/input-data/CN-1225327554.pdf",
+      "path": "tasks/LAW-L03-001/environment/input-data/CN-1225327554.pdf",
+      "sha256": "968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892",
+      "bytes": 5954840,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/input-data/CN-1225327559.pdf",
+      "path": "tasks/LAW-L03-001/environment/input-data/CN-1225327559.pdf",
+      "sha256": "31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f",
+      "bytes": 28930209,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/input-data/CN-1225327560.pdf",
+      "path": "tasks/LAW-L03-001/environment/input-data/CN-1225327560.pdf",
+      "sha256": "ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df",
+      "bytes": 24431250,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/input-data/CN-1225449371.pdf",
+      "path": "tasks/LAW-L03-001/environment/input-data/CN-1225449371.pdf",
+      "sha256": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+      "bytes": 147025,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/input-data/CN-1225449382.pdf",
+      "path": "tasks/LAW-L03-001/environment/input-data/CN-1225449382.pdf",
+      "sha256": "a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438",
+      "bytes": 21225865,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/input-data/CN-1225449388.pdf",
+      "path": "tasks/LAW-L03-001/environment/input-data/CN-1225449388.pdf",
+      "sha256": "e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98",
+      "bytes": 6240258,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/environment/input-data/CN-1225449390.pdf",
+      "path": "tasks/LAW-L03-001/environment/input-data/CN-1225449390.pdf",
+      "sha256": "c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1",
+      "bytes": 8034657,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/instruction.md",
+      "path": "tasks/LAW-L03-001/instruction.md",
+      "sha256": "09443715dc70e8ff08a60c561fddf7e0f6e03965996bc3f542df3dca7bed11ae",
+      "bytes": 5407,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/lineage.json",
+      "path": "tasks/LAW-L03-001/lineage.json",
+      "sha256": "edaa2d3017a26a4d70c7216c286373ee226fc80a0d12b0e80dfb456fc4de6816",
+      "bytes": 1667,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/private/authoring/design-notes.md",
+      "path": "tasks/LAW-L03-001/private/authoring/design-notes.md",
+      "sha256": "72d69a898b08995742fe45d0e8b64193a43bfd53514786bfa80df530cc026078",
+      "bytes": 1163,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/private/evaluation/validation.json",
+      "path": "tasks/LAW-L03-001/private/evaluation/validation.json",
+      "sha256": "1513cdb6248f43517ba313f22e3c0ae59b53ed31270a4095c9d28d35e78a8359",
+      "bytes": 1066,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/private/provenance.json",
+      "path": "tasks/LAW-L03-001/private/provenance.json",
+      "sha256": "dcb325cf4e8f27e6b46e7373f42d24028d76f529b4f5fdfde396b08349f6d20e",
+      "bytes": 3225,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/solution/build_reference.py",
+      "path": "tasks/LAW-L03-001/solution/build_reference.py",
+      "sha256": "63474cb2ea4b6fd2acf66e7e1e3c2022a5cbae1f1704cd6bc680df2440b615e7",
+      "bytes": 24582,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/solution/solve.sh",
+      "path": "tasks/LAW-L03-001/solution/solve.sh",
+      "sha256": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+      "bytes": 215,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/task.toml",
+      "path": "tasks/LAW-L03-001/task.toml",
+      "sha256": "0b6346a6dd52520cbda077302599904f06ba155f883cf8ea49f17a50dd5e3f86",
+      "bytes": 351,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/tests/Dockerfile",
+      "path": "tasks/LAW-L03-001/tests/Dockerfile",
+      "sha256": "8a7e9c9842cb81f25590f13dccfd2d7c7ff086e0cd842d0c70357345d431351a",
+      "bytes": 453,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/tests/assertions.json",
+      "path": "tasks/LAW-L03-001/tests/assertions.json",
+      "sha256": "d45ce031e1a5d47f2662dd6643d4e88415a96da06686a35ae32dd525a76d4439",
+      "bytes": 3156,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/tests/grade.py",
+      "path": "tasks/LAW-L03-001/tests/grade.py",
+      "sha256": "ed4d133daa92556699302a7fc2434079d50943ba3d912226c7e13033ae72ec75",
+      "bytes": 11848,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/tests/rubric.json",
+      "path": "tasks/LAW-L03-001/tests/rubric.json",
+      "sha256": "56b0497d3d7cd15249479c367a4085dc4fcdcbd0bffe95cf8b0992cd4759b52f",
+      "bytes": 2658,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/tests/test.sh",
+      "path": "tasks/LAW-L03-001/tests/test.sh",
+      "sha256": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9",
+      "bytes": 229,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/environment/Dockerfile",
+      "path": "tasks/LAW-L04-001/environment/Dockerfile",
+      "sha256": "71c4c1ba69d157b541ed37bb9abed58bb72b84f8ad3b7691e61c250a801f87e1",
+      "bytes": 394,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/environment/input-data/COURT-ZHENXIN-CLAIM.docx",
+      "path": "tasks/LAW-L04-001/environment/input-data/COURT-ZHENXIN-CLAIM.docx",
+      "sha256": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+      "bytes": 15373,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/environment/input-data/COURT-ZHENXIN-GUIDE.pdf",
+      "path": "tasks/LAW-L04-001/environment/input-data/COURT-ZHENXIN-GUIDE.pdf",
+      "sha256": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+      "bytes": 188442,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/environment/input-data/COURT-ZHENXIN-LIST.docx",
+      "path": "tasks/LAW-L04-001/environment/input-data/COURT-ZHENXIN-LIST.docx",
+      "sha256": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+      "bytes": 13376,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/environment/input-data/COURT-ZHENXIN-REGISTER.docx",
+      "path": "tasks/LAW-L04-001/environment/input-data/COURT-ZHENXIN-REGISTER.docx",
+      "sha256": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db",
+      "bytes": 14240,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/instruction.md",
+      "path": "tasks/LAW-L04-001/instruction.md",
+      "sha256": "7078565b1095bd5410bdbef16f1d84bb25b04d85b34968262803cd580aadc1b2",
+      "bytes": 4225,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/lineage.json",
+      "path": "tasks/LAW-L04-001/lineage.json",
+      "sha256": "f9dd39962dd0694a5c0bc5cd96611dd969cf32f1f4b2b581b07b888a749330e0",
+      "bytes": 2001,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/private/authoring/source-review.json",
+      "path": "tasks/LAW-L04-001/private/authoring/source-review.json",
+      "sha256": "30a50ed647332e5b6231b4d11f4663b0ebce6e82d5cbbc72b2b6d30fb3babe37",
+      "bytes": 1152,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/private/evaluation/local-reference-report.json",
+      "path": "tasks/LAW-L04-001/private/evaluation/local-reference-report.json",
+      "sha256": "c2287a58227bfeb4d02d88e1f6c35f7a1f9bcb5d04e30b862a1b1065fe7e5cba",
+      "bytes": 5654,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/private/evaluation/local-reference-reward.json",
+      "path": "tasks/LAW-L04-001/private/evaluation/local-reference-reward.json",
+      "sha256": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+      "bytes": 15,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/private/evaluation/validation.json",
+      "path": "tasks/LAW-L04-001/private/evaluation/validation.json",
+      "sha256": "a147dbc87bd3d547be55b8c332f6d1d267d80ad0e30f3c5473786b0dc35645b9",
+      "bytes": 787,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/private/evaluation/validation.md",
+      "path": "tasks/LAW-L04-001/private/evaluation/validation.md",
+      "sha256": "7d47449670b5592930233bcdc3df1a71e2d0ff2df7b2aec7e73cebb03bff936e",
+      "bytes": 1508,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/private/evaluation/wrong-cutoff-challenge-report.json",
+      "path": "tasks/LAW-L04-001/private/evaluation/wrong-cutoff-challenge-report.json",
+      "sha256": "5d6318a9bf7051dabd929f1fb45f8f599825af16ddfe60f1843ce4f3647bb87f",
+      "bytes": 5875,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/private/provenance.json",
+      "path": "tasks/LAW-L04-001/private/provenance.json",
+      "sha256": "6508ff234fc3049b02cc62b1fdcf9c3c4a0fea2edbaa9d659aada2335bde6d72",
+      "bytes": 2152,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/solution/build_reference.py",
+      "path": "tasks/LAW-L04-001/solution/build_reference.py",
+      "sha256": "43289b38a1794ecea0c8c3248a3776ff015d4aacead46980a2b50f632efc9445",
+      "bytes": 18537,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/solution/solve.sh",
+      "path": "tasks/LAW-L04-001/solution/solve.sh",
+      "sha256": "e35d8abca7765a869b9e446f4a4e89fec29ff8dd8ea1c611df7e44ff19cd697a",
+      "bytes": 582,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/task.toml",
+      "path": "tasks/LAW-L04-001/task.toml",
+      "sha256": "a463bbc1aae978e5c1d21c6bc1b4d6767faced81c110fae060929f5573cfdd39",
+      "bytes": 351,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/tests/Dockerfile",
+      "path": "tasks/LAW-L04-001/tests/Dockerfile",
+      "sha256": "37aafa24e240a54c4dc106824f69f01b2dcc8540a5ee10e82ded94ca3342270c",
+      "bytes": 409,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/tests/assertions.json",
+      "path": "tasks/LAW-L04-001/tests/assertions.json",
+      "sha256": "af5ab11888e9585d4a41277ed2b21c3094d8f504346296bc69d95f82f6634098",
+      "bytes": 3168,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/tests/grade.py",
+      "path": "tasks/LAW-L04-001/tests/grade.py",
+      "sha256": "f815de238d4debc790590b9d2361555af39ef31a9652fa28eb2090681f78ac16",
+      "bytes": 17947,
+      "category": "author_candidate"
+    },
+    {
+      "source": "deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/tests/test.sh",
+      "path": "tasks/LAW-L04-001/tests/test.sh",
+      "sha256": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9",
+      "bytes": 229,
+      "category": "author_candidate"
+    }
+  ],
+  "excluded_files": [
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/solution/__pycache__/build_reference.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001/tests/__pycache__/grade.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/solution/__pycache__/build_reference.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002/tests/__pycache__/grade.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/solution/__pycache__/build_reference.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001/tests/__pycache__/grade.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/solution/__pycache__/build_reference.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002/tests/__pycache__/grade.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/solution/__pycache__/build_reference.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002/tests/__pycache__/grade.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/GraphicsRenderTests.log",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/autotext/mytexts.bau",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/basic/Standard/Module1.xba",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/basic/Standard/dialog.xlb",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/basic/Standard/script.xlb",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/basic/dialog.xlc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/basic/script.xlc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/config/autotbl.fmt",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/database/biblio/biblio.dbf",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/database/biblio/biblio.dbt",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/database/biblio.odb",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/buildid",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/bundled/lastsynchronized",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/shared/lastsynchronized",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/gallery/sg30.sdv",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/gallery/sg30.thm",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/ExtensionInfo.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/autotext/mytexts.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/Module1.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/dialog.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/script.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/basic/dialog.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/basic/script.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/config/autotbl.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/database/biblio/biblio.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/database/biblio.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/pack/registrymodifications.pack",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/registrymodifications.xcu",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6/artifacts/workspace/output/.lo-profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/solution/__pycache__/build_reference.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    },
+    {
+      "source": "deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/tests/__pycache__/grade.cpython-312.pyc",
+      "reason": "generated Python or LibreOffice cache"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "critical_errors": [
+    {
+      "cap": 0.25,
+      "assertion": "scope_group_vs_parent"
+    },
+    {
+      "cap": 0.25,
+      "assertion": "period_and_units"
+    },
+    {
+      "cap": 0.5,
+      "assertion": "no_fabricated_applicant_inputs"
+    },
+    {
+      "cap": 0.5,
+      "assertion": "no_hedge_limit_as_debt"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "xlsx_exists",
+      "kind": "outcome",
+      "unit": "file:xlsx",
+      "description": "工作簿可打开且包含四张约定工作表",
+      "criterion": "xlsx_exists"
+    },
+    {
+      "id": "pdf_exists",
+      "kind": "outcome",
+      "unit": "file:pdf",
+      "description": "中文PDF报告可读取",
+      "criterion": "pdf_exists"
+    },
+    {
+      "id": "period_and_units",
+      "kind": "outcome",
+      "unit": "scope:period-unit",
+      "description": "核心金额标明人民币元及对应期间",
+      "criterion": "period_and_units"
+    },
+    {
+      "id": "scope_group_vs_parent",
+      "kind": "outcome",
+      "unit": "scope:entity",
+      "description": "区分集团合并与母公司单体，未将集团余额作为申请人余额",
+      "criterion": "scope_group_vs_parent"
+    },
+    {
+      "id": "source_revenue_2025",
+      "kind": "outcome",
+      "unit": "fact:revenue-2025",
+      "description": "2025合并营业收入正确",
+      "criterion": "source_revenue_2025"
+    },
+    {
+      "id": "source_cost_2025",
+      "kind": "outcome",
+      "unit": "fact:cost-2025",
+      "description": "2025合并营业成本正确",
+      "criterion": "source_cost_2025"
+    },
+    {
+      "id": "source_ar_2025",
+      "kind": "outcome",
+      "unit": "fact:ar-2025",
+      "description": "2025年末合并应收账款正确",
+      "criterion": "source_ar_2025"
+    },
+    {
+      "id": "source_inventory_2025",
+      "kind": "outcome",
+      "unit": "fact:inventory-2025",
+      "description": "2025年末合并存货正确",
+      "criterion": "source_inventory_2025"
+    },
+    {
+      "id": "source_short_debt_h1",
+      "kind": "outcome",
+      "unit": "fact:shortdebt-h1",
+      "description": "2026H1期末合并短期借款正确",
+      "criterion": "source_short_debt_h1"
+    },
+    {
+      "id": "source_op_cash_h1",
+      "kind": "outcome",
+      "unit": "fact:opcash-h1",
+      "description": "2026H1合并经营现金流量净额正确",
+      "criterion": "source_op_cash_h1"
+    },
+    {
+      "id": "turnover_inputs",
+      "kind": "evidence",
+      "unit": "calc:turnover-inputs",
+      "description": "五项周转分子、两期末余额及平均余额公式完整",
+      "criterion": "turnover_inputs"
+    },
+    {
+      "id": "turnover_formulas",
+      "kind": "outcome",
+      "unit": "calc:turnover-formulas",
+      "description": "周转次数和360日周转天数由Excel公式计算",
+      "criterion": "turnover_formulas"
+    },
+    {
+      "id": "turnover_mapping",
+      "kind": "evidence",
+      "unit": "method:turnover-mapping",
+      "description": "应收/预收用收入，存货/预付/应付用成本并说明",
+      "criterion": "turnover_mapping"
+    },
+    {
+      "id": "working_capital_formula",
+      "kind": "outcome",
+      "unit": "calc:wc-formula",
+      "description": "营运资金天数、次数和需求公式存在",
+      "criterion": "working_capital_formula"
+    },
+    {
+      "id": "annualization",
+      "kind": "outcome",
+      "unit": "method:h1-annualization",
+      "description": "2026H1收入与成本乘2并明确是机械年化",
+      "criterion": "annualization"
+    },
+    {
+      "id": "profit_margin",
+      "kind": "outcome",
+      "unit": "method:operating-margin",
+      "description": "使用2025合并营业利润/营业收入",
+      "criterion": "profit_margin"
+    },
+    {
+      "id": "growth_assumption",
+      "kind": "evidence",
+      "unit": "method:growth-zero",
+      "description": "0%增长率标为方法假设而非客户预测",
+      "criterion": "growth_assumption"
+    },
+    {
+      "id": "financing_deductions_missing",
+      "kind": "outcome",
+      "unit": "fact:deductions-missing",
+      "description": "自有资金、现有贷款、其他融资未提供且新增需求待核实",
+      "criterion": "financing_deductions_missing"
+    },
+    {
+      "id": "no_fabricated_applicant_inputs",
+      "kind": "outcome",
+      "unit": "scope:missing-data",
+      "description": "申请人、金额、用途及授信资料缺口明确列出",
+      "criterion": "no_fabricated_applicant_inputs"
+    },
+    {
+      "id": "cash_constraints",
+      "kind": "outcome",
+      "unit": "fact:cash-availability",
+      "description": "现金、受限及境外资金区分并提示可用性未核实",
+      "criterion": "cash_constraints"
+    },
+    {
+      "id": "no_hedge_limit_as_debt",
+      "kind": "outcome",
+      "unit": "fact:hedge-limit",
+      "description": "套保授权额度不误述为贷款/实际占用",
+      "criterion": "no_hedge_limit_as_debt"
+    },
+    {
+      "id": "repayment_evidence",
+      "kind": "evidence",
+      "unit": "analysis:repayment",
+      "description": "经营现金流作为集团证据并说明申请人偿债仍待核实",
+      "criterion": "repayment_evidence"
+    },
+    {
+      "id": "regulatory_example_boundary",
+      "kind": "outcome",
+      "unit": "method:regulatory-example",
+      "description": "附件方法明确为示例且非普遍强制测算结论",
+      "criterion": "regulatory_example_boundary"
+    },
+    {
+      "id": "role_separation",
+      "kind": "outcome",
+      "unit": "governance:role-separation",
+      "description": "桌面预审与现场调查、风险评价、审批职责区分",
+      "criterion": "role_separation"
+    }
+  ],
+  "scale": 24
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "LAW-L01-002",
+  "round": 1,
+  "checks": {
+    "source_hashes_verified": true,
+    "reference_builder_derives_outputs": true,
+    "tracked_changes_and_comments_present": true,
+    "clean_output_has_no_markup": true,
+    "invented_amount_or_party_data": false
+  },
+  "runtime_checks": {
+    "reference_builder_and_grader": "passed; 25/25; reward 1.0",
+    "empty_output": "passed; graded_candidate_defect; reward 0",
+    "malformed_docx": "passed; verifier_failure; reward 0",
+    "native_docker_build": "not_run; Docker daemon socket permission denied"
+  },
+  "result": "static_preflight_passed; verifier_context_fixed; reference_graded_25_of_25; negative_baselines_passed; native_docker_build_not_run_due_to_host_permission"
+}

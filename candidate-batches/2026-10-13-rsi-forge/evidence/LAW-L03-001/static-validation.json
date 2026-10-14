@@ -1,0 +1,32 @@
+{
+  "package": "[batch-workspace]/deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001",
+  "producer_attempt": "attempt_ad2ca7c259cf475fa8579f558f47266c",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L03-001\",\n      \"path\": \"[batch-workspace]/deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"09443715dc70e8ff08a60c561fddf7e0f6e03965996bc3f542df3dca7bed11ae\",\n        \"task.toml\": \"0b6346a6dd52520cbda077302599904f06ba155f883cf8ea49f17a50dd5e3f86\",\n        \"environment/Dockerfile\": \"7d403b8979f859a28a39308ddbbfb3f486c6081f8945feaed4223ec41063ce55\",\n        \"solution/solve.sh\": \"ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9\",\n        \"solution/build_reference.py\": \"63474cb2ea4b6fd2acf66e7e1e3c2022a5cbae1f1704cd6bc680df2440b615e7\",\n        \"tests/test.sh\": \"c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9\",\n        \"tests/assertions.json\": \"d45ce031e1a5d47f2662dd6643d4e88415a96da06686a35ae32dd525a76d4439\",\n        \"tests/grade.py\": \"ed4d133daa92556699302a7fc2434079d50943ba3d912226c7e13033ae72ec75\"\n      },\n      \"assertion_count\": 25,\n      \"criteria_covered\": [\n        \"PDF\",\n        \"R1\",\n        \"R10\",\n        \"R11\",\n        \"R12\",\n        \"R13\",\n        \"R14\",\n        \"R15\",\n        \"R16\",\n        \"R17\",\n        \"R18\",\n        \"R19\",\n        \"R2\",\n        \"R20\",\n        \"R21\",\n        \"R22\",\n        \"R23\",\n        \"R24\",\n        \"R3\",\n        \"R4\",\n        \"R5\",\n        \"R6\",\n        \"R7\",\n        \"R8\",\n        \"R9\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    "environment/Dockerfile": "7d403b8979f859a28a39308ddbbfb3f486c6081f8945feaed4223ec41063ce55",
+    "environment/input-data/CN-1225327554.pdf": "968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892",
+    "environment/input-data/CN-1225327559.pdf": "31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f",
+    "environment/input-data/CN-1225327560.pdf": "ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df",
+    "environment/input-data/CN-1225449371.pdf": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+    "environment/input-data/CN-1225449382.pdf": "a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438",
+    "environment/input-data/CN-1225449388.pdf": "e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98",
+    "environment/input-data/CN-1225449390.pdf": "c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1",
+    "instruction.md": "09443715dc70e8ff08a60c561fddf7e0f6e03965996bc3f542df3dca7bed11ae",
+    "lineage.json": "edaa2d3017a26a4d70c7216c286373ee226fc80a0d12b0e80dfb456fc4de6816",
+    "private/authoring/design-notes.md": "72d69a898b08995742fe45d0e8b64193a43bfd53514786bfa80df530cc026078",
+    "private/evaluation/validation.json": "1513cdb6248f43517ba313f22e3c0ae59b53ed31270a4095c9d28d35e78a8359",
+    "private/provenance.json": "dcb325cf4e8f27e6b46e7373f42d24028d76f529b4f5fdfde396b08349f6d20e",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "0e36f2a88842be5fbef02127dfccf70473efc31fd266dd782af669190b4d1c72",
+    "solution/build_reference.py": "63474cb2ea4b6fd2acf66e7e1e3c2022a5cbae1f1704cd6bc680df2440b615e7",
+    "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+    "task.toml": "0b6346a6dd52520cbda077302599904f06ba155f883cf8ea49f17a50dd5e3f86",
+    "tests/Dockerfile": "8a7e9c9842cb81f25590f13dccfd2d7c7ff086e0cd842d0c70357345d431351a",
+    "tests/__pycache__/grade.cpython-312.pyc": "ead41d045cadf0dc98b445a0c8cc3d68ac1b5e989a7431ea57b06d5b1e6a49cd",
+    "tests/assertions.json": "d45ce031e1a5d47f2662dd6643d4e88415a96da06686a35ae32dd525a76d4439",
+    "tests/grade.py": "ed4d133daa92556699302a7fc2434079d50943ba3d912226c7e13033ae72ec75",
+    "tests/rubric.json": "56b0497d3d7cd15249479c367a4085dc4fcdcbd0bffe95cf8b0992cd4759b52f",
+    "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9"
+  }
+}

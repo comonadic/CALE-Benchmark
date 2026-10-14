@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "task_path": "environment/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf",
+      "document_id": "CN-1225489930",
+      "source_id": "S01",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225489930.PDF",
+      "source_repository_path": "reference-library/raw/S01/CN-1225489930/original.pdf",
+      "source_sha256": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "package_sha256": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "transformation": "按原始字节复制并以描述性文件名放入 environment/input-data；未OCR、清洗或重排。"
+    }
+  ],
+  "scenario": {
+    "basis": "仅要求对公开发行人公告进行案件线索编目与补件安排，不构造或补造原始诉辩、合同、付款、施工履行、程序通知或裁判材料。",
+    "source_role": "公告中的案件及程序内容均作为发行人披露转述记录；底层事实待取得原件后核验。",
+    "known_edge_cases": ["P06案号和登记跨原件第2-3页", "P12第3页包含5,095.08万元子行，性质需要原始诉辩材料核对", "P14公告所列原告为郑俊亮", "P16公告列示两个程序案号及跨省移送"]
+  }
+}

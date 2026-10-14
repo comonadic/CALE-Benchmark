@@ -1,0 +1,44 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "9stke6f9c90gx957ne69",
+      "build_id": "bf7fd36e-6d2b-4ff6-9944-ee469edaf138",
+      "name": "cale-fin-f13-002-agent-d81e9bd3",
+      "alias": "cale-fin-f13-002-agent-d81e9bd3",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "d81e9bd3581fd60a33255a5da53b5d07cfbb9dc3b2e692f2f4753a6bda606969",
+    "files": {
+      "Dockerfile": "83798b7aea808e6ab0f0702ac4b0444437f956d99331602f644225311e69ec7b",
+      "input-data/2025_authorization_announcement.pdf": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+      "input-data/2025_authorization_resolution.pdf": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+      "input-data/halfyear_report_2026.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "input-data/hedge_policy.pdf": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699"
+    }
+  },
+  "verifier": {
+    "build": {
+      "template_id": "o8v9ph8qd9cmd7y7tuhm",
+      "build_id": "4b8aefe3-93ca-4ebb-97c8-868564d12938",
+      "name": "cale-fin-f13-002-verifier-cc11693e",
+      "alias": "cale-fin-f13-002-verifier-cc11693e",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "cc11693e089d6b5885452cdc224061ff8f4d37c7751ab1162d26006c585287d7",
+    "files": {
+      "Dockerfile": "160a12e7a58b4ecf29d693f08db4689e4f43c8dcf23ae3f12efe48f79ec356b5",
+      "__pycache__/grade.cpython-312.pyc": "43ad27783429d493400028e26aab2af86c61e1b9b1dc5dfa0bff4cd1e32994cd",
+      "assertions.json": "39fef71b0b169c82fe64138576a94a0511bd4584bd5b95bf6ef209fbeefe1e84",
+      "grade.py": "6596c92ca2d3f84069c30fa68ae163b40b937021ed16833204ca00df1b75c018",
+      "test.sh": "4254b2ea0f76419f5effa8a3964d0dba292ac101aba84d9f8b36d938ba3650a8"
+    }
+  }
+}

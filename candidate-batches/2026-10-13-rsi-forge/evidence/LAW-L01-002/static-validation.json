@@ -1,0 +1,30 @@
+{
+  "package": "[batch-workspace]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002",
+  "producer_attempt": "attempt_94820161d98c46dd8fbe1a584bc19e56",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L01-002\",\n      \"path\": \"[batch-workspace]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"5f53ae807ddc46d7a5214cab00f73934d3c18cbd54002f5ca73fdf6cd9a972a0\",\n        \"task.toml\": \"05405c749a79adc78d93712ab7017855097dd5e9bebb3950fbd87edf1831df2e\",\n        \"environment/Dockerfile\": \"bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47\",\n        \"solution/solve.sh\": \"ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9\",\n        \"solution/build_reference.py\": \"d4153dcf9f712a7e0f07f6b961194beb96b0c78f901abd320fad4b330e47a0c6\",\n        \"tests/test.sh\": \"6ad01e2fe86cc95fc78b5c33eea8eb84b4fce573edd8212dd60f0758a0fab19c\",\n        \"tests/assertions.json\": \"556b1dd0aaa8137210cce398c59bc933b296267dfb3d4f7e46e851366a5fca2e\",\n        \"tests/grade.py\": \"7afa7114d991106ca3c396f789d7828c2d300f81f8935ee7364ac75eb35ff4bf\"\n      },\n      \"assertion_count\": 25,\n      \"criteria_covered\": [\n        \"clean contract does not retain the absolute no-subcontracting conflict and refers to procurement rules\",\n        \"clean contract has no w:ins or w:del markup\",\n        \"clean contract has 七、考核与验收\",\n        \"clean contract includes 10 working day final acceptance deadline\",\n        \"clean contract includes 7-day organization deadline\",\n        \"clean contract includes 9-month preliminary acceptance\",\n        \"clean contract retains 12-month/final contract acceptance\",\n        \"clean contract states payment processing within 5 working days\",\n        \"clean contract uses CZ2026-0463 and does not use CZ2026-xxxx\",\n        \"clean contract uses 巡检、维修、保养\",\n        \"contract_clean.docx exists and is a readable DOCX\",\n        \"contract_redline.docx exists and is a readable DOCX\",\n        \"opinion cites contract, procurement requirement and tender source locations\",\n        \"opinion distinguishes procurement/legal baseline from business choice\",\n        \"opinion identifies the procurement payment-priority rule or payment conflict\",\n        \"opinion records 30/30/20/20 installment confirmation\",\n        \"opinion records 40 percent SME and 28 percent small-micro share\",\n        \"opinion records attachment 1 performance scheme confirmation\",\n        \"opinion records confidentiality agreement and team execution\",\n        \"opinion treats contract amount as a confirmation item rather than inventing a price\",\n        \"opinion treats乙方主体 and signing information as confirmation items\",\n        \"redline contains at least one w:del tracked deletion\",\n        \"redline contains at least one w:ins tracked insertion\",\n        \"redline contains comments.xml and comment references\",\n        \"review_opinion.docx exists and is a readable DOCX\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    "environment/Dockerfile": "bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47",
+    "environment/input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+    "environment/input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+    "environment/input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+    "instruction.md": "5f53ae807ddc46d7a5214cab00f73934d3c18cbd54002f5ca73fdf6cd9a972a0",
+    "lineage.json": "f9c9955caa5e42c168b85a5a666ed0f6b343c6057c5e781804095f48ae1b5813",
+    "private/evaluation/calibration-1.json": "6b8bda354c23b04f795ad4fa04ffafca25cf4861ae66d3662bf7fd6b8988fc97",
+    "private/evaluation/validation.json": "96e37b57590e69fe70098c991179032212a4ce27d769860e79ffb22b99cbaf19",
+    "private/provenance.json": "4f6d3f8d4db6840f9f50c6271a7af9fa4dfcc08f64ddd40d160cc607d374c7d1",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "68b97b97e73c347283083e1263a97340fdb0ae6e9d4b47e77670fba7349fa85d",
+    "solution/build_reference.py": "d4153dcf9f712a7e0f07f6b961194beb96b0c78f901abd320fad4b330e47a0c6",
+    "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+    "task.toml": "05405c749a79adc78d93712ab7017855097dd5e9bebb3950fbd87edf1831df2e",
+    "tests/Dockerfile": "0e5671e9290378f5adee62ab8f2c9383f9da3e9411e614892c06bab0e7abee22",
+    "tests/__pycache__/grade.cpython-312.pyc": "af0cf9486bd10d6c61b47e07aef00c526128a1c5ad99daedf29e7c1652ad05d9",
+    "tests/assertions.json": "556b1dd0aaa8137210cce398c59bc933b296267dfb3d4f7e46e851366a5fca2e",
+    "tests/grade.py": "7afa7114d991106ca3c396f789d7828c2d300f81f8935ee7364ac75eb35ff4bf",
+    "tests/input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+    "tests/input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+    "tests/input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+    "tests/test.sh": "6ad01e2fe86cc95fc78b5c33eea8eb84b4fce573edd8212dd60f0758a0fab19c"
+  }
+}

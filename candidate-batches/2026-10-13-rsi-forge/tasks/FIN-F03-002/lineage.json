@@ -1,0 +1,23 @@
+{
+  "task_id": "FIN-F03-002",
+  "industry": "finance",
+  "design": {"task_type_id": "FIN-F03-002", "approach": "Public-disclosure desktop working-capital review; applicant-level data gaps remain unresolved.", "as_of": "2026-06-30", "deliverables": ["working_capital_review.xlsx", "credit_investigation.pdf"]},
+  "sources": ["CN-1225203635", "CN-1225495975", "CN-1225451854", "CN-1225491061"],
+  "derivation": {"method": "solution/build_reference.py derives deliverables from visible source PDFs at runtime", "no_input_mutation": true},
+  "task_type_id": "FIN-F03-002",
+  "title": "流动资金贷款需求测算与授信调查报告复核",
+  "created_at": "2026-10-13",
+  "parent_material_package": "PKG-HAID-2026",
+  "source_repository_commit": "7219bf92cb0fdfe7493a6cab455593c3d84a15e0",
+  "source_documents": ["CN-1225203635", "CN-1225495975", "CN-1225451854", "CN-1225491061"],
+  "task_design": {
+    "approach": "Public-disclosure desktop pre-review; missing applicant and internal-credit records remain explicit unresolved inputs.",
+    "as_of": "2026-06-30",
+    "entity_scope": "Guangdong HAID Group Co., Ltd. consolidated disclosures with selected parent-company contrast",
+    "fusable_upstream": "FIN-F01-001",
+    "user_constraint": "Office operations implemented by scripts; no CUA; Dockerfiles install required runtime dependencies."
+  },
+  "deliverables": ["working_capital_review.xlsx", "credit_investigation.pdf"],
+  "solution": "solution/build_reference.py derives the workbook and report from input-data PDFs at runtime.",
+  "scoring": {"assertion_count": 24, "frozen_scale": 24, "critical_error_caps_public": true}
+}

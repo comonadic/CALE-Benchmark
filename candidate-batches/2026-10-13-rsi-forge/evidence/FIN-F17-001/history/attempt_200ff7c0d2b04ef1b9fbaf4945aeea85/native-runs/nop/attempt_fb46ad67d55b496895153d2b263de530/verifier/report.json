@@ -1,0 +1,9 @@
+{
+  "status": "verifier_failure",
+  "valid": false,
+  "P": null,
+  "S": 24,
+  "reward": null,
+  "error": "FileNotFoundError: [Errno 2] No such file or directory: '/workspace/output/evidence_register.csv'",
+  "assertions": []
+}

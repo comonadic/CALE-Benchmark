@@ -1,0 +1,23 @@
+{
+  "task_id": "LAW-L04-001",
+  "industry": "law",
+  "design": {
+    "work_family": "L04 破产重整、清算与债权",
+    "task_type_id": "LAW-L04-001",
+    "core_actions": ["程序通知核对", "债权证据缺口盘点", "本金利息工作簿建模", "申报草稿与证据目录整理"],
+    "deliverables": ["claim_calculation.xlsx", "claim_declaration.pdf", "supporting_evidence_index.pdf"],
+    "split_group": "PKG-ZHENXIN-CLAIM-2026"
+  },
+  "sources": [
+    {"source_id":"S33","document_id":"COURT-ZHENXIN-GUIDE","sha256":"aeecb43d1d96dfac1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b","evidence_scope":"本案管理人通知的申报时间、提交程序、材料顺序、利息截止和会议时间"},
+    {"source_id":"S33","document_id":"COURT-ZHENXIN-CLAIM","sha256":"d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5","evidence_scope":"空白申报书字段及债务人身份"},
+    {"source_id":"S33","document_id":"COURT-ZHENXIN-LIST","sha256":"6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94","evidence_scope":"空白申报材料目录结构和签收声明"},
+    {"source_id":"S33","document_id":"COURT-ZHENXIN-REGISTER","sha256":"a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db","evidence_scope":"空白登记表字段及与申报书冲突时的登记优先提示"}
+  ],
+  "derivation": {
+    "parent_task_ids": [],
+    "method": "从索引指定的四份公开原件构建可见输入；不添加虚构债权资料。因合同、履行、付款、授权及担保卷宗缺失，将任务收缩为通知要求提取、证据缺口整理及零金额假设的可编辑申报工作底稿。参考解运行时解析可见原件并生成 Office/PDF 文件。",
+    "changes": ["材料不足以支持真实债权金额申报，因此以缺口核查和申报准备底稿作为任务核心。"],
+    "materials": ["COURT-ZHENXIN-GUIDE.pdf", "COURT-ZHENXIN-CLAIM.docx", "COURT-ZHENXIN-LIST.docx", "COURT-ZHENXIN-REGISTER.docx"]
+  }
+}

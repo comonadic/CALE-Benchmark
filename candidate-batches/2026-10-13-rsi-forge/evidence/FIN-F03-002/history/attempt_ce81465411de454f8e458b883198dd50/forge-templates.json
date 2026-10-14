@@ -1,0 +1,23 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "0i056e0nhr1b1anl7967",
+      "build_id": "2155650b-e305-470f-8d60-2294ccc8dc67",
+      "name": "cale-fin-f03-002-agent-49b5b67f",
+      "alias": "cale-fin-f03-002-agent-49b5b67f",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "49b5b67f2090dc2d3ebae0180076bb5c82c52b5f37598b66c1d491ea2a3cd907",
+    "files": {
+      "Dockerfile": "ca28ad60efdf167b8044baf1388e733c111d47362c2bd57a098ba7d6a293615a",
+      "input-data/CN-1225203635.pdf": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "input-data/CN-1225451854.pdf": "058d72df110d1f589549ba129d49e60ea6d52e81a995812735ec797a2a9b3d47",
+      "input-data/CN-1225491061.pdf": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+      "input-data/CN-1225495975.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd"
+    }
+  }
+}

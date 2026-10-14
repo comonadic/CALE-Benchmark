@@ -1,0 +1,32 @@
+{
+  "package": "[batch-workspace]/deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002",
+  "producer_attempt": "attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"FIN-F13-002\",\n      \"path\": \"[batch-workspace]/deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"8b87b6f2dab1036905010afb1557a7572e6a66c8d0b6f5a21a609065ecfcdf15\",\n        \"task.toml\": \"a1214e4ea76795e2079976cdd229207083f885b18d799f126551dc4c9ef762e7\",\n        \"environment/Dockerfile\": \"83798b7aea808e6ab0f0702ac4b0444437f956d99331602f644225311e69ec7b\",\n        \"solution/solve.sh\": \"958f0776ff95620844b21263fb54c87ceb000161db86cc98b3fb43841685ab97\",\n        \"solution/build_reference.py\": \"52cd0b740ec1a843c14ac3cec00213f230d97cb6b668711c3cb040907b0773e6\",\n        \"tests/test.sh\": \"92f690f80b6d7a52c5e110db45b9e0788a151400cddb50dc2419fdfd9fc7afbe\",\n        \"tests/assertions.json\": \"39fef71b0b169c82fe64138576a94a0511bd4584bd5b95bf6ef209fbeefe1e84\",\n        \"tests/grade.py\": \"0570d0608b72838e03a8247e2c19e7bf49875ea8c66428a8d272094286ce911a\"\n      },\n      \"assertion_count\": 33,\n      \"criteria_covered\": [\n        \"R1\",\n        \"R2\",\n        \"R3\",\n        \"R4\",\n        \"R5\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    ".grade-oracle/report.json": "2bb69c203fd847345a419801e653969388a21e1ad93e5a545e87e07edb281c5d",
+    ".grade-oracle/reward.json": "f6a62d967308942513ddc11609c4ade6b760bbab990dc12d34171e67327f59fc",
+    ".oracle-test/hedge_review.docx": "c11955d38d3e19dcf4a11258f1a712c8c471a61d66b0f6147c5dbdcec072fd35",
+    ".oracle-test/hedge_review.pdf": "68581becf389c6211bd999dc9c538edb5a072c5b2a3f2baa4aaf6d51e5c38ea5",
+    ".oracle-test/hedge_review.xlsx": "3e286df098094fa86266bb407ad5a4c3e91086f75ab5d013fcb12cc355d097a4",
+    "environment/Dockerfile": "83798b7aea808e6ab0f0702ac4b0444437f956d99331602f644225311e69ec7b",
+    "environment/input-data/2025_authorization_announcement.pdf": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+    "environment/input-data/2025_authorization_resolution.pdf": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+    "environment/input-data/halfyear_report_2026.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+    "environment/input-data/hedge_policy.pdf": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699",
+    "instruction.md": "8b87b6f2dab1036905010afb1557a7572e6a66c8d0b6f5a21a609065ecfcdf15",
+    "lineage.json": "9f05ad5ab3aa5541b09fcab4c0dd7d98c08f398f19f2db457a69a06841f151ac",
+    "private/authoring/design-review.json": "1b5be4d2b130eb1a19b627c9fc46fe770a55d08f8d6e17a82ed000049fe1538e",
+    "private/authoring/evidence-facts.json": "a73f6f0d451bfe9bc5bfc94659e87ad9495229218b494467dc248dc91293b70c",
+    "private/evaluation/validation.json": "839725eb772d934b2e88c80155c97676b59a185446c33b5e413f67c4cd427c87",
+    "private/provenance.json": "c007c6a441a86a539ddd7155019e29d54bec90e63be0fe3a645a794391259352",
+    "solution/build_reference.py": "52cd0b740ec1a843c14ac3cec00213f230d97cb6b668711c3cb040907b0773e6",
+    "solution/solve.sh": "958f0776ff95620844b21263fb54c87ceb000161db86cc98b3fb43841685ab97",
+    "task.toml": "a1214e4ea76795e2079976cdd229207083f885b18d799f126551dc4c9ef762e7",
+    "tests/Dockerfile": "160a12e7a58b4ecf29d693f08db4689e4f43c8dcf23ae3f12efe48f79ec356b5",
+    "tests/assertions.json": "39fef71b0b169c82fe64138576a94a0511bd4584bd5b95bf6ef209fbeefe1e84",
+    "tests/grade.py": "0570d0608b72838e03a8247e2c19e7bf49875ea8c66428a8d272094286ce911a",
+    "tests/test.sh": "92f690f80b6d7a52c5e110db45b9e0788a151400cddb50dc2419fdfd9fc7afbe"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scale": 25,
+  "assertions": [
+    {"id":"redline_exists","kind":"outcome","unit":"redline file","criterion":"contract_redline.docx exists and is a readable DOCX"},
+    {"id":"clean_exists","kind":"outcome","unit":"clean file","criterion":"contract_clean.docx exists and is a readable DOCX"},
+    {"id":"opinion_exists","kind":"outcome","unit":"opinion file","criterion":"review_opinion.docx exists and is a readable DOCX"},
+    {"id":"redline_ins","kind":"evidence","unit":"redline insertions","criterion":"redline contains at least one w:ins tracked insertion"},
+    {"id":"redline_del","kind":"evidence","unit":"redline deletions","criterion":"redline contains at least one w:del tracked deletion"},
+    {"id":"redline_comments","kind":"evidence","unit":"redline comments","criterion":"redline contains comments.xml and comment references"},
+    {"id":"project_number","kind":"outcome","unit":"project identifier","criterion":"clean contract uses CZ2026-0463 and does not use CZ2026-xxxx"},
+    {"id":"payment_five","kind":"outcome","unit":"payment deadline","criterion":"clean contract states payment processing within 5 working days"},
+    {"id":"payment_source","kind":"evidence","unit":"payment conflict note","criterion":"opinion identifies the procurement payment-priority rule or payment conflict"},
+    {"id":"subcontracting","kind":"outcome","unit":"subcontracting clause","criterion":"clean contract does not retain the absolute no-subcontracting conflict and refers to procurement rules"},
+    {"id":"sme_share","kind":"evidence","unit":"SME share","criterion":"opinion records 40 percent SME and 28 percent small-micro share"},
+    {"id":"preliminary_acceptance","kind":"outcome","unit":"preliminary acceptance","criterion":"clean contract includes 9-month preliminary acceptance"},
+    {"id":"prelim_seven_days","kind":"outcome","unit":"preliminary acceptance deadline","criterion":"clean contract includes 7-day organization deadline"},
+    {"id":"final_acceptance","kind":"outcome","unit":"final acceptance","criterion":"clean contract retains 12-month/final contract acceptance"},
+    {"id":"acceptance_ten_days","kind":"outcome","unit":"final acceptance deadline","criterion":"clean contract includes 10 working day final acceptance deadline"},
+    {"id":"chapter_seven","kind":"outcome","unit":"section numbering","criterion":"clean contract has 七、考核与验收"},
+    {"id":"typo_fixed","kind":"outcome","unit":"service wording","criterion":"clean contract uses 巡检、维修、保养"},
+    {"id":"amount_not_invented","kind":"evidence","unit":"amount confirmation","criterion":"opinion treats contract amount as a confirmation item rather than inventing a price"},
+    {"id":"party_not_invented","kind":"evidence","unit":"party confirmation","criterion":"opinion treats乙方主体 and signing information as confirmation items"},
+    {"id":"staged_payment","kind":"evidence","unit":"installment confirmation","criterion":"opinion records 30/30/20/20 installment confirmation"},
+    {"id":"confidentiality","kind":"evidence","unit":"confidentiality confirmation","criterion":"opinion records confidentiality agreement and team execution"},
+    {"id":"performance_scheme","kind":"evidence","unit":"performance scheme","criterion":"opinion records attachment 1 performance scheme confirmation"},
+    {"id":"legal_business_split","kind":"evidence","unit":"review position","criterion":"opinion distinguishes procurement/legal baseline from business choice"},
+    {"id":"source_basis","kind":"evidence","unit":"source citations","criterion":"opinion cites contract, procurement requirement and tender source locations"},
+    {"id":"clean_no_markup","kind":"outcome","unit":"clean markup","criterion":"clean contract has no w:ins or w:del markup"}
+  ],
+  "critical_errors": [
+    {"assertion":"redline_exists","cap":0.0},
+    {"assertion":"clean_exists","cap":0.0},
+    {"assertion":"opinion_exists","cap":0.0},
+    {"assertion":"redline_comments","cap":0.7},
+    {"assertion":"clean_no_markup","cap":0.7}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "candidates_considered": [
+    {"id":"A","question":"基于公开更正链重建审计调整分录和调整后试算平衡","decision":"rejected","reason":"材料包明确缺少原始TB、科目映射、差异底稿及客户入账确认；重建会制造客户内部事实。"},
+    {"id":"B","question":"复核公开更正前年报的现金流取数、勾稽和底层证据缺口","decision":"selected","reason":"唯一可由默认可见原件独立完成；符合F17的证据边界和交接动作，可客观评分。"},
+    {"id":"C","question":"评价未更正错报重大性并形成报告意见","decision":"rejected","reason":"缺项目重要性、完整错报汇总、管理层反馈及适用报告基础，结论不可支持。"}
+  ],
+  "selected": "B",
+  "date": "2026-10-13"
+}

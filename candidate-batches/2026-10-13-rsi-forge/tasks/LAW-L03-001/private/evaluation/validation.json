@@ -1,0 +1,15 @@
+{
+  "task_id":"LAW-L03-001",
+  "validation_date":"2026-10-13",
+  "layers": {
+    "static_preflight":{"status":"not_run","command":"python /workspace/skills/legal-task-authoring/scripts/validate_task_package.py /workspace/output/LAW-L03-001 --require-harbor"},
+    "harbor_execution":{"status":"not_run","note":"Run reference solution and test.sh in declared Docker images."},
+    "grading_calibration":{"status":"not_run","note":"Need empty-output baseline, malformed workbook/PDF checks and constructed wrong-period/disclosure-as-finding variants."},
+    "independent_solver_rollout":{"status":"not_run","note":"Not run; reference output is not independent solver evidence."}
+  },
+  "known_limits":[
+    "Harbor CLI/runtime availability is not inferred from static schema parsing.",
+    "Two legal opinion PDFs are scanned; reference output records the scan limitation and does not assert unverified detailed holdings.",
+    "Open-ended professional quality remains outside the 24 mechanical assertions and needs independent review before benchmark release."
+  ]
+}

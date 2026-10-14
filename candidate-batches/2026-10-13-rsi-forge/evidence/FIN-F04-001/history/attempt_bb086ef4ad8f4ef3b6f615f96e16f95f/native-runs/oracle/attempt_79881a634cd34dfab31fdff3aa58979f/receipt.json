@@ -1,0 +1,26 @@
+{
+  "harness": "oracle",
+  "job_id": "job_30d6e0da3424413bb1aca180f9c34e34",
+  "run_id": "run_b4edf4988374432984f0289eeb89d2a2",
+  "status": "failed",
+  "attempt_id": "attempt_79881a634cd34dfab31fdff3aa58979f",
+  "verifier_result": null,
+  "exception_info": {
+    "exception_type": "RuntimeError",
+    "exception_message": "oracle exited with status 2",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 41, in _run\n    await self._run_agent()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 442, in _run_agent_phase\n    await asyncio.wait_for(\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 311, in run\n    await self.durable_command(environment, command, user=\"root\")\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 407, in durable_command\n    raise RuntimeError(f\"{runtime.request.harness} exited with status {result.return_code}\")\nRuntimeError: oracle exited with status 2\n",
+    "occurred_at": "2026-10-14T02:28:57.523219"
+  },
+  "started_at": "2026-10-13T18:28:42.506744Z",
+  "finished_at": "2026-10-13T18:29:02.881536Z",
+  "agent_execution": {
+    "started_at": "2026-10-13T18:28:46.171623Z",
+    "finished_at": "2026-10-13T18:28:54.701644Z"
+  },
+  "verifier": null,
+  "collected_path": "[batch-workspace]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/native-runs/oracle/attempt_79881a634cd34dfab31fdff3aa58979f",
+  "file_sha256": {
+    "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+    "execution/stderr.log": "5f59c2169b324cb48cec23e35157f531232c00c97d5f4bbca3ba50d9b68c133d"
+  }
+}

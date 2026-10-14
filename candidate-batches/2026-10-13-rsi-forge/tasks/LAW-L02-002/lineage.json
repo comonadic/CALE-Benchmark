@@ -1,0 +1,36 @@
+{
+  "task_id": "LAW-L02-002",
+  "industry": "law",
+  "design": {
+    "task_type_id": "LAW-L02-002",
+    "title": "公开诉讼披露线索的证据编排与补件复核",
+    "selection_reason": "材料包仅含发行人诉讼公告且标记partial_public_inputs；任务范围收敛到公告线索编目、金额/页码勾稽与补件安排，不冒充完整诉讼卷宗。",
+    "difficulty_axes": [
+      "23起案件",
+      "跨页续行",
+      "当事人及程序状态差异",
+      "案件金额与裁判/履行金额易混淆",
+      "异常表格子行需保留待核"
+    ],
+    "task_card": "/workspace/task-library/legal/L02/LAW-L02-002.yaml"
+  },
+  "sources": [
+    {
+      "document_id": "CN-1225489930",
+      "source_id": "S01",
+      "title": "重庆建工：重庆建工关于公司及子公司涉及诉讼的公告",
+      "publication_date": "2026-08-22",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225489930.PDF",
+      "sha256": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0"
+    }
+  ],
+  "derivation": {
+    "input_mapping": "environment/input-data 下 PDF 与 reference-library/raw/S01/CN-1225489930/original.pdf 字节一致；不含抽取副本或作者补造案件材料。",
+    "reference_solution": "solution/build_reference.py 从可见PDF摘要字段生成工作簿及两份PDF；案件数据按公告表格逐项转录，跨页P06页码为2、3，P12异常子行作为待核线索。",
+    "limitations": [
+      "未独立取得原始诉辩、合同、付款、履行、程序或裁判材料",
+      "公告中的案件事实/程序状态为发行人披露转述",
+      "未进行实体法判断或案卷证据证明力评价"
+    ]
+  }
+}

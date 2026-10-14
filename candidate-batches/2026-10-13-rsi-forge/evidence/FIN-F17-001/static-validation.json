@@ -1,0 +1,28 @@
+{
+  "package": "[batch-workspace]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001",
+  "producer_attempt": "attempt_200ff7c0d2b04ef1b9fbaf4945aeea85",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"FIN-F17-001\",\n      \"path\": \"[batch-workspace]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"4b49864184addffa78da2c6531f24916e3bbfb15f624a8c2e938e658f1d15474\",\n        \"task.toml\": \"1d1702b14d3589f05e68bb7220c5f59f533920837d5e27ab5093408e9b3156d5\",\n        \"environment/Dockerfile\": \"299b84de1dab56d53e208449140214fc9f1494124819b64ae50420680f815a79\",\n        \"solution/solve.sh\": \"4e30bb034a80966498a838b6de2a2e53d1160edfffe9f2465e62e8126b09da85\",\n        \"solution/build_reference.py\": \"c7183f3684e2bd16a3c13bf109cd36fee24a7581bfed5377336dbc92cf9fc180\",\n        \"tests/test.sh\": \"1f8cf18eabaffd8848983f6eb6c0571de040ab3e5d5c1ce151c35b07a0f169ed\",\n        \"tests/assertions.json\": \"dce5a594ea0cb0c29ad14cac09556d565cff664d384ec56539ff65747bec0931\",\n        \"tests/grade.py\": \"317dc52f9cd791afc2e66123a0bdcc34f57464c59a98a42f3de85ea0ce4f8c38\"\n      },\n      \"assertion_count\": 24,\n      \"criteria_covered\": [\n        \"C1\",\n        \"C2\",\n        \"C3\",\n        \"C4\",\n        \"C5\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    "environment/Dockerfile": "299b84de1dab56d53e208449140214fc9f1494124819b64ae50420680f815a79",
+    "environment/input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+    "evidence_gaps.csv": "2f803abd43ece78ccc4b30e4af68047b65062b90868fc79685ac6879eda8b59d",
+    "evidence_register.csv": "91e23d0200214ff29296f15294c3c61ee3e35c2c6c2a99e3dfdf22b538671e82",
+    "instruction.md": "4b49864184addffa78da2c6531f24916e3bbfb15f624a8c2e938e658f1d15474",
+    "lineage.json": "2a3cf467fbbefd0a383e5a0eb4c643dda05d21d9b48bc045b4ef849bec5fe1e7",
+    "misstatement_review.pdf": "c1884d0babd7ed935b088fb6cd4bad7899e110611573484d953a663e190e9005",
+    "private/authoring/candidate-selection.json": "cab871849374030c3765613814bd2319b28e0afcd10c7a1644ce26f2442c0dea",
+    "private/authoring/evidence-review.json": "77171e55821749c68225ea9786425882cae2a4ec533f345aef3a84e7683f91eb",
+    "private/evaluation/validation.json": "ea243f309277f842bf51719ad3bccbba0629743c8b75d93c6cd50256c0df0a2b",
+    "private/provenance.json": "a6132a2f7cc037bc5b20d69393294ce5ae0e7e9d8161d7674ee935cc2cec1140",
+    "solution/build_reference.py": "c7183f3684e2bd16a3c13bf109cd36fee24a7581bfed5377336dbc92cf9fc180",
+    "solution/solve.sh": "4e30bb034a80966498a838b6de2a2e53d1160edfffe9f2465e62e8126b09da85",
+    "task.toml": "1d1702b14d3589f05e68bb7220c5f59f533920837d5e27ab5093408e9b3156d5",
+    "tests/Dockerfile": "abefa8df83300909b28c99ed20aa0acb118bd85a4da2a8a0a3796a0a22570fab",
+    "tests/assertions.json": "dce5a594ea0cb0c29ad14cac09556d565cff664d384ec56539ff65747bec0931",
+    "tests/grade.py": "317dc52f9cd791afc2e66123a0bdcc34f57464c59a98a42f3de85ea0ce4f8c38",
+    "tests/input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+    "tests/test.sh": "1f8cf18eabaffd8848983f6eb6c0571de040ab3e5d5c1ce151c35b07a0f169ed"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "material_id": "PKG-GUOCHENG-MA-2026",
+  "repository_commit": "7219bf92cb0fdfe7493a6cab455593c3d84a15e0",
+  "task_id": "LAW-L03-001",
+  "as_of": "2026-07-31",
+  "inputs": [
+    {"document_id":"CN-1225327554","filename":"CN-1225327554.pdf","sha256":"968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892","bytes":5954840,"url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225327554/original.pdf","handling":"copied byte-for-byte from unaltered_source_original"},
+    {"document_id":"CN-1225327559","filename":"CN-1225327559.pdf","sha256":"31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f","bytes":28930209,"url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225327559/original.pdf","handling":"copied byte-for-byte; scanned image PDF, no OCR transform"},
+    {"document_id":"CN-1225327560","filename":"CN-1225327560.pdf","sha256":"ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df","bytes":24431250,"url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225327560/original.pdf","handling":"copied byte-for-byte from unaltered_source_original"},
+    {"document_id":"CN-1225449371","filename":"CN-1225449371.pdf","sha256":"fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32","bytes":147025,"url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225449371/original.pdf","handling":"copied byte-for-byte from unaltered_source_original"},
+    {"document_id":"CN-1225449382","filename":"CN-1225449382.pdf","sha256":"a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438","bytes":21225865,"url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225449382/original.pdf","handling":"copied byte-for-byte; scanned image PDF, no OCR transform"},
+    {"document_id":"CN-1225449388","filename":"CN-1225449388.pdf","sha256":"e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98","bytes":6240258,"url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225449388/original.pdf","handling":"copied byte-for-byte from unaltered_source_original"},
+    {"document_id":"CN-1225449390","filename":"CN-1225449390.pdf","sha256":"c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1","bytes":8034657,"url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225449390/original.pdf","handling":"copied byte-for-byte from unaltered_source_original"}
+  ],
+  "excluded": [{"document_id":"CN-1225449376","reason":"manifest excludes the resolved inquiry reply from default inputs to avoid answer leakage"}],
+  "scenario_note": "No fictional data-room responses or internal client facts were added. Work requests and status conventions are task framing, not claims about source facts."
+}

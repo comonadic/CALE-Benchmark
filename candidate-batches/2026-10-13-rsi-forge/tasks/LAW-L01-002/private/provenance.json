@@ -1,0 +1,10 @@
+{
+  "task_id": "LAW-L01-002",
+  "sources": [
+    {"path":"GZ-CZ20260463-CONTRACT/original.docx","sha256":"3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb"},
+    {"path":"GZ-CZ20260463-REQUIREMENTS/original.docx","sha256":"36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9"},
+    {"path":"GZ-CZ20260463-TENDER/original.zip","sha256":"df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855"}
+  ],
+  "rights_status": "public_disclosure; publisher_rights_retained; no_additional_license_claimed",
+  "authoring_note": "Only indexed source publications were copied into environment/input-data. No invented confirmation record is included."
+}

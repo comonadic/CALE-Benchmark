@@ -1,0 +1,388 @@
+{
+  "batch_id": "2026-10-13-rsi-forge",
+  "published_at": "2026-10-14T11:40:53.442133+08:00",
+  "status": "candidate_snapshot_not_accepted",
+  "requested_cards": 10,
+  "candidate_cards": 9,
+  "fully_accepted_cards": 0,
+  "source_repository_commit": "7219bf9",
+  "forge_base_commit": "22691842bc031805b456d82a9ea93fe27f24613b",
+  "producer": {
+    "harness": "Claude Code",
+    "model": "claude-opus-5-5"
+  },
+  "independent_solver": {
+    "harness": "Codex",
+    "model": "gpt-6.1-sol"
+  },
+  "production_stopped": true,
+  "acceptance_authority": "This batch status and observed native evidence override author self-reported ready/verified/validated labels. No candidate has final acceptance.",
+  "publication_changes": [
+    "Task text, input bytes, reference solution, Dockerfiles and grading code are unchanged.",
+    "Generated Python and LibreOffice caches are excluded.",
+    "Host installation paths in execution evidence are replaced with bracketed labels.",
+    "No credentials, model conversation logs, service databases or workspace snapshots are published."
+  ],
+  "cards": [
+    {
+      "card": "FIN-F01-001",
+      "title": "更新海大集团三表模型",
+      "task_card": "task-library/finance/F01/FIN-F01-001.yaml",
+      "materials": "2025 年报与 2026 半年报；合并历史数据及 2026H2 分析情景",
+      "outputs": "联动三表 XLSX、模型说明 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "参考解评分断言数量不一致；空输出评分器异常",
+      "package": "tasks/FIN-F01-001",
+      "producer_attempt": "attempt_9c29a8ad17a945c19836c1f45663f0a1",
+      "static_pass": true,
+      "images_built": true,
+      "native_history": [
+        {
+          "harness": "nop",
+          "job_id": "job_85d4ee23e4e24b20873c37eeb5d848ae",
+          "run_id": "run_4a6fb38bc5284768b73266f506d7f001",
+          "attempt_id": "attempt_17fa0449d260418abcc304e489335b19",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_9c29a8ad17a945c19836c1f45663f0a1",
+          "evidence": "evidence/FIN-F01-001/history/attempt_9c29a8ad17a945c19836c1f45663f0a1/native-runs/nop/attempt_17fa0449d260418abcc304e489335b19"
+        },
+        {
+          "harness": "oracle",
+          "job_id": "job_73e4e3823f6c47f2874e1c37f6ada1b4",
+          "run_id": "run_5f635f15040b49a2bb0a76dcb7637584",
+          "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_9c29a8ad17a945c19836c1f45663f0a1",
+          "evidence": "evidence/FIN-F01-001/history/attempt_9c29a8ad17a945c19836c1f45663f0a1/native-runs/oracle/attempt_808b09e40e774719be06d60696bc1197"
+        }
+      ]
+    },
+    {
+      "card": "FIN-F02-001",
+      "title": "待产出：任务卡 FIN-F02-001",
+      "task_card": "task-library/finance/F02/FIN-F02-001.yaml",
+      "materials": "本批未收集到候选题包",
+      "outputs": "—",
+      "acceptance": "not_accepted",
+      "known_issue": "未产出",
+      "package": null
+    },
+    {
+      "card": "FIN-F03-002",
+      "title": "桌面授信调查预审",
+      "task_card": "task-library/finance/F03/FIN-F03-002.yaml",
+      "materials": "海大集团公开财报、套保公告和股东会决议",
+      "outputs": "营运资金测算 XLSX、调查预审 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "评分镜像缺少 tests/input-data，未进入原生试跑",
+      "package": "tasks/FIN-F03-002",
+      "producer_attempt": "attempt_ce81465411de454f8e458b883198dd50",
+      "static_pass": true,
+      "images_built": false,
+      "native_history": []
+    },
+    {
+      "card": "FIN-F04-001",
+      "title": "次月到期或回售债券偿债资金排查",
+      "task_card": "task-library/finance/F04/FIN-F04-001.yaml",
+      "materials": "申万宏源债券披露、财报、新疆证监局通知及排查模板",
+      "outputs": "偿债排查 XLSX、资金风险说明 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "参考解脚本路径错误；空输出评分器异常",
+      "package": "tasks/FIN-F04-001",
+      "producer_attempt": "attempt_bb086ef4ad8f4ef3b6f615f96e16f95f",
+      "static_pass": true,
+      "images_built": true,
+      "native_history": [
+        {
+          "harness": "nop",
+          "job_id": "job_cd7eb36b2ff6427aa89d9556c5846bef",
+          "run_id": "run_da85b02792fe41718d576edb09e8d852",
+          "attempt_id": "attempt_ed150263ca7946558a8ae99be7f458c4",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_bb086ef4ad8f4ef3b6f615f96e16f95f",
+          "evidence": "evidence/FIN-F04-001/history/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/native-runs/nop/attempt_ed150263ca7946558a8ae99be7f458c4"
+        },
+        {
+          "harness": "oracle",
+          "job_id": "job_30d6e0da3424413bb1aca180f9c34e34",
+          "run_id": "run_b4edf4988374432984f0289eeb89d2a2",
+          "attempt_id": "attempt_79881a634cd34dfab31fdff3aa58979f",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_bb086ef4ad8f4ef3b6f615f96e16f95f",
+          "evidence": "evidence/FIN-F04-001/history/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/native-runs/oracle/attempt_79881a634cd34dfab31fdff3aa58979f"
+        }
+      ]
+    },
+    {
+      "card": "FIN-F13-002",
+      "title": "2026H1 套期保值披露复核",
+      "task_card": "task-library/finance/F13/FIN-F13-002.yaml",
+      "materials": "海大集团半年报、授权及套保政策等四份原件",
+      "outputs": "披露复核 XLSX、复核备忘录 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "评分器 trusted source anchor missing；未得到有效分数",
+      "package": "tasks/FIN-F13-002",
+      "producer_attempt": "attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2",
+      "static_pass": true,
+      "images_built": true,
+      "native_history": [
+        {
+          "harness": "codex",
+          "job_id": "job_868de2689d234f30aad466219b23d998",
+          "run_id": "run_92aa2524964941dea813819861198a71",
+          "attempt_id": "attempt_dfc7b6dde1f54b2287608c2b70741049",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_1dc9e4bc1b2b44d9be60e5e82deae704",
+          "evidence": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/codex/attempt_dfc7b6dde1f54b2287608c2b70741049"
+        },
+        {
+          "harness": "nop",
+          "job_id": "job_899a818dff9042bc9cb24d167d37d386",
+          "run_id": "run_01d948201b7a41a8862f772896a9d46f",
+          "attempt_id": "attempt_57c770bbebfe4805b794630e415c0d2f",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_1dc9e4bc1b2b44d9be60e5e82deae704",
+          "evidence": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/nop/attempt_57c770bbebfe4805b794630e415c0d2f"
+        },
+        {
+          "harness": "oracle",
+          "job_id": "job_aa728157420f41d8a4bc3560587e968d",
+          "run_id": "run_ca25685f97134a13a9e69eabad262b73",
+          "attempt_id": "attempt_ecc10ac42425438097df3eebcd67d170",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_1dc9e4bc1b2b44d9be60e5e82deae704",
+          "evidence": "evidence/FIN-F13-002/history/attempt_1dc9e4bc1b2b44d9be60e5e82deae704/native-runs/oracle/attempt_ecc10ac42425438097df3eebcd67d170"
+        },
+        {
+          "harness": "nop",
+          "job_id": "job_918bfc709b824b26b0e0d40afb63fff8",
+          "run_id": "run_2a45702e628f4fd8a153962110234053",
+          "attempt_id": "attempt_17fcf051a6934332b9a4275aa4009154",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2",
+          "evidence": "evidence/FIN-F13-002/history/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/native-runs/nop/attempt_17fcf051a6934332b9a4275aa4009154"
+        },
+        {
+          "harness": "oracle",
+          "job_id": "job_27f478895d694662bd736f5b70c66fb2",
+          "run_id": "run_fb533378bb164e90be3fcaf3629b3170",
+          "attempt_id": "attempt_c1a9947b6dc146dfa63d2367dfb3d5aa",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2",
+          "evidence": "evidence/FIN-F13-002/history/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/native-runs/oracle/attempt_c1a9947b6dc146dfa63d2367dfb3d5aa"
+        }
+      ]
+    },
+    {
+      "card": "FIN-F17-001",
+      "title": "现金流列报收尾复核与证据交接",
+      "task_card": "task-library/finance/F17/FIN-F17-001.yaml",
+      "materials": "茂名石化实华 2025 年报；区分公开披露与项目底层证据",
+      "outputs": "证据和缺口 CSV、复核备忘录 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "参考解 1.0；空输出评分器异常；Codex 11/24",
+      "package": "tasks/FIN-F17-001",
+      "producer_attempt": "attempt_200ff7c0d2b04ef1b9fbaf4945aeea85",
+      "static_pass": true,
+      "images_built": true,
+      "native_history": [
+        {
+          "harness": "codex",
+          "job_id": "job_d1eca3aa07b748e6bc64ab5b0622442c",
+          "run_id": "run_4eae3e68303343d1ad06d611e4d9856b",
+          "attempt_id": "attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+          "status": "succeeded",
+          "verifier_result": {
+            "rewards": {
+              "reward": 0.4583333333333333
+            }
+          },
+          "producer_attempt": "attempt_200ff7c0d2b04ef1b9fbaf4945aeea85",
+          "evidence": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd"
+        },
+        {
+          "harness": "nop",
+          "job_id": "job_1a24a3d98b934c0b9d020b39e87ca347",
+          "run_id": "run_0033500e6f564cbba689a943d0ee87ba",
+          "attempt_id": "attempt_fb46ad67d55b496895153d2b263de530",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_200ff7c0d2b04ef1b9fbaf4945aeea85",
+          "evidence": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/nop/attempt_fb46ad67d55b496895153d2b263de530"
+        },
+        {
+          "harness": "oracle",
+          "job_id": "job_54d42ef97c9b4de68a3055048446333e",
+          "run_id": "run_530c0d9c368e4c7fbc36dee693de8a6f",
+          "attempt_id": "attempt_7dbe544d18c04fc08b8c92a42ca88745",
+          "status": "succeeded",
+          "verifier_result": {
+            "rewards": {
+              "reward": 1.0
+            }
+          },
+          "producer_attempt": "attempt_200ff7c0d2b04ef1b9fbaf4945aeea85",
+          "evidence": "evidence/FIN-F17-001/history/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745"
+        }
+      ]
+    },
+    {
+      "card": "LAW-L01-002",
+      "title": "采购合同修订与签署前审查",
+      "task_card": "task-library/legal/L01/LAW-L01-002.yaml",
+      "materials": "采购合同、需求文件和招标原件",
+      "outputs": "带真实修订与批注的 DOCX、清洁合同、审查意见",
+      "acceptance": "not_accepted",
+      "known_issue": "参考解 1.0、空输出 0.0；两次 Codex 均异常退出，未完成最终文档",
+      "package": "tasks/LAW-L01-002",
+      "producer_attempt": "attempt_94820161d98c46dd8fbe1a584bc19e56",
+      "static_pass": true,
+      "images_built": true,
+      "native_history": [
+        {
+          "harness": "codex",
+          "job_id": "job_214db05d737a49ada924d3aab4216832",
+          "run_id": "run_45b42b3aeb9340f9a49019cc65a1c554",
+          "attempt_id": "attempt_c7f30f180a9e451493ee88d52b496dbc",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_94820161d98c46dd8fbe1a584bc19e56",
+          "evidence": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc"
+        },
+        {
+          "harness": "codex",
+          "job_id": "job_214db05d737a49ada924d3aab4216832",
+          "run_id": "run_45b42b3aeb9340f9a49019cc65a1c554",
+          "attempt_id": "attempt_e6cce8e55f0744c1b3c8cc1b0febbcee",
+          "status": "failed",
+          "verifier_result": null,
+          "producer_attempt": "attempt_94820161d98c46dd8fbe1a584bc19e56",
+          "evidence": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee"
+        },
+        {
+          "harness": "nop",
+          "job_id": "job_a61f71c9b0044919b5ef52ee4b9e7bf3",
+          "run_id": "run_d1efbb0d07484dbd9d975b0cfe91d0fe",
+          "attempt_id": "attempt_9d8490bf07fa4427a445c1e2c9b3406b",
+          "status": "succeeded",
+          "verifier_result": {
+            "rewards": {
+              "reward": 0.0
+            }
+          },
+          "producer_attempt": "attempt_94820161d98c46dd8fbe1a584bc19e56",
+          "evidence": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/nop/attempt_9d8490bf07fa4427a445c1e2c9b3406b"
+        },
+        {
+          "harness": "oracle",
+          "job_id": "job_c5509cab1ab04c02bf375233b6b2e928",
+          "run_id": "run_d0cfea77c7cf4aa2a34c5b9db814430d",
+          "attempt_id": "attempt_89168f36cefd4bc493a19563e7252421",
+          "status": "succeeded",
+          "verifier_result": {
+            "rewards": {
+              "reward": 1.0
+            }
+          },
+          "producer_attempt": "attempt_94820161d98c46dd8fbe1a584bc19e56",
+          "evidence": "evidence/LAW-L01-002/history/attempt_94820161d98c46dd8fbe1a584bc19e56/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421"
+        }
+      ]
+    },
+    {
+      "card": "LAW-L02-002",
+      "title": "公开诉讼披露线索编排与补件复核",
+      "task_card": "task-library/legal/L02/LAW-L02-002.yaml",
+      "materials": "重庆建工 2026-08-22 公告中的 23 起案件线索",
+      "outputs": "案件/金额/补件 XLSX、证据目录及补件说明 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "参考解 1.0、空输出 0.0；Codex 11/34",
+      "package": "tasks/LAW-L02-002",
+      "producer_attempt": "attempt_b92e21655a3e43bd962c677de0cc752c",
+      "static_pass": true,
+      "images_built": true,
+      "native_history": [
+        {
+          "harness": "codex",
+          "job_id": "job_332f6d82192d4ab4a947ee205546ad31",
+          "run_id": "run_83786eabae57435d935965a318db5e96",
+          "attempt_id": "attempt_2f79be03fb004058a0ab930e3c2fd238",
+          "status": "succeeded",
+          "verifier_result": {
+            "rewards": {
+              "reward": 0.3235294117647059
+            }
+          },
+          "producer_attempt": "attempt_b92e21655a3e43bd962c677de0cc752c",
+          "evidence": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238"
+        },
+        {
+          "harness": "nop",
+          "job_id": "job_6a190a75e7ef4be3bcb40b38e39b581e",
+          "run_id": "run_d6c60da18a874b389e6cbdb93fc8a4c7",
+          "attempt_id": "attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+          "status": "succeeded",
+          "verifier_result": {
+            "rewards": {
+              "reward": 0.0
+            }
+          },
+          "producer_attempt": "attempt_b92e21655a3e43bd962c677de0cc752c",
+          "evidence": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/nop/attempt_952d9b1f0b4d4b3e8d820c26165d7cfc"
+        },
+        {
+          "harness": "oracle",
+          "job_id": "job_3b4712ea29274b03bcf223abaf86c7f5",
+          "run_id": "run_5c3f3774c8224ed0898e4bfa31e2374e",
+          "attempt_id": "attempt_eb34ac88da274a9688c8785671fb3ef6",
+          "status": "succeeded",
+          "verifier_result": {
+            "rewards": {
+              "reward": 1.0
+            }
+          },
+          "producer_attempt": "attempt_b92e21655a3e43bd962c677de0cc752c",
+          "evidence": "evidence/LAW-L02-002/history/attempt_b92e21655a3e43bd962c677de0cc752c/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6"
+        }
+      ]
+    },
+    {
+      "card": "LAW-L03-001",
+      "title": "收购项目尽调需求与缺口台账",
+      "task_card": "task-library/legal/L03/LAW-L03-001.yaml",
+      "materials": "国城矿业收购披露、两期法律意见及审计报告等七份原件",
+      "outputs": "24 个工作单元的尽调台账 XLSX、缺口摘要 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "评分镜像缺少 tests/environment/input-data，未进入原生试跑",
+      "package": "tasks/LAW-L03-001",
+      "producer_attempt": "attempt_ad2ca7c259cf475fa8579f558f47266c",
+      "static_pass": true,
+      "images_built": false,
+      "native_history": []
+    },
+    {
+      "card": "LAW-L04-001",
+      "title": "破产债权申报准备与缺口核查",
+      "task_card": "task-library/legal/L04/LAW-L04-001.yaml",
+      "materials": "震鑫磁业管理人申报指引和三份空白表单",
+      "outputs": "计息工作簿、待补全申报书 PDF、证据目录 PDF",
+      "acceptance": "not_accepted",
+      "known_issue": "评分镜像缺少 tests/input-data，未进入原生试跑",
+      "package": "tasks/LAW-L04-001",
+      "producer_attempt": "attempt_b1df00ccb5b647c9bdf59de739e6f654",
+      "static_pass": true,
+      "images_built": false,
+      "native_history": []
+    }
+  ]
+}

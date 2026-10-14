@@ -1,0 +1,21 @@
+{
+  "task_id": "LAW-L01-002",
+  "industry": "legal",
+  "design": {
+    "title": "签署前合同审改及谈判后版本复核",
+    "work_family": "L01",
+    "agent_view_inputs": ["contract_original.docx", "requirements_original.docx", "tender_original.zip"],
+    "deliverables": ["contract_redline.docx", "contract_clean.docx", "review_opinion.docx"],
+    "assertion_scale": 25
+  },
+  "sources": [
+    {"role":"contract","path":"reference-library/raw/S44/GZ-CZ20260463-CONTRACT/original.docx","sha256":"3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb"},
+    {"role":"requirements","path":"reference-library/raw/S44/GZ-CZ20260463-REQUIREMENTS/original.docx","sha256":"36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9"},
+    {"role":"tender_archive","path":"reference-library/raw/S44/GZ-CZ20260463-TENDER/original.zip","sha256":"df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855"}
+  ],
+  "derivation": {
+    "method": "Reference outputs are generated at runtime by solution/build_reference.py from the three copied source publications.",
+    "source_integrity": "Input files are byte-identical copies of the indexed originals; no derived/OCR input is included.",
+    "known_material_issues": ["payment deadline conflict", "subcontracting conflict", "missing preliminary acceptance", "placeholder project number", "missing section seven", "service-word typo"]
+  }
+}

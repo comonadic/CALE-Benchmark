@@ -1,0 +1,100 @@
+{
+  "manifest": "[batch-workspace]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/forge-trials.json",
+  "bundle_sha256": "4f5373b91f759dca1b8c5386a346225213b52ae4539d07f8cf6f7f24b1efd479",
+  "trials": [
+    {
+      "harness": "oracle",
+      "job_id": "job_73e4e3823f6c47f2874e1c37f6ada1b4",
+      "run_id": "run_5f635f15040b49a2bb0a76dcb7637584",
+      "status": "failed",
+      "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+      "verifier_result": null,
+      "exception_info": {
+        "exception_type": "RewardFileNotFoundError",
+        "exception_message": "No reward file found at [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json\n",
+        "occurred_at": "2026-10-14T02:59:32.682676"
+      },
+      "started_at": "2026-10-13T18:57:59.059846Z",
+      "finished_at": "2026-10-13T18:59:32.686056Z",
+      "agent_execution": {
+        "started_at": "2026-10-13T18:58:04.554094Z",
+        "finished_at": "2026-10-13T18:58:59.855378Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-13T18:59:08.629071Z",
+        "finished_at": "2026-10-13T18:59:32.679087Z"
+      },
+      "collected_path": "[batch-workspace]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/native-runs/oracle/attempt_808b09e40e774719be06d60696bc1197",
+      "file_sha256": {
+        "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+        "artifacts/workspace/output/model_update_notes.pdf": "e14fd46c82ef8b442483ae984bdb686d234001197d4e063875ea00dfc729b147",
+        "artifacts/workspace/output/three_statement_model.xlsx": "600d5ac6436769da64a1e139309770e3581202e333b4945211f31015b1b31190",
+        "execution/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifier/report.json": "b85efdd00c812122a4206206d7bce85eda464c55a94da7315686d5ce4cfa5d98",
+        "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "harness": "nop",
+      "job_id": "job_85d4ee23e4e24b20873c37eeb5d848ae",
+      "run_id": "run_4a6fb38bc5284768b73266f506d7f001",
+      "status": "failed",
+      "attempt_id": "attempt_17fa0449d260418abcc304e489335b19",
+      "verifier_result": null,
+      "exception_info": {
+        "exception_type": "RewardFileNotFoundError",
+        "exception_message": "No reward file found at [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json\n",
+        "occurred_at": "2026-10-14T02:58:25.638109"
+      },
+      "started_at": "2026-10-13T18:57:59.090709Z",
+      "finished_at": "2026-10-13T18:58:25.641797Z",
+      "agent_execution": {
+        "started_at": "2026-10-13T18:58:03.549764Z",
+        "finished_at": "2026-10-13T18:58:03.937383Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-13T18:58:12.651172Z",
+        "finished_at": "2026-10-13T18:58:25.634225Z"
+      },
+      "collected_path": "[batch-workspace]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/native-runs/nop/attempt_17fa0449d260418abcc304e489335b19",
+      "file_sha256": {
+        "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+        "verifier/report.json": "47606540b7047d357a3a7d2b7291004e6a1cac21104199ec47d58577293aa0f8",
+        "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "solver_gate": {
+    "status": "blocked_by_baselines",
+    "baseline_evidence": {
+      "oracle": {
+        "status": "failed",
+        "run_id": "run_5f635f15040b49a2bb0a76dcb7637584",
+        "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json\n",
+          "occurred_at": "2026-10-14T02:59:32.682676"
+        }
+      },
+      "nop": {
+        "status": "failed",
+        "run_id": "run_4a6fb38bc5284768b73266f506d7f001",
+        "attempt_id": "attempt_17fa0449d260418abcc304e489335b19",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-workspace]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json\n",
+          "occurred_at": "2026-10-14T02:58:25.638109"
+        }
+      }
+    },
+    "checked_at": 1791917982.54187,
+    "job_id": null
+  }
+}

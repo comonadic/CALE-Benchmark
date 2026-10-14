@@ -1,0 +1,172 @@
+{
+  "scale": 33,
+  "P": 29,
+  "reward": 0.8787878787878788,
+  "valid": true,
+  "status": "graded_candidate_defect",
+  "assertions": {
+    "R1.xlsx-open": {
+      "status": "passed"
+    },
+    "R1.sheet-disclosure": {
+      "status": "passed"
+    },
+    "R1.sheet-authorization": {
+      "status": "passed"
+    },
+    "R1.sheet-gaps": {
+      "status": "passed"
+    },
+    "R2.futures-open": {
+      "status": "passed",
+      "actual": 43985.34,
+      "expected": 43985.34
+    },
+    "R2.futures-fv": {
+      "status": "passed",
+      "actual": -4639.58,
+      "expected": -4639.58
+    },
+    "R2.futures-oci": {
+      "status": "passed",
+      "actual": -10718.22,
+      "expected": -10718.22
+    },
+    "R2.futures-purchase": {
+      "status": "passed",
+      "actual": 67976.44,
+      "expected": 67976.44
+    },
+    "R2.futures-sales": {
+      "status": "passed",
+      "actual": 47100.25,
+      "expected": 47100.25
+    },
+    "R2.futures-ratio": {
+      "status": "failed",
+      "actual": 0.027,
+      "expected": 2.7
+    },
+    "R2.bank-fv": {
+      "status": "passed",
+      "actual": -608.01,
+      "expected": -608.01
+    },
+    "R2.bank-oci": {
+      "status": "passed",
+      "actual": 336.27,
+      "expected": 336.27
+    },
+    "R2.total-fv": {
+      "status": "passed",
+      "actual": -5247.59,
+      "expected": -5247.59
+    },
+    "R2.total-oci": {
+      "status": "passed",
+      "actual": -10381.95,
+      "expected": -10381.95
+    },
+    "R2.total-close": {
+      "status": "passed",
+      "actual": 64041.81,
+      "expected": 64041.81
+    },
+    "R2.pnl-disclosure": {
+      "status": "passed",
+      "actual": 290000000,
+      "expected": 290000000.0
+    },
+    "R2.close-yuan": {
+      "status": "passed",
+      "actual": "=B7*10000",
+      "expected": "formula = disclosed 64,041.81万元 * 10000"
+    },
+    "R5.workbook-formulas": {
+      "status": "passed",
+      "actual": [
+        "=B3+B9",
+        "=C20*10000-E20",
+        "=C21*10000-E21",
+        "=B7*10000"
+      ],
+      "expected": "live conversion and reconciliation formulas"
+    },
+    "R3.approval-date": {
+      "status": "passed",
+      "actual": "2025-08-14",
+      "expected": "2025-08-14"
+    },
+    "R3.commodity-cap": {
+      "status": "passed",
+      "actual": 4000000000,
+      "expected": 4000000000
+    },
+    "R3.fx-cap": {
+      "status": "passed",
+      "actual": 4700000000,
+      "expected": 4700000000
+    },
+    "R3.not-retroactive": {
+      "status": "passed",
+      "actual": "2026 subsequent authorization excluded",
+      "expected": "not retroactively applied"
+    },
+    "R3.stop-loss": {
+      "status": "failed",
+      "actual": "10% of scheme amount",
+      "expected": "10%"
+    },
+    "R3.disclosure-trigger": {
+      "status": "failed",
+      "actual": "10% and > RMB10m",
+      "expected": "10% and > RMB10m"
+    },
+    "R4.gap-spot": {
+      "status": "passed",
+      "actual": "spot records and impact",
+      "expected": "explicit gap and consequence"
+    },
+    "R4.gap-derivatives": {
+      "status": "passed",
+      "actual": "trade/position/settlement/margin snapshot",
+      "expected": "complete missing categories"
+    },
+    "R4.gap-cannot-rebuild": {
+      "status": "passed",
+      "actual": "reconstruction boundary",
+      "expected": "aggregate result is not independently rebuildable"
+    },
+    "R4.scheme-stop-loss-boundary": {
+      "status": "failed",
+      "actual": "scheme-level limitation",
+      "expected": "state limitation"
+    },
+    "R5.memo-period": {
+      "status": "passed",
+      "actual": "period and scope",
+      "expected": "2026H1 consolidated"
+    },
+    "R5.memo-reconciliation": {
+      "status": "passed",
+      "actual": "reconciliation and stock/flow/OCI distinctions",
+      "expected": "reconciled distinctions"
+    },
+    "R5.memo-citations": {
+      "status": "passed",
+      "actual": "citations",
+      "expected": "report page, policy and authorizations"
+    },
+    "R5.pdf-rendered": {
+      "status": "passed",
+      "actual": 1470,
+      "expected": "extractable memo content"
+    },
+    "R5.gap-actions": {
+      "status": "passed",
+      "actual": "follow-up record classes",
+      "expected": "specific requested evidence"
+    }
+  },
+  "critical_error_caps_triggered": []
+}

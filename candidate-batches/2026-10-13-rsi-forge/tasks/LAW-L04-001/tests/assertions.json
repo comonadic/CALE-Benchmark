@@ -1,0 +1,34 @@
+{
+  "scale": 24,
+  "assertions": [
+    {"id":"PROC.receipt-date","kind":"outcome","unit":"受理日及计息截止锚点","criterion":"procedure"},
+    {"id":"PROC.deadline","kind":"outcome","unit":"申报截止日期","criterion":"procedure"},
+    {"id":"PROC.meeting","kind":"outcome","unit":"首次债权人会议时间","criterion":"procedure"},
+    {"id":"PROC.paper-electronic","kind":"evidence","unit":"邮寄纸件与扫描件的提交关系","criterion":"procedure"},
+    {"id":"PROC.paper-receipt","kind":"evidence","unit":"纸质收件决定申报内容及时间","criterion":"procedure"},
+    {"id":"PROC.order","kind":"evidence","unit":"申报材料装订顺序","criterion":"procedure"},
+    {"id":"PROC.count","kind":"evidence","unit":"纸质份数及邮寄底单","criterion":"procedure"},
+    {"id":"CALC.exclusive-cutoff","kind":"outcome","unit":"计息截止日排除受理当天","criterion":"calculation"},
+    {"id":"CALC.day-count","kind":"outcome","unit":"逐笔实际日期差公式","criterion":"calculation"},
+    {"id":"CALC.interest-formula","kind":"outcome","unit":"360日年化利息公式及重算值","criterion":"calculation"},
+    {"id":"CALC.blank-not-zero","kind":"outcome","unit":"无债权凭证时空值与待补状态","criterion":"calculation"},
+    {"id":"CALC.source-anchor","kind":"evidence","unit":"计息口径来源定位","criterion":"calculation"},
+    {"id":"GAP.corporate-authority","kind":"outcome","unit":"主体资格及代理权限补件","criterion":"evidence_gaps"},
+    {"id":"GAP.underlying","kind":"outcome","unit":"债权形成履行凭证补件","criterion":"evidence_gaps"},
+    {"id":"GAP.repayments-offsets","kind":"outcome","unit":"偿付抵销资料及去重","criterion":"evidence_gaps"},
+    {"id":"GAP.security","kind":"outcome","unit":"担保资料与担保性质待核","criterion":"evidence_gaps"},
+    {"id":"GAP.proceedings","kind":"outcome","unit":"诉讼仲裁执行状态和到账待核","criterion":"evidence_gaps"},
+    {"id":"DOC.declaration-fields","kind":"outcome","unit":"申报书身份金额性质及签署字段","criterion":"declaration"},
+    {"id":"DOC.declaration-status","kind":"outcome","unit":"申报书未核债权及未签署状态","criterion":"declaration"},
+    {"id":"DOC.declaration-crossref","kind":"evidence","unit":"申报书债务人和日期与通知一致","criterion":"declaration"},
+    {"id":"IDX.order","kind":"outcome","unit":"证据目录覆盖通知规定材料顺序","criterion":"evidence_index"},
+    {"id":"IDX.status-separation","kind":"outcome","unit":"管理人原件与委托方缺失证据区分","criterion":"evidence_index"},
+    {"id":"IDX.no-false-receipt","kind":"outcome","unit":"目录不声称实际提交或签收","criterion":"evidence_index"},
+    {"id":"PKG.originals","kind":"evidence","unit":"四份输入原件与官方文件身份可核","criterion":"traceability"}
+  ],
+  "critical_errors": [
+    {"id":"CE.fabricated-claim","assertion":"CALC.blank-not-zero","cap":0.5},
+    {"id":"CE.wrong-cutoff","assertion":"CALC.exclusive-cutoff","cap":0.5},
+    {"id":"CE.false-filing","assertion":"IDX.no-false-receipt","cap":0.5}
+  ]
+}

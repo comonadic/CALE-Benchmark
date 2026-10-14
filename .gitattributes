@@ -3,3 +3,6 @@ reference-library/batches/**/source-pages/*.html -text -diff
 reference-library/raw/**/original.html -text -diff
 # Text extraction retains whitespace from source layout.
 reference-library/parsed/**/*.txt -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+# Preserve this candidate snapshot and recorded output hashes byte-for-byte.
+candidate-batches/2026-10-13-rsi-forge/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+candidate-batches/2026-10-13-rsi-forge/**/*.pdf -diff

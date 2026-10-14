@@ -1,0 +1,46 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "d2igkkb6bfkohn1tv4i0",
+      "build_id": "4f4f907d-f003-4baf-baa4-e5419e89fbf3",
+      "name": "cale-law-l01-002-agent-d86eac55",
+      "alias": "cale-law-l01-002-agent-d86eac55",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "d86eac550825cb597f27297623194bac9e368f6e1ab9cce807dfb379e821ec49",
+    "files": {
+      "Dockerfile": "bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47",
+      "input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855"
+    }
+  },
+  "verifier": {
+    "build": {
+      "template_id": "b7lq6m0cyyer7eytkn4f",
+      "build_id": "f782edea-5314-44ef-978c-c52fdd29945c",
+      "name": "cale-law-l01-002-verifier-fad89f9e",
+      "alias": "cale-law-l01-002-verifier-fad89f9e",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "fad89f9e1fa6d0676f161dff5726e2f4d0bcd24e14228e5cb32ea081b5b5dcc3",
+    "files": {
+      "Dockerfile": "0e5671e9290378f5adee62ab8f2c9383f9da3e9411e614892c06bab0e7abee22",
+      "__pycache__/grade.cpython-312.pyc": "af0cf9486bd10d6c61b47e07aef00c526128a1c5ad99daedf29e7c1652ad05d9",
+      "assertions.json": "556b1dd0aaa8137210cce398c59bc933b296267dfb3d4f7e46e851366a5fca2e",
+      "grade.py": "7afa7114d991106ca3c396f789d7828c2d300f81f8935ee7364ac75eb35ff4bf",
+      "input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+      "test.sh": "6ad01e2fe86cc95fc78b5c33eea8eb84b4fce573edd8212dd60f0758a0fab19c"
+    }
+  }
+}

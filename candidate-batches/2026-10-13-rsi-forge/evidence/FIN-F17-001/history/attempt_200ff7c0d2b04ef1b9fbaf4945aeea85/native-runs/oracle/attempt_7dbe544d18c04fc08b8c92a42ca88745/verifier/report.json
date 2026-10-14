@@ -1,0 +1,178 @@
+{
+  "status": "graded",
+  "valid": true,
+  "P": 24,
+  "S": 24,
+  "reward": 1.0,
+  "assertions": [
+    {
+      "id": "E01",
+      "status": "passed",
+      "actual": "source_file values",
+      "expected": "visible source only",
+      "criterion": "C1"
+    },
+    {
+      "id": "E02",
+      "status": "passed",
+      "actual": "scope/period fields",
+      "expected": "合并; 2025 and 2024",
+      "criterion": "C1"
+    },
+    {
+      "id": "E03",
+      "status": "passed",
+      "actual": "operating inflow/outflow",
+      "expected": "source values",
+      "criterion": "C1"
+    },
+    {
+      "id": "E04",
+      "status": "passed",
+      "actual": "operating net",
+      "expected": "source values",
+      "criterion": "C1"
+    },
+    {
+      "id": "E05",
+      "status": "passed",
+      "actual": "financing values",
+      "expected": "source values",
+      "criterion": "C1"
+    },
+    {
+      "id": "E06",
+      "status": "passed",
+      "actual": "cash change",
+      "expected": "source values",
+      "criterion": "C1"
+    },
+    {
+      "id": "E07",
+      "status": "passed",
+      "actual": "supplemental receivable changes",
+      "expected": "source values",
+      "criterion": "C1"
+    },
+    {
+      "id": "E08",
+      "status": "passed",
+      "actual": "page locators",
+      "expected": "PDF 24 or 184",
+      "criterion": "C1"
+    },
+    {
+      "id": "E09",
+      "status": "passed",
+      "actual": "2025: inflow-outflow=42986260.08",
+      "expected": "2025: operating net=42986260.08",
+      "criterion": "C2"
+    },
+    {
+      "id": "E11",
+      "status": "passed",
+      "actual": "2025: financing and cross-activity arithmetic",
+      "expected": "2025: reported totals reconcile",
+      "criterion": "C2"
+    },
+    {
+      "id": "E10",
+      "status": "passed",
+      "actual": "2024: inflow-outflow=9077909.18",
+      "expected": "2024: operating net=9077909.18",
+      "criterion": "C2"
+    },
+    {
+      "id": "E12",
+      "status": "passed",
+      "actual": "2024: financing and cross-activity arithmetic",
+      "expected": "2024: reported totals reconcile",
+      "criterion": "C2"
+    },
+    {
+      "id": "E13",
+      "status": "passed",
+      "actual": "supplemental data limitation",
+      "expected": "not a ledger adjustment",
+      "criterion": "C2"
+    },
+    {
+      "id": "E14",
+      "status": "passed",
+      "actual": "gap ids",
+      "expected": "G01",
+      "criterion": "C3"
+    },
+    {
+      "id": "E15",
+      "status": "passed",
+      "actual": "gap ids",
+      "expected": "G02",
+      "criterion": "C3"
+    },
+    {
+      "id": "E16",
+      "status": "passed",
+      "actual": "gap ids",
+      "expected": "G03",
+      "criterion": "C3"
+    },
+    {
+      "id": "E17",
+      "status": "passed",
+      "actual": "gap ids",
+      "expected": "G04",
+      "criterion": "C3"
+    },
+    {
+      "id": "E18",
+      "status": "passed",
+      "actual": "gap ids",
+      "expected": "G05",
+      "criterion": "C3"
+    },
+    {
+      "id": "E19",
+      "status": "passed",
+      "actual": "affirmative completion claim scan",
+      "expected": "no unsupported completed-work claim",
+      "criterion": "C3"
+    },
+    {
+      "id": "E20",
+      "status": "passed",
+      "actual": "evidence status and limitations",
+      "expected": "public facts and limits explicit",
+      "criterion": "C3"
+    },
+    {
+      "id": "E21",
+      "status": "passed",
+      "actual": "memo extracted text and citations",
+      "expected": "scope, limits, source locators",
+      "criterion": "C4"
+    },
+    {
+      "id": "E22",
+      "status": "passed",
+      "actual": "posting and TB procedures",
+      "expected": "trace management posting and request TB",
+      "criterion": "C4"
+    },
+    {
+      "id": "E23",
+      "status": "passed",
+      "actual": "aggregation and communication terms",
+      "expected": "evaluate and communicate uncorrected misstatements",
+      "criterion": "C4"
+    },
+    {
+      "id": "E24",
+      "status": "passed",
+      "actual": "20 evidence rows, 5 gaps, 120548 PDF bytes",
+      "expected": "three deliverables consistent",
+      "criterion": "C5"
+    }
+  ],
+  "critical_errors_triggered": []
+}

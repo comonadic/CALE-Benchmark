@@ -1,0 +1,215 @@
+{
+  "scale": 33,
+  "assertions": [
+    {
+      "id": "R1.xlsx-open",
+      "kind": "outcome",
+      "unit": "Workbook parses as an editable XLSX",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.sheet-disclosure",
+      "kind": "outcome",
+      "unit": "Disclosure reconciliation sheet exists",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.sheet-authorization",
+      "kind": "outcome",
+      "unit": "Authorization and policy sheet exists",
+      "criterion": "R1"
+    },
+    {
+      "id": "R1.sheet-gaps",
+      "kind": "outcome",
+      "unit": "Evidence and gaps sheet exists",
+      "criterion": "R1"
+    },
+    {
+      "id": "R2.futures-open",
+      "kind": "outcome",
+      "unit": "Futures opening amount equals 43,985.34万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.futures-fv",
+      "kind": "outcome",
+      "unit": "Futures current-period FV change equals -4,639.58万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.futures-oci",
+      "kind": "outcome",
+      "unit": "Futures cumulative OCI FV change equals -10,718.22万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.futures-purchase",
+      "kind": "outcome",
+      "unit": "Futures purchases equal 67,976.44万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.futures-sales",
+      "kind": "outcome",
+      "unit": "Futures sales equal 47,100.25万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.close-yuan",
+      "kind": "outcome",
+      "unit": "Futures closing amount converted to RMB equals 640,418,100",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.futures-ratio",
+      "kind": "outcome",
+      "unit": "Futures closing net-asset ratio equals 2.70%",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.bank-fv",
+      "kind": "outcome",
+      "unit": "Bank current-period FV change equals -608.01万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.bank-oci",
+      "kind": "outcome",
+      "unit": "Bank cumulative OCI FV change equals 336.27万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.total-fv",
+      "kind": "outcome",
+      "unit": "Total current-period FV change equals -5,247.59万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.total-oci",
+      "kind": "outcome",
+      "unit": "Total cumulative OCI change equals -10,381.95万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.total-close",
+      "kind": "outcome",
+      "unit": "Total closing amount equals 64,041.81万元",
+      "criterion": "R2"
+    },
+    {
+      "id": "R2.pnl-disclosure",
+      "kind": "outcome",
+      "unit": "Combined realized spot-plus-derivative result equals disclosed 290,000,000 RMB",
+      "criterion": "R2"
+    },
+    {
+      "id": "R3.approval-date",
+      "kind": "outcome",
+      "unit": "Effective 2025 approval date is 2025-08-14",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.commodity-cap",
+      "kind": "outcome",
+      "unit": "2025 commodity margin cap equals RMB 4bn",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.fx-cap",
+      "kind": "outcome",
+      "unit": "2025 FX cap equals RMB 4.7bn",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.not-retroactive",
+      "kind": "outcome",
+      "unit": "Memo distinguishes 2026-08 authorization as subsequent, not retroactive",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.stop-loss",
+      "kind": "outcome",
+      "unit": "Policy stop-loss limit is 10% of scheme transaction amount",
+      "criterion": "R3"
+    },
+    {
+      "id": "R3.disclosure-trigger",
+      "kind": "outcome",
+      "unit": "Policy disclosure threshold states 10% of audited attributable net profit and >RMB10m",
+      "criterion": "R3"
+    },
+    {
+      "id": "R4.gap-spot",
+      "kind": "evidence",
+      "unit": "Memo identifies missing transaction-level spot records and consequences",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.gap-derivatives",
+      "kind": "evidence",
+      "unit": "Memo identifies missing complete trade/position/settlement/margin snapshot",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.gap-cannot-rebuild",
+      "kind": "evidence",
+      "unit": "Memo states combined RMB290m cannot be independently rebuilt from available aggregates",
+      "criterion": "R4"
+    },
+    {
+      "id": "R4.scheme-stop-loss-boundary",
+      "kind": "evidence",
+      "unit": "Memo says scheme-level stop-loss execution cannot be determined absent scheme records",
+      "criterion": "R4"
+    },
+    {
+      "id": "R5.memo-period",
+      "kind": "outcome",
+      "unit": "Memo states 2026H1 period and consolidated scope",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.memo-reconciliation",
+      "kind": "outcome",
+      "unit": "Memo explains additive FV reconciliation and differentiates stock/flow/OCI",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.memo-citations",
+      "kind": "outcome",
+      "unit": "Memo cites report page and governing policy/authorization source locations",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.workbook-formulas",
+      "kind": "outcome",
+      "unit": "Workbook includes live formulas for yuan conversion and arithmetic reconciliation",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.pdf-rendered",
+      "kind": "outcome",
+      "unit": "PDF memo exists and has extractable content",
+      "criterion": "R5"
+    },
+    {
+      "id": "R5.gap-actions",
+      "kind": "outcome",
+      "unit": "Memo proposes concrete internal evidence categories to obtain",
+      "criterion": "R5"
+    }
+  ],
+  "critical_errors": [
+    {
+      "id": "CE.period",
+      "assertion": "R3.not-retroactive",
+      "cap": 0.6
+    },
+    {
+      "id": "CE.fabricated-rebuild",
+      "assertion": "R4.gap-cannot-rebuild",
+      "cap": 0.5
+    }
+  ]
+}

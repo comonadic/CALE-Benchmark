@@ -1,0 +1,29 @@
+{
+  "package": "[batch-workspace]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002",
+  "producer_attempt": "attempt_b92e21655a3e43bd962c677de0cc752c",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L02-002\",\n      \"path\": \"[batch-workspace]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"e99af019cbad098d2b6cdb8b7e6e8f3a0e1927eb35307ed2c2053064cdebf5c5\",\n        \"task.toml\": \"8590ed9eadcaf087534ffdecccfab1d6ad95b2e44338d0bfbd2454c07e968506\",\n        \"environment/Dockerfile\": \"e5fdfd555af2cb9ac57693ef90f0991efd2a456ca6720bc9f909bde255077185\",\n        \"solution/solve.sh\": \"ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9\",\n        \"solution/build_reference.py\": \"c0dd0b170d8520d00daf4f77d6fb2e1320685abaf3c92ee4eb28ace2f7d54aa2\",\n        \"tests/test.sh\": \"5bd39f42b3c59d0bbff184b37ce4dcdce7c9a2f2d4b16cdfc9a9f90a5f528e8b\",\n        \"tests/assertions.json\": \"66acca59a5eeab32ac7f4dc6ca51e08347680f440a1d64a795cf66ad6d149fcc\",\n        \"tests/grade.py\": \"ea16f7c62c23c1f2b8178996b3547ef2d3fc2cb9e001eea5bbe1152e9c9dafb4\"\n      },\n      \"assertion_count\": 34,\n      \"criteria_covered\": [\n        \"R1\",\n        \"R2\",\n        \"R3\",\n        \"R4\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    "environment/Dockerfile": "e5fdfd555af2cb9ac57693ef90f0991efd2a456ca6720bc9f909bde255077185",
+    "environment/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+    "evidence_catalog.pdf": "ed8b43d3fedef9b8969bc3ec08f8236df935af9415feabf3c3c66e816db9bb0a",
+    "evidence_workbook.xlsx": "e83e649b14e0988efea3f1ef6c783f782d11398dab00aefd921a917a62794ee1",
+    "instruction.md": "e99af019cbad098d2b6cdb8b7e6e8f3a0e1927eb35307ed2c2053064cdebf5c5",
+    "lineage.json": "f814f513ee129891f788aa5429800b5829a28451a41fde60a3edf45618cec183",
+    "private/provenance.json": "55fb78e38a1076f5710fcd8fa7b3f7d81b884e17fae927bdbde3c203b614e723",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "59b5e36dcd9a89e34948488672f3ab30a7f603ef23f17fa5f43dfc745754a24b",
+    "solution/build_reference.py": "c0dd0b170d8520d00daf4f77d6fb2e1320685abaf3c92ee4eb28ace2f7d54aa2",
+    "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+    "supplementation_note.pdf": "13166625cab65a66511539ad88d9132f535da37f63ba6c2fe0c5cdbd5436b5c0",
+    "task.toml": "8590ed9eadcaf087534ffdecccfab1d6ad95b2e44338d0bfbd2454c07e968506",
+    "tests/Dockerfile": "b5be7d8106c19d743aba1edda49c8791757bc7e2346ffd7057f14e86f02edc5e",
+    "tests/__pycache__/grade.cpython-312.pyc": "e841fa4d86db2aa1eb36f19895f35a43059962682e07e7d6c3951ac5218c8ab4",
+    "tests/assertions.json": "66acca59a5eeab32ac7f4dc6ca51e08347680f440a1d64a795cf66ad6d149fcc",
+    "tests/expected_cases.json": "ca7e539d02f719093a47f81995bf1c85e5edd8abedec60a1b6570016f4e14ecb",
+    "tests/grade.py": "ea16f7c62c23c1f2b8178996b3547ef2d3fc2cb9e001eea5bbe1152e9c9dafb4",
+    "tests/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+    "tests/rubric.json": "838f9ac51958935debdbe3d22f19a3fe460305dbf0ca6e9c6ee8c4d015dc0d9d",
+    "tests/test.sh": "5bd39f42b3c59d0bbff184b37ce4dcdce7c9a2f2d4b16cdfc9a9f90a5f528e8b"
+  }
+}

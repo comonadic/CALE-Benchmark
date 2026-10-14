@@ -1,0 +1,30 @@
+{
+  "package": "[batch-workspace]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001",
+  "producer_attempt": "attempt_bb086ef4ad8f4ef3b6f615f96e16f95f",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"FIN-F04-001\",\n      \"path\": \"[batch-workspace]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"26d6342aeeaeb04ccde777d5b8b4350f4078528318409b9dcff43c1db662dbb9\",\n        \"task.toml\": \"a255d4a33b7b70b3cdc5b67ab745376d8118f799de3328da720e04e6807eab45\",\n        \"environment/Dockerfile\": \"9c4b59290b5a4d663818cb68d1d7b96b4f782d69dc764afafe98f89c7702377b\",\n        \"solution/solve.sh\": \"ed0c4e41d660b77abf3d4dca187006a60e9a26376b4eb6111317a856f3cfc831\",\n        \"solution/build_reference.py\": \"61f9558c7951f912b701ebf24d4073efde4803693442fe246548a1377c4440eb\",\n        \"tests/test.sh\": \"7400dab743668ab01e40864d742b850c95d040df9a16668147f0d5842046944b\",\n        \"tests/assertions.json\": \"1d0dd328e7dfed154f3f1cb5d9506e5b12d09fb7ce82ef53c434e103b8fed026\",\n        \"tests/grade.py\": \"23e2c08d8f444a958d75c96daa4c4dfcb2c8a3a745935b354e950711644af268\"\n      },\n      \"assertion_count\": 25,\n      \"criteria_covered\": [\n        \"actions\",\n        \"amounts\",\n        \"artifact\",\n        \"bond_facts\",\n        \"dates\",\n        \"evidence\",\n        \"funding\",\n        \"risk\",\n        \"scope\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    "COMPLETION_SUMMARY.md": "cee21be40d94844ee0c17bf47cf3c492de94b55b31e2c184dec1ebe858402ae8",
+    "MANIFEST.txt": "d1f939e01456e0e7263755631b9c6c791ed35a37af66a09933d637f628f06743",
+    "README.md": "b8f2f41a8e38a71e1c515f9006b75deb90521b1c3aebebbe860eeb7507377a62",
+    "VALIDATION_NOTES.md": "e37e6bc931d200955d014a77de848d40fdc91f69c442b226a9ad1fe7ecce7d53",
+    "environment/Dockerfile": "9c4b59290b5a4d663818cb68d1d7b96b4f782d69dc764afafe98f89c7702377b",
+    "environment/input-data/01_申万宏源2025年度报告.pdf": "6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471",
+    "environment/input-data/02_申万宏源2025年度受托报告.pdf": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+    "environment/input-data/03_23申宏04兑付公告.pdf": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+    "environment/input-data/04_新疆证监局2026通知.html": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+    "environment/input-data/05_附件5排查表模板.xlsx": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+    "instruction.md": "26d6342aeeaeb04ccde777d5b8b4350f4078528318409b9dcff43c1db662dbb9",
+    "lineage.json": "7d14a9155109613ab64a38278a6297e68b7a4adb9224428f0d0b2d6681c8d956",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "fc54c476c488fcbe42dfa5e868fe8d03afa837fe4e2d245f5b76c8005ff6695a",
+    "solution/build_reference.py": "61f9558c7951f912b701ebf24d4073efde4803693442fe246548a1377c4440eb",
+    "solution/solve.sh": "ed0c4e41d660b77abf3d4dca187006a60e9a26376b4eb6111317a856f3cfc831",
+    "task.toml": "a255d4a33b7b70b3cdc5b67ab745376d8118f799de3328da720e04e6807eab45",
+    "tests/Dockerfile": "36c5c598202a73723f33d07d3b09cc0d2f2e17a82f89828b2abab2f66be2bc2d",
+    "tests/__pycache__/grade.cpython-312.pyc": "f4266bc651e8d6817f0a4b3c2423c97dccdcb2977ea0901c120abfc26e07ef8b",
+    "tests/assertions.json": "1d0dd328e7dfed154f3f1cb5d9506e5b12d09fb7ce82ef53c434e103b8fed026",
+    "tests/grade.py": "23e2c08d8f444a958d75c96daa4c4dfcb2c8a3a745935b354e950711644af268",
+    "tests/test.sh": "7400dab743668ab01e40864d742b850c95d040df9a16668147f0d5842046944b"
+  }
+}

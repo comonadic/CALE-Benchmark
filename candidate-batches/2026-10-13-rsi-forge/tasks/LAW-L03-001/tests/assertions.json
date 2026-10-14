@@ -1,0 +1,34 @@
+{
+  "scale": 25,
+  "assertions": [
+    {"id":"PDF.summary-content","kind":"outcome","unit":"缺口摘要PDF的关键线索和交叉引用","criterion":"PDF"},
+    {"id":"R01.scope","kind":"outcome","unit":"交易主体、标的及40%交易范围记录","criterion":"R1"},
+    {"id":"R02.version","kind":"evidence","unit":"5月草案与7月修订稿版本链及公告锚点","criterion":"R2"},
+    {"id":"R03.price","kind":"evidence","unit":"评估基准日及40%交易价款披露依据","criterion":"R3"},
+    {"id":"R04.audit-period","kind":"evidence","unit":"8-580审计期间定位","criterion":"R4"},
+    {"id":"R05.audit-extension","kind":"evidence","unit":"8-650加期审计期间定位","criterion":"R5"},
+    {"id":"R06.revision-topics","kind":"evidence","unit":"2026-072公告修订主题定位","criterion":"R6"},
+    {"id":"R07.legal-opinion","kind":"outcome","unit":"5月法律意见书身份和扫描限制记录","criterion":"R7"},
+    {"id":"R08.supplemental-opinion","kind":"outcome","unit":"7月补充法律意见身份和扫描限制记录","criterion":"R8"},
+    {"id":"R09.mining-rights","kind":"outcome","unit":"矿业权证照需求和底层材料缺口","criterion":"R9"},
+    {"id":"R10.expansion","kind":"evidence","unit":"采矿权扩能目标及未完成手续证据","criterion":"R10"},
+    {"id":"R11.mortgage","kind":"evidence","unit":"采矿权抵押与清偿披露及注销补件","criterion":"R11"},
+    {"id":"R12.equity-encumbrance","kind":"evidence","unit":"标的股权质押冻结披露及登记核验缺口","criterion":"R12"},
+    {"id":"R13.penalties","kind":"evidence","unit":"报告期七起行政处罚披露及决定书补件","criterion":"R13"},
+    {"id":"R14.related-party","kind":"outcome","unit":"关联交易底层合同定价决策需求","criterion":"R14"},
+    {"id":"R15.approvals","kind":"evidence","unit":"已履行与尚需履行交易程序区分","criterion":"R15"},
+    {"id":"R16.agreement","kind":"outcome","unit":"签署版协议和交割条件需求","criterion":"R16"},
+    {"id":"R17.earnout","kind":"outcome","unit":"业绩承诺保障披露与原件补件","criterion":"R17"},
+    {"id":"R18.audit-integrity","kind":"outcome","unit":"审计签章及资质附件完整性核验需求","criterion":"R18"},
+    {"id":"R19.corporate-records","kind":"outcome","unit":"目标公司主体档案需求","criterion":"R19"},
+    {"id":"R20.ownership-chain","kind":"outcome","unit":"股权结构出资及历史沿革材料需求","criterion":"R20"},
+    {"id":"R21.contracts","kind":"outcome","unit":"重大合同台账及履行材料需求","criterion":"R21"},
+    {"id":"R22.assets","kind":"outcome","unit":"资产权属土地设备及在建工程补件","criterion":"R22"},
+    {"id":"R23.employment","kind":"outcome","unit":"用工社保及劳动争议材料需求","criterion":"R23"},
+    {"id":"R24.data-room","kind":"outcome","unit":"数据室基线和上轮清单回复缺口","criterion":"R24"}
+  ],
+  "critical_errors": [
+    {"id":"CE.period-substitution","assertion":"R04.audit-period","cap":0.5},
+    {"id":"CE.disclosure-as-verification","assertion":"R15.approvals","cap":0.5}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "i7mtf81t48l46fvnwn5g",
+      "build_id": "ee72e399-a6d3-4602-a943-8d63eb60cf4d",
+      "name": "cale-fin-f17-001-agent-a8f4da91",
+      "alias": "cale-fin-f17-001-agent-a8f4da91",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "a8f4da91075e86fd702884544b9892573309d48047d46ee09b89fbf886c16189",
+    "files": {
+      "Dockerfile": "299b84de1dab56d53e208449140214fc9f1494124819b64ae50420680f815a79",
+      "input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9"
+    }
+  },
+  "verifier": {
+    "build": {
+      "template_id": "ldv904z47jhqisby93za",
+      "build_id": "16cd6dc7-d200-4221-ba08-5aa8a26eaf6d",
+      "name": "cale-fin-f17-001-verifier-bf40b76d",
+      "alias": "cale-fin-f17-001-verifier-bf40b76d",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "bf40b76d74068afbf4b911a26858d08d592174460debc995765682096fa55bf5",
+    "files": {
+      "Dockerfile": "abefa8df83300909b28c99ed20aa0acb118bd85a4da2a8a0a3796a0a22570fab",
+      "assertions.json": "dce5a594ea0cb0c29ad14cac09556d565cff664d384ec56539ff65747bec0931",
+      "grade.py": "317dc52f9cd791afc2e66123a0bdcc34f57464c59a98a42f3de85ea0ce4f8c38",
+      "input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+      "test.sh": "1f8cf18eabaffd8848983f6eb6c0571de040ab3e5d5c1ce151c35b07a0f169ed"
+    }
+  }
+}

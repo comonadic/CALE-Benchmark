@@ -1,0 +1,30 @@
+{
+  "harness": "nop",
+  "job_id": "job_6a190a75e7ef4be3bcb40b38e39b581e",
+  "run_id": "run_d6c60da18a874b389e6cbdb93fc8a4c7",
+  "status": "succeeded",
+  "attempt_id": "attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-13T18:05:10.302502Z",
+  "finished_at": "2026-10-13T18:05:35.131771Z",
+  "agent_execution": {
+    "started_at": "2026-10-13T18:05:14.720587Z",
+    "finished_at": "2026-10-13T18:05:15.037080Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-13T18:05:22.620905Z",
+    "finished_at": "2026-10-13T18:05:35.130667Z"
+  },
+  "collected_path": "[batch-workspace]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/nop/attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+  "file_sha256": {
+    "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+    "verifier/report.json": "e8900ce16f2af0a7617ed45a0e099f3f283a2e95194b8a3e79ec6e979a937393",
+    "verifier/reward.json": "1d8511dcb533d7d0ea095ab1fed80023c526956199da238a47b3bcde6e6df655",
+    "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

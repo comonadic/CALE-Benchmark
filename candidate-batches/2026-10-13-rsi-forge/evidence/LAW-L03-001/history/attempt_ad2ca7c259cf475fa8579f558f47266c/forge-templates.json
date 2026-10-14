@@ -1,0 +1,26 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "jzra3blzssxvrdxfm552",
+      "build_id": "d70e38cd-4945-47f7-b62b-0da85afa6de3",
+      "name": "cale-law-l03-001-agent-1e909219",
+      "alias": "cale-law-l03-001-agent-1e909219",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "1e909219d7354a0127824ab4837d3142fb3e9c94f4a72de3f39f190d157ca23f",
+    "files": {
+      "Dockerfile": "7d403b8979f859a28a39308ddbbfb3f486c6081f8945feaed4223ec41063ce55",
+      "input-data/CN-1225327554.pdf": "968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892",
+      "input-data/CN-1225327559.pdf": "31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f",
+      "input-data/CN-1225327560.pdf": "ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df",
+      "input-data/CN-1225449371.pdf": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+      "input-data/CN-1225449382.pdf": "a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438",
+      "input-data/CN-1225449388.pdf": "e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98",
+      "input-data/CN-1225449390.pdf": "c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1"
+    }
+  }
+}

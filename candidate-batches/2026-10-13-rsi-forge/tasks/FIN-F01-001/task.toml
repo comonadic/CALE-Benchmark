@@ -1,0 +1,23 @@
+schema_version = "1.3"
+task_id = "FIN-F01-001"
+description = "根据海大集团公开年报和半年报构建可复算历史三表及明确标注性质的分析情景模型。"
+artifacts = ["/workspace/output"]
+
+[metadata]
+industry = "finance"
+authoring_status = "validated"
+
+[agent]
+timeout_sec = 7200
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 900
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+build_timeout_sec = 1200
+cpus = 2
+memory_mb = 4096
+network_mode = "no-network"

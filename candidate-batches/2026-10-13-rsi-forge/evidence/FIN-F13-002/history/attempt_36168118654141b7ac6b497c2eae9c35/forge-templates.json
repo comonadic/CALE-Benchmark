@@ -1,0 +1,25 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "7v4f13cxrpgg3x2o8w5s",
+      "build_id": "235af93f-c4ac-4a78-b12b-dc7bde3ec236",
+      "name": "cale-fin-f13-002-agent-afbc7630",
+      "alias": "cale-fin-f13-002-agent-afbc7630",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "afbc7630ce048831464d0611242b366400547649bfc771f053f1c13499f761bf",
+    "files": {
+      "Dockerfile": "dc350b592de7b8a7b669d2b30298e08ea9f0909b192cc65c398498c4ebe2cce9",
+      "input-data/2025_authorization_announcement.pdf": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+      "input-data/2025_authorization_resolution.pdf": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+      "input-data/futures_records_2026H1.xlsx": "b27d5d5f6298b7d388e372c6947d19705e79c1da3227d1a412187362defa7414",
+      "input-data/halfyear_report_2026.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "input-data/hedge_policy.pdf": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699",
+      "input-data/spot_transactions_2026H1.xlsx": "90a5cda1bf603bd179d414fc5e009bdfcb999d8b59e281687890c1182e409729"
+    }
+  }
+}

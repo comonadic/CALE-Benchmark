@@ -1,0 +1,45 @@
+{
+  "task_id": "FIN-F13-002",
+  "materials_index_commit": "7219bf92cb0fdfe7493a6cab455593c3d84a15e0",
+  "inputs": [
+    {
+      "file": "hedge_policy.pdf",
+      "document_id": "CN-1224318011",
+      "source": "reference-library/raw/S01/CN-1224318011/original.pdf",
+      "treatment": "byte-identical copy; SHA256 verified from materials/index.json"
+    },
+    {
+      "file": "2025_authorization_announcement.pdf",
+      "document_id": "CN-1224318016",
+      "source": "reference-library/raw/S01/CN-1224318016/original.pdf",
+      "treatment": "byte-identical copy; SHA256 verified"
+    },
+    {
+      "file": "2025_authorization_resolution.pdf",
+      "document_id": "CN-1224486549",
+      "source": "reference-library/raw/S01/CN-1224486549/original.pdf",
+      "treatment": "byte-identical copy; SHA256 verified"
+    },
+    {
+      "file": "halfyear_report_2026.pdf",
+      "document_id": "CN-1225495975",
+      "source": "reference-library/raw/S01/CN-1225495975/original.pdf",
+      "treatment": "byte-identical copy; SHA256 verified"
+    }
+  ],
+  "excluded_materials": [
+    {
+      "document_id": "CN-1225451854",
+      "reason": "2026 authorization is dated after 2026H1 and is presented only as subsequent chronology"
+    },
+    {
+      "document_id": "CN-1225451855",
+      "reason": "later feasibility analysis not necessary to historical 2026H1 disclosure reconciliation"
+    },
+    {
+      "document_id": "CN-1225203635",
+      "reason": "2025 annual report not necessary because 2026H1 report provides direct end-period disclosure and relevant 2025 approval documents establish authorization"
+    }
+  ],
+  "missing_inputs": "Manifest records transaction-level spot records missing and derivative/settlement snapshot partial. No replacement ledger was manufactured."
+}

@@ -1,0 +1,30 @@
+{
+  "period": "2026-01-01/2026-06-30",
+  "units": "source table in RMB ten-thousand yuan; convert by 10,000 to RMB",
+  "facts": {
+    "futures_company": {
+      "opening_wan": 43985.34,
+      "current_fv_pnl_wan": -4639.58,
+      "cumulative_oci_fv_wan": -10718.22,
+      "purchases_wan": 67976.44,
+      "sales_wan": 47100.25,
+      "closing_wan": 64041.81,
+      "closing_net_assets_ratio": 0.027
+    },
+    "bank": {
+      "current_fv_pnl_wan": -608.01,
+      "cumulative_oci_fv_wan": 336.27
+    },
+    "total": {
+      "current_fv_pnl_wan": -5247.59,
+      "cumulative_oci_fv_wan": -10381.95,
+      "closing_wan": 64041.81
+    },
+    "combined_realized_spot_derivative_pnl_rmb": 290000000
+  },
+  "citations": {
+    "disclosures": "2026H1 report p.24, derivatives investment table and realized P&L note",
+    "authorization": "2025-041 announcement pp.1-2; 2025-043 resolution p.2",
+    "policy": "hedge policy clauses 13 and 30"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "card": "LAW-L02-002",
+  "candidate_file_sha256": {
+    "environment/Dockerfile": "e5fdfd555af2cb9ac57693ef90f0991efd2a456ca6720bc9f909bde255077185",
+    "environment/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+    "evidence_catalog.pdf": "ed8b43d3fedef9b8969bc3ec08f8236df935af9415feabf3c3c66e816db9bb0a",
+    "evidence_workbook.xlsx": "e83e649b14e0988efea3f1ef6c783f782d11398dab00aefd921a917a62794ee1",
+    "instruction.md": "e99af019cbad098d2b6cdb8b7e6e8f3a0e1927eb35307ed2c2053064cdebf5c5",
+    "lineage.json": "f814f513ee129891f788aa5429800b5829a28451a41fde60a3edf45618cec183",
+    "private/provenance.json": "55fb78e38a1076f5710fcd8fa7b3f7d81b884e17fae927bdbde3c203b614e723",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "59b5e36dcd9a89e34948488672f3ab30a7f603ef23f17fa5f43dfc745754a24b",
+    "solution/build_reference.py": "c0dd0b170d8520d00daf4f77d6fb2e1320685abaf3c92ee4eb28ace2f7d54aa2",
+    "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+    "supplementation_note.pdf": "13166625cab65a66511539ad88d9132f535da37f63ba6c2fe0c5cdbd5436b5c0",
+    "task.toml": "8590ed9eadcaf087534ffdecccfab1d6ad95b2e44338d0bfbd2454c07e968506",
+    "tests/Dockerfile": "b5be7d8106c19d743aba1edda49c8791757bc7e2346ffd7057f14e86f02edc5e",
+    "tests/__pycache__/grade.cpython-312.pyc": "e841fa4d86db2aa1eb36f19895f35a43059962682e07e7d6c3951ac5218c8ab4",
+    "tests/assertions.json": "66acca59a5eeab32ac7f4dc6ca51e08347680f440a1d64a795cf66ad6d149fcc",
+    "tests/expected_cases.json": "ca7e539d02f719093a47f81995bf1c85e5edd8abedec60a1b6570016f4e14ecb",
+    "tests/grade.py": "ea16f7c62c23c1f2b8178996b3547ef2d3fc2cb9e001eea5bbe1152e9c9dafb4",
+    "tests/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+    "tests/rubric.json": "838f9ac51958935debdbe3d22f19a3fe460305dbf0ca6e9c6ee8c4d015dc0d9d",
+    "tests/test.sh": "5bd39f42b3c59d0bbff184b37ce4dcdce7c9a2f2d4b16cdfc9a9f90a5f528e8b"
+  },
+  "static_validation": {
+    "package": "[batch-root]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002",
+    "producer_attempt": "attempt_b92e21655a3e43bd962c677de0cc752c",
+    "static_validator_exit": 0,
+    "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L02-002\",\n      \"path\": \"[batch-root]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"e99af019cbad098d2b6cdb8b7e6e8f3a0e1927eb35307ed2c2053064cdebf5c5\",\n        \"task.toml\": \"8590ed9eadcaf087534ffdecccfab1d6ad95b2e44338d0bfbd2454c07e968506\",\n        \"environment/Dockerfile\": \"e5fdfd555af2cb9ac57693ef90f0991efd2a456ca6720bc9f909bde255077185\",\n        \"solution/solve.sh\": \"ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9\",\n        \"solution/build_reference.py\": \"c0dd0b170d8520d00daf4f77d6fb2e1320685abaf3c92ee4eb28ace2f7d54aa2\",\n        \"tests/test.sh\": \"5bd39f42b3c59d0bbff184b37ce4dcdce7c9a2f2d4b16cdfc9a9f90a5f528e8b\",\n        \"tests/assertions.json\": \"66acca59a5eeab32ac7f4dc6ca51e08347680f440a1d64a795cf66ad6d149fcc\",\n        \"tests/grade.py\": \"ea16f7c62c23c1f2b8178996b3547ef2d3fc2cb9e001eea5bbe1152e9c9dafb4\"\n      },\n      \"assertion_count\": 34,\n      \"criteria_covered\": [\n        \"R1\",\n        \"R2\",\n        \"R3\",\n        \"R4\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "file_sha256": {
+      "environment/Dockerfile": "e5fdfd555af2cb9ac57693ef90f0991efd2a456ca6720bc9f909bde255077185",
+      "environment/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "evidence_catalog.pdf": "ed8b43d3fedef9b8969bc3ec08f8236df935af9415feabf3c3c66e816db9bb0a",
+      "evidence_workbook.xlsx": "e83e649b14e0988efea3f1ef6c783f782d11398dab00aefd921a917a62794ee1",
+      "instruction.md": "e99af019cbad098d2b6cdb8b7e6e8f3a0e1927eb35307ed2c2053064cdebf5c5",
+      "lineage.json": "f814f513ee129891f788aa5429800b5829a28451a41fde60a3edf45618cec183",
+      "private/provenance.json": "55fb78e38a1076f5710fcd8fa7b3f7d81b884e17fae927bdbde3c203b614e723",
+      "solution/__pycache__/build_reference.cpython-312.pyc": "59b5e36dcd9a89e34948488672f3ab30a7f603ef23f17fa5f43dfc745754a24b",
+      "solution/build_reference.py": "c0dd0b170d8520d00daf4f77d6fb2e1320685abaf3c92ee4eb28ace2f7d54aa2",
+      "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+      "supplementation_note.pdf": "13166625cab65a66511539ad88d9132f535da37f63ba6c2fe0c5cdbd5436b5c0",
+      "task.toml": "8590ed9eadcaf087534ffdecccfab1d6ad95b2e44338d0bfbd2454c07e968506",
+      "tests/Dockerfile": "b5be7d8106c19d743aba1edda49c8791757bc7e2346ffd7057f14e86f02edc5e",
+      "tests/__pycache__/grade.cpython-312.pyc": "e841fa4d86db2aa1eb36f19895f35a43059962682e07e7d6c3951ac5218c8ab4",
+      "tests/assertions.json": "66acca59a5eeab32ac7f4dc6ca51e08347680f440a1d64a795cf66ad6d149fcc",
+      "tests/expected_cases.json": "ca7e539d02f719093a47f81995bf1c85e5edd8abedec60a1b6570016f4e14ecb",
+      "tests/grade.py": "ea16f7c62c23c1f2b8178996b3547ef2d3fc2cb9e001eea5bbe1152e9c9dafb4",
+      "tests/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "tests/rubric.json": "838f9ac51958935debdbe3d22f19a3fe460305dbf0ca6e9c6ee8c4d015dc0d9d",
+      "tests/test.sh": "5bd39f42b3c59d0bbff184b37ce4dcdce7c9a2f2d4b16cdfc9a9f90a5f528e8b"
+    }
+  },
+  "native_execution": {
+    "manifest": "[batch-root]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/forge-trials.json",
+    "bundle_sha256": "d71fa62e9c78f74a4659bb1bcff703bf0cd1fdb52dc4369434594e2b7d0218da",
+    "trials": [
+      {
+        "harness": "oracle",
+        "job_id": "job_3b4712ea29274b03bcf223abaf86c7f5",
+        "run_id": "run_5c3f3774c8224ed0898e4bfa31e2374e",
+        "status": "succeeded",
+        "attempt_id": "attempt_eb34ac88da274a9688c8785671fb3ef6",
+        "verifier_result": {
+          "rewards": {
+            "reward": 1.0
+          }
+        },
+        "exception_info": null,
+        "started_at": "2026-10-13T18:05:10.285613Z",
+        "finished_at": "2026-10-13T18:05:52.462449Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:05:14.087105Z",
+          "finished_at": "2026-10-13T18:05:34.044565Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:05:41.486862Z",
+          "finished_at": "2026-10-13T18:05:52.459982Z"
+        },
+        "collected_path": "[batch-root]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "artifacts/workspace/output/.lo-profile/user/GraphicsRenderTests.log": "957f9051655b6f5b840fed86a02a05bb291994989193256af188e8a4cccdae32",
+          "artifacts/workspace/output/.lo-profile/user/autotext/mytexts.bau": "454d04193da5e4faa63ad28cb9b60f5a47feba1e7a1bc45c03dd6ab6e0f936d3",
+          "artifacts/workspace/output/.lo-profile/user/basic/Standard/Module1.xba": "b434faf21386064e2e81af758f307ae8bea72c0cb6c8510d55b1bc1bb38f8612",
+          "artifacts/workspace/output/.lo-profile/user/basic/Standard/dialog.xlb": "85c83411f1285a0d0d9b511a7ea7dd06d5ac9b97f90d286adaca084212e3fe80",
+          "artifacts/workspace/output/.lo-profile/user/basic/Standard/script.xlb": "80cb10b100053f6e0b26bb009a2b8ccbdedb761901680500a4736f7afbf1f959",
+          "artifacts/workspace/output/.lo-profile/user/basic/dialog.xlc": "5b72c4cc5130eccab44cbfb91270befaeaf8ee7ab97cf205ee2abb582fa4a9e5",
+          "artifacts/workspace/output/.lo-profile/user/basic/script.xlc": "5b72c4cc5130eccab44cbfb91270befaeaf8ee7ab97cf205ee2abb582fa4a9e5",
+          "artifacts/workspace/output/.lo-profile/user/config/autotbl.fmt": "713229151490c66f043cb4865147c97458b4f33e4eb5f2bb4133c58cbe77041e",
+          "artifacts/workspace/output/.lo-profile/user/database/biblio/biblio.dbf": "aefc2bb614c2e307870405e0fd72f4a22cf794c396a73ce0551f18a478e80ed2",
+          "artifacts/workspace/output/.lo-profile/user/database/biblio/biblio.dbt": "3ab142231d8075fdd02c95a691ddce590e0f81450744cb87ca610fd06d75cac1",
+          "artifacts/workspace/output/.lo-profile/user/database/biblio.odb": "c3dd4e9008be33cdede3abf822e9b748a201704adf95aad92ab894dd98b3fe85",
+          "artifacts/workspace/output/.lo-profile/user/extensions/buildid": "51fad368b654cd4a80d34f2ea74062c8278c5db86de0cc4996aa4ac4deef2adb",
+          "artifacts/workspace/output/.lo-profile/user/extensions/bundled/lastsynchronized": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "artifacts/workspace/output/.lo-profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+          "artifacts/workspace/output/.lo-profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+          "artifacts/workspace/output/.lo-profile/user/extensions/shared/lastsynchronized": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "artifacts/workspace/output/.lo-profile/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+          "artifacts/workspace/output/.lo-profile/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+          "artifacts/workspace/output/.lo-profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+          "artifacts/workspace/output/.lo-profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+          "artifacts/workspace/output/.lo-profile/user/gallery/sg30.sdv": "65365530165a871772e21962a5d7dda107d8d010f329bf59c878eabc3465bbe4",
+          "artifacts/workspace/output/.lo-profile/user/gallery/sg30.thm": "f1f24dff4f58a716033bcf96ad175d3436bff0e0a233ab09f6215973ed843fed",
+          "artifacts/workspace/output/.lo-profile/user/pack/ExtensionInfo.pack": "8f94c7bcb2083a786f6e479c41c0b6b9edea5ef8d6c7afb767b1424ec2e1186f",
+          "artifacts/workspace/output/.lo-profile/user/pack/autotext/mytexts.pack": "4b6df8becfd411f4893e04f4d1712cdb7f8639c0df2e26eab8fe5d0684470781",
+          "artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/Module1.pack": "fe0861e0d877fa3649f03890b80a99adb2a0625e158c4dd1d932515d339bca5a",
+          "artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/dialog.pack": "48f7e1fdd8661f0be6e676f55c9e0d0ccdfffbee9c67dd977d951129e45648fb",
+          "artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/script.pack": "6961af566352be513bb45dbcc2b92151b0833b59cb65bee346919d31a69d788a",
+          "artifacts/workspace/output/.lo-profile/user/pack/basic/dialog.pack": "9a896cbae1ca92f439535587209ff596b14177401358c935227fd1af1efff9ee",
+          "artifacts/workspace/output/.lo-profile/user/pack/basic/script.pack": "9a896cbae1ca92f439535587209ff596b14177401358c935227fd1af1efff9ee",
+          "artifacts/workspace/output/.lo-profile/user/pack/config/autotbl.pack": "1d3e419163e832bfba4c7f8424dd268cca313564ae87b1ede785b6488db6238a",
+          "artifacts/workspace/output/.lo-profile/user/pack/database/biblio/biblio.pack": "d0db6a1f5a456ffe7ec476e6dda13eef51628deafea9f80d23e6cdc366776d4e",
+          "artifacts/workspace/output/.lo-profile/user/pack/database/biblio.pack": "093d969bcb085884376e2c69353852e5a57fe7614de2257097984dcc29043b2e",
+          "artifacts/workspace/output/.lo-profile/user/pack/registrymodifications.pack": "b4bc30c67bd1d61e11e4b10b11e86f87803ce34ffd0f0082785b9a9ce99fbdb0",
+          "artifacts/workspace/output/.lo-profile/user/registrymodifications.xcu": "326acae3d98c426ea72ef76ed885bccb9c7ece01b85b0d1d3e74b55671790f96",
+          "artifacts/workspace/output/.lo-profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+          "artifacts/workspace/output/.lo-profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+          "artifacts/workspace/output/evidence_catalog.pdf": "0730bb007766f78ec5a77b3a2155b3c28b9b116dcb2eccb2bed2278c722b69c7",
+          "artifacts/workspace/output/evidence_workbook.xlsx": "de7a57985e71b0566bf9695f0a2931baa7431c0c9382a9be13a804bd893d4d96",
+          "artifacts/workspace/output/supplementation_note.pdf": "9d72156ebce78eaa92ee84e193923d11a80c09a63808002ea52801c2b6df1d92",
+          "execution/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "verifier/report.json": "3c7bb7b455bd09085678bbe81cf2f7c811e5640d8ce344c14e91e5af04bdcfd4",
+          "verifier/reward.json": "a95aa6fcff5c739e655920fc89913445a4d168b4a907cd4f860757bb7c900344",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "harness": "nop",
+        "job_id": "job_6a190a75e7ef4be3bcb40b38e39b581e",
+        "run_id": "run_d6c60da18a874b389e6cbdb93fc8a4c7",
+        "status": "succeeded",
+        "attempt_id": "attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+        "verifier_result": {
+          "rewards": {
+            "reward": 0.0
+          }
+        },
+        "exception_info": null,
+        "started_at": "2026-10-13T18:05:10.302502Z",
+        "finished_at": "2026-10-13T18:05:35.131771Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:05:14.720587Z",
+          "finished_at": "2026-10-13T18:05:15.037080Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:05:22.620905Z",
+          "finished_at": "2026-10-13T18:05:35.130667Z"
+        },
+        "collected_path": "[batch-root]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/nop/attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "verifier/report.json": "e8900ce16f2af0a7617ed45a0e099f3f283a2e95194b8a3e79ec6e979a937393",
+          "verifier/reward.json": "1d8511dcb533d7d0ea095ab1fed80023c526956199da238a47b3bcde6e6df655",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "harness": "codex",
+        "job_id": "job_332f6d82192d4ab4a947ee205546ad31",
+        "run_id": "run_83786eabae57435d935965a318db5e96",
+        "status": "succeeded",
+        "attempt_id": "attempt_2f79be03fb004058a0ab930e3c2fd238",
+        "verifier_result": {
+          "rewards": {
+            "reward": 0.3235294117647059
+          }
+        },
+        "exception_info": null,
+        "started_at": "2026-10-13T18:05:36.310278Z",
+        "finished_at": "2026-10-13T18:15:44.459068Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:05:53.473030Z",
+          "finished_at": "2026-10-13T18:15:22.039610Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:15:30.807104Z",
+          "finished_at": "2026-10-13T18:15:44.456410Z"
+        },
+        "collected_path": "[batch-root]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "artifacts/workspace/output/evidence_catalog.pdf": "99c18de8d5392c0e4b1072fa186cd501bbbbe9a52ea88abcf52b73e9b5cf1402",
+          "artifacts/workspace/output/evidence_workbook.xlsx": "ab728a97c4dbf240c46d53aacd7d4126003a61fa763f87b96ab4e5534a9c2f20",
+          "artifacts/workspace/output/supplementation_note.pdf": "b31edbca2e55db362d8ef5fb7698aaaa1876459f0417ad852eefa8ec64bdd9e2",
+          "verifier/report.json": "34e2606ab1d29dad345df738a1bd8b8cf88edeae3caadb8a2712e5e8153d5571",
+          "verifier/reward.json": "d659204792e6ca2f532cb922dc531a47e8b89a7e860aa918856ce3f0542311e5",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    ]
+  },
+  "verifier_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_eb34ac88da274a9688c8785671fb3ef6",
+      "path": "report.json",
+      "sha256": "3c7bb7b455bd09085678bbe81cf2f7c811e5640d8ce344c14e91e5af04bdcfd4",
+      "content": "{\n  \"status\": \"graded\",\n  \"valid\": true,\n  \"reward\": 1.0,\n  \"P\": 34,\n  \"S\": 34,\n  \"assertions\": [\n    {\n      \"id\": \"A01.workbook_sheets\",\n      \"kind\": \"outcome\",\n      \"unit\": \"工作簿四类工作表完整\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": [\n        \"材料索引\",\n        \"案件登记\",\n        \"补件台账\",\n        \"金额汇总\"\n      ],\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A02.case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"逐案登记覆盖全部公告案件\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": 23,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A03.new_case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"新发生案件分组与数量\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": 4,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A04.prior_case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"前期披露案件分组与数量\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": 19,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A05.case_codes\",\n      \"kind\": \"outcome\",\n      \"unit\": \"23个内部整理码唯一且完整\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": 23,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A06.case_pages\",\n      \"kind\": \"evidence\",\n      \"unit\": \"公告页码定位完整并保留跨页案件\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"逐案登记页码字段\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A07.case_dockets\",\n      \"kind\": \"evidence\",\n      \"unit\": \"23项公告案号与案件记录对应\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"逐案案号与可信枚举比较\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A08.case_amounts\",\n      \"kind\": \"outcome\",\n      \"unit\": \"23项涉案金额逐案匹配公告口径\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"逐案万元金额与可信枚举比较\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A09.new_total\",\n      \"kind\": \"outcome\",\n      \"unit\": \"4起新案公告涉案金额汇总\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": {\n        \"formula\": [\n          \"=SUM(案件登记!H2:H5)\"\n        ],\n        \"expected\": 67837.86,\n        \"cached_matches\": true\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A10.prior_total\",\n      \"kind\": \"outcome\",\n      \"unit\": \"19起前期案件公告涉案金额汇总\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": {\n        \"formula\": [\n          \"=SUM(案件登记!H6:H24)\"\n        ],\n        \"expected\": 175052.88,\n        \"cached_matches\": true\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A11.profit_impact\",\n      \"kind\": \"evidence\",\n      \"unit\": \"未经审计利润影响数字与限定语\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"工作簿利润影响值与未经审计限定语\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A12.formula_linkage\",\n      \"kind\": \"outcome\",\n      \"unit\": \"金额汇总公式引用案件明细且可重算\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": {\n        \"formulas\": [\n          \"=SUM(案件登记!H2:H5)\",\n          \"=SUM(案件登记!H6:H24)\",\n          \"=SUM(B2:B3)\"\n        ],\n        \"cached_matches\": true\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A13.P06_cross_page\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P06跨页续行案号及来源页\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P06登记案号和页码\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A14.P07_appeal\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P07一二审工程款金额差异\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P07一审/二审金额\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A15.P08_distribution\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P08破产分配与结案状态\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"破产分配金额和结案状态\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A16.P10_priority\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P10已确认优先债权金额及撤诉状态\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"确认债权金额和撤诉\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A17.P12_amounts\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P12一审二审金额与异常子行分层\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P12登记金额分层\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A18.P12_counterclaim\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P12反诉及第三人身份保留\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P12反诉与第三人信息\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A19.P14_party\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P14原告主体非重庆建工的标识\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"郑俊亮身份提示\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A20.P16_transfer\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P16变更诉求和移送兰州\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P16移送信息\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A21.P19_amount_split\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P19价款及两项暂计资金数字\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P19登记金额分项\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A22.catalog_all_cases\",\n      \"kind\": \"outcome\",\n      \"unit\": \"证据目录逐案列出案件身份和公告页码\",\n      \"criterion\": \"R3\",\n      \"status\": \"passed\",\n      \"actual\": \"目录逐项码与案号\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A23.catalog_scope\",\n      \"kind\": \"evidence\",\n      \"unit\": \"证据目录说明披露摘要的证明边界\",\n      \"criterion\": \"R3\",\n      \"status\": \"passed\",\n      \"actual\": \"目录范围限定\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A24.supplement_contract\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖合同和价款基础材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"合同类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A25.supplement_performance\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖工程履行和结算材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"履行结算类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A26.supplement_notice\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖催告送达与保修材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"通知及保修类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A27.supplement_procedure\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖法院程序及裁判原件\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"程序裁判材料补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A28.supplement_P12\",\n      \"kind\": \"evidence\",\n      \"unit\": \"补件清单提出P12金额口径核验事项\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"P12专项补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A29.role_separation\",\n      \"kind\": \"evidence\",\n      \"unit\": \"公告转述与原始证据核验状态区分\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"区分公告转述和原始核验\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A30.mapping\",\n      \"kind\": \"outcome\",\n      \"unit\": \"内部码至提交目录编号的逐案映射\",\n      \"criterion\": \"R3\",\n      \"status\": \"passed\",\n      \"actual\": \"目录内部码到N/P提交编号\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A31.timeline_empty_dates\",\n      \"kind\": \"outcome\",\n      \"unit\": \"未披露程序事件日期保持未填\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": \"程序事件日空值\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A32.no_overclaim\",\n      \"kind\": \"evidence\",\n      \"unit\": \"涉案金额未被表述为判决或未偿金额\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"涉案金额口径限制\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A33.party_court_cause\",\n      \"kind\": \"evidence\",\n      \"unit\": \"逐案当事人案由和受理法院与公告一致\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"23案原告/被告/案由/法院逐项比对公告登记\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A34.submission_ids\",\n      \"kind\": \"outcome\",\n      \"unit\": \"目录提交编号按N/P分组并可追溯\",\n      \"criterion\": \"R3\",\n      \"status\": \"passed\",\n      \"actual\": \"工作簿与目录N/P提交编号映射\",\n      \"expected\": \"assertion-specific condition\"\n    }\n  ],\n  \"critical_error_caps\": [],\n  \"missing_artifacts\": [],\n  \"candidate_artifact_errors\": []\n}"
+    },
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_eb34ac88da274a9688c8785671fb3ef6",
+      "path": "reward.json",
+      "sha256": "a95aa6fcff5c739e655920fc89913445a4d168b4a907cd4f860757bb7c900344",
+      "content": "{\"reward\": 1.0}\n"
+    },
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_eb34ac88da274a9688c8785671fb3ef6",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+      "path": "report.json",
+      "sha256": "e8900ce16f2af0a7617ed45a0e099f3f283a2e95194b8a3e79ec6e979a937393",
+      "content": "{\n  \"status\": \"graded_candidate_defect\",\n  \"valid\": true,\n  \"reward\": 0.0,\n  \"P\": 0,\n  \"S\": 34,\n  \"assertions\": [\n    {\n      \"id\": \"A01.workbook_sheets\",\n      \"kind\": \"outcome\",\n      \"unit\": \"工作簿四类工作表完整\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": [],\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A02.case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"逐案登记覆盖全部公告案件\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": 0,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A03.new_case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"新发生案件分组与数量\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": 0,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A04.prior_case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"前期披露案件分组与数量\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": 0,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A05.case_codes\",\n      \"kind\": \"outcome\",\n      \"unit\": \"23个内部整理码唯一且完整\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": 0,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A06.case_pages\",\n      \"kind\": \"evidence\",\n      \"unit\": \"公告页码定位完整并保留跨页案件\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"逐案登记页码字段\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A07.case_dockets\",\n      \"kind\": \"evidence\",\n      \"unit\": \"23项公告案号与案件记录对应\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"逐案案号与可信枚举比较\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A08.case_amounts\",\n      \"kind\": \"outcome\",\n      \"unit\": \"23项涉案金额逐案匹配公告口径\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"逐案万元金额与可信枚举比较\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A09.new_total\",\n      \"kind\": \"outcome\",\n      \"unit\": \"4起新案公告涉案金额汇总\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": {\n        \"formula\": [],\n        \"expected\": 67837.86,\n        \"cached_matches\": false\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A10.prior_total\",\n      \"kind\": \"outcome\",\n      \"unit\": \"19起前期案件公告涉案金额汇总\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": {\n        \"formula\": [],\n        \"expected\": 175052.88,\n        \"cached_matches\": false\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A11.profit_impact\",\n      \"kind\": \"evidence\",\n      \"unit\": \"未经审计利润影响数字与限定语\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"工作簿利润影响值与未经审计限定语\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A12.formula_linkage\",\n      \"kind\": \"outcome\",\n      \"unit\": \"金额汇总公式引用案件明细且可重算\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": {\n        \"formulas\": [],\n        \"cached_matches\": false\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A13.P06_cross_page\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P06跨页续行案号及来源页\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P06登记案号和页码\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A14.P07_appeal\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P07一二审工程款金额差异\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P07一审/二审金额\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A15.P08_distribution\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P08破产分配与结案状态\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"破产分配金额和结案状态\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A16.P10_priority\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P10已确认优先债权金额及撤诉状态\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"确认债权金额和撤诉\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A17.P12_amounts\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P12一审二审金额与异常子行分层\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P12登记金额分层\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A18.P12_counterclaim\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P12反诉及第三人身份保留\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P12反诉与第三人信息\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A19.P14_party\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P14原告主体非重庆建工的标识\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"郑俊亮身份提示\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A20.P16_transfer\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P16变更诉求和移送兰州\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P16移送信息\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A21.P19_amount_split\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P19价款及两项暂计资金数字\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P19登记金额分项\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A22.catalog_all_cases\",\n      \"kind\": \"outcome\",\n      \"unit\": \"证据目录逐案列出案件身份和公告页码\",\n      \"criterion\": \"R3\",\n      \"status\": \"failed\",\n      \"actual\": \"目录逐项码与案号\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A23.catalog_scope\",\n      \"kind\": \"evidence\",\n      \"unit\": \"证据目录说明披露摘要的证明边界\",\n      \"criterion\": \"R3\",\n      \"status\": \"failed\",\n      \"actual\": \"目录范围限定\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A24.supplement_contract\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖合同和价款基础材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"合同类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A25.supplement_performance\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖工程履行和结算材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"履行结算类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A26.supplement_notice\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖催告送达与保修材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"通知及保修类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A27.supplement_procedure\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖法院程序及裁判原件\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"程序裁判材料补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A28.supplement_P12\",\n      \"kind\": \"evidence\",\n      \"unit\": \"补件清单提出P12金额口径核验事项\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"P12专项补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A29.role_separation\",\n      \"kind\": \"evidence\",\n      \"unit\": \"公告转述与原始证据核验状态区分\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"区分公告转述和原始核验\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A30.mapping\",\n      \"kind\": \"outcome\",\n      \"unit\": \"内部码至提交目录编号的逐案映射\",\n      \"criterion\": \"R3\",\n      \"status\": \"failed\",\n      \"actual\": \"目录内部码到N/P提交编号\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A31.timeline_empty_dates\",\n      \"kind\": \"outcome\",\n      \"unit\": \"未披露程序事件日期保持未填\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": \"程序事件日空值\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A32.no_overclaim\",\n      \"kind\": \"evidence\",\n      \"unit\": \"涉案金额未被表述为判决或未偿金额\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"涉案金额口径限制\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A33.party_court_cause\",\n      \"kind\": \"evidence\",\n      \"unit\": \"逐案当事人案由和受理法院与公告一致\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"23案原告/被告/案由/法院逐项比对公告登记\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A34.submission_ids\",\n      \"kind\": \"outcome\",\n      \"unit\": \"目录提交编号按N/P分组并可追溯\",\n      \"criterion\": \"R3\",\n      \"status\": \"failed\",\n      \"actual\": \"工作簿与目录N/P提交编号映射\",\n      \"expected\": \"assertion-specific condition\"\n    }\n  ],\n  \"critical_error_caps\": [\n    \"CE.amount_scale\",\n    \"CE.role_attribution\"\n  ],\n  \"missing_artifacts\": [\n    \"evidence_workbook.xlsx\",\n    \"evidence_catalog.pdf\",\n    \"supplementation_note.pdf\"\n  ],\n  \"candidate_artifact_errors\": [\n    \"evidence_workbook.xlsx missing\",\n    \"evidence_catalog.pdf missing\",\n    \"supplementation_note.pdf missing\"\n  ]\n}"
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+      "path": "reward.json",
+      "sha256": "1d8511dcb533d7d0ea095ab1fed80023c526956199da238a47b3bcde6e6df655",
+      "content": "{\"reward\": 0.0}\n"
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_952d9b1f0b4d4b3e8d820c26165d7cfc",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    },
+    {
+      "harness": "codex",
+      "attempt_id": "attempt_2f79be03fb004058a0ab930e3c2fd238",
+      "path": "report.json",
+      "sha256": "34e2606ab1d29dad345df738a1bd8b8cf88edeae3caadb8a2712e5e8153d5571",
+      "content": "{\n  \"status\": \"graded\",\n  \"valid\": true,\n  \"reward\": 0.3235294117647059,\n  \"P\": 11,\n  \"S\": 34,\n  \"assertions\": [\n    {\n      \"id\": \"A01.workbook_sheets\",\n      \"kind\": \"outcome\",\n      \"unit\": \"工作簿四类工作表完整\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": [\n        \"时间线与进展\",\n        \"材料索引\",\n        \"案件登记\",\n        \"补件台账\",\n        \"金额汇总\"\n      ],\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A02.case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"逐案登记覆盖全部公告案件\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": 23,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A03.new_case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"新发生案件分组与数量\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": 0,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A04.prior_case_count\",\n      \"kind\": \"outcome\",\n      \"unit\": \"前期披露案件分组与数量\",\n      \"criterion\": \"R1\",\n      \"status\": \"failed\",\n      \"actual\": 0,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A05.case_codes\",\n      \"kind\": \"outcome\",\n      \"unit\": \"23个内部整理码唯一且完整\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": 23,\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A06.case_pages\",\n      \"kind\": \"evidence\",\n      \"unit\": \"公告页码定位完整并保留跨页案件\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"逐案登记页码字段\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A07.case_dockets\",\n      \"kind\": \"evidence\",\n      \"unit\": \"23项公告案号与案件记录对应\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"逐案案号与可信枚举比较\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A08.case_amounts\",\n      \"kind\": \"outcome\",\n      \"unit\": \"23项涉案金额逐案匹配公告口径\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"逐案万元金额与可信枚举比较\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A09.new_total\",\n      \"kind\": \"outcome\",\n      \"unit\": \"4起新案公告涉案金额汇总\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": {\n        \"formula\": [\n          \"=SUM(案件登记!J2:J5)\"\n        ],\n        \"expected\": 67837.86,\n        \"cached_matches\": true\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A10.prior_total\",\n      \"kind\": \"outcome\",\n      \"unit\": \"19起前期案件公告涉案金额汇总\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": {\n        \"formula\": [\n          \"=SUM(案件登记!J6:J24)\"\n        ],\n        \"expected\": 175052.88,\n        \"cached_matches\": true\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A11.profit_impact\",\n      \"kind\": \"evidence\",\n      \"unit\": \"未经审计利润影响数字与限定语\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"工作簿利润影响值与未经审计限定语\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A12.formula_linkage\",\n      \"kind\": \"outcome\",\n      \"unit\": \"金额汇总公式引用案件明细且可重算\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": {\n        \"formulas\": [\n          \"=SUM(案件登记!J2:J5)\",\n          \"=SUM(案件登记!J6:J24)\",\n          \"=SUM(案件登记!K6:K24)\"\n        ],\n        \"cached_matches\": true\n      },\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A13.P06_cross_page\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P06跨页续行案号及来源页\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P06登记案号和页码\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A14.P07_appeal\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P07一二审工程款金额差异\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P07一审/二审金额\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A15.P08_distribution\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P08破产分配与结案状态\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"破产分配金额和结案状态\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A16.P10_priority\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P10已确认优先债权金额及撤诉状态\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"确认债权金额和撤诉\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A17.P12_amounts\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P12一审二审金额与异常子行分层\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P12登记金额分层\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A18.P12_counterclaim\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P12反诉及第三人身份保留\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"P12反诉与第三人信息\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A19.P14_party\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P14原告主体非重庆建工的标识\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"郑俊亮身份提示\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A20.P16_transfer\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P16变更诉求和移送兰州\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P16移送信息\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A21.P19_amount_split\",\n      \"kind\": \"evidence\",\n      \"unit\": \"P19价款及两项暂计资金数字\",\n      \"criterion\": \"R2\",\n      \"status\": \"passed\",\n      \"actual\": \"P19登记金额分项\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A22.catalog_all_cases\",\n      \"kind\": \"outcome\",\n      \"unit\": \"证据目录逐案列出案件身份和公告页码\",\n      \"criterion\": \"R3\",\n      \"status\": \"failed\",\n      \"actual\": \"目录逐项码与案号\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A23.catalog_scope\",\n      \"kind\": \"evidence\",\n      \"unit\": \"证据目录说明披露摘要的证明边界\",\n      \"criterion\": \"R3\",\n      \"status\": \"failed\",\n      \"actual\": \"目录范围限定\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A24.supplement_contract\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖合同和价款基础材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"合同类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A25.supplement_performance\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖工程履行和结算材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"履行结算类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A26.supplement_notice\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖催告送达与保修材料\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"通知及保修类补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A27.supplement_procedure\",\n      \"kind\": \"outcome\",\n      \"unit\": \"补件清单覆盖法院程序及裁判原件\",\n      \"criterion\": \"R4\",\n      \"status\": \"passed\",\n      \"actual\": \"程序裁判材料补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A28.supplement_P12\",\n      \"kind\": \"evidence\",\n      \"unit\": \"补件清单提出P12金额口径核验事项\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"P12专项补件\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A29.role_separation\",\n      \"kind\": \"evidence\",\n      \"unit\": \"公告转述与原始证据核验状态区分\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"区分公告转述和原始核验\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A30.mapping\",\n      \"kind\": \"outcome\",\n      \"unit\": \"内部码至提交目录编号的逐案映射\",\n      \"criterion\": \"R3\",\n      \"status\": \"passed\",\n      \"actual\": \"目录内部码到N/P提交编号\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A31.timeline_empty_dates\",\n      \"kind\": \"outcome\",\n      \"unit\": \"未披露程序事件日期保持未填\",\n      \"criterion\": \"R1\",\n      \"status\": \"passed\",\n      \"actual\": \"程序事件日空值\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A32.no_overclaim\",\n      \"kind\": \"evidence\",\n      \"unit\": \"涉案金额未被表述为判决或未偿金额\",\n      \"criterion\": \"R4\",\n      \"status\": \"failed\",\n      \"actual\": \"涉案金额口径限制\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A33.party_court_cause\",\n      \"kind\": \"evidence\",\n      \"unit\": \"逐案当事人案由和受理法院与公告一致\",\n      \"criterion\": \"R2\",\n      \"status\": \"failed\",\n      \"actual\": \"23案原告/被告/案由/法院逐项比对公告登记\",\n      \"expected\": \"assertion-specific condition\"\n    },\n    {\n      \"id\": \"A34.submission_ids\",\n      \"kind\": \"outcome\",\n      \"unit\": \"目录提交编号按N/P分组并可追溯\",\n      \"criterion\": \"R3\",\n      \"status\": \"failed\",\n      \"actual\": \"工作簿与目录N/P提交编号映射\",\n      \"expected\": \"assertion-specific condition\"\n    }\n  ],\n  \"critical_error_caps\": [\n    \"CE.amount_scale\",\n    \"CE.role_attribution\"\n  ],\n  \"missing_artifacts\": [],\n  \"candidate_artifact_errors\": []\n}"
+    },
+    {
+      "harness": "codex",
+      "attempt_id": "attempt_2f79be03fb004058a0ab930e3c2fd238",
+      "path": "reward.json",
+      "sha256": "d659204792e6ca2f532cb922dc531a47e8b89a7e860aa918856ce3f0542311e5",
+      "content": "{\"reward\": 0.3235294117647059}\n"
+    },
+    {
+      "harness": "codex",
+      "attempt_id": "attempt_2f79be03fb004058a0ab930e3c2fd238",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "execution_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_eb34ac88da274a9688c8785671fb3ef6",
+      "path": "execution/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "pipeline": {
+    "stage": "submit",
+    "status": "succeeded",
+    "log": "[batch-root]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/forge-submit.log",
+    "pid": 59264,
+    "return_code": 0
+  },
+  "build_log_tail": "09759b58\n[2026-10-13T18:04:55.451408+00:00] [debug] Saved: 04661502-c3b1-4006-a5f9-181bb233f284\n[2026-10-13T18:04:55.544198+00:00] [debug] Adding layer to cache: 977b2e73-34d4-4426-a8fb-e029dd1b2348\n[2026-10-13T18:04:55.544324+00:00] [debug] Uploading layer: 977b2e73-34d4-4426-a8fb-e029dd1b2348\n[2026-10-13T18:04:55.563056+00:00] [info] [builder 10/12] COPY test.sh /tests/test.sh   [bbd6e317c5e7293481895322d1fed34c2a6753823ba71e71027ea92547e72f86]\n[2026-10-13T18:04:55.866661+00:00] [debug] Saved: 977b2e73-34d4-4426-a8fb-e029dd1b2348\n[2026-10-13T18:04:55.946069+00:00] [debug] Adding layer to cache: 3faea240-25ed-4375-ac78-9b45d1109d14\n[2026-10-13T18:04:55.946170+00:00] [debug] Uploading layer: 3faea240-25ed-4375-ac78-9b45d1109d14\n[2026-10-13T18:04:55.966295+00:00] [info] [builder 11/12] RUN mkdir -p /workspace/output [c1263f0012e90dfc0a8ebfcdac0fe1c0d331a22178cb91f0b0b448791bc0e796]\n[2026-10-13T18:04:56.298709+00:00] [debug] Saved: 3faea240-25ed-4375-ac78-9b45d1109d14\n[2026-10-13T18:04:56.324865+00:00] [debug] Adding layer to cache: 8171c034-8c7a-4efb-a8ae-08fb0668dfd7\n[2026-10-13T18:04:56.324966+00:00] [debug] Uploading layer: 8171c034-8c7a-4efb-a8ae-08fb0668dfd7\n[2026-10-13T18:04:56.341130+00:00] [info] [builder 12/12] USER user [a18e20ba7059f04dc4e492fc7320fa322c0f97c51b05690fc933c3780f5ab319]\n[2026-10-13T18:04:56.653697+00:00] [debug] Adding layer to cache: 097eb83a-4e8e-48f7-b0e3-ac9089b74363\n[2026-10-13T18:04:56.653814+00:00] [debug] Uploading layer: 097eb83a-4e8e-48f7-b0e3-ac9089b74363\n[2026-10-13T18:04:56.654212+00:00] [info] [resize-disk] Resizing disk [fc656804ade47bcd7ab70bcd1eb623fbb4a5f9e6afb2bc9f873e34d105527d8f]\n[2026-10-13T18:04:56.733392+00:00] [debug] Saved: 8171c034-8c7a-4efb-a8ae-08fb0668dfd7\n[2026-10-13T18:04:57.052672+00:00] [debug] Saved: 097eb83a-4e8e-48f7-b0e3-ac9089b74363\n[2026-10-13T18:04:57.140407+00:00] [info] resize-disk: free 9364 -> 10242 MiB\n[2026-10-13T18:04:57.141205+00:00] [debug] Adding layer to cache: 0cece2ae-4faa-49bc-8538-f81c66dad987\n[2026-10-13T18:04:57.141306+00:00] [debug] Uploading layer: 0cece2ae-4faa-49bc-8538-f81c66dad987\n[2026-10-13T18:04:57.141501+00:00] [info] [finalize] Finalizing template build [e491286ab18a91b3b388d1f3c9f00e272accdfad0e1b0945f7ddc415edab6298]\n[2026-10-13T18:04:57.398839+00:00] [debug] Saved: 0cece2ae-4faa-49bc-8538-f81c66dad987\n[2026-10-13T18:04:57.996429+00:00] [debug] [config] [stdout]: Starting configuration script\n[2026-10-13T18:04:58.000898+00:00] [debug] [config] [stdout]: Create default user 'user' (if doesn't exist yet)\n[2026-10-13T18:04:58.002864+00:00] [debug] [config] [stdout]: Copy skeleton files to /home/user (keeping existing files)\n[2026-10-13T18:04:58.007902+00:00] [debug] [config] [stdout]: skel: keeping existing .bashrc\n[2026-10-13T18:04:58.008228+00:00] [debug] [config] [stdout]: skel: keeping existing .profile\n[2026-10-13T18:04:58.008541+00:00] [debug] [config] [stdout]: skel: keeping existing .bash_logout\n[2026-10-13T18:04:58.008956+00:00] [debug] [config] [stdout]: Add sudo to 'user' with no password\n[2026-10-13T18:04:58.090695+00:00] [debug] [config] [stdout]: passwd: password changed.\n[2026-10-13T18:04:58.094583+00:00] [debug] [config] [stdout]: sudoers entry already present\n[2026-10-13T18:04:58.094621+00:00] [debug] [config] [stdout]: Give 'user' ownership to /home/user\n[2026-10-13T18:04:58.098771+00:00] [debug] [config] [stdout]: Give 777 permission to /usr/local\n[2026-10-13T18:04:58.235570+00:00] [debug] [config] [stdout]: Create /code directory\n[2026-10-13T18:04:58.237804+00:00] [debug] [config] [stdout]: Give 777 permission to /code\n[2026-10-13T18:04:58.239179+00:00] [debug] [config] [stdout]: Finished configuration script\n[2026-10-13T18:04:59.461255+00:00] [debug] [certs] [stdout]: Updating certificates in /etc/ssl/certs...\n[2026-10-13T18:05:00.597401+00:00] [debug] [certs] [stderr]: rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL\n[2026-10-13T18:05:00.604439+00:00] [debug] [certs] [stdout]: 150 added, 0 removed; done.\n[2026-10-13T18:05:00.604519+00:00] [debug] [certs] [stdout]: Running hooks in /etc/ca-certificates/update.d...\n[2026-10-13T18:05:00.606916+00:00] [debug] [certs] [stdout]: done.\n[2026-10-13T18:05:01.148647+00:00] [debug] Adding layer to cache: 5bd6f7f0-32f2-4ac6-afd1-6abf8b2ca4d6\n[2026-10-13T18:05:01.148749+00:00] [debug] Uploading layer: 5bd6f7f0-32f2-4ac6-afd1-6abf8b2ca4d6\n[2026-10-13T18:05:01.149985+00:00] [info] [optimize] Optimizing template [6504d9f8b8e0d64cc61a1d56c7c564063b80f785f5d3494577fd1c11dbd14426]\n[2026-10-13T18:05:01.947585+00:00] [debug] Saved: 5bd6f7f0-32f2-4ac6-afd1-6abf8b2ca4d6\n[2026-10-13T18:05:02.043289+00:00] [info] Build finished, took 14s\n[2026-10-14T02:05:02.806192] [debug] Build finished\n{\"role\": \"verifier\", \"build\": {\"template_id\": \"nz2sggzpznnkh4g2gz1r\", \"build_id\": \"5bd6f7f0-32f2-4ac6-afd1-6abf8b2ca4d6\", \"name\": \"cale-law-l02-002-verifier-cd68005a\", \"alias\": \"cale-law-l02-002-verifier-cd68005a\", \"tags\": [\"default\"]}}\n",
+  "candidate_validation_record_present": false,
+  "candidate_private_files": [
+    "private/provenance.json"
+  ]
+}

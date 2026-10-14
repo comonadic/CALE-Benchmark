@@ -1,0 +1,45 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "yuebybov5sjsg4c1uq0f",
+      "build_id": "0652b481-9e62-43ec-9dc9-0b89be0bd53f",
+      "name": "cale-fin-f04-001-agent-9e30210f",
+      "alias": "cale-fin-f04-001-agent-9e30210f",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "9e30210f2b7cc66f609d32bfcae7cea5e83bb1b560a713726db01d5b68456d9a",
+    "files": {
+      "Dockerfile": "9c4b59290b5a4d663818cb68d1d7b96b4f782d69dc764afafe98f89c7702377b",
+      "input-data/01_申万宏源2025年度报告.pdf": "6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471",
+      "input-data/02_申万宏源2025年度受托报告.pdf": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+      "input-data/03_23申宏04兑付公告.pdf": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+      "input-data/04_新疆证监局2026通知.html": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+      "input-data/05_附件5排查表模板.xlsx": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073"
+    }
+  },
+  "verifier": {
+    "build": {
+      "template_id": "h8x03b64lw1jpi1roaqs",
+      "build_id": "44f8331d-d61c-4f37-b4e2-54f5ed7045a4",
+      "name": "cale-fin-f04-001-verifier-9746af54",
+      "alias": "cale-fin-f04-001-verifier-9746af54",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "9746af546abb55e079cd4708cba4e12eedbeaf434f93c3492c10919f5950f275",
+    "files": {
+      "Dockerfile": "36c5c598202a73723f33d07d3b09cc0d2f2e17a82f89828b2abab2f66be2bc2d",
+      "__pycache__/grade.cpython-312.pyc": "f4266bc651e8d6817f0a4b3c2423c97dccdcb2977ea0901c120abfc26e07ef8b",
+      "assertions.json": "1d0dd328e7dfed154f3f1cb5d9506e5b12d09fb7ce82ef53c434e103b8fed026",
+      "grade.py": "23e2c08d8f444a958d75c96daa4c4dfcb2c8a3a745935b354e950711644af268",
+      "test.sh": "7400dab743668ab01e40864d742b850c95d040df9a16668147f0d5842046944b"
+    }
+  }
+}

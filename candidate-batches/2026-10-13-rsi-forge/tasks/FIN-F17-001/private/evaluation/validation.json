@@ -1,0 +1,11 @@
+{
+  "task_id":"FIN-F17-001",
+  "validated_at":"2026-10-13",
+  "harbor_execution":{"status":"not_run","reason":"Harbor Python package unavailable in authoring environment; Docker runtime execution pending."},
+  "grading_calibration":{"status":"not_run","reason":"No independent Harbor rollout or mutation run performed."},
+  "independent_solver_rollout":{"status":"not_run","reason":"No independent solver service available in authoring environment."},
+  "static_checks":{"status":"passed","command":"python /workspace/skills/finance-task-authoring/scripts/validate_task_package.py /workspace/output/FIN-F17-001","assertions":24,"criteria_covered":["C1","C2","C3","C4","C5"]},
+  "reference_calculation":{"status":"passed","checks":["operating inflow minus outflow equals operating net for 2025 and 2024","operating net plus investing net plus financing net equals cash change for 2025 and 2024"],"smoke_grader":{"status":"graded","P":24,"S":24,"reward":1.0,"critical_errors_triggered":[]}},
+  "memo_pdf":{"status":"passed","validation":"LibreOffice-generated PDF; pdftotext extraction verified with Chinese text, citations, table amounts, and procedures."},
+  "known_residual_risk":"Harbor runtime execution, independent solver rollout, and professional quality review were not available in the authoring environment."
+}

@@ -1,0 +1,14 @@
+{
+  "selection": {
+    "selected_task": "申报准备与证据缺口核查、计算工作簿模板",
+    "reason": "材料包仅覆盖通知与空白表单，缺少任务卡要求的合同、债权、偿付、担保、授权和程序记录。真实本金/利息申报会要求补造事实；将缺口本身设为可完成的专业工作。",
+    "rejected_directions": ["根据债权凭证计算并提交特定金额：缺少全部债权人底层记录。", "确定担保债权性质或执行抵扣：没有担保登记、诉讼执行或收款证据。"]
+  },
+  "source_review": {
+    "guide_pdf_pages": 6,
+    "forms": {"claim_docx_paragraphs":73,"list_docx_tables":1,"register_docx_tables":1},
+    "key_procedure": "受理2026-09-02；申报截止2026-11-03；申报金额利息计算至受理日不含当天；年按360日折算；一式一份纸质邮寄并先发盖章扫描件；纸件以管理人收到为准。",
+    "coverage_gaps": ["委托方身份/授权", "合同与履行", "收付款及抵销", "利息条款与凭证", "担保", "诉讼/仲裁/执行"]
+  },
+  "review_status": "authoring_self_review_only; independent review not run"
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "FIN-F17-001",
+  "industry": "finance",
+  "design": {
+    "work_family": "F17 财务会计、审计与内控",
+    "title": "公开现金流更正收尾复核与证据缺口交接",
+    "selected_scope": "基于单一公开年报完成2025/2024合并现金流披露取证、勾稽和项目证据缺口报告",
+    "selection_rationale": "原任务卡所需原始试算平衡、科目映射、差异底稿、客户入账确认和项目重要性均未在材料包中提供；公开年报足以支持披露层复核，但不足以支持真实审计调整或未更正错报结论。",
+    "excluded_scope": ["伪造项目底层试算平衡", "认定客户已入账", "计算项目未更正错报重大性"]
+  },
+  "sources": [
+    {"document_id":"CN-1225248741","role":"visible original pre-correction annual report","path":"environment/input-data/CN-1225248741_original.pdf","sha256":"18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9"},
+    {"document_id":"CN-1225460240","role":"answer-bearing corrected version excluded from agent view","sha256":"1188d9bcac97cc67fa75424b8382acfbb387384b5e3dfeb71f545d1f90fb4791"},
+    {"document_id":"CN-1225460243","role":"answer-bearing auditor review report excluded from agent view","sha256":"148ac2b4d67ff4316e72451f02fba6613da0a424fea248a872ba534d1782da16","pages_in_package":6},
+    {"document_id":"CN-1225460245","role":"answer-bearing correction announcement excluded from agent view","sha256":"9f450c4fc9370aeb5023e498cdc1a9601b24f28ffba5ec3d865e97af0bcd346b"}
+  ],
+  "derivation": {
+    "visible_input_is_raw_original": true,
+    "reference_solution": "build_reference.py extracts and validates disclosed values from the visible PDF, performs independent cash-flow arithmetic, then writes CSVs and a PDF memo.",
+    "no_author_additive_input": true,
+    "private_answer_materials_not_copied_to_environment": true
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "status": "graded",
+  "valid": true,
+  "P": 25,
+  "S": 25,
+  "reward": 1.0,
+  "assertions": [
+    {
+      "id": "redline_exists",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "redline file"
+    },
+    {
+      "id": "clean_exists",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "clean file"
+    },
+    {
+      "id": "opinion_exists",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "opinion file"
+    },
+    {
+      "id": "redline_ins",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "redline insertions"
+    },
+    {
+      "id": "redline_del",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "redline deletions"
+    },
+    {
+      "id": "redline_comments",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "redline comments"
+    },
+    {
+      "id": "project_number",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "project identifier"
+    },
+    {
+      "id": "payment_five",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "payment deadline"
+    },
+    {
+      "id": "payment_source",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "payment conflict note"
+    },
+    {
+      "id": "subcontracting",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "subcontracting clause"
+    },
+    {
+      "id": "sme_share",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "SME share"
+    },
+    {
+      "id": "preliminary_acceptance",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "preliminary acceptance"
+    },
+    {
+      "id": "prelim_seven_days",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "preliminary acceptance deadline"
+    },
+    {
+      "id": "final_acceptance",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "final acceptance"
+    },
+    {
+      "id": "acceptance_ten_days",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "final acceptance deadline"
+    },
+    {
+      "id": "chapter_seven",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "section numbering"
+    },
+    {
+      "id": "typo_fixed",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "service wording"
+    },
+    {
+      "id": "amount_not_invented",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "amount confirmation"
+    },
+    {
+      "id": "party_not_invented",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "party confirmation"
+    },
+    {
+      "id": "staged_payment",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "installment confirmation"
+    },
+    {
+      "id": "confidentiality",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "confidentiality confirmation"
+    },
+    {
+      "id": "performance_scheme",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "performance scheme"
+    },
+    {
+      "id": "legal_business_split",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "review position"
+    },
+    {
+      "id": "source_basis",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "source citations"
+    },
+    {
+      "id": "clean_no_markup",
+      "status": "passed",
+      "actual": true,
+      "expected": true,
+      "unit": "clean markup"
+    }
+  ],
+  "errors": []
+}

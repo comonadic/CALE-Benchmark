@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "source_repository_commit": "7219bf92cb0fdfe7493a6cab455593c3d84a15e0",
+  "files": [
+    {
+      "document_id": "CN-1225203635",
+      "source_path": "reference-library/raw/S01/CN-1225203635/original.pdf",
+      "package_path": "environment/input-data/CN-1225203635.pdf",
+      "source_url": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225203635/original.pdf",
+      "source_sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "package_sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "bytes": 7393821,
+      "copy_method": "byte-for-byte copy; no transformations"
+    },
+    {
+      "document_id": "CN-1225495975",
+      "source_path": "reference-library/raw/S01/CN-1225495975/original.pdf",
+      "package_path": "environment/input-data/CN-1225495975.pdf",
+      "source_url": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225495975/original.pdf",
+      "source_sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "package_sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "bytes": 6303458,
+      "copy_method": "byte-for-byte copy; no transformations"
+    },
+    {
+      "document_id": "CN-1225451854",
+      "source_path": "reference-library/raw/S01/CN-1225451854/original.pdf",
+      "package_path": "environment/input-data/CN-1225451854.pdf",
+      "source_url": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225451854/original.pdf",
+      "source_sha256": "058d72df110d1f589549ba129d49e60ea6d52e81a995812735ec797a2a9b3d47",
+      "package_sha256": "058d72df110d1f589549ba129d49e60ea6d52e81a995812735ec797a2a9b3d47",
+      "bytes": 195466,
+      "copy_method": "byte-for-byte copy; no transformations"
+    },
+    {
+      "document_id": "CN-1225491061",
+      "source_path": "reference-library/raw/S01/CN-1225491061/original.pdf",
+      "package_path": "environment/input-data/CN-1225491061.pdf",
+      "source_url": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225491061/original.pdf",
+      "source_sha256": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+      "package_sha256": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+      "bytes": 150953,
+      "copy_method": "byte-for-byte copy; no transformations"
+    }
+  ],
+  "excluded_documents": {
+    "ids": ["CN-1224318011", "CN-1224318016", "CN-1224486549", "CN-1225451855"],
+    "reason": "Hedge-management policy, prior-round authorization and feasibility analysis are not necessary to the 2026 public-disclosure working-capital review; the current authorization and shareholder decision provide the relevant governance and liquidity-context evidence."
+  },
+  "derived_working_files": {
+    "text_extraction": "pdftotext -layout at runtime in build_reference.py; transient text is not included as input",
+    "input_mutation": false
+  }
+}

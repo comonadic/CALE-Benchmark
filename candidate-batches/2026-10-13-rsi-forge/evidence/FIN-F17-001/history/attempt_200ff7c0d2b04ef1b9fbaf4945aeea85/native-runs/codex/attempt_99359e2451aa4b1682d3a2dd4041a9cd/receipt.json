@@ -1,0 +1,33 @@
+{
+  "harness": "codex",
+  "job_id": "job_d1eca3aa07b748e6bc64ab5b0622442c",
+  "run_id": "run_4eae3e68303343d1ad06d611e4d9856b",
+  "status": "succeeded",
+  "attempt_id": "attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.4583333333333333
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-13T18:20:34.675736Z",
+  "finished_at": "2026-10-13T18:35:25.507712Z",
+  "agent_execution": {
+    "started_at": "2026-10-13T18:20:54.654507Z",
+    "finished_at": "2026-10-13T18:35:00.858480Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-13T18:35:09.782008Z",
+    "finished_at": "2026-10-13T18:35:25.504964Z"
+  },
+  "collected_path": "[batch-workspace]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+  "file_sha256": {
+    "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+    "artifacts/workspace/output/evidence_gaps.csv": "fa55110d899e67d4ddd0c0b982d1f3ab8bfb80fe89f1fb93c92e98faa9466293",
+    "artifacts/workspace/output/evidence_register.csv": "fb684f634d68390433f6d2cf03558fb6f888c4c62187f5d111a702b1dcffe5b1",
+    "artifacts/workspace/output/misstatement_review.pdf": "7eeac90a50386bb437ecf20f49d19b0e24617a76d0e46e3cbc338c81dcae14c2",
+    "verifier/report.json": "b5df79cf0c971a0c5c275e3ad340bd89fb71b61c69b186653d778b05a48ebbaf",
+    "verifier/reward.json": "790293eeb74c58599c372f7ff313c9c9db268f68fe64ea08b755e3cf2977faeb",
+    "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "x0c759d4a6stzd2ipeo1",
+      "build_id": "1b56b3dc-dcf7-4732-b42d-10c3ba4f8f60",
+      "name": "cale-law-l04-001-agent-0abcaa39",
+      "alias": "cale-law-l04-001-agent-0abcaa39",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "0abcaa392b613641438f38eddf53a1db36a28ebe65ce5accacb9e5fa37652e9e",
+    "files": {
+      "Dockerfile": "71c4c1ba69d157b541ed37bb9abed58bb72b84f8ad3b7691e61c250a801f87e1",
+      "input-data/COURT-ZHENXIN-CLAIM.docx": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+      "input-data/COURT-ZHENXIN-GUIDE.pdf": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+      "input-data/COURT-ZHENXIN-LIST.docx": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+      "input-data/COURT-ZHENXIN-REGISTER.docx": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db"
+    }
+  }
+}

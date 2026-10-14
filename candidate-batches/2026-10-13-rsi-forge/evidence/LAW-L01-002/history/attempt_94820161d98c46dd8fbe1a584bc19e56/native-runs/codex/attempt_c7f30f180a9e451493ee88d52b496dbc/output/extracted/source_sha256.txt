@@ -1,0 +1,3 @@
+3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb  /workspace/input-data/contract_original.docx
+36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9  /workspace/input-data/requirements_original.docx
+df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855  /workspace/input-data/tender_original.zip

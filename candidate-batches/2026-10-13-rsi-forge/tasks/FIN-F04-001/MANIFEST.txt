@@ -1,0 +1,40 @@
+FIN-F04-001 Package Manifest
+Generated: 2026-10-13
+Task: 公司债到期及回售资金落实排查
+
+Core Files:
+  instruction.md       - Task instruction in Chinese
+  task.toml           - Harbor task configuration
+  lineage.json        - Source provenance and derivation
+  README.md           - Package documentation
+
+Environment (Agent):
+  environment/Dockerfile                          - Agent image build
+  environment/input-data/01_申万宏源2025年度报告.pdf      - Annual report (25MB)
+  environment/input-data/02_申万宏源2025年度受托报告.pdf   - Trustee report (358KB)
+  environment/input-data/03_23申宏04兑付公告.pdf         - Payment announcement (187KB)
+  environment/input-data/04_新疆证监局2026通知.html       - Regulatory notice (38KB)
+  environment/input-data/05_附件5排查表模板.xlsx          - Template spreadsheet (68KB)
+
+Solution (Reference):
+  solution/solve.sh            - Reference solution entry point
+  solution/build_reference.py  - Generate Excel and PDF outputs
+
+Tests (Verifier):
+  tests/Dockerfile      - Verifier image build
+  tests/test.sh         - Verifier entry point
+  tests/grade.py        - Grading script (25 assertions)
+  tests/assertions.json - Assertion definitions and critical errors
+
+Expected Agent Output:
+  /workspace/output/debt_funding_check.xlsx  - Editable funding check spreadsheet
+  /workspace/output/funding_risk_note.pdf    - Risk memo with evidence citations
+
+Material Checksums (SHA256):
+  6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471  01_申万宏源2025年度报告.pdf
+  5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce  02_申万宏源2025年度受托报告.pdf
+  98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3  03_23申宏04兑付公告.pdf
+  1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20  04_新疆证监局2026通知.html
+  7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073  05_附件5排查表模板.xlsx
+
+Package Size: ~25MB

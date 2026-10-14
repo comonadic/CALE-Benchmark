@@ -1,0 +1,9 @@
+{
+  "task_id": "LAW-L01-002",
+  "round": 1,
+  "legal_variants": ["accepted tracked edits", "clean output with source placeholders", "comments attached to changed clauses"],
+  "error_variants": ["missing redline", "redline without comments", "clean output retaining tracked markup", "invented price"],
+  "false_full_score": false,
+  "false_negative_review": "reference 25/25; empty output graded_candidate_defect reward 0; malformed complete outputs verifier_failure reward 0",
+  "exit_reason": "reference and negative variants stable in authoring runtime"
+}

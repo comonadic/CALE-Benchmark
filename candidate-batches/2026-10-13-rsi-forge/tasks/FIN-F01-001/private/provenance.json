@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "path": "environment/input-data/haid_group_2025_annual_report.pdf",
+      "document_id": "CN-1225203635",
+      "sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "source_url": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225203635/original.pdf",
+      "handling": "原始PDF按已核验内容哈希复制到environment/input-data，未裁切或修改。"
+    },
+    {
+      "path": "environment/input-data/haid_group_2026_half_year_report.pdf",
+      "document_id": "CN-1225495975",
+      "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "source_url": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225495975/original.pdf",
+      "handling": "原始PDF按已核验内容哈希复制到environment/input-data，未裁切或修改。"
+    }
+  ],
+  "scenario": "预测使用独立标记的分析者可编辑参数，不将缺失的委托方预算、模型或债务台账虚构为输入事实。"
+}

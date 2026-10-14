@@ -1,0 +1,43 @@
+{
+  "scale": 34,
+  "assertions": [
+    {"id":"A01.workbook_sheets","kind":"outcome","unit":"工作簿四类工作表完整","criterion":"R1"},
+    {"id":"A02.case_count","kind":"outcome","unit":"逐案登记覆盖全部公告案件","criterion":"R1"},
+    {"id":"A03.new_case_count","kind":"outcome","unit":"新发生案件分组与数量","criterion":"R1"},
+    {"id":"A04.prior_case_count","kind":"outcome","unit":"前期披露案件分组与数量","criterion":"R1"},
+    {"id":"A05.case_codes","kind":"outcome","unit":"23个内部整理码唯一且完整","criterion":"R1"},
+    {"id":"A06.case_pages","kind":"evidence","unit":"公告页码定位完整并保留跨页案件","criterion":"R2"},
+    {"id":"A07.case_dockets","kind":"evidence","unit":"23项公告案号与案件记录对应","criterion":"R2"},
+    {"id":"A08.case_amounts","kind":"outcome","unit":"23项涉案金额逐案匹配公告口径","criterion":"R2"},
+    {"id":"A09.new_total","kind":"outcome","unit":"4起新案公告涉案金额汇总","criterion":"R2"},
+    {"id":"A10.prior_total","kind":"outcome","unit":"19起前期案件公告涉案金额汇总","criterion":"R2"},
+    {"id":"A11.profit_impact","kind":"evidence","unit":"未经审计利润影响数字与限定语","criterion":"R2"},
+    {"id":"A12.formula_linkage","kind":"outcome","unit":"金额汇总公式引用案件明细且可重算","criterion":"R2"},
+    {"id":"A13.P06_cross_page","kind":"evidence","unit":"P06跨页续行案号及来源页","criterion":"R2"},
+    {"id":"A14.P07_appeal","kind":"evidence","unit":"P07一二审工程款金额差异","criterion":"R2"},
+    {"id":"A15.P08_distribution","kind":"evidence","unit":"P08破产分配与结案状态","criterion":"R2"},
+    {"id":"A16.P10_priority","kind":"evidence","unit":"P10已确认优先债权金额及撤诉状态","criterion":"R2"},
+    {"id":"A17.P12_amounts","kind":"evidence","unit":"P12一审二审金额与异常子行分层","criterion":"R2"},
+    {"id":"A18.P12_counterclaim","kind":"evidence","unit":"P12反诉及第三人身份保留","criterion":"R2"},
+    {"id":"A19.P14_party","kind":"evidence","unit":"P14原告主体非重庆建工的标识","criterion":"R2"},
+    {"id":"A20.P16_transfer","kind":"evidence","unit":"P16变更诉求和移送兰州","criterion":"R2"},
+    {"id":"A21.P19_amount_split","kind":"evidence","unit":"P19价款及两项暂计资金数字","criterion":"R2"},
+    {"id":"A22.catalog_all_cases","kind":"outcome","unit":"证据目录逐案列出案件身份和公告页码","criterion":"R3"},
+    {"id":"A23.catalog_scope","kind":"evidence","unit":"证据目录说明披露摘要的证明边界","criterion":"R3"},
+    {"id":"A24.supplement_contract","kind":"outcome","unit":"补件清单覆盖合同和价款基础材料","criterion":"R4"},
+    {"id":"A25.supplement_performance","kind":"outcome","unit":"补件清单覆盖工程履行和结算材料","criterion":"R4"},
+    {"id":"A26.supplement_notice","kind":"outcome","unit":"补件清单覆盖催告送达与保修材料","criterion":"R4"},
+    {"id":"A27.supplement_procedure","kind":"outcome","unit":"补件清单覆盖法院程序及裁判原件","criterion":"R4"},
+    {"id":"A28.supplement_P12","kind":"evidence","unit":"补件清单提出P12金额口径核验事项","criterion":"R4"},
+    {"id":"A29.role_separation","kind":"evidence","unit":"公告转述与原始证据核验状态区分","criterion":"R4"},
+    {"id":"A30.mapping","kind":"outcome","unit":"内部码至提交目录编号的逐案映射","criterion":"R3"},
+    {"id":"A31.timeline_empty_dates","kind":"outcome","unit":"未披露程序事件日期保持未填","criterion":"R1"},
+    {"id":"A32.no_overclaim","kind":"evidence","unit":"涉案金额未被表述为判决或未偿金额","criterion":"R4"},
+    {"id":"A33.party_court_cause","kind":"evidence","unit":"逐案当事人案由和受理法院与公告一致","criterion":"R2"},
+    {"id":"A34.submission_ids","kind":"outcome","unit":"目录提交编号按N/P分组并可追溯","criterion":"R3"}
+  ],
+  "critical_errors": [
+    {"id":"CE.amount_scale","assertion":"A08.case_amounts","cap":0.65},
+    {"id":"CE.role_attribution","assertion":"A19.P14_party","cap":0.65}
+  ]
+}

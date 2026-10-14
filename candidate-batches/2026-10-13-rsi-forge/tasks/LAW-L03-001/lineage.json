@@ -1,0 +1,25 @@
+{
+  "task_id": "LAW-L03-001",
+  "industry": "legal",
+  "design": {
+    "work_family": "L03 公司、证券与并购法律尽调",
+    "task_type": "收购项目法律尽调资料清单与缺口台账维护",
+    "scope": "仅做一轮有限范围需求台账及缺口摘要，不出具完整法律意见",
+    "as_of": "2026-07-31",
+    "materials_status": "partial_public_inputs",
+    "assertions": 24,
+    "validation_boundary": "客观检查公开材料锚点、版本/期间和逐项追问；专业判断仍需人工独立复核"
+  },
+  "sources": [
+    {"type":"task_card","path":"task-library/legal/L03/LAW-L03-001.yaml"},
+    {"type":"material_index","path":"materials/index.json"},
+    {"type":"manifest","path":"reference-library/packages/PKG-GUOCHENG-MA-2026/manifest.json"},
+    {"type":"source_material","document_ids":["CN-1225327554","CN-1225327559","CN-1225327560","CN-1225449371","CN-1225449382","CN-1225449388","CN-1225449390"]}
+  ],
+  "derivation": {
+    "input_policy": "Copied the seven default-input source PDFs byte-for-byte; excluded CN-1225449376 because the manifest marks it resolved_result_or_reply_answer.",
+    "scenario": "One-round public-disclosure snapshot dated 2026-07-31. Public disclosures are treated as leads/representations, not independently verified data-room evidence.",
+    "reference": "solution/build_reference.py extracts the visible PDF text for anchoring and derives tracker/PDF deliverables from the frozen input filenames and disclosed version facts.",
+    "agent_view": "Only instruction, environment Dockerfile and input-data are visible; solution/tests/private are excluded from environment build context."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "task_id": "FIN-F01-001",
+  "industry": "finance",
+  "design": {
+    "work_family": "F01 上市公司研究与股票分析",
+    "task_type_id": "FIN-F01-001",
+    "task_type_status": "verified",
+    "action": "基于两期公开财报整理历史并构建单一2026H2三表情景，输出可编辑模型与说明PDF",
+    "selection_rationale": "输入材料提供同一发行人年报及半年报；任务限定于材料内可核验的历史取数与可重算短期情景。"
+  },
+  "sources": [
+    {
+      "document_id": "CN-1225203635",
+      "role": "2025 annual report source original",
+      "path": "environment/input-data/haid_group_2025_annual_report.pdf",
+      "sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "source_locator": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225203635/original.pdf",
+      "publication_kind": "unaltered_source_original"
+    },
+    {
+      "document_id": "CN-1225495975",
+      "role": "2026 half-year report source original",
+      "path": "environment/input-data/haid_group_2026_half_year_report.pdf",
+      "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "source_locator": "https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225495975/original.pdf",
+      "publication_kind": "unaltered_source_original"
+    }
+  ],
+  "derivation": {
+    "parents": [],
+    "relation": "independent_task_instantiation_from_verified_task_type",
+    "changes": ["新增来源明确的海大集团实例", "限定预测期为2026H2分析情景", "以可复算公式及分项评分形成Harbor原生题包"]
+  }
+}

@@ -61,6 +61,10 @@ Harbor 将数值 reward 写入 `/logs/verifier/reward.txt` 或 reward.json；完
 
 目录结构和 reward 接口遵循 [Harbor task format](https://docs.harborframework.com/tasks/overview)。原始资料的发布机构、文件地址与哈希见各题的 provenance 和 lineage；这些原件的权利由原发布方保留。
 
+## 2026-10-13 RSI Forge 候选题包
+
+[候选批次目录](candidate-batches/2026-10-13-rsi-forge/README.md)保存这轮任务卡驱动生产的真实文件：9 份候选题包、原始输入、参考解、Dockerfile、评分器及运行证据，完整验收为 **0/10**。可直接浏览题面和部分实际产物；FIN-F02-001 尚未产出。该批次独立于现有 `tasks/` 评测集，已知问题与真实试解分数在批次目录中逐题列出。
+
 ## 任务卡材料资源库
 
 [资源库](reference-library/README.md)按最新11张活动卡的输入要求补充材料。2026-10-13批次取得39份正式原件（2025下半年9份、2026年30份），另登记2条受限规则链接，按9个主体/项目材料组保留版本链、截止日、来源与质量记录。[Excel目录](outputs/01a12ec5-33b0-73d0-b60b-e9ed1659461e/CALE任务卡材料库.xlsx)提供卡片覆盖、材料文件链接和36项输入缺口。仓库直接保存38份完整原件、1份去除身份证证照附页的审计业务正文副本，以及解析层；实际路径和哈希见[文件清单](reference-library/batches/2026-10-13-task-inputs/repository-files.json)。公开披露仍需配套授权业务底稿，才可进入完整任务实例化。

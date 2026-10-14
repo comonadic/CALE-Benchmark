@@ -1,0 +1,19 @@
+{
+  "material_package": "PKG-MAOHUA-CORRECTION-2026",
+  "index_commit": "7219bf92cb0fdfe7493a6cab455593c3d84a15e0",
+  "inputs": [
+    {
+      "document_id":"CN-1225248741",
+      "source_url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S01/CN-1225248741/original.pdf",
+      "repository_path":"reference-library/raw/S01/CN-1225248741/original.pdf",
+      "package_path":"environment/input-data/CN-1225248741_original.pdf",
+      "sha256":"18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+      "bytes":1291103,
+      "pages":209,
+      "copy_method":"byte-for-byte copy; no retyping, cleaning, OCR or derived input"
+    }
+  ],
+  "excluded_answer_materials": ["CN-1225460240","CN-1225460243","CN-1225460245"],
+  "known_gaps": ["原始试算平衡、科目映射、差异底稿、客户入账确认、项目重要性和适用报告基础未提供"],
+  "office_operation": "Reference generation uses pypdf and reportlab scripts; no CUA or interactive Office operation."
+}

@@ -1,0 +1,30 @@
+{
+  "package": "[batch-workspace]/deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001",
+  "producer_attempt": "attempt_b1df00ccb5b647c9bdf59de739e6f654",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L04-001\",\n      \"path\": \"[batch-workspace]/deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"7078565b1095bd5410bdbef16f1d84bb25b04d85b34968262803cd580aadc1b2\",\n        \"task.toml\": \"a463bbc1aae978e5c1d21c6bc1b4d6767faced81c110fae060929f5573cfdd39\",\n        \"environment/Dockerfile\": \"71c4c1ba69d157b541ed37bb9abed58bb72b84f8ad3b7691e61c250a801f87e1\",\n        \"solution/solve.sh\": \"e35d8abca7765a869b9e446f4a4e89fec29ff8dd8ea1c611df7e44ff19cd697a\",\n        \"solution/build_reference.py\": \"43289b38a1794ecea0c8c3248a3776ff015d4aacead46980a2b50f632efc9445\",\n        \"tests/test.sh\": \"c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9\",\n        \"tests/assertions.json\": \"af5ab11888e9585d4a41277ed2b21c3094d8f504346296bc69d95f82f6634098\",\n        \"tests/grade.py\": \"f815de238d4debc790590b9d2361555af39ef31a9652fa28eb2090681f78ac16\"\n      },\n      \"assertion_count\": 24,\n      \"criteria_covered\": [\n        \"calculation\",\n        \"declaration\",\n        \"evidence_gaps\",\n        \"evidence_index\",\n        \"procedure\",\n        \"traceability\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    "environment/Dockerfile": "71c4c1ba69d157b541ed37bb9abed58bb72b84f8ad3b7691e61c250a801f87e1",
+    "environment/input-data/COURT-ZHENXIN-CLAIM.docx": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+    "environment/input-data/COURT-ZHENXIN-GUIDE.pdf": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+    "environment/input-data/COURT-ZHENXIN-LIST.docx": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+    "environment/input-data/COURT-ZHENXIN-REGISTER.docx": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db",
+    "instruction.md": "7078565b1095bd5410bdbef16f1d84bb25b04d85b34968262803cd580aadc1b2",
+    "lineage.json": "f9dd39962dd0694a5c0bc5cd96611dd969cf32f1f4b2b581b07b888a749330e0",
+    "private/authoring/source-review.json": "30a50ed647332e5b6231b4d11f4663b0ebce6e82d5cbbc72b2b6d30fb3babe37",
+    "private/evaluation/local-reference-report.json": "c2287a58227bfeb4d02d88e1f6c35f7a1f9bcb5d04e30b862a1b1065fe7e5cba",
+    "private/evaluation/local-reference-reward.json": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+    "private/evaluation/validation.json": "a147dbc87bd3d547be55b8c332f6d1d267d80ad0e30f3c5473786b0dc35645b9",
+    "private/evaluation/validation.md": "7d47449670b5592930233bcdc3df1a71e2d0ff2df7b2aec7e73cebb03bff936e",
+    "private/evaluation/wrong-cutoff-challenge-report.json": "5d6318a9bf7051dabd929f1fb45f8f599825af16ddfe60f1843ce4f3647bb87f",
+    "private/provenance.json": "6508ff234fc3049b02cc62b1fdcf9c3c4a0fea2edbaa9d659aada2335bde6d72",
+    "solution/build_reference.py": "43289b38a1794ecea0c8c3248a3776ff015d4aacead46980a2b50f632efc9445",
+    "solution/solve.sh": "e35d8abca7765a869b9e446f4a4e89fec29ff8dd8ea1c611df7e44ff19cd697a",
+    "task.toml": "a463bbc1aae978e5c1d21c6bc1b4d6767faced81c110fae060929f5573cfdd39",
+    "tests/Dockerfile": "37aafa24e240a54c4dc106824f69f01b2dcc8540a5ee10e82ded94ca3342270c",
+    "tests/assertions.json": "af5ab11888e9585d4a41277ed2b21c3094d8f504346296bc69d95f82f6634098",
+    "tests/grade.py": "f815de238d4debc790590b9d2361555af39ef31a9652fa28eb2090681f78ac16",
+    "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9"
+  }
+}

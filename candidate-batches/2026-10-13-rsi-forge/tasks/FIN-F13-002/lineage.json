@@ -1,0 +1,21 @@
+{
+  "task_id": "FIN-F13-002",
+  "industry": "finance",
+  "design": {
+    "workflow": "企业期现敞口台账更新与套保效果复核",
+    "task_type": "disclosure reconciliation plus evidence-gap assessment",
+    "scope": "2026H1 consolidated public disclosures; explicitly excludes reconstruction of missing transaction-level internal records"
+  },
+  "sources": [
+    "CN-1224318011",
+    "CN-1224318016",
+    "CN-1224486549",
+    "CN-1225495975"
+  ],
+  "derivation": {
+    "input_policy": "unaltered originals only; no synthetic internal ledgers",
+    "reference": "extract public disclosure facts and clauses from source PDFs, then generate workbook and memo"
+  },
+  "parent_task_id": null,
+  "material_package": "PKG-HAID-2026"
+}

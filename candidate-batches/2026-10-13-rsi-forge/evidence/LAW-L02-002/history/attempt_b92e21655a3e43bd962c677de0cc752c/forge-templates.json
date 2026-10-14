@@ -1,0 +1,44 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "lqq4o4ey07m74vn6mfz5",
+      "build_id": "c99bf5b8-ff72-4090-beb0-ea9b9bba148e",
+      "name": "cale-law-l02-002-agent-b28db109",
+      "alias": "cale-law-l02-002-agent-b28db109",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "b28db10962de6396704cc602aa4f0112255273a42d59cf1e23ab0aa4efd98913",
+    "files": {
+      "Dockerfile": "e5fdfd555af2cb9ac57693ef90f0991efd2a456ca6720bc9f909bde255077185",
+      "input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0"
+    }
+  },
+  "verifier": {
+    "build": {
+      "template_id": "nz2sggzpznnkh4g2gz1r",
+      "build_id": "5bd6f7f0-32f2-4ac6-afd1-6abf8b2ca4d6",
+      "name": "cale-law-l02-002-verifier-cd68005a",
+      "alias": "cale-law-l02-002-verifier-cd68005a",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "cd68005ad25420e8591e116d2127e69b1df3e45ee2df54e466b0020686cc2759",
+    "files": {
+      "Dockerfile": "b5be7d8106c19d743aba1edda49c8791757bc7e2346ffd7057f14e86f02edc5e",
+      "__pycache__/grade.cpython-312.pyc": "e841fa4d86db2aa1eb36f19895f35a43059962682e07e7d6c3951ac5218c8ab4",
+      "assertions.json": "66acca59a5eeab32ac7f4dc6ca51e08347680f440a1d64a795cf66ad6d149fcc",
+      "expected_cases.json": "ca7e539d02f719093a47f81995bf1c85e5edd8abedec60a1b6570016f4e14ecb",
+      "grade.py": "ea16f7c62c23c1f2b8178996b3547ef2d3fc2cb9e001eea5bbe1152e9c9dafb4",
+      "input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+      "rubric.json": "838f9ac51958935debdbe3d22f19a3fe460305dbf0ca6e9c6ee8c4d015dc0d9d",
+      "test.sh": "5bd39f42b3c59d0bbff184b37ce4dcdce7c9a2f2d4b16cdfc9a9f90a5f528e8b"
+    }
+  }
+}

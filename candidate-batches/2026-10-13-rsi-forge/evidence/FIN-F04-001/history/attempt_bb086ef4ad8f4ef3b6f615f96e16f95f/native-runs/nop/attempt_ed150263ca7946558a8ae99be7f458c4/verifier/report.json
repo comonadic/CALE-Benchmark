@@ -1,0 +1,9 @@
+{
+  "reward": null,
+  "P": 0,
+  "S": 25,
+  "valid": false,
+  "status": "verifier_failure",
+  "error": "FileNotFoundError(2, 'No such file or directory')",
+  "assertions": []
+}

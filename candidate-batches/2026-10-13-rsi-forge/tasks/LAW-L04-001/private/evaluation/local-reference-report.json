@@ -1,0 +1,191 @@
+{
+  "reward": 1.0,
+  "P": 24,
+  "S": 24,
+  "valid": true,
+  "status": "graded",
+  "assertions": [
+    {
+      "id": "PROC.receipt-date",
+      "status": "passed",
+      "actual": "2026-09-02 00:00:00",
+      "expected": "2026-09-02; declaration identifies this cutoff"
+    },
+    {
+      "id": "PROC.deadline",
+      "status": "passed",
+      "actual": "2026-11-03 00:00:00",
+      "expected": "2026-11-03 in workbook and evidence index"
+    },
+    {
+      "id": "PROC.meeting",
+      "status": "passed",
+      "actual": "meeting entry",
+      "expected": "2026-11-16 10:00 with guide source"
+    },
+    {
+      "id": "PROC.paper-electronic",
+      "status": "passed",
+      "actual": "submission procedure text",
+      "expected": "scan and paper-mail steps distinguished"
+    },
+    {
+      "id": "PROC.paper-receipt",
+      "status": "passed",
+      "actual": "receipt rule",
+      "expected": "paper receipt controls content and time"
+    },
+    {
+      "id": "PROC.order",
+      "status": "passed",
+      "actual": "workbook material sequence",
+      "expected": [
+        "债权申报材料清单",
+        "债权申报登记表",
+        "债权申报书",
+        "主体及授权材料",
+        "送达方式确认书",
+        "债权事实证据"
+      ]
+    },
+    {
+      "id": "PROC.count",
+      "status": "passed",
+      "actual": "paper count and proof of dispatch",
+      "expected": "one paper set; retain postal receipt"
+    },
+    {
+      "id": "CALC.exclusive-cutoff",
+      "status": "passed",
+      "actual": "cutoff statements",
+      "expected": "2026-09-02 excluded"
+    },
+    {
+      "id": "CALC.day-count",
+      "status": "passed",
+      "actual": {
+        "G2": "=IF(OR(C2=\"\",D2=\"\"),\"\",D2-C2)"
+      },
+      "expected": "actual date difference formula with blank guard"
+    },
+    {
+      "id": "CALC.interest-formula",
+      "status": "passed",
+      "actual": {
+        "formula": "=IF(OR(E2=\"\",F2=\"\",G2=\"\"),\"\",ROUND(E2*F2*G2/360,2))",
+        "mutation_recalc": true
+      },
+      "expected": "360-day simple interest formula recalculates to 32 days / CNY 106.67 on isolated probe"
+    },
+    {
+      "id": "CALC.blank-not-zero",
+      "status": "passed",
+      "actual": {
+        "principal": null,
+        "status": "待补"
+      },
+      "expected": "no fabricated amount; pending source evidence"
+    },
+    {
+      "id": "CALC.source-anchor",
+      "status": "passed",
+      "actual": "workbook source locator",
+      "expected": "guide page 4 and 360-day convention"
+    },
+    {
+      "id": "GAP.corporate-authority",
+      "status": "passed",
+      "actual": "corporate and authorization evidence rows",
+      "expected": "business identity and representative authority evidence listed"
+    },
+    {
+      "id": "GAP.underlying",
+      "status": "passed",
+      "actual": "claim origin evidence rows",
+      "expected": "contract and performance/ledger evidence listed"
+    },
+    {
+      "id": "GAP.repayments-offsets",
+      "status": "passed",
+      "actual": "payment/offset row",
+      "expected": "payments and offsets reconciled to avoid duplicate claim"
+    },
+    {
+      "id": "GAP.security",
+      "status": "passed",
+      "actual": "security evidence row",
+      "expected": "security status and classification await evidence"
+    },
+    {
+      "id": "GAP.proceedings",
+      "status": "passed",
+      "actual": "proceedings evidence row",
+      "expected": "litigation/arbitration/enforcement and receipts listed"
+    },
+    {
+      "id": "DOC.declaration-fields",
+      "status": "passed",
+      "actual": "fields preserved from blank filing template",
+      "expected": [
+        "申报人",
+        "统一社会信用代码/身份证号",
+        "住所",
+        "本金",
+        "孳息/违约金/滞纳金",
+        "诉讼费用",
+        "债权性质",
+        "事实和理由",
+        "签字/盖章"
+      ]
+    },
+    {
+      "id": "DOC.declaration-status",
+      "status": "passed",
+      "actual": "draft and pending language",
+      "expected": "not signed/submitted; no unsupported claim assertion"
+    },
+    {
+      "id": "DOC.declaration-crossref",
+      "status": "passed",
+      "actual": "debtor/date cross-reference",
+      "expected": "case debtor and controlling dates match across artifacts"
+    },
+    {
+      "id": "IDX.order",
+      "status": "passed",
+      "actual": "evidence index categories",
+      "expected": [
+        "债权申报材料清单",
+        "债权申报登记表",
+        "债权申报书",
+        "主体及授权材料",
+        "送达方式确认书",
+        "债权事实证据"
+      ]
+    },
+    {
+      "id": "IDX.status-separation",
+      "status": "passed",
+      "actual": "provided source vs missing creditor materials",
+      "expected": "status and evidentiary role separated"
+    },
+    {
+      "id": "IDX.no-false-receipt",
+      "status": "passed",
+      "actual": "filing/receipt status",
+      "expected": "index is work draft, no false filing or receipt claim"
+    },
+    {
+      "id": "PKG.originals",
+      "status": "passed",
+      "actual": {
+        "COURT-ZHENXIN-CLAIM.docx": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+        "COURT-ZHENXIN-GUIDE.pdf": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+        "COURT-ZHENXIN-LIST.docx": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+        "COURT-ZHENXIN-REGISTER.docx": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db"
+      },
+      "expected": "four public originals match indexed SHA-256 and are parseable"
+    }
+  ],
+  "critical_error_caps": []
+}

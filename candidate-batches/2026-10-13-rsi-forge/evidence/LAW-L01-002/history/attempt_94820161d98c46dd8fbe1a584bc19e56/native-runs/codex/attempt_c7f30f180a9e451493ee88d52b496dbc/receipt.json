@@ -1,0 +1,33 @@
+{
+  "harness": "codex",
+  "job_id": "job_214db05d737a49ada924d3aab4216832",
+  "run_id": "run_45b42b3aeb9340f9a49019cc65a1c554",
+  "status": "failed",
+  "attempt_id": "attempt_c7f30f180a9e451493ee88d52b496dbc",
+  "verifier_result": null,
+  "exception_info": {
+    "exception_type": "RuntimeError",
+    "exception_message": "codex exited with status 1",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 41, in _run\n    await self._run_agent()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 442, in _run_agent_phase\n    await asyncio.wait_for(\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 384, in run\n    await self.durable_command(environment, configured.command, env=env, user=\"rsi\")\n  File \"[batch-workspace]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 407, in durable_command\n    raise RuntimeError(f\"{runtime.request.harness} exited with status {result.return_code}\")\nRuntimeError: codex exited with status 1\n",
+    "occurred_at": "2026-10-14T02:36:16.356882"
+  },
+  "started_at": "2026-10-13T18:21:27.893398Z",
+  "finished_at": "2026-10-13T18:36:22.011903Z",
+  "agent_execution": {
+    "started_at": "2026-10-13T18:21:49.427177Z",
+    "finished_at": "2026-10-13T18:36:14.126632Z"
+  },
+  "verifier": null,
+  "collected_path": "[batch-workspace]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_c7f30f180a9e451493ee88d52b496dbc",
+  "file_sha256": {
+    "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+    "artifacts/workspace/output/extracted/contract.txt": "cfe69668546073249fc335463db65f0c2645f191d6936a725f5c06b4508364b7",
+    "artifacts/workspace/output/extracted/requirements.txt": "abca438864b47392f4c5a28ace72d06931f5d76b17071ecbc0f21b2e6ccbf95d",
+    "artifacts/workspace/output/extracted/source_sha256.txt": "8fb6be62cd48c3abe7fda8f987edacca0b1032d677c719d658df1687ee93f5af",
+    "artifacts/workspace/output/extracted/tender.txt": "bcae5124ee431761586cedb661810e7e40ec422c51646b40cc15638466a54589",
+    "artifacts/workspace/output/extracted/tender_archive.docx": "0489a3cf5230843aa04f11c6645a70525138228a380282377359d58566e5275e",
+    "artifacts/workspace/output/extracted/tender_archive.pdf": "e9c375d6c295d86b6011911ed0113e6308a67815cec19b10dfa53c8250d2ddcb",
+    "artifacts/workspace/output/extracted/tender_pdf.txt": "1067a59310874c621f6ad0c53b30ef755973a999816a81cac4fb6586f97cb60e",
+    "artifacts/workspace/output/worklog.md": "8e06081df0e2d65867206692a52bf4e1994733c5c65a8d4b4a5ee3e11767f864"
+  }
+}

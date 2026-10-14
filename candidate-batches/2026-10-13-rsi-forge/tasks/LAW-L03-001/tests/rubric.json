@@ -1,0 +1,34 @@
+{
+  "total_points": 25,
+  "criteria": [
+    {"id":"PDF","points":1,"description":"摘要PDF文字可读且覆盖公开要求的关键线索和交叉引用"},
+    {"id":"R1","points":1,"description":"交易主体、标的及40%交易范围准确记录"},
+    {"id":"R2","points":1,"description":"5月草案、7月修订稿及修订说明形成可追溯版本链"},
+    {"id":"R3","points":1,"description":"评估基准、估值口径及交易价款有文件依据"},
+    {"id":"R4","points":1,"description":"准确区分8-580历史审计期间"},
+    {"id":"R5","points":1,"description":"准确记录8-650加期期间"},
+    {"id":"R6","points":1,"description":"将修订说明作为事项索引而非底层证据"},
+    {"id":"R7","points":1,"description":"记录5月法律意见身份和扫描限制"},
+    {"id":"R8","points":1,"description":"记录7月补充法律意见身份和扫描限制"},
+    {"id":"R9","points":1,"description":"矿业权证照需求及原件缺口具体"},
+    {"id":"R10","points":1,"description":"扩能目标与未完手续准确区分"},
+    {"id":"R11","points":1,"description":"抵押清偿线索及注销凭证缺口完整"},
+    {"id":"R12","points":1,"description":"股权质押冻结披露与独立登记核验分开"},
+    {"id":"R13","points":1,"description":"行政处罚披露与决定书整改补件相对应"},
+    {"id":"R14","points":1,"description":"关联交易合同、定价和决策底层依据明确"},
+    {"id":"R15","points":1,"description":"已履行程序和尚需程序不混淆"},
+    {"id":"R16","points":1,"description":"交易协议及交割条件作为明确缺口"},
+    {"id":"R17","points":1,"description":"业绩承诺及补偿保障核验要求可执行"},
+    {"id":"R18","points":1,"description":"审计签章及资质附件完整性需核验"},
+    {"id":"R19","points":1,"description":"主体登记档案补件明确"},
+    {"id":"R20","points":1,"description":"股权/出资权属链补件明确"},
+    {"id":"R21","points":1,"description":"重大合同及履行违约资料需求明确"},
+    {"id":"R22","points":1,"description":"资产权属和在建工程资料需求明确"},
+    {"id":"R23","points":1,"description":"用工、社保及劳动争议资料需求明确"},
+    {"id":"R24","points":1,"description":"上轮清单与数据室索引缺失进入跟进"}
+  ],
+  "critical_errors": [
+    {"id":"CE.period-substitution","assertion":"R04.audit-period","cap":0.5,"description":"将8-580误记为包含2026年1-4月"},
+    {"id":"CE.disclosure-as-verification","assertion":"R15.approvals","cap":0.5,"description":"将披露的尚需程序写成已完成或独立核实"}
+  ]
+}

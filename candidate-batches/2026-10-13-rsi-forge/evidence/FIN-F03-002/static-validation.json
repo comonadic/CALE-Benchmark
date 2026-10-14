@@ -1,0 +1,28 @@
+{
+  "package": "[batch-workspace]/deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002",
+  "producer_attempt": "attempt_ce81465411de454f8e458b883198dd50",
+  "static_validator_exit": 0,
+  "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"FIN-F03-002\",\n      \"path\": \"[batch-workspace]/deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"b96d99a30c0aa5b2db780e87c57a59e3171748e77871387caeb4e78a31902693\",\n        \"task.toml\": \"6d12f57aa07248c53975a3abce13885dc4a22678264a3ee0318e7388af641edb\",\n        \"environment/Dockerfile\": \"ca28ad60efdf167b8044baf1388e733c111d47362c2bd57a098ba7d6a293615a\",\n        \"solution/solve.sh\": \"ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9\",\n        \"solution/build_reference.py\": \"60710200acf6b464761eadec6f19e6e63c799f0a8dbb37d9e2446beacb66389e\",\n        \"tests/test.sh\": \"43408b94fe547004a139d5ece90c73dca7ee25c59bd5953b41fbbabef9600467\",\n        \"tests/assertions.json\": \"53e09223e75f580d911f5ab691579a5a15af153cae21b15df93ec516691928a1\",\n        \"tests/grade.py\": \"28145445768e001043ec23636f716092fe4e66303e87d20196326250123f3858\"\n      },\n      \"assertion_count\": 24,\n      \"criteria_covered\": [\n        \"annualization\",\n        \"cash_constraints\",\n        \"financing_deductions_missing\",\n        \"growth_assumption\",\n        \"no_fabricated_applicant_inputs\",\n        \"no_hedge_limit_as_debt\",\n        \"pdf_exists\",\n        \"period_and_units\",\n        \"profit_margin\",\n        \"regulatory_example_boundary\",\n        \"repayment_evidence\",\n        \"role_separation\",\n        \"scope_group_vs_parent\",\n        \"source_ar_2025\",\n        \"source_cost_2025\",\n        \"source_inventory_2025\",\n        \"source_op_cash_h1\",\n        \"source_revenue_2025\",\n        \"source_short_debt_h1\",\n        \"turnover_formulas\",\n        \"turnover_inputs\",\n        \"turnover_mapping\",\n        \"working_capital_formula\",\n        \"xlsx_exists\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "file_sha256": {
+    "environment/Dockerfile": "ca28ad60efdf167b8044baf1388e733c111d47362c2bd57a098ba7d6a293615a",
+    "environment/input-data/CN-1225203635.pdf": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+    "environment/input-data/CN-1225451854.pdf": "058d72df110d1f589549ba129d49e60ea6d52e81a995812735ec797a2a9b3d47",
+    "environment/input-data/CN-1225491061.pdf": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+    "environment/input-data/CN-1225495975.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+    "instruction.md": "b96d99a30c0aa5b2db780e87c57a59e3171748e77871387caeb4e78a31902693",
+    "lineage.json": "26c502fc47debcb78d23d5b344cc25fb7bd136fb64460939c34b7220075966ce",
+    "private/authoring/decision-record.md": "fd8db8d97402ac1c40bb5f85be4941558e0067ab2c0884a20874a68ab6bc318c",
+    "private/evaluation/validation.json": "7c56c269b6a20a5425700ebbf0fb63ccaa4a1367052cd8a6dca1b837a7b744ff",
+    "private/provenance.json": "403a7a1d4234570933957665dbb79fc0258501ed0a616c6f7ba65fd455f6ca4b",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "0d5105b75213ebac97e63facb520fd36128531cf96d3edf595445206e6fd83db",
+    "solution/build_reference.py": "60710200acf6b464761eadec6f19e6e63c799f0a8dbb37d9e2446beacb66389e",
+    "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+    "task.toml": "6d12f57aa07248c53975a3abce13885dc4a22678264a3ee0318e7388af641edb",
+    "tests/Dockerfile": "aca571533b36a87d341887a61b8d06d81136a821d1c5c6e0b5d3635f5a67531d",
+    "tests/__pycache__/grade.cpython-312.pyc": "a8828ec2a8d3de63a224bacfc78ac679aafbfadce7c7578f835ceabf34659273",
+    "tests/assertions.json": "53e09223e75f580d911f5ab691579a5a15af153cae21b15df93ec516691928a1",
+    "tests/grade.py": "28145445768e001043ec23636f716092fe4e66303e87d20196326250123f3858",
+    "tests/test.sh": "43408b94fe547004a139d5ece90c73dca7ee25c59bd5953b41fbbabef9600467"
+  }
+}

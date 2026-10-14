@@ -1,0 +1,21 @@
+{
+  "task_id": "FIN-F13-002",
+  "status": "verified",
+  "harbor_execution": {
+    "status": "corrected",
+    "evidence": "Prior candidate failed on PDF extraction in verifier; corrected environment and grader dependencies"
+  },
+  "grading_calibration": {
+    "status": "verified_via_oracle",
+    "evidence": "Oracle test produces valid workbook and PDF; grader successfully extracts and validates all 33 assertions"
+  },
+  "independent_solver_rollout": {
+    "status": "ready_for_rollout",
+    "evidence": "Package structure complete; verifier container builds and runs successfully"
+  },
+  "corrections_applied": [
+    "Ensured all PDF extraction uses pypdf consistently across agent and verifier environments",
+    "Verified Chinese text extraction works correctly from all four input PDFs",
+    "Confirmed grader logic matches oracle outputs"
+  ]
+}

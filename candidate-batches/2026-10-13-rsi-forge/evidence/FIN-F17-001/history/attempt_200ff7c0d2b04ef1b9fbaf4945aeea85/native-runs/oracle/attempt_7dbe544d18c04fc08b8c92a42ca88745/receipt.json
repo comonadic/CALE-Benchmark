@@ -1,0 +1,35 @@
+{
+  "harness": "oracle",
+  "job_id": "job_54d42ef97c9b4de68a3055048446333e",
+  "run_id": "run_530c0d9c368e4c7fbc36dee693de8a6f",
+  "status": "succeeded",
+  "attempt_id": "attempt_7dbe544d18c04fc08b8c92a42ca88745",
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-13T18:20:11.639131Z",
+  "finished_at": "2026-10-13T18:20:59.561371Z",
+  "agent_execution": {
+    "started_at": "2026-10-13T18:20:15.240933Z",
+    "finished_at": "2026-10-13T18:20:41.425235Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-13T18:20:48.073062Z",
+    "finished_at": "2026-10-13T18:20:59.559547Z"
+  },
+  "collected_path": "[batch-workspace]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745",
+  "file_sha256": {
+    "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+    "artifacts/workspace/output/evidence_gaps.csv": "2f803abd43ece78ccc4b30e4af68047b65062b90868fc79685ac6879eda8b59d",
+    "artifacts/workspace/output/evidence_register.csv": "91e23d0200214ff29296f15294c3c61ee3e35c2c6c2a99e3dfdf22b538671e82",
+    "artifacts/workspace/output/misstatement_review.docx": "6192fbb7bac2a0b8cb258b7ba4f053985756fb4cf6ec2953e93f1247bd56d887",
+    "artifacts/workspace/output/misstatement_review.pdf": "dd23d3521034d926a5e762dc9ead15f46874fb99bb23425a01daa0de4399d79e",
+    "execution/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verifier/report.json": "2209cc04d574055c50ef74311114833347fcc20ac7adc1b7b78c38a3e96f4049",
+    "verifier/reward.json": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+    "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

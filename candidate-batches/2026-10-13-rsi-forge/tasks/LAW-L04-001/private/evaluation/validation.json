@@ -1,0 +1,30 @@
+{
+  "harbor_execution": {
+    "status": "not_run",
+    "harbor_schema": "not_available",
+    "docker_build": "not_run",
+    "reference_generated_locally": "passed",
+    "reference_reward": 1.0,
+    "empty_output_reward": 0.0,
+    "error_mutation": "wrong cutoff detected; cap 0.5",
+    "evidence": [
+      "local-reference-report.json",
+      "wrong-cutoff-challenge-report.json"
+    ]
+  },
+  "grading_calibration": {
+    "status": "partial",
+    "assertions": 24,
+    "reference_passed": 24,
+    "empty_baseline_passed": 0,
+    "critical_error_challenge": "passed",
+    "reasonable_alternatives": "not_run",
+    "professional_judgment_review": "not_run"
+  },
+  "independent_solver_rollout": {
+    "status": "not_run",
+    "model": null,
+    "evidence": null
+  },
+  "overall": "draft"
+}

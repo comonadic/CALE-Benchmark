@@ -1,0 +1,244 @@
+{
+  "card": "LAW-L01-002",
+  "candidate_file_sha256": {
+    "environment/Dockerfile": "bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47",
+    "environment/input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+    "environment/input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+    "environment/input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+    "instruction.md": "5f53ae807ddc46d7a5214cab00f73934d3c18cbd54002f5ca73fdf6cd9a972a0",
+    "lineage.json": "f9c9955caa5e42c168b85a5a666ed0f6b343c6057c5e781804095f48ae1b5813",
+    "private/evaluation/calibration-1.json": "6b8bda354c23b04f795ad4fa04ffafca25cf4861ae66d3662bf7fd6b8988fc97",
+    "private/evaluation/validation.json": "96e37b57590e69fe70098c991179032212a4ce27d769860e79ffb22b99cbaf19",
+    "private/provenance.json": "4f6d3f8d4db6840f9f50c6271a7af9fa4dfcc08f64ddd40d160cc607d374c7d1",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "68b97b97e73c347283083e1263a97340fdb0ae6e9d4b47e77670fba7349fa85d",
+    "solution/build_reference.py": "d4153dcf9f712a7e0f07f6b961194beb96b0c78f901abd320fad4b330e47a0c6",
+    "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+    "task.toml": "05405c749a79adc78d93712ab7017855097dd5e9bebb3950fbd87edf1831df2e",
+    "tests/Dockerfile": "0e5671e9290378f5adee62ab8f2c9383f9da3e9411e614892c06bab0e7abee22",
+    "tests/__pycache__/grade.cpython-312.pyc": "af0cf9486bd10d6c61b47e07aef00c526128a1c5ad99daedf29e7c1652ad05d9",
+    "tests/assertions.json": "556b1dd0aaa8137210cce398c59bc933b296267dfb3d4f7e46e851366a5fca2e",
+    "tests/grade.py": "7afa7114d991106ca3c396f789d7828c2d300f81f8935ee7364ac75eb35ff4bf",
+    "tests/input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+    "tests/input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+    "tests/input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+    "tests/test.sh": "6ad01e2fe86cc95fc78b5c33eea8eb84b4fce573edd8212dd60f0758a0fab19c"
+  },
+  "static_validation": {
+    "package": "[batch-root]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002",
+    "producer_attempt": "attempt_94820161d98c46dd8fbe1a584bc19e56",
+    "static_validator_exit": 0,
+    "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L01-002\",\n      \"path\": \"[batch-root]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"5f53ae807ddc46d7a5214cab00f73934d3c18cbd54002f5ca73fdf6cd9a972a0\",\n        \"task.toml\": \"05405c749a79adc78d93712ab7017855097dd5e9bebb3950fbd87edf1831df2e\",\n        \"environment/Dockerfile\": \"bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47\",\n        \"solution/solve.sh\": \"ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9\",\n        \"solution/build_reference.py\": \"d4153dcf9f712a7e0f07f6b961194beb96b0c78f901abd320fad4b330e47a0c6\",\n        \"tests/test.sh\": \"6ad01e2fe86cc95fc78b5c33eea8eb84b4fce573edd8212dd60f0758a0fab19c\",\n        \"tests/assertions.json\": \"556b1dd0aaa8137210cce398c59bc933b296267dfb3d4f7e46e851366a5fca2e\",\n        \"tests/grade.py\": \"7afa7114d991106ca3c396f789d7828c2d300f81f8935ee7364ac75eb35ff4bf\"\n      },\n      \"assertion_count\": 25,\n      \"criteria_covered\": [\n        \"clean contract does not retain the absolute no-subcontracting conflict and refers to procurement rules\",\n        \"clean contract has no w:ins or w:del markup\",\n        \"clean contract has 七、考核与验收\",\n        \"clean contract includes 10 working day final acceptance deadline\",\n        \"clean contract includes 7-day organization deadline\",\n        \"clean contract includes 9-month preliminary acceptance\",\n        \"clean contract retains 12-month/final contract acceptance\",\n        \"clean contract states payment processing within 5 working days\",\n        \"clean contract uses CZ2026-0463 and does not use CZ2026-xxxx\",\n        \"clean contract uses 巡检、维修、保养\",\n        \"contract_clean.docx exists and is a readable DOCX\",\n        \"contract_redline.docx exists and is a readable DOCX\",\n        \"opinion cites contract, procurement requirement and tender source locations\",\n        \"opinion distinguishes procurement/legal baseline from business choice\",\n        \"opinion identifies the procurement payment-priority rule or payment conflict\",\n        \"opinion records 30/30/20/20 installment confirmation\",\n        \"opinion records 40 percent SME and 28 percent small-micro share\",\n        \"opinion records attachment 1 performance scheme confirmation\",\n        \"opinion records confidentiality agreement and team execution\",\n        \"opinion treats contract amount as a confirmation item rather than inventing a price\",\n        \"opinion treats乙方主体 and signing information as confirmation items\",\n        \"redline contains at least one w:del tracked deletion\",\n        \"redline contains at least one w:ins tracked insertion\",\n        \"redline contains comments.xml and comment references\",\n        \"review_opinion.docx exists and is a readable DOCX\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "file_sha256": {
+      "environment/Dockerfile": "bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47",
+      "environment/input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "environment/input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "environment/input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+      "instruction.md": "5f53ae807ddc46d7a5214cab00f73934d3c18cbd54002f5ca73fdf6cd9a972a0",
+      "lineage.json": "f9c9955caa5e42c168b85a5a666ed0f6b343c6057c5e781804095f48ae1b5813",
+      "private/evaluation/calibration-1.json": "6b8bda354c23b04f795ad4fa04ffafca25cf4861ae66d3662bf7fd6b8988fc97",
+      "private/evaluation/validation.json": "96e37b57590e69fe70098c991179032212a4ce27d769860e79ffb22b99cbaf19",
+      "private/provenance.json": "4f6d3f8d4db6840f9f50c6271a7af9fa4dfcc08f64ddd40d160cc607d374c7d1",
+      "solution/__pycache__/build_reference.cpython-312.pyc": "68b97b97e73c347283083e1263a97340fdb0ae6e9d4b47e77670fba7349fa85d",
+      "solution/build_reference.py": "d4153dcf9f712a7e0f07f6b961194beb96b0c78f901abd320fad4b330e47a0c6",
+      "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+      "task.toml": "05405c749a79adc78d93712ab7017855097dd5e9bebb3950fbd87edf1831df2e",
+      "tests/Dockerfile": "0e5671e9290378f5adee62ab8f2c9383f9da3e9411e614892c06bab0e7abee22",
+      "tests/__pycache__/grade.cpython-312.pyc": "af0cf9486bd10d6c61b47e07aef00c526128a1c5ad99daedf29e7c1652ad05d9",
+      "tests/assertions.json": "556b1dd0aaa8137210cce398c59bc933b296267dfb3d4f7e46e851366a5fca2e",
+      "tests/grade.py": "7afa7114d991106ca3c396f789d7828c2d300f81f8935ee7364ac75eb35ff4bf",
+      "tests/input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "tests/input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "tests/input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+      "tests/test.sh": "6ad01e2fe86cc95fc78b5c33eea8eb84b4fce573edd8212dd60f0758a0fab19c"
+    }
+  },
+  "native_execution": {
+    "manifest": "[batch-root]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/forge-trials.json",
+    "bundle_sha256": "7c349e3d96b94403d7e08e3b94e01764f7a32116683a12bf1d7f42b8fc236db5",
+    "trials": [
+      {
+        "harness": "oracle",
+        "job_id": "job_c5509cab1ab04c02bf375233b6b2e928",
+        "run_id": "run_d0cfea77c7cf4aa2a34c5b9db814430d",
+        "status": "succeeded",
+        "attempt_id": "attempt_89168f36cefd4bc493a19563e7252421",
+        "verifier_result": {
+          "rewards": {
+            "reward": 1.0
+          }
+        },
+        "exception_info": null,
+        "started_at": "2026-10-13T18:21:25.886551Z",
+        "finished_at": "2026-10-13T18:21:56.517266Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:21:29.390436Z",
+          "finished_at": "2026-10-13T18:21:37.953338Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:21:46.367230Z",
+          "finished_at": "2026-10-13T18:21:56.516723Z"
+        },
+        "collected_path": "[batch-root]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/oracle/attempt_89168f36cefd4bc493a19563e7252421",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "artifacts/workspace/output/contract_clean.docx": "20a906076eb34a1284315a1f659648547efe303f4e9ac4ae57be6ad1c7391e56",
+          "artifacts/workspace/output/contract_redline.docx": "cd327d69a4578fa453740eef632be946bfeefdae03c5869e16427f2af19bf0f3",
+          "artifacts/workspace/output/review_opinion.docx": "55e643c56d459a395db2197048d56ced89fe74e6b233f9807474599477d1a8a6",
+          "artifacts/workspace/output/worklog.md": "dc504888c5fb7ce792df61b51210a5f57ecfab2f77b310bcc4121137237183f1",
+          "execution/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "verifier/report.json": "46abff3b1a64676a419e8f3c022b9e26df25ed1c9b824c8105d2332e315ee363",
+          "verifier/reward.json": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "harness": "nop",
+        "job_id": "job_a61f71c9b0044919b5ef52ee4b9e7bf3",
+        "run_id": "run_d1efbb0d07484dbd9d975b0cfe91d0fe",
+        "status": "succeeded",
+        "attempt_id": "attempt_9d8490bf07fa4427a445c1e2c9b3406b",
+        "verifier_result": {
+          "rewards": {
+            "reward": 0.0
+          }
+        },
+        "exception_info": null,
+        "started_at": "2026-10-13T18:21:25.903306Z",
+        "finished_at": "2026-10-13T18:21:50.564862Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:21:29.884559Z",
+          "finished_at": "2026-10-13T18:21:30.163325Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:21:38.014443Z",
+          "finished_at": "2026-10-13T18:21:50.562487Z"
+        },
+        "collected_path": "[batch-root]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/nop/attempt_9d8490bf07fa4427a445c1e2c9b3406b",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "verifier/report.json": "2d94e722d1e2abe9e8cdd6658efc72ed3e65424322b732f88be75edb3a42bf72",
+          "verifier/reward.json": "b2695462ed3c7dd9715862d5c6f030c98f63b701b75282bb90a60ffcaeab06b2",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "harness": "codex",
+        "job_id": "job_214db05d737a49ada924d3aab4216832",
+        "run_id": "run_45b42b3aeb9340f9a49019cc65a1c554",
+        "status": "failed",
+        "attempt_id": "attempt_e6cce8e55f0744c1b3c8cc1b0febbcee",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RuntimeError",
+          "exception_message": "codex exited with status 1",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 41, in _run\n    await self._run_agent()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 77, in _run_agent\n    await self._run_agent_phase(\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 442, in _run_agent_phase\n    await asyncio.wait_for(\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[batch-root]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 384, in run\n    )\n      \n  File \"[batch-root]/forge-runtime/src/rsi_forge/harbor_bridge.py\", line 407, in durable_command\n    result = await runner.run(command, env=env, user=user)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: codex exited with status 1\n",
+          "occurred_at": "2026-10-14T02:57:58.339037"
+        },
+        "started_at": "2026-10-13T18:49:46.921043Z",
+        "finished_at": "2026-10-13T18:58:02.899126Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:50:06.453887Z",
+          "finished_at": "2026-10-13T18:57:56.234816Z"
+        },
+        "verifier": null,
+        "collected_path": "[batch-root]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/native-runs/codex/attempt_e6cce8e55f0744c1b3c8cc1b0febbcee",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "artifacts/workspace/output/contract_extracted.txt": "bb587cd74c573b64b84b247e6945e19bde1feef436b774c9a2b4f13462b04a7c",
+          "artifacts/workspace/output/requirements_extracted.txt": "151bced60a0537c604463cb7d1861caa28ddc6c8adae62e83928a66a87aed7d0",
+          "artifacts/workspace/output/tender_extracted.txt": "2cacab1e28202f0459a040cc2f06e16c66a20205ef192f36295b568cd20bad36",
+          "artifacts/workspace/output/tender_original.docx": "0489a3cf5230843aa04f11c6645a70525138228a380282377359d58566e5275e",
+          "artifacts/workspace/output/tender_original.pdf": "e9c375d6c295d86b6011911ed0113e6308a67815cec19b10dfa53c8250d2ddcb",
+          "artifacts/workspace/output/tender_pdf_extracted.txt": "1067a59310874c621f6ad0c53b30ef755973a999816a81cac4fb6586f97cb60e",
+          "artifacts/workspace/output/worklog.md": "d5aa95df643dc53d6a7898efd7fb3dbe70735563a32885b8c7e9ec9df579d92f"
+        }
+      }
+    ]
+  },
+  "verifier_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_89168f36cefd4bc493a19563e7252421",
+      "path": "report.json",
+      "sha256": "46abff3b1a64676a419e8f3c022b9e26df25ed1c9b824c8105d2332e315ee363",
+      "content": "{\n  \"status\": \"graded\",\n  \"valid\": true,\n  \"P\": 25,\n  \"S\": 25,\n  \"reward\": 1.0,\n  \"assertions\": [\n    {\n      \"id\": \"redline_exists\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"redline file\"\n    },\n    {\n      \"id\": \"clean_exists\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"clean file\"\n    },\n    {\n      \"id\": \"opinion_exists\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"opinion file\"\n    },\n    {\n      \"id\": \"redline_ins\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"redline insertions\"\n    },\n    {\n      \"id\": \"redline_del\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"redline deletions\"\n    },\n    {\n      \"id\": \"redline_comments\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"redline comments\"\n    },\n    {\n      \"id\": \"project_number\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"project identifier\"\n    },\n    {\n      \"id\": \"payment_five\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"payment deadline\"\n    },\n    {\n      \"id\": \"payment_source\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"payment conflict note\"\n    },\n    {\n      \"id\": \"subcontracting\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"subcontracting clause\"\n    },\n    {\n      \"id\": \"sme_share\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"SME share\"\n    },\n    {\n      \"id\": \"preliminary_acceptance\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"preliminary acceptance\"\n    },\n    {\n      \"id\": \"prelim_seven_days\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"preliminary acceptance deadline\"\n    },\n    {\n      \"id\": \"final_acceptance\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"final acceptance\"\n    },\n    {\n      \"id\": \"acceptance_ten_days\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"final acceptance deadline\"\n    },\n    {\n      \"id\": \"chapter_seven\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"section numbering\"\n    },\n    {\n      \"id\": \"typo_fixed\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"service wording\"\n    },\n    {\n      \"id\": \"amount_not_invented\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"amount confirmation\"\n    },\n    {\n      \"id\": \"party_not_invented\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"party confirmation\"\n    },\n    {\n      \"id\": \"staged_payment\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"installment confirmation\"\n    },\n    {\n      \"id\": \"confidentiality\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"confidentiality confirmation\"\n    },\n    {\n      \"id\": \"performance_scheme\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"performance scheme\"\n    },\n    {\n      \"id\": \"legal_business_split\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"review position\"\n    },\n    {\n      \"id\": \"source_basis\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"source citations\"\n    },\n    {\n      \"id\": \"clean_no_markup\",\n      \"status\": \"passed\",\n      \"actual\": true,\n      \"expected\": true,\n      \"unit\": \"clean markup\"\n    }\n  ],\n  \"errors\": []\n}"
+    },
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_89168f36cefd4bc493a19563e7252421",
+      "path": "reward.json",
+      "sha256": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+      "content": "{\"reward\": 1.0}"
+    },
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_89168f36cefd4bc493a19563e7252421",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_9d8490bf07fa4427a445c1e2c9b3406b",
+      "path": "report.json",
+      "sha256": "2d94e722d1e2abe9e8cdd6658efc72ed3e65424322b732f88be75edb3a42bf72",
+      "content": "{\n  \"status\": \"graded_candidate_defect\",\n  \"valid\": true,\n  \"P\": 0,\n  \"S\": 25,\n  \"reward\": 0.0,\n  \"assertions\": [\n    {\n      \"id\": \"redline_exists\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"redline file\"\n    },\n    {\n      \"id\": \"clean_exists\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"clean file\"\n    },\n    {\n      \"id\": \"opinion_exists\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"opinion file\"\n    },\n    {\n      \"id\": \"redline_ins\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"redline insertions\"\n    },\n    {\n      \"id\": \"redline_del\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"redline deletions\"\n    },\n    {\n      \"id\": \"redline_comments\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"redline comments\"\n    },\n    {\n      \"id\": \"project_number\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"project identifier\"\n    },\n    {\n      \"id\": \"payment_five\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"payment deadline\"\n    },\n    {\n      \"id\": \"payment_source\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"payment conflict note\"\n    },\n    {\n      \"id\": \"subcontracting\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"subcontracting clause\"\n    },\n    {\n      \"id\": \"sme_share\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"SME share\"\n    },\n    {\n      \"id\": \"preliminary_acceptance\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"preliminary acceptance\"\n    },\n    {\n      \"id\": \"prelim_seven_days\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"preliminary acceptance deadline\"\n    },\n    {\n      \"id\": \"final_acceptance\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"final acceptance\"\n    },\n    {\n      \"id\": \"acceptance_ten_days\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"final acceptance deadline\"\n    },\n    {\n      \"id\": \"chapter_seven\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"section numbering\"\n    },\n    {\n      \"id\": \"typo_fixed\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"service wording\"\n    },\n    {\n      \"id\": \"amount_not_invented\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"amount confirmation\"\n    },\n    {\n      \"id\": \"party_not_invented\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"party confirmation\"\n    },\n    {\n      \"id\": \"staged_payment\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"installment confirmation\"\n    },\n    {\n      \"id\": \"confidentiality\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"confidentiality confirmation\"\n    },\n    {\n      \"id\": \"performance_scheme\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"performance scheme\"\n    },\n    {\n      \"id\": \"legal_business_split\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"review position\"\n    },\n    {\n      \"id\": \"source_basis\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"source citations\"\n    },\n    {\n      \"id\": \"clean_no_markup\",\n      \"status\": \"failed\",\n      \"actual\": false,\n      \"expected\": true,\n      \"unit\": \"clean markup\"\n    }\n  ],\n  \"errors\": []\n}"
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_9d8490bf07fa4427a445c1e2c9b3406b",
+      "path": "reward.json",
+      "sha256": "b2695462ed3c7dd9715862d5c6f030c98f63b701b75282bb90a60ffcaeab06b2",
+      "content": "{\"reward\": 0.0}"
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_9d8490bf07fa4427a445c1e2c9b3406b",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "execution_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_89168f36cefd4bc493a19563e7252421",
+      "path": "execution/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "pipeline": {
+    "stage": "submit",
+    "status": "succeeded",
+    "log": "[batch-root]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/forge-submit.log",
+    "pid": 59879,
+    "return_code": 0
+  },
+  "build_log_tail": "18:21:14.302567+00:00] [debug] Saved: 0f33b0f6-3ba9-4874-9c34-ea614afdac01\n[2026-10-13T18:21:14.929857+00:00] [debug] Adding layer to cache: 61bf2d17-3d56-4e36-a357-522be3a2c59c\n[2026-10-13T18:21:14.930014+00:00] [debug] Uploading layer: 61bf2d17-3d56-4e36-a357-522be3a2c59c\n[2026-10-13T18:21:14.950779+00:00] [info] [builder 7/9] COPY input-data/ /workspace/input-data/   [00994a785b1c74d432ebdf345521f7e160b9c0ab7c3e37e68b5a609fba0b5cd3]\n[2026-10-13T18:21:15.355499+00:00] [debug] Saved: 61bf2d17-3d56-4e36-a357-522be3a2c59c\n[2026-10-13T18:21:15.818875+00:00] [debug] Adding layer to cache: 8d07c9c2-3795-4e36-919d-d2545a8621f3\n[2026-10-13T18:21:15.819022+00:00] [debug] Uploading layer: 8d07c9c2-3795-4e36-919d-d2545a8621f3\n[2026-10-13T18:21:15.835006+00:00] [info] [builder 8/9] RUN mkdir -p /workspace/output /logs/verifier [54131a03c3a91a0880420c130ae161135cc95118b1b3c83206c2e7a327603e38]\n[2026-10-13T18:21:16.271397+00:00] [debug] Saved: 8d07c9c2-3795-4e36-919d-d2545a8621f3\n[2026-10-13T18:21:16.520569+00:00] [debug] Adding layer to cache: b4aea647-4f2a-4ac5-ab7f-d657c18ba943\n[2026-10-13T18:21:16.520712+00:00] [debug] Uploading layer: b4aea647-4f2a-4ac5-ab7f-d657c18ba943\n[2026-10-13T18:21:16.538430+00:00] [info] [builder 9/9] USER user [2aecfe42d9f9d507f1ed0b284ecaa156c010c66463222bfdcdd6bd512d36e387]\n[2026-10-13T18:21:16.893801+00:00] [debug] Saved: b4aea647-4f2a-4ac5-ab7f-d657c18ba943\n[2026-10-13T18:21:17.495848+00:00] [debug] Adding layer to cache: d1ec5a74-976b-4cd6-b533-d75492173c2f\n[2026-10-13T18:21:17.496010+00:00] [debug] Uploading layer: d1ec5a74-976b-4cd6-b533-d75492173c2f\n[2026-10-13T18:21:17.496455+00:00] [info] [resize-disk] Resizing disk [3113e0daf90508a759186133862270942c909279a895b83e31bc8df0fa6e8f56]\n[2026-10-13T18:21:17.899004+00:00] [debug] Saved: d1ec5a74-976b-4cd6-b533-d75492173c2f\n[2026-10-13T18:21:18.902065+00:00] [info] resize-disk: free 9384 -> 10240 MiB\n[2026-10-13T18:21:18.902822+00:00] [debug] Adding layer to cache: 3504c4bd-f66a-4735-a67e-0eb4c16f8d88\n[2026-10-13T18:21:18.902899+00:00] [debug] Uploading layer: 3504c4bd-f66a-4735-a67e-0eb4c16f8d88\n[2026-10-13T18:21:18.903135+00:00] [info] [finalize] Finalizing template build [47dcb03785774d36f5b56c4a95f20c503739228aac361b3c99d3b2bf1d125aa7]\n[2026-10-13T18:21:19.109583+00:00] [debug] Saved: 3504c4bd-f66a-4735-a67e-0eb4c16f8d88\n[2026-10-13T18:21:19.862704+00:00] [debug] [config] [stdout]: Starting configuration script\n[2026-10-13T18:21:19.863986+00:00] [debug] [config] [stdout]: Create default user 'user' (if doesn't exist yet)\n[2026-10-13T18:21:19.865630+00:00] [debug] [config] [stdout]: Copy skeleton files to /home/user (keeping existing files)\n[2026-10-13T18:21:19.869629+00:00] [debug] [config] [stdout]: skel: keeping existing .bashrc\n[2026-10-13T18:21:19.869723+00:00] [debug] [config] [stdout]: skel: keeping existing .profile\n[2026-10-13T18:21:19.869792+00:00] [debug] [config] [stdout]: skel: keeping existing .bash_logout\n[2026-10-13T18:21:19.870103+00:00] [debug] [config] [stdout]: Add sudo to 'user' with no password\n[2026-10-13T18:21:19.889872+00:00] [debug] [config] [stdout]: passwd: password changed.\n[2026-10-13T18:21:19.894463+00:00] [debug] [config] [stdout]: sudoers entry already present\n[2026-10-13T18:21:19.894496+00:00] [debug] [config] [stdout]: Give 'user' ownership to /home/user\n[2026-10-13T18:21:19.898602+00:00] [debug] [config] [stdout]: Give 777 permission to /usr/local\n[2026-10-13T18:21:19.958172+00:00] [debug] [config] [stdout]: Create /code directory\n[2026-10-13T18:21:19.959645+00:00] [debug] [config] [stdout]: Give 777 permission to /code\n[2026-10-13T18:21:19.961076+00:00] [debug] [config] [stdout]: Finished configuration script\n[2026-10-13T18:21:20.204585+00:00] [debug] [certs] [stdout]: Updating certificates in /etc/ssl/certs...\n[2026-10-13T18:21:21.194179+00:00] [debug] [certs] [stderr]: rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL\n[2026-10-13T18:21:21.202257+00:00] [debug] [certs] [stdout]: 150 added, 0 removed; done.\n[2026-10-13T18:21:21.202570+00:00] [debug] [certs] [stdout]: Running hooks in /etc/ca-certificates/update.d...\n[2026-10-13T18:21:21.205170+00:00] [debug] [certs] [stdout]: done.\n[2026-10-13T18:21:22.033245+00:00] [debug] Adding layer to cache: f782edea-5314-44ef-978c-c52fdd29945c\n[2026-10-13T18:21:22.033367+00:00] [debug] Uploading layer: f782edea-5314-44ef-978c-c52fdd29945c\n[2026-10-13T18:21:22.033875+00:00] [info] [optimize] Optimizing template [507249f4ff1efa5e35bcf1d7636ab713f3a5193da2678c160b059bf69e9f755e]\n[2026-10-13T18:21:22.746120+00:00] [debug] Saved: f782edea-5314-44ef-978c-c52fdd29945c\n[2026-10-13T18:21:23.165288+00:00] [info] Build finished, took 45s\n[2026-10-14T02:21:23.779324] [debug] Build finished\n{\"role\": \"verifier\", \"build\": {\"template_id\": \"b7lq6m0cyyer7eytkn4f\", \"build_id\": \"f782edea-5314-44ef-978c-c52fdd29945c\", \"name\": \"cale-law-l01-002-verifier-fad89f9e\", \"alias\": \"cale-law-l01-002-verifier-fad89f9e\", \"tags\": [\"default\"]}}\n",
+  "candidate_validation_record_present": true,
+  "candidate_private_files": [
+    "private/evaluation/calibration-1.json",
+    "private/evaluation/validation.json",
+    "private/provenance.json"
+  ],
+  "candidate_validation_record": {
+    "task_id": "LAW-L01-002",
+    "round": 1,
+    "checks": {
+      "source_hashes_verified": true,
+      "reference_builder_derives_outputs": true,
+      "tracked_changes_and_comments_present": true,
+      "clean_output_has_no_markup": true,
+      "invented_amount_or_party_data": false
+    },
+    "runtime_checks": {
+      "reference_builder_and_grader": "passed; 25/25; reward 1.0",
+      "empty_output": "passed; graded_candidate_defect; reward 0",
+      "malformed_docx": "passed; verifier_failure; reward 0",
+      "native_docker_build": "not_run; Docker daemon socket permission denied"
+    },
+    "result": "static_preflight_passed; verifier_context_fixed; reference_graded_25_of_25; negative_baselines_passed; native_docker_build_not_run_due_to_host_permission"
+  }
+}

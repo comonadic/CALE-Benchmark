@@ -1,0 +1,285 @@
+{
+  "card": "FIN-F17-001",
+  "candidate_file_sha256": {
+    "environment/Dockerfile": "299b84de1dab56d53e208449140214fc9f1494124819b64ae50420680f815a79",
+    "environment/input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+    "evidence_gaps.csv": "2f803abd43ece78ccc4b30e4af68047b65062b90868fc79685ac6879eda8b59d",
+    "evidence_register.csv": "91e23d0200214ff29296f15294c3c61ee3e35c2c6c2a99e3dfdf22b538671e82",
+    "instruction.md": "4b49864184addffa78da2c6531f24916e3bbfb15f624a8c2e938e658f1d15474",
+    "lineage.json": "2a3cf467fbbefd0a383e5a0eb4c643dda05d21d9b48bc045b4ef849bec5fe1e7",
+    "misstatement_review.pdf": "c1884d0babd7ed935b088fb6cd4bad7899e110611573484d953a663e190e9005",
+    "private/authoring/candidate-selection.json": "cab871849374030c3765613814bd2319b28e0afcd10c7a1644ce26f2442c0dea",
+    "private/authoring/evidence-review.json": "77171e55821749c68225ea9786425882cae2a4ec533f345aef3a84e7683f91eb",
+    "private/evaluation/validation.json": "ea243f309277f842bf51719ad3bccbba0629743c8b75d93c6cd50256c0df0a2b",
+    "private/provenance.json": "a6132a2f7cc037bc5b20d69393294ce5ae0e7e9d8161d7674ee935cc2cec1140",
+    "solution/build_reference.py": "c7183f3684e2bd16a3c13bf109cd36fee24a7581bfed5377336dbc92cf9fc180",
+    "solution/solve.sh": "4e30bb034a80966498a838b6de2a2e53d1160edfffe9f2465e62e8126b09da85",
+    "task.toml": "1d1702b14d3589f05e68bb7220c5f59f533920837d5e27ab5093408e9b3156d5",
+    "tests/Dockerfile": "abefa8df83300909b28c99ed20aa0acb118bd85a4da2a8a0a3796a0a22570fab",
+    "tests/assertions.json": "dce5a594ea0cb0c29ad14cac09556d565cff664d384ec56539ff65747bec0931",
+    "tests/grade.py": "317dc52f9cd791afc2e66123a0bdcc34f57464c59a98a42f3de85ea0ce4f8c38",
+    "tests/input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+    "tests/test.sh": "1f8cf18eabaffd8848983f6eb6c0571de040ab3e5d5c1ce151c35b07a0f169ed"
+  },
+  "static_validation": {
+    "package": "[batch-root]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001",
+    "producer_attempt": "attempt_200ff7c0d2b04ef1b9fbaf4945aeea85",
+    "static_validator_exit": 0,
+    "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"FIN-F17-001\",\n      \"path\": \"[batch-root]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"4b49864184addffa78da2c6531f24916e3bbfb15f624a8c2e938e658f1d15474\",\n        \"task.toml\": \"1d1702b14d3589f05e68bb7220c5f59f533920837d5e27ab5093408e9b3156d5\",\n        \"environment/Dockerfile\": \"299b84de1dab56d53e208449140214fc9f1494124819b64ae50420680f815a79\",\n        \"solution/solve.sh\": \"4e30bb034a80966498a838b6de2a2e53d1160edfffe9f2465e62e8126b09da85\",\n        \"solution/build_reference.py\": \"c7183f3684e2bd16a3c13bf109cd36fee24a7581bfed5377336dbc92cf9fc180\",\n        \"tests/test.sh\": \"1f8cf18eabaffd8848983f6eb6c0571de040ab3e5d5c1ce151c35b07a0f169ed\",\n        \"tests/assertions.json\": \"dce5a594ea0cb0c29ad14cac09556d565cff664d384ec56539ff65747bec0931\",\n        \"tests/grade.py\": \"317dc52f9cd791afc2e66123a0bdcc34f57464c59a98a42f3de85ea0ce4f8c38\"\n      },\n      \"assertion_count\": 24,\n      \"criteria_covered\": [\n        \"C1\",\n        \"C2\",\n        \"C3\",\n        \"C4\",\n        \"C5\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "file_sha256": {
+      "environment/Dockerfile": "299b84de1dab56d53e208449140214fc9f1494124819b64ae50420680f815a79",
+      "environment/input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+      "evidence_gaps.csv": "2f803abd43ece78ccc4b30e4af68047b65062b90868fc79685ac6879eda8b59d",
+      "evidence_register.csv": "91e23d0200214ff29296f15294c3c61ee3e35c2c6c2a99e3dfdf22b538671e82",
+      "instruction.md": "4b49864184addffa78da2c6531f24916e3bbfb15f624a8c2e938e658f1d15474",
+      "lineage.json": "2a3cf467fbbefd0a383e5a0eb4c643dda05d21d9b48bc045b4ef849bec5fe1e7",
+      "misstatement_review.pdf": "c1884d0babd7ed935b088fb6cd4bad7899e110611573484d953a663e190e9005",
+      "private/authoring/candidate-selection.json": "cab871849374030c3765613814bd2319b28e0afcd10c7a1644ce26f2442c0dea",
+      "private/authoring/evidence-review.json": "77171e55821749c68225ea9786425882cae2a4ec533f345aef3a84e7683f91eb",
+      "private/evaluation/validation.json": "ea243f309277f842bf51719ad3bccbba0629743c8b75d93c6cd50256c0df0a2b",
+      "private/provenance.json": "a6132a2f7cc037bc5b20d69393294ce5ae0e7e9d8161d7674ee935cc2cec1140",
+      "solution/build_reference.py": "c7183f3684e2bd16a3c13bf109cd36fee24a7581bfed5377336dbc92cf9fc180",
+      "solution/solve.sh": "4e30bb034a80966498a838b6de2a2e53d1160edfffe9f2465e62e8126b09da85",
+      "task.toml": "1d1702b14d3589f05e68bb7220c5f59f533920837d5e27ab5093408e9b3156d5",
+      "tests/Dockerfile": "abefa8df83300909b28c99ed20aa0acb118bd85a4da2a8a0a3796a0a22570fab",
+      "tests/assertions.json": "dce5a594ea0cb0c29ad14cac09556d565cff664d384ec56539ff65747bec0931",
+      "tests/grade.py": "317dc52f9cd791afc2e66123a0bdcc34f57464c59a98a42f3de85ea0ce4f8c38",
+      "tests/input-data/CN-1225248741_original.pdf": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+      "tests/test.sh": "1f8cf18eabaffd8848983f6eb6c0571de040ab3e5d5c1ce151c35b07a0f169ed"
+    }
+  },
+  "native_execution": {
+    "manifest": "[batch-root]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/forge-trials.json",
+    "bundle_sha256": "04e276153fa054da8e158a219f60d7000c5dbda24a385938b7cde6f7ae110943",
+    "trials": [
+      {
+        "harness": "oracle",
+        "job_id": "job_54d42ef97c9b4de68a3055048446333e",
+        "run_id": "run_530c0d9c368e4c7fbc36dee693de8a6f",
+        "status": "succeeded",
+        "attempt_id": "attempt_7dbe544d18c04fc08b8c92a42ca88745",
+        "verifier_result": {
+          "rewards": {
+            "reward": 1.0
+          }
+        },
+        "exception_info": null,
+        "started_at": "2026-10-13T18:20:11.639131Z",
+        "finished_at": "2026-10-13T18:20:59.561371Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:20:15.240933Z",
+          "finished_at": "2026-10-13T18:20:41.425235Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:20:48.073062Z",
+          "finished_at": "2026-10-13T18:20:59.559547Z"
+        },
+        "collected_path": "[batch-root]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/oracle/attempt_7dbe544d18c04fc08b8c92a42ca88745",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "artifacts/workspace/output/evidence_gaps.csv": "2f803abd43ece78ccc4b30e4af68047b65062b90868fc79685ac6879eda8b59d",
+          "artifacts/workspace/output/evidence_register.csv": "91e23d0200214ff29296f15294c3c61ee3e35c2c6c2a99e3dfdf22b538671e82",
+          "artifacts/workspace/output/misstatement_review.docx": "6192fbb7bac2a0b8cb258b7ba4f053985756fb4cf6ec2953e93f1247bd56d887",
+          "artifacts/workspace/output/misstatement_review.pdf": "dd23d3521034d926a5e762dc9ead15f46874fb99bb23425a01daa0de4399d79e",
+          "execution/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "verifier/report.json": "2209cc04d574055c50ef74311114833347fcc20ac7adc1b7b78c38a3e96f4049",
+          "verifier/reward.json": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "harness": "nop",
+        "job_id": "job_1a24a3d98b934c0b9d020b39e87ca347",
+        "run_id": "run_0033500e6f564cbba689a943d0ee87ba",
+        "status": "failed",
+        "attempt_id": "attempt_fb46ad67d55b496895153d2b263de530",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at [batch-root]/control/state/attempts/attempt_fb46ad67d55b496895153d2b263de530/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_fb46ad67d55b496895153d2b263de530/verifier/reward.json",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-root]/control/state/attempts/attempt_fb46ad67d55b496895153d2b263de530/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_fb46ad67d55b496895153d2b263de530/verifier/reward.json\n",
+          "occurred_at": "2026-10-14T02:20:36.935916"
+        },
+        "started_at": "2026-10-13T18:20:11.654826Z",
+        "finished_at": "2026-10-13T18:20:36.938963Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:20:15.705877Z",
+          "finished_at": "2026-10-13T18:20:16.510709Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:20:25.305849Z",
+          "finished_at": "2026-10-13T18:20:36.932647Z"
+        },
+        "collected_path": "[batch-root]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/nop/attempt_fb46ad67d55b496895153d2b263de530",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "verifier/report.json": "4188a439609ae007b26d5dea928081337b97a552bf4de36b4839251563db3b7a",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "harness": "codex",
+        "job_id": "job_d1eca3aa07b748e6bc64ab5b0622442c",
+        "run_id": "run_4eae3e68303343d1ad06d611e4d9856b",
+        "status": "succeeded",
+        "attempt_id": "attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+        "verifier_result": {
+          "rewards": {
+            "reward": 0.4583333333333333
+          }
+        },
+        "exception_info": null,
+        "started_at": "2026-10-13T18:20:34.675736Z",
+        "finished_at": "2026-10-13T18:35:25.507712Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:20:54.654507Z",
+          "finished_at": "2026-10-13T18:35:00.858480Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:35:09.782008Z",
+          "finished_at": "2026-10-13T18:35:25.504964Z"
+        },
+        "collected_path": "[batch-root]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/native-runs/codex/attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "artifacts/workspace/output/evidence_gaps.csv": "fa55110d899e67d4ddd0c0b982d1f3ab8bfb80fe89f1fb93c92e98faa9466293",
+          "artifacts/workspace/output/evidence_register.csv": "fb684f634d68390433f6d2cf03558fb6f888c4c62187f5d111a702b1dcffe5b1",
+          "artifacts/workspace/output/misstatement_review.pdf": "7eeac90a50386bb437ecf20f49d19b0e24617a76d0e46e3cbc338c81dcae14c2",
+          "verifier/report.json": "b5df79cf0c971a0c5c275e3ad340bd89fb71b61c69b186653d778b05a48ebbaf",
+          "verifier/reward.json": "790293eeb74c58599c372f7ff313c9c9db268f68fe64ea08b755e3cf2977faeb",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    ]
+  },
+  "verifier_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_7dbe544d18c04fc08b8c92a42ca88745",
+      "path": "report.json",
+      "sha256": "2209cc04d574055c50ef74311114833347fcc20ac7adc1b7b78c38a3e96f4049",
+      "content": "{\n  \"status\": \"graded\",\n  \"valid\": true,\n  \"P\": 24,\n  \"S\": 24,\n  \"reward\": 1.0,\n  \"assertions\": [\n    {\n      \"id\": \"E01\",\n      \"status\": \"passed\",\n      \"actual\": \"source_file values\",\n      \"expected\": \"visible source only\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E02\",\n      \"status\": \"passed\",\n      \"actual\": \"scope/period fields\",\n      \"expected\": \"合并; 2025 and 2024\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E03\",\n      \"status\": \"passed\",\n      \"actual\": \"operating inflow/outflow\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E04\",\n      \"status\": \"passed\",\n      \"actual\": \"operating net\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E05\",\n      \"status\": \"passed\",\n      \"actual\": \"financing values\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E06\",\n      \"status\": \"passed\",\n      \"actual\": \"cash change\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E07\",\n      \"status\": \"passed\",\n      \"actual\": \"supplemental receivable changes\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E08\",\n      \"status\": \"passed\",\n      \"actual\": \"page locators\",\n      \"expected\": \"PDF 24 or 184\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E09\",\n      \"status\": \"passed\",\n      \"actual\": \"2025: inflow-outflow=42986260.08\",\n      \"expected\": \"2025: operating net=42986260.08\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E11\",\n      \"status\": \"passed\",\n      \"actual\": \"2025: financing and cross-activity arithmetic\",\n      \"expected\": \"2025: reported totals reconcile\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E10\",\n      \"status\": \"passed\",\n      \"actual\": \"2024: inflow-outflow=9077909.18\",\n      \"expected\": \"2024: operating net=9077909.18\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E12\",\n      \"status\": \"passed\",\n      \"actual\": \"2024: financing and cross-activity arithmetic\",\n      \"expected\": \"2024: reported totals reconcile\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E13\",\n      \"status\": \"passed\",\n      \"actual\": \"supplemental data limitation\",\n      \"expected\": \"not a ledger adjustment\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E14\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G01\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E15\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G02\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E16\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G03\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E17\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G04\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E18\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G05\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E19\",\n      \"status\": \"passed\",\n      \"actual\": \"affirmative completion claim scan\",\n      \"expected\": \"no unsupported completed-work claim\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E20\",\n      \"status\": \"passed\",\n      \"actual\": \"evidence status and limitations\",\n      \"expected\": \"public facts and limits explicit\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E21\",\n      \"status\": \"passed\",\n      \"actual\": \"memo extracted text and citations\",\n      \"expected\": \"scope, limits, source locators\",\n      \"criterion\": \"C4\"\n    },\n    {\n      \"id\": \"E22\",\n      \"status\": \"passed\",\n      \"actual\": \"posting and TB procedures\",\n      \"expected\": \"trace management posting and request TB\",\n      \"criterion\": \"C4\"\n    },\n    {\n      \"id\": \"E23\",\n      \"status\": \"passed\",\n      \"actual\": \"aggregation and communication terms\",\n      \"expected\": \"evaluate and communicate uncorrected misstatements\",\n      \"criterion\": \"C4\"\n    },\n    {\n      \"id\": \"E24\",\n      \"status\": \"passed\",\n      \"actual\": \"20 evidence rows, 5 gaps, 120548 PDF bytes\",\n      \"expected\": \"three deliverables consistent\",\n      \"criterion\": \"C5\"\n    }\n  ],\n  \"critical_errors_triggered\": []\n}"
+    },
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_7dbe544d18c04fc08b8c92a42ca88745",
+      "path": "reward.json",
+      "sha256": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+      "content": "{\"reward\": 1.0}"
+    },
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_7dbe544d18c04fc08b8c92a42ca88745",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_fb46ad67d55b496895153d2b263de530",
+      "path": "report.json",
+      "sha256": "4188a439609ae007b26d5dea928081337b97a552bf4de36b4839251563db3b7a",
+      "content": "{\n  \"status\": \"verifier_failure\",\n  \"valid\": false,\n  \"P\": null,\n  \"S\": 24,\n  \"reward\": null,\n  \"error\": \"FileNotFoundError: [Errno 2] No such file or directory: '/workspace/output/evidence_register.csv'\",\n  \"assertions\": []\n}"
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_fb46ad67d55b496895153d2b263de530",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    },
+    {
+      "harness": "codex",
+      "attempt_id": "attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+      "path": "report.json",
+      "sha256": "b5df79cf0c971a0c5c275e3ad340bd89fb71b61c69b186653d778b05a48ebbaf",
+      "content": "{\n  \"status\": \"graded_candidate_defect\",\n  \"valid\": true,\n  \"P\": 11,\n  \"S\": 24,\n  \"reward\": 0.4583333333333333,\n  \"assertions\": [\n    {\n      \"id\": \"E01\",\n      \"status\": \"failed\",\n      \"actual\": \"source_file values\",\n      \"expected\": \"visible source only\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E02\",\n      \"status\": \"failed\",\n      \"actual\": \"scope/period fields\",\n      \"expected\": \"合并; 2025 and 2024\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E03\",\n      \"status\": \"failed\",\n      \"actual\": \"operating inflow/outflow\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E04\",\n      \"status\": \"failed\",\n      \"actual\": \"operating net\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E05\",\n      \"status\": \"failed\",\n      \"actual\": \"financing values\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E06\",\n      \"status\": \"failed\",\n      \"actual\": \"cash change\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E07\",\n      \"status\": \"passed\",\n      \"actual\": \"supplemental receivable changes\",\n      \"expected\": \"source values\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E08\",\n      \"status\": \"failed\",\n      \"actual\": \"page locators\",\n      \"expected\": \"PDF 24 or 184\",\n      \"criterion\": \"C1\"\n    },\n    {\n      \"id\": \"E09\",\n      \"status\": \"failed\",\n      \"actual\": \"2025: inflow-outflow=42986260.08\",\n      \"expected\": \"2025: operating net=42986260.08\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E11\",\n      \"status\": \"failed\",\n      \"actual\": \"2025: financing and cross-activity arithmetic\",\n      \"expected\": \"2025: reported totals reconcile\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E10\",\n      \"status\": \"failed\",\n      \"actual\": \"2024: inflow-outflow=9077909.18\",\n      \"expected\": \"2024: operating net=9077909.18\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E12\",\n      \"status\": \"failed\",\n      \"actual\": \"2024: financing and cross-activity arithmetic\",\n      \"expected\": \"2024: reported totals reconcile\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E13\",\n      \"status\": \"passed\",\n      \"actual\": \"supplemental data limitation\",\n      \"expected\": \"not a ledger adjustment\",\n      \"criterion\": \"C2\"\n    },\n    {\n      \"id\": \"E14\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G01\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E15\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G02\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E16\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G03\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E17\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G04\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E18\",\n      \"status\": \"passed\",\n      \"actual\": \"gap ids\",\n      \"expected\": \"G05\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E19\",\n      \"status\": \"passed\",\n      \"actual\": \"affirmative completion claim scan\",\n      \"expected\": \"no unsupported completed-work claim\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E20\",\n      \"status\": \"failed\",\n      \"actual\": \"evidence status and limitations\",\n      \"expected\": \"public facts and limits explicit\",\n      \"criterion\": \"C3\"\n    },\n    {\n      \"id\": \"E21\",\n      \"status\": \"failed\",\n      \"actual\": \"memo extracted text and citations\",\n      \"expected\": \"scope, limits, source locators\",\n      \"criterion\": \"C4\"\n    },\n    {\n      \"id\": \"E22\",\n      \"status\": \"passed\",\n      \"actual\": \"posting and TB procedures\",\n      \"expected\": \"trace management posting and request TB\",\n      \"criterion\": \"C4\"\n    },\n    {\n      \"id\": \"E23\",\n      \"status\": \"passed\",\n      \"actual\": \"aggregation and communication terms\",\n      \"expected\": \"evaluate and communicate uncorrected misstatements\",\n      \"criterion\": \"C4\"\n    },\n    {\n      \"id\": \"E24\",\n      \"status\": \"passed\",\n      \"actual\": \"80 evidence rows, 8 gaps, 230190 PDF bytes\",\n      \"expected\": \"three deliverables consistent\",\n      \"criterion\": \"C5\"\n    }\n  ],\n  \"critical_errors_triggered\": [\n    {\n      \"id\": \"CE.wrong-entity\",\n      \"assertion\": \"E02\",\n      \"cap\": 0.5\n    }\n  ]\n}"
+    },
+    {
+      "harness": "codex",
+      "attempt_id": "attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+      "path": "reward.json",
+      "sha256": "790293eeb74c58599c372f7ff313c9c9db268f68fe64ea08b755e3cf2977faeb",
+      "content": "{\"reward\": 0.4583333333333333}"
+    },
+    {
+      "harness": "codex",
+      "attempt_id": "attempt_99359e2451aa4b1682d3a2dd4041a9cd",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "execution_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_7dbe544d18c04fc08b8c92a42ca88745",
+      "path": "execution/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "pipeline": {
+    "stage": "submit",
+    "status": "succeeded",
+    "log": "[batch-root]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/forge-submit.log",
+    "pid": 59777,
+    "return_code": 0
+  },
+  "build_log_tail": "78756ade6c95d1433d4]\n[2026-10-13T18:19:57.402568+00:00] [debug] Adding layer to cache: eec774b4-9759-454f-bc1a-5e83b21731d4\n[2026-10-13T18:19:57.402773+00:00] [debug] Uploading layer: eec774b4-9759-454f-bc1a-5e83b21731d4\n[2026-10-13T18:19:57.427131+00:00] [info] [builder 5/7] COPY . /tests/   [5aa42dfff69f4d426ff36ebc18dc5423502a574320d1f954d25f67663341d9c1]\n[2026-10-13T18:19:57.553867+00:00] [debug] Saved: 9678dfde-4aeb-414e-aba2-bccc41ed05c3\n[2026-10-13T18:19:57.707496+00:00] [debug] Saved: eec774b4-9759-454f-bc1a-5e83b21731d4\n[2026-10-13T18:19:58.180045+00:00] [debug] Adding layer to cache: bb3c2d32-492c-48d4-9262-4d54c96b8dea\n[2026-10-13T18:19:58.180180+00:00] [debug] Uploading layer: bb3c2d32-492c-48d4-9262-4d54c96b8dea\n[2026-10-13T18:19:58.194333+00:00] [info] [builder 6/7] COPY input-data/ /tests/input-data/   [91f0719a7c7b8d4e20d539292f97c44269a1a5f1ddc26879d894102cb9062de5]\n[2026-10-13T18:19:58.678344+00:00] [debug] Saved: bb3c2d32-492c-48d4-9262-4d54c96b8dea\n[2026-10-13T18:19:58.870070+00:00] [debug] Adding layer to cache: 51779aa2-ed25-45ea-956a-905349a2ac63\n[2026-10-13T18:19:58.870240+00:00] [debug] Uploading layer: 51779aa2-ed25-45ea-956a-905349a2ac63\n[2026-10-13T18:19:58.893411+00:00] [info] [builder 7/7] USER user [557f68842ee30461f812020c817cbcd28168eab4667ce2d068b0c5a995b880aa]\n[2026-10-13T18:19:59.317443+00:00] [debug] Saved: 51779aa2-ed25-45ea-956a-905349a2ac63\n[2026-10-13T18:19:59.444964+00:00] [debug] Adding layer to cache: 0d568c79-b98b-4ddd-b100-4e5f760f36e5\n[2026-10-13T18:19:59.445097+00:00] [debug] Uploading layer: 0d568c79-b98b-4ddd-b100-4e5f760f36e5\n[2026-10-13T18:19:59.445640+00:00] [info] [resize-disk] Resizing disk [4c68c949f9b305f7d976cd6b47d2f152b031e935c7746f9aed1f33b3df0f85cb]\n[2026-10-13T18:19:59.954032+00:00] [debug] Saved: 0d568c79-b98b-4ddd-b100-4e5f760f36e5\n[2026-10-13T18:20:00.171500+00:00] [info] resize-disk: free 9902 -> 10241 MiB\n[2026-10-13T18:20:00.172251+00:00] [debug] Adding layer to cache: 35ace19b-f1e6-4318-891b-f35fa80acc1e\n[2026-10-13T18:20:00.172335+00:00] [debug] Uploading layer: 35ace19b-f1e6-4318-891b-f35fa80acc1e\n[2026-10-13T18:20:00.172489+00:00] [info] [finalize] Finalizing template build [c1126b22bcf637dd6022fdedc64e9ade3a6b35ecca56ff02ea089bfeaa9ec723]\n[2026-10-13T18:20:00.403801+00:00] [debug] Saved: 35ace19b-f1e6-4318-891b-f35fa80acc1e\n[2026-10-13T18:20:01.067032+00:00] [debug] [config] [stdout]: Starting configuration script\n[2026-10-13T18:20:01.074397+00:00] [debug] [config] [stdout]: Create default user 'user' (if doesn't exist yet)\n[2026-10-13T18:20:01.076619+00:00] [debug] [config] [stdout]: Copy skeleton files to /home/user (keeping existing files)\n[2026-10-13T18:20:01.082110+00:00] [debug] [config] [stdout]: skel: keeping existing .bashrc\n[2026-10-13T18:20:01.082130+00:00] [debug] [config] [stdout]: skel: keeping existing .profile\n[2026-10-13T18:20:01.082149+00:00] [debug] [config] [stdout]: skel: keeping existing .bash_logout\n[2026-10-13T18:20:01.082393+00:00] [debug] [config] [stdout]: Add sudo to 'user' with no password\n[2026-10-13T18:20:01.159150+00:00] [debug] [config] [stdout]: passwd: password changed.\n[2026-10-13T18:20:01.163607+00:00] [debug] [config] [stdout]: sudoers entry already present\n[2026-10-13T18:20:01.163631+00:00] [debug] [config] [stdout]: Give 'user' ownership to /home/user\n[2026-10-13T18:20:01.167681+00:00] [debug] [config] [stdout]: Give 777 permission to /usr/local\n[2026-10-13T18:20:01.209884+00:00] [debug] [config] [stdout]: Create /code directory\n[2026-10-13T18:20:01.211197+00:00] [debug] [config] [stdout]: Give 777 permission to /code\n[2026-10-13T18:20:01.212511+00:00] [debug] [config] [stdout]: Finished configuration script\n[2026-10-13T18:20:01.697595+00:00] [debug] [certs] [stdout]: Updating certificates in /etc/ssl/certs...\n[2026-10-13T18:20:02.729298+00:00] [debug] [certs] [stderr]: rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL\n[2026-10-13T18:20:02.736937+00:00] [debug] [certs] [stdout]: 150 added, 0 removed; done.\n[2026-10-13T18:20:02.737065+00:00] [debug] [certs] [stdout]: Running hooks in /etc/ca-certificates/update.d...\n[2026-10-13T18:20:02.740151+00:00] [debug] [certs] [stdout]: done.\n[2026-10-13T18:20:03.380442+00:00] [debug] Adding layer to cache: 16cd6dc7-d200-4221-ba08-5aa8a26eaf6d\n[2026-10-13T18:20:03.380536+00:00] [debug] Uploading layer: 16cd6dc7-d200-4221-ba08-5aa8a26eaf6d\n[2026-10-13T18:20:03.380884+00:00] [info] [optimize] Optimizing template [2fa72bc3caf84216d7cc96bf1a6ab622d2e745a650706ac98f97bd17076e20d2]\n[2026-10-13T18:20:04.119273+00:00] [debug] Saved: 16cd6dc7-d200-4221-ba08-5aa8a26eaf6d\n[2026-10-13T18:20:04.247127+00:00] [info] Build finished, took 18s\n[2026-10-14T02:20:05.362985] [debug] Build finished\n{\"role\": \"verifier\", \"build\": {\"template_id\": \"ldv904z47jhqisby93za\", \"build_id\": \"16cd6dc7-d200-4221-ba08-5aa8a26eaf6d\", \"name\": \"cale-fin-f17-001-verifier-bf40b76d\", \"alias\": \"cale-fin-f17-001-verifier-bf40b76d\", \"tags\": [\"default\"]}}\n",
+  "candidate_validation_record_present": true,
+  "candidate_private_files": [
+    "private/authoring/candidate-selection.json",
+    "private/authoring/evidence-review.json",
+    "private/evaluation/validation.json",
+    "private/provenance.json"
+  ],
+  "candidate_validation_record": {
+    "task_id": "FIN-F17-001",
+    "validated_at": "2026-10-13",
+    "harbor_execution": {
+      "status": "not_run",
+      "reason": "Harbor Python package unavailable in authoring environment; Docker runtime execution pending."
+    },
+    "grading_calibration": {
+      "status": "not_run",
+      "reason": "No independent Harbor rollout or mutation run performed."
+    },
+    "independent_solver_rollout": {
+      "status": "not_run",
+      "reason": "No independent solver service available in authoring environment."
+    },
+    "static_checks": {
+      "status": "passed",
+      "command": "python /workspace/skills/finance-task-authoring/scripts/validate_task_package.py /workspace/output/FIN-F17-001",
+      "assertions": 24,
+      "criteria_covered": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    "reference_calculation": {
+      "status": "passed",
+      "checks": [
+        "operating inflow minus outflow equals operating net for 2025 and 2024",
+        "operating net plus investing net plus financing net equals cash change for 2025 and 2024"
+      ],
+      "smoke_grader": {
+        "status": "graded",
+        "P": 24,
+        "S": 24,
+        "reward": 1.0,
+        "critical_errors_triggered": []
+      }
+    },
+    "memo_pdf": {
+      "status": "passed",
+      "validation": "LibreOffice-generated PDF; pdftotext extraction verified with Chinese text, citations, table amounts, and procedures."
+    },
+    "known_residual_risk": "Harbor runtime execution, independent solver rollout, and professional quality review were not available in the authoring environment."
+  }
+}

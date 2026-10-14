@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "validation_layers": {
+    "package_static": {"status": "pending", "command": "python /workspace/skills/finance-task-authoring/scripts/validate_task_package.py /workspace/output/FIN-F03-002 --require-harbor"},
+    "harbor_execution": {"status": "pending", "note": "Local reference and grader are being checked against packaged input-data; Docker build/Harbor runner availability not yet confirmed."},
+    "grading_calibration": {
+      "status": "oracle_passed",
+      "assertion_count": 24,
+      "passed": 24,
+      "raw_reward": 1.0,
+      "reward": 1.0,
+      "result": "/logs/verifier/report.json is emitted by tests/grade.py"
+    },
+    "empty_output": {"status": "pending"},
+    "wrong_scope_mutation": {"status": "pending"},
+    "fabricated_deduction_mutation": {"status": "pending"},
+    "independent_solver_rollout": {"status": "not_run"}
+  }
+}

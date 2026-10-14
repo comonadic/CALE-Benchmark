@@ -1,0 +1,245 @@
+{
+  "checked_at": 1791917844.471734,
+  "candidates": [
+    {
+      "card": "FIN-F01-001",
+      "package": "[batch-workspace]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001",
+      "input_files": [
+        {
+          "path": "environment/input-data/haid_group_2025_annual_report.pdf",
+          "sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+          "bytes": 7393821,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225203635/original.pdf"
+        },
+        {
+          "path": "environment/input-data/haid_group_2026_half_year_report.pdf",
+          "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+          "bytes": 6303458,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225495975/original.pdf"
+        }
+      ]
+    },
+    {
+      "card": "FIN-F03-002",
+      "package": "[batch-workspace]/deliverables/FIN-F03-002/attempt_ce81465411de454f8e458b883198dd50/producer-output/FIN-F03-002",
+      "input_files": [
+        {
+          "path": "environment/input-data/CN-1225203635.pdf",
+          "sha256": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+          "bytes": 7393821,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225203635/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225451854.pdf",
+          "sha256": "058d72df110d1f589549ba129d49e60ea6d52e81a995812735ec797a2a9b3d47",
+          "bytes": 195466,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225451854/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225491061.pdf",
+          "sha256": "0cc5bd4f912ab8b553b982ebd8db33088dd4eed67bb2f55520732956b0456e7b",
+          "bytes": 150953,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225491061/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225495975.pdf",
+          "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+          "bytes": 6303458,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225495975/original.pdf"
+        }
+      ]
+    },
+    {
+      "card": "FIN-F04-001",
+      "package": "[batch-workspace]/deliverables/FIN-F04-001/attempt_bb086ef4ad8f4ef3b6f615f96e16f95f/producer-output/FIN-F04-001",
+      "input_files": [
+        {
+          "path": "environment/input-data/01_申万宏源2025年度报告.pdf",
+          "sha256": "6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471",
+          "bytes": 25046372,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225045474/original.pdf"
+        },
+        {
+          "path": "environment/input-data/02_申万宏源2025年度受托报告.pdf",
+          "sha256": "5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce",
+          "bytes": 358500,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225398819/original.pdf"
+        },
+        {
+          "path": "environment/input-data/03_23申宏04兑付公告.pdf",
+          "sha256": "98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3",
+          "bytes": 187319,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225545737/original.pdf"
+        },
+        {
+          "path": "environment/input-data/04_新疆证监局2026通知.html",
+          "sha256": "1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20",
+          "bytes": 38468,
+          "matching_supplied_source": "reference-library/raw/S39/CSRC-XJ-DEBT-NOTICE-20260609/original.html"
+        },
+        {
+          "path": "environment/input-data/05_附件5排查表模板.xlsx",
+          "sha256": "7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073",
+          "bytes": 68084,
+          "matching_supplied_source": "reference-library/raw/S39/CSRC-XJ-FUNDING-FORM-20260609/original.xlsx"
+        }
+      ]
+    },
+    {
+      "card": "FIN-F13-002",
+      "package": "[batch-workspace]/deliverables/FIN-F13-002/attempt_7ce2d59c2fee4d5cb0043b439fc9dcf2/producer-output/FIN-F13-002",
+      "input_files": [
+        {
+          "path": "environment/input-data/2025_authorization_announcement.pdf",
+          "sha256": "5f74efc8e6ebc7eb4969a83bbfd183b73c2cd01c0a9f70b1088b02a617ef4ab2",
+          "bytes": 438773,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1224318016/original.pdf"
+        },
+        {
+          "path": "environment/input-data/2025_authorization_resolution.pdf",
+          "sha256": "68f26f82efbd4c1c01831c32cb67e7c26e423644e20814d458a2578bcd245a65",
+          "bytes": 331271,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1224486549/original.pdf"
+        },
+        {
+          "path": "environment/input-data/halfyear_report_2026.pdf",
+          "sha256": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+          "bytes": 6303458,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225495975/original.pdf"
+        },
+        {
+          "path": "environment/input-data/hedge_policy.pdf",
+          "sha256": "62e724d105b487e0fbac659e759d7a745cd976af54f840c89a0bd6c6fb996699",
+          "bytes": 415417,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1224318011/original.pdf"
+        }
+      ]
+    },
+    {
+      "card": "FIN-F17-001",
+      "package": "[batch-workspace]/deliverables/FIN-F17-001/attempt_200ff7c0d2b04ef1b9fbaf4945aeea85/producer-output/FIN-F17-001",
+      "input_files": [
+        {
+          "path": "environment/input-data/CN-1225248741_original.pdf",
+          "sha256": "18231670324fb8ab60c264dbaebf4972004a4c153aa5a046dc7be4d2e40646d9",
+          "bytes": 1291103,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225248741/original.pdf"
+        }
+      ]
+    },
+    {
+      "card": "LAW-L01-002",
+      "package": "[batch-workspace]/deliverables/LAW-L01-002/attempt_94820161d98c46dd8fbe1a584bc19e56/producer-output/LAW-L01-002",
+      "input_files": [
+        {
+          "path": "environment/input-data/contract_original.docx",
+          "sha256": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+          "bytes": 20422,
+          "matching_supplied_source": "reference-library/raw/S44/GZ-CZ20260463-CONTRACT/original.docx"
+        },
+        {
+          "path": "environment/input-data/requirements_original.docx",
+          "sha256": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+          "bytes": 72147,
+          "matching_supplied_source": "reference-library/raw/S44/GZ-CZ20260463-REQUIREMENTS/original.docx"
+        },
+        {
+          "path": "environment/input-data/tender_original.zip",
+          "sha256": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855",
+          "bytes": 387055,
+          "matching_supplied_source": "reference-library/raw/S44/GZ-CZ20260463-TENDER/original.zip"
+        }
+      ]
+    },
+    {
+      "card": "LAW-L02-002",
+      "package": "[batch-workspace]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/LAW-L02-002",
+      "input_files": [
+        {
+          "path": "environment/input-data/CN-1225489930_重庆建工涉及诉讼公告_2026-08-22.pdf",
+          "sha256": "682acdfa0d8a2a8334c0c910b5a8c7ef4ffa3a0d0c8e650d85d73132dd10f6d0",
+          "bytes": 186509,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225489930/original.pdf"
+        }
+      ]
+    },
+    {
+      "card": "LAW-L03-001",
+      "package": "[batch-workspace]/deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001",
+      "input_files": [
+        {
+          "path": "environment/input-data/CN-1225327554.pdf",
+          "sha256": "968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892",
+          "bytes": 5954840,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225327554/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225327559.pdf",
+          "sha256": "31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f",
+          "bytes": 28930209,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225327559/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225327560.pdf",
+          "sha256": "ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df",
+          "bytes": 24431250,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225327560/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225449371.pdf",
+          "sha256": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+          "bytes": 147025,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225449371/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225449382.pdf",
+          "sha256": "a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438",
+          "bytes": 21225865,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225449382/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225449388.pdf",
+          "sha256": "e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98",
+          "bytes": 6240258,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225449388/original.pdf"
+        },
+        {
+          "path": "environment/input-data/CN-1225449390.pdf",
+          "sha256": "c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1",
+          "bytes": 8034657,
+          "matching_supplied_source": "reference-library/raw/S01/CN-1225449390/original.pdf"
+        }
+      ]
+    },
+    {
+      "card": "LAW-L04-001",
+      "package": "[batch-workspace]/deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001",
+      "input_files": [
+        {
+          "path": "environment/input-data/COURT-ZHENXIN-CLAIM.docx",
+          "sha256": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+          "bytes": 15373,
+          "matching_supplied_source": "reference-library/raw/S33/COURT-ZHENXIN-CLAIM/original.docx"
+        },
+        {
+          "path": "environment/input-data/COURT-ZHENXIN-GUIDE.pdf",
+          "sha256": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+          "bytes": 188442,
+          "matching_supplied_source": "reference-library/raw/S33/COURT-ZHENXIN-GUIDE/original.pdf"
+        },
+        {
+          "path": "environment/input-data/COURT-ZHENXIN-LIST.docx",
+          "sha256": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+          "bytes": 13376,
+          "matching_supplied_source": "reference-library/raw/S33/COURT-ZHENXIN-LIST/original.docx"
+        },
+        {
+          "path": "environment/input-data/COURT-ZHENXIN-REGISTER.docx",
+          "sha256": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db",
+          "bytes": 14240,
+          "matching_supplied_source": "reference-library/raw/S33/COURT-ZHENXIN-REGISTER/original.docx"
+        }
+      ]
+    }
+  ]
+}

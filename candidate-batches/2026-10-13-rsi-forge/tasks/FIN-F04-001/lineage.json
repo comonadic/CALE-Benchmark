@@ -1,0 +1,23 @@
+{
+  "task_id": "FIN-F04-001",
+  "industry": "finance",
+  "design": {
+    "work_family": "F04 固定收益信用与违约处置",
+    "core_action": "次月到期债券偿债资金来源、证据和风险跟进排查",
+    "cutoff": "2026-07-31",
+    "jurisdiction": "新疆辖区",
+    "deliverables": ["debt_funding_check.xlsx", "funding_risk_note.pdf"]
+  },
+  "sources": [
+    {"source_id":"S01","document_id":"CN-1225398819","role":"受托报告/逐券余额、日期、评级、增信、财务与履约背景","sha256":"5e9e9b9c334a8920d70841e39a3833ac25c2c47df7c7336bd3b935fd50a362ce","evidence_range":"原件PDF第8、16-17、20、23-28页"},
+    {"source_id":"S01","document_id":"CN-1225045474","role":"年度报告/现金与金融负债到期结构背景","sha256":"6af80f88d108b19ffaad9340395f3512e6a654a2272f04cfc0cdc694d2d82471","evidence_range":"原件PDF第20、419页"},
+    {"source_id":"S01","document_id":"CN-1225545737","role":"同发行人债券兑付公告/实际付款节点对照材料","sha256":"98624e15b7fbfe6fe778b22106303c877d310fa7037419c4a77dae90a886f3c3","evidence_range":"原件PDF第1-3页"},
+    {"source_id":"S39","document_id":"CSRC-XJ-DEBT-NOTICE-20260609","role":"新疆辖区2026年报送规则","sha256":"1d06e61557dbcf05f18db50fe3ce316ef4c16b3d5bfd08f81b8d555ee5780b20","evidence_range":"二（三）、二（四）"},
+    {"source_id":"S39","document_id":"CSRC-XJ-FUNDING-FORM-20260609","role":"附件5原生排查表字段和填报注释","sha256":"7b9cb85f94edc28757cebf45a6d23a685816baa7beb3e47633ded2050207c073","evidence_range":"Sheet1第3-18行"}
+  ],
+  "derivation": {
+    "method": "输入原件复制至environment/input-data；build_reference.py运行时用pypdf/openpyxl重新读取原件，计算25.00*3.38%=0.845并生成工作簿和PDF；不复制预制答案字节。",
+    "selection_reason": "受托报告提供受托债券清单和21申宏06的2026-08-04到期事实，监管通知提供次月排查和未落实资金报告义务，年度报告提供财务背景，附件5约束表格字段。",
+    "known_gap": "给定材料未含发行人针对21申宏06的专项银行流水或资金证明，因此题目要求把缺证本身列为风险和跟进项。"
+  }
+}

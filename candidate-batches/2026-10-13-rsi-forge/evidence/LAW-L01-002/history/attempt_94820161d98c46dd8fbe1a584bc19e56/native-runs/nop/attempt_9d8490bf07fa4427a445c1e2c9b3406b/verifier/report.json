@@ -1,0 +1,185 @@
+{
+  "status": "graded_candidate_defect",
+  "valid": true,
+  "P": 0,
+  "S": 25,
+  "reward": 0.0,
+  "assertions": [
+    {
+      "id": "redline_exists",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "redline file"
+    },
+    {
+      "id": "clean_exists",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "clean file"
+    },
+    {
+      "id": "opinion_exists",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "opinion file"
+    },
+    {
+      "id": "redline_ins",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "redline insertions"
+    },
+    {
+      "id": "redline_del",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "redline deletions"
+    },
+    {
+      "id": "redline_comments",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "redline comments"
+    },
+    {
+      "id": "project_number",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "project identifier"
+    },
+    {
+      "id": "payment_five",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "payment deadline"
+    },
+    {
+      "id": "payment_source",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "payment conflict note"
+    },
+    {
+      "id": "subcontracting",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "subcontracting clause"
+    },
+    {
+      "id": "sme_share",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "SME share"
+    },
+    {
+      "id": "preliminary_acceptance",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "preliminary acceptance"
+    },
+    {
+      "id": "prelim_seven_days",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "preliminary acceptance deadline"
+    },
+    {
+      "id": "final_acceptance",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "final acceptance"
+    },
+    {
+      "id": "acceptance_ten_days",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "final acceptance deadline"
+    },
+    {
+      "id": "chapter_seven",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "section numbering"
+    },
+    {
+      "id": "typo_fixed",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "service wording"
+    },
+    {
+      "id": "amount_not_invented",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "amount confirmation"
+    },
+    {
+      "id": "party_not_invented",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "party confirmation"
+    },
+    {
+      "id": "staged_payment",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "installment confirmation"
+    },
+    {
+      "id": "confidentiality",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "confidentiality confirmation"
+    },
+    {
+      "id": "performance_scheme",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "performance scheme"
+    },
+    {
+      "id": "legal_business_split",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "review position"
+    },
+    {
+      "id": "source_basis",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "source citations"
+    },
+    {
+      "id": "clean_no_markup",
+      "status": "failed",
+      "actual": false,
+      "expected": true,
+      "unit": "clean markup"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,35 @@
+{
+  "scale": 24,
+  "aggregation": "reward = min(1.0, P / S); P is absolute passed assertion count; S is fixed at 24; critical error caps only lower reward.",
+  "assertions": [
+    {"id":"E01","kind":"outcome","unit":"annual-report-source-identity","criterion":"C1"},
+    {"id":"E02","kind":"outcome","unit":"cash-flow-period-and-scope","criterion":"C1"},
+    {"id":"E03","kind":"outcome","unit":"cash-flow-inflow-and-outflow-values","criterion":"C1"},
+    {"id":"E04","kind":"outcome","unit":"operating-cash-flow-net-values","criterion":"C1"},
+    {"id":"E05","kind":"outcome","unit":"financing-cash-flow-net-values","criterion":"C1"},
+    {"id":"E06","kind":"outcome","unit":"cash-change-values","criterion":"C1"},
+    {"id":"E07","kind":"outcome","unit":"supplemental-receivables-values","criterion":"C1"},
+    {"id":"E08","kind":"outcome","unit":"item-level-source-locators","criterion":"C1"},
+    {"id":"E09","kind":"outcome","unit":"operating-inflow-total-reconciliation","criterion":"C2"},
+    {"id":"E10","kind":"outcome","unit":"operating-outflow-period-and-scope","criterion":"C2"},
+    {"id":"E11","kind":"outcome","unit":"financing-flow-period-and-scope","criterion":"C2"},
+    {"id":"E12","kind":"outcome","unit":"cash-net-change-cross-activity-reconciliation","criterion":"C2"},
+    {"id":"E13","kind":"outcome","unit":"supplementary-data-distinguished-from-ledger-adjustments","criterion":"C2"},
+    {"id":"E14","kind":"outcome","unit":"audit-trial-balance-evidence-gap","criterion":"C3"},
+    {"id":"E15","kind":"outcome","unit":"adjustment-and-underlying-support-evidence-gap","criterion":"C3"},
+    {"id":"E16","kind":"outcome","unit":"client-posting-status-evidence-gap","criterion":"C3"},
+    {"id":"E17","kind":"outcome","unit":"materiality-and-reporting-framework-evidence-gap","criterion":"C3"},
+    {"id":"E18","kind":"outcome","unit":"uncorrected-misstatement-rollforward-evidence-gap","criterion":"C3"},
+    {"id":"E19","kind":"outcome","unit":"no-fabricated-adjustment-or-ledger-claim","criterion":"C3"},
+    {"id":"E20","kind":"outcome","unit":"scope-limitation-and-public-evidence-status","criterion":"C3"},
+    {"id":"E21","kind":"outcome","unit":"next-steps-in-dependency-order","criterion":"C4"},
+    {"id":"E22","kind":"outcome","unit":"management-posting-trace-procedure","criterion":"C4"},
+    {"id":"E23","kind":"outcome","unit":"misstatement-aggregation-and-communication-procedure","criterion":"C4"},
+    {"id":"E24","kind":"outcome","unit":"deliverable-readability-and-cross-file-consistency","criterion":"C5"}
+  ],
+  "critical_errors": [
+    {"id":"CE.fake-ledger","assertion":"E19","cap":0.25},
+    {"id":"CE.fake-posting","assertion":"E16","cap":0.5},
+    {"id":"CE.wrong-entity","assertion":"E02","cap":0.5}
+  ]
+}

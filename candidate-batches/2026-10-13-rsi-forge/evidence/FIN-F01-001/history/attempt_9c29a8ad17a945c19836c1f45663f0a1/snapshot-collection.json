@@ -1,0 +1,36 @@
+{
+  "snapshot_id": "snapshot_4f79e42f7d1f42c8953ff1e03bb36aa2",
+  "producer_attempt": "attempt_9c29a8ad17a945c19836c1f45663f0a1",
+  "card": "FIN-F01-001",
+  "capture": {
+    "consistency": "process_group_paused",
+    "epoch": 1,
+    "finished": 1791917528.583019,
+    "started": 1791917528.343938
+  },
+  "collected_at": 1791917777.2632918,
+  "source": "ready immutable workspace snapshot after repeated provider rejection",
+  "file_sha256": {
+    "FIN-F01-001/environment/Dockerfile": "2818d30b98a838b3217472b79b80087bab0caa2eec873113faf5c5988cb7244c",
+    "FIN-F01-001/environment/input-data/haid_group_2025_annual_report.pdf": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+    "FIN-F01-001/environment/input-data/haid_group_2026_half_year_report.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+    "FIN-F01-001/instruction.md": "2e2e00af3430ecdc11ab629697888c1f18726ae03d300a711414f03f457da10e",
+    "FIN-F01-001/lineage.json": "db3b991aa83925c60139ab3056c998e2e87b87cf43e21f59302c417af936f473",
+    "FIN-F01-001/model_update_notes.pdf": "946edc5cb5ba01d7589f09ffd67a87fda9bee32e0f3d6cd86bdc0509a423648b",
+    "FIN-F01-001/private/evaluation/reference-run/report.json": "b85efdd00c812122a4206206d7bce85eda464c55a94da7315686d5ce4cfa5d98",
+    "FIN-F01-001/private/provenance.json": "cfe97dbcb396d00132631209df1877ece1f880e30a2cdd1481c64c0c6f5590aa",
+    "FIN-F01-001/run-logs/report.json": "38c5c288739fe17b8e2e99d49935f05a63f65cbbc4abd793fb0a7c558f2c1b69",
+    "FIN-F01-001/run-logs/reward.json": "fe35ff29cbdf8d2143eb3a7e8019c75eb6c3ffee79c5d7ba444ad4ab78dca14d",
+    "FIN-F01-001/solution/__pycache__/build_reference.cpython-312.pyc": "d6f61d458cc0f9278357f9cc283640411f2ed18fa9770e78a894739065142def",
+    "FIN-F01-001/solution/build_reference.py": "f311b4f8f1634cab88235b384c4339c8aa452da55010cca321a4208c87b81ca4",
+    "FIN-F01-001/solution/solve.sh": "d4a28f68c6e338ec24b9840c992f0a9b4c34e763294bdbe238639353ba1aecdc",
+    "FIN-F01-001/task.toml": "47a9de420569498d85d84bb0583502b777cb6220dc2a4913c6cbe50132c5d74e",
+    "FIN-F01-001/tests/Dockerfile": "f5dd28514a81a6b3aead2ddc35b9fa010d663dafa88c4a1c3b4179560802a349",
+    "FIN-F01-001/tests/__pycache__/grade.cpython-312.pyc": "4e8434b57bcfb4b0133d83249d18fc0e3985c6970e71b61632a2309ee72c149b",
+    "FIN-F01-001/tests/assertions.json": "36b5037ac695092438401a74c0222d847096ff0b2880178a55283111db9c5acf",
+    "FIN-F01-001/tests/grade.py": "4713401980d5d5f1be99fc165b351b551b12b01a2211450b2ff9e4ce127024a6",
+    "FIN-F01-001/tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9",
+    "FIN-F01-001/three_statement_model.xlsx": "9da4d5cd491c9098b4882a35531950b252a6332f469a19e8ea86692ae9059204"
+  },
+  "modified_candidate_files": false
+}

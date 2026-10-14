@@ -1,0 +1,33 @@
+{
+  "harness": "codex",
+  "job_id": "job_332f6d82192d4ab4a947ee205546ad31",
+  "run_id": "run_83786eabae57435d935965a318db5e96",
+  "status": "succeeded",
+  "attempt_id": "attempt_2f79be03fb004058a0ab930e3c2fd238",
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.3235294117647059
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-13T18:05:36.310278Z",
+  "finished_at": "2026-10-13T18:15:44.459068Z",
+  "agent_execution": {
+    "started_at": "2026-10-13T18:05:53.473030Z",
+    "finished_at": "2026-10-13T18:15:22.039610Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-13T18:15:30.807104Z",
+    "finished_at": "2026-10-13T18:15:44.456410Z"
+  },
+  "collected_path": "[batch-workspace]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/codex/attempt_2f79be03fb004058a0ab930e3c2fd238",
+  "file_sha256": {
+    "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+    "artifacts/workspace/output/evidence_catalog.pdf": "99c18de8d5392c0e4b1072fa186cd501bbbbe9a52ea88abcf52b73e9b5cf1402",
+    "artifacts/workspace/output/evidence_workbook.xlsx": "ab728a97c4dbf240c46d53aacd7d4126003a61fa763f87b96ab4e5534a9c2f20",
+    "artifacts/workspace/output/supplementation_note.pdf": "b31edbca2e55db362d8ef5fb7698aaaa1876459f0417ad852eefa8ec64bdd9e2",
+    "verifier/report.json": "34e2606ab1d29dad345df738a1bd8b8cf88edeae3caadb8a2712e5e8153d5571",
+    "verifier/reward.json": "d659204792e6ca2f532cb922dc531a47e8b89a7e860aa918856ce3f0542311e5",
+    "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "d2igkkb6bfkohn1tv4i0",
+      "build_id": "a897ad81-beee-4e4b-a2e1-79d66d6035ee",
+      "name": "cale-law-l01-002-agent-d86eac55",
+      "alias": "cale-law-l01-002-agent-d86eac55",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "d86eac550825cb597f27297623194bac9e368f6e1ab9cce807dfb379e821ec49",
+    "files": {
+      "Dockerfile": "bd12fe8296c407f813aa93cbd6e43527bc6d47d902a0f61ffdfffde454923e47",
+      "input-data/contract_original.docx": "3adbcc71fcaa95f3bbd821367a38559c0810b4699e856f73b91d2199020cc1bb",
+      "input-data/requirements_original.docx": "36bd27cb570c22d34a5a99189221c1ff3b0e4890cc50f6c5e2d7b4868814f5b9",
+      "input-data/tender_original.zip": "df25d51042cd742289d55e97dbe361cd946fdd3788f4ac75bb989ca171bff855"
+    }
+  }
+}

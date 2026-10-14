@@ -1,0 +1,70 @@
+{
+  "harness": "oracle",
+  "job_id": "job_3b4712ea29274b03bcf223abaf86c7f5",
+  "run_id": "run_5c3f3774c8224ed0898e4bfa31e2374e",
+  "status": "succeeded",
+  "attempt_id": "attempt_eb34ac88da274a9688c8785671fb3ef6",
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-10-13T18:05:10.285613Z",
+  "finished_at": "2026-10-13T18:05:52.462449Z",
+  "agent_execution": {
+    "started_at": "2026-10-13T18:05:14.087105Z",
+    "finished_at": "2026-10-13T18:05:34.044565Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-13T18:05:41.486862Z",
+    "finished_at": "2026-10-13T18:05:52.459982Z"
+  },
+  "collected_path": "[batch-workspace]/deliverables/LAW-L02-002/attempt_b92e21655a3e43bd962c677de0cc752c/producer-output/native-runs/oracle/attempt_eb34ac88da274a9688c8785671fb3ef6",
+  "file_sha256": {
+    "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+    "artifacts/workspace/output/.lo-profile/user/GraphicsRenderTests.log": "957f9051655b6f5b840fed86a02a05bb291994989193256af188e8a4cccdae32",
+    "artifacts/workspace/output/.lo-profile/user/autotext/mytexts.bau": "454d04193da5e4faa63ad28cb9b60f5a47feba1e7a1bc45c03dd6ab6e0f936d3",
+    "artifacts/workspace/output/.lo-profile/user/basic/Standard/Module1.xba": "b434faf21386064e2e81af758f307ae8bea72c0cb6c8510d55b1bc1bb38f8612",
+    "artifacts/workspace/output/.lo-profile/user/basic/Standard/dialog.xlb": "85c83411f1285a0d0d9b511a7ea7dd06d5ac9b97f90d286adaca084212e3fe80",
+    "artifacts/workspace/output/.lo-profile/user/basic/Standard/script.xlb": "80cb10b100053f6e0b26bb009a2b8ccbdedb761901680500a4736f7afbf1f959",
+    "artifacts/workspace/output/.lo-profile/user/basic/dialog.xlc": "5b72c4cc5130eccab44cbfb91270befaeaf8ee7ab97cf205ee2abb582fa4a9e5",
+    "artifacts/workspace/output/.lo-profile/user/basic/script.xlc": "5b72c4cc5130eccab44cbfb91270befaeaf8ee7ab97cf205ee2abb582fa4a9e5",
+    "artifacts/workspace/output/.lo-profile/user/config/autotbl.fmt": "713229151490c66f043cb4865147c97458b4f33e4eb5f2bb4133c58cbe77041e",
+    "artifacts/workspace/output/.lo-profile/user/database/biblio/biblio.dbf": "aefc2bb614c2e307870405e0fd72f4a22cf794c396a73ce0551f18a478e80ed2",
+    "artifacts/workspace/output/.lo-profile/user/database/biblio/biblio.dbt": "3ab142231d8075fdd02c95a691ddce590e0f81450744cb87ca610fd06d75cac1",
+    "artifacts/workspace/output/.lo-profile/user/database/biblio.odb": "c3dd4e9008be33cdede3abf822e9b748a201704adf95aad92ab894dd98b3fe85",
+    "artifacts/workspace/output/.lo-profile/user/extensions/buildid": "51fad368b654cd4a80d34f2ea74062c8278c5db86de0cc4996aa4ac4deef2adb",
+    "artifacts/workspace/output/.lo-profile/user/extensions/bundled/lastsynchronized": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "artifacts/workspace/output/.lo-profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+    "artifacts/workspace/output/.lo-profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+    "artifacts/workspace/output/.lo-profile/user/extensions/shared/lastsynchronized": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "artifacts/workspace/output/.lo-profile/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+    "artifacts/workspace/output/.lo-profile/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+    "artifacts/workspace/output/.lo-profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+    "artifacts/workspace/output/.lo-profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+    "artifacts/workspace/output/.lo-profile/user/gallery/sg30.sdv": "65365530165a871772e21962a5d7dda107d8d010f329bf59c878eabc3465bbe4",
+    "artifacts/workspace/output/.lo-profile/user/gallery/sg30.thm": "f1f24dff4f58a716033bcf96ad175d3436bff0e0a233ab09f6215973ed843fed",
+    "artifacts/workspace/output/.lo-profile/user/pack/ExtensionInfo.pack": "8f94c7bcb2083a786f6e479c41c0b6b9edea5ef8d6c7afb767b1424ec2e1186f",
+    "artifacts/workspace/output/.lo-profile/user/pack/autotext/mytexts.pack": "4b6df8becfd411f4893e04f4d1712cdb7f8639c0df2e26eab8fe5d0684470781",
+    "artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/Module1.pack": "fe0861e0d877fa3649f03890b80a99adb2a0625e158c4dd1d932515d339bca5a",
+    "artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/dialog.pack": "48f7e1fdd8661f0be6e676f55c9e0d0ccdfffbee9c67dd977d951129e45648fb",
+    "artifacts/workspace/output/.lo-profile/user/pack/basic/Standard/script.pack": "6961af566352be513bb45dbcc2b92151b0833b59cb65bee346919d31a69d788a",
+    "artifacts/workspace/output/.lo-profile/user/pack/basic/dialog.pack": "9a896cbae1ca92f439535587209ff596b14177401358c935227fd1af1efff9ee",
+    "artifacts/workspace/output/.lo-profile/user/pack/basic/script.pack": "9a896cbae1ca92f439535587209ff596b14177401358c935227fd1af1efff9ee",
+    "artifacts/workspace/output/.lo-profile/user/pack/config/autotbl.pack": "1d3e419163e832bfba4c7f8424dd268cca313564ae87b1ede785b6488db6238a",
+    "artifacts/workspace/output/.lo-profile/user/pack/database/biblio/biblio.pack": "d0db6a1f5a456ffe7ec476e6dda13eef51628deafea9f80d23e6cdc366776d4e",
+    "artifacts/workspace/output/.lo-profile/user/pack/database/biblio.pack": "093d969bcb085884376e2c69353852e5a57fe7614de2257097984dcc29043b2e",
+    "artifacts/workspace/output/.lo-profile/user/pack/registrymodifications.pack": "b4bc30c67bd1d61e11e4b10b11e86f87803ce34ffd0f0082785b9a9ce99fbdb0",
+    "artifacts/workspace/output/.lo-profile/user/registrymodifications.xcu": "326acae3d98c426ea72ef76ed885bccb9c7ece01b85b0d1d3e74b55671790f96",
+    "artifacts/workspace/output/.lo-profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml": "ac6f585621eb04b34549a95c99e015ad5810a4156e021df46c46731e7a087698",
+    "artifacts/workspace/output/.lo-profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml": "845041424286d5b794c11ff0a59d3df289dcb1567fb448ef0b85297108675b46",
+    "artifacts/workspace/output/evidence_catalog.pdf": "0730bb007766f78ec5a77b3a2155b3c28b9b116dcb2eccb2bed2278c722b69c7",
+    "artifacts/workspace/output/evidence_workbook.xlsx": "de7a57985e71b0566bf9695f0a2931baa7431c0c9382a9be13a804bd893d4d96",
+    "artifacts/workspace/output/supplementation_note.pdf": "9d72156ebce78eaa92ee84e193923d11a80c09a63808002ea52801c2b6df1d92",
+    "execution/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verifier/report.json": "3c7bb7b455bd09085678bbe81cf2f7c811e5640d8ce344c14e91e5af04bdcfd4",
+    "verifier/reward.json": "a95aa6fcff5c739e655920fc89913445a4d168b4a907cd4f860757bb7c900344",
+    "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

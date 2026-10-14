@@ -1,0 +1,110 @@
+{
+  "card": "LAW-L04-001",
+  "candidate_file_sha256": {
+    "environment/Dockerfile": "71c4c1ba69d157b541ed37bb9abed58bb72b84f8ad3b7691e61c250a801f87e1",
+    "environment/input-data/COURT-ZHENXIN-CLAIM.docx": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+    "environment/input-data/COURT-ZHENXIN-GUIDE.pdf": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+    "environment/input-data/COURT-ZHENXIN-LIST.docx": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+    "environment/input-data/COURT-ZHENXIN-REGISTER.docx": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db",
+    "instruction.md": "7078565b1095bd5410bdbef16f1d84bb25b04d85b34968262803cd580aadc1b2",
+    "lineage.json": "f9dd39962dd0694a5c0bc5cd96611dd969cf32f1f4b2b581b07b888a749330e0",
+    "private/authoring/source-review.json": "30a50ed647332e5b6231b4d11f4663b0ebce6e82d5cbbc72b2b6d30fb3babe37",
+    "private/evaluation/local-reference-report.json": "c2287a58227bfeb4d02d88e1f6c35f7a1f9bcb5d04e30b862a1b1065fe7e5cba",
+    "private/evaluation/local-reference-reward.json": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+    "private/evaluation/validation.json": "a147dbc87bd3d547be55b8c332f6d1d267d80ad0e30f3c5473786b0dc35645b9",
+    "private/evaluation/validation.md": "7d47449670b5592930233bcdc3df1a71e2d0ff2df7b2aec7e73cebb03bff936e",
+    "private/evaluation/wrong-cutoff-challenge-report.json": "5d6318a9bf7051dabd929f1fb45f8f599825af16ddfe60f1843ce4f3647bb87f",
+    "private/provenance.json": "6508ff234fc3049b02cc62b1fdcf9c3c4a0fea2edbaa9d659aada2335bde6d72",
+    "solution/build_reference.py": "43289b38a1794ecea0c8c3248a3776ff015d4aacead46980a2b50f632efc9445",
+    "solution/solve.sh": "e35d8abca7765a869b9e446f4a4e89fec29ff8dd8ea1c611df7e44ff19cd697a",
+    "task.toml": "a463bbc1aae978e5c1d21c6bc1b4d6767faced81c110fae060929f5573cfdd39",
+    "tests/Dockerfile": "37aafa24e240a54c4dc106824f69f01b2dcc8540a5ee10e82ded94ca3342270c",
+    "tests/assertions.json": "af5ab11888e9585d4a41277ed2b21c3094d8f504346296bc69d95f82f6634098",
+    "tests/grade.py": "f815de238d4debc790590b9d2361555af39ef31a9652fa28eb2090681f78ac16",
+    "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9"
+  },
+  "static_validation": {
+    "package": "[batch-root]/deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001",
+    "producer_attempt": "attempt_b1df00ccb5b647c9bdf59de739e6f654",
+    "static_validator_exit": 0,
+    "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L04-001\",\n      \"path\": \"[batch-root]/deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"7078565b1095bd5410bdbef16f1d84bb25b04d85b34968262803cd580aadc1b2\",\n        \"task.toml\": \"a463bbc1aae978e5c1d21c6bc1b4d6767faced81c110fae060929f5573cfdd39\",\n        \"environment/Dockerfile\": \"71c4c1ba69d157b541ed37bb9abed58bb72b84f8ad3b7691e61c250a801f87e1\",\n        \"solution/solve.sh\": \"e35d8abca7765a869b9e446f4a4e89fec29ff8dd8ea1c611df7e44ff19cd697a\",\n        \"solution/build_reference.py\": \"43289b38a1794ecea0c8c3248a3776ff015d4aacead46980a2b50f632efc9445\",\n        \"tests/test.sh\": \"c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9\",\n        \"tests/assertions.json\": \"af5ab11888e9585d4a41277ed2b21c3094d8f504346296bc69d95f82f6634098\",\n        \"tests/grade.py\": \"f815de238d4debc790590b9d2361555af39ef31a9652fa28eb2090681f78ac16\"\n      },\n      \"assertion_count\": 24,\n      \"criteria_covered\": [\n        \"calculation\",\n        \"declaration\",\n        \"evidence_gaps\",\n        \"evidence_index\",\n        \"procedure\",\n        \"traceability\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "file_sha256": {
+      "environment/Dockerfile": "71c4c1ba69d157b541ed37bb9abed58bb72b84f8ad3b7691e61c250a801f87e1",
+      "environment/input-data/COURT-ZHENXIN-CLAIM.docx": "d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5",
+      "environment/input-data/COURT-ZHENXIN-GUIDE.pdf": "aeecb43d1d96cdf1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b",
+      "environment/input-data/COURT-ZHENXIN-LIST.docx": "6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94",
+      "environment/input-data/COURT-ZHENXIN-REGISTER.docx": "a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db",
+      "instruction.md": "7078565b1095bd5410bdbef16f1d84bb25b04d85b34968262803cd580aadc1b2",
+      "lineage.json": "f9dd39962dd0694a5c0bc5cd96611dd969cf32f1f4b2b581b07b888a749330e0",
+      "private/authoring/source-review.json": "30a50ed647332e5b6231b4d11f4663b0ebce6e82d5cbbc72b2b6d30fb3babe37",
+      "private/evaluation/local-reference-report.json": "c2287a58227bfeb4d02d88e1f6c35f7a1f9bcb5d04e30b862a1b1065fe7e5cba",
+      "private/evaluation/local-reference-reward.json": "452bb15726c21e397ceacf950b4df17a862a2c653664b39e68a5a9dbae16f896",
+      "private/evaluation/validation.json": "a147dbc87bd3d547be55b8c332f6d1d267d80ad0e30f3c5473786b0dc35645b9",
+      "private/evaluation/validation.md": "7d47449670b5592930233bcdc3df1a71e2d0ff2df7b2aec7e73cebb03bff936e",
+      "private/evaluation/wrong-cutoff-challenge-report.json": "5d6318a9bf7051dabd929f1fb45f8f599825af16ddfe60f1843ce4f3647bb87f",
+      "private/provenance.json": "6508ff234fc3049b02cc62b1fdcf9c3c4a0fea2edbaa9d659aada2335bde6d72",
+      "solution/build_reference.py": "43289b38a1794ecea0c8c3248a3776ff015d4aacead46980a2b50f632efc9445",
+      "solution/solve.sh": "e35d8abca7765a869b9e446f4a4e89fec29ff8dd8ea1c611df7e44ff19cd697a",
+      "task.toml": "a463bbc1aae978e5c1d21c6bc1b4d6767faced81c110fae060929f5573cfdd39",
+      "tests/Dockerfile": "37aafa24e240a54c4dc106824f69f01b2dcc8540a5ee10e82ded94ca3342270c",
+      "tests/assertions.json": "af5ab11888e9585d4a41277ed2b21c3094d8f504346296bc69d95f82f6634098",
+      "tests/grade.py": "f815de238d4debc790590b9d2361555af39ef31a9652fa28eb2090681f78ac16",
+      "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9"
+    }
+  },
+  "native_execution": {
+    "status": "not_run",
+    "trials": []
+  },
+  "verifier_files": [],
+  "execution_files": [],
+  "pipeline": {
+    "stage": "build",
+    "status": "failed",
+    "log": "[batch-root]/deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/forge-build.log",
+    "pid": 59521,
+    "return_code": 1
+  },
+  "build_log_tail": "0efea1057b46ebc1636e4c27248b477ed70c6eec5d2a9213b2913a9]\n[2026-10-13T18:14:01.420117+00:00] [debug] Saved: 3cecf297-cbcb-4633-abd0-2fb3f7fed994\n[2026-10-13T18:14:01.561051+00:00] [debug] Saved: 30b4dd34-93b3-4c14-a74d-b356d08f2dfc\n[2026-10-13T18:14:02.193471+00:00] [debug] [config] [stdout]: Starting configuration script\n[2026-10-13T18:14:02.198387+00:00] [debug] [config] [stdout]: Create default user 'user' (if doesn't exist yet)\n[2026-10-13T18:14:02.200780+00:00] [debug] [config] [stdout]: Copy skeleton files to /home/user (keeping existing files)\n[2026-10-13T18:14:02.204717+00:00] [debug] [config] [stdout]: skel: keeping existing .bashrc\n[2026-10-13T18:14:02.205085+00:00] [debug] [config] [stdout]: skel: keeping existing .profile\n[2026-10-13T18:14:02.205706+00:00] [debug] [config] [stdout]: skel: keeping existing .bash_logout\n[2026-10-13T18:14:02.207467+00:00] [debug] [config] [stdout]: Add sudo to 'user' with no password\n[2026-10-13T18:14:02.233936+00:00] [debug] [config] [stdout]: passwd: password changed.\n[2026-10-13T18:14:02.238822+00:00] [debug] [config] [stdout]: sudoers entry already present\n[2026-10-13T18:14:02.238857+00:00] [debug] [config] [stdout]: Give 'user' ownership to /home/user\n[2026-10-13T18:14:02.243276+00:00] [debug] [config] [stdout]: Give 777 permission to /usr/local\n[2026-10-13T18:14:02.319198+00:00] [debug] [config] [stdout]: Create /code directory\n[2026-10-13T18:14:02.321038+00:00] [debug] [config] [stdout]: Give 777 permission to /code\n[2026-10-13T18:14:02.322373+00:00] [debug] [config] [stdout]: Finished configuration script\n[2026-10-13T18:14:02.582070+00:00] [debug] [certs] [stdout]: Updating certificates in /etc/ssl/certs...\n[2026-10-13T18:14:03.709981+00:00] [debug] [certs] [stderr]: rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL\n[2026-10-13T18:14:03.720179+00:00] [debug] [certs] [stdout]: 150 added, 0 removed; done.\n[2026-10-13T18:14:03.720232+00:00] [debug] [certs] [stdout]: Running hooks in /etc/ca-certificates/update.d...\n[2026-10-13T18:14:03.723284+00:00] [debug] [certs] [stdout]: done.\n[2026-10-13T18:14:04.290184+00:00] [debug] Adding layer to cache: 1b56b3dc-dcf7-4732-b42d-10c3ba4f8f60\n[2026-10-13T18:14:04.290298+00:00] [debug] Uploading layer: 1b56b3dc-dcf7-4732-b42d-10c3ba4f8f60\n[2026-10-13T18:14:04.290692+00:00] [info] [optimize] Optimizing template [17e6f434095f98f1024b09dd3869805bf7170421ee8abf36861d5151b7c11e4c]\n[2026-10-13T18:14:05.007170+00:00] [debug] Saved: 1b56b3dc-dcf7-4732-b42d-10c3ba4f8f60\n[2026-10-13T18:14:05.117569+00:00] [info] Build finished, took 1m7s\n[2026-10-14T02:14:05.761264] [debug] Build finished\n{\"role\": \"agent\", \"build\": {\"template_id\": \"x0c759d4a6stzd2ipeo1\", \"build_id\": \"1b56b3dc-dcf7-4732-b42d-10c3ba4f8f60\", \"name\": \"cale-law-l04-001-agent-0abcaa39\", \"alias\": \"cale-law-l04-001-agent-0abcaa39\", \"tags\": [\"default\"]}}\n[2026-10-14T02:14:05.766059] [debug] Build started\n[2026-10-14T02:14:05.766156] [info] Requesting build for template: cale-law-l04-001-verifier-73c5fc7e\n[2026-10-14T02:14:06.079750] [info] Template created with ID: 54blaxw0ygnohwc0h22k, Build ID: a2bd604c-07ca-4ec2-8d4f-e01b87f551ad\n[2026-10-14T02:14:06.080210] [debug] Build finished\nTraceback (most recent call last):\n  File \"[batch-root]/control/build_native_templates.py\", line 38, in <module>\n    built=Template.build(Template(file_context_path=context).from_dockerfile(str(recipe)),\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template_sync/main.py\", line 250, in build\n    data = Template._build(\n           ^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template_sync/main.py\", line 93, in _build\n    instructions_with_hashes = template._template._instructions_with_hashes()\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template/main.py\", line 1300, in _instructions_with_hashes\n    step[\"filesHash\"] = calculate_files_hash(\n                        ^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template/utils.py\", line 220, in calculate_files_hash\n    raise ValueError(f\"No files found in {src_path}\").with_traceback(stack_trace)\n  File \"[batch-root]/control/build_native_templates.py\", line 38, in <module>\n    built=Template.build(Template(file_context_path=context).from_dockerfile(str(recipe)),\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: No files found in [batch-root]/deliverables/LAW-L04-001/attempt_b1df00ccb5b647c9bdf59de739e6f654/producer-output/LAW-L04-001/tests/input-data/\n",
+  "candidate_validation_record_present": true,
+  "candidate_private_files": [
+    "private/authoring/source-review.json",
+    "private/evaluation/local-reference-report.json",
+    "private/evaluation/local-reference-reward.json",
+    "private/evaluation/validation.json",
+    "private/evaluation/validation.md",
+    "private/evaluation/wrong-cutoff-challenge-report.json",
+    "private/provenance.json"
+  ],
+  "candidate_validation_record": {
+    "harbor_execution": {
+      "status": "not_run",
+      "harbor_schema": "not_available",
+      "docker_build": "not_run",
+      "reference_generated_locally": "passed",
+      "reference_reward": 1.0,
+      "empty_output_reward": 0.0,
+      "error_mutation": "wrong cutoff detected; cap 0.5",
+      "evidence": [
+        "local-reference-report.json",
+        "wrong-cutoff-challenge-report.json"
+      ]
+    },
+    "grading_calibration": {
+      "status": "partial",
+      "assertions": 24,
+      "reference_passed": 24,
+      "empty_baseline_passed": 0,
+      "critical_error_challenge": "passed",
+      "reasonable_alternatives": "not_run",
+      "professional_judgment_review": "not_run"
+    },
+    "independent_solver_rollout": {
+      "status": "not_run",
+      "model": null,
+      "evidence": null
+    },
+    "overall": "draft"
+  }
+}

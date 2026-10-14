@@ -1,0 +1,10 @@
+{
+  "inputs": [
+    {"path":"environment/input-data/COURT-ZHENXIN-CLAIM.docx","origin_url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S33/COURT-ZHENXIN-CLAIM/original.docx","sha256":"d818a63eb2a4f7208cda898e4863e3bcea7e61b999e8fc60a28ebb4bc75a17d5","bytes":15373,"method":"从资源库原始 DOCX 逐字节复制；未转写/清理。"},
+    {"path":"environment/input-data/COURT-ZHENXIN-GUIDE.pdf","origin_url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S33/COURT-ZHENXIN-GUIDE/original.pdf","sha256":"aeecb43d1d96dfac1ac02e0baa2ad872c40edaa22b6e4a58cde7d5893ed478a7b","bytes":188442,"method":"从资源库原始 PDF 逐字节复制；未转写/清理。"},
+    {"path":"environment/input-data/COURT-ZHENXIN-LIST.docx","origin_url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S33/COURT-ZHENXIN-LIST/original.docx","sha256":"6d337bbe0809738406489588245be8b7cc089c9d4d82d13f4b1b54665725fc94","bytes":13376,"method":"从资源库原始 DOCX 逐字节复制；未转写/清理。"},
+    {"path":"environment/input-data/COURT-ZHENXIN-REGISTER.docx","origin_url":"https://raw.githubusercontent.com/comonadic/CALE-Benchmark/7219bf92cb0fdfe7493a6cab455593c3d84a15e0/reference-library/raw/S33/COURT-ZHENXIN-REGISTER/original.docx","sha256":"a0941539d4e66027e585997801883b31b5fff04019c085fab14eea048fea67db","bytes":14240,"method":"从资源库原始 DOCX 逐字节复制；未转写/清理。"}
+  ],
+  "scenario_assumptions": ["解题者受委托方安排开展申报准备，但尚未取得委托方债权卷宗；题目只要求准备工作底稿，不代表现实中的某一债权已存在。", "工作簿简式利息仅作有依据后的计算模板，最终计算应服从具体合同或生效法律文书及通知口径。"],
+  "transformations": ["参考解用 python-docx/pypdf 读取公开模板/通知要点，用 openpyxl、ReportLab 派生工作簿和工作稿 PDF；原件只作为只读输入保留。"]
+}

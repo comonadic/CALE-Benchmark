@@ -1,0 +1,257 @@
+{
+  "valid": true,
+  "status": "graded_candidate_defect",
+  "reward": 1.21875,
+  "P": 39,
+  "S": 32,
+  "results": [
+    {
+      "id": "HIST-01",
+      "status": "pass",
+      "actual": 128468230914.96,
+      "expected": 128468230914.96
+    },
+    {
+      "id": "HIST-02",
+      "status": "pass",
+      "actual": 114601056662.29,
+      "expected": 114601056662.29
+    },
+    {
+      "id": "HIST-03",
+      "status": "pass",
+      "actual": 115193343614.54,
+      "expected": 115193343614.54
+    },
+    {
+      "id": "HIST-04",
+      "status": "pass",
+      "actual": 4545393791.33,
+      "expected": 4545393791.33
+    },
+    {
+      "id": "HIST-05",
+      "status": "pass",
+      "actual": 3202836313.58,
+      "expected": 3202836313.58
+    },
+    {
+      "id": "HIST-06",
+      "status": "pass",
+      "actual": 2978763231.09,
+      "expected": 2978763231.09
+    },
+    {
+      "id": "HIST-07",
+      "status": "pass",
+      "actual": 11371777008.15,
+      "expected": 11371777008.15
+    },
+    {
+      "id": "HIST-08",
+      "status": "pass",
+      "actual": 5726047396.44,
+      "expected": 5726047396.44
+    },
+    {
+      "id": "HIST-09",
+      "status": "pass",
+      "actual": 17007956953.83,
+      "expected": 17007956953.83
+    },
+    {
+      "id": "HIST-10",
+      "status": "pass",
+      "actual": 1163647077.79,
+      "expected": 1163647077.79
+    },
+    {
+      "id": "HIST-11",
+      "status": "pass",
+      "actual": 64239967963.3,
+      "expected": 64239967963.3
+    },
+    {
+      "id": "HIST-12",
+      "status": "pass",
+      "actual": 58236827704.54,
+      "expected": 58236827704.54
+    },
+    {
+      "id": "HIST-13",
+      "status": "pass",
+      "actual": 1726556952.59,
+      "expected": 1726556952.59
+    },
+    {
+      "id": "HIST-14",
+      "status": "pass",
+      "actual": 3923561511.73,
+      "expected": 3923561511.73
+    },
+    {
+      "id": "HIST-15",
+      "status": "pass",
+      "actual": -2993726149.88,
+      "expected": -2993726149.88
+    },
+    {
+      "id": "HIST-16",
+      "status": "pass",
+      "actual": -724819016.92,
+      "expected": -724819016.92
+    },
+    {
+      "id": "HIST-17",
+      "status": "pass",
+      "actual": 136480536.53,
+      "expected": 136480536.53
+    },
+    {
+      "id": "HIST-18",
+      "status": "pass",
+      "actual": 3135056270.1,
+      "expected": 3135056270.1
+    },
+    {
+      "id": "HIST-19",
+      "status": "pass",
+      "actual": 5411032161.7,
+      "expected": 5411032161.7
+    },
+    {
+      "id": "HIST-20",
+      "status": "pass",
+      "actual": 13917906683.6,
+      "expected": 13917906683.6
+    },
+    {
+      "id": "HIST-21",
+      "status": "pass",
+      "actual": 7317868613.15,
+      "expected": 7317868613.15
+    },
+    {
+      "id": "HIST-22",
+      "status": "pass",
+      "actual": 16764113281.15,
+      "expected": 16764113281.15
+    },
+    {
+      "id": "HIST-23",
+      "status": "pass",
+      "actual": 870886016.42,
+      "expected": 870886016.42
+    },
+    {
+      "id": "HIST-24",
+      "status": "pass",
+      "actual": 3601033153.61,
+      "expected": 3601033153.61
+    },
+    {
+      "id": "HIST-25",
+      "status": "fail",
+      "actual": null,
+      "expected": 55290906075.56
+    },
+    {
+      "id": "HIST-26",
+      "status": "pass",
+      "actual": 30198088271.98,
+      "expected": 30198088271.98
+    },
+    {
+      "id": "HIST-27",
+      "status": "pass",
+      "actual": 25092817803.58,
+      "expected": 25092817803.58
+    },
+    {
+      "id": "MODEL-01",
+      "status": "pass",
+      "actual": 0,
+      "expected": "absolute value <= 1 yuan"
+    },
+    {
+      "id": "MODEL-02",
+      "status": "pass",
+      "actual": 0,
+      "expected": "absolute value <= 1 yuan"
+    },
+    {
+      "id": "MODEL-03",
+      "status": "pass",
+      "actual": 0,
+      "expected": "absolute value <= 1 yuan"
+    },
+    {
+      "id": "MODEL-04",
+      "status": "pass",
+      "actual": 0,
+      "expected": "absolute value <= 1 yuan"
+    },
+    {
+      "id": "MODEL-05",
+      "status": "pass",
+      "actual": 0,
+      "expected": "absolute value <= 1 yuan"
+    },
+    {
+      "id": "MODEL-06",
+      "status": "pass",
+      "actual": 0,
+      "expected": "absolute value <= 1 yuan"
+    },
+    {
+      "id": "MODEL-07",
+      "status": "pass",
+      "actual": 642399679.632996,
+      "expected": "positive revenue impact"
+    },
+    {
+      "id": "MODEL-08",
+      "status": "pass",
+      "actual": "=历史数据!D20*(1+情景假设!B2)",
+      "expected": "formula-driven revenue"
+    },
+    {
+      "id": "MODEL-09",
+      "status": "pass",
+      "actual": {
+        "revenue": "=历史数据!D20*(1+情景假设!B2)",
+        "ar": "=利润表!B2*C2",
+        "inventory": "=利润表!B2*C3",
+        "payables": "=利润表!B3*C4"
+      },
+      "expected": "formula-driven working capital"
+    },
+    {
+      "id": "MODEL-10",
+      "status": "pass",
+      "actual": "2025 annual report p.97 2025 annual report p.97 2025 annual report p.97 2025 annual report p.98 2025 annual report p.100 2025 annual report p.101 2025 annual report p.101 2025 annual report p.92-93 2025 annual report p.92 2025 annual report p.92 2025 annual report p.94 2025 annual report p.93 2025 annual report p.93 2025 annual report p.94 2025 annual report p.95 2025 annual report p.93 2025 annual report p.94 2025 annual report p.94 2026 half-year report p.61 2026 half-year report p.61 2026 half-year report p.61 2026 half-year report p.62 2026 half-year report p.64 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.56 2026 half-year report p.56 2026 half-year report p.57 2026 half-year report p.56 2026 half-year report p.56 2026 half-year report p.57 2026 half-year report p.57 2026 half-year report p.56 2026 half-year report p.57 2026 half-year report p.57",
+      "expected": "2025 annual report p.97"
+    },
+    {
+      "id": "MODEL-11",
+      "status": "pass",
+      "actual": "2025 annual report p.97 2025 annual report p.97 2025 annual report p.97 2025 annual report p.98 2025 annual report p.100 2025 annual report p.101 2025 annual report p.101 2025 annual report p.92-93 2025 annual report p.92 2025 annual report p.92 2025 annual report p.94 2025 annual report p.93 2025 annual report p.93 2025 annual report p.94 2025 annual report p.95 2025 annual report p.93 2025 annual report p.94 2025 annual report p.94 2026 half-year report p.61 2026 half-year report p.61 2026 half-year report p.61 2026 half-year report p.62 2026 half-year report p.64 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.65 2026 half-year report p.56 2026 half-year report p.56 2026 half-year report p.57 2026 half-year report p.56 2026 half-year report p.56 2026 half-year report p.57 2026 half-year report p.57 2026 half-year report p.56 2026 half-year report p.57 2026 half-year report p.57",
+      "expected": "2026 half-year report p.61"
+    },
+    {
+      "id": "MODEL-12",
+      "status": "pass",
+      "actual": "指标 披露项目 期间 金额（人民币元） 主体与范围 来源及PDF页码 2025 revenue 2025年度营业总收入 2025年度 128468230914.96 广东海大集团股份有限公司；合并口径 2025 annual report p.97 2024 revenue 2024年度营业总收入 2024年度比较 114601056662.29 广东海大集团股份有限公司；合并口径 2025 annual report p.97 2025 cost 2025年度营业成本 2025年度 115193343614.54 广东海大集团股份有限公司；合并口径 2025 annual report p.97 2025 net income 2025年度净利润 2025年度 4545393791.33 广东海大集团股份有限公司；合并口径 2025 annual report p.98 2025 operating cash flow 经营活动产生的现金流量净额 2025年度 6260377323.22 广东海大集团股份有限公司；合并口径 2025 annual report p.100 2025 ",
+      "expected": "scenario nature disclosed"
+    },
+    {
+      "id": "MODEL-13",
+      "status": "pass",
+      "actual": "海大集团三表模型更新说明\n口径与来源\n人民币元、合并口径；历史数据来自2025 年年度报告及2026 年半年度报告，工作簿逐\n项列示报告及PDF 页码。流量和时点数按披露期间区分。\n情景参数性质\nH2 收入增速、资本开支、折旧、借款、股利及税率为可编辑分析者情景，不是公司批准\n预算或业绩指引。成本及营运资本率以H1 实际比例作简化基准。\n模型与结果\n工作簿公式联动收入、成本、营运资本、固定资产、借款、现金流及权益。检查页列示\nH1/H2 现金滚动、预测资产负债差额、支持表滚动和收入增速上调1 个百分点的敏感\n性。\n限制\n未取得既有模型、批准预算、逐笔债务台账或资本开支计划。经营现金流采用简化间接\n法，其他资产/负债按H1 汇总余额暂时持平；资产负债差额作为诊断，不作平衡插值。\nH2 情景结果：期末现金约5773158712.02 元；期末权益约29388944545.86 元；资\n产负债差额0.00 元；增速敏感性收入影响642399679.63 元。检查差额保留用于识别\n其他资产/负债简化持平的局限。",
+      "expected": "limitations and scenario result in PDF"
+    }
+  ],
+  "failed_assertions": [
+    "HIST-25"
+  ]
+}

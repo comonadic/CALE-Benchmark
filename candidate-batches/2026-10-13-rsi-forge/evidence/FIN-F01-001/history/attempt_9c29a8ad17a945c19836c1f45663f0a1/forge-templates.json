@@ -1,0 +1,42 @@
+{
+  "agent": {
+    "build": {
+      "template_id": "71hfa09tq6vgw9kueiol",
+      "build_id": "9b652284-65d2-4ffb-ad5e-6f322b78499c",
+      "name": "cale-fin-f01-001-agent-f7175d61",
+      "alias": "cale-fin-f01-001-agent-f7175d61",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "f7175d61ea2d9088c2443125e8c6ead704778cacc716b09adeabff260ba1de6b",
+    "files": {
+      "Dockerfile": "2818d30b98a838b3217472b79b80087bab0caa2eec873113faf5c5988cb7244c",
+      "input-data/haid_group_2025_annual_report.pdf": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "input-data/haid_group_2026_half_year_report.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd"
+    }
+  },
+  "verifier": {
+    "build": {
+      "template_id": "3ub64ldeikrxto89sk0o",
+      "build_id": "8c8dc037-aaf5-468e-8088-a9de522869ea",
+      "name": "cale-fin-f01-001-verifier-36a65680",
+      "alias": "cale-fin-f01-001-verifier-36a65680",
+      "tags": [
+        "default"
+      ]
+    },
+    "cpu": 2,
+    "memory_mb": 4096,
+    "context_sha256": "36a656807a0c85854ef84677fbfbbf9dcc9b99231426392dccb8ff8a380ada78",
+    "files": {
+      "Dockerfile": "f5dd28514a81a6b3aead2ddc35b9fa010d663dafa88c4a1c3b4179560802a349",
+      "__pycache__/grade.cpython-312.pyc": "4e8434b57bcfb4b0133d83249d18fc0e3985c6970e71b61632a2309ee72c149b",
+      "assertions.json": "36b5037ac695092438401a74c0222d847096ff0b2880178a55283111db9c5acf",
+      "grade.py": "4713401980d5d5f1be99fc165b351b551b12b01a2211450b2ff9e4ce127024a6",
+      "test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9"
+    }
+  }
+}

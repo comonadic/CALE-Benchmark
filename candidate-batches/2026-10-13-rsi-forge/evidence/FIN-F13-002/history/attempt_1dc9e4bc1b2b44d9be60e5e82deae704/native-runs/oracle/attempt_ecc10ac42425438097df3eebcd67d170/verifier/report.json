@@ -1,0 +1,9 @@
+{
+  "scale": null,
+  "P": null,
+  "reward": null,
+  "valid": false,
+  "status": "verifier_failure",
+  "error": "trusted source anchor missing",
+  "traceback": "Traceback (most recent call last):\n  File \"/tests/grade.py\", line 29, in main\n    st=source_values(inp)\n       ^^^^^^^^^^^^^^^^^^\n  File \"/tests/grade.py\", line 22, in source_values\n    if any(x not in t for x in req): raise RuntimeError('trusted source anchor missing')\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: trusted source anchor missing\n"
+}

@@ -1,0 +1,206 @@
+{
+  "card": "FIN-F01-001",
+  "candidate_file_sha256": {
+    "environment/Dockerfile": "2818d30b98a838b3217472b79b80087bab0caa2eec873113faf5c5988cb7244c",
+    "environment/input-data/haid_group_2025_annual_report.pdf": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+    "environment/input-data/haid_group_2026_half_year_report.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+    "instruction.md": "2e2e00af3430ecdc11ab629697888c1f18726ae03d300a711414f03f457da10e",
+    "lineage.json": "db3b991aa83925c60139ab3056c998e2e87b87cf43e21f59302c417af936f473",
+    "model_update_notes.pdf": "946edc5cb5ba01d7589f09ffd67a87fda9bee32e0f3d6cd86bdc0509a423648b",
+    "private/evaluation/reference-run/report.json": "b85efdd00c812122a4206206d7bce85eda464c55a94da7315686d5ce4cfa5d98",
+    "private/provenance.json": "cfe97dbcb396d00132631209df1877ece1f880e30a2cdd1481c64c0c6f5590aa",
+    "run-logs/report.json": "38c5c288739fe17b8e2e99d49935f05a63f65cbbc4abd793fb0a7c558f2c1b69",
+    "run-logs/reward.json": "fe35ff29cbdf8d2143eb3a7e8019c75eb6c3ffee79c5d7ba444ad4ab78dca14d",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "d6f61d458cc0f9278357f9cc283640411f2ed18fa9770e78a894739065142def",
+    "solution/build_reference.py": "f311b4f8f1634cab88235b384c4339c8aa452da55010cca321a4208c87b81ca4",
+    "solution/solve.sh": "d4a28f68c6e338ec24b9840c992f0a9b4c34e763294bdbe238639353ba1aecdc",
+    "task.toml": "47a9de420569498d85d84bb0583502b777cb6220dc2a4913c6cbe50132c5d74e",
+    "tests/Dockerfile": "f5dd28514a81a6b3aead2ddc35b9fa010d663dafa88c4a1c3b4179560802a349",
+    "tests/__pycache__/grade.cpython-312.pyc": "4e8434b57bcfb4b0133d83249d18fc0e3985c6970e71b61632a2309ee72c149b",
+    "tests/assertions.json": "36b5037ac695092438401a74c0222d847096ff0b2880178a55283111db9c5acf",
+    "tests/grade.py": "4713401980d5d5f1be99fc165b351b551b12b01a2211450b2ff9e4ce127024a6",
+    "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9",
+    "three_statement_model.xlsx": "9da4d5cd491c9098b4882a35531950b252a6332f469a19e8ea86692ae9059204"
+  },
+  "static_validation": {
+    "package": "[batch-root]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001",
+    "producer_attempt": "attempt_9c29a8ad17a945c19836c1f45663f0a1",
+    "static_validator_exit": 0,
+    "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"FIN-F01-001\",\n      \"path\": \"[batch-root]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/FIN-F01-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"2e2e00af3430ecdc11ab629697888c1f18726ae03d300a711414f03f457da10e\",\n        \"task.toml\": \"47a9de420569498d85d84bb0583502b777cb6220dc2a4913c6cbe50132c5d74e\",\n        \"environment/Dockerfile\": \"2818d30b98a838b3217472b79b80087bab0caa2eec873113faf5c5988cb7244c\",\n        \"solution/solve.sh\": \"d4a28f68c6e338ec24b9840c992f0a9b4c34e763294bdbe238639353ba1aecdc\",\n        \"solution/build_reference.py\": \"f311b4f8f1634cab88235b384c4339c8aa452da55010cca321a4208c87b81ca4\",\n        \"tests/test.sh\": \"c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9\",\n        \"tests/assertions.json\": \"36b5037ac695092438401a74c0222d847096ff0b2880178a55283111db9c5acf\",\n        \"tests/grade.py\": \"4713401980d5d5f1be99fc165b351b551b12b01a2211450b2ff9e4ce127024a6\"\n      },\n      \"assertion_count\": 46,\n      \"criteria_covered\": [\n        \"evidence_and_scope\",\n        \"historical_facts\",\n        \"model_integrity\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "file_sha256": {
+      "environment/Dockerfile": "2818d30b98a838b3217472b79b80087bab0caa2eec873113faf5c5988cb7244c",
+      "environment/input-data/haid_group_2025_annual_report.pdf": "42da166bd4e2a4062f4c7652c18c85f3c7e2186a59a8fb3ef10fedb728aa8ab4",
+      "environment/input-data/haid_group_2026_half_year_report.pdf": "88fd33af1d5f9fb57fb13dd09485179b06d1c074cafdf0cdbc91e685a13802dd",
+      "instruction.md": "2e2e00af3430ecdc11ab629697888c1f18726ae03d300a711414f03f457da10e",
+      "lineage.json": "db3b991aa83925c60139ab3056c998e2e87b87cf43e21f59302c417af936f473",
+      "model_update_notes.pdf": "946edc5cb5ba01d7589f09ffd67a87fda9bee32e0f3d6cd86bdc0509a423648b",
+      "private/evaluation/reference-run/report.json": "b85efdd00c812122a4206206d7bce85eda464c55a94da7315686d5ce4cfa5d98",
+      "private/provenance.json": "cfe97dbcb396d00132631209df1877ece1f880e30a2cdd1481c64c0c6f5590aa",
+      "run-logs/report.json": "38c5c288739fe17b8e2e99d49935f05a63f65cbbc4abd793fb0a7c558f2c1b69",
+      "run-logs/reward.json": "fe35ff29cbdf8d2143eb3a7e8019c75eb6c3ffee79c5d7ba444ad4ab78dca14d",
+      "solution/__pycache__/build_reference.cpython-312.pyc": "d6f61d458cc0f9278357f9cc283640411f2ed18fa9770e78a894739065142def",
+      "solution/build_reference.py": "f311b4f8f1634cab88235b384c4339c8aa452da55010cca321a4208c87b81ca4",
+      "solution/solve.sh": "d4a28f68c6e338ec24b9840c992f0a9b4c34e763294bdbe238639353ba1aecdc",
+      "task.toml": "47a9de420569498d85d84bb0583502b777cb6220dc2a4913c6cbe50132c5d74e",
+      "tests/Dockerfile": "f5dd28514a81a6b3aead2ddc35b9fa010d663dafa88c4a1c3b4179560802a349",
+      "tests/__pycache__/grade.cpython-312.pyc": "4e8434b57bcfb4b0133d83249d18fc0e3985c6970e71b61632a2309ee72c149b",
+      "tests/assertions.json": "36b5037ac695092438401a74c0222d847096ff0b2880178a55283111db9c5acf",
+      "tests/grade.py": "4713401980d5d5f1be99fc165b351b551b12b01a2211450b2ff9e4ce127024a6",
+      "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9",
+      "three_statement_model.xlsx": "9da4d5cd491c9098b4882a35531950b252a6332f469a19e8ea86692ae9059204"
+    }
+  },
+  "native_execution": {
+    "manifest": "[batch-root]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/forge-trials.json",
+    "bundle_sha256": "4f5373b91f759dca1b8c5386a346225213b52ae4539d07f8cf6f7f24b1efd479",
+    "trials": [
+      {
+        "harness": "oracle",
+        "job_id": "job_73e4e3823f6c47f2874e1c37f6ada1b4",
+        "run_id": "run_5f635f15040b49a2bb0a76dcb7637584",
+        "status": "failed",
+        "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json\n",
+          "occurred_at": "2026-10-14T02:59:32.682676"
+        },
+        "started_at": "2026-10-13T18:57:59.059846Z",
+        "finished_at": "2026-10-13T18:59:32.686056Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:58:04.554094Z",
+          "finished_at": "2026-10-13T18:58:59.855378Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:59:08.629071Z",
+          "finished_at": "2026-10-13T18:59:32.679087Z"
+        },
+        "collected_path": "[batch-root]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/native-runs/oracle/attempt_808b09e40e774719be06d60696bc1197",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "artifacts/workspace/output/model_update_notes.pdf": "e14fd46c82ef8b442483ae984bdb686d234001197d4e063875ea00dfc729b147",
+          "artifacts/workspace/output/three_statement_model.xlsx": "600d5ac6436769da64a1e139309770e3581202e333b4945211f31015b1b31190",
+          "execution/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "verifier/report.json": "b85efdd00c812122a4206206d7bce85eda464c55a94da7315686d5ce4cfa5d98",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "harness": "nop",
+        "job_id": "job_85d4ee23e4e24b20873c37eeb5d848ae",
+        "run_id": "run_4a6fb38bc5284768b73266f506d7f001",
+        "status": "failed",
+        "attempt_id": "attempt_17fa0449d260418abcc304e489335b19",
+        "verifier_result": null,
+        "exception_info": {
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json\n",
+          "occurred_at": "2026-10-14T02:58:25.638109"
+        },
+        "started_at": "2026-10-13T18:57:59.090709Z",
+        "finished_at": "2026-10-13T18:58:25.641797Z",
+        "agent_execution": {
+          "started_at": "2026-10-13T18:58:03.549764Z",
+          "finished_at": "2026-10-13T18:58:03.937383Z"
+        },
+        "verifier": {
+          "started_at": "2026-10-13T18:58:12.651172Z",
+          "finished_at": "2026-10-13T18:58:25.634225Z"
+        },
+        "collected_path": "[batch-root]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/native-runs/nop/attempt_17fa0449d260418abcc304e489335b19",
+        "file_sha256": {
+          "artifacts/manifest.json": "27e9fab45ec6e906f4b09a26739fdbba3999e88adba1fca7ec872c7474aef1f3",
+          "verifier/report.json": "47606540b7047d357a3a7d2b7291004e6a1cac21104199ec47d58577293aa0f8",
+          "verifier/test-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    ],
+    "solver_gate": {
+      "status": "blocked_by_baselines",
+      "baseline_evidence": {
+        "oracle": {
+          "status": "failed",
+          "run_id": "run_5f635f15040b49a2bb0a76dcb7637584",
+          "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+          "verifier_result": null,
+          "exception_info": {
+            "exception_type": "RewardFileNotFoundError",
+            "exception_message": "No reward file found at [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json",
+            "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_808b09e40e774719be06d60696bc1197/verifier/reward.json\n",
+            "occurred_at": "2026-10-14T02:59:32.682676"
+          }
+        },
+        "nop": {
+          "status": "failed",
+          "run_id": "run_4a6fb38bc5284768b73266f506d7f001",
+          "attempt_id": "attempt_17fa0449d260418abcc304e489335b19",
+          "verifier_result": null,
+          "exception_info": {
+            "exception_type": "RewardFileNotFoundError",
+            "exception_message": "No reward file found at [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json",
+            "exception_traceback": "Traceback (most recent call last):\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 353, in run\n    await self._run()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 98, in _run\n    return await super()._run()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 52, in _run\n    await self._run_verifier()\n  File \"[batch-root]/forge-runtime/src/rsi_forge/executor.py\", line 143, in _run_verifier\n    await super()._run_verifier()\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 98, in _run_verifier\n    self.result.verifier_result = await self._run_separate_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/trial/trial.py\", line 597, in _run_separate_verifier\n    return await asyncio.wait_for(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[python-runtime]/cpython-3.12.14-macos-aarch64-none/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/harbor/verifier/verifier.py\", line 232, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.txt or [batch-root]/control/state/attempts/attempt_17fa0449d260418abcc304e489335b19/verifier/reward.json\n",
+            "occurred_at": "2026-10-14T02:58:25.638109"
+          }
+        }
+      },
+      "checked_at": 1791917982.54187,
+      "job_id": null
+    }
+  },
+  "verifier_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+      "path": "report.json",
+      "sha256": "b85efdd00c812122a4206206d7bce85eda464c55a94da7315686d5ce4cfa5d98",
+      "content": "{\n  \"valid\": false,\n  \"status\": \"verifier_failure\",\n  \"error\": \"ValueError: invalid assertion scale or evaluated result count\"\n}"
+    },
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_17fa0449d260418abcc304e489335b19",
+      "path": "report.json",
+      "sha256": "47606540b7047d357a3a7d2b7291004e6a1cac21104199ec47d58577293aa0f8",
+      "content": "{\n  \"valid\": false,\n  \"status\": \"verifier_failure\",\n  \"error\": \"FileNotFoundError: required output missing\"\n}"
+    },
+    {
+      "harness": "nop",
+      "attempt_id": "attempt_17fa0449d260418abcc304e489335b19",
+      "path": "test-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "execution_files": [
+    {
+      "harness": "oracle",
+      "attempt_id": "attempt_808b09e40e774719be06d60696bc1197",
+      "path": "execution/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content": ""
+    }
+  ],
+  "pipeline": {
+    "stage": "submit",
+    "status": "succeeded",
+    "log": "[batch-root]/deliverables/FIN-F01-001/attempt_9c29a8ad17a945c19836c1f45663f0a1/producer-output/forge-submit.log",
+    "pid": 61001,
+    "return_code": 0
+  },
+  "build_log_tail": "-43a2cefadfd8\n[2026-10-13T18:57:48.074185+00:00] [debug] Saved: 795e2bba-b711-4aeb-932d-48de8a778036\n[2026-10-13T18:57:48.147548+00:00] [debug] Adding layer to cache: 90568b55-26fb-4e75-8daa-436c98c908e4\n[2026-10-13T18:57:48.147893+00:00] [debug] Uploading layer: 90568b55-26fb-4e75-8daa-436c98c908e4\n[2026-10-13T18:57:48.167079+00:00] [info] [builder 8/10] COPY test.sh /tests/test.sh   [d4b61a00c61de29d24713d4557226f80d2f0ff907ed02915cfc595fbde7300e3]\n[2026-10-13T18:57:48.656079+00:00] [debug] Adding layer to cache: a4c59923-54da-45c9-946f-cd7f08aa44ae\n[2026-10-13T18:57:48.656175+00:00] [debug] Uploading layer: a4c59923-54da-45c9-946f-cd7f08aa44ae\n[2026-10-13T18:57:48.686171+00:00] [info] [builder 9/10] RUN chmod +x /tests/test.sh [6c41eee2a7f797d9dadeaec4c3604eaabfec232b316fa452f5818d73337d01f7]\n[2026-10-13T18:57:48.702945+00:00] [debug] Saved: 90568b55-26fb-4e75-8daa-436c98c908e4\n[2026-10-13T18:57:49.066145+00:00] [debug] Adding layer to cache: a45f76a0-d693-40d0-8d94-39047de31184\n[2026-10-13T18:57:49.066410+00:00] [debug] Uploading layer: a45f76a0-d693-40d0-8d94-39047de31184\n[2026-10-13T18:57:49.094460+00:00] [info] [builder 10/10] USER user [1523c3df050472ab8570ef7e8ee94e932eb899fd40105fcf8998f16adc597690]\n[2026-10-13T18:57:49.106519+00:00] [debug] Saved: a4c59923-54da-45c9-946f-cd7f08aa44ae\n[2026-10-13T18:57:49.455519+00:00] [debug] Adding layer to cache: 809f9102-791c-4ba1-86f3-4be8c6a372a3\n[2026-10-13T18:57:49.455655+00:00] [debug] Uploading layer: 809f9102-791c-4ba1-86f3-4be8c6a372a3\n[2026-10-13T18:57:49.464201+00:00] [info] [resize-disk] Resizing disk [9140fa2dda191e6dd7c4e2242cff3d187d65cc381f9d71a2947daa9cb69c73d2]\n[2026-10-13T18:57:49.512672+00:00] [debug] Saved: a45f76a0-d693-40d0-8d94-39047de31184\n[2026-10-13T18:57:49.880878+00:00] [debug] Saved: 809f9102-791c-4ba1-86f3-4be8c6a372a3\n[2026-10-13T18:57:49.888500+00:00] [info] resize-disk: free 9473 -> 10241 MiB\n[2026-10-13T18:57:49.889111+00:00] [debug] Adding layer to cache: 6f657ddb-1a07-48d7-b3bf-829ca933f130\n[2026-10-13T18:57:49.889206+00:00] [debug] Uploading layer: 6f657ddb-1a07-48d7-b3bf-829ca933f130\n[2026-10-13T18:57:49.889696+00:00] [info] [finalize] Finalizing template build [776d639001393821aa9856414fc0dfbdd390b6889b552a411e7e4dc97b8ae5f7]\n[2026-10-13T18:57:50.124765+00:00] [debug] Saved: 6f657ddb-1a07-48d7-b3bf-829ca933f130\n[2026-10-13T18:57:50.747079+00:00] [debug] [config] [stdout]: Starting configuration script\n[2026-10-13T18:57:50.749233+00:00] [debug] [config] [stdout]: Create default user 'user' (if doesn't exist yet)\n[2026-10-13T18:57:50.751382+00:00] [debug] [config] [stdout]: Copy skeleton files to /home/user (keeping existing files)\n[2026-10-13T18:57:50.755937+00:00] [debug] [config] [stdout]: skel: keeping existing .bashrc\n[2026-10-13T18:57:50.756633+00:00] [debug] [config] [stdout]: skel: keeping existing .profile\n[2026-10-13T18:57:50.757090+00:00] [debug] [config] [stdout]: skel: keeping existing .bash_logout\n[2026-10-13T18:57:50.757534+00:00] [debug] [config] [stdout]: Add sudo to 'user' with no password\n[2026-10-13T18:57:50.817165+00:00] [debug] [config] [stdout]: passwd: password changed.\n[2026-10-13T18:57:50.820763+00:00] [debug] [config] [stdout]: sudoers entry already present\n[2026-10-13T18:57:50.820783+00:00] [debug] [config] [stdout]: Give 'user' ownership to /home/user\n[2026-10-13T18:57:50.824912+00:00] [debug] [config] [stdout]: Give 777 permission to /usr/local\n[2026-10-13T18:57:50.871130+00:00] [debug] [config] [stdout]: Create /code directory\n[2026-10-13T18:57:50.872471+00:00] [debug] [config] [stdout]: Give 777 permission to /code\n[2026-10-13T18:57:50.873860+00:00] [debug] [config] [stdout]: Finished configuration script\n[2026-10-13T18:57:51.085270+00:00] [debug] [certs] [stdout]: Updating certificates in /etc/ssl/certs...\n[2026-10-13T18:57:52.070054+00:00] [debug] [certs] [stderr]: rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL\n[2026-10-13T18:57:52.078830+00:00] [debug] [certs] [stdout]: 150 added, 0 removed; done.\n[2026-10-13T18:57:52.079072+00:00] [debug] [certs] [stdout]: Running hooks in /etc/ca-certificates/update.d...\n[2026-10-13T18:57:52.081317+00:00] [debug] [certs] [stdout]: done.\n[2026-10-13T18:57:52.653197+00:00] [debug] Adding layer to cache: 8c8dc037-aaf5-468e-8088-a9de522869ea\n[2026-10-13T18:57:52.653365+00:00] [debug] Uploading layer: 8c8dc037-aaf5-468e-8088-a9de522869ea\n[2026-10-13T18:57:52.654043+00:00] [info] [optimize] Optimizing template [bdc3ae566fb8a414f66d661d376328470b0c20ed6bc3cddcec43e4ca8371c18b]\n[2026-10-13T18:57:53.379474+00:00] [debug] Saved: 8c8dc037-aaf5-468e-8088-a9de522869ea\n[2026-10-13T18:57:53.497833+00:00] [info] Build finished, took 43s\n[2026-10-14T02:57:54.493662] [debug] Build finished\n{\"role\": \"verifier\", \"build\": {\"template_id\": \"3ub64ldeikrxto89sk0o\", \"build_id\": \"8c8dc037-aaf5-468e-8088-a9de522869ea\", \"name\": \"cale-fin-f01-001-verifier-36a65680\", \"alias\": \"cale-fin-f01-001-verifier-36a65680\", \"tags\": [\"default\"]}}\n",
+  "candidate_validation_record_present": false,
+  "candidate_private_files": [
+    "private/evaluation/reference-run/report.json",
+    "private/provenance.json"
+  ]
+}

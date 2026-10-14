@@ -1,0 +1,36 @@
+{
+  "scale": 25,
+  "assertions": [
+    {"id":"scope.next_month_august","kind":"outcome","unit":"排查对象为2026年8月到期或回售且存续的债券","criterion":"scope"},
+    {"id":"scope.single_bond","kind":"outcome","unit":"排查范围中仅包含21申宏06","criterion":"scope"},
+    {"id":"bond.code","kind":"outcome","unit":"证券代码149579.SZ","criterion":"bond_facts"},
+    {"id":"bond.short_name","kind":"outcome","unit":"证券简称21申宏06","criterion":"bond_facts"},
+    {"id":"bond.issuer","kind":"outcome","unit":"发行人申万宏源集团股份有限公司","criterion":"bond_facts"},
+    {"id":"bond.balance","kind":"outcome","unit":"债券余额25.00亿元","criterion":"bond_facts"},
+    {"id":"bond.maturity","kind":"outcome","unit":"合同到期日2026-08-04","criterion":"dates"},
+    {"id":"bond.payment_node","kind":"outcome","unit":"实际付款节点2026-08-04并与合同日区分登记","criterion":"dates"},
+    {"id":"bond.rate","kind":"outcome","unit":"票面利率3.38%","criterion":"amounts"},
+    {"id":"amount.interest","kind":"outcome","unit":"年利息计算结果0.845亿元并按要求显示0.85亿元","criterion":"amounts"},
+    {"id":"amount.total","kind":"outcome","unit":"本金利息合计25.85亿元","criterion":"amounts"},
+    {"id":"amount.formula","kind":"evidence","unit":"工作簿保留本金乘票面利率及合计公式","criterion":"amounts"},
+    {"id":"funding.no_proof","kind":"outcome","unit":"未将一般财务能力当作专项到账证明","criterion":"funding"},
+    {"id":"funding.confirmed_zero","kind":"outcome","unit":"有证明且可用资金为0.00亿元","criterion":"funding"},
+    {"id":"funding.unconfirmed","kind":"outcome","unit":"待确认计划性来源25.85亿元单列且不计入已落实","criterion":"funding"},
+    {"id":"funding.gap","kind":"outcome","unit":"可核实资金缺口25.85亿元","criterion":"funding"},
+    {"id":"funding.dedup","kind":"outcome","unit":"资金来源唯一对应并记录去重核对","criterion":"funding"},
+    {"id":"evidence.trustee_page","kind":"evidence","unit":"逐券事实引用受托报告第8页","criterion":"evidence"},
+    {"id":"evidence.notice_rule","kind":"evidence","unit":"引用新疆通知二（三）及二（四）","criterion":"evidence"},
+    {"id":"evidence.annual_cash_limit","kind":"evidence","unit":"期末现金作为背景且明确不等于专项资金","criterion":"evidence"},
+    {"id":"risk.financial","kind":"outcome","unit":"财务背景含期末现金和应付债券结构且口径清晰","criterion":"risk"},
+    {"id":"risk.credit","kind":"outcome","unit":"重大事项或违约观察结论有受托报告依据","criterion":"risk"},
+    {"id":"risk.enhancement","kind":"outcome","unit":"无担保增信及AAA稳定展望局限被说明","criterion":"risk"},
+    {"id":"actions.priority","kind":"outcome","unit":"跟进补证电话报告和2个工作日报送措施分优先级","criterion":"actions"},
+    {"id":"artifact.editable","kind":"outcome","unit":"Excel可编辑且含附件5字段、证据表和可筛选结构","criterion":"artifact"}
+  ],
+  "critical_errors": [
+    {"id":"CE.scope","assertion":"scope.next_month_august","cap":0.5},
+    {"id":"CE.period","assertion":"bond.maturity","cap":0.5},
+    {"id":"CE.amount","assertion":"amount.total","cap":0.5},
+    {"id":"CE.funding","assertion":"funding.no_proof","cap":0.6}
+  ]
+}

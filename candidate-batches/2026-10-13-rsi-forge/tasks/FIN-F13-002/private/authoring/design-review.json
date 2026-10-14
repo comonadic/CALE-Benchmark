@@ -1,0 +1,15 @@
+{
+  "selected_design": "public disclosure reconciliation with missing-evidence assessment",
+  "reason": "Task card requests a trade-level hedge ledger, but the supplied manifest explicitly marks per-transaction spot records missing and derivative settlement records partial. Shrink to source-supported disclosure reconciliation and make the evidence gap part of the business deliverable.",
+  "quality_checks": {
+    "function_necessity": "four source originals respectively establish policy, 2025 approved limits, actual effective approval date, and 2026H1 results",
+    "set_self_consistency": "historical 2026H1 view uses the 2025 authorization; 2026 August authorization is explicitly later",
+    "professional_shape": "editable reconciliation workbook and concise review memo",
+    "no_synthetic_inputs": true
+  },
+  "validation_feedback_addressed": [
+    "Removed fabricated spot/futures XLSX inputs",
+    "Removed tests/Dockerfile COPY input-data path that did not exist",
+    "Replaced unconditional and keyword-only checks with source-derived numeric and evidence checks"
+  ]
+}

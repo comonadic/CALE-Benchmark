@@ -1,0 +1,107 @@
+{
+  "card": "LAW-L03-001",
+  "candidate_file_sha256": {
+    "environment/Dockerfile": "7d403b8979f859a28a39308ddbbfb3f486c6081f8945feaed4223ec41063ce55",
+    "environment/input-data/CN-1225327554.pdf": "968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892",
+    "environment/input-data/CN-1225327559.pdf": "31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f",
+    "environment/input-data/CN-1225327560.pdf": "ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df",
+    "environment/input-data/CN-1225449371.pdf": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+    "environment/input-data/CN-1225449382.pdf": "a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438",
+    "environment/input-data/CN-1225449388.pdf": "e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98",
+    "environment/input-data/CN-1225449390.pdf": "c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1",
+    "instruction.md": "09443715dc70e8ff08a60c561fddf7e0f6e03965996bc3f542df3dca7bed11ae",
+    "lineage.json": "edaa2d3017a26a4d70c7216c286373ee226fc80a0d12b0e80dfb456fc4de6816",
+    "private/authoring/design-notes.md": "72d69a898b08995742fe45d0e8b64193a43bfd53514786bfa80df530cc026078",
+    "private/evaluation/validation.json": "1513cdb6248f43517ba313f22e3c0ae59b53ed31270a4095c9d28d35e78a8359",
+    "private/provenance.json": "dcb325cf4e8f27e6b46e7373f42d24028d76f529b4f5fdfde396b08349f6d20e",
+    "solution/__pycache__/build_reference.cpython-312.pyc": "0e36f2a88842be5fbef02127dfccf70473efc31fd266dd782af669190b4d1c72",
+    "solution/build_reference.py": "63474cb2ea4b6fd2acf66e7e1e3c2022a5cbae1f1704cd6bc680df2440b615e7",
+    "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+    "task.toml": "0b6346a6dd52520cbda077302599904f06ba155f883cf8ea49f17a50dd5e3f86",
+    "tests/Dockerfile": "8a7e9c9842cb81f25590f13dccfd2d7c7ff086e0cd842d0c70357345d431351a",
+    "tests/__pycache__/grade.cpython-312.pyc": "ead41d045cadf0dc98b445a0c8cc3d68ac1b5e989a7431ea57b06d5b1e6a49cd",
+    "tests/assertions.json": "d45ce031e1a5d47f2662dd6643d4e88415a96da06686a35ae32dd525a76d4439",
+    "tests/grade.py": "ed4d133daa92556699302a7fc2434079d50943ba3d912226c7e13033ae72ec75",
+    "tests/rubric.json": "56b0497d3d7cd15249479c367a4085dc4fcdcbd0bffe95cf8b0992cd4759b52f",
+    "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9"
+  },
+  "static_validation": {
+    "package": "[batch-root]/deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001",
+    "producer_attempt": "attempt_ad2ca7c259cf475fa8579f558f47266c",
+    "static_validator_exit": 0,
+    "stdout": "{\n  \"results\": [\n    {\n      \"task\": \"LAW-L03-001\",\n      \"path\": \"[batch-root]/deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001\",\n      \"static_preflight\": \"passed\",\n      \"harbor_schema\": \"passed\",\n      \"errors\": [],\n      \"warnings\": [],\n      \"entrypoint_sha256\": {\n        \"instruction.md\": \"09443715dc70e8ff08a60c561fddf7e0f6e03965996bc3f542df3dca7bed11ae\",\n        \"task.toml\": \"0b6346a6dd52520cbda077302599904f06ba155f883cf8ea49f17a50dd5e3f86\",\n        \"environment/Dockerfile\": \"7d403b8979f859a28a39308ddbbfb3f486c6081f8945feaed4223ec41063ce55\",\n        \"solution/solve.sh\": \"ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9\",\n        \"solution/build_reference.py\": \"63474cb2ea4b6fd2acf66e7e1e3c2022a5cbae1f1704cd6bc680df2440b615e7\",\n        \"tests/test.sh\": \"c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9\",\n        \"tests/assertions.json\": \"d45ce031e1a5d47f2662dd6643d4e88415a96da06686a35ae32dd525a76d4439\",\n        \"tests/grade.py\": \"ed4d133daa92556699302a7fc2434079d50943ba3d912226c7e13033ae72ec75\"\n      },\n      \"assertion_count\": 25,\n      \"criteria_covered\": [\n        \"PDF\",\n        \"R1\",\n        \"R10\",\n        \"R11\",\n        \"R12\",\n        \"R13\",\n        \"R14\",\n        \"R15\",\n        \"R16\",\n        \"R17\",\n        \"R18\",\n        \"R19\",\n        \"R2\",\n        \"R20\",\n        \"R21\",\n        \"R22\",\n        \"R23\",\n        \"R24\",\n        \"R3\",\n        \"R4\",\n        \"R5\",\n        \"R6\",\n        \"R7\",\n        \"R8\",\n        \"R9\"\n      ],\n      \"runtime_validation\": \"not_run\",\n      \"professional_quality\": \"not_evaluated\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "file_sha256": {
+      "environment/Dockerfile": "7d403b8979f859a28a39308ddbbfb3f486c6081f8945feaed4223ec41063ce55",
+      "environment/input-data/CN-1225327554.pdf": "968d4ed9fb5f5c83798d582a85cb5503d91b22f639f77d5288254c6bb377a892",
+      "environment/input-data/CN-1225327559.pdf": "31ac2e38e1f552957e388fa49456358c89c2ffc81b76b6c048c9bbb22c12910f",
+      "environment/input-data/CN-1225327560.pdf": "ce7406b0c27311d92fd20f1d1f996b6f3bfd0ad6289b2f2ffd8244422c2136df",
+      "environment/input-data/CN-1225449371.pdf": "fd52e441de016e95a457cb35e23d89eb9df727fd87c98724dd999b064c7e7e32",
+      "environment/input-data/CN-1225449382.pdf": "a8926f7b571ad70fb8c69050551bdf20cac22101f12b803e4fc70e8b4181c438",
+      "environment/input-data/CN-1225449388.pdf": "e6bfb52b46568f3cb2aa339f591e153e3a6a06134c4c198708af0e17b1232e98",
+      "environment/input-data/CN-1225449390.pdf": "c1c3cd7f12c31688b9ea57f82b736b81dc370ea1b481e3b4879e524145501af1",
+      "instruction.md": "09443715dc70e8ff08a60c561fddf7e0f6e03965996bc3f542df3dca7bed11ae",
+      "lineage.json": "edaa2d3017a26a4d70c7216c286373ee226fc80a0d12b0e80dfb456fc4de6816",
+      "private/authoring/design-notes.md": "72d69a898b08995742fe45d0e8b64193a43bfd53514786bfa80df530cc026078",
+      "private/evaluation/validation.json": "1513cdb6248f43517ba313f22e3c0ae59b53ed31270a4095c9d28d35e78a8359",
+      "private/provenance.json": "dcb325cf4e8f27e6b46e7373f42d24028d76f529b4f5fdfde396b08349f6d20e",
+      "solution/__pycache__/build_reference.cpython-312.pyc": "0e36f2a88842be5fbef02127dfccf70473efc31fd266dd782af669190b4d1c72",
+      "solution/build_reference.py": "63474cb2ea4b6fd2acf66e7e1e3c2022a5cbae1f1704cd6bc680df2440b615e7",
+      "solution/solve.sh": "ab9d514c8ff7f81769b9455410a4c3db9981c16c01ff36ea3d4700d6842c78d9",
+      "task.toml": "0b6346a6dd52520cbda077302599904f06ba155f883cf8ea49f17a50dd5e3f86",
+      "tests/Dockerfile": "8a7e9c9842cb81f25590f13dccfd2d7c7ff086e0cd842d0c70357345d431351a",
+      "tests/__pycache__/grade.cpython-312.pyc": "ead41d045cadf0dc98b445a0c8cc3d68ac1b5e989a7431ea57b06d5b1e6a49cd",
+      "tests/assertions.json": "d45ce031e1a5d47f2662dd6643d4e88415a96da06686a35ae32dd525a76d4439",
+      "tests/grade.py": "ed4d133daa92556699302a7fc2434079d50943ba3d912226c7e13033ae72ec75",
+      "tests/rubric.json": "56b0497d3d7cd15249479c367a4085dc4fcdcbd0bffe95cf8b0992cd4759b52f",
+      "tests/test.sh": "c51586153feda49ea1e66306d67ebba0cf23ec09b86e64fb3df483f12237f8e9"
+    }
+  },
+  "native_execution": {
+    "status": "not_run",
+    "trials": []
+  },
+  "verifier_files": [],
+  "execution_files": [],
+  "pipeline": {
+    "stage": "build",
+    "status": "failed",
+    "log": "[batch-root]/deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/forge-build.log",
+    "pid": 59931,
+    "return_code": 1
+  },
+  "build_log_tail": "] Saved: 8bc53919-3313-411f-bd6f-73c2a3326019\n[2026-10-13T18:22:53.507870+00:00] [debug] Saved: ad84836b-ddea-4143-a472-97054927b8cd\n[2026-10-13T18:22:53.602396+00:00] [debug] Saved: 77261c73-20a6-4591-a38f-59302ffc5fd4\n[2026-10-13T18:22:53.972140+00:00] [debug] [config] [stdout]: Starting configuration script\n[2026-10-13T18:22:53.974632+00:00] [debug] [config] [stdout]: Create default user 'user' (if doesn't exist yet)\n[2026-10-13T18:22:53.976346+00:00] [debug] [config] [stdout]: Copy skeleton files to /home/user (keeping existing files)\n[2026-10-13T18:22:53.980424+00:00] [debug] [config] [stdout]: skel: keeping existing .bashrc\n[2026-10-13T18:22:53.980785+00:00] [debug] [config] [stdout]: skel: keeping existing .profile\n[2026-10-13T18:22:53.980908+00:00] [debug] [config] [stdout]: skel: keeping existing .bash_logout\n[2026-10-13T18:22:53.981079+00:00] [debug] [config] [stdout]: Add sudo to 'user' with no password\n[2026-10-13T18:22:54.042716+00:00] [debug] [config] [stdout]: passwd: password changed.\n[2026-10-13T18:22:54.047936+00:00] [debug] [config] [stdout]: sudoers entry already present\n[2026-10-13T18:22:54.047963+00:00] [debug] [config] [stdout]: Give 'user' ownership to /home/user\n[2026-10-13T18:22:54.053058+00:00] [debug] [config] [stdout]: Give 777 permission to /usr/local\n[2026-10-13T18:22:54.115202+00:00] [debug] [config] [stdout]: Create /code directory\n[2026-10-13T18:22:54.116683+00:00] [debug] [config] [stdout]: Give 777 permission to /code\n[2026-10-13T18:22:54.117945+00:00] [debug] [config] [stdout]: Finished configuration script\n[2026-10-13T18:22:54.379059+00:00] [debug] [certs] [stdout]: Updating certificates in /etc/ssl/certs...\n[2026-10-13T18:22:55.367091+00:00] [debug] [certs] [stderr]: rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL\n[2026-10-13T18:22:55.376205+00:00] [debug] [certs] [stdout]: 150 added, 0 removed; done.\n[2026-10-13T18:22:55.376400+00:00] [debug] [certs] [stdout]: Running hooks in /etc/ca-certificates/update.d...\n[2026-10-13T18:22:55.378778+00:00] [debug] [certs] [stdout]: done.\n[2026-10-13T18:22:55.980700+00:00] [debug] Adding layer to cache: d70e38cd-4945-47f7-b62b-0da85afa6de3\n[2026-10-13T18:22:55.980815+00:00] [debug] Uploading layer: d70e38cd-4945-47f7-b62b-0da85afa6de3\n[2026-10-13T18:22:55.981207+00:00] [info] [optimize] Optimizing template [3cdd7917ec3eb8131369c517d30d401145eacca71dde6169beeb9b93d2f6ce32]\n[2026-10-13T18:22:56.694318+00:00] [debug] Saved: d70e38cd-4945-47f7-b62b-0da85afa6de3\n[2026-10-13T18:22:56.815562+00:00] [info] Build finished, took 53s\n[2026-10-14T02:22:57.856483] [debug] Build finished\n{\"role\": \"agent\", \"build\": {\"template_id\": \"jzra3blzssxvrdxfm552\", \"build_id\": \"d70e38cd-4945-47f7-b62b-0da85afa6de3\", \"name\": \"cale-law-l03-001-agent-1e909219\", \"alias\": \"cale-law-l03-001-agent-1e909219\", \"tags\": [\"default\"]}}\n[2026-10-14T02:22:57.865651] [debug] Build started\n[2026-10-14T02:22:57.865868] [info] Requesting build for template: cale-law-l03-001-verifier-c5f7617d\n[2026-10-14T02:22:58.189683] [info] Template created with ID: 6f50juagnai94dxibl93, Build ID: c913af92-35f1-44bd-90e7-455e57bffa51\n[2026-10-14T02:22:58.192047] [debug] Build finished\nTraceback (most recent call last):\n  File \"[batch-root]/control/build_native_templates.py\", line 38, in <module>\n    built=Template.build(Template(file_context_path=context).from_dockerfile(str(recipe)),\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template_sync/main.py\", line 250, in build\n    data = Template._build(\n           ^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template_sync/main.py\", line 93, in _build\n    instructions_with_hashes = template._template._instructions_with_hashes()\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template/main.py\", line 1300, in _instructions_with_hashes\n    step[\"filesHash\"] = calculate_files_hash(\n                        ^^^^^^^^^^^^^^^^^^^^^\n  File \"[forge-installation]/.venv/lib/python3.12/site-packages/e2b/template/utils.py\", line 220, in calculate_files_hash\n    raise ValueError(f\"No files found in {src_path}\").with_traceback(stack_trace)\n  File \"[batch-root]/control/build_native_templates.py\", line 38, in <module>\n    built=Template.build(Template(file_context_path=context).from_dockerfile(str(recipe)),\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: No files found in [batch-root]/deliverables/LAW-L03-001/attempt_ad2ca7c259cf475fa8579f558f47266c/producer-output/LAW-L03-001/tests/environment/input-data/\n",
+  "candidate_validation_record_present": true,
+  "candidate_private_files": [
+    "private/authoring/design-notes.md",
+    "private/evaluation/validation.json",
+    "private/provenance.json"
+  ],
+  "candidate_validation_record": {
+    "task_id": "LAW-L03-001",
+    "validation_date": "2026-10-13",
+    "layers": {
+      "static_preflight": {
+        "status": "not_run",
+        "command": "python /workspace/skills/legal-task-authoring/scripts/validate_task_package.py /workspace/output/LAW-L03-001 --require-harbor"
+      },
+      "harbor_execution": {
+        "status": "not_run",
+        "note": "Run reference solution and test.sh in declared Docker images."
+      },
+      "grading_calibration": {
+        "status": "not_run",
+        "note": "Need empty-output baseline, malformed workbook/PDF checks and constructed wrong-period/disclosure-as-finding variants."
+      },
+      "independent_solver_rollout": {
+        "status": "not_run",
+        "note": "Not run; reference output is not independent solver evidence."
+      }
+    },
+    "known_limits": [
+      "Harbor CLI/runtime availability is not inferred from static schema parsing.",
+      "Two legal opinion PDFs are scanned; reference output records the scan limitation and does not assert unverified detailed holdings.",
+      "Open-ended professional quality remains outside the 24 mechanical assertions and needs independent review before benchmark release."
+    ]
+  }
+}
